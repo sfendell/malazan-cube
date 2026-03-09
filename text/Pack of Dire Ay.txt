@@ -3,4 +3,4 @@ Cost: 1BG
 Type: Creature - Elder Zombie Wolf
 P/T: 3/3
 
-Whenever a land you control dies, return this card from your graveyard to the battlefield tapped under your control.
+Whenever a land you control enters the graveyard from the battlefield, return this from your graveyard to the battlefield tapped under your control.

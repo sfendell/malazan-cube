@@ -2,4 +2,4 @@ Biotinker
 Cost: G/U
 Type: Kindred Instant - Alien Dinosaur
 
-Put a subtype counter of your choice on target creature. You draw a card.
+Put a subtype counter of your choice on target creature. Draw a card.

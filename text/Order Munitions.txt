@@ -2,4 +2,4 @@ Order Munitions
 Cost: RG
 Type: Kindred Instant - Malazan
 
-You gain 2 life. Put a +1/+1 counter on target creature. Cook a Cusser token.
+Gain 2 life. Put a +1/+1 counter on target creature. Create a Cusser token.

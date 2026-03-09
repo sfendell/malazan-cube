@@ -3,4 +3,4 @@ Cost: 2W
 Type: Legendary Creature - Elder Pure
 P/T: 2/2
 
-Outlast W 3WW, Remove all counters from this: T: Exile target non-Pure creature with power or toughness less than the number of counters removed. If that creature is a Child, draw a card.
+Outlast W 3WW, Remove all counters from this, T: Exile target non-Pure creature with power or toughness less than the number of counters removed. If it is a Child, draw a card.

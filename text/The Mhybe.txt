@@ -3,4 +3,4 @@ Cost: WW
 Type: Legendary Creature - Human
 P/T: 1/3
 
-At the beginning of your end step, you may put a -1/-1 counter on this creature. If you do, put two +1/+1 counters on target creature you control.
+At the end of your turn, you may put a -1/-1 counter on this creature. If you do, put two +1/+1 counters on target creature you control.

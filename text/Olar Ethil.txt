@@ -3,4 +3,4 @@ Cost: 2BRG
 Type: Legendary Creature - Elder Zombie God
 P/T: 6/6
 
-All Gods are named Olar Ethil in addition to their other names. Other Elder Zombies you control get +1/+1 and have deathtouch. This has the abilities of all Elders, Gods, and Warrens in all graveyards.
+All Gods are named Olar Ethil in addition to their other names. Other Elder Zombies you control get +1/+1 and deathtouch. This has the abilities of all Elders, Gods, and Warrens in all graveyards.

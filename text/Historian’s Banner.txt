@@ -2,4 +2,4 @@ Historian’s Banner
 Cost: 2
 Type: Kindred Artifact - Advisor
 
-This enters the battlefield tapped unless you scried this turn. T: Add U, G, or W. GWU, T, Sacrifice Historianâs Banner: Draw a card.
+This enters the battlefield tapped unless you scried this turn. T: Add U, G, or W. GWU, T, Sacrifice Historian’s Banner: Draw a card.

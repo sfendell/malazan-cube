@@ -2,4 +2,4 @@ Dream of the Eres’al
 Cost: GG
 Type: Sorcery
 
-Scry 2, then reveal the top card of your library. If itâs a land, put it onto the battlefield. If itâs an Elder, draw three cards. If itâs neither, draw a card. (Elder lands do both.)
+Scry 2, then reveal the top card of your library. If it’s a land, put it onto the battlefield. If it’s an Elder, draw three cards. If it’s neither, draw a card. (Elder lands do both.)

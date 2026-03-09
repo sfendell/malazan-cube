@@ -2,4 +2,4 @@ Reforge the Warrens
 Cost: 4RR
 Type: Sorcery
 
-Each player sacrifices all Warrens and nonland permanents they control, then reveals cards from the top of their library until they reveal that many Warrens or nonland permanents and puts those cards onto the battlefield. Then each player shuffles their library.
+Each player sacrifices all Warrens and non-land permanents they control, then reveals cards from the top of their library until that many Warrens or non-land permanents are revealed and puts them onto the battlefield. Then each player shuffles their deck.

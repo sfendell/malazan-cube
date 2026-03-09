@@ -3,5 +3,4 @@ Cost: 3RW
 Type: Legendary Creature - Human
 P/T: 6/3
 
-Haste, first strike
-Whenever you attack for the second time in a turn, this creature ascends.
+Haste, First strike Whenever you attack for the second time in a turn, this creature ascends.

@@ -2,5 +2,4 @@ Enslave
 Cost: 1UB
 Type: Enchantment - Aura
 
-Enchant creature
-Enchanted creature gets -6/-0. You control enchanted creature.
+Enchant creature Enchanted creature gets -6/-0. You control enchanted creature.

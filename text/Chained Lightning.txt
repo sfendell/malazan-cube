@@ -2,4 +2,4 @@ Chained Lightning
 Cost: R
 Type: Instant
 
-When you cast this spell, copy it for each permanent not controlled by its owner. You may choose new targets for the copies. Deal 2 damage to any target. Scry 1.
+When you cast this, copy this spell for each permanent not controlled by its owner. You may choose new targets for these copies. Deal 2 damage to any target. Scry 1.

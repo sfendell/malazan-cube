@@ -3,4 +3,4 @@ Cost: 1G
 Type: Creature - Elder Zombie Warrior
 P/T: 0/1
 
-This gets +X/+X, where X is the number of lands in your graveyard. G, Exile a land from your graveyard: Regenerate this creature.
+This gets +X/+X, where X is the number of lands in your graveyard. G, Exile a land from your graveyard: Regenerate this.

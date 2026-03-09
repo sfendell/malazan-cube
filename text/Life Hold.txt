@@ -1,4 +1,4 @@
 Life Hold
 Type: Kindred Land - Elder Warren
 
-This enters the battlefield tapped unless you gained life this turn. T: Add W, U, or G. GWU, T, Sacrifice this: Scry X, where X is the amount of life youâve gained this turn. Then reveal the top card of your library. If itâs a land card, put it onto the battlefield.
+This enters the battlefield tapped unless you gained life this turn. T: Add W, U, or G. GWU, T, Sacrifice this: Scry X, where X is the amount of life you’ve gained this turn. Then reveal the top card of your library. If it’s a land, put it onto the battlefield.

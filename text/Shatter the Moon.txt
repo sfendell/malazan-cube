@@ -2,4 +2,4 @@ Shatter the Moon
 Cost: 4WB
 Type: Sorcery
 
-Destroy all non-Alien, nonland permanents.
+Destroy all non-Alien, non-land permanents.

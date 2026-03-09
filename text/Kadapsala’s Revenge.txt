@@ -2,4 +2,4 @@ Kadapsala’s Revenge
 Cost: 8UUU
 Type: Sorcery
 
-Improvise, Behold an Elder Elf. Sacrifice all artifacts you control. Cook an X/X Child God artifact creature token, where X is the number of permanents sacrificed this way. If you beheld an Elder Elf, it gains indestructible.
+Improvise, Behold an Elder Elf Sacrifice all artifacts you control. Create an X/X Child God artifact creature token, where X is the number of permanents sacrificed this way. If you beheld and elder elf, it gains indestructible.

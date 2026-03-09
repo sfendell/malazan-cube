@@ -2,5 +2,4 @@ Legion of Trake
 Type: Creature - Human Army
 P/T: 6/6
 
-First strike, haste
-Whenever this attacks, you may exert it. If you do, take an additional combat phase this turn. Activate this ability only once each turn. (An exerted creature wonât untap during your next untap step.)
+First strike, Haste Whenever this attacks, you may exert it. If you do, take another combat this turn. Activate this only once a turn. (An exerted creature won’t untap during your next untap step.)

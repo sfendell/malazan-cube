@@ -3,5 +3,4 @@ Cost: RW
 Type: Legendary Creature - Malazan Soldier
 P/T: 2/2
 
-Haste
-Whenever this attacks, put a name counter of your choice on another target creature. (A âMaxâ name counter gives a creature the name âMax.â) Creatures get +1/+0 and have Enlist for each name counter they have.
+Haste Whenever this attacks, place a name counter of your choice on another target creature. (A “Max” name counter gives a creature the name “Max”). Creatures get +1/+0 and Enlist for each name they have.

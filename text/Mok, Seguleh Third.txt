@@ -3,4 +3,4 @@ Cost: 1B
 Type: Legendary Creature - Human Warrior
 P/T: 4/4
 
-You may have creatures you control enter the battlefield tapped. Whenever another creature enters the battlefield untapped, Mok fights that creature.
+You may have creatures you control enter the battlefield tapped. Whenever another creature enters the battlefield untapped, Mok fights it.

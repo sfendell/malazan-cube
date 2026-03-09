@@ -3,4 +3,4 @@ Cost: 1R
 Type: Legendary Creature - Malazan Sapper
 P/T: 3/1
 
-When this enters the battlefield, cook a Cusser. Afterlife 1.
+When this enters the battlefield, create a Cusser. Afterlife 1

@@ -2,4 +2,4 @@ Munitions Stockpile
 Cost: 2
 Type: Kindred Artifact
 
-If an effect would create one or more Cusser tokens under your control, it creates twice that many tokens instead. 7R, T: Cook a Cusser.
+If an effect would create one or more Cusser tokens under your control, it creates twice as many tokens instead. 7R, T: Create a Cusser.

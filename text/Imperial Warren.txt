@@ -1,4 +1,4 @@
 Imperial Warren
 Type: Kindred Land - Malazan Warren
 
-This enters the battlefield tapped unless you control an artifact. Whenever you bleed, cook a Cusser token. T: Add R or W.
+This enters the battlefield tapped unless you control an artifact token. Whenever you bleed, create a Cusser token. T: Add R or W.

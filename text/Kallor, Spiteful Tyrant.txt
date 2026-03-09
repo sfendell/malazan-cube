@@ -3,4 +3,4 @@ Cost: 3BB
 Type: Legendary Creature - Human Noble
 P/T: 3/4
 
-Undying â Whenever you sacrifice your fourth permanent this turn, tutor a card to your hand. 1, Sacrifice another creature: Remove all counters from Kallor.
+Undying Whenever you sacrifice your fourth permanent in a turn, tutor a card to your hand. 1, Sacrifice another creature: Remove all counters from Kallor.

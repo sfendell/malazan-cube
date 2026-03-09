@@ -3,4 +3,4 @@ Cost: BR
 Type: Legendary Creature - Elder God Warlock
 P/T: 2/2
 
-BR, Sacrifice another creature: Destroy target land or put a +1/+1 counter on this creature. 4UB: Gain control of target creature with power less than or equal to this creature's power.
+BR, Sacrifice another creature: Destroy target land, or put a +1/+1 counter on this creature. 4UB: Gain control of target creature with power less than or equal to this.

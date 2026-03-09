@@ -2,4 +2,4 @@ Silgar’s Punishment
 Cost: 1H/BH/B
 Type: Instant
 
-Target creature gets -5/-4 until end of turn. When that creature dies this turn, cook a 0/1 black Malazan Coward creature token.
+Target creature gets -5/-4 until end of turn. When it dies this turn, create a 0/1 black Malazan Coward creature token.

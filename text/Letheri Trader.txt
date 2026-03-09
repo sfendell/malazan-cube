@@ -3,4 +3,4 @@ Cost: WB
 Type: Creature - Human Merchant
 P/T: 1/1
 
-Whenever a creature enters the battlefield under your control, plunder. T, Sacrifice five treasures: Return target permanent card from your graveyard to your hand.
+Whenever a creature enters the battlefield under your control, plunder. T, Sacrifice five treasures: Return target permanent from your graveyard to your hand.

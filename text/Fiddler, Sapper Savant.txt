@@ -3,4 +3,4 @@ Cost: 2R
 Type: Legendary Creature - Malazan Sapper
 P/T: 2/2
 
-If an artifact or Sapper you control would deal damage to a player, it deals that much damage plus two instead. 2R, T, Sacrifice a non-token permanent: Cook a Cusser.
+If an artifact or Sapper you control would deal damage to a player, it deals that much damage plus two instead. 2R, T, Sacrifice a non-token permanent: Create a Cusser.

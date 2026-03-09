@@ -3,4 +3,4 @@ Cost: G
 Type: Legendary Creature - Alien Dinosaur
 P/T: 1/1
 
-When this enters the battlefield, put a trample or reach counter on another target creature you control. T: Add U or G. Put a subtype counter of your choice on target creature.
+When this enters, place a trample or reach counter on another target creature you control. T: Add U or G. Put a subtype counter of your choice on target creature.

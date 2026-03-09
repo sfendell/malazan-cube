@@ -1,3 +1,3 @@
 Rules
 
-Impulse X: Exile the top X cards of your library. You may play those cards until end of turn. At the beginning of the end step, put those cards into your graveyard.
+Impulse X: Exile top X cards of your library. You may play them until end of turn. Move them to gy at end of turn.

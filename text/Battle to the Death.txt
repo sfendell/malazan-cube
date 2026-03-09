@@ -2,4 +2,4 @@ Battle to the Death
 Cost: RG
 Type: Instant
 
-Target creature you control fights another target creature. If it wins the fight, all creatures you control gain haste and +1/+1 until end of turn.
+Target creature you control fights another target creature. When it wins the fight, all creatures you control gain haste and +1/+1 until end of turn.

@@ -3,4 +3,4 @@ Cost: 2G
 Type: Creature - Alien Dinosaur
 P/T: 0/1
 
-Evolve When this creature dies, cook X 1/1 Alien Dinosaur tokens, where X is the number of counters on this creature.
+Evolve When this dies, make X 1/1 Alien Dinosaur tokens, where X is the number of counters on this creature.

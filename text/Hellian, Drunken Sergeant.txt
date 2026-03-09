@@ -3,4 +3,4 @@ Cost: RR
 Type: Legendary Creature - Malazan Soldier
 P/T: 2/2
 
-Play with the top card of your library revealed during each opponent's turn. Whenever you attack, reveal the bottom card of your library. If it's a creature card, target creature you control fights target creature you don't control. If it's a land card, you cook. If it's an artifact card, put it into your hand. If it's an instant or sorcery card, this card deals 2 damage to any target. Then shuffle your library. Sacrifice an artifact: Put the top card of your library on the bottom of your library.
+Play with the top card of your library revealed during each opponent’s turn. Whenever you attack, reveal the bottom card of your library. If it’s a creature card, target creature you control fights target creature you don’t control. If it’s a land card, plunder. If it’s an artifact card, put it into your hand. If it’s an instant or sorcery card, this card deals 2 damage to any target. Then shuffle your library. Sacrifice an artifact: Put the top card of your library on the bottom of your library.

@@ -3,6 +3,4 @@ Cost: 1WU
 Type: Creature - Elder Pure
 P/T: 2/2
 
-Flash, Vigilance
-When this enters the battlefield, counter target non-Pure spell.
-7B, T, Sacrifice this: Destroy target non-Pure creature.
+Flash, Vigilance When this enters the battlefield, counter target non-Pure spell. 7B, T, Sacrifice this: Destroy target non-Pure creature.

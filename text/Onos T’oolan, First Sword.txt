@@ -3,4 +3,4 @@ Cost: BRG
 Type: Legendary Creature - Elder Zombie Warrior
 P/T: 3/3
 
-Whenever you sacrifice a land, draw a card. R: This gains first strike until end of turn. 1G: Regenerate this. 2B: This gains deathtouch until end of turn.
+Whenever you sacrifice a land, draw a card. R: This gets first strike until end of turn. 1G: Regenerate this. 2B: This gets deathtouch until end of turn.

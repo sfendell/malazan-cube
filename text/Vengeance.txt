@@ -2,4 +2,4 @@ Vengeance
 Cost: 3
 Type: Legendary Kindred Artifact - Elder Elf Equipment
 
-Equipped creature gets +3/+3. Sacrifice equipped creature: Transform this. Activate this ability only if equipped creature dealt damage to a player this turn. Equip 3.
+Equipped creature gets +3/+3. Sacrifice equipped creature: Transform this. Active this only if equipped creature dealt damage to a player this turn. Equip 3.

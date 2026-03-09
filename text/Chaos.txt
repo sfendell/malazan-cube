@@ -1,4 +1,4 @@
 Chaos
 Type: Land - Warren
 
-The first instant or sorcery spell each player casts each turn costs {1} less to cast. T: Add {1}. T: Add one mana of a randomly chosen color.
+The first instant or sorcery each player casts on each turn costs 1 less. T: Add 1. T: Add a mana of a randomly chosen color.

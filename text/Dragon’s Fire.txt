@@ -2,4 +2,4 @@ Dragon’s Fire
 Cost: 1R
 Type: Instant
 
-Dragon's Fire deals 3 damage to target creature or planeswalker. If you revealed a Dragon card or chose a Dragon as you cast this spell, Dragon's Fire deals damage equal to the power of that card or creature instead.
+Behold a Dragon Dragon’s Fire deals 3 damage to target creature or planeswalker. If you revealed a Dragon card or chose a Dragon as you cast this spell, Dragon’s Fire deals damage equal to the power of that card or creature instead.

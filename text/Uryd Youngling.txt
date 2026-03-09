@@ -3,6 +3,4 @@ Cost: G
 Type: Creature - Giant Child
 P/T: 1/1
 
-Trample
-T: Add R, G, or U.
-Dredge 1.
+Trample T: Add R, G or U. Dredge 1.

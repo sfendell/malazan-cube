@@ -3,4 +3,4 @@ Cost: 1WU
 Type: Legendary Creature - Human Advisor
 P/T: 2/3
 
-Whenever a historic permanent enters the battlefield under your control, scry 1 and gain 1 life. If it has an activated ability, you may pay 1. If you do, draw a card. Artifact cards in your hand have affinity for legendaries.
+Whenever a historic permanent enters the battlefield under your control, scry 1 and gain 1 life. If it has an activated ability, you may pay 1. If you do, draw a card. Artifacts cards in your hand have affinity for legendaries.

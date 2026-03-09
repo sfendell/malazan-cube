@@ -3,6 +3,4 @@ Cost: U
 Type: Creature - Wizard
 P/T: 1/1
 
-Flash
-When this enters the battlefield, scry 2.
-1UU, Sacrifice this: Counter target spell or activated ability. Activate this ability only if youâve scryed this turn.
+Flash When this enters the battlefield, scry 2. 1UU, Sacrifice this: Counter target spell or activated ability. Activate this only if you’ve scried this turn.

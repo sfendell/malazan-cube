@@ -2,4 +2,4 @@ Attack from Tavern to Tavern
 Cost: 1R
 Type: Enchantment
 
-Creatures you control have haste and lose vigilance and can't gain vigilance. Creatures you don't control can't block. Whenever you attack, put a stun counter on each attacking creature, then plunder.
+Creatures you control have haste, and lose and can’t gain vigilance. Creatures you don’t control can’t block. Whenever you attack, put a stun counter on each attacking creature, then plunder.

@@ -3,4 +3,4 @@ Cost: 1G
 Type: Creature - Elder Zombie Shaman
 P/T: 2/2
 
-T: Add R or B. When the next Elder Zombie enters the battlefield under your control this turn, put a +1/+1 counter on it. Exile a land card from your graveyard: Untap this.
+T: Add R or B. When the next Elder Zombie enters the battlefield under your control this turn, put a +1/+1 counter on it. Exile a land from your graveyard: Untap this.

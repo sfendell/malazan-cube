@@ -3,4 +3,4 @@ Cost: 1UR
 Type: Legendary Creature - Human Witch
 P/T: 4/1
 
-Whenever you scry, it deals that much damage to any target. Whenever you tutor, destroy target creature.
+Whenever you scry any amount, deal that amount of damage to any target. Whenever you tutor, destroy target creature.

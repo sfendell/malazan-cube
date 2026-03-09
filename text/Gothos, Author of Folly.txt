@@ -3,4 +3,4 @@ Cost: 3U
 Type: Legendary Creature - Elder Orc
 P/T: 3/3
 
-Whenever you draw one or more cards, scry 1. 5U, T: Draw a card. This ability costs 1 less to activate for each time you've scryed this turn. Whenever you scry for the fourth time this turn, freeze all creatures you don't control.
+Whenever you draw any number of cards, scry 1. 5U, T: Draw a card. This costs 1 less for each time you’ve scried this turn. Whenever you scry for the fourth time in a turn, freeze all creatures you don’t control.

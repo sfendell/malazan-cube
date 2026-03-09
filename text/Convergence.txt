@@ -2,4 +2,4 @@ Convergence
 Cost: WUBRG
 Type: Enchantment
 
-Whenever a God or Elder enters the battlefield or a creature ascends, put two omen counters on this. Remove all omen counters from this: Destroy all non-God, non-Elder creatures, then tutor all Elder or God cards with mana value less than the number of omen counters removed onto the battlefield. Target opponent gains control of this.
+Whenever a God or Elder enters the battlefield or a creature ascends, place two omen counters on this. Remove all omen counters from this: Destroy all non-God, non-Elder creatures, then tutor all Elder or God cards to the battlefield with mana value less than the omen counters removed. Target opponent gains control of this.

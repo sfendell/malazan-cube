@@ -3,4 +3,4 @@ Cost: 3BR
 Type: Legendary Creature - Elder God
 P/T: 5/5
 
-Whenever a creature you control dies, bleed. This ability triggers even if that creature is exiled. 6W, Exile this: Tutor an Equipment card onto the battlefield. Sacrifice eight Bloods: Destroy all creatures, then return this from exile to the battlefield.
+Whenever a creature you control dies, bleed. This triggers even if this is exiled. 6W, Exile this: Tutor an equipment to the battlefield. Sacrifice eight Bloods: Destroy all creatures, then return this to the battlefield from exile.

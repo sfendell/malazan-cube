@@ -3,6 +3,4 @@ Cost: 3BR
 Type: Legendary Creature - Human Warrior
 P/T: 4/4
 
-First strike, haste
-Whenever a nontoken creature you control dies during combat, deal 1 damage to any target. If it dies during the first strike damage step, deal 2 damage to any target.
-2R: Target creature gains first strike until end of turn.
+First strike, Haste Whenever a nontoken creature you control dies during combat, deal 1 damage to any target. If it dies during the first strike phase, deal 2 damage to any target. 2R: Target creature gets first strike until end of turn.

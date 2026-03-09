@@ -3,4 +3,4 @@ Cost: 1WB
 Type: Legendary Creature - Malazan Child Shaman
 P/T: 1/2
 
-T, Pay 2 life, exile a card from your graveyard: Return another target nonland permanent card from your graveyard with a different type and mana value less than the exiled card.
+T, Pay 2 life, exile a card from your graveyard: Return another target nonland permanent from your graveyard with a different type and mana value lower than the exiled card.

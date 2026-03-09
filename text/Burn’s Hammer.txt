@@ -2,4 +2,4 @@ Burnâ€™s Hammer
 Cost: 2
 Type: Legendary Artifact - Equipment
 
-Equipped creature has +4/+0 and "T: Destroy target land. If that land is basic, its controller searches their library for a nonbasic land card and puts it onto the battlefield tapped. Otherwise, that player searches their library for a basic land card and puts it onto the battlefield tapped." Magnanimous Kruppe has protection from equipped creature. Equip 4.
+Equipped creature has +4/+0 and â€œT: Destroy target land. If it was basic, its controller tutors a nonbasic land to the battlefield tapped. Otherwise, its controller tutors a basic land to the battlefield tapped.â€ Magnanimous Kruppe has Protection from equipped creature. Equip 4.

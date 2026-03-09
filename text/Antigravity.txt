@@ -2,4 +2,4 @@ Antigravity
 Cost: GU
 Type: Enchantment
 
-Creatures with flying can't block creatures without flying. Creatures without flying have reach.
+Creatures with flying cannot block creatures without flying. Creatures without flying have reach.

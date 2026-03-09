@@ -3,4 +3,4 @@ Cost: 2GG
 Type: Legendary Creature - Elder God
 P/T: 5/5
 
-Protection from Children, Humans, and Malazans. Creatures you control have trample and vigilance. T, Tap an untapped Human or Malazan you control: Cook a 1/1 white Human Child creature token, then populate.
+Protection from Children, Humans, and Malazans Creatures you control have trample and vigilance. T, Tap an untapped Human or Malazan you control: Create a 1/1 White Human Child creature token, then populate.

@@ -3,4 +3,4 @@ Cost: UB
 Type: Creature - Human Witch
 P/T: 2/2
 
-Exploit â Whenever you sacrifice a creature, scry 3. Then, if you have scryed 6 or more cards this turn, draw a card. (Scrying 3 twice or scrying 2 three times counts.)
+Exploit Whenever you sacrifice a creature, scry 3. Then if you’ve scried 6 or more in total this turn, draw a card. (Scrying 3 twice or scrying 2 thrice counts).

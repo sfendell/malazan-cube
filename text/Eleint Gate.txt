@@ -2,4 +2,4 @@ Eleint Gate
 Cost: 6
 Type: Kindred Artifact - Dragon
 
-At the beginning of your upkeep, you may pay XRR, where X is 6 minus the number of Dragons you control. If you do, cook a 4/4 red Dragon creature token with flying.
+At the beginning of your upkeep, you may pay XRR, where X is 6 minus the number of Dragons you control. If you do, create a 4/4 Red Dragon creature token with flying.

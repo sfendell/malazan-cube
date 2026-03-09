@@ -2,4 +2,4 @@ House of the Azath
 Cost: 3
 Type: Artifact
 
-Indestructible 3, T: Target creature with power, toughness, or mana value greater than three phases out. At the beginning of your upkeep, you may pay H for each card exiled with this. If you don't, sacrifice this, then all creatures phase in.
+Indestructible 3, T: Target creature with power, toughness, or mana value greater than three phases out. At the beginning of your upkeep, you may pay H for each card exiled with this. If you don’t, sacrifice this, then all creatures phase in.

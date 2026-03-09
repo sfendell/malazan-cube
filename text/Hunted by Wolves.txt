@@ -2,4 +2,4 @@ Hunted by Wolves
 Cost: 3G
 Type: Sorcery
 
-Create two 2/2 green Wolf creature tokens. Then each of them fights target creature.
+Create two 2/2 green Wolf tokens. Then they each fight a single target creature.

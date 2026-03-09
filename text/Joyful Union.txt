@@ -3,5 +3,4 @@ Cost: WBG
 Type: Legendary Creature - Scorpion
 P/T: 3/3
 
-Deathtouch, lifelink
-When Joyful Union dies, cook a 2/1 white Scorpion creature token with lifelink and bleed a 1/2 black Scorpion creature token with deathtouch.
+Deathtouch, lifelink When Joyful Union dies, create a 2/1 white Scorpion token with lifelink and a 1/2 black Scorpion token with deathtouch.

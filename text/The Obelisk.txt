@@ -2,4 +2,4 @@ The Obelisk
 Cost: 2
 Type: Enchantment Artifact - Fatid
 
-T: Add {C}{C}.
+T: Add CC.

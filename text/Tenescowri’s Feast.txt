@@ -2,4 +2,4 @@ Tenescowri’s Feast
 Cost: BG
 Type: Instant
 
-As an additional cost to cast this spell, sacrifice a creature. Investigate, plunder, bleed, and cook. Put a +1/+1 counter on up to one target creature.
+As an additional cost to cast this spell, sacrifice a creature. Investigate, plunder, bleed and cook. Put a +1/+1 counter on up to one target creature.

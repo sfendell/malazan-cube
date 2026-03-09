@@ -3,5 +3,4 @@ Cost: 2RR
 Type: Legendary Creature - Boar God
 P/T: 4/4
 
-Haste, Trample
-Whenever Fener attacks, if youâve attacked with at least two other creatures this combat, untap all other creatures you control. There is an additional combat phase after this one. This ability activates once per turn. Creatures you control gain first strike and haste during extra combat phases.
+Haste, Trample Whenever Fener attacks, if you’ve attacked with at least two other creatures this combat, untap all other creatures you control. There is an additional combat phase after this one. This ability activates once per turn. Creatures you control get first strike and haste during extra combat phases.

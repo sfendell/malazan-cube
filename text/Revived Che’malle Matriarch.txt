@@ -3,4 +3,4 @@ Cost: 3U/BG
 Type: Creature — Elder Zombie Alien Dinosaur
 P/T: 7/3
 
-Whenever a creature enters the battlefield under your control, put a +1/+1 counter on each creature with power or toughness less than that creature that shares two or more creature types with it. Discard or sacrifice a land twice: Return this card from your graveyard to the battlefield tapped under your control.
+Whenever a creature enters the battlefield under your control, put a +1/+1 counter on all creatures with power or toughness less than it that share two or more creature types with it. Discard or sacrifice a land twice: Return this from the graveyard to the battlefield under your control tapped.

@@ -2,4 +2,4 @@ Stolen Table
 Cost: 3G
 Type: Legendary Kindred Artifact - Elder
 
-T, Tap an untapped creature you control: Tutor a Warren onto the battlefield that shares a color in its identity with the tapped creature. Whenever a Warren enters the battlefield under your control, cook a 2/2 green Wolf creature token. It fights target creature you donât control.
+T, Tap an untapped creature you control: Tutor a Warren to the battlefield that shares a color in its identity with the tapped creature. Whenever a Warren enters the battlefield under your control, create a 2/2 Green Wolf creature token. It fights target creature you don’t control.

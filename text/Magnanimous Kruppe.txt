@@ -3,4 +3,4 @@ Cost: URW
 Type: Legendary Creature - Human Wizard
 P/T: 1/4
 
-You have cunning. At the beginning of your upkeep, scry 1. Whenever you put X cards on the bottom of your library, choose one â â¢ Cook X times. â¢ Gain control of target spell or artifact with mana value less than or equal to X. You may choose new targets for that spell.
+You have cunning. At the beginning of your upkeep, scry 1. Whenever you place X cards on the bottom of your deck, choose one: • Cook or investigate X times. • Gain control of target spell or artifact with value less than or equal to X. You may choose new targets for the spell.

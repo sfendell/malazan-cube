@@ -2,4 +2,4 @@ Walk the Warrens
 Cost: 1U
 Type: Instant
 
-Exile target creature, then return it to the battlefield under its owner's control. If you control a Warren, draw a card.
+Exile target creature, then return it to the battlefield under its owner’s control. If you control a Warren, draw a card.

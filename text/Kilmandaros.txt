@@ -3,4 +3,4 @@ Cost: 3RG
 Type: Creature - Elder God
 P/T: 5/5
 
-Whenever a creature with power less than Kilmandaros' toughness enters the battlefield, she fights it. If she wins the fight, destroy target noncreature, nonland permanent.
+Whenever a creature with power less than Kilmandaros’ toughness enters the battlefield, she fights it. When she she wins the fight, destroy target non-creature, non-land permanent.

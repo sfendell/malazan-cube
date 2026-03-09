@@ -3,4 +3,4 @@ Cost: BR
 Type: Legendary Creature - Rebel Advisor
 P/T: 1/1
 
-At the end of combat on your turn, deal X damage to any target, where X is the number of creatures you control that you do not own. Slow, T, Sacrifice a land: Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn.
+At the end of combat on your turn, deal X damage to any target, where X is the number of creatures you control but do not own. Slow, T, Sacrifice a land: Gain control of target creature until end of turn. Untap it. It gains haste until end of turn.

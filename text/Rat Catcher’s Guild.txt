@@ -3,4 +3,4 @@ Cost: 3BB
 Type: Legendary Creature - Rat Merchant
 P/T: 1/1
 
-Extort When this enters the battlefield, put two +1/+1 counters on it and cook two 1/1 black Rat creature tokens. Whenever you extort, choose one â â¢ Proliferate. â¢ Populate, then populate.
+Extort When this enters the battlefield, place two +1/+1 counters on it and create two 1/1 Black rat tokens. Whenever you extort, choose one: • Proliferate. • Populate, then populate.

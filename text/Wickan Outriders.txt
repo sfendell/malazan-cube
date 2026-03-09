@@ -3,4 +3,4 @@ Cost: 1RW
 Type: Legendary Creature - Malazan Army
 P/T: 3/3
 
-Other Armies you control get +1/+1. Malazans you control have first strike.
+Other Armies you control get +1/+1. Malazans you control get first strike.

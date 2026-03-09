@@ -2,4 +2,4 @@ Biological Optimization
 Cost: G
 Type: Kindred Enchantment - Alien Dinosaur
 
-If one or more counters would be placed on a creature you control, that many plus one counters are placed on it instead. Other Alien Dinosaurs you control have "T: Add U or G."
+If one or more counters would be placed on a creature you control, that many plus one counters are placed on it instead. Other Alien Dinosaurs you control have â€œT: Add U or G to your mana pool.â€.

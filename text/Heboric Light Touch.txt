@@ -3,4 +3,4 @@ Cost: 2RG
 Type: Legendary Creature - Malazan Advisor
 P/T: 0/0
 
-This enters the battlefield with two +1/+1 counters on it. 2, T: Remove a +1/+1 counter from this: Destroy target noncreature, nonland permanent. When this dies, exile target God.
+This enters the battlefield with two +1/+1 counters on it. 2, T, Remove a +1/+1 counter from this: Destroy target noncreature, nonland permanent. When this dies, exile target God.

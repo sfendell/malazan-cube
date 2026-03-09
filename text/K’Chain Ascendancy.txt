@@ -2,4 +2,4 @@ K’Chain Ascendancy
 Cost: 1GU
 Type: Kindred Enchantment - Alien Dinosaur
 
-Alien Dinosaurs you control get +1/+1. Creature tokens you control have evolve. (Evolve stacks.) Whenever a creature enters the battlefield under your control, if it has 4 or more power, proliferate.
+Alien Dinosaurs you control get +1/+1. Creature tokens you control have evolve. (Evolve stacks.) Whenever a creature enters the battlefield under your control, if it if it has 4 or more power, proliferate.

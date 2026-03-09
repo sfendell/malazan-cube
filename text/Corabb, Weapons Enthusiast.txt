@@ -3,4 +3,4 @@ Cost: 1R
 Type: Legendary Creature - Soldier
 P/T: 1/1
 
-First strike Corabb gets +1/+1 for each Equipment attached to it. Artifacts attached to this lose all activated abilities (this includes Equip). R, Q, Slow: Sacrifice an Equipment equipped to this: Deal 3 damage to any target.
+First strike Corabb gets +1/+1 for each Equipment attached to it. Artifacts attached to this lose all activated abilities (this includes Equip). R, Q, Sacrifice an Equipment equipped to this: Deal 3 damage to any target.

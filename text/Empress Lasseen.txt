@@ -3,4 +3,4 @@ Cost: 4UBR
 Type: Legendary Creature - Malazan Noble
 P/T: 2/5
 
-Hexproof At the beginning of each of your end steps, put a grasp counter on target nonland permanent. Then gain control of all nonland permanents with mana value less than the number of grasp counters on them for as long as you control Lasseen. Pay 3 life, Sacrifice a creature you donât own: Put a grasp counter on target land.
+Hexproof At the end of each of your turns, put a grasp counter on target non-land permanent. Then gain control of all non-land permanents with mana value less than the number of grasp counters on them for as long as you control Lasseen. Pay 3 life, Sacrifice a creature you don’t own: Put a grasp counter on target land.

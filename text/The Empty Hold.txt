@@ -1,4 +1,4 @@
 The Empty Hold
 Type: Kindred Land - Elder Warren
 
-This enters the battlefield tapped unless you had a token or counter enter the battlefield this turn. T: Add W, G, or B. WBG, Tap an untapped creature you control, T: Bleed.
+This enters the battlefield tapped unless you had a token or counter enter the battlefield this turn. T: Add W, G, or B. WBG, Tap an untapped creature you control, T: Plunder.

@@ -3,5 +3,4 @@ Cost: 4UR
 Type: Legendary Creature - God
 P/T: 4/4
 
-Prowess, Flying
-Instants and sorceries you control have mindstorm.
+Prowess, Flying Instants and sorceries you control have mindstorm.

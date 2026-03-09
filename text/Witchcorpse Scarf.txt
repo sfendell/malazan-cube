@@ -2,4 +2,4 @@ Witchcorpse Scarf
 Cost: 2
 Type: Artifact - Equipment
 
-Enchanted creature has "Whenever this creature deals damage to a player, plunder twice" and "Whenever a creature dealt damage by this creature this turn dies, its controller loses 2 life." Equip 1
+Enchanted creature has “Whenever this deals damage to a player, plunder twice” and “Whenever a creature dealt damage by this creature this turn dies, its controller loses 2 life.” Equip 1

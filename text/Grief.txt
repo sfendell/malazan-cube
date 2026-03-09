@@ -1,4 +1,4 @@
 Grief
 Type: Legendary Kindred Artifact - Elder Elf Equipment
 
-Equipped creature gets +6/+0 and has indestructible. Equip 4.
+Equipped creature gets +6/+0 and has indestructible. Equip 4

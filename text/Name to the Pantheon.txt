@@ -2,4 +2,4 @@ Name to the Pantheon
 Cost: W
 Type: Instant
 
-When you cast this, put a foresight counter on target artifact you control named Fiddlerâs Deck. Target creature enchanted by a Fatid gains all colors of permanents attached to it. Then that creature ascends.
+When you cast this, place a foresight counter on target artifact you control named Fiddler’s Deck. Target creature enchanted by a Fatid gains all colors of permanents attached to it. Then that creature ascends.

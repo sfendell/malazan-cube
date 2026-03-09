@@ -1,4 +1,4 @@
 Beast Hold
 Type: Kindred Land - Elder Warren
 
-This enters the battlefield tapped unless you control more creatures than your opponent. T: Add W, R, or G. RGW, T, Sacrifice this: Put a double strike counter on target creature you control with power 2 or less.
+This enters the battlefield tapped unless you control more creatures than your opponent. T: Add W, R or G. RGW, T, Sacrifice this: Put a double strike counter on target creature you control with power 2 or less.

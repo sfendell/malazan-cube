@@ -3,4 +3,4 @@ Cost: RR
 Type: Legendary Creature - Malazan Child Wizard
 P/T: 2/2
 
-Whenever you scry, you may impulse 1. Whenever you cast a red instant or sorcery spell from anywhere other than your hand, it deals 2 damage to any target. 2U, Sacrifice a land: Scry 2.
+Whenever you scry, you may impulse 1. Whenever you cast a red instant or sorcery spell from anywhere other than your hand, deal 2 damage to any target. 2U, Sacrifice a land: Scry 2.

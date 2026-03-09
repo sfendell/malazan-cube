@@ -2,6 +2,4 @@ Jade Giant
 Cost: 3
 Type: Kindred Artifact - Alien
 
-Hexproof
-T: Add one mana of any color.
-9, T, Exile this card: Put an undrafted card from the cube into your hand. It becomes part of your pool for the rest of the draft.
+Hexproof T: Add one mana of any color. 9, T, Exile this card: Put an undrafted card from the cube into your hand. It becomes part of your pool for the rest of the draft.

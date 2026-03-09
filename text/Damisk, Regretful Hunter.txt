@@ -3,4 +3,4 @@ Cost: 2G
 Type: Legendary Creature - Human
 P/T: 4/3
 
-Whenever a creature with power less than this dies, you may exile it. Whenever a creature card leaves exile, you gain 2 life. 2G, Slow: Move a creature card from exile to a graveyard: Return target land card from your graveyard to your hand.
+Whenever a creature with power less than this dies, you may exile it. Whenever a creature card leaves exile, gain 2 life. 2G, Move a creature card from exile to a graveyard: Return target land card from your graveyard to your hand.

@@ -3,5 +3,4 @@ Cost: 2WU
 Type: Legendary Creature - God
 P/T: 4/4
 
-Flying
-Whenever a creature enters the battlefield, you may tap or untap target creature. WU: Exile another target creature you control, then return that creature to the battlefield. Activate this ability only if you've scryed this turn.
+Flying Whenever a creature enters the battlefield, tap or untap target creature. WU: Exile another target creature you control, then return it to the battlefield. Activate this ability only if you’ve scried this turn.

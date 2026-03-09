@@ -2,4 +2,4 @@ Children are Dying
 Cost: 2BB
 Type: Sorcery
 
-Destroy all Children and creatures with power or toughness less than 2.
+Destroy all Children and creatures with power or toughness less than two.

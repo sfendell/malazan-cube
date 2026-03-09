@@ -1,4 +1,4 @@
 Exquisite Manicure
 Type: Token Enchantment - Aura
 
-Enchant creature. This enters the battlefield attached to a creature you control. Enchanted creature gets +2/+0.
+Enchant creature This enters the battlefield attached to a creature you control. Enchanted creature gets +2/+0.

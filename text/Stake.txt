@@ -2,5 +2,4 @@ Stake
 Cost: W
 Type: Enchantment - Aura
 
-Enchant artifact
-When this enters the battlefield, you gain 2 life and exile target creature until this leaves the battlefield.
+Enchant artifact When this enters the battlefield, gain two life and exile target creature until this leaves the battlefield.

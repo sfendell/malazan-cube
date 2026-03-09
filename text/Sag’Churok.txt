@@ -3,5 +3,4 @@ Cost: 4GU
 Type: Legendary Creature - Alien Dinosaur
 P/T: 4/4
 
-Trample, Shroud
-This gets +1/+1 for each different counter among permanents you control. (All subtype counters are the same type of counter.) Whenever this attacks, if its power is greater than eight, draw a card, then place a non-subtype counter on another permanent of a kind already on it.
+Trample, Shroud This gets +1/+1 for every different counter among permanents you control. (All subtype counters are the same type of counter.) Whenever this attacks, if its power is greater than eight, draw a card, then place one non-subtype counter on another permanent of a kind already on it.

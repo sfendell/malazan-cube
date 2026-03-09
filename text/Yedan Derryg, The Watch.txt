@@ -3,4 +3,4 @@ Cost: 3W
 Type: Legendary Creature - Elder Elf Human Warrior
 P/T: 3/3
 
-W: This gains first strike until end of turn. 5W: This gains double strike until end of turn. Whenever this deals damage, target creature you control gains lifelink and gets +X/+X until end of turn.
+W: This gains first strike until end of turn. 5W: This gains double strike until end of turn. Whenever this deals X damage, target creature you control gets lifelink and +X/+X.

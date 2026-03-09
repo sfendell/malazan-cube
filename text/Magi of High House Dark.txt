@@ -2,6 +2,4 @@ Magi of High House Dark
 Cost: UR
 Type: Enchantment - Fatid Aura
 
-Enchant non-God creature
-Enchanted creature cannot attack or block unless it has an activated ability.
-Enchanted creature has prowess, "You have cunning," and "This creature has hexproof as long as you've scryed or cast an instant or sorcery this turn."
+Enchant non-God creature Enchanted creature cannot attack or block unless it has an activated ability. Enchanted creature has prowess, “You have cunning”, and “This creature has hexproof as long as you’ve scried or cast an instant or sorcery this turn.”.

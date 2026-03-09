@@ -2,4 +2,4 @@ Path of Hands
 Cost: 1GG
 Type: Enchantment
 
-At the beginning of your upkeep, if there are forty or more counters among permanents you control, you win the game. 3GG: Put a +1/+1 counter, a trample counter, or a counter of a subtype of your choice on target creature.
+At the beginning of your upkeep, if there are forty counters among permanents you control, you win the game. 3GG: Place a +1/+1, trample, or subtype counter of your choice on target creature.

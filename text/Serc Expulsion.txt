@@ -2,4 +2,4 @@ Serc Expulsion
 Cost: UU
 Type: Instant
 
-Behold Serc: Counter target spell. If you beheld Serc, draw a card.
+Behold Serc Counter target spell. If you beheld Serc, draw a card.

@@ -3,6 +3,4 @@ Cost: 3W
 Type: Legendary Creature - Malazan Soldier
 P/T: 2/4
 
-Vigilance
-Whenever you gain life, return target creature with power less than Dujek Onearm from your graveyard to the battlefield.
-Whenever a creature with power greater than Dujek Onearm enters the battlefield, gain 1 life and amass Malazans 1.
+Vigilance Whenever you gain life, return target creature with power less than Dujek Onearm from your graveyard to the battlefield. Whenever a creature with power greater than Dujek enters the battlefield, gain 1 life and amass Malazans 1.

@@ -3,4 +3,4 @@ Cost: 2WB
 Type: Legendary Creature - Malazan Warrior
 P/T: 4/4
 
-Creatures you control get +0/+2 if itâs not your turn. Creatures you control get +2/+0 if it is your turn. WB, T, Sacrifice another creature: Another target creature gains indestructible and hexproof until end of turn.
+Creatures you control get +0/+2 if it’s not your turn. Creatures you control get +2/+0 if it is your turn. WB, T, Sacrifice another creature: Another target creature gets indestructible and hexproof until end of turn.

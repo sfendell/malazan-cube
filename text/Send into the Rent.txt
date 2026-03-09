@@ -2,4 +2,4 @@ Send into the Rent
 Cost: 1W
 Type: Enchantment - Aura
 
-Enchant Warren you control. When this enters the battlefield, exile target creature until this leaves the battlefield. When this leaves the battlefield, return target creature from your graveyard to your hand.
+Enchant Warren you control When this enters the battlefield, exile target creature until this leaves the battlefield. When this leaves the battlefield, return target creature from your graveyard to your hand.

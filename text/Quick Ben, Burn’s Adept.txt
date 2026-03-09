@@ -3,4 +3,4 @@ Cost: 1G
 Type: Legendary Creature - Malazan Wizard Soul
 P/T: 2/3
 
-Slow, 2GG, T: Put a trample counter or a +1/+1 counter on up to X target creatures, where X is 1 plus the number of exiled Souls. When this dies, put a Soul card you own from outside the game on top of your library.
+Slow, 2GG, T: Put a trample or +1/+1 counter on up to X target creatures, where X is 1 plus the number of exiled Souls. When this dies, place a Soul card you own from outside the game on top of your deck.

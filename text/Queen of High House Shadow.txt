@@ -2,4 +2,4 @@ Queen of High House Shadow
 Cost: 1WB
 Type: Enchantment - Fatid Aura
 
-Enchant non-God creature. Enchanted creature cannot attack or block unless its owner controls a Treasure or Equipment. Enchanted creature has "Creatures you control have menace and first strike."
+Enchant non-God creature Enchanted creature cannot attack or block unless its owner controls a Treasure or Equipment. Enchanted creature has “Creatures you control have menace and first strike”.

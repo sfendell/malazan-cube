@@ -2,4 +2,4 @@ Builder of High House Life
 Cost: G
 Type: Enchantment - Fatid Aura
 
-Enchant non-God creature. Enchanted creature loses all other activated abilities and has "T: Add one mana of a color among permanents you control. If you control permanents of all five colors, instead add WUBRG."
+Enchant non-God creature Enchanted creature loses all other activated abilities and has â€œT: Add one mana of a color among permanents you control. If you control permanents of all five colors, instead add WUBRG.â€.

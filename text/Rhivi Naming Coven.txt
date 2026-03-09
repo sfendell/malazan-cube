@@ -3,4 +3,4 @@ Cost: 2G
 Type: Creature - Witch
 P/T: 2/3
 
-Whenever an Enchantment enters the battlefield under your control, draw a card. 2W, T, Slow: Attach target Aura to another permanent it can enchant. T: Put a name or subtype counter of your choice on target creature.
+Whenever an Enchantment enters the battlefield under your control, draw a card. 2W, T, Slow: Attach target Aura to another permanent it can enchant. T: Place a name or subtype counter of your choice on target creature.

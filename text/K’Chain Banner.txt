@@ -2,4 +2,4 @@ K’Chain Banner
 Cost: 2
 Type: Kindred Artifact - Alien Dinosaur
 
-This enters the battlefield tapped unless there is a counter on a creature you control. T: Add B, U, or G. BGU, T, Sacrifice KâChain Banner: Draw a card.
+This enters the battlefield tapped unless there is a counter on a creature you control. T: Add B, U, or G. BGU, T, Sacrifice K’Chain Banner: Draw a card.

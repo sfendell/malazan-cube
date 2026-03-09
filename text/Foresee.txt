@@ -2,4 +2,4 @@ Foresee
 Cost: 1UU
 Type: Instant
 
-This spell costs U less to cast if you've scried this turn. Counter target spell.
+This card costs U less if you’ve scried this turn. Counter target spell.

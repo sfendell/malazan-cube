@@ -3,5 +3,4 @@ Cost: 1GU
 Type: Creature - Alien Dinosaur
 P/T: 0/1
 
-Flying, evolve
-Whenever a creature you control evolves, proliferate.
+Flying, evolve Whenever a creature you control evolves, proliferate.
