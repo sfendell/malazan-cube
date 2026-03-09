@@ -1,6 +1,7 @@
-# mtg-clippy: Fix and standardize MTG card text in text/.
-# Reads each .txt as a card, applies wording/typo fixes, writes back if changed.
+# mtg-clippy: Fix and standardize MTG card ABILITY TEXT only in text/ using an LLM.
+# Does not change name, cost, type, or P/T—only the rules/flavor wording.
 # Writes list of changed card names to clippy-changed.txt for improve-everything.
+# Requires: OPENAI_API_KEY environment variable set.
 # Run from repo root.
 
 $ErrorActionPreference = 'Stop'
@@ -8,110 +9,115 @@ $Root = $PSScriptRoot
 $TextDir = Join-Path $Root "text"
 $ChangedListPath = Join-Path $Root "clippy-changed.txt"
 
-# MTG keywords/abilities to capitalize (word boundaries)
-$Keywords = @(
-    'First Strike', 'Double Strike', 'Flying', 'Haste', 'Hexproof', 'Reach', 'Trample',
-    'Vigilance', 'Lifelink', 'Deathtouch', 'Menace', 'Ward', 'Protection from',
-    'Scry', 'Equip', 'Enlist', 'Slow', 'Ascend', 'Ascends'
-)
+$SystemPrompt = @"
+You fix only the wording of Magic the Gathering card ability text (rules and flavor). Do not change card name, cost, type, or P/T.
 
-# Common typos and wording fixes (regex pattern -> replacement)
-$Fixes = @(
-    @{ Pattern = '\btaarget\b'; Replacement = 'target' },
-    @{ Pattern = '\bteh\b'; Replacement = 'the' },
-    @{ Pattern = '\btaht\b'; Replacement = 'that' },
-    @{ Pattern = '\bcreatue\b'; Replacement = 'creature' },
-    @{ Pattern = '\bartifact\b'; Replacement = 'artifact' },
-    @{ Pattern = '\benchantment\b'; Replacement = 'enchantment' },
-    @{ Pattern = '\boponent\b'; Replacement = 'opponent' },
-    @{ Pattern = '\boponents\b'; Replacement = "opponent's" },
-    @{ Pattern = '\bdraw 1 card\b'; Replacement = 'draw a card' },
-    @{ Pattern = '\bdraw one card\b'; Replacement = 'draw a card' },
-    @{ Pattern = '\bDeal 1 damage\b'; Replacement = 'Deal 1 damage' },
-    @{ Pattern = '(\d), (T):'; Replacement = '$1, T: ' },
-    @{ Pattern = 'T:(\S)'; Replacement = 'T: $1' },
-    @{ Pattern = '(\w)\s*\.\s*([A-Z])'; Replacement = '$1. $2' }
-)
+Rules:
+- Fix wording to standard Magic the Gathering card syntax.
+- "Slow" is a valid keyword for activated abilities (use it as-is).
+- Ignore incorrect usage of the mechanic "ascends" if it appears.
+- Use "cook" instead of "create a food token".
+- Use "bleed" instead of "create a blood token".
+- Treat Malazan, Pure, Child, and Alien as valid MTG types.
 
-function Get-SafeFileName {
-    param([string]$name)
-    $bad = [char[]]'\/:*?"<>|'
-    foreach ($c in $bad) { $name = $name.Replace($c, '_') }
-    return $name.Trim()
-}
+You will receive only the ability text (rules and optional flavor). Return ONLY the fixed ability text—nothing else. No card name, no Cost/Type/P/T lines, no explanation, no markdown.
+"@
 
-function Fix-KeywordCapitalization {
-    param([string]$text)
-    $result = $text
-    foreach ($kw in $Keywords) {
-        $lower = $kw.ToLower()
-        $regex = [regex]::Escape($lower)
-        $result = [regex]::Replace($result, "\b$regex\b", $kw)
-    }
-    return $result
-}
-
-function Add-PeriodsToAbilities {
-    param([string]$text)
-    $lines = $text -split "`n"
-    $out = @()
-    foreach ($line in $lines) {
-        $t = $line.Trim()
-        if ($t -and $t -notmatch '\.$' -and $t -match ':\s*.+') { $t = $t + '.' }
-        $out += $t
-    }
-    return ($out -join "`n")
-}
-
-function Invoke-ClippyFixes {
+function Get-AbilityTextOnly {
     param([string]$content)
-    $result = $content
-    foreach ($fix in $Fixes) {
-        $result = $result -replace $fix.Pattern, $fix.Replacement
-    }
-    $result = Fix-KeywordCapitalization $result
-    $result = Add-PeriodsToAbilities $result
-    # Normalize multiple spaces
-    $result = $result -replace '\s+', ' '
-    $result = $result -replace ' \.', '.'
-    $result = $result.Trim()
-    return $result
-}
-
-function Get-RulesAndFlavorFromContent {
-    param([string]$content)
-    $lines = $content -split "`n"
-    $rules = @()
-    $flavor = @()
+    $lines = ($content -replace "`r", "") -split "`n"
     $pastHeader = $false
     $blankAfterHeader = $false
+    $abilityLines = @()
     for ($i = 0; $i -lt $lines.Count; $i++) {
-        $t = $lines[$i].Trim()
+        $t = $lines[$i]
         if (-not $pastHeader) {
             if ($t -match '^(Cost|Type|P/T):') { continue }
-            if ($t -eq '') { $blankAfterHeader = $true; continue }
-            if ($blankAfterHeader -and $t -ne '') { $pastHeader = $true }
+            if ($t -match '^\s*$') { $blankAfterHeader = $true; continue }
+            if ($blankAfterHeader) { $pastHeader = $true }
         }
         if (-not $pastHeader) { continue }
-        if ($t -eq '') {
-            if ($rules.Count -gt 0) { $blankAfterHeader = $true }; continue
-        }
-        if ($blankAfterHeader -and $rules.Count -gt 0) { $flavor += $t }
-        else { $rules += $t }
+        $abilityLines += $t
     }
-    return @{ Rules = ($rules -join "`n"); Flavor = ($flavor -join "`n") }
+    return ($abilityLines -join "`n").Trim()
+}
+
+function Get-HeaderAndAbility {
+    param([string]$content)
+    $lines = ($content -replace "`r", "") -split "`n"
+    $headerEnd = -1
+    $blankAfterHeader = $false
+    for ($i = 0; $i -lt $lines.Count; $i++) {
+        $t = $lines[$i]
+        if ($t -match '^(Cost|Type|P/T):') { continue }
+        if ($t -match '^\s*$') { $blankAfterHeader = $true; continue }
+        if ($blankAfterHeader) { $headerEnd = $i; break }
+    }
+    if ($headerEnd -lt 0) { $headerEnd = $lines.Count }
+    $header = $lines[0..($headerEnd - 1)] | Where-Object { $_.Length -gt 0 -or $_ -match '^\s*$' }
+    $headerLines = @()
+    $i = 0
+    while ($i -lt $headerEnd) {
+        $headerLines += $lines[$i]
+        $i++
+    }
+    $abilityStart = $headerEnd
+    $abilityLines = @()
+    for ($j = $abilityStart; $j -lt $lines.Count; $j++) { $abilityLines += $lines[$j] }
+    return @{
+        HeaderLines = $headerLines
+        AbilityText = ($abilityLines -join "`n").Trim()
+    }
 }
 
 function Get-FullCardContent {
-    param([string]$name, [string]$cost, [string]$type, [string]$pt, [string]$rules, [string]$flavor)
-    $parts = @($name)
-    if ($cost) { $parts += "Cost: $cost" }
-    if ($type) { $parts += "Type: $type" }
-    if ($pt) { $parts += "P/T: $pt" }
-    $parts += ''
-    if ($rules) { $parts += $rules }
-    if ($flavor) { $parts += ''; $parts += $flavor }
-    return $parts -join "`n"
+    param([string[]]$headerLines, [string]$abilityText)
+    $out = @()
+    foreach ($line in $headerLines) {
+        $out += $line.TrimEnd()
+    }
+    $abilityLines = $abilityText -split "`n"
+    foreach ($line in $abilityLines) {
+        $out += $line.TrimEnd()
+    }
+    return ($out -join "`n").TrimEnd()
+}
+
+function Escape-JsonString {
+    param([string]$s)
+    if (-not $s) { return '""' }
+    $s = $s -replace '\\', '\\\\'
+    $s = $s -replace '"', '\"'
+    $s = $s -replace "`r`n", '\n'
+    $s = $s -replace "`n", '\n'
+    $s = $s -replace "`r", '\n'
+    $s = $s -replace "`t", '\t'
+    return '"' + $s + '"'
+}
+
+function Get-ClippyFromLLM {
+    param([string]$abilityText)
+    $apiKey = $env:OPENAI_API_KEY
+    if (-not $apiKey) {
+        Write-Error "OPENAI_API_KEY environment variable is not set."
+        exit 1
+    }
+    $systemEsc = Escape-JsonString $SystemPrompt
+    $userEsc = Escape-JsonString $abilityText
+    $body = '{"model":"gpt-4o-mini","messages":[{"role":"system","content":' + $systemEsc + '},{"role":"user","content":' + $userEsc + '}],"temperature":0.2}'
+    $headers = @{
+        "Authorization" = "Bearer $apiKey"
+        "Content-Type"  = "application/json; charset=utf-8"
+    }
+    $bytes = [System.Text.Encoding]::UTF8.GetBytes($body)
+    try {
+        $response = Invoke-RestMethod -Uri "https://api.openai.com/v1/chat/completions" -Method Post -Headers $headers -Body $bytes
+        $fixed = $response.choices[0].message.content
+        return $fixed.Trim()
+    } catch {
+        Write-Error "LLM request failed: $_"
+        throw
+    }
 }
 
 # Ensure text dir exists
@@ -122,33 +128,34 @@ if (-not (Test-Path $TextDir)) {
 
 $changed = @()
 $files = Get-ChildItem -Path $TextDir -Filter "*.txt" -File
+$total = $files.Count
+$n = 0
 foreach ($f in $files) {
-    $content = Get-Content -Path $f.FullName -Raw
+    $n++
+    $content = [System.IO.File]::ReadAllText($f.FullName, [System.Text.UTF8Encoding]::new($false))
+    $content = ($content -replace "`r\n", "`n").TrimEnd()
     if (-not $content) { continue }
 
-    $lines = ($content -split "`n") | ForEach-Object { $_.TrimEnd() }
-    $name = $lines[0].Trim()
-    $cost = ''; $type = ''; $pt = ''
-    foreach ($i in 1..([Math]::Min(5, $lines.Count - 1))) {
-        if ($lines[$i] -match '^Cost:\s*(.*)$') { $cost = $Matches[1].Trim() }
-        if ($lines[$i] -match '^Type:\s*(.*)$') { $type = $Matches[1].Trim() }
-        if ($lines[$i] -match '^P/T:\s*(.*)$') { $pt = $Matches[1].Trim() }
+    $parsed = Get-HeaderAndAbility $content
+    $abilityOnly = $parsed.AbilityText
+    if (-not $abilityOnly) {
+        Write-Host "[$n/$total] $($f.Name) (no ability text, skip)"
+        continue
     }
 
-    $rf = Get-RulesAndFlavorFromContent $content
-    $fixedRules = Invoke-ClippyFixes $rf.Rules
-    $fixedFlavor = Invoke-ClippyFixes $rf.Flavor
+    Write-Host "[$n/$total] $($f.Name)..."
+    $fixedAbility = Get-ClippyFromLLM -abilityText $abilityOnly
+    if (-not $fixedAbility) { continue }
 
-    $newContent = Get-FullCardContent -name $name -cost $cost -type $type -pt $pt -rules $fixedRules -flavor $fixedFlavor
-    $newContent = $newContent.TrimEnd()
-
+    $newContent = Get-FullCardContent -headerLines $parsed.HeaderLines -abilityText $fixedAbility
     $origNorm = ($content -replace '\r\n', "`n").TrimEnd()
     if ($newContent -ne $origNorm) {
-        [System.IO.File]::WriteAllText($f.FullName, $newContent, [System.Text.UTF8Encoding]::new($false))
+        [System.IO.File]::WriteAllText($f.FullName, $newContent + "`n", [System.Text.UTF8Encoding]::new($false))
+        $name = ($content -split "`n")[0].Trim()
         $changed += $name
     }
+    Start-Sleep -Milliseconds 300
 }
 
-# Write list of changed cards (one name per line) for improve-everything
 $changed | Set-Content -Path $ChangedListPath -Encoding UTF8
-Write-Host "mtg-clippy: Processed $($files.Count) cards. Changed: $($changed.Count). List: $ChangedListPath"
+Write-Host "mtg-clippy: Processed $total cards. Changed: $($changed.Count). List: $ChangedListPath"
