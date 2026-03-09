@@ -3,4 +3,7 @@ Cost: 1GW
 Type: Legendary Creature - Elder Malazan Giant Child
 P/T: 3/3
 
-Vigilance, Trample Other Giants you control have trample. Other Humans and Malazans you control have vigilance. This gets +1/+1 for each other creature you control with trample or vigilance.
+Vigilance, trample
+Other Giants you control have trample.
+Other Humans and Malazans you control have vigilance.
+This creature gets +1/+1 for each other creature you control with trample or vigilance.

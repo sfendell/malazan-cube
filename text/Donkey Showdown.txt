@@ -2,4 +2,4 @@ Donkey Showdown
 Cost: 1G
 Type: Sorcery
 
-Choose target creature you control and target creature an opponent controls. They fight each other with their toughness. When you win the fight, investigate. When you lose the fight, bleed.
+Choose target creature you control and target creature an opponent controls. They fight each other. When you win the fight, investigate. When you lose the fight, bleed.

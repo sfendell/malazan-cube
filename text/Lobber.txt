@@ -2,4 +2,4 @@ Lobber
 Cost: 2
 Type: Artifact - Equipment
 
-Equipped creature gets +2/+0, Reach and â€œT, Sacrifice a Cusser: Deal 3 damage to target creature. If that creature had Flying, destroy it.â€ Equip 2.
+Equipped creature gets +2/+0 and has reach. "T, Sacrifice a Cusser: Deal 3 damage to target creature. If that creature has flying, destroy it." Equip 2.

@@ -2,4 +2,4 @@ Tennes Ritual
 Cost: G
 Type: Sorcery
 
-Tutor three basic lands to the battlefield under your control. Sacrifice them at the end of the turn.
+Tutor three basic lands onto the battlefield under your control. Sacrifice them at the beginning of the next end step.

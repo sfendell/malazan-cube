@@ -2,4 +2,4 @@ Barghast Exhumation
 Cost: R
 Type: Instant
 
-Kicker G, kicker W Deal 2 damage to any target. If you paid G, up to one target creature you control fights target creature you don’t control. If you paid W, gain life equal to noncombat damage dealt this turn. If you paid GW, destroy up to one target artifact or enchantment if its mana value is less than how much life you’ve gained this turn.
+Kicker G, Kicker W: Deal 2 damage to any target. If you paid G, up to one target creature you control fights target target creature you donât control. If you paid W, you gain life equal to the noncombat damage dealt this turn. If you paid GW, destroy up to one target artifact or enchantment with mana value less than the amount of life youâve gained this turn.

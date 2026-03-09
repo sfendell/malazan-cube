@@ -2,4 +2,4 @@ Recall the Histories
 Cost: 2GU
 Type: Sorcery
 
-Landstorm (When you cast this, copy this spell for each land that entered the battlefield under your control this turn.) Reveal the top card of your library. If it’s a creature, put it into your hand. If it’s a land, put it onto the battlefield. Otherwise, put it on the bottom of your deck.
+Landstorm (When you cast this, copy this spell for each land that entered the battlefield under your control this turn.) Reveal the top card of your library. If itâs a creature card, put it into your hand. If itâs a land card, put it onto the battlefield. Otherwise, put it on the bottom of your library.

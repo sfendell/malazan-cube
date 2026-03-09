@@ -2,4 +2,4 @@ Explore the Warrens
 Cost: 1G
 Type: Sorcery
 
-Behold an Elder or Alien Tutor a basic land into play. If this was beheld, tutor any land to the battlefield tapped instead, then draw a card.
+Behold an Elder or Alien: Tutor a basic land onto the battlefield. If this was beheld, instead tutor any land onto the battlefield tapped, then draw a card.

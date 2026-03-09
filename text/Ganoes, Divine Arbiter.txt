@@ -3,4 +3,4 @@ Cost: 1WW
 Type: Legendary Creature - Malazan Soldier
 P/T: 2/2
 
-Protection from Gods 5W, T: Another target creature ascends. This costs 5 less if it targets a creature you don’t control. 1W, T: Exile target God. Whenever an opponent’s creature ascends, draw a card.
+Protection from Gods 5W, T: Another target creature ascends. This costs 5 less if it targets a creature you don't control. 1W, T: Exile target God. Whenever an opponent's creature ascends, draw a card.

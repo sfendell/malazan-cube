@@ -2,4 +2,4 @@ Tyrant’s Banner
 Cost: 2
 Type: Kindred Artifact - God
 
-This enters the battlefield tapped unless you control a permanent you do not own. T: Add U, B, or R. T, UBR, Sacrifice this: Draw a card.
+This enters the battlefield tapped unless you control a permanent you don't own. T: Add U, B, or R. T, UBR, Sacrifice this: Draw a card.

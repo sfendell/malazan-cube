@@ -3,4 +3,4 @@ Cost: 1U
 Type: Artifact Creature - Alien Dinosaur
 P/T: 3/3
 
-This cannot attack or block if it has no counters on it. T: Add one mana of any color. Use this only to cast Alien or artifact spells. R/G, T: This fights target creature you control. When it wins the fight, put a +1/+1 counter on it.
+This creature can't attack or block unless it has a counter on it. T: Add one mana of any color. Spend this mana only to cast Alien or artifact spells. R/G, T: This creature fights target creature you control. When it wins the fight, put a +1/+1 counter on it.

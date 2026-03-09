@@ -2,4 +2,4 @@ Outsmart
 Cost: U
 Type: Instant
 
-Mindstorm (When you cast this, copy it for each time you scried and each card you drew this turn.) Counter target spell unless its owner pays 1.
+Mindstorm (When you cast this, copy it for each time you scried and each card you drew this turn.) Counter target spell unless its owner pays {1}.

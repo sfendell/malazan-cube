@@ -3,4 +3,4 @@ Cost: 5GG
 Type: Legendary Creature - Soldier Avatar
 P/T: 1+*/1+*
 
-When this enters the battlefield or attacks, cook, then create a 1/1 red and white Malazan Soldier token. Nefariasâ€™ power and toughness is equal to 1 plus the number of tokens you control. Creatures you control have â€œT: Cook.â€ Foods you control have â€œR/, T: Populate.â€.
+When this enters the battlefield or attacks, cook, then create a 1/1 red and white Malazan Soldier token. Nefarias's power and toughness are each equal to 1 plus the number of tokens you control. Creatures you control have "T: Cook." Foods you control have "R, T: Populate."

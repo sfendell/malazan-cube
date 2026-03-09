@@ -3,4 +3,4 @@ Cost: 1B
 Type: Legendary Creature - Zombie Child
 P/T: 1/1
 
-Deathtouch Whenever you are dealt combat damage by any number of creatures, bleed. Blood you control are also Food.
+Deathtouch Whenever you are dealt combat damage by one or more creatures, bleed. Blood you control is also Food.

@@ -3,4 +3,5 @@ Cost: 2BB
 Type: Legendary Creature - Malazan Assassin God
 P/T: 5/5
 
-Deathtouch, Menace Other Assassins you control have deathtouch and menace.
+Deathtouch, Menace
+Other Assassins you control have deathtouch and menace.

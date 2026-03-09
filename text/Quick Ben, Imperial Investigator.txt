@@ -3,4 +3,4 @@ Cost: GU
 Type: Legendary Creature - Malazan Wizard Soul
 P/T: 2/2
 
-X is 1 plus the number of exiled Souls. Whenever at least one creature with a counter you control attacks, draw X cards. T, Gather 6 evidence: X target creatures you control becomes unblockable until end of turn. When this dies, put a Soul you own from outside the game on top of your library.
+X is 1 plus the number of exiled Souls. Whenever at least one creature you control with a counter attacks, draw X cards. T, Gather 6 evidence: X target creatures you control become unblockable until end of turn. When this creature dies, put a Soul you own from outside the game on top of your library.

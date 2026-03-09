@@ -3,4 +3,4 @@ Cost: 1B
 Type: Legendary Creature - Elder Elf Warlock
 P/T: 2/2
 
-Deathtouch Slow, 2B: Return Sister Spite from the graveyard to the battlefield tapped.
+Deathtouch Slow, 2B: Return Sister Spite from your graveyard to the battlefield tapped.

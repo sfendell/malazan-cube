@@ -3,4 +3,4 @@ Cost: 1W
 Type: Legendary Creature - Malazan Wizard Soul
 P/T: 1/1
 
-W, T: X target creatures gains protection from the color of your choice until end of turn, where X is the number of exiled Souls plus 1. When this dies, put a Soul you own from outside the game on top of your library.
+W, T: X target creatures gain protection from the color of your choice until end of turn, where X is the number of exiled Souls plus 1. When this dies, put a Soul you own from outside the game on top of your library.

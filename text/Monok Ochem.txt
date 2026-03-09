@@ -3,4 +3,4 @@ Cost: 4BR
 Type: Legendary Creature - Elder Zombie Shaman
 P/T: 7/5
 
-Elder Zombies you control have haste and afterlife 1. Sacrifice another creature: If it was an Elder Zombie, Monok gails lifelink until end of turn. Then deal damage to any target equal to sacrificed creature’s power. Activate only once per turn.
+Elder Zombies you control have haste and afterlife 1. Sacrifice another creature: If that creature was an Elder Zombie, Monok gains lifelink until end of turn. Then deal damage to any target equal to the sacrificed creature's power. Activate only once per turn.

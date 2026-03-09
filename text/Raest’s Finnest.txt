@@ -2,4 +2,4 @@ Raest’s Finnest
 Cost: 4
 Type: Kindred Artifact - Elder
 
-Slow, 4UBR, T, Sacrifice this: Choose one: • Gain control of target creature. • Divide 6 damage among any number of targets. • Target opponent discards their hand. When this goes to your graveyard from play, exile target God.
+Slow, 4UBR, T, Sacrifice this: Choose one â â¢ Gain control of target creature. â¢ Divide 6 damage among any number of targets. â¢ Target opponent discards their hand. When this is put into your graveyard from the battlefield, exile target God.

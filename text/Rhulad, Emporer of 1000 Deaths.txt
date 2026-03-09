@@ -3,4 +3,4 @@ Cost: 2WB
 Type: Legendary Creature - Elder Elf Noble
 P/T: 3/3
 
-Undying 2, Remove a counter from this: Plunder. At the beginning of your end step, if you control 1000 Treasures, you win the game.
+Undying 2, Remove a counter from this: Plunder. At the beginning of your end step, if you control 1000 Treasure, you win the game.

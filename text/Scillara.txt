@@ -3,4 +3,4 @@ Cost: RR
 Type: Legendary Creature - Human Rebel
 P/T: 1/2
 
-At the beginning of your upkeep, impulse, impulse, then discard a card. R, Sacrifice a land: Until end of turn, you have cunning, and cards you own have mayhem.
+At the beginning of your upkeep, impulse twice, then discard a card. R, Sacrifice a land: Until end of turn, you have cunning, and cards you own have mayhem.

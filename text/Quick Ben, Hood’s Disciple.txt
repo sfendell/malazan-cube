@@ -3,4 +3,4 @@ Cost: WB
 Type: Legendary Creature - Malazan Wizard Soul
 P/T: 2/2
 
-Non-Spirit creatures you control have Afterlife X, where X is 1 plus the number of exiled Souls. When this dies, put a Soul you own from outside the game on top of your library.
+Non-Spirit creatures you control have Afterlife X, where X is 1 plus the number of exiled Souls. When this creature dies, put a Soul you own from outside the game on top of your library.

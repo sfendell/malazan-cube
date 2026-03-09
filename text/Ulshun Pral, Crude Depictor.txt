@@ -3,4 +3,4 @@ Cost: BG
 Type: Legendary Creature - Elder Zombie Wizard
 P/T: 2/3
 
-4BG, T, Exile target creature card from a graveyard: Create a tapped token that is a copy of exiled creature, except it’s a 3/3 Beast. If that creature was an Elder Zombie, put two +1/+1 counters on it.
+4BG, T, Exile target creature card from a graveyard: Cook a tapped token thatâs a copy of the exiled creature, except itâs a 3/3 Beast. If that creature was an Elder Zombie, put two +1/+1 counters on it.

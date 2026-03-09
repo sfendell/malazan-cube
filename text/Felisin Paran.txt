@@ -3,4 +3,4 @@ Cost: GUR
 Type: Legendary Creature - Malazan
 P/T: 1/4
 
-Whenever a creature you control dies, deal 1 damage to any creature chosen at random. When Felisin is dealt damage for the third time in a turn, transform her.
+Whenever a creature you control dies, deal 1 damage to a randomly chosen creature. When Felisin is dealt damage for the third time in a turn, transform her.

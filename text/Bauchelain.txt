@@ -3,4 +3,4 @@ Cost: 1UB
 Type: Legendary Creature - Human Wizard
 P/T: 2/3
 
-Whenever any number of creature cards enter your graveyard from anywhere, make a 2/2 Black Zombie token. This ability triggers only twice per turn. UB, Slow, mill six and sacrifice a nontoken creature: Destroy target creature.
+Whenever one or more creature cards enter your graveyard from anywhere, create a 2/2 black Zombie creature token. This ability triggers only twice each turn. UB, Slow: Mill six cards, then sacrifice a nontoken creature: Destroy target creature.

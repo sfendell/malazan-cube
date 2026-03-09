@@ -3,4 +3,4 @@ Cost: UR
 Type: Legendary Creature - Malazan Wizard Soul
 P/T: 2/2
 
-Whenever you cast a noncreature spell, this gets +X/+X, where X is 1 plus the number of exiled Souls. You have cunning. When this dies, put a Soul you own from outside the game on top of your library.
+Whenever you cast a noncreature spell, this gets +X/+X until end of turn, where X is 1 plus the number of exiled Souls. You have cunning. When this dies, put a Soul you own from outside the game on top of your library.

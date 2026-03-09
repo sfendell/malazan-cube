@@ -3,4 +3,6 @@ Cost: 2UU
 Type: Legendary Creature - Dragon
 P/T: 3/3
 
-Flying Whenever another creature you control dies, you may create a token that is a copy of it, except it’s a 3/1 blue and black Illusion with “Whenever this is targeted, sacrifice it.” 2RR, Slow: Tap target creature. Gain control of it until end of turn. It gains haste. Sacrifice an Illusion: Untap target creature.
+Flying
+Whenever another creature you control dies, you may cook a token thatâs a copy of it, except itâs a 3/1 blue and black Illusion with âWhenever this is targeted, sacrifice it.â
+2RR, Slow: Tap target creature. Gain control of it until end of turn. It gains haste. Sacrifice an Illusion: Untap target creature.

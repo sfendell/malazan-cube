@@ -2,4 +2,4 @@ Sleight of Hand
 Cost: U
 Type: Sorcery
 
-Look at the top two cards of your library. Put one of them into your hand and the other on the bottom of your library.
+Look at the top two cards of your library. Put one of them into your hand and the other on the bottom of your library in any order.

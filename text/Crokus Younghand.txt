@@ -3,4 +3,4 @@ Cost: 2W
 Type: Creature - Human Assassin
 P/T: 4/2
 
-T: Redirect the next 1 damage dealt to any target to any other target. 2B, Sacrifice an artifact: Cutter gains deathtouch until end of turn.
+T: Redirect the next 1 damage that would be dealt to any target to another target. 2B, Sacrifice an artifact: Cutter gains deathtouch until end of turn.

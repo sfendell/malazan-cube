@@ -3,4 +3,5 @@ Cost: 2BG
 Type: Legendary Creature - Elder Beast Zombie
 P/T: 3/3
 
-Reach, Ward 2 Whenever Kilava attacks, it gets +2/+2 and Trample until end of turn. Then, you may sacrifice a creature or land. If you do, creatures you donâ€™t control get -1/-1 until end of turn.
+Reach, Ward 2
+Whenever Kilava attacks, it gets +2/+2 and gains trample until end of turn. Then, you may sacrifice a creature or land. If you do, creatures you don't control get -1/-1 until end of turn.

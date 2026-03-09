@@ -1,4 +1,4 @@
 The Nascent
 Type: Land - Warren
 
-This enters the battlefield tapped unless you control another Warren. T: Add B, U or G. BGU, T, Sacrifice this: Return up to two other Warrens from your graveyard to the battlefield tapped. Dredge 2.
+This enters the battlefield tapped unless you control another Warren. T: Add B, U, or G. BGU, T, Sacrifice this: Return up to two other Warrens from your graveyard to the battlefield tapped. Dredge 2.

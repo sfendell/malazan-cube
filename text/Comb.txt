@@ -1,4 +1,4 @@
 Comb
 Type: Token Artifact - Equipment
 
-Equipped creature has vigilance and enlist. Equip 0
+Equipped creature has vigilance and enlist. Equip 0.

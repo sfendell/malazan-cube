@@ -3,4 +3,4 @@ Cost: 1UB
 Type: Legendary Creature - Elder Human Advisor
 P/T: 1/1
 
-Whenever you sacrifice a creature, bleed. Sacrifice three Bloods: Transform this.
+Whenever you sacrifice a creature, bleed. Sacrifice three Bloods: Transform it.

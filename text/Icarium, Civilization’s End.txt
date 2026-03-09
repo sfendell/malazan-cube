@@ -2,4 +2,8 @@ Icarium, Civilization’s End
 Type: Legendary Creature - Elder Orc Giant
 P/T: 9/2
 
-Protection from creatures Slow, B, T: Destroy target creature. Slow, R, T: Destroy target artifact. Slow, G, T: Destroy target enchantment. Whenever a permanent an opponent controls goes to the graveyard, untap this.
+Protection from creatures
+Slow, B, T: Destroy target creature.
+Slow, R, T: Destroy target artifact.
+Slow, G, T: Destroy target enchantment.
+Whenever a permanent an opponent controls is put into a graveyard, untap this.

@@ -2,4 +2,4 @@ Blood-oil
 Cost: 1
 Type: Artifact - Equipment
 
-Equipped creature must attack each turn if able and gets haste, first strike, and +1/-1 for each madness counter on this. Whenever equipped creature attacks, put a madness counter on this. Equip 1
+Equipped creature must attack each turn if able and gets haste, first strike, and +1/-1 for each madness counter on it. Whenever equipped creature attacks, put a madness counter on it. Equip 1

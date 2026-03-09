@@ -2,4 +2,4 @@ Drink Toadhoney
 Cost: U
 Type: Instant
 
-Scry 1. Proliferate. Counter up to one target spell with mana value one or less.
+Scry 1. Proliferate. Counter target spell with mana value 1 or less.

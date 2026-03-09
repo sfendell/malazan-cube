@@ -2,4 +2,4 @@ Idolize
 Cost: 9W
 Type: Sorcery
 
-Convoke If target creature has mana value less than the number of tapped creatures you control, it ascends.
+Convoke. If target creature has mana value less than the number of tapped creatures you control, it ascends.

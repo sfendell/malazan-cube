@@ -3,4 +3,6 @@ Cost: 5BB
 Type: Legendary Creature - Elder Dog
 P/T: 7/7
 
-Lifelink If this would die, it instead phases out. 5BB, Sacrifice a Warren: This phases in.
+Lifelink
+If this would die, exile it instead.
+5BB, Sacrifice a Warren: Return it to the battlefield.

@@ -3,4 +3,4 @@ Cost: RR
 Type: Artifact Creature - Human Wizard
 P/T: 2/2
 
-Skip your draw step. At the beginning of your upkeep, scry 2, then reveal the top five cards of your deck. Your opponent chooses one of them and puts it on the bottom of your deck. Choose two randomly of the remaining four and put them in your hand.
+Skip your draw step. At the beginning of your upkeep, scry 2, then reveal the top five cards of your library. Your opponent chooses one of them and puts it on the bottom of your library. Choose two at random from the remaining four and put them into your hand.

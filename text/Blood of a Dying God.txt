@@ -2,4 +2,4 @@ Blood of a Dying God
 Cost: 4
 Type: Artifact
 
-At the beginning of your upkeep, place a -1/-1 counter on target creature. 5U/B, T: Proliferate.
+At the beginning of your upkeep, put a -1/-1 counter on target creature. 5U/B, T: Proliferate.

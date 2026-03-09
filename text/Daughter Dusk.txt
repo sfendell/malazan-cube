@@ -3,4 +3,4 @@ Cost: 1B
 Type: Legendary Creature - Elder Elf
 P/T: 2/2
 
-3RR: This becomes a 4/4 dragon with Flying. (This effect does not end at end of turn.).
+3RR: This becomes a 4/4 Dragon with flying. This effect doesn't end at end of turn.

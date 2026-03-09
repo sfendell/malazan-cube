@@ -2,4 +2,6 @@ Priest of High House Light
 Cost: WW
 Type: Enchantment - Fatid Aura
 
-Enchant non-God creature Enchanted creature cannot attack or block unless its owner controls a creature with power less than it. Enchanted creature has lifelink and “At the end of each turn, if you gained 4 or more life this turn, draw a card.”.
+Enchant non-God creature
+Enchanted creature can't attack or block unless its owner controls a creature with power less than it.
+Enchanted creature has lifelink and "At the beginning of the end step, if you gained 4 or more life this turn, draw a card."

@@ -3,4 +3,9 @@ Cost: 3RG
 Type: Legendary Creature - Elder Giant Barbarian
 P/T: 6/6
 
-Trample, Ward 2 Whenever Karsa attacks, choose one that has not yet been chosen: • This fights one target creature. • Destroy target artifact or enchantment. • Until end of turn, this gains “If this would deal combat damage to a player, it deals double that damage instead.” If you can’t, this ascends.
+Trample, Ward 2
+Whenever Karsa attacks, choose one that hasn't been chosen yet:
+â¢ This fights target creature.
+â¢ Destroy target artifact or enchantment.
+â¢ Until end of turn, this gains "If this would deal combat damage to a player, it deals double that damage instead."
+If you can't, this ascends.

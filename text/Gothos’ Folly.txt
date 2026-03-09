@@ -2,4 +2,4 @@ Gothos’ Folly
 Cost: 3
 Type: Legendary Kindred Artifact - Elder
 
-2, T: Scry 1, then draw a card. At the end of your turn, lose X life, where X is the number of cards in your hand.
+2, T: Scry 1, then draw a card. At the beginning of your end step, you lose X life, where X is the number of cards in your hand.

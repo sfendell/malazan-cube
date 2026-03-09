@@ -2,4 +2,4 @@ The Chain of Dogs
 Cost: 1BB
 Type: Enchantment
 
-When this enters the battlefield, target opponent gains control of it. At the beginning of your upkeep, create a 0/1 black Malazan Coward creature token. Creatures you control with power less than or equal the number of Cowards you control can’t attack or block. 1, Pay 2 life: Target player gains control of target creature you control.
+When this enters the battlefield, target opponent gains control of it. At the beginning of your upkeep, cook a 0/1 black Malazan Coward creature token. Creatures you control with power less than or equal to the number of Cowards you control can't attack or block. 1, Pay 2 life: Target player gains control of target creature you control.

@@ -2,4 +2,4 @@ Ensconce in Dream
 Cost: 1WW
 Type: Enchantment
 
-When this enters the battlefield, exile target creature until this leaves the battlefield. Its owner gains X life, where X was the creature’s power plus its toughness. If you control an Elder God or Magnanimous Kruppe, draw a card.
+When this enters the battlefield, exile target creature until this leaves the battlefield. Its owner gains life equal to the creature's power plus its toughness. If you control an Elder God or Magnanimous Kruppe, draw a card.

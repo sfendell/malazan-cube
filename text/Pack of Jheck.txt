@@ -3,4 +3,4 @@ Cost: 3GG
 Type: Creature - Human Wolf
 P/T: 6/6
 
-2G, Slow, Sacrifice this: Create two green 2/2 Wolf creature tokens, then populate. 1G, Slow, Sacrifice two Wolves: Return this to the battlefield from your graveyard.
+2G, Slow, Sacrifice this: Cook two green 2/2 Wolf creature tokens, then populate. 1G, Slow, Sacrifice two Wolves: Return this from your graveyard to the battlefield.

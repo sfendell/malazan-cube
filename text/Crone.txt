@@ -3,4 +3,6 @@ Cost: 3BB
 Type: Legendary Creature - Alien Bird
 P/T: 3/5
 
-Flying, deathtouch Whenever a creature dies, surveil 1. Whenever a card is put into your graveyard from anywhere, you may exile it. If you do, you may cast that card until end of turn. This ability triggers only once each turn.
+Flying, deathtouch
+Whenever a creature dies, surveil 1.
+Whenever a card is put into your graveyard from anywhere, you may exile it. If you do, you may cast that card until end of turn. This ability triggers only once each turn.

@@ -3,4 +3,4 @@ Cost: 1W
 Type: Legendary Creature - Human Shaman
 P/T: 0/2
 
-This enters the battlefield with a song counter on it. T, Remove a song counter from this: Another target creature ascends.
+This enters the battlefield with a song counter on it. T, Remove a song counter from it: Another target creature ascends.

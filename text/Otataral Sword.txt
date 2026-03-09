@@ -2,4 +2,4 @@ Otataral Sword
 Cost: 3
 Type: Artifact - Equipment
 
-Equipped creature has +2/+2 and hexproof. Equip 2
+Equipped creature gets +2/+2 and has hexproof. Equip 2.

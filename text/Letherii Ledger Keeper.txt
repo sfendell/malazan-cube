@@ -3,4 +3,4 @@ Cost: W
 Type: Creature - Human Merchant Advisor
 P/T: 1/1
 
-At the beginning of your upkeep, if you control five or more treasures, gain 2 life and draw a card.
+At the beginning of your upkeep, if you control five or more Treasure tokens, you gain 2 life and draw a card.

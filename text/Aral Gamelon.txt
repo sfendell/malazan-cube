@@ -1,4 +1,4 @@
 Aral Gamelon
 Type: Land - Warren
 
-This land enters tapped unless you’ve sacrificed a permanent this turn. T: Add R or B. Whenever you activate your fourth activated ability in a turn, create a 4/4 black and red Demon Ally.
+This land enters the battlefield tapped unless you've sacrificed a permanent this turn. T: Add R or B. Whenever you activate your fourth activated ability this turn, cook a 4/4 black and red Demon Ally.

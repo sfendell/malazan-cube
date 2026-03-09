@@ -3,4 +3,4 @@ Cost: 2BR
 Type: Creature - Elder
 P/T: 3/4
 
-Whenever you sacrifice a creature, bleed. 3B, Sacrifice a creature and pay 1 life: Draw a card. Sacrifice seven Bloods: This ascends.
+Whenever you sacrifice a creature, bleed. 3B, Slow: Sacrifice a creature and pay 1 life: Draw a card. Sacrifice seven Bloods: This ascends.

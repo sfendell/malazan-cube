@@ -3,4 +3,7 @@ Cost: 3
 Type: Legendary Artifact - Vehicle
 P/T: 4/4
 
-Crew 3 Flying, Vigilance Slow, 2BR, T: Deal 4 damage to target creature. Activate this only if this is a creature.
+Crew 3
+Flying, Vigilance
+Slow
+2BR, T: Deal 4 damage to target creature. Activate this ability only if this is a creature.

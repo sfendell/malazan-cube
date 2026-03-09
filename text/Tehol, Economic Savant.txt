@@ -3,4 +3,4 @@ Cost: 3W
 Type: Legendary Creature - Human Merchant
 P/T: */*
 
-If you would create one or more tokens, create twice that many of those tokens instead. Tehol’s power and toughness is equal to the number of Merchants you control plus the number of Treasures you control. 4WB, T: Plunder. This costs 1 less for each other Merchant you control.
+If you would cook one or more tokens, cook twice that many of those tokens instead. Tehol's power and toughness are each equal to the number of Merchants you control plus the number of Treasures you control. 4WB, T: Slow. This ability costs 1 less for each other Merchant you control.

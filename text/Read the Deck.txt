@@ -2,4 +2,4 @@ Read the Deck
 Cost: 1UB
 Type: Instant
 
-Choose a card type or subtype. Reveal the top 3 cards of your library, then put all cards that match your choice into your and lose that much life. Flashback—Sacrifice a creature.
+Choose a card type or subtype. Reveal the top three cards of your library, then put all cards that match your choice into your hand and you lose that much life. FlashbackâSacrifice a creature.

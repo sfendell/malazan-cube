@@ -3,4 +3,4 @@ Cost: 2W
 Type: Legendary Creature - Human Noble
 P/T: 0/1
 
-Exploit This gets +1/+1 for each Treasure you control. Whenever you sacrifice a permanent, gain 1 life. If it was a creature, plunder twice. Whenever this is blocked by a creature with power less than it, it gains first strike until end of turn.
+This gets +1/+1 for each Treasure you control. Whenever you sacrifice a permanent, you gain 1 life. If that permanent was a creature, plunder twice. Whenever this is blocked by a creature with power less than its power, it gains first strike until end of turn.

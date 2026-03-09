@@ -3,4 +3,4 @@ Cost: 2B
 Type: Creature - Human Merchant
 P/T: 3/2
 
-Exploit, extort When this exploits a creature, if it was a Human, draw a card. If it was an Elder, deal 4 damage to all creatures. Otherwise, target opponent loses 2 life and you gain 2 life.
+Exploit, extort. When this exploits a creature, if that creature was a Human, draw a card. If that creature was an Elder, deal 4 damage to all creatures. Otherwise, target opponent loses 2 life and you gain 2 life.

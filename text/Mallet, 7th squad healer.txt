@@ -3,4 +3,5 @@ Cost: W
 Type: Legendary Creature - Malazan Wizard Soldier
 P/T: 1/1
 
-Lifelink T: Remove a counter from target creature. If it was a -1/-1 counter, gain 2 life.
+Lifelink
+T: Remove a counter from target creature. If that counter was a -1/-1 counter, you gain 2 life.

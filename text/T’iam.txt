@@ -3,4 +3,6 @@ Cost: 4BR
 Type: Legendary Creature - Elder Dragon God
 P/T: 5/5
 
-Flying This has the abilities of all Dragons you control. T, Sacrifice a creature you control, put a -1/-1 counter on this: Create a 4/4 dragon creature token with flying.
+Flying
+This has the abilities of all Dragons you control.
+T, Sacrifice a creature you control: Put a -1/-1 counter on this. Cook a 4/4 Dragon creature token with flying.

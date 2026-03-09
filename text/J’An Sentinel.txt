@@ -3,4 +3,4 @@ Cost: 2GU
 Type: Creature - Alien Dinosaur
 P/T: 4/2
 
-This cannot be blocked by creatures with less power that itself. 1GU, Q: Proliferate.
+This can't be blocked by creatures with power less than its own. 1GU, Slow: Proliferate.

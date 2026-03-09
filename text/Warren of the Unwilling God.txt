@@ -1,4 +1,4 @@
 Warren of the Unwilling God
 Type: Land - Warren
 
-This enters the battlefield tapped unless you control a creature with power 4 or greater. T: Add R, U or G. Slow, GUR, T, Sacrifice this: Target creature you control fights target creature you don’t control, then draw a card for each fight you’ve won this turn.
+This enters the battlefield tapped unless you control a creature with power 4 or greater. T: Add R, U, or G. Slow, GUR, T, Sacrifice this: Target creature you control fights target creature you donât control, then draw a card for each fight youâve won this turn.

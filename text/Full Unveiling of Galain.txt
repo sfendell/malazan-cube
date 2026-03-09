@@ -2,4 +2,5 @@ Full Unveiling of Galain
 Cost: U
 Type: Kindred Instant - Elder Elf
 
-Kicker W, kicker B Draw a card. Draw an additional card and lose two life if you paid WB. If you paid W, up to one target creature gets +1/+1 for each card you drew this turn. If you paid B, up to one target creature gets -1/-1 for each card you drew this turn.
+Kicker W, Kicker B
+Draw a card. If you paid WB, draw an additional card and lose 2 life. If you paid W, up to one target creature gets +1/+1 for each card you drew this turn. If you paid B, up to one target creature gets -1/-1 for each card you drew this turn.

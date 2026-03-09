@@ -2,4 +2,4 @@ The Ritual of Tellan
 Cost: 1BRG
 Type: Legendary Enchantment
 
-You cannot die for having less than 0 life or cast spells from your hand. Your hand size is 0. At the beginning of your upkeep, target instant or sorcery in your graveyard gets flashback 0. Exile it from your graveyard at the end of your turn. Then return target creature from your graveyard to the battlefield. If it is an Elder Zombie, it enters with two +1/+1 counters. Whenever a creature you control dies, exile it and mill 5.
+You cannot die for having less than 0 life or cast spells from your hand. Your hand size is 0. At the beginning of your upkeep, target instant or sorcery card in your graveyard gains flashback 0. Exile it from your graveyard at the end of your turn. Then return target creature card from your graveyard to the battlefield. If it is an Elder Zombie, it enters the battlefield with two +1/+1 counters on it. Whenever a creature you control dies, exile it and mill 5 cards.

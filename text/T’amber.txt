@@ -3,4 +3,6 @@ Cost: 3GG
 Type: Legendary Creature - Elder Human Advisor
 P/T: */*
 
-Vigilance This has power and toughness equal to the number of lands you control plus the number of creatures you control. 1G, T, Tap an untapped creature with a counter on it you control: Double target creature’s power.
+Vigilance
+This creature's power and toughness are each equal to the number of lands you control plus the number of creatures you control.
+1G, T, Tap an untapped creature you control with a counter on it: Double target creature's power.

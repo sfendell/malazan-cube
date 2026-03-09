@@ -3,4 +3,4 @@ Cost: 2GW
 Type: Legendary Creature - Human Warrior
 P/T: 3/3
 
-Whenever a creature goes to any graveyard, you gain 1 life. At the end of your turn, if you gained life this turn, untap all permanents you control. If you gained four or more life, draw a card. If you gained nine or more life, this ascends.
+Whenever a creature dies, you gain 1 life. At the beginning of your end step, if you gained life this turn, untap all permanents you control. If you gained four or more life, draw a card. If you gained nine or more life, this ascends.

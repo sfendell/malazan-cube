@@ -3,4 +3,4 @@ Cost: 1UB
 Type: Legendary Creature - Elder God
 P/T: 2/2
 
-Curiosity, Menace At the beginning of your upkeep, exile the top card of your library. Once per turn, you may play any card from exile with mana value less than the number of cards you control in exile.
+At the beginning of your upkeep, exile the top card of your library. Once each turn, you may play a card from exile with mana value less than the number of cards you control in exile.

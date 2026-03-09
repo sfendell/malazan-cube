@@ -3,4 +3,4 @@ Cost: 1BB
 Type: Creature - Malazan Demon Ally
 P/T: 3/3
 
-If you control three or more Warrens, Aptorian has deathtouch, menace, and “Sacrifice a creature: Regenerate this.” At the beginning of each end step, if exactly three creatures you control died this turn, draw three cards and lose three life. BBB: Surveil 3.
+If you control three or more Warrens, Aptorian has deathtouch, menace, and "Sacrifice a creature: Regenerate this." At the beginning of each end step, if exactly three creatures you control died this turn, draw three cards and lose three life. BBB: Surveil 3.

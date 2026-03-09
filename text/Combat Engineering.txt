@@ -2,4 +2,4 @@ Combat Engineering
 Cost: R
 Type: Enchantment
 
-Whenever you sacrifice a land, creature a 1/1 Malazan Sapper creature token. 1R, Sacrifice a nontoken permanent: Deal 2 damage to any target.
+Whenever you sacrifice a land, create a 1/1 Malazan Sapper creature token. 1R, Sacrifice a nontoken permanent: Deal 2 damage to any target.

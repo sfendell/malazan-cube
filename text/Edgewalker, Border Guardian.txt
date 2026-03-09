@@ -3,4 +3,4 @@ Cost: WUB
 Type: Legendary Creature - Elder Elemental
 P/T: 3/3
 
-Whenever a creature dies, scry 1. Whenever a creature is exiled, draw a card. Whenever a creature enters its owners library or hand from the battlefield, draw two cards.
+Whenever a creature dies, scry 1. Whenever a creature is exiled, draw a card. Whenever a creature enters its owner's library or hand from the battlefield, draw two cards.

@@ -3,4 +3,4 @@ Cost: 1W
 Type: Legendary Creature - Child Assassin
 P/T: 2/2
 
-Vigilance B, T: This gains deathtouch until end of turn. Whenever a creature you control with power one or less dies, draw a card.
+Vigilance, B, T: This gains deathtouch until end of turn. Whenever a creature you control with power 1 or less dies, draw a card.

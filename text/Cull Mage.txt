@@ -2,4 +2,4 @@ Cull Mage
 Cost: 1W
 Type: Sorcery
 
-Destroy target Wizard or creature with an activated ability. Draw a card.
+Destroy target Wizard or creature with an activated ability. You draw a card.

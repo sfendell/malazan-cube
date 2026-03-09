@@ -3,4 +3,4 @@ Cost: 2RR
 Type: Creature - Insect Sapper
 P/T: 5/1
 
-Whenever this attacks, create a Cusser. W/U: This gains flying until end of turn.
+Whenever this attacks, cook a Cusser. W/U: This gains flying until end of turn.

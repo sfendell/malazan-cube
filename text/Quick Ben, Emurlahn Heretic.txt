@@ -3,4 +3,4 @@ Cost: 1B
 Type: Legendary Creature - Malazan Wizard Soul
 P/T: 1/1
 
-Slow, 3B, T, Tap an untapped Warren you control: Target player discards X cards, where X is 1 plus the number of exiled Souls. Creatures can’t phase in. When this dies, put a Soul you own from outside the game on top of your library.
+Slow, 3B, T, Tap an untapped Warren you control: Target player discards X cards, where X is 1 plus the number of exiled Souls. Creatures can't phase in. When this dies, put a Soul you own from outside the game on top of your library.

@@ -3,4 +3,4 @@ Cost: 3W
 Type: Legendary Creature - Elder Elf
 P/T: 2/4
 
-Double strike Equipped Elder Elves you control have double strike.
+Equipped Elder Elves you control have double strike.

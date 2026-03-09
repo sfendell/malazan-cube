@@ -3,4 +3,5 @@ Cost: 2WW
 Type: Legendary Creature - Human Knight
 P/T: 3/3
 
-Vigilance Other creatures you control get +1/+1 for each equipment attached to them. Brys gets +2/+2 for each equipment attached to him.
+Vigilance
+Other creatures you control get +1/+1 for each Equipment attached to them. Brys gets +2/+2 for each Equipment attached to him.

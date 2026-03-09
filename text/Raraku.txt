@@ -1,4 +1,4 @@
 Raraku
 Type: Land - Desert Warren
 
-This enters the battlefield tapped unless you attacked this turn. At the beginning of your upkeep, you may sacrifice a land. If you do, create a 1/1 Red and Green Rebel creature token with riot. T: Add R or G.
+This enters the battlefield tapped unless you attacked this turn. At the beginning of your upkeep, you may sacrifice a land. If you do, cook a 1/1 red and green Rebel creature token with riot. T: Add R or G.

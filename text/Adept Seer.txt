@@ -3,4 +3,4 @@ Cost: 1U
 Type: Creature - Human Wizard
 P/T: 2/1
 
-Instants and sorceries cost you 1 less to cast. Whenever you scry, target creature you control gains flying until end of turn.
+Instants and sorceries you cast cost 1 less to cast. Whenever you scry, target creature you control gains flying until end of turn.

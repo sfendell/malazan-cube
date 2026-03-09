@@ -2,4 +2,4 @@ Night of Knives
 Cost: 1BB
 Type: Instant
 
-Kicker—Sacrifice seven creatures Destroy target creature. If this was kicked, target creature ascends.
+KickerâSacrifice seven creatures: Destroy target creature. If this spell was kicked, target creature ascends.

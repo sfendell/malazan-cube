@@ -3,4 +3,5 @@ Cost: 3RG
 Type: Creature - Dragon
 P/T: 4/4
 
-Flying, Trample Slow, T, G, Sacrifice an artifact or enchantment: This fights target creature.
+Flying, Trample
+Slow, T, G, Sacrifice an artifact or enchantment: This creature fights target creature.

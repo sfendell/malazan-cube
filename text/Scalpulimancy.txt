@@ -2,4 +2,4 @@ Scalpulimancy
 Cost: 2B
 Type: Sorcery
 
-Scry 2, then draw two cards. Lose two life. Plunder.
+Scry 2, then draw two cards. You lose 2 life. Plunder.

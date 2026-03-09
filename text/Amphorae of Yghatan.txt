@@ -2,4 +2,4 @@ Amphorae of Yghatan
 Cost: 4
 Type: Artifact
 
-T: Add one mana of any color. Put an Oil counter on this. RW, Sacrifice this: Deal X damage to all attacking creatures, where X is the number of oil counters on this.
+T: Add one mana of any color. Put an oil counter on this. RW, Sacrifice this: Deal X damage to each attacking creature, where X is the number of oil counters on this.

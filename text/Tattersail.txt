@@ -3,4 +3,4 @@ Cost: 2UU
 Type: Legendary Creature - Malazan Wizard
 P/T: 1/3
 
-At the beginning of your upkeep, draw a card. Whenever you would scry X, scry X plus one.
+At the beginning of your upkeep, draw a card. Whenever you scry, scry an additional card.

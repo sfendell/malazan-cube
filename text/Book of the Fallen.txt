@@ -2,4 +2,4 @@ Book of the Fallen
 Cost: W/BR/W
 Type: Kindred Artifact - Malazan
 
-Whenever a creature you control dies, gain 2 life. If it was sacrificed to a triggered ability or the cost of an activated ability, copy that ability.
+Whenever a creature you control dies, you gain 2 life. If that creature was sacrificed to activate a triggered ability or as the cost of an activated ability, copy that ability.

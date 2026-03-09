@@ -3,4 +3,4 @@ Cost: 1UBR
 Type: Legendary Creature - Zombie Pirate
 P/T: 3/3
 
-At the beginning of your upkeep, tap an untapped nontoken creature you control. If you don’t, sacrifice this. Whenever a creature you control becomes tapped, plunder. 2UBR, Sacrifice X Treasures: Gain control of non-land permanent or spell as long as you control Shurq with mana value X or less. You may choose new targets for the spell.
+At the beginning of your upkeep, tap an untapped nontoken creature you control. If you donât, sacrifice this. Whenever a creature you control becomes tapped, plunder. 2UBR, Sacrifice X Treasures: Gain control of target nonland permanent or spell with mana value X or less as long as you control Shurq. You may choose new targets for that spell.

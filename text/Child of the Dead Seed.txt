@@ -3,4 +3,4 @@ Cost: 1B
 Type: Creature - Child
 P/T: 1/1
 
-Children cannot block. Whenever another non-token creature you control dies, create a token that is a copy of this card. This ability triggers only once per turn. (Copies of this card may trigger as well.)
+Children can't block. Whenever another non-token creature you control dies, cook a token that's a copy of this card. This ability triggers only once each turn. (Copies of this card may trigger as well.)

@@ -2,4 +2,4 @@ Compassion
 Cost: GW
 Type: Instant
 
-Creatures you control get hexproof and indestructible until end of turn. Whenever you gain life this turn, put a +1/+1 counter on target creature.
+Creatures you control gain hexproof and indestructible until end of turn. Whenever you gain life this turn, put a +1/+1 counter on target creature.

@@ -1,4 +1,4 @@
 Silk Shirt
 Type: Token Artifact - Equipment
 
-Equipped creature gets +1/+1. Equip 1
+Equipped creature gets +1/+1. Equip 1.

@@ -3,4 +3,4 @@ Cost: 2WB
 Type: Legendary Creature - Elder
 P/T: 4/4
 
-Exploit Whenever you sacrifice a a permanent, put a +1/+1 counter on this and flip a coin. If it’s heads, put a +1/+1 counter on another target creature. If it’s tails, bleed. Whenever you discard your fourth card in a turn, this ascends.
+Exploit â Whenever you sacrifice a permanent, put a +1/+1 counter on this creature and flip a coin. If you win the flip, put a +1/+1 counter on another target creature. If you lose the flip, bleed. Whenever you discard your fourth card in a turn, this ascends.

@@ -2,4 +2,4 @@ Ritual of Shorning
 Cost: 1WW
 Type: Instant
 
-Exile any number of target creatures with the same name. For each creature exiled this way, its controller gains one life.
+Exile any number of target creatures with the same name. For each creature exiled this way, its controller gains 1 life.

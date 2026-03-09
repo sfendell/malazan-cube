@@ -3,4 +3,4 @@ Cost: 1BR
 Type: Legendary Creature - Malazan Child Wizard
 P/T: 1/2
 
-T, Pay 1 life, Sacrifice a permanent: Impulse 1. At the end of your turn, if the impulsed card is still in exile, deal X damage to any target, where X is its mana value.
+T, Pay 1 life, Sacrifice a permanent: Impulse 1. At the beginning of your end step, if the card exiled this way is still in exile, deal X damage to any target, where X is its mana value.
