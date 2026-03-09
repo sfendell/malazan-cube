@@ -3,4 +3,4 @@ Cost: 2WU
 Type: Legendary Creature - Frog Advisor
 P/T: 3/3
 
-Affinity for Treasures Whenever an artifact enters the battlefield under your control, choose one. If it’s a Treasure, choose both: • Tap target creature. • Target creature gets +1/+1 until end of turn.
+Affinity for Treasures Whenever an artifact enters under your control, choose one. If it’s a Treasure, choose both: • Tap target creature. • Target creature gets +1/+1 until end of turn.

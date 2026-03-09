@@ -25,7 +25,7 @@
     "img": "Akhrast Korvelain.png",
     "colors": "",
     "typeLine": "Kindred Land - Elder Warren",
-    "text": "This enters the battlefield tapped unless an opponent has discarded a card this turn. T: Add U, R, or B. 3UBR, T, Slow, Sacrifice this: Target opponent discards their hand."
+    "text": "This enters tapped unless an opponent has discarded a card this turn. T: Add U, R, or B. 3UBR, T, Slow, Sacrifice this: Target opponent discards their hand."
   },
   {
     "name": "Always an Even Exchange",
@@ -172,7 +172,7 @@
     "img": "Baruk the Well-Read.png",
     "colors": "WU",
     "typeLine": "Legendary Creature - Human Advisor",
-    "text": "Whenever a historic permanent enters the battlefield under your control, scry 1 and gain 1 life. If it has an activated ability, you may pay 1. If you do, draw a card. Artifacts cards in your hand have affinity for legendaries."
+    "text": "Whenever a historic permanent enters under your control, scry 1 and gain 1 life. If it has an activated ability, you may pay 1. If you do, draw a card. Artifacts cards in your hand have affinity for legendaries."
   },
   {
     "name": "Battle to the Death",
@@ -200,7 +200,7 @@
     "img": "Beast Hold.png",
     "colors": "",
     "typeLine": "Kindred Land - Elder Warren",
-    "text": "This enters the battlefield tapped unless you control more creatures than your opponent. T: Add W, R or G. RGW, T, Sacrifice this: Put a double strike counter on target creature you control with power 2 or less."
+    "text": "This enters tapped unless you control more creatures than your opponent. T: Add W, R or G. RGW, T, Sacrifice this: Put a double strike counter on target creature you control with power 2 or less."
   },
   {
     "name": "Beast Holds Banner",
@@ -319,7 +319,7 @@
     "img": "Brother Grave.png",
     "colors": "WU",
     "typeLine": "Creature - Elder Pure",
-    "text": "Flash, Vigilance When this enters the battlefield, counter target non-Pure spell. 7B, T, Sacrifice this: Destroy target non-Pure creature."
+    "text": "Flash, Vigilance When this enters, counter target non-Pure spell. 7B, T, Sacrifice this: Destroy target non-Pure creature."
   },
   {
     "name": "Brukhalian Feners Mortal Sword",
@@ -389,7 +389,7 @@
     "img": "Captain Gruff.png",
     "colors": "W",
     "typeLine": "Legendary Creature - Malazan Assassin Soldier",
-    "text": "When this enters the battlefield, create a Comb token, a Silk Shirt token, a Fine Trousers token, a Exquisite Manicure token, and bleed. Whenever a creature with power and toughness that differ by more than 2 does damage to a player, create a copy of a token you control."
+    "text": "When this enters, create a Comb token, a Silk Shirt token, a Fine Trousers token, a Exquisite Manicure token, and bleed. Whenever a creature with power and toughness that differ by more than 2 does damage to a player, create a copy of a token you control."
   },
   {
     "name": "Chained Lightning",
@@ -466,7 +466,7 @@
     "img": "Convergence.png",
     "colors": "UWRBG",
     "typeLine": "Enchantment",
-    "text": "Whenever a God or Elder enters the battlefield or a creature ascends, place two omen counters on this. Remove all omen counters from this: Destroy all non-God, non-Elder creatures, then tutor all Elder or God cards to the battlefield with mana value less than the omen counters removed. Target opponent gains control of this."
+    "text": "Whenever a God or Elder enters or a creature ascends, place two omen counters on this. Remove all omen counters from this: Destroy all non-God, non-Elder creatures, then tutor all Elder or God cards to the battlefield with mana value less than the omen counters removed. Target opponent gains control of this."
   },
   {
     "name": "Convergent Flames",
@@ -487,7 +487,7 @@
     "img": "Corporal Aimless.png",
     "colors": "R",
     "typeLine": "Legendary Creature - Malazan Sapper",
-    "text": "When this enters the battlefield, create a Cusser."
+    "text": "When this enters, create a Cusser."
   },
   {
     "name": "Cotillion God of Assassins",
@@ -564,7 +564,7 @@
     "img": "Darujhistan.png",
     "colors": "",
     "typeLine": "Land - Town",
-    "text": "This enters the battlefield tapped unless you control a creature. T: Add G or W. U, T: Sacrifice this: Add RRR."
+    "text": "This enters tapped unless you control a creature. T: Add G or W. U, T: Sacrifice this: Add RRR."
   },
   {
     "name": "Daughter Dusk",
@@ -592,7 +592,7 @@
     "img": "Denaeth Rusen.png",
     "colors": "",
     "typeLine": "Kindred Land - Elder Warren",
-    "text": "This enters the battlefield tapped unless you cast an instant or sorcery this turn. T: Add R or U. 2UR, T, Sacrifice this: Until end of turn, the next instant or sorcery you cast has mindstorm."
+    "text": "This enters tapped unless you cast an instant or sorcery this turn. T: Add R or U. 2UR, T, Sacrifice this: Until end of turn, the next instant or sorcery you cast has mindstorm."
   },
   {
     "name": "Denul Revival",
@@ -620,7 +620,7 @@
     "img": "Divine Possession.png",
     "colors": "UB",
     "typeLine": "Enchantment - Aura",
-    "text": "Enchant non-God When this enters the battlefield, tutor a God into exile. Enchanted creature is a copy of exiled card. When enchanted creature dies, put the exiled card into its owners hand."
+    "text": "Enchant non-God When this enters, tutor a God into exile. Enchanted creature is a copy of exiled card. When enchanted creature dies, put the exiled card into its owners hand."
   },
   {
     "name": "Donkey Showdown",
@@ -690,7 +690,7 @@
     "img": "Dujek Onearm.png",
     "colors": "W",
     "typeLine": "Legendary Creature - Malazan Soldier",
-    "text": "Vigilance Whenever you gain life, return target creature with power less than Dujek Onearm from your graveyard to the battlefield. Whenever a creature with power greater than Dujek enters the battlefield, gain 1 life and amass Malazans 1."
+    "text": "Vigilance Whenever you gain life, return target creature with power less than Dujek Onearm from your graveyard to the battlefield. Whenever a creature with power greater than Dujek enters, gain 1 life and amass Malazans 1."
   },
   {
     "name": "Edgewalker Border Guardian",
@@ -725,7 +725,7 @@
     "img": "Ensconce in Dream.png",
     "colors": "W",
     "typeLine": "Enchantment",
-    "text": "When this enters the battlefield, exile target creature until this leaves the battlefield. Its owner gains X life, where X was the creature’s power plus its toughness. If you control an Elder God or Magnanimous Kruppe, draw a card."
+    "text": "When this enters, exile target creature until this leaves the battlefield. Its owner gains X life, where X was the creature’s power plus its toughness. If you control an Elder God or Magnanimous Kruppe, draw a card."
   },
   {
     "name": "Enslave",
@@ -760,7 +760,7 @@
     "img": "Exquisite Manicure.png",
     "colors": "",
     "typeLine": "Token Enchantment - Aura",
-    "text": "Enchant creature This enters the battlefield attached to a creature you control. Enchanted creature gets +2/+0."
+    "text": "Enchant creature This enters attached to a creature you control. Enchanted creature gets +2/+0."
   },
   {
     "name": "Feather Witch",
@@ -956,14 +956,14 @@
     "img": "Heboric Light Touch.png",
     "colors": "RG",
     "typeLine": "Legendary Creature - Malazan Advisor",
-    "text": "This enters the battlefield with two +1/+1 counters on it. 2, T, Remove a +1/+1 counter from this: Destroy target noncreature, nonland permanent. When this dies, exile target God."
+    "text": "This enters with two +1/+1 counters on it. 2, T, Remove a +1/+1 counter from this: Destroy target noncreature, nonland permanent. When this dies, exile target God."
   },
   {
     "name": "Hedge",
     "img": "Hedge.png",
     "colors": "R",
     "typeLine": "Legendary Creature - Malazan Sapper",
-    "text": "When this enters the battlefield, create a Cusser. Afterlife 1"
+    "text": "When this enters, create a Cusser. Afterlife 1"
   },
   {
     "name": "Hellian Drunken Sergeant",
@@ -1019,7 +1019,7 @@
     "img": "Hunter of High House War.png",
     "colors": "RG",
     "typeLine": "Enchantment - Fatid Aura",
-    "text": "Enchant non-God creature When this enters the battlefield, enchanted creature fights target creature with a different owner. Enchanted creature has “Whenever this wins a fight, deal 3 damage to any target.” and “At the end of your turn, if this attacked, untap it. Otherwise, tap it.”"
+    "text": "Enchant non-God creature When this enters, enchanted creature fights target creature with a different owner. Enchanted creature has “Whenever this wins a fight, deal 3 damage to any target.” and “At the end of your turn, if this attacked, untap it. Otherwise, tap it.”"
   },
   {
     "name": "Hust Sword",
@@ -1061,7 +1061,7 @@
     "img": "Imperial Warren.png",
     "colors": "",
     "typeLine": "Kindred Land - Malazan Warren",
-    "text": "This enters the battlefield tapped unless you control an artifact token. Whenever you bleed, create a Cusser token. T: Add R or W."
+    "text": "This enters tapped unless you control an artifact token. Whenever you bleed, create a Cusser token. T: Add R or W."
   },
   {
     "name": "Improvise",
@@ -1075,7 +1075,7 @@
     "img": "Indebt.png",
     "colors": "B",
     "typeLine": "Enchantment - Aura",
-    "text": "Enchant creature Put X -1/-1 counters on enchanted creature as this enters the battlefield. At the beginning of each upkeep, remove a counter from enchanted creature. If you do, plunder X times, where X is enchanted creature’s toughness."
+    "text": "Enchant creature Put X -1/-1 counters on enchanted creature as this enters. At the beginning of each upkeep, remove a counter from enchanted creature. If you do, plunder X times, where X is enchanted creature’s toughness."
   },
   {
     "name": "Iskaral Pust Possibly Insane",
@@ -1173,7 +1173,7 @@
     "img": "Kaschan.png",
     "colors": "",
     "typeLine": "Land - Warren",
-    "text": "This enters the battlefield tapped unless you control a creature with a counter on it. Whenever you put a counter on a creature you control, scry 1. This ability triggers only once per turn. T: Add U or G."
+    "text": "This enters tapped unless you control a creature with a counter on it. Whenever you put a counter on a creature you control, scry 1. This ability triggers only once per turn. T: Add U or G."
   },
   {
     "name": "KChain Ascendancy",
@@ -1222,7 +1222,7 @@
     "img": "Kilmandaros.png",
     "colors": "RG",
     "typeLine": "Creature - Elder God",
-    "text": "Whenever a creature with power less than Kilmandaros’ toughness enters the battlefield, she fights it. When she she wins the fight, destroy target non-creature, non-land permanent."
+    "text": "Whenever a creature with power less than Kilmandaros’ toughness enters, she fights it. When she she wins the fight, destroy target non-creature, non-land permanent."
   },
   {
     "name": "Kimloc Tanno Spiritwalker",
@@ -1285,7 +1285,7 @@
     "img": "Kurald Liosan.png",
     "colors": "",
     "typeLine": "Kindred Land - Elder Warren",
-    "text": "This enters the battlefield tapped if there is more than one color among permanents you control. White creatures you control that are not any other color get +0/+1. T: Add B or W."
+    "text": "This enters tapped if there is more than one color among permanents you control. White creatures you control that are not any other color get +0/+1. T: Add B or W."
   },
   {
     "name": "Lady Envy",
@@ -1320,7 +1320,7 @@
     "img": "Leoman of the Flails.png",
     "colors": "RG",
     "typeLine": "Legendary Creature - Human Warrior",
-    "text": "As an additional cost to play this card, you may behold a God. Rebels you control get +2/+0, trample and haste. This enters the battlefield with a Rebel subtype counter if a God was beheld."
+    "text": "As an additional cost to play this card, you may behold a God. Rebels you control get +2/+0, trample and haste. This enters with a Rebel subtype counter if a God was beheld."
   },
   {
     "name": "Letheri Debtdriver",
@@ -1334,7 +1334,7 @@
     "img": "Letheri Trader.png",
     "colors": "WB",
     "typeLine": "Creature - Human Merchant",
-    "text": "Whenever a creature enters the battlefield under your control, plunder. T, Sacrifice five treasures: Return target permanent from your graveyard to your hand."
+    "text": "Whenever a creature enters under your control, plunder. T, Sacrifice five treasures: Return target permanent from your graveyard to your hand."
   },
   {
     "name": "Letherii Ascendancy",
@@ -1348,7 +1348,7 @@
     "img": "Letherii Banner.png",
     "colors": "",
     "typeLine": "Kindred Artifact - Merchant",
-    "text": "This enters the battlefield tapped unless you control a Treasure. T: Add W, B, or G. WBG, T, Sacrifice this: Draw a card."
+    "text": "This enters tapped unless you control a Treasure. T: Add W, B, or G. WBG, T, Sacrifice this: Draw a card."
   },
   {
     "name": "Letherii Ledger Keeper",
@@ -1362,7 +1362,7 @@
     "img": "Life Hold.png",
     "colors": "",
     "typeLine": "Kindred Land - Elder Warren",
-    "text": "This enters the battlefield tapped unless you gained life this turn. T: Add W, U, or G. GWU, T, Sacrifice this: Scry X, where X is the amount of life you’ve gained this turn. Then reveal the top card of your library. If it’s a land, put it onto the battlefield."
+    "text": "This enters tapped unless you gained life this turn. T: Add W, U, or G. GWU, T, Sacrifice this: Scry X, where X is the amount of life you’ve gained this turn. Then reveal the top card of your library. If it’s a land, put it onto the battlefield."
   },
   {
     "name": "Lob",
@@ -1425,7 +1425,7 @@
     "img": "Malazan Ascendancy.png",
     "colors": "WRB",
     "typeLine": "Kindred Enchantment - Malazan",
-    "text": "Malazans you control get +1/+1. Whenever a creature enters the battlefield under your control, deal one damage to any target. Whenever an artifact you control goes to the graveyard, gain one life."
+    "text": "Malazans you control get +1/+1. Whenever a creature enters under your control, deal one damage to any target. Whenever an artifact you control goes to the graveyard, gain one life."
   },
   {
     "name": "Malazan Recruiter",
@@ -1488,7 +1488,7 @@
     "img": "Military Banner.png",
     "colors": "",
     "typeLine": "Kindred Artifact - Malazan",
-    "text": "This enters the battlefield tapped unless you control a Sapper or an Army. T: Add R, W, or B. RWB, T, Sacrifice Malazan Banner: Draw a card."
+    "text": "This enters tapped unless you control a Sapper or an Army. T: Add R, W, or B. RWB, T, Sacrifice Malazan Banner: Draw a card."
   },
   {
     "name": "Mincer Sapper Captain",
@@ -1572,7 +1572,7 @@
     "img": "Nefarias Bredd.png",
     "colors": "G",
     "typeLine": "Legendary Creature - Soldier Avatar",
-    "text": "When this enters the battlefield or attacks, cook, then create a 1/1 red and white Malazan Soldier token. Nefariasâ€™ power and toughness is equal to 1 plus the number of tokens you control. Creatures you control have â€œT: Cook.â€ Foods you control have â€œR/, T: Populate.â€."
+    "text": "When this enters or attacks, cook, then create a 1/1 red and white Malazan Soldier token. Nefariasâ€™ power and toughness is equal to 1 plus the number of tokens you control. Creatures you control have â€œT: Cook.â€ Foods you control have â€œR/, T: Populate.â€."
   },
   {
     "name": "Nerruse Lady of Fair Winds",
@@ -1614,7 +1614,7 @@
     "img": "Omtose Phellack.png",
     "colors": "",
     "typeLine": "Land - Warren",
-    "text": "This enters the battlefield tapped unless you control exactly one creature. Whenever you attack with exactly one creature, if there is a stun counter on an opponents creature, draw a card. T: Add W or U."
+    "text": "This enters tapped unless you control exactly one creature. Whenever you attack with exactly one creature, if there is a stun counter on an opponents creature, draw a card. T: Add W or U."
   },
   {
     "name": "Onos Toolan First Sword",
@@ -1628,7 +1628,7 @@
     "img": "Onrack the Broken.png",
     "colors": "G",
     "typeLine": "Legendary Creature - Elder Zombie Warrior",
-    "text": "When this enters the battlefield, you may mill yourself until you mill two lands. You may play lands from your graveyard and may play an additional land each turn. Whenever a land leaves your graveyard, put a +1/+1 counter on a creature you control with power lower than this."
+    "text": "When this enters, you may mill yourself until you mill two lands. You may play lands from your graveyard and may play an additional land each turn. Whenever a land leaves your graveyard, put a +1/+1 counter on a creature you control with power lower than this."
   },
   {
     "name": "Order Munitions",
@@ -1719,7 +1719,7 @@
     "img": "Potsherds.png",
     "colors": "",
     "typeLine": "Artifact",
-    "text": "This enters the battlefield tapped. T: Add one mana of any color. 2, T, Sacrifice this: Draw a card."
+    "text": "This enters tapped. T: Add one mana of any color. 2, T, Sacrifice this: Draw a card."
   },
   {
     "name": "Pran Chole Bonecaster",
@@ -1873,7 +1873,7 @@
     "img": "Raraku.png",
     "colors": "",
     "typeLine": "Land - Desert Warren",
-    "text": "This enters the battlefield tapped unless you attacked this turn. At the beginning of your upkeep, you may sacrifice a land. If you do, create a 1/1 Red and Green Rebel creature token with riot. T: Add R or G."
+    "text": "This enters tapped unless you attacked this turn. At the beginning of your upkeep, you may sacrifice a land. If you do, create a 1/1 Red and Green Rebel creature token with riot. T: Add R or G."
   },
   {
     "name": "Rat Catchers Guild",
@@ -1908,14 +1908,14 @@
     "img": "Refugium.png",
     "colors": "",
     "typeLine": "Land - Warren",
-    "text": "This enters the battlefield tapped unless a creature has entered the battlefield under your control this turn. Creature spells you control have ward 1. T: Add W or G."
+    "text": "This enters tapped unless a creature has entered the battlefield under your control this turn. Creature spells you control have ward 1. T: Add W or G."
   },
   {
     "name": "Remembrance of a Lost God",
     "img": "Remembrance of a Lost God.png",
     "colors": "U",
     "typeLine": "Enchantment - Aura",
-    "text": "Enchant creature When this enters the battlefield, exile a creature card from your graveyard. If exiled card is a God, enchanted creature ascends. Enchanted creature has all abilities of the exiled card."
+    "text": "Enchant creature When this enters, exile a creature card from your graveyard. If exiled card is a God, enchanted creature ascends. Enchanted creature has all abilities of the exiled card."
   },
   {
     "name": "Reverse Engineer",
@@ -1943,7 +1943,7 @@
     "img": "Rhivi Naming Coven.png",
     "colors": "G",
     "typeLine": "Creature - Witch",
-    "text": "Whenever an Enchantment enters the battlefield under your control, draw a card. 2W, T, Slow: Attach target Aura to another permanent it can enchant. T: Place a name or subtype counter of your choice on target creature."
+    "text": "Whenever an Enchantment enters under your control, draw a card. 2W, T, Slow: Attach target Aura to another permanent it can enchant. T: Place a name or subtype counter of your choice on target creature."
   },
   {
     "name": "Rhulad Emporer of 1000 Deaths",
@@ -1971,7 +1971,7 @@
     "img": "Ruse Apprentice.png",
     "colors": "U",
     "typeLine": "Creature - Wizard",
-    "text": "Flash When this enters the battlefield, scry 2. 1UU, Sacrifice this: Counter target spell or activated ability. Activate this only if you’ve scried this turn."
+    "text": "Flash When this enters, scry 2. 1UU, Sacrifice this: Counter target spell or activated ability. Activate this only if you’ve scried this turn."
   },
   {
     "name": "SagChurok",
@@ -1985,14 +1985,14 @@
     "img": "Samar Dev.png",
     "colors": "U",
     "typeLine": "Legendary Creature - Human Witch Artificer",
-    "text": "Whenever a non-Construct artifact enters the battlefield under your control, you may create a 1/2 colorless Construct artifact creature token with prowess. Instants and sorceries you cast cost 1 less for each artifact you control."
+    "text": "Whenever a non-Construct artifact enters under your control, you may create a 1/2 colorless Construct artifact creature token with prowess. Instants and sorceries you cast cost 1 less for each artifact you control."
   },
   {
     "name": "Savvy Merchant",
     "img": "Savvy Merchant.png",
     "colors": "WB",
     "typeLine": "Creature - Human Merchant",
-    "text": "Whenever a token enters the battlefield under your control, gain 1 life. Whenever you sacrifice a permanent, each opponent loses 1 life."
+    "text": "Whenever a token enters under your control, gain 1 life. Whenever you sacrifice a permanent, each opponent loses 1 life."
   },
   {
     "name": "Scabandari Bloodeye",
@@ -2041,14 +2041,14 @@
     "img": "Send into the Rent.png",
     "colors": "W",
     "typeLine": "Enchantment - Aura",
-    "text": "Enchant Warren you control When this enters the battlefield, exile target creature until this leaves the battlefield. When this leaves the battlefield, return target creature from your graveyard to your hand."
+    "text": "Enchant Warren you control When this enters, exile target creature until this leaves the battlefield. When this leaves the battlefield, return target creature from your graveyard to your hand."
   },
   {
     "name": "Serc",
     "img": "Serc.png",
     "colors": "",
     "typeLine": "Land - Warren",
-    "text": "This enters the battlefield tapped unless you’ve dealt noncombat damage this turn. T: Add R, U, or W. URW, T, Sacrifice this: Draw a card if a permanent took noncombat damage this turn. Draw a card if a player took combat damage this turn."
+    "text": "This enters tapped unless you’ve dealt noncombat damage this turn. T: Add R, U, or W. URW, T, Sacrifice this: Draw a card if a permanent took noncombat damage this turn. Draw a card if a player took combat damage this turn."
   },
   {
     "name": "Serc Expulsion",
@@ -2125,14 +2125,14 @@
     "img": "Siege of Capustan.png",
     "colors": "R",
     "typeLine": "Battle - Siege",
-    "text": "When this enters the battlefield, deal 3 damage divided among any number of targets. ​"
+    "text": "When this enters, deal 3 damage divided among any number of targets. ​"
   },
   {
     "name": "Siege of Yghatan",
     "img": "Siege of Yghatan.png",
     "colors": "B",
     "typeLine": "Battle - Siege",
-    "text": "When this enters the battlefield, destroy all creatures. Each player loses life equal to the creatures they controlled destroyed this way. ​"
+    "text": "When this enters, destroy all creatures. Each player loses life equal to the creatures they controlled destroyed this way. ​"
   },
   {
     "name": "Silanah Redwings",
@@ -2181,7 +2181,7 @@
     "img": "Sister Calm.png",
     "colors": "W",
     "typeLine": "Legendary Creature - Elder Pure",
-    "text": "Vigilance This enters the battlefield tapped and doesn’t untap during your untap phase. Whenever a creature with power or toughness higher than this enters the battlefield, or this is dealt damage, untap it."
+    "text": "Vigilance This enters tapped and doesn’t untap during your untap phase. Whenever a creature with power or toughness higher than this enters, or this is dealt damage, untap it."
   },
   {
     "name": "Sister Scorn",
@@ -2209,7 +2209,7 @@
     "img": "Sky Drone.png",
     "colors": "U",
     "typeLine": "Creature - Alien Dinosaur",
-    "text": "This enters the battlefield with a flying counter on it. Slow, T: Move target counter from target creature you control to another target creature."
+    "text": "This enters with a flying counter on it. Slow, T: Move target counter from target creature you control to another target creature."
   },
   {
     "name": "Sleight of Hand",
@@ -2251,14 +2251,14 @@
     "img": "Stake.png",
     "colors": "W",
     "typeLine": "Enchantment - Aura",
-    "text": "Enchant artifact When this enters the battlefield, gain two life and exile target creature until this leaves the battlefield."
+    "text": "Enchant artifact When this enters, gain two life and exile target creature until this leaves the battlefield."
   },
   {
     "name": "Starvald Demelain",
     "img": "Starvald Demelain.png",
     "colors": "",
     "typeLine": "Land - Warren",
-    "text": "This enters the battlefield tapped unless you control a Dragon. T: Add R. T: Add one mana of any color another Warren you control could produce."
+    "text": "This enters tapped unless you control a Dragon. T: Add R. T: Add one mana of any color another Warren you control could produce."
   },
   {
     "name": "Stillwater",
@@ -2272,7 +2272,7 @@
     "img": "Stolen Table.png",
     "colors": "G",
     "typeLine": "Legendary Kindred Artifact - Elder",
-    "text": "T, Tap an untapped creature you control: Tutor a Warren to the battlefield that shares a color in its identity with the tapped creature. Whenever a Warren enters the battlefield under your control, create a 2/2 Green Wolf creature token. It fights target creature you don’t control."
+    "text": "T, Tap an untapped creature you control: Tutor a Warren to the battlefield that shares a color in its identity with the tapped creature. Whenever a Warren enters under your control, create a 2/2 Green Wolf creature token. It fights target creature you don’t control."
   },
   {
     "name": "Storm of Dragons",
@@ -2314,7 +2314,7 @@
     "img": "Teblor Banner.png",
     "colors": "",
     "typeLine": "Kindred Artifact - Giant",
-    "text": "This enters the battlefield tapped unless you control a creature with power 4 or greater. T: Add R, U, or G. GUR, T, Sacrifice Teblor Banner: Draw a card."
+    "text": "This enters tapped unless you control a creature with power 4 or greater. T: Add R, U, or G. GUR, T, Sacrifice Teblor Banner: Draw a card."
   },
   {
     "name": "Tehol Economic Savant",
@@ -2328,14 +2328,14 @@
     "img": "Tellan.png",
     "colors": "",
     "typeLine": "Land - Warren",
-    "text": "This enters the battlefield tapped unless at least one player lost life this turn. Whenever a creature you control dies, deal 1 damage to any target if there is a land in your graveyard. T: Add B, R, or G."
+    "text": "This enters tapped unless at least one player lost life this turn. Whenever a creature you control dies, deal 1 damage to any target if there is a land in your graveyard. T: Add B, R, or G."
   },
   {
     "name": "Tellan Earthrending",
     "img": "Tellan Earthrending.png",
     "colors": "G",
     "typeLine": "Kindred Sorcery - Elder Zombie",
-    "text": "Kicker R, kicker B Tutor a basic land to your hand. If you paid R, whenever a land enters the battlefield this turn under your control, deal 2 damage to target creature. If you paid B, whenever an opponent’s creature dies this turn, they lose 2 life. Then if you paid R, you may play an additional land this turn."
+    "text": "Kicker R, kicker B Tutor a basic land to your hand. If you paid R, whenever a land enters this turn under your control, deal 2 damage to target creature. If you paid B, whenever an opponent’s creature dies this turn, they lose 2 life. Then if you paid R, you may play an additional land this turn."
   },
   {
     "name": "Telorast and Curdle",
@@ -2356,7 +2356,7 @@
     "img": "Tennes.png",
     "colors": "",
     "typeLine": "Land - Warren",
-    "text": "This enters the battlefield tapped unless there’s a land in your graveyard. T: Add B or G. T, Exile a land from your graveyard: Add one mana of any color."
+    "text": "This enters tapped unless there’s a land in your graveyard. T: Add B or G. T, Exile a land from your graveyard: Add one mana of any color."
   },
   {
     "name": "Tennes Ritual",
@@ -2370,7 +2370,7 @@
     "img": "The Chain of Dogs.png",
     "colors": "B",
     "typeLine": "Enchantment",
-    "text": "When this enters the battlefield, target opponent gains control of it. At the beginning of your upkeep, create a 0/1 black Malazan Coward creature token. Creatures you control with power less than or equal the number of Cowards you control can’t attack or block. 1, Pay 2 life: Target player gains control of target creature you control."
+    "text": "When this enters, target opponent gains control of it. At the beginning of your upkeep, create a 0/1 black Malazan Coward creature token. Creatures you control with power less than or equal the number of Cowards you control can’t attack or block. 1, Pay 2 life: Target player gains control of target creature you control."
   },
   {
     "name": "The Chained God",
@@ -2398,14 +2398,14 @@
     "img": "The Empty Hold.png",
     "colors": "",
     "typeLine": "Kindred Land - Elder Warren",
-    "text": "This enters the battlefield tapped unless you had a token or counter enter the battlefield this turn. T: Add W, G, or B. WBG, Tap an untapped creature you control, T: Plunder."
+    "text": "This enters tapped unless you had a token or counter enter the battlefield this turn. T: Add W, G, or B. WBG, Tap an untapped creature you control, T: Plunder."
   },
   {
     "name": "The Empty Throne",
     "img": "The Empty Throne.png",
     "colors": "",
     "typeLine": "Artifact",
-    "text": "Whenever a Treasure enters the battlefield under your control, target creature you control gets +1/+1 until end of turn. 2, Sacrifice a creature: Plunder."
+    "text": "Whenever a Treasure enters under your control, target creature you control gets +1/+1 until end of turn. 2, Sacrifice a creature: Plunder."
   },
   {
     "name": "The Eresal",
@@ -2454,7 +2454,7 @@
     "img": "The Nascent.png",
     "colors": "",
     "typeLine": "Land - Warren",
-    "text": "This enters the battlefield tapped unless you control another Warren. T: Add B, U or G. BGU, T, Sacrifice this: Return up to two other Warrens from your graveyard to the battlefield tapped. Dredge 2."
+    "text": "This enters tapped unless you control another Warren. T: Add B, U or G. BGU, T, Sacrifice this: Return up to two other Warrens from your graveyard to the battlefield tapped. Dredge 2."
   },
   {
     "name": "The Obelisk",
@@ -2468,7 +2468,7 @@
     "img": "The Rent at Morn.png",
     "colors": "",
     "typeLine": "Land - Warren",
-    "text": "When this enters the battlefield, sacrifice it unless you pay 1. This enters the battlefield tapped. T: Add one mana of any color. 9, T, Sacrifice this: Exile target creature until this leaves your graveyard."
+    "text": "When this enters, sacrifice it unless you pay 1. This enters tapped. T: Add one mana of any color. 9, T, Sacrifice this: Exile target creature until this leaves your graveyard."
   },
   {
     "name": "The Ribby Snake",
@@ -2496,7 +2496,7 @@
     "img": "The Seven of the Dead Fires.png",
     "colors": "GB",
     "typeLine": "Legendary Creature - Elder Zombie God",
-    "text": "Whenever a legendary creature enters the battlefield, you may put a -1/-1 counter on it and on this. When this dies, if it had zero power and toughness, target creature ascends."
+    "text": "Whenever a legendary creature enters, you may put a -1/-1 counter on it and on this. When this dies, if it had zero power and toughness, target creature ascends."
   },
   {
     "name": "Tiam",
@@ -2517,7 +2517,7 @@
     "img": "Tiste Banner.png",
     "colors": "",
     "typeLine": "Kindred Artifact - Elder Elf",
-    "text": "This enters the battlefield tapped unless you have three or more creatures in your graveyard. T: Add U, W, or B. WUB, T, Sacrifice Tiste Banner: Draw a card."
+    "text": "This enters tapped unless you have three or more creatures in your graveyard. T: Add U, W, or B. WUB, T, Sacrifice Tiste Banner: Draw a card."
   },
   {
     "name": "Tlan Ascendancy",
@@ -2552,7 +2552,7 @@
     "img": "Toc the Unlucky.png",
     "colors": "UR",
     "typeLine": "Legendary Creature - Malazan Assassin",
-    "text": "Reach Whenever this enters the battlefield, scry 2. Whenever you put a card on the bottom of your deck, deal 1 damage to target player. Whenever this dies, exile it. It gains suspend. Put two time counters on it."
+    "text": "Reach Whenever this enters, scry 2. Whenever you put a card on the bottom of your deck, deal 1 damage to target player. Whenever this dies, exile it. It gains suspend. Put two time counters on it."
   },
   {
     "name": "Togg War Wolf of Winter",
@@ -2601,7 +2601,7 @@
     "img": "Trap in Dragonsblood.png",
     "colors": "W",
     "typeLine": "Enchantment - Aura",
-    "text": "Enchant creature card in your graveyard When this enters the battlefield, exile target creature until this is leaves the battlefield. 1: If enchanted creature is a Dragon card, gain 2 life for each card in exile, then put all exiled cards in their owners graveyard and sacrifice this."
+    "text": "Enchant creature card in your graveyard When this enters, exile target creature until this is leaves the battlefield. 1: If enchanted creature is a Dragon card, gain 2 life for each card in exile, then put all exiled cards in their owners graveyard and sacrifice this."
   },
   {
     "name": "Traverse Starvald Demelain",
@@ -2643,7 +2643,7 @@
     "img": "Ublala Pung.png",
     "colors": "G",
     "typeLine": "Legendary Creature - Human Giant",
-    "text": "Trample When this enters the battlefield, if you control another creature, put two +1/+1 counters on this and gain 2 life."
+    "text": "Trample When this enters, if you control another creature, put two +1/+1 counters on this and gain 2 life."
   },
   {
     "name": "Ulshun Pral Crude Depictor",
@@ -2657,7 +2657,7 @@
     "img": "Unsculpted Biomass.png",
     "colors": "G",
     "typeLine": "Creature - Alien Dinosaur",
-    "text": "Evolve When this enters the battlefield, distribute two +1/+1, subtype, or “T: Add G to your mana pool.” counters among other creatures you control."
+    "text": "Evolve When this enters, distribute two +1/+1, subtype, or “T: Add G to your mana pool.” counters among other creatures you control."
   },
   {
     "name": "Uryd Youngling",
@@ -2699,14 +2699,14 @@
     "img": "War-Bitch.png",
     "colors": "G",
     "typeLine": "Legendary Creature - Wolf God",
-    "text": "Trample Other Wolves you control get +1/+1. When this enters the battlefield, create two 2/2 Wolf tokens. At the beginning of combat on your turn, target creature you control fights another target creature. Whenever you win a fight, put two +1/+1 counters on the winning creature."
+    "text": "Trample Other Wolves you control get +1/+1. When this enters, create two 2/2 Wolf tokens. At the beginning of combat on your turn, target creature you control fights another target creature. Whenever you win a fight, put two +1/+1 counters on the winning creature."
   },
   {
     "name": "Warren of the Unwilling God",
     "img": "Warren of the Unwilling God.png",
     "colors": "",
     "typeLine": "Land - Warren",
-    "text": "This enters the battlefield tapped unless you control a creature with power 4 or greater. T: Add R, U or G. Slow, GUR, T, Sacrifice this: Target creature you control fights target creature you don’t control, then draw a card for each fight you’ve won this turn."
+    "text": "This enters tapped unless you control a creature with power 4 or greater. T: Add R, U or G. Slow, GUR, T, Sacrifice this: Target creature you control fights target creature you don’t control, then draw a card for each fight you’ve won this turn."
   },
   {
     "name": "Wax Witch",
@@ -2727,7 +2727,7 @@
     "img": "Whiskeyjack.png",
     "colors": "WR",
     "typeLine": "Legendary Creature - Malazan Soldier",
-    "text": "Other Malazans you control get +1/+1. Whenever a non-Army Malazan enters the battlefield under your control, amass Malazans 1. Whenever a Sapper enters the battlefield under your control, create a Cusser. At the end of your turn, if a Sapper, a Malazan, and an Army attacked and died this turn, this ascends."
+    "text": "Other Malazans you control get +1/+1. Whenever a non-Army Malazan enters under your control, amass Malazans 1. Whenever a Sapper enters under your control, create a Cusser. At the end of your turn, if a Sapper, a Malazan, and an Army attacked and died this turn, this ascends."
   },
   {
     "name": "Whisperings of the Jade Giant",

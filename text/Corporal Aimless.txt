@@ -3,4 +3,4 @@ Cost: R
 Type: Legendary Creature - Malazan Sapper
 P/T: 2/1
 
-When this enters the battlefield, create a Cusser.
+When this enters, create a Cusser.

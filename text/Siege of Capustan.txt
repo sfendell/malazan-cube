@@ -2,6 +2,6 @@ Siege of Capustan
 Cost: 2R
 Type: Battle - Siege
 
-When this enters the battlefield, deal 3 damage divided among any number of targets.
+When this enters, deal 3 damage divided among any number of targets.
 
 ​

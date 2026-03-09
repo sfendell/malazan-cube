@@ -2,4 +2,4 @@ Potsherds
 Cost: 2
 Type: Artifact
 
-This enters the battlefield tapped. T: Add one mana of any color. 2, T, Sacrifice this: Draw a card.
+This enters tapped. T: Add one mana of any color. 2, T, Sacrifice this: Draw a card.

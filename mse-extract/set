@@ -377,7 +377,7 @@ card:
 	sub_type_3: 
 	sub_type_4: 
 	rule_text:
-		This enters the battlefield tapped if there is more than one color among permanents you control.
+		This enters tapped if there is more than one color among permanents you control.
 		White creatures you control that are not any other color get +0/+1.
 		<sym-auto>T</sym-auto>: Add <sym-auto>B</sym-auto> or <sym-auto>W</sym-auto>.
 	flavor_text: <i-flavor></i-flavor>
@@ -403,7 +403,7 @@ card:
 	sub_type_3: 
 	sub_type_4: 
 	rule_text:
-		This enters the battlefield tapped unless you control an artifact token.
+		This enters tapped unless you control an artifact token.
 		Whenever you bleed, create a <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Cusser</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> token.
 		<sym-auto>T</sym-auto>: Add <sym-auto>R</sym-auto> or <sym-auto>W</sym-auto>.
 	flavor_text: <i-flavor></i-flavor>
@@ -664,7 +664,7 @@ card:
 	sub_type_3: 
 	sub_type_4: 
 	rule_text:
-		Whenever an Alien Dinosaur enters the battlefield under your control, place a stem cell counter on this.
+		Whenever an Alien Dinosaur enters under your control, place a stem cell counter on this.
 		<sym-auto>GU</sym-auto>, Remove a stem cell counter from this: Put a +1/+1, <kw-a><nospellcheck><key>flying</key></nospellcheck></kw-a>, <kw-a><nospellcheck><key>deathtouch</key></nospellcheck></kw-a>, or <kw-a><nospellcheck><key>reach</key></nospellcheck></kw-a> counter on a creature you control.
 		Creatures you control get +1/+1 for each counter on them.
 	flavor_text: <i-flavor></i-flavor>
@@ -722,7 +722,7 @@ card:
 	sub_type_4: 
 	rule_text:
 		<kw-0><nospellcheck><key>Evolve</key></nospellcheck></kw-0>
-		When this enters the battlefield, distribute two +1/+1, <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>subtype</error-spelling:en_US:/magic.mse-game/dictionary/magic-words>, or “<sym-auto>T</sym-auto>: Add <sym-auto>G</sym-auto> to your mana pool.” counters among other creatures you control.
+		When this enters, distribute two +1/+1, <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>subtype</error-spelling:en_US:/magic.mse-game/dictionary/magic-words>, or “<sym-auto>T</sym-auto>: Add <sym-auto>G</sym-auto> to your mana pool.” counters among other creatures you control.
 	flavor_text: <i-flavor></i-flavor>
 	power: 0
 	toughness: 1
@@ -749,7 +749,7 @@ card:
 	sub_type_3: 
 	sub_type_4: 
 	rule_text:
-		This enters the battlefield with a <kw-a><nospellcheck><key>flying</key></nospellcheck></kw-a> counter on it.
+		This enters with a <kw-a><nospellcheck><key>flying</key></nospellcheck></kw-a> counter on it.
 		Slow, <sym-auto>T</sym-auto>: Move target counter from target creature you control to another target creature.
 	flavor_text: <i-flavor></i-flavor>
 	power: 2
@@ -777,7 +777,7 @@ card:
 	sub_type_3: 
 	sub_type_4: 
 	rule_text:
-		This enters the battlefield with a <kw-a><nospellcheck><key>haste</key></nospellcheck></kw-a> and <kw-a><nospellcheck><key>trample</key></nospellcheck></kw-a> counter.
+		This enters with a <kw-a><nospellcheck><key>haste</key></nospellcheck></kw-a> and <kw-a><nospellcheck><key>trample</key></nospellcheck></kw-a> counter.
 		<sym-auto>G</sym-auto>, Move a counter from this to another creature you control: <kw-0><nospellcheck><key>Regenerate</key></nospellcheck></kw-0> this.
 	flavor_text: <i-flavor></i-flavor>
 	power: 5
@@ -865,8 +865,8 @@ card:
 	sub_type_3: 
 	sub_type_4: 
 	rule_text:
-		When this enters the battlefield, sacrifice it unless you pay <sym-auto>1</sym-auto>.
-		This enters the battlefield tapped.
+		When this enters, sacrifice it unless you pay <sym-auto>1</sym-auto>.
+		This enters tapped.
 		<sym-auto>T</sym-auto>: Add one mana of any color.
 		<sym-auto>9</sym-auto>, <sym-auto>T</sym-auto>, Sacrifice this: Exile target creature until this leaves your graveyard.
 	flavor_text: <i-flavor></i-flavor>
@@ -1050,7 +1050,7 @@ card:
 	sub_type_3: 
 	sub_type_4: 
 	rule_text:
-		When this enters the battlefield, sacrifice it unless you pay <sym-auto>1</sym-auto>.
+		When this enters, sacrifice it unless you pay <sym-auto>1</sym-auto>.
 		<sym-auto>3WUBRG</sym-auto>: This becomes a 6/6 Elder God creature <i-auto>(it’s still a land.)</i-auto>
 		<sym-auto>T</sym-auto>: Add one mana of any color.
 	flavor_text: <i-flavor></i-flavor>
@@ -1079,7 +1079,7 @@ card:
 	sub_type_3: 
 	sub_type_4: 
 	rule_text:
-		This enters the battlefield tapped.
+		This enters tapped.
 		<sym-auto>T</sym-auto>: Add one mana of any color.
 		<sym-auto>2</sym-auto>, <sym-auto>T</sym-auto>, Sacrifice this: Draw a card.
 	flavor_text: <i-flavor></i-flavor>
@@ -1163,7 +1163,7 @@ card:
 	sub_type_4: 
 	rule_text:
 		You may have creatures you control enter the battlefield tapped.
-		Whenever another creature enters the battlefield untapped, <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Mok</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> fights it.
+		Whenever another creature enters untapped, <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Mok</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> fights it.
 	flavor_text: <i-flavor></i-flavor>
 	power: 4
 	toughness: 4
@@ -1220,7 +1220,7 @@ card:
 	sub_type_3: 
 	sub_type_4: 
 	rule_text:
-		<sym-auto>T</sym-auto>: Add <sym-auto>R</sym-auto> or <sym-auto>B</sym-auto>. When the next Elder Zombie enters the battlefield under your control this turn, put a +1/+1 counter on it.
+		<sym-auto>T</sym-auto>: Add <sym-auto>R</sym-auto> or <sym-auto>B</sym-auto>. When the next Elder Zombie enters under your control this turn, put a +1/+1 counter on it.
 		Exile a land from your graveyard: Untap this.
 	flavor_text: <i-flavor></i-flavor>
 	power: 2
@@ -1631,7 +1631,7 @@ card:
 	sub_type_3: 
 	sub_type_4: 
 	rule_text:
-		When this enters the battlefield, target opponent gains control of it.
+		When this enters, target opponent gains control of it.
 		At the beginning of your upkeep, create a 0/1 black <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Malazan</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> Coward creature token.
 		Creatures you control with power less than or equal the number of Cowards you control can’t attack or block.
 		<sym-auto>1</sym-auto>, Pay 2 life: Target player gains control of target creature you control.
@@ -1827,8 +1827,8 @@ card:
 	sub_type_4: 
 	rule_text:
 		Other <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Malazans</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> you control get +1/+1.
-		Whenever a non-Army <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Malazan</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> enters the battlefield under your control, <kw-0><nospellcheck><key>amass <param-name>Malazans</param-name> <param-number>1</param-number></key></nospellcheck></kw-0>.
-		Whenever a Sapper enters the battlefield under your control, create a <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Cusser</error-spelling:en_US:/magic.mse-game/dictionary/magic-words>.
+		Whenever a non-Army <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Malazan</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> enters under your control, <kw-0><nospellcheck><key>amass <param-name>Malazans</param-name> <param-number>1</param-number></key></nospellcheck></kw-0>.
+		Whenever a Sapper enters under your control, create a <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Cusser</error-spelling:en_US:/magic.mse-game/dictionary/magic-words>.
 		At the end of your turn, if a Sapper, a <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Malazan</error-spelling:en_US:/magic.mse-game/dictionary/magic-words>, and an Army attacked and died this turn, this ascends.
 	flavor_text: <i-flavor></i-flavor>
 	power: 3
@@ -1857,7 +1857,7 @@ card:
 	sub_type_3: 
 	sub_type_4: 
 	rule_text:
-		This enters the battlefield with a song counter on it.
+		This enters with a song counter on it.
 		<sym-auto>T</sym-auto>, Remove a song counter from this: Another target creature ascends.
 	flavor_text: <i-flavor></i-flavor>
 	power: 0
@@ -1940,7 +1940,7 @@ card:
 	sub_type_3: 
 	sub_type_4: 
 	rule_text:
-		This enters the battlefield with two +1/+1 counters on it.
+		This enters with two +1/+1 counters on it.
 		<sym-auto>2</sym-auto>, <sym-auto>T</sym-auto>, Remove a +1/+1 counter from this: Destroy target noncreature, nonland permanent.
 		When this dies, exile target God.
 	flavor_text: <i-flavor></i-flavor>
@@ -2241,7 +2241,7 @@ card:
 	sub_type_3: 
 	sub_type_4: 
 	rule_text:
-		This enters the battlefield tapped unless a creature has entered the battlefield under your control this turn.
+		This enters tapped unless a creature has entered the battlefield under your control this turn.
 		Creature spells you control have <kw-0><nospellcheck><key>ward <param-cost><sym-auto>1</sym-auto></param-cost></key></nospellcheck></kw-0>.
 		<sym-auto>T</sym-auto>: Add <sym-auto>W</sym-auto> or <sym-auto>G</sym-auto>.
 	flavor_text: <i-flavor></i-flavor>
@@ -2351,7 +2351,7 @@ card:
 	sub_type_4: 
 	rule_text:
 		<error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Malazans</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> you control get +1/+1.
-		Whenever a creature enters the battlefield under your control, deal one damage to any target.
+		Whenever a creature enters under your control, deal one damage to any target.
 		Whenever an artifact you control goes to the graveyard, gain one life.
 	flavor_text: <i-flavor></i-flavor>
 	card_code_text: 
@@ -2403,7 +2403,7 @@ card:
 	sub_type_3: 
 	sub_type_4: 
 	rule_text:
-		Whenever a Treasure enters the battlefield under your control, target creature you control gets +1/+1 until end of turn.
+		Whenever a Treasure enters under your control, target creature you control gets +1/+1 until end of turn.
 		<sym-auto>2</sym-auto>, Sacrifice a creature: Plunder.
 	flavor_text: <i-flavor></i-flavor>
 	card_code_text: 
@@ -2730,7 +2730,7 @@ card:
 	rule_text:
 		<kw-a><nospellcheck><key>Vigilance</key></nospellcheck></kw-a>
 		Whenever you gain life, return target creature with power less than <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Dujek</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Onearm</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> from your graveyard to the battlefield.
-		Whenever a creature with power greater than <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Dujek</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> enters the battlefield, gain 1 life and <kw-0><nospellcheck><key>amass <param-name>Malazans</param-name> <param-number>1</param-number></key></nospellcheck></kw-0>.
+		Whenever a creature with power greater than <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Dujek</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> enters, gain 1 life and <kw-0><nospellcheck><key>amass <param-name>Malazans</param-name> <param-number>1</param-number></key></nospellcheck></kw-0>.
 	flavor_text: <i-flavor></i-flavor>
 	power: 2
 	toughness: 4
@@ -2867,7 +2867,7 @@ card:
 	sub_type_3: 
 	sub_type_4: 
 	rule_text:
-		When this enters the battlefield, create a 1/1 <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Malazan</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> Sapper Creature and a <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Cusser</error-spelling:en_US:/magic.mse-game/dictionary/magic-words>.
+		When this enters, create a 1/1 <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Malazan</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> Sapper Creature and a <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Cusser</error-spelling:en_US:/magic.mse-game/dictionary/magic-words>.
 		<sym-auto>R</sym-auto>, Tap an untapped Sapper you control and sacrifice an artifact you control: Deal three damage to any target.
 	flavor_text: <i-flavor></i-flavor>
 	power: 3
@@ -3011,7 +3011,7 @@ card:
 	sub_type_3: 
 	sub_type_4: 
 	rule_text:
-		When this enters the battlefield, create a <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Cusser</error-spelling:en_US:/magic.mse-game/dictionary/magic-words>.
+		When this enters, create a <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Cusser</error-spelling:en_US:/magic.mse-game/dictionary/magic-words>.
 		<kw-0><nospellcheck><key>Afterlife <param-number>1</param-number></key></nospellcheck></kw-0>
 	flavor_text: <i-flavor></i-flavor>
 	power: 3
@@ -3224,7 +3224,7 @@ card:
 	sub_type_3: 
 	sub_type_4: 
 	rule_text:
-		This enters the battlefield tapped unless you control a Dragon.
+		This enters tapped unless you control a Dragon.
 		<sym-auto>T</sym-auto>: Add <sym-auto>R</sym-auto>.
 		<sym-auto>T</sym-auto>: Add one mana of any color  another Warren you control could produce.
 	flavor_text: <i-flavor></i-flavor>
@@ -3731,7 +3731,7 @@ card:
 	sub_type_3: 
 	sub_type_4: 
 	rule_text:
-		Whenever a creature enters the battlefield under your control, plunder.
+		Whenever a creature enters under your control, plunder.
 		<sym-auto>T</sym-auto>, Sacrifice five treasures: Return target permanent from your graveyard to your hand.
 	flavor_text: <i-flavor></i-flavor>
 	power: 1
@@ -3946,7 +3946,7 @@ card:
 	sub_type_3: 
 	sub_type_4: 
 	rule_text:
-		This enters the battlefield tapped unless you control a Sapper or an Army.
+		This enters tapped unless you control a Sapper or an Army.
 		<sym-auto>T</sym-auto>: Add <sym-auto>R</sym-auto>, <sym-auto>W</sym-auto>, or <sym-auto>B</sym-auto>.
 		<sym-auto>RWB</sym-auto>, <sym-auto>T</sym-auto>, Sacrifice <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Malazan</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> Banner: Draw a card.
 	flavor_text: <i-flavor></i-flavor>
@@ -3973,7 +3973,7 @@ card:
 	sub_type_3: 
 	sub_type_4: 
 	rule_text:
-		This enters the battlefield tapped unless you control a creature with power 4 or greater.
+		This enters tapped unless you control a creature with power 4 or greater.
 		<sym-auto>T</sym-auto>: Add <sym-auto>R</sym-auto>, <sym-auto>U</sym-auto>, or <sym-auto>G</sym-auto>.
 		<sym-auto>GUR</sym-auto>, <sym-auto>T</sym-auto>, Sacrifice <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Teblor</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> Banner: Draw a card.
 	flavor_text: <i-flavor></i-flavor>
@@ -4000,7 +4000,7 @@ card:
 	sub_type_3: 
 	sub_type_4: 
 	rule_text:
-		This enters the battlefield tapped unless there is a counter on a creature you control.
+		This enters tapped unless there is a counter on a creature you control.
 		<sym-auto>T</sym-auto>: Add <sym-auto>B</sym-auto>, <sym-auto>U</sym-auto>, or <sym-auto>G</sym-auto>.
 		<sym-auto>BGU</sym-auto>, <sym-auto>T</sym-auto>, Sacrifice <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>K’Chain</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> Banner: Draw a card.
 	flavor_text: <i-flavor></i-flavor>
@@ -4027,7 +4027,7 @@ card:
 	sub_type_3: 
 	sub_type_4: 
 	rule_text:
-		This enters the battlefield tapped unless there is a land in your graveyard.
+		This enters tapped unless there is a land in your graveyard.
 		<sym-auto>T</sym-auto>: Add <sym-auto>R</sym-auto>, <sym-auto>B</sym-auto>, or <sym-auto>G</sym-auto>.
 		<sym-auto>BRG</sym-auto>, <sym-auto>T</sym-auto>, Sacrifice <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>T’lan</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Imass</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> Banner: Draw a card.
 	flavor_text: <i-flavor></i-flavor>
@@ -4054,7 +4054,7 @@ card:
 	sub_type_3: 
 	sub_type_4: 
 	rule_text:
-		This enters the battlefield tapped unless you have three or more creatures in your graveyard.
+		This enters tapped unless you have three or more creatures in your graveyard.
 		<sym-auto>T</sym-auto>: Add <sym-auto>U</sym-auto>, <sym-auto>W</sym-auto>, or <sym-auto>B</sym-auto>.
 		<sym-auto>WUB</sym-auto>, <sym-auto>T</sym-auto>, Sacrifice <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Tiste</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> Banner: Draw a card.
 	flavor_text: <i-flavor></i-flavor>
@@ -4081,7 +4081,7 @@ card:
 	sub_type_3: 
 	sub_type_4: 
 	rule_text:
-		This enters the battlefield tapped unless you <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>scried</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> this turn.
+		This enters tapped unless you <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>scried</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> this turn.
 		<sym-auto>T</sym-auto>: Add <sym-auto>U</sym-auto>, <sym-auto>G</sym-auto>, or <sym-auto>W</sym-auto>.
 		<sym-auto>GWU</sym-auto>, <sym-auto>T</sym-auto>, Sacrifice Historian’s Banner: Draw a card.
 	flavor_text: <i-flavor></i-flavor>
@@ -4108,7 +4108,7 @@ card:
 	sub_type_3: 
 	sub_type_4: 
 	rule_text:
-		This enters the battlefield tapped unless you cast an instant or sorcery this turn.
+		This enters tapped unless you cast an instant or sorcery this turn.
 		<sym-auto>T</sym-auto>: Add <sym-auto>R</sym-auto>, <sym-auto>U</sym-auto>, or <sym-auto>W</sym-auto>.
 		<sym-auto>URW</sym-auto>, <sym-auto>T</sym-auto>, Sacrifice Mage’s Banner: Draw a card.
 	flavor_text: <i-flavor></i-flavor>
@@ -4135,7 +4135,7 @@ card:
 	sub_type_3: 
 	sub_type_4: 
 	rule_text:
-		This enters the battlefield tapped unless you control a Treasure.
+		This enters tapped unless you control a Treasure.
 		<sym-auto>T</sym-auto>: Add <sym-auto>W</sym-auto>, <sym-auto>B</sym-auto>, or <sym-auto>G</sym-auto>.
 		<sym-auto>WBG</sym-auto>, <sym-auto>T</sym-auto>, Sacrifice this: Draw a card.
 	flavor_text: <i-flavor></i-flavor>
@@ -4162,7 +4162,7 @@ card:
 	sub_type_3: 
 	sub_type_4: 
 	rule_text:
-		This enters the battlefield tapped unless you control more creatures than your opponent.
+		This enters tapped unless you control more creatures than your opponent.
 		<sym-auto>T</sym-auto>: Add <sym-auto>R</sym-auto>, <sym-auto>G</sym-auto>, or <sym-auto>W</sym-auto>.
 		<sym-auto>RGW</sym-auto>, <sym-auto>T</sym-auto>, Sacrifice this: Draw a card.
 	flavor_text: <i-flavor></i-flavor>
@@ -4628,7 +4628,7 @@ card:
 	sub_type_2: 
 	sub_type_3: 
 	sub_type_4: 
-	rule_text: When this enters the battlefield, create a <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Cusser</error-spelling:en_US:/magic.mse-game/dictionary/magic-words>.
+	rule_text: When this enters, create a <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Cusser</error-spelling:en_US:/magic.mse-game/dictionary/magic-words>.
 	flavor_text: <i-flavor></i-flavor>
 	power: 2
 	toughness: 1
@@ -4736,7 +4736,7 @@ card:
 	sub_type_4: 
 	rule_text:
 		<kw-a><nospellcheck><key>Enchant <param-name>target land you control with <sym>G</sym> in its color identity</param-name></key></nospellcheck></kw-a>
-		When this enters the battlefield, exile target nonland permanent for as long as this remains on the battlefield.
+		When this enters, exile target nonland permanent for as long as this remains on the battlefield.
 	flavor_text: <i-flavor></i-flavor>
 	card_code_text: 
 	card_code_text_2: 
@@ -4814,7 +4814,7 @@ card:
 	sub_type_4: 
 	rule_text:
 		<kw-a><nospellcheck><key>Enchant <param-name>artifact</param-name></key></nospellcheck></kw-a>
-		When this enters the battlefield, gain two life and exile target creature until this leaves the battlefield.
+		When this enters, gain two life and exile target creature until this leaves the battlefield.
 	flavor_text: <i-flavor></i-flavor>
 	card_code_text: 
 	card_code_text_2: 
@@ -4946,7 +4946,7 @@ card:
 	sub_type_3: 
 	sub_type_4: 
 	rule_text:
-		This enters the battlefield tapped unless you control a creature.
+		This enters tapped unless you control a creature.
 		<sym-auto>T</sym-auto>: Add <sym-auto>G</sym-auto> or <sym-auto>W</sym-auto>.
 		<sym-auto>U</sym-auto>, <sym-auto>T</sym-auto>: Sacrifice this: Add <sym-auto>RRR</sym-auto>.
 	flavor_text: <i-flavor></i-flavor>
@@ -5140,7 +5140,7 @@ card:
 	sub_type_3: 
 	sub_type_4: 
 	rule_text:
-		Whenever a legendary creature enters the battlefield,  you may put a -1/-1 counter on it and on this.
+		Whenever a legendary creature enters,  you may put a -1/-1 counter on it and on this.
 		When this dies, if it had zero power and toughness, target creature ascends.
 	flavor_text: <i-flavor></i-flavor>
 	power: 7
@@ -5275,7 +5275,7 @@ card:
 	sub_type_3: 
 	sub_type_4: 
 	rule_text:
-		When this enters the battlefield, exile target creature until it leaves the battlefield.
+		When this enters, exile target creature until it leaves the battlefield.
 		At the beginning of combat on your turn, target creature gets +X/+X, where X is the number of creatures your opponents own in exile.
 	flavor_text: <i-flavor></i-flavor>
 	card_code_text: 
@@ -5326,7 +5326,7 @@ card:
 	sub_type_3: 
 	sub_type_4: 
 	rule_text:
-		This enters the battlefield tapped unless there’s a land in your graveyard.
+		This enters tapped unless there’s a land in your graveyard.
 		<sym-auto>T</sym-auto>: Add <sym-auto>B</sym-auto> or <sym-auto>G</sym-auto>.
 		<sym-auto>T</sym-auto>, Exile a land from your graveyard: Add one mana of any color.
 	flavor_text: <i-flavor></i-flavor>
@@ -5408,7 +5408,7 @@ card:
 	sub_type_3: 
 	sub_type_4: 
 	rule_text:
-		Whenever a token enters the battlefield under your control, gain 1 life.
+		Whenever a token enters under your control, gain 1 life.
 		Whenever you sacrifice a permanent, each opponent loses 1 life.
 	flavor_text: <i-flavor></i-flavor>
 	power: 1
@@ -5438,7 +5438,7 @@ card:
 	rule_text:
 		Alien Dinosaurs you control get +1/+1.
 		Creature tokens you control have <kw-0><nospellcheck><key>evolve</key></nospellcheck></kw-0>. <i-auto>(<kw-0><nospellcheck><key>Evolve</key></nospellcheck></kw-0> stacks.)</i-auto>
-		Whenever a creature enters the battlefield under your control, if it if it has 4 or more power, <kw-0><nospellcheck><key>proliferate</key></nospellcheck></kw-0>.
+		Whenever a creature enters under your control, if it if it has 4 or more power, <kw-0><nospellcheck><key>proliferate</key></nospellcheck></kw-0>.
 	flavor_text: <i-flavor></i-flavor>
 	card_code_text: 
 	card_code_text_2: 
@@ -5492,7 +5492,7 @@ card:
 	sub_type_3: 
 	sub_type_4: 
 	rule_text:
-		Whenever a God or Elder enters the battlefield or a creature ascends, place two omen counters on this.
+		Whenever a God or Elder enters or a creature ascends, place two omen counters on this.
 		Remove all omen counters from this: Destroy all non-God, non-Elder creatures, then tutor all Elder or God cards to the battlefield with mana value less than the omen counters removed. Target opponent gains control of this.
 	flavor_text: <i-flavor></i-flavor>
 	card_code_text: 
@@ -5576,7 +5576,7 @@ card:
 	sub_type_4: 
 	rule_text:
 		<kw-a><nospellcheck><key>Reach</key></nospellcheck></kw-a>
-		Whenever this enters the battlefield, <kw-a><nospellcheck><key>scry <param-number>2</param-number></key></nospellcheck></kw-a>. 
+		Whenever this enters, <kw-a><nospellcheck><key>scry <param-number>2</param-number></key></nospellcheck></kw-a>. 
 		Whenever you put a card on the bottom of  your deck, deal 1 damage to target player.
 		Whenever this dies, exile it. It gains suspend. Put two time counters on it.               
 	flavor_text: <i-flavor></i-flavor>
@@ -5606,7 +5606,7 @@ card:
 	sub_type_4: 
 	rule_text:
 		<kw-a><nospellcheck><key>Flying</key></nospellcheck></kw-a>
-		Whenever a creature enters the battlefield, tap or untap target creature.
+		Whenever a creature enters, tap or untap target creature.
 		<sym-auto>WU</sym-auto>: Exile another target creature you control, then return it to the battlefield. Activate this ability only if you’ve <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>scried</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> this turn.
 	flavor_text: <i-flavor></i-flavor>
 	power: 4
@@ -6280,7 +6280,7 @@ card:
 	sub_type_3: 
 	sub_type_4: 
 	rule_text:
-		This enters the battlefield tapped unless you cast an instant or sorcery this turn.
+		This enters tapped unless you cast an instant or sorcery this turn.
 		<sym-auto>T</sym-auto>: Add <sym-auto>R</sym-auto> or <sym-auto>U</sym-auto>.
 		<sym-auto>2UR</sym-auto>, <sym-auto>T</sym-auto>, Sacrifice this: Until end of turn, the next instant or sorcery you cast has <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>mindstorm</error-spelling:en_US:/magic.mse-game/dictionary/magic-words>.
 	flavor_text: <i-flavor></i-flavor>
@@ -6552,7 +6552,7 @@ card:
 	sub_type_4: 
 	rule_text:
 		<kw-a><nospellcheck><key>Enchant <param-name>creature card in your graveyard</param-name></key></nospellcheck></kw-a>
-		When this enters the battlefield, exile target creature until this is leaves the battlefield.
+		When this enters, exile target creature until this is leaves the battlefield.
 		<sym-auto>1</sym-auto>: If enchanted creature is a Dragon card, gain 2 life for each card in exile, then put all exiled cards in their owners graveyard and sacrifice this. 
 	flavor_text: <i-flavor></i-flavor>
 	card_code_text: 
@@ -6768,8 +6768,8 @@ card:
 	sub_type_4: 
 	rule_text:
 		<kw-a><nospellcheck><key>Vigilance</key></nospellcheck></kw-a>
-		This enters the battlefield tapped and doesn’t untap during your untap phase.
-		Whenever a creature with power or toughness higher than this enters the battlefield, or this is dealt damage, untap it.
+		This enters tapped and doesn’t untap during your untap phase.
+		Whenever a creature with power or toughness higher than this enters, or this is dealt damage, untap it.
 	flavor_text: <i-flavor></i-flavor>
 	power: 5
 	toughness: 5
@@ -6857,7 +6857,7 @@ card:
 	sub_type_3: 
 	sub_type_4: 
 	rule_text:
-		<error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Silchas</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> enters the battlefield with a <kw-a><nospellcheck><key>vigilance</key></nospellcheck></kw-a> counter on it.
+		<error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Silchas</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> enters with a <kw-a><nospellcheck><key>vigilance</key></nospellcheck></kw-a> counter on it.
 		<sym-auto>3WW</sym-auto>, Remove a <kw-a><nospellcheck><key>vigilance</key></nospellcheck></kw-a> counter from <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Silchas</error-spelling:en_US:/magic.mse-game/dictionary/magic-words>: Put a Dragon <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>subtype</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> counter, a <kw-a><nospellcheck><key>flying</key></nospellcheck></kw-a> counter, and a +1/+1 counter on <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Silchas</error-spelling:en_US:/magic.mse-game/dictionary/magic-words>.
 		<sym-auto>RRR</sym-auto>, Remove a <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>subtype</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> counter from <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Silchas</error-spelling:en_US:/magic.mse-game/dictionary/magic-words>: Put a <kw-a><nospellcheck><key>double strike</key></nospellcheck></kw-a> counter and a <kw-a><nospellcheck><key>vigilance</key></nospellcheck></kw-a> counter on <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Silchas</error-spelling:en_US:/magic.mse-game/dictionary/magic-words>.
 	flavor_text: <i-flavor></i-flavor>
@@ -7029,7 +7029,7 @@ card:
 	sub_type_4: 
 	rule_text:
 		<kw-a><nospellcheck><key>Enchant <param-name>creature</param-name></key></nospellcheck></kw-a>
-		Put X -1/-1 counters on enchanted creature as this enters the battlefield.
+		Put X -1/-1 counters on enchanted creature as this enters.
 		At the beginning of each upkeep, remove a counter from enchanted creature. If you do, plunder X times, where X is enchanted creature’s toughness.
 	flavor_text: <i-flavor></i-flavor>
 	card_code_text: 
@@ -7056,7 +7056,7 @@ card:
 	sub_type_4: 
 	rule_text:
 		<kw-a><nospellcheck><key>Flash</key></nospellcheck></kw-a>, <kw-a><nospellcheck><key>Vigilance</key></nospellcheck></kw-a>
-		When this enters the battlefield, counter target non-Pure spell.
+		When this enters, counter target non-Pure spell.
 		<sym-auto>7B</sym-auto>, <sym-auto>T</sym-auto>, Sacrifice this: Destroy target non-Pure creature.
 	flavor_text: <i-flavor></i-flavor>
 	power: 2
@@ -7083,7 +7083,7 @@ card:
 	sub_type_2: 
 	sub_type_3: 
 	sub_type_4: 
-	rule_text: When this enters the battlefield, exile target creature until this leaves the battlefield. Its owner gains X life, where X was the creature’s power plus its toughness. If you control an Elder God or Magnanimous <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Kruppe</error-spelling:en_US:/magic.mse-game/dictionary/magic-words>, draw a card.
+	rule_text: When this enters, exile target creature until this leaves the battlefield. Its owner gains X life, where X was the creature’s power plus its toughness. If you control an Elder God or Magnanimous <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Kruppe</error-spelling:en_US:/magic.mse-game/dictionary/magic-words>, draw a card.
 	flavor_text: <i-flavor></i-flavor>
 	card_code_text: 
 	card_code_text_2: 
@@ -7296,7 +7296,7 @@ card:
 	sub_type_4: 
 	rule_text:
 		<kw-0><nospellcheck><key>Affinity for <param-name>Treasures</param-name></key></nospellcheck></kw-0>
-		<margin:0:0:5>Whenever an artifact enters the battlefield under your control, choose one. If it’s a Treasure, choose both:</margin:0:0:5>
+		<margin:0:0:5>Whenever an artifact enters under your control, choose one. If it’s a Treasure, choose both:</margin:0:0:5>
 		<li><bullet>• </bullet>Tap target creature.
 		</li><li><bullet>• </bullet>Target creature gets +1/+1 until end of turn.</li>
 	flavor_text: <i-flavor></i-flavor>
@@ -7484,7 +7484,7 @@ card:
 	sub_type_3: 
 	sub_type_4: 
 	rule_text:
-		Whenever a creature enters the battlefield, if it’s a token you control,  put a +1/+1 counter on it. Otherwise, put a -1/-1 counter on it.
+		Whenever a creature enters, if it’s a token you control,  put a +1/+1 counter on it. Otherwise, put a -1/-1 counter on it.
 		Whenever a creature dies, target player loses X life and you gain X life, where X is the number of counters on it.            
 	flavor_text: <i-flavor></i-flavor>
 	power: 1
@@ -7566,7 +7566,7 @@ card:
 	sub_type_3: 
 	sub_type_4: 
 	rule_text:
-		This enters the battlefield with 7 +1/+1 counters on it.
+		This enters with 7 +1/+1 counters on it.
 		Whenever this would be dealt damage, instead remove two counters from it.
 		At the beginning of your upkeep, if this has less than 7 power, put a +1/+1 counter on this.
 	flavor_text: <i-flavor></i-flavor>
@@ -7595,7 +7595,7 @@ card:
 	sub_type_3: 
 	sub_type_4: 
 	rule_text:
-		Whenever an Enchantment enters the battlefield under your control, draw a card.
+		Whenever an Enchantment enters under your control, draw a card.
 		<sym-auto>2W</sym-auto>, <sym-auto>T</sym-auto>, Slow: Attach target Aura to another permanent it can enchant.
 		<sym-auto>T</sym-auto>: Place a name or <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>subtype</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> counter of your choice on target creature.
 	flavor_text: <i-flavor></i-flavor>
@@ -7645,7 +7645,7 @@ card:
 	sub_type_3: 
 	sub_type_4: 
 	rule_text:
-		Whenever a Legendary creature enters the battlefield under your control, plunder.
+		Whenever a Legendary creature enters under your control, plunder.
 		Whenever an Army you control attacks, if you control at least three treasures, it gets +3/+3 until end of turn. If it’s attacking alone, take an extra combat after this. This ability triggers only once per turn.   
 	flavor_text: <i-flavor></i-flavor>
 	power: 1
@@ -8014,7 +8014,7 @@ card:
 	sub_type_3: 
 	sub_type_4: 
 	rule_text:
-		This enters the battlefield tapped unless you attacked this turn.
+		This enters tapped unless you attacked this turn.
 		At the beginning of your upkeep, you may sacrifice a land. If you do, create a 1/1 Red and Green Rebel creature token with <kw-0><nospellcheck><key>riot</key></nospellcheck></kw-0>.
 		<sym-auto>T</sym-auto>: Add <sym-auto>R</sym-auto> or <sym-auto>G</sym-auto>.
 	flavor_text: <i-flavor></i-flavor>
@@ -8040,7 +8040,7 @@ card:
 	sub_type_3: 
 	sub_type_4: 
 	rule_text:
-		This enters the battlefield tapped unless you control another Warren.
+		This enters tapped unless you control another Warren.
 		<sym-auto>T</sym-auto>: Add <sym-auto>B</sym-auto>, <sym-auto>U</sym-auto> or <sym-auto>G</sym-auto>.
 		<sym-auto>BGU</sym-auto>,<soft-line> <sym-auto>T</sym-auto>, Sacrifice this: Return up to two other Warrens from your graveyard to the battlefield tapped.
 		<soft-line>
@@ -8068,7 +8068,7 @@ card:
 	sub_type_3: 
 	sub_type_4: 
 	rule_text:
-		This enters the battlefield tapped unless you’ve dealt noncombat damage this turn.
+		This enters tapped unless you’ve dealt noncombat damage this turn.
 		<sym-auto>T</sym-auto>: Add <sym-auto>R</sym-auto>, <sym-auto>U</sym-auto>, or <sym-auto>W</sym-auto>.
 		<sym-auto>URW</sym-auto>, <sym-auto>T</sym-auto>, Sacrifice this: Draw a card if a permanent took noncombat damage this turn. Draw a card if a player took combat damage this turn.
 	flavor_text: <i-flavor></i-flavor>
@@ -8094,7 +8094,7 @@ card:
 	sub_type_3: 
 	sub_type_4: 
 	rule_text:
-		This enters the battlefield tapped unless you gained life this turn.
+		This enters tapped unless you gained life this turn.
 		<sym-auto>T</sym-auto>: Add <sym-auto>W</sym-auto>, <sym-auto>U</sym-auto>, or <sym-auto>G</sym-auto>.
 		<sym-auto>GWU</sym-auto>, <sym-auto>T</sym-auto>, Sacrifice this: <kw-a><nospellcheck><key>Scry <param-number>X</param-number></key></nospellcheck></kw-a>, where X is the amount of life you’ve gained this turn. Then reveal the top card of your library. If it’s a land, put it onto the battlefield.
 	flavor_text: <i-flavor></i-flavor>
@@ -8120,7 +8120,7 @@ card:
 	sub_type_3: 
 	sub_type_4: 
 	rule_text:
-		This enters the battlefield tapped unless an opponent has discarded a card this turn.
+		This enters tapped unless an opponent has discarded a card this turn.
 		<sym-auto>T</sym-auto>: Add <sym-auto>U</sym-auto>, <sym-auto>R</sym-auto>, or <sym-auto>B</sym-auto>.
 		<sym-auto>3UBR</sym-auto>, <sym-auto>T</sym-auto>, Slow, Sacrifice this: Target opponent discards their hand.
 	flavor_text: <i-flavor></i-flavor>
@@ -8146,7 +8146,7 @@ card:
 	sub_type_3: 
 	sub_type_4: 
 	rule_text:
-		This enters the battlefield tapped unless you had a token or counter enter the battlefield this turn.
+		This enters tapped unless you had a token or counter enter the battlefield this turn.
 		<sym-auto>T</sym-auto>: Add <sym-auto>W</sym-auto>, <sym-auto>G</sym-auto>, or <sym-auto>B</sym-auto>.
 		<sym-auto>WBG</sym-auto>, Tap an untapped creature you control, <sym-auto>T</sym-auto>: Plunder.
 	flavor_text: <i-flavor></i-flavor>
@@ -8172,7 +8172,7 @@ card:
 	sub_type_3: 
 	sub_type_4: 
 	rule_text:
-		This enters the battlefield tapped unless you control more creatures than your opponent.
+		This enters tapped unless you control more creatures than your opponent.
 		<sym-auto>T</sym-auto>: Add <sym-auto>W</sym-auto>, <sym-auto>R</sym-auto> or <sym-auto>G</sym-auto>.
 		<sym-auto>RGW</sym-auto>, <sym-auto>T</sym-auto>, Sacrifice this: Put a <kw-a><nospellcheck><key>double strike</key></nospellcheck></kw-a> counter on target creature you control with power 2 or less.
 	flavor_text: <i-flavor></i-flavor>
@@ -8198,7 +8198,7 @@ card:
 	sub_type_3: 
 	sub_type_4: 
 	rule_text:
-		This enters the battlefield tapped unless you control a creature with power 4 or greater.
+		This enters tapped unless you control a creature with power 4 or greater.
 		<sym-auto>T</sym-auto>: Add <sym-auto>R</sym-auto>, <sym-auto>U</sym-auto> or <sym-auto>G</sym-auto>.
 		Slow, <sym-auto>GUR</sym-auto>, <sym-auto>T</sym-auto>, Sacrifice this: Target creature you control fights target creature you don’t control, then draw a card for each <kw-0><nospellcheck><key>fight</key></nospellcheck></kw-0> you’ve won this turn.
 	flavor_text: <i-flavor></i-flavor>
@@ -8224,7 +8224,7 @@ card:
 	sub_type_3: 
 	sub_type_4: 
 	rule_text:
-		This enters the battlefield tapped unless at least one player lost life this turn.
+		This enters tapped unless at least one player lost life this turn.
 		Whenever a creature you control dies, deal 1 damage to any target if there is a land in your graveyard.
 		<sym-auto>T</sym-auto>: Add <sym-auto>B</sym-auto>, <sym-auto>R</sym-auto>, or <sym-auto>G</sym-auto>.
 	flavor_text: <i-flavor></i-flavor>
@@ -8251,7 +8251,7 @@ card:
 	sub_type_3: 
 	sub_type_4: 
 	rule_text:
-		Whenever a non-Construct artifact enters the battlefield under your control, you may create a 1/2 colorless Construct artifact creature token with <kw-a><nospellcheck><key>prowess</key></nospellcheck></kw-a>.
+		Whenever a non-Construct artifact enters under your control, you may create a 1/2 colorless Construct artifact creature token with <kw-a><nospellcheck><key>prowess</key></nospellcheck></kw-a>.
 		Instants and <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>sorceries</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> you cast cost <sym-auto>1</sym-auto> less for each artifact you control.              
 	flavor_text: <i-flavor></i-flavor>
 	power: 2
@@ -8279,7 +8279,7 @@ card:
 	sub_type_3: 
 	sub_type_4: 
 	rule_text:
-		When this enters the battlefield, you may mill yourself until you mill two lands.
+		When this enters, you may mill yourself until you mill two lands.
 		You may play lands from your graveyard and may play an additional land each turn.
 		Whenever a land leaves your graveyard, put a +1/+1 counter on a creature you control with power lower than this.
 	flavor_text: <i-flavor></i-flavor>
@@ -8367,7 +8367,7 @@ card:
 	sub_type_3: 
 	sub_type_4: 
 	rule_text:
-		Whenever a <kw-0><nospellcheck><key>historic</key></nospellcheck></kw-0> permanent enters the battlefield under your control, <kw-0><nospellcheck><key>scry <param-number>1</param-number></key></nospellcheck></kw-0> and gain 1 life. If it has an activated ability, you may pay <sym-auto>1</sym-auto>. If you do, draw a card.
+		Whenever a <kw-0><nospellcheck><key>historic</key></nospellcheck></kw-0> permanent enters under your control, <kw-0><nospellcheck><key>scry <param-number>1</param-number></key></nospellcheck></kw-0> and gain 1 life. If it has an activated ability, you may pay <sym-auto>1</sym-auto>. If you do, draw a card.
 		Artifacts cards in your hand have <kw-0><nospellcheck><key>affinity for <param-name>legendaries</param-name></key></nospellcheck></kw-0>.
 	flavor_text: <i-flavor></i-flavor>
 	power: 2
@@ -8426,7 +8426,7 @@ card:
 	sub_type_3: 
 	sub_type_4: 
 	rule_text:
-		This enters the battlefield tapped unless you control a permanent you do not own.
+		This enters tapped unless you control a permanent you do not own.
 		<sym-auto>T</sym-auto>: Add <sym-auto>U</sym-auto>, <sym-auto>B</sym-auto>, or <sym-auto>R</sym-auto>.
 		<sym-auto>T</sym-auto>, <sym-auto>UBR</sym-auto>, Sacrifice this: Draw a card.
 	flavor_text: <i-flavor></i-flavor>
@@ -8478,7 +8478,7 @@ card:
 	sub_type_4: 
 	rule_text:
 		<kw-a><nospellcheck><key>Trample</key></nospellcheck></kw-a>
-		When this enters the battlefield, if you control another creature, put two +1/+1 counters on this and gain 2 life.
+		When this enters, if you control another creature, put two +1/+1 counters on this and gain 2 life.
 	flavor_text: <i-flavor></i-flavor>
 	power: 6
 	toughness: 3
@@ -8652,7 +8652,7 @@ card:
 	rule_text:
 		<kw-a><nospellcheck><key>Trample</key></nospellcheck></kw-a>
 		Other Wolves you control get +1/+1.
-		When this enters the battlefield, create two 2/2 Wolf tokens.
+		When this enters, create two 2/2 Wolf tokens.
 		<soft-line>At the beginning of combat on your turn, target creature you control fights another target creature.</soft-line>
 		Whenever you win a <kw-0><nospellcheck><key>fight</key></nospellcheck></kw-0>, put two +1/+1 counters on the winning creature.                   
 	flavor_text: <i-flavor></i-flavor>
@@ -8740,7 +8740,7 @@ card:
 	sub_type_4: 
 	rule_text:
 		<kw-a><nospellcheck><key>Enchant <param-name>creature</param-name></key></nospellcheck></kw-a>
-		When this enters the battlefield, exile a creature card from your graveyard. If exiled card is a God, enchanted creature ascends.
+		When this enters, exile a creature card from your graveyard. If exiled card is a God, enchanted creature ascends.
 		Enchanted creature has all abilities of the exiled card.
 	flavor_text: <i-flavor></i-flavor>
 	card_code_text: 
@@ -8792,7 +8792,7 @@ card:
 	sub_type_3: 
 	sub_type_4: 
 	rule_text:
-		When this enters the battlefield, create a Comb token, a Silk Shirt token, a Fine Trousers token, a Exquisite Manicure token, and bleed.
+		When this enters, create a Comb token, a Silk Shirt token, a Fine Trousers token, a Exquisite Manicure token, and bleed.
 		Whenever a creature with power and toughness that differ by more than 2 does damage to a player, create a copy of a token you control.
 	flavor_text: <i-flavor></i-flavor>
 	power: 1
@@ -8820,7 +8820,7 @@ card:
 	sub_type_4: 
 	rule_text:
 		<kw-a><nospellcheck><key>Enchant <param-name>creature</param-name></key></nospellcheck></kw-a>
-		This enters the battlefield attached to a creature you control.
+		This enters attached to a creature you control.
 		Enchanted creature gets +2/+0.
 	flavor_text: <i-flavor></i-flavor>
 	card_code_text: 
@@ -9063,7 +9063,7 @@ card:
 	rule_text:
 		<kw-0><nospellcheck><key>Kicker <param-cost><sym-auto>R</sym-auto></param-cost></key></nospellcheck></kw-0>, <kw-0><nospellcheck><key>kicker <param-cost><sym-auto>B</sym-auto></param-cost></key></nospellcheck></kw-0>
 		Tutor a basic land to your hand.
-		If you paid <sym-auto>R</sym-auto>, whenever a land enters the battlefield this turn under your control, deal 2 damage to target creature.
+		If you paid <sym-auto>R</sym-auto>, whenever a land enters this turn under your control, deal 2 damage to target creature.
 		If you paid <sym-auto>B</sym-auto>, whenever an opponent’s creature dies this turn, they lose 2 life. Then if you paid <sym-auto>R</sym-auto>, you may play an additional land this turn.
 	flavor_text: <i-flavor></i-flavor>
 	card_code_text: 
@@ -9140,7 +9140,7 @@ card:
 	sub_type_4: 
 	rule_text:
 		<kw-0><nospellcheck><key>Extort</key></nospellcheck></kw-0>
-		<margin:0:0:5>When this enters the battlefield, place two +1/+1 counters on it and create two 1/1 Black rat tokens.</margin:0:0:5>
+		<margin:0:0:5>When this enters, place two +1/+1 counters on it and create two 1/1 Black rat tokens.</margin:0:0:5>
 		<margin:0:0:5>Whenever you <kw-0><nospellcheck><key>extort</key></nospellcheck></kw-0>, choose one:</margin:0:0:5>
 		<li><bullet>• </bullet><kw-0><nospellcheck><key>Proliferate</key></nospellcheck></kw-0>.
 		</li><li><bullet>• </bullet><kw-0><nospellcheck><key>Populate</key></nospellcheck></kw-0>, then <kw-0><nospellcheck><key>populate</key></nospellcheck></kw-0>.</li>
@@ -9770,7 +9770,7 @@ card:
 	sub_type_3: 
 	sub_type_4: 
 	rule_text:
-		When this enters the battlefield or attacks, cook, then create a 1/1 red and white <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Malazan</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> Soldier token.
+		When this enters or attacks, cook, then create a 1/1 red and white <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Malazan</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> Soldier token.
 		<error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Nefarias’</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> power and toughness is equal to 1 plus the number of tokens you control.
 		Creatures you control have “<sym-auto>T</sym-auto>: Cook.”
 		Foods you control have “R/, <sym-auto>T</sym-auto>: <kw-0><nospellcheck><key>Populate</key></nospellcheck></kw-0>.”               
@@ -9858,7 +9858,7 @@ card:
 	sub_type_4: 
 	rule_text:
 		<kw-a><nospellcheck><key>Flash</key></nospellcheck></kw-a>
-		When this enters the battlefield, <kw-a><nospellcheck><key>scry <param-number>2</param-number></key></nospellcheck></kw-a>.<soft-line>
+		When this enters, <kw-a><nospellcheck><key>scry <param-number>2</param-number></key></nospellcheck></kw-a>.<soft-line>
 		<sym-auto>1UU</sym-auto>, Sacrifice this: Counter target spell or activated ability. Activate this only if you’ve <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>scried</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> this turn.</soft-line>
 	flavor_text: <i-flavor></i-flavor>
 	power: 1
@@ -9967,7 +9967,7 @@ card:
 	sub_type_3: 
 	sub_type_4: 
 	rule_text:
-		This enters the battlefield tapped unless you control exactly one creature.<soft-line>
+		This enters tapped unless you control exactly one creature.<soft-line>
 		Whenever you attack with exactly one creature, if there is a <kw-a><nospellcheck><key>stun counte<param-*s>r</param-*s></key></nospellcheck></kw-a> on an opponents creature, draw a card.</soft-line>
 		<sym-auto>T</sym-auto>: Add <sym-auto>W</sym-auto> or <sym-auto>U</sym-auto>.
 	flavor_text: <i-flavor></i-flavor>
@@ -10019,7 +10019,7 @@ card:
 	sub_type_4: 
 	rule_text:
 		<kw-a><nospellcheck><key>Enchant <param-name>Warren you control</param-name></key></nospellcheck></kw-a>
-		When this enters the battlefield, exile target creature until this leaves the battlefield.
+		When this enters, exile target creature until this leaves the battlefield.
 		When this leaves the battlefield, return target creature from your graveyard to your hand.
 	flavor_text: <i-flavor></i-flavor>
 	card_code_text: 
@@ -10130,7 +10130,7 @@ card:
 	sub_type_3: 
 	sub_type_4: 
 	rule_text:
-		This enters the battlefield tapped unless you control an Army or a creature with <kw-a><nospellcheck><key>double strike</key></nospellcheck></kw-a>.
+		This enters tapped unless you control an Army or a creature with <kw-a><nospellcheck><key>double strike</key></nospellcheck></kw-a>.
 		<sym-auto>T</sym-auto>: Add <sym-auto>W</sym-auto>, <sym-auto>R</sym-auto> or <sym-auto>B</sym-auto>.
 		<sym-auto>3RWB</sym-auto>, <sym-auto>T</sym-auto>, Sacrifice this: If you attacked twice this turn, target creature ascends.
 	flavor_text: <i-flavor></i-flavor>
@@ -10156,7 +10156,7 @@ card:
 	sub_type_3: 
 	sub_type_4: 
 	rule_text:
-		This enters the battlefield tapped unless you control a creature with a counter on it.<soft-line>
+		This enters tapped unless you control a creature with a counter on it.<soft-line>
 		Whenever you put a counter on a creature you control, <kw-a><nospellcheck><key>scry <param-number>1</param-number></key></nospellcheck></kw-a>. This ability triggers only once per turn.</soft-line>
 		<sym-auto>T</sym-auto>: Add <sym-auto>U</sym-auto> or <sym-auto>G</sym-auto>.
 	flavor_text: <i-flavor></i-flavor>
@@ -10240,7 +10240,7 @@ card:
 	sub_type_3: 
 	sub_type_4: 
 	rule_text:
-		Whenever a creature enters the battlefield under your control, put a +1/+1 counter on all creatures with power or toughness less than it that share two or more creature types with it.
+		Whenever a creature enters under your control, put a +1/+1 counter on all creatures with power or toughness less than it that share two or more creature types with it.
 		Discard or sacrifice a land twice: Return this from the graveyard to the battlefield under your control tapped.
 	flavor_text: <i-flavor></i-flavor>
 	power: 7
@@ -10267,7 +10267,7 @@ card:
 	sub_type_2: 
 	sub_type_3: 
 	sub_type_4: 
-	rule_text: Whenever a creature with power less than <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Kilmandaros’</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> toughness enters the battlefield, she fights it. When she she wins the <kw-0><nospellcheck><key>fight</key></nospellcheck></kw-0>, destroy target non-creature, non-land permanent.
+	rule_text: Whenever a creature with power less than <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Kilmandaros’</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> toughness enters, she fights it. When she she wins the <kw-0><nospellcheck><key>fight</key></nospellcheck></kw-0>, destroy target non-creature, non-land permanent.
 	flavor_text: <i-flavor></i-flavor>
 	power: 5
 	toughness: 5
@@ -10382,7 +10382,7 @@ card:
 	rule_text:
 		As an additional cost to play this card, you may behold a God.
 		Rebels you control get +2/+0, <kw-0><nospellcheck><key>trample</key></nospellcheck></kw-0> and <kw-0><nospellcheck><key>haste</key></nospellcheck></kw-0>.
-		This enters the battlefield with a Rebel <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>subtype</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> counter if a God was beheld.     
+		This enters with a Rebel <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>subtype</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> counter if a God was beheld.     
 	flavor_text: <i-flavor></i-flavor>
 	power: 2
 	toughness: 2
@@ -10604,7 +10604,7 @@ card:
 	sub_type_4: 
 	rule_text:
 		<kw-a><nospellcheck><key>Enchant <param-name>non-God</param-name></key></nospellcheck></kw-a>
-		When this enters the battlefield, tutor a God into exile.
+		When this enters, tutor a God into exile.
 		Enchanted creature is a copy of exiled card.
 		When enchanted creature dies, put the exiled card into its owners hand.
 	flavor_text: <i-flavor></i-flavor>
@@ -10663,7 +10663,7 @@ card:
 	sub_type_4: 
 	rule_text:
 		<kw-a><nospellcheck><key>Enchant <param-name>non-God creature</param-name></key></nospellcheck></kw-a>
-		When this enters the battlefield, enchanted creature fights target creature with a different owner.
+		When this enters, enchanted creature fights target creature with a different owner.
 		Enchanted creature has “Whenever this wins a <kw-0><nospellcheck><key>fight</key></nospellcheck></kw-0>, deal 3 damage to any target.” and “At the end of your turn, if this attacked, untap it. Otherwise, tap it.”
 	flavor_text: <i-flavor></i-flavor>
 	card_code_text: 
@@ -10743,7 +10743,7 @@ card:
 	sub_type_4: 
 	rule_text:
 		<sym-auto>T</sym-auto>, Tap an untapped creature you control: Tutor a Warren to the battlefield that shares a color in its identity with the tapped creature.
-		Whenever a Warren enters the battlefield under your control, create a 2/2 Green Wolf creature token. It fights target creature you don’t control.
+		Whenever a Warren enters under your control, create a 2/2 Green Wolf creature token. It fights target creature you don’t control.
 	flavor_text: <i-flavor></i-flavor>
 	card_code_text: 
 	card_code_text_2: 
@@ -10861,7 +10861,7 @@ card:
 	sub_type_2: 
 	sub_type_3: 
 	sub_type_4: 
-	rule_text: When this enters the battlefield, destroy all creatures. Each player loses life equal to the creatures they controlled destroyed this way.
+	rule_text: When this enters, destroy all creatures. Each player loses life equal to the creatures they controlled destroyed this way.
 	flavor_text: <i-flavor>​</i-flavor>
 	flavor_text_2: <i-flavor></i-flavor>
 	flavor_text_3: <i-flavor></i-flavor>
@@ -10889,7 +10889,7 @@ card:
 	sub_type_2: 
 	sub_type_3: 
 	sub_type_4: 
-	rule_text: When this enters the battlefield, deal 3 damage divided among any number of targets.
+	rule_text: When this enters, deal 3 damage divided among any number of targets.
 	flavor_text: <i-flavor>​</i-flavor>
 	flavor_text_2: <i-flavor></i-flavor>
 	flavor_text_3: <i-flavor></i-flavor>

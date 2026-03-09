@@ -3,4 +3,4 @@ Cost: 3GG
 Type: Legendary Creature - Beast
 P/T: 0/0
 
-This enters the battlefield with 7 +1/+1 counters on it. Whenever this would be dealt damage, instead remove two counters from it. At the beginning of your upkeep, if this has less than 7 power, put a +1/+1 counter on this.
+This enters with 7 +1/+1 counters on it. Whenever this would be dealt damage, instead remove two counters from it. At the beginning of your upkeep, if this has less than 7 power, put a +1/+1 counter on this.
