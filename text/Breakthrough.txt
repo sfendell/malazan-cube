@@ -1,0 +1,5 @@
+Breakthrough
+Cost: XUUU
+Type: Instant
+
+Draw X cards, then proliferate X times.

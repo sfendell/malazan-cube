@@ -1,0 +1,5 @@
+Short the Market
+Cost: 4WB
+Type: Kindred Sorcery - Merchant
+
+Destroy all artifacts and creatures. Plunder for each permanent destroyed this way, then draw a card for each Merchant destroyed this way.

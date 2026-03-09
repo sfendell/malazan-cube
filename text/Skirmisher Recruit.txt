@@ -1,0 +1,6 @@
+Skirmisher Recruit
+Cost: R
+Type: Creature - Malazan Soldier
+P/T: 2/1
+
+Haste, Enlist

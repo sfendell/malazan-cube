@@ -1,0 +1,5 @@
+Call for Reinforcements
+Cost: 1RW
+Type: Instant
+
+Choose two: • Create a 1/1 Red and White Malazan Sapper token. Gain 2 life. • Create a Cusser. • Impulse 1. • Put a +1/+1 counter on target creature.

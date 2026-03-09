@@ -1,0 +1,5 @@
+Knight of High House Chains
+Cost: 1UB
+Type: Enchantment - Fatid Aura
+
+Enchant non-God creature You control enchanted creature. When you control less than two creatures that you own, exile this.

@@ -1,0 +1,4 @@
+Fine Trousers
+Type: Token Artifact - Equipment
+
+Equipped creature gets +0/+3. Equip 1

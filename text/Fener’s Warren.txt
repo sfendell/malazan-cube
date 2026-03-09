@@ -1,0 +1,4 @@
+Fener’s Warren
+Type: Land - Warren
+
+This enters the battlefield tapped unless you control an Army or a creature with double strike. T: Add W, R or B. 3RWB, T, Sacrifice this: If you attacked twice this turn, target creature ascends.

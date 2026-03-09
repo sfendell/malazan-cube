@@ -1,0 +1,5 @@
+Weaver of High House Life
+Cost: 1GW
+Type: Enchantment - Fatid Aura
+
+Enchant non-God creature Enchanted creature has lifelink and cannot attack or block unless its controller has 10 or more life. Enchanted creature has “Whenever a non-artifact permanent enters the battle under your control, gain 1 life”.

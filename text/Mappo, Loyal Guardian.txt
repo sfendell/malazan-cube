@@ -1,0 +1,6 @@
+Mappo, Loyal Guardian
+Cost: 1RG
+Type: Legendary Creature - Giant Warrior
+P/T: 4/4
+
+You cannot skip turns, phases, or discard cards. Creatures you control cannot be returned to your hand or have stun counters placed on them. Whenever a creature this dealt damage to dies, put a +1/+1 counter on this.

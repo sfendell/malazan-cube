@@ -1,0 +1,6 @@
+Bauchelain
+Cost: 1UB
+Type: Legendary Creature - Human Wizard
+P/T: 2/3
+
+Whenever any number of creature cards enter your graveyard from anywhere, make a 2/2 Black Zombie token. This ability triggers only twice per turn. UB, Slow, mill six and sacrifice a nontoken creature: Destroy target creature.

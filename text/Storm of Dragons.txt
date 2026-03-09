@@ -1,0 +1,5 @@
+Storm of Dragons
+Cost: 5R
+Type: Enchantment
+
+Tap an untapped Dragon you control: Copy target spell. You may choose new targets for that copy. If the copy is a creature spell, it loses legendary and gains haste and “Sacrifice this at the beginning of your next end step”.

@@ -1,0 +1,5 @@
+Teblor Banner
+Cost: 2
+Type: Kindred Artifact - Giant
+
+This enters the battlefield tapped unless you control a creature with power 4 or greater. T: Add R, U, or G. GUR, T, Sacrifice Teblor Banner: Draw a card.

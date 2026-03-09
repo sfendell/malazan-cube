@@ -1,0 +1,6 @@
+Onrack the Broken
+Cost: 1GG
+Type: Legendary Creature - Elder Zombie Warrior
+P/T: 3/4
+
+When this enters the battlefield, you may mill yourself until you mill two lands. You may play lands from your graveyard and may play an additional land each turn. Whenever a land leaves your graveyard, put a +1/+1 counter on a creature you control with power lower than this.

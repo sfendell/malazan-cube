@@ -1,0 +1,5 @@
+Dehydrate
+Cost: 1U
+Type: Instant
+
+Kicker 3 If the kicker cost was paid, all opponents skip their next untap phase. Counter target spell unless its controller pays 2. If they do, tap all creatures they control.

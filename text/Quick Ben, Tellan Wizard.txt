@@ -1,0 +1,6 @@
+Quick Ben, Tellan Wizard
+Cost: 1R
+Type: Legendary Creature - Malazan Wizard Soul
+P/T: 2/2
+
+6R, T: Deal 3 damage to X targets, where X is 1 plus the number of exiled Souls. When this dies, put a Soul you own from outside the game on top of your library.

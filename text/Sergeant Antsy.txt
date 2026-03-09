@@ -1,0 +1,6 @@
+Sergeant Antsy
+Cost: 1R
+Type: Legendary Creature - Malazan Sapper
+P/T: 2/1
+
+First strike Whenever a Sapper you control is tapped, if it is not attacking, deal one damage to target opponent.

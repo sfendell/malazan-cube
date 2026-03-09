@@ -1,0 +1,6 @@
+Kalse, Omtose Phellack Eleint
+Cost: 4UB
+Type: Legendary Creature - Dragon
+P/T: 4/4
+
+Flying Whenever Kalse attacks, freeze target creature. If defending player controls four or more tapped creatures, gain control of one of them.

@@ -1,0 +1,5 @@
+Always an Even Exchange
+Cost: 1UU
+Type: Sorcery
+
+Exchange control of two target creatures with the same mana value, power, or toughness.

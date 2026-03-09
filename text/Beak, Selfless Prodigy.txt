@@ -1,0 +1,6 @@
+Beak, Selfless Prodigy
+Cost: WUBRG
+Type: Legendary Creature - Malazan Child
+P/T: 0/1
+
+Slow, T, Sacrifice Beak: Choose three. If you control another Malazan and another Child, choose five instead. You may repeat each option up to two times: • You gain 4 life. • Destroy all creatures. • Deal 3 damage to any target. • Put two +1/+1 counters on target creature. • Draw a card.

@@ -1,0 +1,5 @@
+Exposit upon the Myth
+Cost: 1U
+Type: Instant
+
+Counter target Legendary spell. Draw a card.

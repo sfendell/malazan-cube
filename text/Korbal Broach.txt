@@ -1,0 +1,6 @@
+Korbal Broach
+Cost: BB
+Type: Legendary Creature - Human Wizard
+P/T: 1/2
+
+Whenever a creature card enters your graveyard from anywhere, place a +1/+1 counter on target creature. This ability activates only twice per turn. X, Remove X counters among creatures you control: Return target creature with mana value X from your graveyard to the battlefield.

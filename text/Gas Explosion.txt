@@ -1,0 +1,5 @@
+Gas Explosion
+Cost: 2RR
+Type: Sorcery
+
+Deal X damage to all creatures, where X is the number of lands on the battlefield. Then you may sacrifice any number of artifacts or non-basic lands. Draw a card or destroy target artifact for each permanent sacrificed this way.

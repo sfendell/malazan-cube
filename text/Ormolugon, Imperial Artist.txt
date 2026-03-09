@@ -1,0 +1,6 @@
+Ormolugon, Imperial Artist
+Cost: RR
+Type: Legendary Creature - Malazan Advisor
+P/T: 1/2
+
+Whenever a Legendary creature enters the battlefield under your control, plunder. Whenever an Army you control attacks, if you control at least three treasures, it gets +3/+3 until end of turn. If it’s attacking alone, take an extra combat after this. This ability triggers only once per turn.

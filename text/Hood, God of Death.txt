@@ -1,0 +1,6 @@
+Hood, God of Death
+Cost: 2BB
+Type: Legendary Creature - Elder Orc God
+P/T: 4/4
+
+Whenever a nontoken creature you control dies, choose one: • Draw a card and lose two life. • Target opponent discards a card and gains two life. At the end of each turn, if four or more creatures died this turn, this ascends.

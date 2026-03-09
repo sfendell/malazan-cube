@@ -1,0 +1,6 @@
+Greyfrog
+Cost: 4B
+Type: Legendary Creature - Demon
+P/T: 6/6
+
+Other creatures and enchantments you control are Food artifacts in addition to their other types and have “2, T, Sacrifice this: You gain 3 life.” Whenever you sacrifice a Food, put a +1/+1 counter on this.

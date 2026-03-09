@@ -1,0 +1,6 @@
+Enslaved Shorttail
+Cost: 1U
+Type: Artifact Creature - Alien Dinosaur
+P/T: 3/3
+
+This cannot attack or block if it has no counters on it. T: Add one mana of any color. Use this only to cast Alien or artifact spells. R/G, T: This fights target creature you control. When it wins the fight, put a +1/+1 counter on it.

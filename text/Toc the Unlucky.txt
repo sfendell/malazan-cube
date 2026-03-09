@@ -1,0 +1,6 @@
+Toc the Unlucky
+Cost: 1UR
+Type: Legendary Creature - Malazan Assassin
+P/T: 3/1
+
+Reach Whenever this enters the battlefield, scry 2. Whenever you put a card on the bottom of your deck, deal 1 damage to target player. Whenever this dies, exile it. It gains suspend. Put two time counters on it.

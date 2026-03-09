@@ -1,0 +1,6 @@
+Dryjhna, The Whirlwind
+Cost: 2RG
+Type: Legendary Creature - God
+P/T: 3/3
+
+At the beginning of combat on your turn, create a 1/1 red and green Rebel creature token with riot. Whenever two Rebels you control deal combat damage to a player, put two +1/+1 counters on this, then this ascends.

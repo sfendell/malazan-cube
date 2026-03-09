@@ -1,0 +1,6 @@
+Gothos, Author of Folly
+Cost: 3U
+Type: Legendary Creature - Elder Orc
+P/T: 3/3
+
+Whenever you draw any number of cards, scry 1. 5U, T: Draw a card. This costs 1 less for each time you’ve scried this turn. Whenever you scry for the fourth time in a turn, freeze all creatures you don’t control.

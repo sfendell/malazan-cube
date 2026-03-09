@@ -1,0 +1,5 @@
+Lob
+Cost: R
+Type: Kindred Instant - Sapper
+
+Deal 2 damage to any target. If there is an artifact in your graveyard, deal 2 damage to that target’s controller as well.

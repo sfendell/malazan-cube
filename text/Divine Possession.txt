@@ -1,0 +1,5 @@
+Divine Possession
+Cost: 2UB
+Type: Enchantment - Aura
+
+Enchant non-God When this enters the battlefield, tutor a God into exile. Enchanted creature is a copy of exiled card. When enchanted creature dies, put the exiled card into its owners hand.

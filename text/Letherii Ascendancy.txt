@@ -1,0 +1,5 @@
+Letherii Ascendancy
+Cost: 1WB
+Type: Kindred Enchantment - Merchant
+
+As long as you control more than two other Treasures or Merchants, creatures you control get +1/+1. Whenever you cast a non-enchantment spell, plunder. WB, Sacrifice four treasures: Tutor a card to your hand.

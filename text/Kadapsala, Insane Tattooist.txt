@@ -1,0 +1,6 @@
+Kadapsala, Insane Tattooist
+Cost: 2WUB
+Type: Legendary Creature - Elder Elf
+P/T: 3/3
+
+At the beginning of your upkeep, put a -1/-1 counter on target artifact creature you control. Noncreature artifacts you control are Construct creatures in addition to their other types. Their power and toughness are each equal to the number of creatures you control with the same name. B, Sacrifice a non-artifact creature: Investigate, plunder and bleed.

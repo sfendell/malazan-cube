@@ -1,0 +1,5 @@
+Usurp
+Cost: 3WB
+Type: Sorcery
+
+Exile target creature. If that creature was an Army, amass Malazans 3. If it was a Noble, draw two cards. If it was a God, another target creature ascends.

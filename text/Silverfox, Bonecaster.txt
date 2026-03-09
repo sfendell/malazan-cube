@@ -1,0 +1,6 @@
+Silverfox, Bonecaster
+Cost: BRG
+Type: Legendary Creature - Elder Zombie Giant Malazan God Wizard
+P/T: 2/2
+
+Creatures you control that share two or more creature types with Silverfox get +1/+1 and have “Whenever this dies, return it to the battlefield tapped under your control. If you do, lose 3 life.”

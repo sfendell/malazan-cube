@@ -1,0 +1,6 @@
+Anaster, First Child of the Dead Seed
+Cost: 1BB
+Type: Legendary Creature - Child
+P/T: 1/2
+
+Whenever a creature enters the battlefield, if it’s a token you control, put a +1/+1 counter on it. Otherwise, put a -1/-1 counter on it. Whenever a creature dies, target player loses X life and you gain X life, where X is the number of counters on it.

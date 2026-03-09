@@ -1,0 +1,5 @@
+Grey Helms’ Final Charge
+Cost: 1RW
+Type: Sorcery
+
+Creatures you gain +3/+0, haste, and trample. At the beginning of your next end step, sacrifice all creatures that attacked this turn

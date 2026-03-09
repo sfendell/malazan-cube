@@ -1,0 +1,5 @@
+Form the Warrens
+Cost: 2G
+Type: Sorcery
+
+Kicker—Tap an untapped God you control Tutor a land into play tapped. If the kicker cost was paid, tutor an additional land into play tapped.

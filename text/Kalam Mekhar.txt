@@ -1,0 +1,6 @@
+Kalam Mekhar
+Cost: RWB
+Type: Legendary Creature - Malazan Assassin
+P/T: 3/3
+
+Deathtouch As long as Kalam is equipped, it has first strike. As long as Kalam is equipped twice, it has â€œT: Deal 1 damage to any target.â€.

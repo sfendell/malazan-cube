@@ -1,0 +1,5 @@
+Trake’s Torcs
+Cost: 2
+Type: Artifact - Equipment
+
+Equipped creature has +3/-1 and first strike. Equip 1. Activate only if this artifact isn’t equipped.

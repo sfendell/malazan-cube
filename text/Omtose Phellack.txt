@@ -1,0 +1,4 @@
+Omtose Phellack
+Type: Land - Warren
+
+This enters the battlefield tapped unless you control exactly one creature. Whenever you attack with exactly one creature, if there is a stun counter on an opponents creature, draw a card. T: Add W or U.

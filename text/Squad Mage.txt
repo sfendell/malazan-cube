@@ -1,0 +1,6 @@
+Squad Mage
+Cost: UR
+Type: Creature - Malazan Wizard
+P/T: 1/1
+
+U, T: Scry 1. R, T: Deal 1 damage to any target.

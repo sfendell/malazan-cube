@@ -1,0 +1,5 @@
+Fiddler’s Deck
+Cost: 3
+Type: Legendary Artifact
+
+When you cast Fiddler’s Deck, shuffle The Deck of Dragons into your library. You may play Fatid cards from your graveyard. Whenever you cast a Fatid spell from your hand, place a foresight counter on Fiddler’s Deck. At the end of your turn, plunder. Then scry X, where X is the number of foresight counters on this. If X is greater than two, instead draw a card. If X is greater than four, instead tutor a card to your hand.

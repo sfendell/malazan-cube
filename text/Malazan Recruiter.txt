@@ -1,0 +1,6 @@
+Malazan Recruiter
+Cost: 1W
+Type: Creature - Malazan Soldier
+P/T: 2/2
+
+Vigilance, enlist Whenever you enlist, amass Malazans 1.

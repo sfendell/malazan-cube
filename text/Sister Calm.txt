@@ -1,0 +1,6 @@
+Sister Calm
+Cost: 1W
+Type: Legendary Creature - Elder Pure
+P/T: 5/5
+
+Vigilance This enters the battlefield tapped and doesn’t untap during your untap phase. Whenever a creature with power or toughness higher than this enters the battlefield, or this is dealt damage, untap it.

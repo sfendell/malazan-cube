@@ -1,0 +1,6 @@
+Baaljagg, The Last Ay
+Cost: 2GG
+Type: Legendary Creature - Elder Zombie Wolf
+P/T: 4/4
+
+Trample, Vigilance At the beginning of your end step, if you control seven or more lands or have two lands in your graveyard, this ascends.

@@ -1,0 +1,5 @@
+Shaved Knuckle in the Hole
+Cost: U
+Type: Instant
+
+Flip a coin. If it’s heads, counter target spell. Otherwise, draw a card.

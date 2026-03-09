@@ -1,0 +1,6 @@
+Benger, High Denul Adept
+Cost: 1W
+Type: Creature - Malazan Soldier Cleric
+P/T: 1/2
+
+Lifelink W, T: Prevent the next X damage dealt to target creature, where X is this creature’s power. If damage is prevented this way, gain X life.

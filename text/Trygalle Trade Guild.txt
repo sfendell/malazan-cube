@@ -1,0 +1,6 @@
+Trygalle Trade Guild
+Cost: 3W/BW/B
+Type: Creature - Human Merchant
+P/T: 4/4
+
+Extort, extort, extort Whenever you extort for the third time in a turn, plunder. Sacrifice a Treasure and a Warren: Return this from your graveyard to the battlefield.

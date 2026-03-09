@@ -1,0 +1,6 @@
+Dalk Tennes
+Cost: 4GG
+Type: Legendary Creature - Dragon
+P/T: */*
+
+Trample, flying Dalk’s power and toughness are equal to the number of lands you control. 2GG: This gets +X/+X, where X is the number of lands in your graveyard.

@@ -1,0 +1,6 @@
+Joyful Union
+Cost: WBG
+Type: Legendary Creature - Scorpion
+P/T: 3/3
+
+Deathtouch, lifelink When Joyful Union dies, create a 2/1 white Scorpion token with lifelink and a 1/2 black Scorpion token with deathtouch.

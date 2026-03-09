@@ -1,0 +1,5 @@
+Hairshirt
+Cost: 2
+Type: Artifact - Equipment
+
+Equip 1 Equipped creature has “At the beginning of your upkeep, create a 1/1 black Rat token and lose 1 life.” and “This creature gets +1/+0 for each Rat you control.”

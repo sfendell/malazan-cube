@@ -1,0 +1,5 @@
+Traverse Starvald Demelain
+Cost: 2G
+Type: Sorcery
+
+Tutor a basic land to the battlefield tapped. Create a land token named Eleint Haven with “T: Add 1 mana of any color. Use this only to cast Dragon spells or activate abilities of Dragon permanents.” Gain 1 life for each Dragon in your graveyard.

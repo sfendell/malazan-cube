@@ -1,0 +1,6 @@
+Shi’gal Assassin
+Cost: BGU
+Type: Creature - Alien Dinosaur Assassin
+P/T: 2/2
+
+Flash, reach, protection from Dragons Whenever this attacks or blocks alone, it gets +2/+0 and trample until end of turn. Whenever this deals combat damage to an opponent, that player discards a card.

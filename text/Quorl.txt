@@ -1,0 +1,6 @@
+Quorl
+Cost: WW
+Type: Artifact Creature - Insect Vehicle
+P/T: 2/3
+
+Flying Crew 1 Whenever you sacrifice an artifact, gain 1 life.

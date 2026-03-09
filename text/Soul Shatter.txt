@@ -1,0 +1,5 @@
+Soul Shatter
+Cost: 4UB
+Type: Sorcery
+
+Destroy target creature. If a creature is destroyed this way, create X 1/2 Black and Blue Bird tokens with flying and “Whenever this is targeted or damaged, sacrifice it.” where X is that creature’s power.

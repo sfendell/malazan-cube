@@ -1,0 +1,6 @@
+The Chained God
+Cost: 6
+Type: Legendary Creature - Alien God
+P/T: 2/1
+
+The Chained God may only be cast from exile. Exile a God or two Elders you control: Exile this from your hand. Indestructible Tap an untapped creature you control, Q: Put a -1/-1 counter on two target creatures. When this enters exile from the battlefield, you win the game.

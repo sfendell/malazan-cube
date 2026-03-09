@@ -1,0 +1,5 @@
+Whisperings of the Jade Giant
+Cost: GG
+Type: Kindred Sorcery - Alien
+
+Reveal the top five cards of your library. Put an Alien card revealed this way into your hand. You may put another creature or land card revealed this way into your hand. Put the rest on the bottom of your library in a random order.

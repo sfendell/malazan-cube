@@ -1,0 +1,5 @@
+Talon’s Machination
+Cost: B
+Type: Kindred Instant - Assassin
+
+As an additional cost to cast this spell, sacrifice a creature. Kicker U, kicker R Destroy target creature. If you paid U, scry 2. If you paid R, impulse. Then if you paid U, you gain cunning until end of turn.

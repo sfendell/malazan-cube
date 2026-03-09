@@ -1,0 +1,8 @@
+Pearl, Selfless Summon
+Cost: 2BB
+Type: Legendary Creature - Demon
+P/T: 4/4
+
+1W, Sacrifice Pearl: Another creature you control gains indestructible and hexproof until end of turn.
+
+Do you pity me, Quick Ben?

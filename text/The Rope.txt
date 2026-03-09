@@ -1,0 +1,5 @@
+The Rope
+Cost: 4
+Type: Legendary Kindred Artifact - Assassin Equipment
+
+Equipped creature has deathtouch and menace. If it is an Assassin, it gains +5/+5. Equip 2

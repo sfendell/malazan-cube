@@ -1,0 +1,6 @@
+Iskaral Pust, Possibly Insane
+Cost: B
+Type: Legendary Creature - Human Assassin Cleric
+P/T: 2/2
+
+Deathtouch Play with your hand revealed. 3: Manifest this.

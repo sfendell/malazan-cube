@@ -1,0 +1,6 @@
+The Seven of the Dead Fires
+Cost: 3BG
+Type: Legendary Creature - Elder Zombie God
+P/T: 7/7
+
+Whenever a legendary creature enters the battlefield, you may put a -1/-1 counter on it and on this. When this dies, if it had zero power and toughness, target creature ascends.

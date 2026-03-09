@@ -1,0 +1,6 @@
+Nameless One
+Cost: 1B
+Type: Creature - Human Cleric
+P/T: 2/2
+
+Sacrifice all creatures you control and exile this from your graveyard: If you sacrificed ten or more creatures this way, tutor a permanent into play. 2B, exile an Elder card from your graveyard: Create a copy of this card. It enters with copies of all of the counters on this card.

@@ -1,0 +1,6 @@
+Cuttle, Veteran Sapper
+Cost: 1RW
+Type: Legendary Creature - Malazan Sapper
+P/T: 2/3
+
+Malazans you control have vigilance. Sappers you control have haste.

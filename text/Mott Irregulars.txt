@@ -1,0 +1,6 @@
+Mott Irregulars
+Cost: 2GG
+Type: Legendary Creature - Malazan Army
+P/T: 5/5
+
+Reach, hexproof, trample, protection from Wizards, Warlocks and creatures with activated abilities Spells you control can’t be countered.

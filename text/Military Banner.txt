@@ -1,0 +1,5 @@
+Military Banner
+Cost: 2
+Type: Kindred Artifact - Malazan
+
+This enters the battlefield tapped unless you control a Sapper or an Army. T: Add R, W, or B. RWB, T, Sacrifice Malazan Banner: Draw a card.

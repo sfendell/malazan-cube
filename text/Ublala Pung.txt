@@ -1,0 +1,6 @@
+Ublala Pung
+Cost: 3GG
+Type: Legendary Creature - Human Giant
+P/T: 6/3
+
+Trample When this enters the battlefield, if you control another creature, put two +1/+1 counters on this and gain 2 life.

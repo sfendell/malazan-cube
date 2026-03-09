@@ -1,0 +1,6 @@
+K’Chain Enzymologist
+Cost: G/UG/U
+Type: Creature - Alien Dinosaur Wizard
+P/T: 2/2
+
+Alien Dinosaur cards in your hand have Affinity for Artifacts and Wizards. Whenever you scry, put a subtype counter of your choice on target creature.

@@ -1,0 +1,5 @@
+Predict the Market
+Cost: 1UB
+Type: Kindred Enchantment - Merchant Aura
+
+Enchant player Whenever a permanent leaves the battlefield, place a derivative counter on this. At the beginning of your upkeep, if this has fewer counters than enchanted player controls, remove a counter from this and lose 1 life. Otherwise, sacrifice this and draw X cards, where X is the number of counters on this.

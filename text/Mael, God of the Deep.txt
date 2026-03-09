@@ -1,0 +1,5 @@
+Mael, God of the Deep
+Type: Legendary Creature - Elder God
+P/T: 5/5
+
+Mael gets +X/+X, where X is your devotion to blue. Whenever this transforms or you sacrifice a creature you do not own, gain control of target creature with mana value less than Mael’s power.

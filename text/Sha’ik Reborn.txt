@@ -1,0 +1,5 @@
+Sha’ik Reborn
+Type: Legendary Creature - Rebel
+P/T: 1/4
+
+Other Rebels you control get +2/+2. XG: Deal X damage to all creatures with flying. 1U: Target creature gains flying until end of turn.

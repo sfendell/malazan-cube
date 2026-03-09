@@ -1,0 +1,6 @@
+Savvy Merchant
+Cost: W/BW/B
+Type: Creature - Human Merchant
+P/T: 1/2
+
+Whenever a token enters the battlefield under your control, gain 1 life. Whenever you sacrifice a permanent, each opponent loses 1 life.

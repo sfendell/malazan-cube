@@ -1,0 +1,5 @@
+Tiste Ascendancy
+Cost: WUB
+Type: Kindred Enchantment - Elder Elf
+
+Elder Elves you control get +1/+1. At the beginning of your upkeep, scry 1. Whenever a creature you control dies, surveil 1, then investigate.

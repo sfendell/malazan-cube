@@ -1,0 +1,6 @@
+Sky Drone
+Cost: 2U
+Type: Creature - Alien Dinosaur
+P/T: 2/2
+
+This enters the battlefield with a flying counter on it. Slow, T: Move target counter from target creature you control to another target creature.

@@ -1,0 +1,6 @@
+Telorast and Curdle
+Cost: 1UR
+Type: Legendary Creature - Elder Dragon Spirit Skeleton
+P/T: 2/2
+
+Flying RR: This gets +2/+0 until end of turn. When this dies, you may pay UU. If you do, target creature becomes a copy of it.

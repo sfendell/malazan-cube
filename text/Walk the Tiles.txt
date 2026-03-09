@@ -1,0 +1,5 @@
+Walk the Tiles
+Cost: U
+Type: Instant
+
+Scry 1. If you control an Elder Warren, scry 3 instead. Draw a card.

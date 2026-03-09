@@ -1,0 +1,5 @@
+The Drum
+Cost: 5
+Type: Legendary Kindred Artifact - Sapper
+
+Landfall — Create a Cusser token. Whenever a Cusser you control deals damage to a creature, deal X damage to that creature, where X is the number of detonation counters on this. Then place a detonation counter on this. When the eighth detonation counter is placed on this, sacrifice it, then deal 8 damage to each creature and 8 damage to you.

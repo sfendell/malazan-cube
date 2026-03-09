@@ -1,0 +1,21 @@
+﻿mse_version: 0.3.5
+part:
+	type: shape
+	name: Square
+	combine: overlap
+	point:
+		position: (0.6458700882,0.7421010425)
+		lock: free
+		line_after: line
+	point:
+		position: (0.6458700882,0.7534883721)
+		lock: free
+		line_after: line
+	point:
+		position: (0.6572574178,0.7534883721)
+		lock: free
+		line_after: line
+	point:
+		position: (0.6572574178,0.7421010425)
+		lock: free
+		line_after: line

@@ -1,0 +1,6 @@
+War-Bitch
+Cost: 5GG
+Type: Legendary Creature - Wolf God
+P/T: 4/4
+
+Trample Other Wolves you control get +1/+1. When this enters the battlefield, create two 2/2 Wolf tokens. At the beginning of combat on your turn, target creature you control fights another target creature. Whenever you win a fight, put two +1/+1 counters on the winning creature.

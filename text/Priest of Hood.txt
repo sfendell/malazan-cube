@@ -1,0 +1,6 @@
+Priest of Hood
+Cost: 1BB
+Type: Creature - Cleric
+P/T: 0/1
+
+Whenever a creature you control dies, put a +1/+1 counter on this. Afterlife X, where X is the number of creatures in your graveyard.

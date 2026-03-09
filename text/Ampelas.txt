@@ -1,0 +1,6 @@
+Ampelas
+Cost: 2BR
+Type: Creature - Dragon
+P/T: 3/4
+
+Flying Whenever you sacrifice a creature, deal 1 damage to any target. Afterlife 2

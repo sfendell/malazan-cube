@@ -1,0 +1,5 @@
+Trap in Dragonsblood
+Cost: W
+Type: Enchantment - Aura
+
+Enchant creature card in your graveyard When this enters the battlefield, exile target creature until this is leaves the battlefield. 1: If enchanted creature is a Dragon card, gain 2 life for each card in exile, then put all exiled cards in their owners graveyard and sacrifice this.

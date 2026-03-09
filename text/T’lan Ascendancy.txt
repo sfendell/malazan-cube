@@ -1,0 +1,5 @@
+T’lan Ascendancy
+Cost: BRG
+Type: Kindred Enchantment - Elder Zombie
+
+Elder Zombies you control get +1/+1. Slow, BRG, Sacrifice a land: Deal 2 damage to any target. Whenever a land enters your graveyard from anywhere, create a 2/2 Black, red and green Elder Zombie creature token with Reach.

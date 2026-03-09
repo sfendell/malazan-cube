@@ -1,0 +1,5 @@
+Foresee
+Cost: 1UU
+Type: Instant
+
+This card costs U less if you’ve scried this turn. Counter target spell.

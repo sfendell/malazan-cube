@@ -1,0 +1,6 @@
+The Hounds of Shadow
+Cost: 5BB
+Type: Legendary Creature - Elder Dog
+P/T: 7/7
+
+Lifelink If this would die, it instead phases out. 5BB, Sacrifice a Warren: This phases in.

@@ -1,0 +1,6 @@
+Silanah Redwings
+Cost: 4RR
+Type: Legendary Creature - Dragon
+P/T: 4/4
+
+Flying Whenever this attacks, it deals damage equal to its power to target creature.

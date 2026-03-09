@@ -1,0 +1,6 @@
+Topper
+Cost: 1BB
+Type: Legendary Creature - Elder Elf Malazan Assassin Wizard
+P/T: 1/1
+
+Deathtouch, Exploit (When this creature enters, you may sacrifice a creature.) Whenever any creature exploits, destroy target creature. 6U: Exile this. Return it to the battlefield at the end of the turn. This ability costs 1 less for each Warren you control.

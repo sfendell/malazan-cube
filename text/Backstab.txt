@@ -1,0 +1,5 @@
+Backstab
+Cost: 2B
+Type: Sorcery
+
+Destroy target tapped creature. If it had vigilance, its controller loses 4 life.

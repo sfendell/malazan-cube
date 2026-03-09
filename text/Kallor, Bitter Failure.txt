@@ -1,0 +1,6 @@
+Kallor, Bitter Failure
+Cost: 2B
+Type: Legendary Creature - Human Noble
+P/T: 1/1
+
+Kallor cannot ascend or die. (If his toughness is less than zero, he remains on the battlefield. He cannot be sacrificed.)

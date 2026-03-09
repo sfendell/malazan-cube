@@ -1,0 +1,5 @@
+Rain of Spider Silk
+Cost: WU
+Type: Enchantment
+
+Whenever a creature you don’t control becomes the target of a spell or ability, gain 1 life. Whenever you gain life, scry 1. WU: Tap target creature.

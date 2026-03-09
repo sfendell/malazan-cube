@@ -1,0 +1,6 @@
+Gral Horse
+Cost: BRG
+Type: Creature - Rebel Horse
+P/T: 3/3
+
+Riot, deathtouch, trample

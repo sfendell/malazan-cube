@@ -1,0 +1,6 @@
+Cheâ€™Malle Dissector
+Cost: U/BG
+Type: Creature - Alien Dinosaur Wizard
+P/T: 2/2
+
+U/BG, T, Sacrifice a land or creature: Proliferate. Put a subtype counter that shares a subtype with it on target permanent of the same type. (If a subtype counter would be placed on a permanent of that subtype, instead, it isnâ€™t.).

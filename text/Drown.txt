@@ -1,0 +1,5 @@
+Drown
+Cost: UB
+Type: Instant
+
+Return target creature to its owner’s hand. If it was tapped, that player discards a card.

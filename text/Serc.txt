@@ -1,0 +1,4 @@
+Serc
+Type: Land - Warren
+
+This enters the battlefield tapped unless you’ve dealt noncombat damage this turn. T: Add R, U, or W. URW, T, Sacrifice this: Draw a card if a permanent took noncombat damage this turn. Draw a card if a player took combat damage this turn.

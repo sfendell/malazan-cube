@@ -1,0 +1,5 @@
+Crow Clan Revival
+Cost: 2WB
+Type: Enchantment
+
+Whenever a nontoken creature you control dies, create a 1/2 White and Black Bird creature token with flying. If the creature was sacrificed, populate. Sacrifice X creature tokens: Return target creature with mana value X or less from your graveyard to your battlefield.

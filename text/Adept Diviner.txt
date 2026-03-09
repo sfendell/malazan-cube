@@ -1,0 +1,6 @@
+Adept Diviner
+Cost: 1U
+Type: Creature - Human Wizard
+P/T: 1/3
+
+T: Scry 1. Whenever you cast an instant or sorcery, untap this.

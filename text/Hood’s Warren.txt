@@ -1,0 +1,4 @@
+Hood’s Warren
+Type: Land - Warren
+
+This enters tapped if there are no creatures in your graveyard. T: Add B. T: Add one mana of any color of any creature in your graveyard.

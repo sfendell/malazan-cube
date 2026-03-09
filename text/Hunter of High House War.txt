@@ -1,0 +1,5 @@
+Hunter of High House War
+Cost: RG
+Type: Enchantment - Fatid Aura
+
+Enchant non-God creature When this enters the battlefield, enchanted creature fights target creature with a different owner. Enchanted creature has “Whenever this wins a fight, deal 3 damage to any target.” and “At the end of your turn, if this attacked, untap it. Otherwise, tap it.”

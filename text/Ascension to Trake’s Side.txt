@@ -1,0 +1,5 @@
+Ascension to Trake’s Side
+Cost: 3R
+Type: Enchantment
+
+Whenever anything is dealt damage or dies, put a blood counter on this. If it was sacrificed, put an additional blood counter on this. Remove 5 blood counters from this: Destroy target artifact or nonbasic land. Remove 10 blood counters from this: Amass 4. Remove 20 blood counters from this: Create eight 2/1 Red Cat Human Warrior tokens with double strike and haste.

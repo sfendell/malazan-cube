@@ -1,0 +1,5 @@
+Scepter, Orb, and Throne
+Cost: 3
+Type: Enchantment Artifact - Fatid
+
+U, T: Tap or untap target creature. 1W, T: Gain 3 life. 2G, T: Put a +1/+1 counter on target creature. 3B, T: Put a -1/-1 counter on target creature. 4R, T: Deal 3 damage to target creature.

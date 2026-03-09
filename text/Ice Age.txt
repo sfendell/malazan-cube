@@ -1,0 +1,5 @@
+Ice Age
+Cost: 1U
+Type: Sorcery
+
+Freeze all creatures. Then either draw a card or proliferate.

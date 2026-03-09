@@ -1,0 +1,5 @@
+Outmaneuver
+Cost: R
+Type: Instant
+
+Up to two target creatures gets first strike until end of turn. Scry 1. Impulse 1.

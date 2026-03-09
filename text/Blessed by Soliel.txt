@@ -1,0 +1,5 @@
+Blessed by Soliel
+Cost: GW
+Type: Enchantment - Aura
+
+Enchant creature Enchanted creature has hexproof and cannot have counters placed on it. When enchanted creature dies, draw a card.

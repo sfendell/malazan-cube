@@ -1,0 +1,5 @@
+Scorching Godsblood
+Cost: B
+Type: Enchantment - Aura
+
+Enchant creature Enchanted creature gets “When this dies, destroy target creature. If this was a God, exile target creature instead and its controller loses 3 life.”

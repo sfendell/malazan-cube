@@ -1,0 +1,5 @@
+Magi of High House Chains
+Cost: 1UU
+Type: Enchantment - Fatid Aura
+
+Enchant non-God creature Enchanted creature cannot attack or block unless its owner scried this turn. Enchanted creature has “Whenever you cast an instant or sorcery, copy it. You may choose new copies for the target.”

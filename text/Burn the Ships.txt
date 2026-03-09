@@ -1,0 +1,5 @@
+Burn the Ships
+Cost: 1BR
+Type: Instant
+
+Destroy all tokens and artifacts. Deal X damage to any target, where X is the number of permanents destroyed or sacrificed this turn.

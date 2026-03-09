@@ -1,0 +1,4 @@
+Darujhistan
+Type: Land - Town
+
+This enters the battlefield tapped unless you control a creature. T: Add G or W. U, T: Sacrifice this: Add RRR.

@@ -1,0 +1,6 @@
+Kalyth, Unwilling Destriant
+Cost: 3G
+Type: Legendary Creature - Alien Dinosaur Human
+P/T: 3/5
+
+Evolve Other Alien Dinosaurs you control have +1/+1 and evolve. Whenever a +1/+1 counter is placed on a creature you control, gain 1 life. If it was an Alien Dinosaur, gain 2 life instead. If the creature has 5 or more counters on it, this ascends.

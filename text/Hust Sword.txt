@@ -1,0 +1,5 @@
+Hust Sword
+Cost: 4
+Type: Artifact - Equipment
+
+Equipped creature gets +2/+2 and has double strike, vigilance, reach, and protection from Dragons. Equip 5

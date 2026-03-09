@@ -1,0 +1,5 @@
+Call Upon an Outside Force
+Cost: 3BB
+Type: Sorcery
+
+Tutor a creature card into exile. It gains “When you cast this card, destroy all creatures.” You may cast it from exile for as long as it remains exiled.
