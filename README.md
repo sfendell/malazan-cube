@@ -1,6 +1,6 @@
 # Malazan Cube of the Fallen
 
-It's Malazan! Cube of the Fallen! Malazan, Book of the Fallen, but a Cube! MTG cube for yo to play! Magic, the Gathering, just as ~~Richard Garfield~~ Steven Erikson intended!
+It's Malazan! Cube of the Fallen! Malazan, Book of the Fallen, but a Cube! MTG cube for you to play! Magic, the Gathering, just as ~~Richard Garfield~~ Steven Erikson intended!
 
 **→ [Browse the cube](https://sfendell.github.io/malazan-cube/)**
 
@@ -19,6 +19,7 @@ Card art and text live in this repo; rendered PNGs are produced by **Magic Set E
 ### Commands
 
 1. **Fix wording** (optional) — Run the clippy script to normalize ability text in `text/` using an LLM. Requires `OPENAI_API_KEY` in your environment.
+
    ```powershell
    .\mtg-clippy.ps1
    ```
