@@ -11,12 +11,13 @@ $MseSetPath = Join-Path $Root "Malazan Cube of the Fallen.mse-set"
 function Normalize-Encoding {
     param([string]$s)
     if (-not $s) { return $s }
-    # Fix common UTF-8 mojibake so apostrophes match set and render correctly
-    $s = $s -replace [char]0x2019, "'"  # Unicode right single quote -> ASCII
-    $s = $s -replace 'â€™', "'"         # UTF-8 misinterpreted as Windows-1252
-    $s = $s -replace 'â€"', "-"         # em dash
-    $s = $s -replace 'â€œ', '"'         # left double quote
-    $s = $s -replace 'â€\u009d', '"'    # right double quote (various)
+    # Fix common UTF-8 mojibake using [char] codes only (no literal Unicode in script)
+    $s = $s -replace [char]0x2019, "'"   # Unicode right single quote -> ASCII
+    $mojibakeApos = ([char]0x00E2).ToString() + ([char]0x20AC).ToString() + ([char]0x2122).ToString()  # UTF-8 apostrophe read as Windows-1252
+    $s = $s -replace [regex]::Escape($mojibakeApos), "'"
+    $s = $s -replace [char]0x2014, "-"   # em dash
+    $s = $s -replace [char]0x201C, '"'   # left double quote
+    $s = $s -replace [char]0x201D, '"'   # right double quote
     return $s
 }
 
@@ -100,13 +101,23 @@ if ($newSetContent -match '^card:\n') { $newSetContent = $newSetContent -replace
 [System.IO.File]::WriteAllText($SetPath, $newSetContent, [System.Text.UTF8Encoding]::new($false))
 Write-Host "Updated MSE set: $updated card(s) synced from text."
 
-# 3) Repack mse-extract into .mse-set (zip)
-$zipPath = $Root + "\mse-set-repack.zip"
-if (Test-Path $zipPath) { Remove-Item $zipPath -Force }
+# 3) Repack mse-extract into .mse-set (zip); Compress-Archive only accepts .zip so create then rename
 $mseExtract = Join-Path $Root "mse-extract"
+$zipPath = Join-Path $Root "mse-set-repack.zip"
+$mseSetNew = Join-Path $Root "Malazan Cube of the Fallen.mse-set.new"
 Compress-Archive -Path (Join-Path $mseExtract "*") -DestinationPath $zipPath -Force
-Move-Item -Path $zipPath -Destination $MseSetPath -Force
-Write-Host "Repacked MSE set to $MseSetPath"
+if (Test-Path $mseSetNew) { Remove-Item $mseSetNew -Force }
+Move-Item -Path $zipPath -Destination $mseSetNew -Force
+try {
+    if (Test-Path $MseSetPath) { Remove-Item $MseSetPath -Force -ErrorAction Stop }
+    Move-Item -Path $mseSetNew -Destination $MseSetPath -Force -ErrorAction Stop
+    Write-Host "Repacked MSE set to $MseSetPath"
+} catch {
+    Write-Warning "Could not replace $MseSetPath (file may be open in MSE or another app)."
+    Write-Host "New set saved as: $mseSetNew"
+    Write-Host "Close the .mse-set file, then rename the .new file to replace it, or re-run this script."
+    exit 1
+}
 
 # 4) Export all cards to exported_cards
 Write-Host "Exporting all cards..."
