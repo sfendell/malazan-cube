@@ -17,20 +17,6 @@ function Get-ColorsFromCost {
     return @($colors)
 }
 
-function Get-PrimaryType {
-    param([string]$typeLine)
-    if (-not $typeLine) { return 'Other' }
-    $t = $typeLine.Trim()
-    if ($t -match 'Land') { return 'Land' }
-    if ($t -match 'Instant') { return 'Instant' }
-    if ($t -match 'Sorcery') { return 'Sorcery' }
-    if ($t -match 'Creature') { return 'Creature' }
-    if ($t -match 'Artifact') { return 'Artifact' }
-    if ($t -match 'Enchantment') { return 'Enchantment' }
-    if ($t -match 'Planeswalker') { return 'Planeswalker' }
-    if ($t -match 'Battle') { return 'Battle' }
-    return 'Other'
-}
 
 # Build metadata from text/
 $meta = @{}
@@ -54,9 +40,9 @@ if (Test-Path $TextDir) {
         $colors = Get-ColorsFromCost $cost
         $colorKey = ($colors | Sort-Object { $WUBRG.IndexOf($_) }) -join ''
         $meta[$name] = @{
-            colors = $colorKey
-            type   = Get-PrimaryType $typeLine
-            text   = ($textLines -join " ").Trim()
+            colors   = $colorKey
+            typeLine = if ($typeLine) { $typeLine.Trim() } else { '' }
+            text     = ($textLines -join " ").Trim()
         }
     }
 }
@@ -68,9 +54,9 @@ Get-ChildItem -Path $ExportDir -Filter "*.png" -File -ErrorAction SilentlyContin
     $name = $imgName -replace '\.png$', ''
     $m = $meta[$name]
     $colors = if ($m) { $m.colors } else { '' }
-    $type = if ($m) { $m.type } else { 'Other' }
+    $typeLine = if ($m) { $m.typeLine } else { '' }
     $text = if ($m) { $m.text } else { '' }
-    $cards += [PSCustomObject]@{ name = $name; img = $imgName; colors = $colors; type = $type; text = $text }
+    $cards += [PSCustomObject]@{ name = $name; img = $imgName; colors = $colors; typeLine = $typeLine; text = $text }
 }
 $cards = $cards | Sort-Object { $_.name }
 

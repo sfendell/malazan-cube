@@ -192,8 +192,17 @@
         return c === '' ? 'C' : c;
       }
 
-      function cardType(card) {
-        return (card.type != null ? card.type : 'Other') || 'Other';
+      var TYPE_KEYWORDS = ['Land', 'Instant', 'Sorcery', 'Creature', 'Artifact', 'Enchantment', 'Planeswalker', 'Battle'];
+      function cardHasType(card, typeKey) {
+        if (!typeKey) return true;
+        var line = (card.typeLine != null ? card.typeLine : '').toLowerCase();
+        if (typeKey === 'Other') {
+          for (var i = 0; i < TYPE_KEYWORDS.length; i++) {
+            if (line.indexOf(TYPE_KEYWORDS[i].toLowerCase()) !== -1) return false;
+          }
+          return true;
+        }
+        return line.indexOf(typeKey.toLowerCase()) !== -1;
       }
 
       function cardSearchText(card) {
@@ -208,9 +217,11 @@
         var query = (document.getElementById('text-filter').value || '').trim().toLowerCase();
         return cards.filter(function (card) {
           var c = cardColors(card);
-          if (colorKey !== '' && colorKey !== 'C' && c !== colorKey) return false;
-          if (colorKey === 'C' && c !== 'C') return false;
-          if (typeKey !== '' && cardType(card) !== typeKey) return false;
+          if (colorKey !== '') {
+            if (colorKey === 'C') { if (c !== 'C') return false; }
+            else if (c !== colorKey) return false;
+          }
+          if (typeKey !== '' && !cardHasType(card, typeKey)) return false;
           if (query !== '' && cardSearchText(card).indexOf(query) === -1) return false;
           return true;
         });
@@ -249,13 +260,7 @@
       }
 
       function normalizeCards(data) {
-        if (!Array.isArray(data)) return [];
-        if (data.length === 0) return data;
-        if (typeof data[0] === 'string') {
-          return data.map(function (img) {
-            return { name: img.replace(/\.png$/i, ''), img: img, colors: '', type: 'Other', text: '' };
-          });
-        }
+        if (!Array.isArray(data) || data.length === 0) return [];
         return data;
       }
 
