@@ -2,4 +2,4 @@ Azath’s Grasp
 Cost: 1WW
 Type: Enchantment
 
-When this enters the battlefield, exile target creature until it leaves the battlefield. At the beginning of combat on your turn, target creature gets +X/+X, where X is the number of creatures your opponents own in exile.
+When this enters, exile target creature until it leaves the battlefield. At the beginning of combat on your turn, target creature gets +X/+X, where X is the number of creatures your opponents own in exile.

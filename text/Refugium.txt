@@ -1,4 +1,4 @@
 Refugium
 Type: Land - Warren
 
-This enters the battlefield tapped unless a creature has entered the battlefield under your control this turn. Creature spells you control have ward 1. T: Add W or G.
+This enters tapped unless a creature has entered the battlefield under your control this turn. Creature spells you control have ward 1. T: Add W or G.

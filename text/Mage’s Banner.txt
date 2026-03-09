@@ -2,4 +2,4 @@ Mage’s Banner
 Cost: 2
 Type: Kindred Artifact - Wizard
 
-This enters the battlefield tapped unless you cast an instant or sorcery this turn. T: Add R, U, or W. URW, T, Sacrifice Mage’s Banner: Draw a card.
+This enters tapped unless you cast an instant or sorcery this turn. T: Add R, U, or W. URW, T, Sacrifice Mage’s Banner: Draw a card.

@@ -1,4 +1,4 @@
 Akhrast Korvelain
 Type: Kindred Land - Elder Warren
 
-This enters the battlefield tapped unless an opponent has discarded a card this turn. T: Add U, R, or B. 3UBR, T, Slow, Sacrifice this: Target opponent discards their hand.
+This enters tapped unless an opponent has discarded a card this turn. T: Add U, R, or B. 3UBR, T, Slow, Sacrifice this: Target opponent discards their hand.

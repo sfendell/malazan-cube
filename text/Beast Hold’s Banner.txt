@@ -2,4 +2,4 @@ Beast Hold’s Banner
 Cost: 2
 Type: Kindred Artifact - Beast
 
-This enters the battlefield tapped unless you control more creatures than your opponent. T: Add R, G, or W. RGW, T, Sacrifice this: Draw a card.
+This enters tapped unless you control more creatures than your opponent. T: Add R, G, or W. RGW, T, Sacrifice this: Draw a card.

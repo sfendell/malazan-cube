@@ -1,4 +1,4 @@
 Starvald Demelain
 Type: Land - Warren
 
-This enters the battlefield tapped unless you control a Dragon. T: Add R. T: Add one mana of any color another Warren you control could produce.
+This enters tapped unless you control a Dragon. T: Add R. T: Add one mana of any color another Warren you control could produce.
