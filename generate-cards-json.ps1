@@ -47,12 +47,27 @@ if (Test-Path $TextDir) {
     }
 }
 
+# Normalize card name for lookup: PNG names may drop commas (e.g. "Beak Selfless Prodigy" vs "Beak, Selfless Prodigy")
+function Get-MetaForCardName {
+    param([string]$name)
+    if ($meta[$name]) { return $meta[$name] }
+    # Try with comma after first word so "Beak Selfless Prodigy" matches "Beak, Selfless Prodigy"
+    $withComma = $name -replace '^([^ ]+) ', '$1, '
+    if ($meta[$withComma]) { return $meta[$withComma] }
+    # Try without commas in case meta was keyed without
+    $noCommas = $name.Replace(',', '').Trim() -replace '\s+', ' '
+    foreach ($k in $meta.Keys) {
+        if (($k.Replace(',', '').Trim() -replace '\s+', ' ') -eq $noCommas) { return $meta[$k] }
+    }
+    return $null
+}
+
 # Build list from exported_cards, merge metadata
 $cards = @()
 Get-ChildItem -Path $ExportDir -Filter "*.png" -File -ErrorAction SilentlyContinue | ForEach-Object {
     $imgName = $_.Name
     $name = $imgName -replace '\.png$', ''
-    $m = $meta[$name]
+    $m = Get-MetaForCardName $name
     $colors = if ($m) { $m.colors } else { '' }
     $typeLine = if ($m) { $m.typeLine } else { '' }
     $text = if ($m) { $m.text } else { '' }
