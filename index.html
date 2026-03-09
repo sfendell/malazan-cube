@@ -276,30 +276,19 @@
       document.getElementById('type-filter').addEventListener('change', onFilterChange);
       document.getElementById('text-filter').addEventListener('input', onFilterChange);
 
-      fetch(base + 'cards.json')
-        .then(function (r) { return r.ok ? r.json() : Promise.reject(new Error('cards.json not found')); })
+      fetch('cards.json')
+        .then(function (r) {
+          if (!r.ok) throw new Error(r.status);
+          return r.json();
+        })
         .then(function (data) {
           loading.style.display = 'none';
           allCards = normalizeCards(data);
           renderCards(allCards);
         })
         .catch(function () {
-          if (owner === 'github') return showError('Could not load card list. Run generate-cards-json.ps1 and push cards.json.');
-          fetch('https://api.github.com/repos/' + owner + '/' + repo + '/contents/exported_cards')
-            .then(function (r) { return r.json(); })
-            .then(function (data) {
-              if (Array.isArray(data)) {
-                var names = data.filter(function (x) { return x.name && /\.png$/i.test(x.name); }).map(function (x) { return x.name; });
-                if (names.length) {
-                  loading.style.display = 'none';
-                  allCards = names.map(function (n) { return { name: n.replace(/\.png$/i, ''), img: n, colors: '', type: 'Other', text: '' }; });
-                  renderCards(allCards);
-                  return;
-                }
-              }
-              showError('Could not load card list. Push cards.json or enable GitHub Pages.');
-            })
-            .catch(function () { showError('Could not load card list. Run generate-cards-json.ps1 and push cards.json.'); });
+          loading.style.display = 'none';
+          showError('Could not load cards.json. Make sure the file is in the same folder as index.html and you are viewing via GitHub Pages (not file://).');
         });
     })();
   </script>
