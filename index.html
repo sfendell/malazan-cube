@@ -22,10 +22,36 @@
     }
     .sub {
       text-align: center;
-      margin-bottom: 1.5rem;
+      margin-bottom: 1rem;
       opacity: 0.85;
     }
     .sub a { color: #7eb8da; }
+    .filters {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      align-items: center;
+      margin-bottom: 1.5rem;
+      padding: 0.75rem;
+      background: rgba(255,255,255,0.05);
+      border-radius: 8px;
+    }
+    .filters label { display: flex; align-items: center; gap: 0.5rem; }
+    .filters select, .filters input[type="text"] {
+      padding: 0.4rem 0.6rem;
+      background: #2a2a2e;
+      border: 1px solid #444;
+      border-radius: 4px;
+      color: #e0e0e0;
+      font-size: 0.95rem;
+    }
+    .filters input[type="text"] { min-width: 180px; }
+    .color-swatch { display: inline-flex; gap: 1px; }
+    .color-swatch span {
+      width: 12px; height: 12px;
+      border-radius: 50%;
+      border: 1px solid rgba(255,255,255,0.3);
+    }
     .gallery {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
@@ -53,14 +79,21 @@
     }
     .loading { text-align: center; padding: 3rem; }
     .error { text-align: center; padding: 2rem; color: #e88; }
+    .no-results { text-align: center; padding: 2rem; opacity: 0.8; }
   </style>
 </head>
 <body>
   <div class="page">
     <h1>Malazan Cube of the Fallen</h1>
     <p class="sub">Card gallery · <a id="repo-link" href="#">Repository</a></p>
+    <div class="filters">
+      <label>Color: <select id="color-filter"></select><span id="color-preview" class="color-swatch"></span></label>
+      <label>Type: <select id="type-filter"></select></label>
+      <label>Text: <input type="text" id="text-filter" placeholder="Exact text in card…"></label>
+    </div>
     <div id="gallery" class="gallery"></div>
     <div id="loading" class="loading">Loading cards…</div>
+    <div id="no-results" class="no-results" style="display:none">No cards match the filters.</div>
     <div id="error" class="error" style="display:none"></div>
   </div>
   <script>
@@ -73,7 +106,158 @@
       if (repoLink && owner && owner !== 'github') repoLink.href = 'https://github.com/' + owner + '/' + repo;
       var gallery = document.getElementById('gallery');
       var loading = document.getElementById('loading');
+      var noResults = document.getElementById('no-results');
       var errEl = document.getElementById('error');
+
+      var COLOR_MAP = {
+        W: '#f0e6a2', U: '#b0d5e5', B: '#c4b4a4', R: '#e8a060', G: '#9acd82'
+      };
+      var COLOR_ORDER = [
+        { key: '', name: 'All colors', colors: [] },
+        { key: 'C', name: 'Colorless', colors: [] },
+        { key: 'W', name: 'White', colors: ['W'] },
+        { key: 'U', name: 'Blue', colors: ['U'] },
+        { key: 'B', name: 'Black', colors: ['B'] },
+        { key: 'R', name: 'Red', colors: ['R'] },
+        { key: 'G', name: 'Green', colors: ['G'] },
+        { key: 'WU', name: 'Azorius', colors: ['W','U'] },
+        { key: 'UB', name: 'Dimir', colors: ['U','B'] },
+        { key: 'BR', name: 'Rakdos', colors: ['B','R'] },
+        { key: 'RG', name: 'Gruul', colors: ['R','G'] },
+        { key: 'GW', name: 'Selesnya', colors: ['G','W'] },
+        { key: 'WB', name: 'Orzhov', colors: ['W','B'] },
+        { key: 'UR', name: 'Izzet', colors: ['U','R'] },
+        { key: 'BG', name: 'Golgari', colors: ['B','G'] },
+        { key: 'RW', name: 'Boros', colors: ['R','W'] },
+        { key: 'GU', name: 'Simic', colors: ['G','U'] },
+        { key: 'WUB', name: 'Esper', colors: ['W','U','B'] },
+        { key: 'UBR', name: 'Grixis', colors: ['U','B','R'] },
+        { key: 'BRG', name: 'Jund', colors: ['B','R','G'] },
+        { key: 'RGW', name: 'Naya', colors: ['R','G','W'] },
+        { key: 'GWU', name: 'Bant', colors: ['G','W','U'] },
+        { key: 'WBG', name: 'Abzan', colors: ['W','B','G'] },
+        { key: 'UWR', name: 'Jeskai', colors: ['U','W','R'] },
+        { key: 'BUG', name: 'Sultai', colors: ['B','U','G'] },
+        { key: 'RWB', name: 'Mardu', colors: ['R','W','B'] },
+        { key: 'GUR', name: 'Temur', colors: ['G','U','R'] }
+      };
+
+      function makeColorSwatch(colors) {
+        var wrap = document.createElement('span');
+        wrap.className = 'color-swatch';
+        colors.forEach(function (c) {
+          var s = document.createElement('span');
+          s.style.background = COLOR_MAP[c] || '#666';
+          wrap.appendChild(s);
+        });
+        return wrap;
+      }
+
+      function fillColorFilter() {
+        var sel = document.getElementById('color-filter');
+        COLOR_ORDER.forEach(function (o) {
+          var opt = document.createElement('option');
+          opt.value = o.key;
+          opt.textContent = o.colors.length ? o.name + ' (' + o.colors.join('') + ')' : o.name;
+          sel.appendChild(opt);
+        });
+        sel.addEventListener('change', updateColorPreview);
+        updateColorPreview();
+      }
+      function updateColorPreview() {
+        var key = document.getElementById('color-filter').value;
+        var o = COLOR_ORDER.filter(function (x) { return x.key === key; })[0];
+        var el = document.getElementById('color-preview');
+        el.innerHTML = '';
+        if (o && o.colors.length) o.colors.forEach(function (c) {
+          var s = document.createElement('span');
+          s.style.background = COLOR_MAP[c] || '#666';
+          el.appendChild(s);
+        });
+      }
+
+      var TYPE_ORDER = ['All types', 'Land', 'Instant', 'Sorcery', 'Creature', 'Artifact', 'Enchantment', 'Planeswalker', 'Battle', 'Other'];
+      function fillTypeFilter() {
+        var sel = document.getElementById('type-filter');
+        TYPE_ORDER.forEach(function (t) {
+          var opt = document.createElement('option');
+          opt.value = t === 'All types' ? '' : t;
+          opt.textContent = t;
+          sel.appendChild(opt);
+        });
+      }
+
+      function cardColors(card) {
+        var c = card.colors != null ? card.colors : '';
+        return c === '' ? 'C' : c;
+      }
+
+      function cardType(card) {
+        return (card.type != null ? card.type : 'Other') || 'Other';
+      }
+
+      function cardSearchText(card) {
+        var name = (card.name != null ? card.name : card.img || '').replace(/\.png$/i, '');
+        var text = card.text != null ? card.text : '';
+        return (name + ' ' + text).toLowerCase();
+      }
+
+      function applyFilters(cards) {
+        var colorKey = document.getElementById('color-filter').value;
+        var typeKey = document.getElementById('type-filter').value;
+        var query = (document.getElementById('text-filter').value || '').trim().toLowerCase();
+        return cards.filter(function (card) {
+          var c = cardColors(card);
+          if (colorKey !== '' && colorKey !== 'C' && c !== colorKey) return false;
+          if (colorKey === 'C' && c !== 'C') return false;
+          if (typeKey !== '' && cardType(card) !== typeKey) return false;
+          if (query !== '' && cardSearchText(card).indexOf(query) === -1) return false;
+          return true;
+        });
+      }
+
+      function renderCards(cards) {
+        gallery.innerHTML = '';
+        noResults.style.display = 'none';
+        var list = applyFilters(cards);
+        if (list.length === 0) {
+          noResults.style.display = 'block';
+          return;
+        }
+        list.sort(function (a, b) {
+          var na = (a.name != null ? a.name : a.img || '').replace(/\.png$/i, '');
+          var nb = (b.name != null ? b.name : b.img || '').replace(/\.png$/i, '');
+          return na.localeCompare(nb, undefined, { sensitivity: 'base' });
+        });
+        list.forEach(function (card) {
+          var imgName = card.img != null ? card.img : (typeof card === 'string' ? card : card.name + '.png');
+          var src = base + 'exported_cards/' + encodeURIComponent(imgName);
+          var name = (card.name != null ? card.name : imgName).replace(/\.png$/i, '');
+          var a = document.createElement('a');
+          a.className = 'card';
+          a.href = src;
+          a.target = '_blank';
+          a.rel = 'noopener';
+          a.title = name;
+          var img = document.createElement('img');
+          img.src = src;
+          img.loading = 'lazy';
+          img.alt = name;
+          a.appendChild(img);
+          gallery.appendChild(a);
+        });
+      }
+
+      function normalizeCards(data) {
+        if (!Array.isArray(data)) return [];
+        if (data.length === 0) return data;
+        if (typeof data[0] === 'string') {
+          return data.map(function (img) {
+            return { name: img.replace(/\.png$/i, ''), img: img, colors: '', type: 'Other', text: '' };
+          });
+        }
+        return data;
+      }
 
       function showError(msg) {
         loading.style.display = 'none';
@@ -81,29 +265,24 @@
         errEl.style.display = 'block';
       }
 
-      function render(cards) {
-        loading.style.display = 'none';
-        cards.sort(function (a, b) { return a.localeCompare(b, undefined, { sensitivity: 'base' }); });
-        cards.forEach(function (name) {
-          var src = base + 'exported_cards/' + encodeURIComponent(name);
-          var a = document.createElement('a');
-          a.className = 'card';
-          a.href = src;
-          a.target = '_blank';
-          a.rel = 'noopener';
-          a.title = name.replace(/\.png$/i, '');
-          var img = document.createElement('img');
-          img.src = src;
-          img.loading = 'lazy';
-          img.alt = name.replace(/\.png$/i, '');
-          a.appendChild(img);
-          gallery.appendChild(a);
-        });
+      fillColorFilter();
+      fillTypeFilter();
+      var allCards = [];
+
+      function onFilterChange() {
+        renderCards(allCards);
       }
+      document.getElementById('color-filter').addEventListener('change', onFilterChange);
+      document.getElementById('type-filter').addEventListener('change', onFilterChange);
+      document.getElementById('text-filter').addEventListener('input', onFilterChange);
 
       fetch(base + 'cards.json')
         .then(function (r) { return r.ok ? r.json() : Promise.reject(new Error('cards.json not found')); })
-        .then(render)
+        .then(function (data) {
+          loading.style.display = 'none';
+          allCards = normalizeCards(data);
+          renderCards(allCards);
+        })
         .catch(function () {
           if (owner === 'github') return showError('Could not load card list. Run generate-cards-json.ps1 and push cards.json.');
           fetch('https://api.github.com/repos/' + owner + '/' + repo + '/contents/exported_cards')
@@ -111,7 +290,12 @@
             .then(function (data) {
               if (Array.isArray(data)) {
                 var names = data.filter(function (x) { return x.name && /\.png$/i.test(x.name); }).map(function (x) { return x.name; });
-                if (names.length) { return render(names); }
+                if (names.length) {
+                  loading.style.display = 'none';
+                  allCards = names.map(function (n) { return { name: n.replace(/\.png$/i, ''), img: n, colors: '', type: 'Other', text: '' }; });
+                  renderCards(allCards);
+                  return;
+                }
               }
               showError('Could not load card list. Push cards.json or enable GitHub Pages.');
             })
