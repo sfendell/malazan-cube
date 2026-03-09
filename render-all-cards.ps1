@@ -123,4 +123,9 @@ try {
 Write-Host "Exporting all cards..."
 & (Join-Path $Root "export-cards.ps1")
 if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+
+# 5) Update cards.json for GitHub Pages
+if (Test-Path (Join-Path $Root "generate-cards-json.ps1")) {
+    & (Join-Path $Root "generate-cards-json.ps1")
+}
 Write-Host "render-all-cards done."

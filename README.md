@@ -1,6 +1,19 @@
-﻿# Malazan Cube of the Fallen
+# Malazan Cube of the Fallen
 
-Card list (alphabetical):
+**Full-width card gallery:** [Open on GitHub Pages](https://sfend.github.io/malazan-cube/) (or enable Pages below to use your own URL).
+
+### GitHub Pages setup
+
+1. In the repo: **Settings → Pages**.
+2. Under **Source**, choose **Deploy from a branch**.
+3. Branch: **main** (or **master**), folder: **/ (root)**. Save.
+4. After a minute or two, the site will be at `https://<your-username>.github.io/malazan-cube/`.
+
+The gallery uses `index.html` and `cards.json`. After adding or changing cards, run `.\render-all-cards.ps1` (it regenerates `cards.json`), then commit and push.
+
+---
+
+Card list (alphabetical, in-repo preview):
 
 ![Adept Diviner](exported_cards/Adept%20Diviner.png) ![Adept Seer](exported_cards/Adept%20Seer.png) ![Adjunct Tavore](exported_cards/Adjunct%20Tavore.png) ![Akhrast Korvelain](exported_cards/Akhrast%20Korvelain.png)
 ![Always an Even Exchange](exported_cards/Always%20an%20Even%20Exchange.png) ![Ampelas Rooted](exported_cards/Ampelas%20Rooted.png) ![Ampelas](exported_cards/Ampelas.png) ![Amphorae of Yghatan](exported_cards/Amphorae%20of%20Yghatan.png)
