@@ -1249,7 +1249,7 @@ card:
 	sub_type_4: 
 	rule_text:
 		
-		<sym-auto>3RR</sym-auto>: This becomes a 4/4 dragon with <kw-a><nospellcheck><key>flying</key></nospellcheck></kw-a>. <i-auto>(This effect does not end at end of turn.)</i-auto>
+		<sym-auto>3RR</sym-auto>: This becomes a 4/4 Dragon with <kw-a><nospellcheck><key>flying</key></nospellcheck></kw-a>. <i-auto>(This effect does not end at end of turn.)</i-auto>
 	flavor_text: <i-flavor></i-flavor>
 	power: 2
 	toughness: 2
@@ -4383,7 +4383,7 @@ card:
 	rule_text:
 		<kw-a><nospellcheck><key>Flying</key></nospellcheck></kw-a>
 		This has the abilities of all Dragons you control.
-		<sym-auto>T</sym-auto>, Sacrifice a creature you control, put a -1/-1 counter on this: Create a 4/4 dragon creature token with <kw-a><nospellcheck><key>flying</key></nospellcheck></kw-a>.              
+		<sym-auto>T</sym-auto>, Sacrifice a creature you control, put a -1/-1 counter on this: Create a 4/4 Dragon creature token with <kw-a><nospellcheck><key>flying</key></nospellcheck></kw-a>.              
 	flavor_text: <i-flavor></i-flavor>
 	power: 5
 	toughness: 5
@@ -10267,7 +10267,7 @@ card:
 	sub_type_2: 
 	sub_type_3: 
 	sub_type_4: 
-	rule_text: Whenever a creature with power less than <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Kilmandaros’</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> toughness enters the battlefield, she fights it. When she she wins the <kw-0><nospellcheck><key>fight</key></nospellcheck></kw-0>, destroy target non-creature, non-land permanent.
+	rule_text: Whenever a creature with power less than <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Kilmandaros’</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> toughness enters the battlefield, she fights it. When she wins the <kw-0><nospellcheck><key>fight</key></nospellcheck></kw-0>, destroy target non-creature, non-land permanent.
 	flavor_text: <i-flavor></i-flavor>
 	power: 5
 	toughness: 5
