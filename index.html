@@ -46,6 +46,7 @@
       font-size: 0.95rem;
     }
     .filters input[type="text"] { min-width: 180px; }
+    .filters .checkbox-label { display: flex; align-items: center; gap: 0.35rem; white-space: nowrap; }
     .color-swatch { display: inline-flex; gap: 1px; }
     .color-swatch span {
       width: 12px; height: 12px;
@@ -88,6 +89,7 @@
     <p class="sub">Card gallery · <a id="repo-link" href="#">Repository</a></p>
     <div class="filters">
       <label>Color: <select id="color-filter"></select><span id="color-preview" class="color-swatch"></span></label>
+      <label class="checkbox-label"><input type="checkbox" id="color-exact" checked> Match color identity exactly</label>
       <label>Type: <select id="type-filter"></select></label>
       <label>Text: <input type="text" id="text-filter" placeholder="Exact text in card…"></label>
     </div>
@@ -187,9 +189,23 @@
         });
       }
 
+      var WUBRG = 'WUBRG';
+      function normalizeColorKey(s) {
+        if (!s || s === 'C') return s || '';
+        return s.split('').sort(function (a, b) { return WUBRG.indexOf(a) - WUBRG.indexOf(b); }).join('');
+      }
       function cardColors(card) {
         var c = card.colors != null ? card.colors : '';
         return c === '' ? 'C' : c;
+      }
+      function cardColorMatch(card, colorKey, exact) {
+        if (!colorKey) return true;
+        var c = cardColors(card);
+        if (colorKey === 'C') return c === 'C';
+        var cardNorm = normalizeColorKey(c === 'C' ? '' : c);
+        var selNorm = normalizeColorKey(colorKey);
+        if (exact) return cardNorm === selNorm;
+        return selNorm.split('').every(function (letter) { return cardNorm.indexOf(letter) !== -1; });
       }
 
       var TYPE_KEYWORDS = ['Land', 'Instant', 'Sorcery', 'Creature', 'Artifact', 'Enchantment', 'Planeswalker', 'Battle'];
@@ -213,14 +229,11 @@
 
       function applyFilters(cards) {
         var colorKey = document.getElementById('color-filter').value;
+        var colorExact = document.getElementById('color-exact').checked;
         var typeKey = document.getElementById('type-filter').value;
         var query = (document.getElementById('text-filter').value || '').trim().toLowerCase();
         return cards.filter(function (card) {
-          var c = cardColors(card);
-          if (colorKey !== '') {
-            if (colorKey === 'C') { if (c !== 'C') return false; }
-            else if (c !== colorKey) return false;
-          }
+          if (colorKey !== '' && !cardColorMatch(card, colorKey, colorExact)) return false;
           if (typeKey !== '' && !cardHasType(card, typeKey)) return false;
           if (query !== '' && cardSearchText(card).indexOf(query) === -1) return false;
           return true;
@@ -278,6 +291,7 @@
         renderCards(allCards);
       }
       document.getElementById('color-filter').addEventListener('change', onFilterChange);
+      document.getElementById('color-exact').addEventListener('change', onFilterChange);
       document.getElementById('type-filter').addEventListener('change', onFilterChange);
       document.getElementById('text-filter').addEventListener('input', onFilterChange);
 
