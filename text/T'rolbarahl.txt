@@ -13,6 +13,6 @@
   "power": "0",
   "toughness": "0",
   "artist": "",
-  "rule_text": "\nThis enters the battlefield with 7 +1/+1 counters on it.\nWhenever this would be dealt damage, instead remove two counters from it.\nAt the beginning of your upkeep, if this has less than 7 power, put a +1/+1 counter on this.",
+  "rule_text": "This enters the battlefield with 7 +1/+1 counters on it.\nWhenever this would be dealt damage, instead remove two counters from it.\nAt the beginning of your upkeep, if this has less than 7 power, put a +1/+1 counter on this.",
   "flavor_text": ""
 }

@@ -13,6 +13,6 @@
   "power": "",
   "toughness": "",
   "artist": "",
-  "rule_text": "\nThis enters the battlefield tapped unless there is a counter on a creature you control.\nT: Add B, U, or G.\nBGU, T, Sacrifice K’Chain Banner: Draw a card.",
+  "rule_text": "This enters the battlefield tapped unless there is a counter on a creature you control.\nT: Add B, U, or G.\nBGU, T, Sacrifice K’Chain Banner: Draw a card.",
   "flavor_text": ""
 }

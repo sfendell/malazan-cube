@@ -12,6 +12,6 @@
   "power": "2",
   "toughness": "1",
   "artist": "",
-  "rule_text": "\nInstants and sorceries cost you 1 less to cast.\nWhenever you scry, target creature you control gains flying until end of turn.",
+  "rule_text": "Instants and sorceries cost you 1 less to cast.\nWhenever you scry, target creature you control gains flying until end of turn.",
   "flavor_text": ""
 }

@@ -13,6 +13,6 @@
   "power": "3",
   "toughness": "3",
   "artist": "",
-  "rule_text": "\nAt the beginning of combat on your turn, create a 1/1 red and green Rebel creature token with riot.\nWhenever two Rebels you control deal combat damage to a player, put two +1/+1 counters on this, then this ascends.",
+  "rule_text": "At the beginning of combat on your turn, create a 1/1 red and green Rebel creature token with riot.\nWhenever two Rebels you control deal combat damage to a player, put two +1/+1 counters on this, then this ascends.",
   "flavor_text": ""
 }

@@ -12,6 +12,6 @@
   "power": "2",
   "toughness": "2",
   "artist": "",
-  "rule_text": "\nVigilance, enlist\nWhenever you enlist, amass Malazans 1.",
+  "rule_text": "Vigilance, enlist\nWhenever you enlist, amass Malazans 1.",
   "flavor_text": ""
 }

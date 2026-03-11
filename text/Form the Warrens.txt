@@ -9,6 +9,6 @@
   "power": "",
   "toughness": "",
   "artist": "",
-  "rule_text": "\nKicker—Tap an untapped God you control\nTutor a land into play tapped. If the kicker cost was paid, tutor an additional land into play tapped.",
+  "rule_text": "Kicker—Tap an untapped God you control\nTutor a land into play tapped. If the kicker cost was paid, tutor an additional land into play tapped.",
   "flavor_text": ""
 }

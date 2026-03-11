@@ -11,6 +11,6 @@
   "power": "",
   "toughness": "",
   "artist": "",
-  "rule_text": "\nEnchant creature card in your graveyard\nWhen this enters the battlefield, exile target creature until this is leaves the battlefield.\n1: If enchanted creature is a Dragon card, gain 2 life for each card in exile, then put all exiled cards in their owners graveyard and sacrifice this. ",
+  "rule_text": "Enchant creature card in your graveyard\nWhen this enters the battlefield, exile target creature until this is leaves the battlefield.\n1: If enchanted creature is a Dragon card, gain 2 life for each card in exile, then put all exiled cards in their owners graveyard and sacrifice this. ",
   "flavor_text": ""
 }

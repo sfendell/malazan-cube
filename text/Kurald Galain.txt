@@ -13,6 +13,6 @@
   "power": "",
   "toughness": "",
   "artist": "",
-  "rule_text": "\nThis land enters tapped unless you control a permanent you do not own.\nCreatures you control but do not own have hexproof.\nT: Add B or U.",
+  "rule_text": "This land enters tapped unless you control a permanent you do not own.\nCreatures you control but do not own have hexproof.\nT: Add B or U.",
   "flavor_text": ""
 }

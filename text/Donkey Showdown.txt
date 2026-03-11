@@ -9,6 +9,6 @@
   "power": "",
   "toughness": "",
   "artist": "",
-  "rule_text": "\nChoose target creature you control and target creature an opponent controls. They fight each other with their toughness.\nWhen you win the fight, investigate.\nWhen you lose the fight, bleed.",
+  "rule_text": "Choose target creature you control and target creature an opponent controls. They fight each other with their toughness.\nWhen you win the fight, investigate.\nWhen you lose the fight, bleed.",
   "flavor_text": ""
 }

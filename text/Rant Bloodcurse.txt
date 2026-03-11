@@ -16,6 +16,6 @@
   "power": "3",
   "toughness": "3",
   "artist": "Shadaan",
-  "rule_text": "\nVigilance, Trample\nOther Giants you control have trample.\nOther Humans and Malazans you control have vigilance.\nThis gets +1/+1 for each other creature you control with trample or vigilance.         ",
+  "rule_text": "Vigilance, Trample\nOther Giants you control have trample.\nOther Humans and Malazans you control have vigilance.\nThis gets +1/+1 for each other creature you control with trample or vigilance.         ",
   "flavor_text": ""
 }

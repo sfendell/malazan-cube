@@ -15,6 +15,6 @@
   "power": "1",
   "toughness": "1",
   "artist": "",
-  "rule_text": "\nWhenever you sacrifice a creature, bleed.\nSacrifice three Bloods: Transform this.",
+  "rule_text": "Whenever you sacrifice a creature, bleed.\nSacrifice three Bloods: Transform this.",
   "flavor_text": ""
 }

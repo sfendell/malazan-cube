@@ -14,6 +14,6 @@
   "power": "3",
   "toughness": "4",
   "artist": "",
-  "rule_text": "\nUndying\nWhenever you sacrifice your fourth permanent in a turn, tutor a card to your hand.\n1, Sacrifice another creature: Remove all counters from Kallor.         ",
+  "rule_text": "Undying\nWhenever you sacrifice your fourth permanent in a turn, tutor a card to your hand.\n1, Sacrifice another creature: Remove all counters from Kallor.         ",
   "flavor_text": ""
 }

@@ -15,6 +15,6 @@
   "power": "1",
   "toughness": "1",
   "artist": "",
-  "rule_text": "\nW, T: X target creatures gains protection from the color of your choice until end of turn, where X is the number of exiled Souls plus 1.\nWhen this dies, put a Soul you own from outside the game on top of your library.",
+  "rule_text": "W, T: X target creatures gains protection from the color of your choice until end of turn, where X is the number of exiled Souls plus 1.\nWhen this dies, put a Soul you own from outside the game on top of your library.",
   "flavor_text": ""
 }

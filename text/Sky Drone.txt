@@ -12,6 +12,6 @@
   "power": "2",
   "toughness": "2",
   "artist": "",
-  "rule_text": "\nThis enters the battlefield with a flying counter on it.\nSlow, T: Move target counter from target creature you control to another target creature.",
+  "rule_text": "This enters the battlefield with a flying counter on it.\nSlow, T: Move target counter from target creature you control to another target creature.",
   "flavor_text": ""
 }

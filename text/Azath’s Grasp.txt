@@ -9,6 +9,6 @@
   "power": "",
   "toughness": "",
   "artist": "",
-  "rule_text": "\nWhen this enters the battlefield, exile target creature until it leaves the battlefield.\nAt the beginning of combat on your turn, target creature gets +X/+X, where X is the number of creatures your opponents own in exile.",
+  "rule_text": "When this enters the battlefield, exile target creature until it leaves the battlefield.\nAt the beginning of combat on your turn, target creature gets +X/+X, where X is the number of creatures your opponents own in exile.",
   "flavor_text": ""
 }

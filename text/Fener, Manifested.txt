@@ -14,6 +14,6 @@
   "power": "4",
   "toughness": "4",
   "artist": "",
-  "rule_text": "\nHaste, Trample\nWhenever Fener attacks, if you’ve attacked with at least two other creatures this combat, untap all other creatures you control. There is an additional combat phase after this one. This ability activates once per turn.\nCreatures you control get first strike and haste during extra combat phases.",
+  "rule_text": "Haste, Trample\nWhenever Fener attacks, if you’ve attacked with at least two other creatures this combat, untap all other creatures you control. There is an additional combat phase after this one. This ability activates once per turn.\nCreatures you control get first strike and haste during extra combat phases.",
   "flavor_text": ""
 }

@@ -9,6 +9,6 @@
   "power": "",
   "toughness": "",
   "artist": "",
-  "rule_text": "\nWhenever you sacrifice a land, creature a 1/1 Malazan Sapper creature token.\n1R, Sacrifice a nontoken permanent: Deal 2 damage to any target.",
+  "rule_text": "Whenever you sacrifice a land, creature a 1/1 Malazan Sapper creature token.\n1R, Sacrifice a nontoken permanent: Deal 2 damage to any target.",
   "flavor_text": ""
 }

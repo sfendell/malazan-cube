@@ -13,6 +13,6 @@
   "power": "3",
   "toughness": "4",
   "artist": "",
-  "rule_text": "\nFlying, vigilance, first strike, hexproof from instants\nDragons you control that are not any other subtypes have vigilance, first strike, and hexproof from instants.",
+  "rule_text": "Flying, vigilance, first strike, hexproof from instants\nDragons you control that are not any other subtypes have vigilance, first strike, and hexproof from instants.",
   "flavor_text": ""
 }

@@ -12,6 +12,6 @@
   "power": "3",
   "toughness": "2",
   "artist": "",
-  "rule_text": "\nExploit, extort\nWhen this exploits a creature, if it was a Human, draw a card. If it was an Elder, deal 4 damage to all creatures. Otherwise, target opponent loses 2 life and you gain 2 life.",
+  "rule_text": "Exploit, extort\nWhen this exploits a creature, if it was a Human, draw a card. If it was an Elder, deal 4 damage to all creatures. Otherwise, target opponent loses 2 life and you gain 2 life.",
   "flavor_text": ""
 }

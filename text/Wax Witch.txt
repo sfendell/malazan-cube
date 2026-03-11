@@ -12,6 +12,6 @@
   "power": "2",
   "toughness": "2",
   "artist": "",
-  "rule_text": "\nExploit\nWhenever you sacrifice a creature, scry 3. Then if you’ve scried 6 or more in total this turn, draw a card. (Scrying 3 twice or scrying 2 thrice counts).",
+  "rule_text": "Exploit\nWhenever you sacrifice a creature, scry 3. Then if you’ve scried 6 or more in total this turn, draw a card. (Scrying 3 twice or scrying 2 thrice counts).",
   "flavor_text": ""
 }

@@ -13,6 +13,6 @@
   "power": "4",
   "toughness": "4",
   "artist": "",
-  "rule_text": "\nFirst strike\nAt the end of each turn, if 20 or more combat damage was dealt, this ascends.",
+  "rule_text": "First strike\nAt the end of each turn, if 20 or more combat damage was dealt, this ascends.",
   "flavor_text": ""
 }

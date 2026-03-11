@@ -14,6 +14,6 @@
   "power": "3",
   "toughness": "3",
   "artist": "Santiago Lozano",
-  "rule_text": "\nOther Malazans you control get +1/+1.\nWhenever a non-Army Malazan enters the battlefield under your control, amass Malazans 1.\nWhenever a Sapper enters the battlefield under your control, create a Cusser.\nAt the end of your turn, if a Sapper, a Malazan, and an Army attacked and died this turn, this ascends.",
+  "rule_text": "Other Malazans you control get +1/+1.\nWhenever a non-Army Malazan enters the battlefield under your control, amass Malazans 1.\nWhenever a Sapper enters the battlefield under your control, create a Cusser.\nAt the end of your turn, if a Sapper, a Malazan, and an Army attacked and died this turn, this ascends.",
   "flavor_text": ""
 }

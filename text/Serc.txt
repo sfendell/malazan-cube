@@ -11,6 +11,6 @@
   "power": "",
   "toughness": "",
   "artist": "",
-  "rule_text": "\nThis enters the battlefield tapped unless you’ve dealt noncombat damage this turn.\nT: Add R, U, or W.\nURW, T, Sacrifice this: Draw a card if a permanent took noncombat damage this turn. Draw a card if a player took combat damage this turn.",
+  "rule_text": "This enters the battlefield tapped unless you’ve dealt noncombat damage this turn.\nT: Add R, U, or W.\nURW, T, Sacrifice this: Draw a card if a permanent took noncombat damage this turn. Draw a card if a player took combat damage this turn.",
   "flavor_text": ""
 }

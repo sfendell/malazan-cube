@@ -11,6 +11,6 @@
   "power": "",
   "toughness": "",
   "artist": "",
-  "rule_text": "\nYou cannot die for having less than 0 life or cast spells from your hand. Your hand size is 0.\nAt the beginning of your upkeep, target instant or sorcery in your graveyard gets flashback 0. Exile it from your graveyard at the end of your turn. Then  return target creature from your graveyard to the battlefield. If it is an Elder Zombie, it enters with two +1/+1 counters.\nWhenever a creature you control dies, exile it and mill 5.",
+  "rule_text": "You cannot die for having less than 0 life or cast spells from your hand. Your hand size is 0.\nAt the beginning of your upkeep, target instant or sorcery in your graveyard gets flashback 0. Exile it from your graveyard at the end of your turn. Then  return target creature from your graveyard to the battlefield. If it is an Elder Zombie, it enters with two +1/+1 counters.\nWhenever a creature you control dies, exile it and mill 5.",
   "flavor_text": ""
 }

@@ -9,6 +9,6 @@
   "power": "",
   "toughness": "",
   "artist": "",
-  "rule_text": "\nWhen you cast this, copy this spell for each permanent not controlled by its owner. You may choose new targets for these copies.\nDeal 2 damage to any target. Scry 1.",
+  "rule_text": "When you cast this, copy this spell for each permanent not controlled by its owner. You may choose new targets for these copies.\nDeal 2 damage to any target. Scry 1.",
   "flavor_text": ""
 }

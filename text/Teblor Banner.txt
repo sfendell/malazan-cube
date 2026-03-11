@@ -12,6 +12,6 @@
   "power": "",
   "toughness": "",
   "artist": "",
-  "rule_text": "\nThis enters the battlefield tapped unless you control a creature with power 4 or greater.\nT: Add R, U, or G.\nGUR, T, Sacrifice Teblor Banner: Draw a card.",
+  "rule_text": "This enters the battlefield tapped unless you control a creature with power 4 or greater.\nT: Add R, U, or G.\nGUR, T, Sacrifice Teblor Banner: Draw a card.",
   "flavor_text": ""
 }

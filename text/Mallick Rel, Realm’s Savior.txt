@@ -14,6 +14,6 @@
   "power": "1",
   "toughness": "1",
   "artist": "",
-  "rule_text": "\nAt the end of combat on your turn, deal X damage to any target, where X is the number of creatures you control but do not own.\nSlow, T, Sacrifice a land: Gain control of target creature until end of turn. Untap it. It gains haste until end of turn.   ",
+  "rule_text": "At the end of combat on your turn, deal X damage to any target, where X is the number of creatures you control but do not own.\nSlow, T, Sacrifice a land: Gain control of target creature until end of turn. Untap it. It gains haste until end of turn.   ",
   "flavor_text": ""
 }

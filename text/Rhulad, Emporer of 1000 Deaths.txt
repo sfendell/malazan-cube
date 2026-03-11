@@ -15,6 +15,6 @@
   "power": "3",
   "toughness": "3",
   "artist": "",
-  "rule_text": "\nUndying\n2, Remove a counter from this: Plunder.\nAt the beginning of your end step, if you control 1000 Treasures, you win the game.           ",
+  "rule_text": "Undying\n2, Remove a counter from this: Plunder.\nAt the beginning of your end step, if you control 1000 Treasures, you win the game.           ",
   "flavor_text": ""
 }

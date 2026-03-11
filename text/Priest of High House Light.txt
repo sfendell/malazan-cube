@@ -12,6 +12,6 @@
   "power": "",
   "toughness": "",
   "artist": "",
-  "rule_text": "\nEnchant non-God creature\nEnchanted creature cannot attack or block unless its owner controls a creature with power less than it.\nEnchanted creature has lifelink and “At the end of each turn, if you gained 4 or more life this turn, draw a card.”.",
+  "rule_text": "Enchant non-God creature\nEnchanted creature cannot attack or block unless its owner controls a creature with power less than it.\nEnchanted creature has lifelink and “At the end of each turn, if you gained 4 or more life this turn, draw a card.”.",
   "flavor_text": ""
 }

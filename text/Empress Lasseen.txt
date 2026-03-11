@@ -14,6 +14,6 @@
   "power": "2",
   "toughness": "5",
   "artist": "Coltain93 + Openai",
-  "rule_text": "\nHexproof\nAt the end of each of your turns, put a grasp counter on target non-land permanent. Then gain control of all non-land permanents with mana value less than the number of grasp counters on them for as long as you control Lasseen.\nPay 3 life, Sacrifice a creature you don’t own: Put a grasp counter on target land.",
+  "rule_text": "Hexproof\nAt the end of each of your turns, put a grasp counter on target non-land permanent. Then gain control of all non-land permanents with mana value less than the number of grasp counters on them for as long as you control Lasseen.\nPay 3 life, Sacrifice a creature you don’t own: Put a grasp counter on target land.",
   "flavor_text": ""
 }

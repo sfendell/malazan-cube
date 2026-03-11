@@ -14,6 +14,6 @@
   "power": "0",
   "toughness": "0",
   "artist": "",
-  "rule_text": "\nThis enters the battlefield with two +1/+1 counters on it.\n2, T, Remove a +1/+1 counter from this: Destroy target noncreature, nonland permanent.\nWhen this dies, exile target God.",
+  "rule_text": "This enters the battlefield with two +1/+1 counters on it.\n2, T, Remove a +1/+1 counter from this: Destroy target noncreature, nonland permanent.\nWhen this dies, exile target God.",
   "flavor_text": ""
 }

@@ -15,6 +15,6 @@
   "power": "1",
   "toughness": "2",
   "artist": "",
-  "rule_text": "\nWhen this enters the battlefield, create a Comb token, a Silk Shirt token, a Fine Trousers token, a Exquisite Manicure token, and bleed.\nWhenever a creature with power and toughness that differ by more than 2 does damage to a player, create a copy of a token you control.",
+  "rule_text": "When this enters the battlefield, create a Comb token, a Silk Shirt token, a Fine Trousers token, a Exquisite Manicure token, and bleed.\nWhenever a creature with power and toughness that differ by more than 2 does damage to a player, create a copy of a token you control.",
   "flavor_text": ""
 }

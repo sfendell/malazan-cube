@@ -14,6 +14,6 @@
   "power": "0",
   "toughness": "2",
   "artist": "",
-  "rule_text": "\nThis enters the battlefield with a song counter on it.\nT, Remove a song counter from this: Another target creature ascends.",
+  "rule_text": "This enters the battlefield with a song counter on it.\nT, Remove a song counter from this: Another target creature ascends.",
   "flavor_text": ""
 }

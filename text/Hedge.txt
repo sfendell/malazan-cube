@@ -14,6 +14,6 @@
   "power": "3",
   "toughness": "1",
   "artist": "Corporal_nobbs",
-  "rule_text": "\nWhen this enters the battlefield, create a Cusser.\nAfterlife 1",
+  "rule_text": "When this enters the battlefield, create a Cusser.\nAfterlife 1",
   "flavor_text": ""
 }

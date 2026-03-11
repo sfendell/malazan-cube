@@ -11,6 +11,6 @@
   "power": "",
   "toughness": "",
   "artist": "",
-  "rule_text": "\nThis enters the battlefield tapped unless you control a creature with power 4 or greater.\nT: Add R, U or G.\nSlow, GUR, T, Sacrifice this: Target creature you control fights target creature you don’t control, then draw a card for each fight you’ve won this turn.",
+  "rule_text": "This enters the battlefield tapped unless you control a creature with power 4 or greater.\nT: Add R, U or G.\nSlow, GUR, T, Sacrifice this: Target creature you control fights target creature you don’t control, then draw a card for each fight you’ve won this turn.",
   "flavor_text": ""
 }

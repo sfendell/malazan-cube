@@ -13,6 +13,6 @@
   "power": "1",
   "toughness": "2",
   "artist": "",
-  "rule_text": "\nWhenever a creature enters the battlefield, if it’s a token you control,  put a +1/+1 counter on it. Otherwise, put a -1/-1 counter on it.\nWhenever a creature dies, target player loses X life and you gain X life, where X is the number of counters on it.            ",
+  "rule_text": "Whenever a creature enters the battlefield, if it’s a token you control,  put a +1/+1 counter on it. Otherwise, put a -1/-1 counter on it.\nWhenever a creature dies, target player loses X life and you gain X life, where X is the number of counters on it.            ",
   "flavor_text": ""
 }

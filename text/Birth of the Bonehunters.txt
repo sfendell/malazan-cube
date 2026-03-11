@@ -13,6 +13,6 @@
   "power": "",
   "toughness": "",
   "artist": "",
-  "rule_text": "\nAs an additional cost, sacrifice a land or artifact you control.\nIf you sacrificed an untapped permanent, copy this spell as it resolves. You may choose new targets for the copy.\nDestroy target land or artifact. Amass Malazans 2.",
+  "rule_text": "As an additional cost, sacrifice a land or artifact you control.\nIf you sacrificed an untapped permanent, copy this spell as it resolves. You may choose new targets for the copy.\nDestroy target land or artifact. Amass Malazans 2.",
   "flavor_text": ""
 }

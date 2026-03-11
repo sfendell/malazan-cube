@@ -14,6 +14,6 @@
   "power": "2",
   "toughness": "2",
   "artist": "",
-  "rule_text": "\nHaste\nWhenever this attacks, place a name counter of your choice on another target creature. (A “Max” name counter gives a creature the name “Max”).\nCreatures get +1/+0 and Enlist for each name they have.",
+  "rule_text": "Haste\nWhenever this attacks, place a name counter of your choice on another target creature. (A “Max” name counter gives a creature the name “Max”).\nCreatures get +1/+0 and Enlist for each name they have.",
   "flavor_text": ""
 }

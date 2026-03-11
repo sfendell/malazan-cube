@@ -9,6 +9,6 @@
   "power": "",
   "toughness": "",
   "artist": "",
-  "rule_text": "\nBehold an Elder or Alien\nTutor a basic land into play. If this was beheld, tutor any land to the battlefield tapped instead, then draw a card.",
+  "rule_text": "Behold an Elder or Alien\nTutor a basic land into play. If this was beheld, tutor any land to the battlefield tapped instead, then draw a card.",
   "flavor_text": ""
 }

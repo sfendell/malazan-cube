@@ -12,6 +12,6 @@
   "power": "1",
   "toughness": "1",
   "artist": "",
-  "rule_text": "\nU, T: Scry 1.\nR, T: Deal 1 damage to any target.",
+  "rule_text": "U, T: Scry 1.\nR, T: Deal 1 damage to any target.",
   "flavor_text": ""
 }

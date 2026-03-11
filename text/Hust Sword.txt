@@ -11,6 +11,6 @@
   "power": "",
   "toughness": "",
   "artist": "",
-  "rule_text": "\nEquipped creature gets +2/+2 and has double strike, vigilance, reach, and protection from Dragons.\nEquip 5",
+  "rule_text": "Equipped creature gets +2/+2 and has double strike, vigilance, reach, and protection from Dragons.\nEquip 5",
   "flavor_text": ""
 }

@@ -13,6 +13,6 @@
   "power": "10",
   "toughness": "10",
   "artist": "",
-  "rule_text": "\nAffinity for Warrens, Gods and Dragons\nAffinity for Warrens, Gods and Dragons\nFlying, protection from spells, annihilator 3",
+  "rule_text": "Affinity for Warrens, Gods and Dragons\nAffinity for Warrens, Gods and Dragons\nFlying, protection from spells, annihilator 3",
   "flavor_text": ""
 }
