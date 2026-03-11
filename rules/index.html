@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Rules & Mechanics — Malazan Cube of the Fallen</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        min-height: 100%;
+      }
+      body {
+        font-family: "Segoe UI", system-ui, sans-serif;
+        background: #1a1a1e;
+        color: #e0e0e0;
+        padding: 1.5rem;
+        line-height: 1.5;
+      }
+      .page {
+        max-width: 720px;
+        margin: 0 auto;
+      }
+      h1 {
+        font-size: 1.75rem;
+        margin: 0 0 0.5rem;
+        letter-spacing: 0.02em;
+      }
+      .sub {
+        margin-bottom: 2rem;
+        opacity: 0.85;
+      }
+      .sub a {
+        color: #7eb8da;
+        text-decoration: none;
+      }
+      .sub a:hover {
+        text-decoration: underline;
+      }
+      h2 {
+        font-size: 1.2rem;
+        margin: 2rem 0 0.75rem;
+        color: #c0c0c0;
+      }
+      p {
+        margin: 0.5rem 0;
+      }
+      ul {
+        margin: 0.5rem 0;
+        padding-left: 1.5rem;
+      }
+      li {
+        margin: 0.35rem 0;
+      }
+      dl {
+        margin: 0.5rem 0;
+      }
+      dt {
+        font-weight: 600;
+        margin-top: 0.75rem;
+        color: #e0e0e0;
+      }
+      dt:first-child {
+        margin-top: 0;
+      }
+      dd {
+        margin: 0.25rem 0 0 1rem;
+      }
+      .rule {
+        margin: 0.5rem 0;
+      }
+      .rule strong {
+        font-weight: 600;
+        color: #e0e0e0;
+      }
+      .rule-img {
+        max-width: 223px;
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+        display: block;
+        margin: 0.5rem 0 1rem 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page">
+      <h1>Malazan Cube of the Fallen</h1>
+      <p class="sub">
+        <a href="../">Card gallery</a> ·
+        <a id="repo-link" href="#">Repository</a> · Rules
+      </p>
+
+      <h2>Ascend</h2>
+      <p class="rule">
+        <strong>Ascend:</strong> Custom mechanic (not the existing “ascend” /
+        City’s Blessing). When a creature ascends, if it hasn’t already
+        ascended, put a God subtype counter on it, then choose two different
+        options from two of its colors. If the creature is monocolored, choose
+        both options for that color:
+      </p>
+      <ul>
+        <li>
+          <strong>White:</strong> Indestructible <em>or</em> other creatures you
+          control get +1/+1.
+        </li>
+        <li>
+          <strong>Blue:</strong> Hexproof <em>or</em> other creatures you
+          control have curiosity.
+        </li>
+        <li>
+          <strong>Red:</strong> Double strike <em>or</em> other creatures you
+          control get +2/+0.
+        </li>
+        <li>
+          <strong>Green:</strong> +3/+3 <em>or</em> creatures you control have
+          vigilance, trample, and reach.
+        </li>
+        <li>
+          <strong>Black:</strong> Lifelink and deathtouch <em>or</em> other
+          creatures you control have afterlife 2.
+        </li>
+      </ul>
+      <p><img src="../exported_cards/Idolize.png" alt="Idolize" class="rule-img"></p>
+
+      <h2>Cusser tokens</h2>
+      <p class="rule">
+        <strong>Cusser tokens:</strong> Artifact tokens that can be sacrificed
+        (often with optional kicker costs) to deal damage to targets. Multiple
+        cards create or care about Cussers.
+      </p>
+
+      <p><img src="../exported_cards/Cusser.png" alt="Cusser" class="rule-img"></p>
+
+      <h2>Convenience keywords</h2>
+      <p class="rule"><strong>Plunder:</strong> Create a Treasure token.</p>
+      <p><img src="../exported_cards/Letheri Trader.png" alt="Letheri Trader" class="rule-img"></p>
+      <p class="rule"><strong>Cook:</strong> Create a Food token.</p>
+      <p><img src="../exported_cards/Nefarias Bredd.png" alt="Nefarias Bredd" class="rule-img"></p>
+      <p class="rule"><strong>Bleed:</strong> Create a Blood token.</p>
+      <p><img src="../exported_cards/Imperial Warren.png" alt="Imperial Warren" class="rule-img"></p>
+      <p class="rule">
+        <strong>Slow:</strong> Activate this ability only when you could cast a
+        sorcery.
+      </p>
+      <p><img src="../exported_cards/Akhrast Korvelain.png" alt="Akhrast Korvelain" class="rule-img"></p>
+      <p class="rule">
+        <strong>Cunning:</strong> You may cast spells as though they had flash,
+        and you may activate Slow abilities as though they didn’t have Slow.
+        (e.g. “You gain Cunning until end of turn.”)
+      </p>
+      <p><img src="../exported_cards/Magnanimous Kruppe.png" alt="Magnanimous Kruppe" class="rule-img"></p>
+      <p class="rule">
+        <strong>Impulse:</strong> Exile the top card of your library. You may
+        play it until end of turn. Timing restrictions still apply.
+      </p>
+      <p><img src="../exported_cards/Call for Reinforcements.png" alt="Call for Reinforcements" class="rule-img"></p>
+      <p class="rule">
+        <strong>Freeze:</strong> Tap target creature and put a stun counter on
+        it.
+      </p>
+      <p><img src="../exported_cards/Ice Age.png" alt="Ice Age" class="rule-img"></p>
+      <p class="rule">
+        <strong>Tutor:</strong> Tutor [for &lt;x&gt; type of card] to [y] zone:
+        Search your library for a card [and reveal it if a type is specified],
+        put it in the specified zone, then shuffle your library.
+      </p>
+      <p><img src="../exported_cards/Call Upon an Outside Force.png" alt="Call Upon an Outside Force" class="rule-img"></p>
+      <p class="rule">
+        <strong>Curiosity:</strong> When this creature deals damage to a player,
+        draw a card.
+      </p>
+      <p><img src="../exported_cards/Deep Lore.png" alt="Deep Lore" class="rule-img"></p>
+
+      <h2>Storm variants</h2>
+      <p class="rule">
+        <strong>Landstorm:</strong> Copy this spell for each land you’ve played
+        this turn.
+      </p>
+      <p><img src="../exported_cards/Recall the Histories.png" alt="Recall the Histories" class="rule-img"></p>
+      <p class="rule">
+        <strong>Mindstorm:</strong> Copy this spell for each card you’ve drawn
+        and each time you’ve scried this turn.
+      </p>
+      <p><img src="../exported_cards/Outsmart.png" alt="Outsmart" class="rule-img"></p>
+      <p class="rule">
+        <strong>Elderstorm:</strong> Copy this spell for each Elder spell you’ve
+        cast this turn.
+      </p>
+      <p><img src="../exported_cards/Ancestral Vengeance.png" alt="Ancestral Vengeance" class="rule-img"></p>
+
+      <h2>Parameterized counters</h2>
+      <p class="rule">
+        <strong>Subtype counters:</strong> An “Elf” subtype counter gives the
+        creature the subtype Elf.
+      </p>
+      <p><img src="../exported_cards/Rewrite from Scratch.png" alt="Rewrite from Scratch" class="rule-img"></p>
+      <p class="rule">
+        <strong>Name counters:</strong> A “Max” name counter gives the creature
+        the name “Max.” Creatures can have multiple names.
+      </p>
+      <p><img src="../exported_cards/Master Sergeant Braven Tooth.png" alt="Master Sergeant Braven Tooth" class="rule-img"></p>
+    </div>
+    <script>
+      (function () {
+        var pathParts = location.pathname.split("/").filter(Boolean);
+        var repo = pathParts[0] || "malazan-cube";
+        var owner = location.hostname.split(".")[0];
+        var repoLink = document.getElementById("repo-link");
+        if (repoLink && owner && owner !== "github")
+          repoLink.href = "https://github.com/" + owner + "/" + repo;
+      })();
+    </script>
+  </body>
+</html>
