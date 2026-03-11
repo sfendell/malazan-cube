@@ -11,6 +11,6 @@
   "power": "4",
   "toughness": "4",
   "artist": "",
-  "rule_text": "\nFlying, Trample\nSlow, T, G, Sacrifice an artifact or enchantment: This fights target creature.",
+  "rule_text": "Flying, Trample\nSlow, T, G, Sacrifice an artifact or enchantment: This fights target creature.",
   "flavor_text": ""
 }

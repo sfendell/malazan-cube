@@ -12,6 +12,6 @@
   "power": "6",
   "toughness": "6",
   "artist": "",
-  "rule_text": "\nOther Alien Dinosaurs you control get +1/+1.\n8GG: Create a 1/1 blue and green Alien Dinosaur creature. This ability costs 1 less for each counter on a permanent you control.",
+  "rule_text": "Other Alien Dinosaurs you control get +1/+1.\n8GG: Create a 1/1 blue and green Alien Dinosaur creature. This ability costs 1 less for each counter on a permanent you control.",
   "flavor_text": ""
 }

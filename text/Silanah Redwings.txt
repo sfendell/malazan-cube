@@ -13,6 +13,6 @@
   "power": "4",
   "toughness": "4",
   "artist": "",
-  "rule_text": "\nFlying\nWhenever this attacks, it deals damage equal to its power to target creature.",
+  "rule_text": "Flying\nWhenever this attacks, it deals damage equal to its power to target creature.",
   "flavor_text": ""
 }

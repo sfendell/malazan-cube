@@ -14,6 +14,6 @@
   "power": "4",
   "toughness": "4",
   "artist": "Tasbo6",
-  "rule_text": "\nYou cannot skip turns, phases, or discard cards.\nCreatures you control cannot be returned to your hand or have stun counters placed on them.\nWhenever a creature this dealt damage to dies, put a +1/+1 counter on this.                  ",
+  "rule_text": "You cannot skip turns, phases, or discard cards.\nCreatures you control cannot be returned to your hand or have stun counters placed on them.\nWhenever a creature this dealt damage to dies, put a +1/+1 counter on this.                  ",
   "flavor_text": ""
 }

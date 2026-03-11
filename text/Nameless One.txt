@@ -12,6 +12,6 @@
   "power": "2",
   "toughness": "2",
   "artist": "",
-  "rule_text": "\nSacrifice all creatures you control and exile this from your graveyard: If you sacrificed ten or more creatures this way, tutor a permanent into play.\n2B, exile an Elder card from your graveyard: Create a copy of this card. It enters with copies of all of the counters on this card.",
+  "rule_text": "Sacrifice all creatures you control and exile this from your graveyard: If you sacrificed ten or more creatures this way, tutor a permanent into play.\n2B, exile an Elder card from your graveyard: Create a copy of this card. It enters with copies of all of the counters on this card.",
   "flavor_text": ""
 }

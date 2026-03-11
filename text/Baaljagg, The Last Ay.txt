@@ -15,6 +15,6 @@
   "power": "4",
   "toughness": "4",
   "artist": "",
-  "rule_text": "\nTrample, Vigilance\nAt the beginning of your end step, if you control seven or more lands or have two lands in your graveyard, this ascends.",
+  "rule_text": "Trample, Vigilance\nAt the beginning of your end step, if you control seven or more lands or have two lands in your graveyard, this ascends.",
   "flavor_text": ""
 }

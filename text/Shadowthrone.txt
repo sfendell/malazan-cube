@@ -14,6 +14,6 @@
   "power": "2",
   "toughness": "1",
   "artist": "",
-  "rule_text": "\nBlack instant and sorcery cards you own have mayhem.\nWhenever you sacrifice a Blood token during your turn, you may pay 3 life. If you do, this creature phases in.\nWhenever a creature phases in, target player discards a card.\nB, Discard a card: This creature phases out. Bleed.",
+  "rule_text": "Black instant and sorcery cards you own have mayhem.\nWhenever you sacrifice a Blood token during your turn, you may pay 3 life. If you do, this creature phases in.\nWhenever a creature phases in, target player discards a card.\nB, Discard a card: This creature phases out. Bleed.",
   "flavor_text": ""
 }

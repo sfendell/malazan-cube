@@ -13,6 +13,6 @@
   "power": "2",
   "toughness": "2",
   "artist": "",
-  "rule_text": "\nT: Add R or B. When the next Elder Zombie enters the battlefield under your control this turn, put a +1/+1 counter on it.\nExile a land from your graveyard: Untap this.",
+  "rule_text": "T: Add R or B. When the next Elder Zombie enters the battlefield under your control this turn, put a +1/+1 counter on it.\nExile a land from your graveyard: Untap this.",
   "flavor_text": ""
 }

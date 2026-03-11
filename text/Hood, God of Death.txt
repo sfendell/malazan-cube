@@ -15,6 +15,6 @@
   "power": "4",
   "toughness": "4",
   "artist": "",
-  "rule_text": "\nWhenever a nontoken creature you control dies, choose one:\nDraw a card and lose two life.\nTarget opponent discards a card and gains two life.\nAt the end of each turn, if four or more creatures died this turn, this ascends.           ",
+  "rule_text": "Whenever a nontoken creature you control dies, choose one:\nDraw a card and lose two life.\nTarget opponent discards a card and gains two life.\nAt the end of each turn, if four or more creatures died this turn, this ascends.           ",
   "flavor_text": ""
 }

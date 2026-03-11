@@ -11,6 +11,6 @@
   "power": "",
   "toughness": "",
   "artist": "",
-  "rule_text": "\nEquipped creature has +3/-1 and first strike.\nEquip 1. Activate only if this artifact isn’t equipped.",
+  "rule_text": "Equipped creature has +3/-1 and first strike.\nEquip 1. Activate only if this artifact isn’t equipped.",
   "flavor_text": ""
 }

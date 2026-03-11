@@ -13,6 +13,6 @@
   "power": "4",
   "toughness": "4",
   "artist": "",
-  "rule_text": "\nProwess, Flying\nInstants and sorceries you control have mindstorm.",
+  "rule_text": "Prowess, Flying\nInstants and sorceries you control have mindstorm.",
   "flavor_text": ""
 }

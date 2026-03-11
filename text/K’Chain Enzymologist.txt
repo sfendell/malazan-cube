@@ -13,6 +13,6 @@
   "power": "2",
   "toughness": "2",
   "artist": "",
-  "rule_text": "\nAlien Dinosaur cards in your hand have Affinity for Artifacts and Wizards.\nWhenever you scry, put a subtype counter of your choice on target creature.",
+  "rule_text": "Alien Dinosaur cards in your hand have Affinity for Artifacts and Wizards.\nWhenever you scry, put a subtype counter of your choice on target creature.",
   "flavor_text": ""
 }

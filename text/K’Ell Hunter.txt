@@ -13,6 +13,6 @@
   "power": "5",
   "toughness": "5",
   "artist": "Alex Yap-Dubois",
-  "rule_text": "\nThis enters the battlefield with a haste and trample counter.\nG, Move a counter from this to another creature you control: Regenerate this.",
+  "rule_text": "This enters the battlefield with a haste and trample counter.\nG, Move a counter from this to another creature you control: Regenerate this.",
   "flavor_text": ""
 }

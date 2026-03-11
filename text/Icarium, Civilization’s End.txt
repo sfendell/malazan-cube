@@ -15,6 +15,6 @@
   "power": "9",
   "toughness": "2",
   "artist": "",
-  "rule_text": "\nProtection from creatures\nSlow, B, T: Destroy target creature.\nSlow, R, T: Destroy target artifact.\nSlow, G, T: Destroy target enchantment.\nWhenever a permanent an opponent controls goes to the graveyard, untap this.      ",
+  "rule_text": "Protection from creatures\nSlow, B, T: Destroy target creature.\nSlow, R, T: Destroy target artifact.\nSlow, G, T: Destroy target enchantment.\nWhenever a permanent an opponent controls goes to the graveyard, untap this.      ",
   "flavor_text": ""
 }

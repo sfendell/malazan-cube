@@ -14,6 +14,6 @@
   "power": "4",
   "toughness": "4",
   "artist": "Yapattack",
-  "rule_text": "\nYou may have creatures you control enter the battlefield tapped.\nWhenever another creature enters the battlefield untapped, Mok fights it.",
+  "rule_text": "You may have creatures you control enter the battlefield tapped.\nWhenever another creature enters the battlefield untapped, Mok fights it.",
   "flavor_text": ""
 }

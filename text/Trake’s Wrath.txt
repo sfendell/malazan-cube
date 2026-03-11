@@ -9,6 +9,6 @@
   "power": "",
   "toughness": "",
   "artist": "",
-  "rule_text": "\nBattlestorm (When you cast this spell, copy it for each creature that attacked or blocked this turn. You may choose new targets for the copies.)\nDeal one damage to any target.",
+  "rule_text": "Battlestorm (When you cast this spell, copy it for each creature that attacked or blocked this turn. You may choose new targets for the copies.)\nDeal one damage to any target.",
   "flavor_text": ""
 }

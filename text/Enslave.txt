@@ -11,6 +11,6 @@
   "power": "",
   "toughness": "",
   "artist": "",
-  "rule_text": "\nEnchant creature\nEnchanted creature gets -6/-0.\nYou control enchanted creature.",
+  "rule_text": "Enchant creature\nEnchanted creature gets -6/-0.\nYou control enchanted creature.",
   "flavor_text": ""
 }

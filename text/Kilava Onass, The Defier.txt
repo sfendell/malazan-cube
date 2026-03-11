@@ -15,6 +15,6 @@
   "power": "3",
   "toughness": "3",
   "artist": "Dejan Delic + OpenAI",
-  "rule_text": "\nReach, Ward 2\nWhenever Kilava attacks, it gets +2/+2 and trample until end of turn.Then, you may sacrifice a creature or land. If you do, creatures you don’t control get -1/-1 until end of turn.           ",
+  "rule_text": "Reach, Ward 2\nWhenever Kilava attacks, it gets +2/+2 and trample until end of turn.Then, you may sacrifice a creature or land. If you do, creatures you don’t control get -1/-1 until end of turn.           ",
   "flavor_text": ""
 }

@@ -15,6 +15,6 @@
   "power": "2",
   "toughness": "2",
   "artist": "Jamie Mahood",
-  "rule_text": "\nDeathtouch\nPlay with your hand revealed.\n3: Manifest this.",
+  "rule_text": "Deathtouch\nPlay with your hand revealed.\n3: Manifest this.",
   "flavor_text": ""
 }

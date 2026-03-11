@@ -9,6 +9,6 @@
   "power": "",
   "toughness": "",
   "artist": "",
-  "rule_text": "\nImprovise, Behold an Elder Elf\nSacrifice all artifacts you control. Create an X/X Child God artifact creature token, where X is the number of permanents sacrificed this way. If you beheld and elder elf, it gains indestructible.",
+  "rule_text": "Improvise, Behold an Elder Elf\nSacrifice all artifacts you control. Create an X/X Child God artifact creature token, where X is the number of permanents sacrificed this way. If you beheld and elder elf, it gains indestructible.",
   "flavor_text": ""
 }

@@ -10,6 +10,6 @@
   "power": "",
   "toughness": "",
   "artist": "",
-  "rule_text": "\nIf an effect would create one or more Cusser tokens under your control, it creates twice as many tokens instead.\n7R, T: Create a Cusser.",
+  "rule_text": "If an effect would create one or more Cusser tokens under your control, it creates twice as many tokens instead.\n7R, T: Create a Cusser.",
   "flavor_text": ""
 }

@@ -11,6 +11,6 @@
   "power": "",
   "toughness": "",
   "artist": "",
-  "rule_text": "\nThis enters tapped if there are no creatures in your graveyard.\nT: Add B.\nT: Add one mana of any color of any creature in your graveyard.",
+  "rule_text": "This enters tapped if there are no creatures in your graveyard.\nT: Add B.\nT: Add one mana of any color of any creature in your graveyard.",
   "flavor_text": ""
 }

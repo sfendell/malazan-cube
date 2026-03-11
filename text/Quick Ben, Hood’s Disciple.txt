@@ -15,6 +15,6 @@
   "power": "2",
   "toughness": "2",
   "artist": "",
-  "rule_text": "\nNon-Spirit creatures you control have Afterlife X, where X is 1 plus the number of exiled Souls.\nWhen this dies, put a Soul you own from outside the game on top of your library.",
+  "rule_text": "Non-Spirit creatures you control have Afterlife X, where X is 1 plus the number of exiled Souls.\nWhen this dies, put a Soul you own from outside the game on top of your library.",
   "flavor_text": ""
 }

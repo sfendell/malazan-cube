@@ -12,6 +12,6 @@
   "power": "",
   "toughness": "",
   "artist": "",
-  "rule_text": "\nArmies, Soldiers, and Sappers you control get +1/+1.\nWhenever you attack an opponent, if you control more creatures than them, draw a card.\nRW: Creatures you control gain vigilance and haste until end of turn.",
+  "rule_text": "Armies, Soldiers, and Sappers you control get +1/+1.\nWhenever you attack an opponent, if you control more creatures than them, draw a card.\nRW: Creatures you control gain vigilance and haste until end of turn.",
   "flavor_text": ""
 }

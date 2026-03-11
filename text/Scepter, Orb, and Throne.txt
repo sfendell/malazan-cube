@@ -12,6 +12,6 @@
   "power": "",
   "toughness": "",
   "artist": "",
-  "rule_text": "\nU, T: Tap or untap target creature.\n1W, T: Gain 3 life.\n2G, T: Put a +1/+1 counter on target creature.\n3B, T: Put a -1/-1 counter on target creature.\n4R, T: Deal 3 damage to target creature.",
+  "rule_text": "U, T: Tap or untap target creature.\n1W, T: Gain 3 life.\n2G, T: Put a +1/+1 counter on target creature.\n3B, T: Put a -1/-1 counter on target creature.\n4R, T: Deal 3 damage to target creature.",
   "flavor_text": ""
 }

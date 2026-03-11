@@ -9,6 +9,6 @@
   "power": "",
   "toughness": "",
   "artist": "",
-  "rule_text": "\nAdvisors you control have curiosity.\nWhenever you draw a card, put a +1/+1 or Advisor subtype counter on target creature you control.",
+  "rule_text": "Advisors you control have curiosity.\nWhenever you draw a card, put a +1/+1 or Advisor subtype counter on target creature you control.",
   "flavor_text": ""
 }

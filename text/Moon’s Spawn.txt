@@ -13,6 +13,6 @@
   "power": "4",
   "toughness": "4",
   "artist": "",
-  "rule_text": "\nCrew 3\nFlying, Vigilance\nSlow, 2BR, T: Deal 4 damage to target creature. Activate this only if this is a creature.",
+  "rule_text": "Crew 3\nFlying, Vigilance\nSlow, 2BR, T: Deal 4 damage to target creature. Activate this only if this is a creature.",
   "flavor_text": ""
 }

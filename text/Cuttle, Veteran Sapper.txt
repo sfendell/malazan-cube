@@ -14,6 +14,6 @@
   "power": "2",
   "toughness": "3",
   "artist": "Corporal Nobbs",
-  "rule_text": "\nMalazans you control have vigilance.\nSappers you control have haste.",
+  "rule_text": "Malazans you control have vigilance.\nSappers you control have haste.",
   "flavor_text": ""
 }

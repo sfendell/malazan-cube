@@ -12,6 +12,6 @@
   "power": "",
   "toughness": "",
   "artist": "",
-  "rule_text": "\nEnchant non-God creature\nEnchanted creature cannot attack or block unless it has an activated ability.\nEnchanted creature has prowess, “You have cunning”,  and “This creature has hexproof as long as you’ve scried or cast an instant or sorcery this turn.”.",
+  "rule_text": "Enchant non-God creature\nEnchanted creature cannot attack or block unless it has an activated ability.\nEnchanted creature has prowess, “You have cunning”,  and “This creature has hexproof as long as you’ve scried or cast an instant or sorcery this turn.”.",
   "flavor_text": ""
 }

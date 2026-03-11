@@ -9,6 +9,6 @@
   "power": "",
   "toughness": "",
   "artist": "",
-  "rule_text": "\nCreatures you gain +3/+0, haste, and trample.\nAt the beginning of your next end step, sacrifice all creatures that attacked this turn",
+  "rule_text": "Creatures you gain +3/+0, haste, and trample.\nAt the beginning of your next end step, sacrifice all creatures that attacked this turn",
   "flavor_text": ""
 }
