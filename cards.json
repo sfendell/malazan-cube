@@ -56,6 +56,13 @@
     "text": "T: Add one mana of any color. Put an Oil counter on this.\nRW, Sacrifice this: Deal X damage to all attacking creatures, where X is the number of oil counters on this."
   },
   {
+    "name": "Anaster, First Child of the Dead Seed",
+    "img": "Anaster First Child of the Dead Seed.png",
+    "colors": "B",
+    "typeLine": "Legendary Creature - Child",
+    "text": "Whenever a creature enters the battlefield, if it’s a token you control,  put a +1/+1 counter on it. Otherwise, put a -1/-1 counter on it.\nWhenever a creature dies, target player loses X life and you gain X life, where X is the number of counters on it."
+  },
+  {
     "name": "Ancestral Vengeance",
     "img": "Ancestral Vengeance.png",
     "colors": "R",
@@ -532,6 +539,13 @@
     "text": "Tap an untapped creature you control, Sacrifice this, Kicker R: Deal 1 to any target. If you paid the kicker cost, instead deal 2 damage to any target. (You may pay an additional R as you cast this spell.)"
   },
   {
+    "name": "Cuttle, Veteran Sapper",
+    "img": "Cuttle Veteran Sapper.png",
+    "colors": "WR",
+    "typeLine": "Legendary Creature - Malazan Sapper",
+    "text": "Malazans you control have vigilance.\nSappers you control have haste."
+  },
+  {
     "name": "Dalk Tennes",
     "img": "Dalk Tennes.png",
     "colors": "G",
@@ -557,7 +571,7 @@
     "img": "Daughter Dusk.png",
     "colors": "B",
     "typeLine": "Legendary Creature - Elder Elf",
-    "text": "3RR: This becomes a 4/4 dragon with flying. (This effect does not end at end of turn.)"
+    "text": "3RR: This becomes a 4/4 Dragon with flying. (This effect does not end at end of turn.)"
   },
   {
     "name": "Deep Lore",
@@ -1208,7 +1222,7 @@
     "img": "Kilmandaros.png",
     "colors": "RG",
     "typeLine": "Creature - Elder God",
-    "text": "Whenever a creature with power less than Kilmandaros’ toughness enters the battlefield, she fights it. When she she wins the fight, destroy target non-creature, non-land permanent."
+    "text": "Whenever a creature with power less than Kilmandaros’ toughness enters the battlefield, she fights it. When she wins the fight, destroy target non-creature, non-land permanent."
   },
   {
     "name": "Kimloc, Tanno Spiritwalker",
@@ -2489,7 +2503,7 @@
     "img": "Tiam.png",
     "colors": "BR",
     "typeLine": "Legendary Creature - Elder Dragon God",
-    "text": "Flying\nThis has the abilities of all Dragons you control.\nT, Sacrifice a creature you control, put a -1/-1 counter on this: Create a 4/4 dragon creature token with flying."
+    "text": "Flying\nThis has the abilities of all Dragons you control.\nT, Sacrifice a creature you control, put a -1/-1 counter on this: Create a 4/4 Dragon creature token with flying."
   },
   {
     "name": "Tiste Ascendancy",
