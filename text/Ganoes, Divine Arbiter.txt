@@ -14,6 +14,6 @@
   "power": "2",
   "toughness": "2",
   "artist": "",
-  "rule_text": "Protection from Gods\n5W, T: Another target creature ascends. This costs 5 less if it targets a creature you don’t control.\n1W, T: Exile target God.\nWhenever an opponent’s creature ascends, draw a card.",
+  "rule_text": "\nProtection from Gods\n5W, T: Another target creature ascends. This costs 5 less if it targets a creature you don’t control.\n1W, T: Exile target God.\nWhenever an opponent’s creature ascends, draw a card.",
   "flavor_text": ""
 }

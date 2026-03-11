@@ -9,6 +9,6 @@
   "power": "",
   "toughness": "",
   "artist": "",
-  "rule_text": "Kicker—Sacrifice seven creatures\nDestroy target creature. If this was kicked, target creature ascends.",
+  "rule_text": "\nKicker—Sacrifice seven creatures\nDestroy target creature. If this was kicked, target creature ascends.",
   "flavor_text": ""
 }

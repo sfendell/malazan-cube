@@ -15,6 +15,6 @@
   "power": "5",
   "toughness": "5",
   "artist": "Ljungqvist",
-  "rule_text": ",\nOther Assassins you control have and .",
+  "rule_text": "\nDeathtouch, Menace\nOther Assassins you control have deathtouch and menace.",
   "flavor_text": ""
 }

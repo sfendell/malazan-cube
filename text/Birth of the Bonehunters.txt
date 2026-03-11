@@ -1,12 +1,18 @@
 {
   "name": "Birth of the Bonehunters",
-  "cost": "",
-  "types": [],
-  "subtypes": [],
+  "cost": "1BR",
+  "types": [
+    "Kindred",
+    "Sorcery"
+  ],
+  "subtypes": [
+    "Malazan",
+    "Army"
+  ],
   "supertypes": [],
   "power": "",
   "toughness": "",
   "artist": "",
-  "rule_text": "",
+  "rule_text": "\nAs an additional cost, sacrifice a land or artifact you control.\nIf you sacrificed an untapped permanent, copy this spell as it resolves. You may choose new targets for the copy.\nDestroy target land or artifact. Amass Malazans 2.",
   "flavor_text": ""
 }

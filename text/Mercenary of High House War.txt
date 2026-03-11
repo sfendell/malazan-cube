@@ -12,6 +12,6 @@
   "power": "",
   "toughness": "",
   "artist": "",
-  "rule_text": "Enchant non-God creature\nEnchanted creature cannot attack or block and has “Whenever an Army you control deals damage to a player, plunder.” and “Sacrifice a treasure: Until end of turn, this can attack and block and gets +2/+2 and .”",
+  "rule_text": "\nEnchant non-God creature\nEnchanted creature cannot attack or block and has “Whenever an Army you control deals damage to a player, plunder.” and “Sacrifice a treasure: Until end of turn, this can attack and block and gets +2/+2 and haste.”",
   "flavor_text": ""
 }

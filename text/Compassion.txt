@@ -9,6 +9,6 @@
   "power": "",
   "toughness": "",
   "artist": "",
-  "rule_text": "Creatures you control get and until end of turn.\nWhenever you gain life this turn, put a +1/+1 counter on target creature.",
+  "rule_text": "\nCreatures you control get hexproof and indestructible until end of turn.\nWhenever you gain life this turn, put a +1/+1 counter on target creature.",
   "flavor_text": ""
 }

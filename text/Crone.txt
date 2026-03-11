@@ -14,6 +14,6 @@
   "power": "3",
   "toughness": "5",
   "artist": "",
-  "rule_text": ",\nWhenever a creature dies, surveil 1.\nWhenever a card is put into your graveyard from anywhere, you may exile it. If you do, you may cast that card until end of turn. This ability triggers only once each turn.",
+  "rule_text": "\nFlying, deathtouch\nWhenever a creature dies, surveil 1.\nWhenever a card is put into your graveyard from anywhere, you may exile it. If you do, you may cast that card until end of turn. This ability triggers only once each turn.",
   "flavor_text": ""
 }

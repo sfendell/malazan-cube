@@ -13,6 +13,6 @@
   "power": "",
   "toughness": "",
   "artist": "",
-  "rule_text": "This enters the battlefield tapped unless there is a land in your graveyard.\nT: Add R, B, or G.\nBRG, T, Sacrifice T’lan Imass Banner: Draw a card.",
+  "rule_text": "\nThis enters the battlefield tapped unless there is a land in your graveyard.\nT: Add R, B, or G.\nBRG, T, Sacrifice T’lan Imass Banner: Draw a card.",
   "flavor_text": ""
 }

@@ -13,6 +13,6 @@
   "power": "",
   "toughness": "",
   "artist": "",
-  "rule_text": "If one or more counters would be placed on a creature you control, that many plus one counters are placed on it instead.\nOther Alien Dinosaurs you control have “T: Add U or G to your mana pool.”",
+  "rule_text": "\nIf one or more counters would be placed on a creature you control, that many plus one counters are placed on it instead.\nOther Alien Dinosaurs you control have “T: Add U or G to your mana pool.”",
   "flavor_text": ""
 }

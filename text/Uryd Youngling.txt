@@ -12,6 +12,6 @@
   "power": "1",
   "toughness": "1",
   "artist": "",
-  "rule_text": "T: Add R, G or U.\nDredge 1",
+  "rule_text": "\nTrample\nT: Add R, G or U.\nDredge 1",
   "flavor_text": ""
 }

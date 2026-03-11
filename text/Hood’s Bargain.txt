@@ -9,6 +9,6 @@
   "power": "",
   "toughness": "",
   "artist": "",
-  "rule_text": "As an additional cost, exile a God you control.\nExile all creatures in your graveyard, then sacrifice all creatures you control, then return all creatures exiled this way to the battlefield under your control (The God remains exiled).",
+  "rule_text": "\nAs an additional cost, exile a God you control.\nExile all creatures in your graveyard, then sacrifice all creatures you control, then return all creatures exiled this way to the battlefield under your control (The God remains exiled).",
   "flavor_text": ""
 }

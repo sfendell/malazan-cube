@@ -12,6 +12,6 @@
   "power": "",
   "toughness": "",
   "artist": "",
-  "rule_text": "This enters the battlefield tapped unless you control a Sapper or an Army.\nT: Add R, W, or B.\nRWB, T, Sacrifice Malazan Banner: Draw a card.",
+  "rule_text": "\nThis enters the battlefield tapped unless you control a Sapper or an Army.\nT: Add R, W, or B.\nRWB, T, Sacrifice Malazan Banner: Draw a card.",
   "flavor_text": ""
 }

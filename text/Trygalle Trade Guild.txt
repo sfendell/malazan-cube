@@ -12,6 +12,6 @@
   "power": "4",
   "toughness": "4",
   "artist": "chiththarthan",
-  "rule_text": ", ,\nWhenever you for the third time in a turn, plunder.\nSacrifice a Treasure and a Warren: Return this from your graveyard to the battlefield.",
+  "rule_text": "\nExtort, extort, extort\nWhenever you extort for the third time in a turn, plunder.\nSacrifice a Treasure and a Warren: Return this from your graveyard to the battlefield.",
   "flavor_text": ""
 }

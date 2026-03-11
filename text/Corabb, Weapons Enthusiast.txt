@@ -13,6 +13,6 @@
   "power": "1",
   "toughness": "1",
   "artist": "",
-  "rule_text": "Corabb gets +1/+1 for each Equipment attached to it.\nArtifacts attached to this lose all activated abilities (this includes Equip).\nR, Q, Sacrifice an Equipment equipped to this: Deal 3 damage to any target.",
+  "rule_text": "\nFirst strike\nCorabb gets +1/+1 for each Equipment attached to it.\nArtifacts attached to this lose all activated abilities (this includes Equip).\nR, Q, Sacrifice an Equipment equipped to this: Deal 3 damage to any target.              ",
   "flavor_text": ""
 }

@@ -9,6 +9,6 @@
   "power": "",
   "toughness": "",
   "artist": "",
-  "rule_text": "Elderstorm (When you cast this, copy this spell for each Elder spell you cast and Elder land you played this turn.)\nDeal three damage to target creature.",
+  "rule_text": "\nElderstorm (When you cast this, copy this spell for each Elder spell you cast and Elder land you played this turn.)\nDeal three damage to target creature.",
   "flavor_text": ""
 }

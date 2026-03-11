@@ -11,6 +11,6 @@
   "power": "",
   "toughness": "",
   "artist": "",
-  "rule_text": "Enchant creature\nEnchanted creature has and cannot have counters placed on it.\nWhen enchanted creature dies, draw a card.",
+  "rule_text": "\nEnchant creature\nEnchanted creature has hexproof and cannot have counters placed on it.\nWhen enchanted creature dies, draw a card.",
   "flavor_text": ""
 }

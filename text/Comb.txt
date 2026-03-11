@@ -12,6 +12,6 @@
   "power": "",
   "toughness": "",
   "artist": "",
-  "rule_text": "Equipped creature has and .\nEquip 0",
+  "rule_text": "\nEquipped creature has vigilance and enlist.\nEquip 0",
   "flavor_text": ""
 }

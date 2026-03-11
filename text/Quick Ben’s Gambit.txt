@@ -9,6 +9,6 @@
   "power": "",
   "toughness": "",
   "artist": "",
-  "rule_text": "When you draft this, add all Souls to your card pool.\nExile all Souls from your graveyard and battlefield. Create a */* Malazan Avatar Wizard creature token named Quick Ben with “This has the combined colors, power, toughness, and abilities of all exiled Souls”.",
+  "rule_text": "\nWhen you draft this, add all Souls to your card pool.\nExile all Souls from your graveyard and battlefield. Create a */* Malazan Avatar Wizard creature token named Quick Ben with “This has the combined colors, power, toughness, and abilities of all exiled Souls”.",
   "flavor_text": ""
 }

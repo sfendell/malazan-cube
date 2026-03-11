@@ -13,6 +13,6 @@
   "power": "1",
   "toughness": "2",
   "artist": "",
-  "rule_text": "W, T: Prevent the next X damage dealt to target creature, where X is this creature’s power. If damage is prevented this way, gain X life.",
+  "rule_text": "\nLifelink\nW, T: Prevent the next X damage dealt to target creature, where X is this creature’s power. If damage is prevented this way, gain X life.",
   "flavor_text": ""
 }

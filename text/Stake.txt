@@ -11,6 +11,6 @@
   "power": "",
   "toughness": "",
   "artist": "",
-  "rule_text": "Enchant artifact\nWhen this enters the battlefield, gain two life and exile target creature until this leaves the battlefield.",
+  "rule_text": "\nEnchant artifact\nWhen this enters the battlefield, gain two life and exile target creature until this leaves the battlefield.",
   "flavor_text": ""
 }

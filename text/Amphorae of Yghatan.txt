@@ -9,6 +9,6 @@
   "power": "",
   "toughness": "",
   "artist": "",
-  "rule_text": "T: Add one mana of any color. Put an Oil counter on this.\nRW, Sacrifice this: Deal X damage to all attacking creatures, where X is the number of oil counters on this.",
+  "rule_text": "\nT: Add one mana of any color. Put an Oil counter on this.\nRW, Sacrifice this: Deal X damage to all attacking creatures, where X is the number of oil counters on this.",
   "flavor_text": ""
 }

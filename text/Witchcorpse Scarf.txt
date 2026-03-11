@@ -11,6 +11,6 @@
   "power": "",
   "toughness": "",
   "artist": "",
-  "rule_text": "Enchanted creature has “Whenever this deals damage to a player, plunder twice” and “Whenever a creature dealt damage by this creature this turn dies, its controller loses 2 life.”\nEquip 1",
+  "rule_text": "\nEnchanted creature has “Whenever this deals damage to a player, plunder twice” and “Whenever a creature dealt damage by this creature this turn dies, its controller loses 2 life.”\nEquip 1",
   "flavor_text": ""
 }

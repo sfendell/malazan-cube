@@ -9,6 +9,6 @@
   "power": "",
   "toughness": "",
   "artist": "",
-  "rule_text": "Tap an untapped Dragon you control: Copy target spell. You may choose new targets for that copy. If the copy is a creature spell, it loses legendary and gains and “Sacrifice this at the beginning of your next end step”.",
+  "rule_text": "Tap an untapped Dragon you control: Copy target spell. You may choose new targets for that copy. If the copy is a creature spell, it loses legendary and gains haste and “Sacrifice this at the beginning of your next end step”.",
   "flavor_text": ""
 }

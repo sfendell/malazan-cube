@@ -9,6 +9,6 @@
   "power": "",
   "toughness": "",
   "artist": "",
-  "rule_text": "When you cast this, place a foresight counter on target artifact you control named Fiddler’s Deck.\nTarget creature enchanted by a Fatid gains all colors of permanents attached to it. Then that creature ascends.",
+  "rule_text": "\nWhen you cast this, place a foresight counter on target artifact you control named Fiddler’s Deck.\nTarget creature enchanted by a Fatid gains all colors of permanents attached to it. Then that creature ascends.",
   "flavor_text": ""
 }

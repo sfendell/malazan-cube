@@ -9,6 +9,6 @@
   "power": "",
   "toughness": "",
   "artist": "",
-  "rule_text": "Create two 2/2 green Wolf tokens. Then they each a single target creature.",
+  "rule_text": "Create two 2/2 green Wolf tokens. Then they each fight a single target creature.",
   "flavor_text": ""
 }

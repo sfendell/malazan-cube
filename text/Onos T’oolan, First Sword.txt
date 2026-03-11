@@ -15,6 +15,6 @@
   "power": "3",
   "toughness": "3",
   "artist": "Jirí Dvorský",
-  "rule_text": "Whenever you sacrifice a land, draw a card.\nR: This gets until end of turn.\n1G: this.\n2B: This gets until end of turn.",
+  "rule_text": "\nWhenever you sacrifice a land, draw a card.\nR: This gets first strike until end of turn.\n1G: Regenerate this.\n2B: This gets deathtouch until end of turn.",
   "flavor_text": ""
 }

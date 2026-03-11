@@ -14,6 +14,6 @@
   "power": "",
   "toughness": "",
   "artist": "",
-  "rule_text": "T, Tap an untapped creature you control: Tutor a Warren to the battlefield that shares a color in its identity with the tapped creature.\nWhenever a Warren enters the battlefield under your control, create a 2/2 Green Wolf creature token. It fights target creature you don’t control.",
+  "rule_text": "\nT, Tap an untapped creature you control: Tutor a Warren to the battlefield that shares a color in its identity with the tapped creature.\nWhenever a Warren enters the battlefield under your control, create a 2/2 Green Wolf creature token. It fights target creature you don’t control.",
   "flavor_text": ""
 }

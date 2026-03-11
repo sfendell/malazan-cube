@@ -13,6 +13,6 @@
   "power": "3",
   "toughness": "3",
   "artist": "",
-  "rule_text": "Whenever another creature you control dies, you may create a token that is a copy of it, except it’s a 3/1 blue and black Illusion with “Whenever this is targeted, sacrifice it.”\n2RR, Slow: Tap target creature. Gain control of it until end of turn. It gains .\nSacrifice an Illusion: Untap target creature.",
+  "rule_text": "\nFlying\nWhenever another creature you control dies, you may create a token that is a copy of it, except it’s a 3/1 blue and black Illusion with “Whenever this is targeted, sacrifice it.”\n2RR, Slow: Tap target creature. Gain control of it until end of turn. It gains haste.\nSacrifice an Illusion: Untap target creature.                      ",
   "flavor_text": ""
 }

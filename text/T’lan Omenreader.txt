@@ -12,6 +12,6 @@
   "power": "3",
   "toughness": "2",
   "artist": "",
-  "rule_text": "Whenever an Elder Zombie you control attacks, you may discard a card. If you do, draw a card.\nSpells in your graveyard with mana value less than the number of lands in your graveyard have mayhem.",
+  "rule_text": "\nWhenever an Elder Zombie you control attacks, you may discard a card. If you do, draw a card.\nSpells in your graveyard with mana value less than the number of lands in your graveyard have mayhem.",
   "flavor_text": ""
 }

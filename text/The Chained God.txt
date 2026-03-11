@@ -14,6 +14,6 @@
   "power": "2",
   "toughness": "1",
   "artist": "",
-  "rule_text": "The Chained God may only be cast from exile.\nExile a God or two Elders you control: Exile this from your hand.\nTap an untapped creature you control, Q: Put a -1/-1 counter on two target creatures.\nWhen this enters exile from the battlefield, you win the game.",
+  "rule_text": "\nThe Chained God may only be cast from exile.\nExile a God or two Elders you control: Exile this from your hand.\nIndestructible\nTap an untapped creature you control, Q: Put a -1/-1 counter on two target creatures.\nWhen this enters exile from the battlefield, you win the game.",
   "flavor_text": ""
 }

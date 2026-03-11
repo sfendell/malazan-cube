@@ -12,6 +12,6 @@
   "power": "0",
   "toughness": "1",
   "artist": "Shadaan + Openai",
-  "rule_text": ",\nWhenever a creature you control evolves, .",
+  "rule_text": "\nFlying, evolve\nWhenever a creature you control evolves, proliferate.",
   "flavor_text": ""
 }

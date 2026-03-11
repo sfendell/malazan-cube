@@ -13,6 +13,6 @@
   "power": "3",
   "toughness": "1",
   "artist": "",
-  "rule_text": "1W: This gains until end of turn.",
+  "rule_text": "\nFirst strike\n1W: This gains lifelink until end of turn.",
   "flavor_text": ""
 }

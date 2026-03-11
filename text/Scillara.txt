@@ -14,6 +14,6 @@
   "power": "1",
   "toughness": "2",
   "artist": "",
-  "rule_text": "At the beginning of your upkeep, impulse, impulse, then discard a card.\nR, Sacrifice a land: Until end of turn, you have cunning, and cards you own have mayhem.",
+  "rule_text": "\nAt the beginning of your upkeep, impulse, impulse, then discard a card.\nR, Sacrifice a land: Until end of turn, you have cunning, and cards you own have mayhem.",
   "flavor_text": ""
 }

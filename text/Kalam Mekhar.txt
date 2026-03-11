@@ -14,6 +14,6 @@
   "power": "3",
   "toughness": "3",
   "artist": "u/AnttiHako",
-  "rule_text": "As long as Kalam is equipped, it has .\nAs long as Kalam is equipped twice, it has “T: Deal 1 damage to any target.”",
+  "rule_text": "\nDeathtouch\nAs long as Kalam is equipped, it has first strike.\nAs long as Kalam is equipped twice, it has “T: Deal 1 damage to any target.”",
   "flavor_text": ""
 }

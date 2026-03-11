@@ -14,6 +14,6 @@
   "power": "*",
   "toughness": "*",
   "artist": "Coltaine93",
-  "rule_text": "If you would create one or more tokens, create twice that many of those tokens instead.\nTehol’s power and toughness is equal to the number of Merchants you control plus the number of Treasures you control.\n4WB, T: Plunder. This costs 1 less for each other Merchant you control.",
+  "rule_text": "\nIf you would create one or more tokens, create twice that many of those tokens instead.\nTehol’s power and toughness is equal to the number of Merchants you control plus the number of Treasures you control.\n4WB, T: Plunder. This costs 1 less for each other Merchant you control.       ",
   "flavor_text": ""
 }

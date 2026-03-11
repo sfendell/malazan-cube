@@ -11,6 +11,6 @@
   "power": "0",
   "toughness": "1",
   "artist": "",
-  "rule_text": "Whenever a creature you control dies, put a +1/+1 counter on this.\nAfterlife X, where X is the number of creatures in your graveyard.",
+  "rule_text": "\nWhenever a creature you control dies, put a +1/+1 counter on this.\nAfterlife X, where X is the number of creatures in your graveyard.",
   "flavor_text": ""
 }

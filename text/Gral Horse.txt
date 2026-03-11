@@ -12,6 +12,6 @@
   "power": "3",
   "toughness": "3",
   "artist": "",
-  "rule_text": ", ,",
+  "rule_text": "Riot, deathtouch, trample",
   "flavor_text": ""
 }

@@ -14,6 +14,6 @@
   "power": "6",
   "toughness": "3",
   "artist": "Shadaan",
-  "rule_text": "When this enters the battlefield, if you control another creature, put two +1/+1 counters on this and gain 2 life.",
+  "rule_text": "\nTrample\nWhen this enters the battlefield, if you control another creature, put two +1/+1 counters on this and gain 2 life.",
   "flavor_text": ""
 }

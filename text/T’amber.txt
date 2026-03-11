@@ -15,6 +15,6 @@
   "power": "*",
   "toughness": "*",
   "artist": "Coltaine93",
-  "rule_text": "This has power and toughness equal to the number of lands you control plus the number of creatures you control.\n1G, T, Tap an untapped creature with a counter on it you control: Double target creature’s power.",
+  "rule_text": "\nVigilance\nThis has power and toughness equal to the number of lands you control plus the number of creatures you control.\n1G, T, Tap an untapped creature with a counter on it you control: Double target creature’s power.",
   "flavor_text": ""
 }

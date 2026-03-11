@@ -12,6 +12,6 @@
   "power": "5",
   "toughness": "1",
   "artist": "",
-  "rule_text": "Whenever this attacks, create a Cusser.\nW/U: This gains until end of turn.",
+  "rule_text": "\nWhenever this attacks, create a Cusser.\nW/U: This gains flying until end of turn.",
   "flavor_text": ""
 }

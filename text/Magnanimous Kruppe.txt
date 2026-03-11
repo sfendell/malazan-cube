@@ -14,6 +14,6 @@
   "power": "1",
   "toughness": "4",
   "artist": "Alan Byers",
-  "rule_text": "You have cunning.\nAt the beginning of your upkeep, scry 1.\nWhenever you place X cards on the bottom of your deck, choose one:\nCook or X times.\nGain control of target spell or artifact with value less than or equal to X. You may choose new targets for the spell.",
+  "rule_text": "\nYou have cunning.\nAt the beginning of your upkeep, scry 1.\nWhenever you place X cards on the bottom of your deck, choose one:\nCook or investigate X times.\nGain control of target spell or artifact with value less than or equal to X. You may choose new targets for the spell.              ",
   "flavor_text": ""
 }

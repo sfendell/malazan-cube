@@ -15,6 +15,6 @@
   "power": "2",
   "toughness": "2",
   "artist": "",
-  "rule_text": "Whenever a non-Construct artifact enters the battlefield under your control, you may create a 1/2 colorless Construct artifact creature token with .\nInstants and sorceries you cast cost 1 less for each artifact you control.",
+  "rule_text": "\nWhenever a non-Construct artifact enters the battlefield under your control, you may create a 1/2 colorless Construct artifact creature token with prowess.\nInstants and sorceries you cast cost 1 less for each artifact you control.              ",
   "flavor_text": ""
 }

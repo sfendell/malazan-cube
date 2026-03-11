@@ -9,6 +9,6 @@
   "power": "",
   "toughness": "",
   "artist": "",
-  "rule_text": "Whenever a creature you don’t control becomes the target of a spell or ability, gain 1 life.\nWhenever you gain life, scry 1.\nWU: Tap target creature.",
+  "rule_text": "\nWhenever a creature you don’t control becomes the target of a spell or ability, gain 1 life.\nWhenever you gain life, scry 1.\nWU: Tap target creature.",
   "flavor_text": ""
 }

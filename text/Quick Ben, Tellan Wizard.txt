@@ -15,6 +15,6 @@
   "power": "2",
   "toughness": "2",
   "artist": "",
-  "rule_text": "6R, T: Deal 3 damage to X targets, where X is 1 plus the number of exiled Souls.\nWhen this dies, put a Soul you own from outside the game on top of your library.",
+  "rule_text": "\n6R, T: Deal 3 damage to X targets, where X is 1 plus the number of exiled Souls.\nWhen this dies, put a Soul you own from outside the game on top of your library.",
   "flavor_text": ""
 }

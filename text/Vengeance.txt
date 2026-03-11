@@ -16,6 +16,6 @@
   "power": "",
   "toughness": "",
   "artist": "",
-  "rule_text": "Equipped creature gets +3/+3.\nSacrifice equipped creature: Transform this. Active this only if equipped creature dealt damage to a player this turn.\nEquip 3",
+  "rule_text": "\nEquipped creature gets +3/+3.\nSacrifice equipped creature: Transform this. Active this only if equipped creature dealt damage to a player this turn.\nEquip 3",
   "flavor_text": ""
 }

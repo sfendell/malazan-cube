@@ -11,6 +11,6 @@
   "power": "3",
   "toughness": "4",
   "artist": "",
-  "rule_text": "Whenever you sacrifice a creature, deal 1 damage to any target.\nAfterlife 2",
+  "rule_text": "\nFlying\nWhenever you sacrifice a creature, deal 1 damage to any target.\nAfterlife 2",
   "flavor_text": ""
 }

@@ -16,6 +16,6 @@
   "power": "2",
   "toughness": "2",
   "artist": "",
-  "rule_text": "RR: This gets +2/+0 until end of turn.\nWhen this dies, you may pay UU. If you do, target creature becomes a copy of it.",
+  "rule_text": "\nFlying\nRR: This gets +2/+0 until end of turn.\nWhen this dies, you may pay UU. If you do, target creature becomes a copy of it.",
   "flavor_text": ""
 }

@@ -12,6 +12,6 @@
   "power": "6",
   "toughness": "6",
   "artist": "",
-  "rule_text": "2G, Slow, Sacrifice this: Create two green 2/2 Wolf creature tokens, then .\n1G, Slow, Sacrifice two Wolves: Return this to the battlefield from your graveyard.",
+  "rule_text": "\n2G, Slow, Sacrifice this: Create two green 2/2 Wolf creature tokens, then populate.\n1G, Slow, Sacrifice two Wolves: Return this to the battlefield from your graveyard.",
   "flavor_text": ""
 }

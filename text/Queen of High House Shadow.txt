@@ -12,6 +12,6 @@
   "power": "",
   "toughness": "",
   "artist": "",
-  "rule_text": "Enchant non-God creature\nEnchanted creature cannot attack or block unless its owner controls a Treasure or Equipment.\nEnchanted creature has “Creatures you control have and ”.",
+  "rule_text": "\nEnchant non-God creature\nEnchanted creature cannot attack or block unless its owner controls a Treasure or Equipment.\nEnchanted creature has “Creatures you control have menace and first strike”.",
   "flavor_text": ""
 }

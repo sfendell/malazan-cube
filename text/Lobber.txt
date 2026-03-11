@@ -11,6 +11,6 @@
   "power": "",
   "toughness": "",
   "artist": "",
-  "rule_text": "Equipped creature gets +2/+0, and “T, Sacrifice a Cusser: Deal 3 damage to target creature. If that creature had , destroy it.”\nEquip 2",
+  "rule_text": "\nEquipped creature gets +2/+0, reach and “T, Sacrifice a Cusser: Deal 3 damage to target creature. If that creature had flying, destroy it.”\nEquip 2",
   "flavor_text": ""
 }

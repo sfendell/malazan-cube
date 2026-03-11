@@ -9,6 +9,6 @@
   "power": "",
   "toughness": "",
   "artist": "",
-  "rule_text": "Scry 1.\n.\nCounter up to one target spell with mana value one or less.",
+  "rule_text": "\nScry 1.\nProliferate.\nCounter up to one target spell with mana value one or less.",
   "flavor_text": ""
 }

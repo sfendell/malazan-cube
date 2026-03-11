@@ -9,6 +9,6 @@
   "power": "",
   "toughness": "",
   "artist": "",
-  "rule_text": "Draw X cards, then X times.",
+  "rule_text": "Draw X cards, then proliferate X times.",
   "flavor_text": ""
 }

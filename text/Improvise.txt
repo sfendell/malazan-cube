@@ -9,6 +9,6 @@
   "power": "",
   "toughness": "",
   "artist": "",
-  "rule_text": "As an additional cost to cast this, sacrifice an artifact or enchantment.\nWhenever target creature would die this turn, instead exile it, then draw two cards. Return that creature to the battlefield under your control at the end of your turn.",
+  "rule_text": "\nAs an additional cost to cast this, sacrifice an artifact or enchantment.\n Whenever target creature would die this turn, instead exile it, then draw two cards. Return that creature to the battlefield under your control at the end of your turn.",
   "flavor_text": ""
 }

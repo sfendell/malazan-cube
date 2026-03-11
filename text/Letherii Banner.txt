@@ -12,6 +12,6 @@
   "power": "",
   "toughness": "",
   "artist": "",
-  "rule_text": "This enters the battlefield tapped unless you control a Treasure.\nT: Add W, B, or G.\nWBG, T, Sacrifice this: Draw a card.",
+  "rule_text": "\nThis enters the battlefield tapped unless you control a Treasure.\nT: Add W, B, or G.\nWBG, T, Sacrifice this: Draw a card.",
   "flavor_text": ""
 }

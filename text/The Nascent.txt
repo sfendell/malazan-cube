@@ -11,6 +11,6 @@
   "power": "",
   "toughness": "",
   "artist": "",
-  "rule_text": "This enters the battlefield tapped unless you control another Warren.\nT: Add B, U or G.\nBGU, T, Sacrifice this: Return up to two other Warrens from your graveyard to the battlefield tapped.\nDredge 2",
+  "rule_text": "\nThis enters the battlefield tapped unless you control another Warren.\nT: Add B, U or G.\nBGU, T, Sacrifice this: Return up to two other Warrens from your graveyard to the battlefield tapped.\n\nDredge 2",
   "flavor_text": ""
 }

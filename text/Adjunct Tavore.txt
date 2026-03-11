@@ -13,6 +13,6 @@
   "power": "3",
   "toughness": "3",
   "artist": "Sam Burley",
-  "rule_text": "Other creatures you control get +1/+1.\nWhenever a Malazan you control is dealt damage, deal 1 damage to any target.\nWhenever a Child you control dies, destroy target creature.",
+  "rule_text": "\nOther creatures you control get +1/+1.\nWhenever a Malazan you control is dealt damage, deal 1 damage to any target.\nWhenever a Child you control dies, destroy target creature.",
   "flavor_text": ""
 }

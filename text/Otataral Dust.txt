@@ -9,6 +9,6 @@
   "power": "",
   "toughness": "",
   "artist": "",
-  "rule_text": "Creatures lose all activated abilities.\n4, T, Sacrifice this: Counter target activated or triggered ability.",
+  "rule_text": "\nFlash\nCreatures lose all activated abilities.\n4, T, Sacrifice this: Counter target activated or triggered ability.",
   "flavor_text": ""
 }

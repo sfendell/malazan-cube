@@ -12,6 +12,6 @@
   "power": "",
   "toughness": "",
   "artist": "",
-  "rule_text": "Slow, 4UBR, T, Sacrifice this: Choose one:\nGain control of target creature.\nDivide 6 damage among any number of targets.\nTarget opponent discards their hand.\nWhen this goes to your graveyard from play, exile target God.",
+  "rule_text": "\nSlow, 4UBR, T, Sacrifice this: Choose one:\n Gain control of target creature.\n Divide 6 damage among any number of targets.\nTarget opponent discards their hand.\nWhen this goes to your graveyard from play, exile target God.",
   "flavor_text": ""
 }

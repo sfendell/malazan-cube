@@ -14,6 +14,6 @@
   "power": "1",
   "toughness": "1",
   "artist": "",
-  "rule_text": "Kallor cannot or die. (If his toughness is less than zero, he remains on the battlefield. He cannot be sacrificed.)",
+  "rule_text": "Kallor cannot ascend or die. (If his toughness is less than zero, he remains on the battlefield. He cannot be sacrificed.)",
   "flavor_text": ""
 }

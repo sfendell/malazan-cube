@@ -9,6 +9,6 @@
   "power": "",
   "toughness": "",
   "artist": "",
-  "rule_text": "3, T: Target creature with power, toughness, or mana value greater than three .\nAt the beginning of your upkeep, you may pay H for each card exiled with this. If you don’t, sacrifice this, then all creatures phase in.",
+  "rule_text": "\nIndestructible\n3, T: Target creature with power, toughness, or mana value greater than three phases out.\nAt the beginning of your upkeep, you may pay H for each card exiled with this. If you don’t, sacrifice this, then all creatures phase in.",
   "flavor_text": ""
 }
