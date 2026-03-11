@@ -5,26 +5,25 @@ It's Malazan! Cube of the Fallen! Malazan, Book of the Fallen, but a Cube! MTG c
 **→ [Browse the cube](https://sfendell.github.io/malazan-cube/)**
 
 ---
-
-## Scripts
-
-Card data lives in **text/** (one `.txt` per card) and **art/** (one image per card). The **MSE set** (`Malazan Cube of the Fallen.mse-set`) and **exported_cards/** (PNGs for the gallery) are generated from these. All intermediary files go in **__generated__/** (gitignored).
-
-| Script | Purpose |
-|--------|--------|
-| **mtg_clippy** | LLM wording/grammar fix for MTG ability text. **Only** reads/writes files in **text/**. Writes changed-card list to `__generated__/clippy-changed.txt`. |
-| **export_to_text** | Rebuild **text/** from the MSE set. Extracts the `.mse-set` into `__generated__`, parses the set file, and overwrites `text/*.txt`. |
-| **import_from_text** | Build the **.mse-set** from **text/** and **art/**. Uses `__generated__/mse-extract` for unpack/repack, then overwrites `Malazan Cube of the Fallen.mse-set`. |
-| **export_to_image** | Rebuild **exported_cards/** from the MSE set (MSE `--export-images`). Then regenerates **cards.json** for the site. |
-
 Typical workflows:
 
-- **MSE set is source of truth**  
-  `export_to_text` → edit in `text/` (optionally `mtg_clippy`) → `import_from_text` → `export_to_image`
+There are three sources of truth to keep in sync:
+- mse.set, the actual set that Magic Set Editor uses
+- text, JSON representations of each card
+- cards.json, a generated file you should never have to manually touch. It will be updated by [import_from|export_to]_text.py
 
-- **Text + art is source of truth**  
-  Edit `text/` and `art/` → `import_from_text` → `export_to_image`
+- ** Editing in MSE **
+  - Open mse-set with mse.exe and make edits you want
+  - Run `export_to_text` and `export_to_image` to update text/ and export_cards files
 
+- ** Editing in JSON **
+  - Make whatever changes you want in the text/ directory to the cards
+  - Run `import_from_text` and `export_to_image` to update mse.set and export_cards files
+
+- ** Using Clippy **
+  - Set your OPEN_API_KEY in your env
+  - Run `mtg_clippy.py` to run every text file through MTG spell / grammar check
+  - Run `import_from_text` and `export_to_image` to update mse.set and export_cards files
 
 ## What you need
 
@@ -33,24 +32,5 @@ Typical workflows:
 - For **import_from_text** / **export_to_text**: the set file `Malazan Cube of the Fallen.mse-set` in the repo root (for template or extraction)
 - For **mtg_clippy**: `OPENAI_API_KEY` in your environment
 
-## Commands
 
-```bash
-# Fix wording in text/ only (optional)
-python mtg_clippy.py
-
-# Recreate text/ from the MSE set
-python export_to_text.py
-
-# Build .mse-set from text/ and art/
-python import_from_text.py
-
-# Recreate exported_cards/ and cards.json from the MSE set
-python export_to_image.py
-```
-
-After `export_to_image`, commit `exported_cards/`, `cards.json`, and (if changed) `Malazan Cube of the Fallen.mse-set`, then push. The GitHub Pages gallery will update on the next deploy.
-
-## GitHub Pages
-
-**Settings → Pages → Deploy from a branch** → branch **main**, folder **/ (root)**. Site: `https://<your-username>.github.io/malazan-cube/`.
+After `export_to_image` (or `export_to_text`), commit `exported_cards/`, `cards.json`, and (if changed) `Malazan Cube of the Fallen.mse-set`, then push. A **GitHub Action** runs on push/PR and fails if **cards.json** is out of date with `text/` and `exported_cards/`, so you’re reminded to regenerate and commit it. The GitHub Pages gallery updates on the next deploy.
