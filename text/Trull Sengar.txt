@@ -1,6 +1,19 @@
-Trull Sengar
-Cost: 3W
-Type: Legendary Creature - Elder Elf
-P/T: 2/4
-
-Double strike Equipped Elder Elves you control have double strike.
+{
+  "name": "Trull Sengar",
+  "cost": "3W",
+  "types": [
+    "Creature"
+  ],
+  "subtypes": [
+    "Elder",
+    "Elf"
+  ],
+  "supertypes": [
+    "Legendary"
+  ],
+  "power": "2",
+  "toughness": "4",
+  "artist": "Darkh",
+  "rule_text": "Equipped Elder Elves you control have .",
+  "flavor_text": ""
+}

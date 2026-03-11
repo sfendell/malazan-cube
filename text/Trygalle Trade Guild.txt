@@ -1,6 +1,17 @@
-Trygalle Trade Guild
-Cost: 3W/BW/B
-Type: Creature - Human Merchant
-P/T: 4/4
-
-Extort, extort, extort Whenever you extort for the third time in a turn, plunder. Sacrifice a Treasure and a Warren: Return this from your graveyard to the battlefield.
+{
+  "name": "Trygalle Trade Guild",
+  "cost": "3W/BW/B",
+  "types": [
+    "Creature"
+  ],
+  "subtypes": [
+    "Human",
+    "Merchant"
+  ],
+  "supertypes": [],
+  "power": "4",
+  "toughness": "4",
+  "artist": "chiththarthan",
+  "rule_text": ", ,\nWhenever you for the third time in a turn, plunder.\nSacrifice a Treasure and a Warren: Return this from your graveyard to the battlefield.",
+  "flavor_text": ""
+}

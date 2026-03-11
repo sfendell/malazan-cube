@@ -1,4 +1,17 @@
-Comb
-Type: Token Artifact - Equipment
-
-Equipped creature has vigilance and enlist. Equip 0
+{
+  "name": "Comb",
+  "cost": "",
+  "types": [
+    "Token",
+    "Artifact"
+  ],
+  "subtypes": [
+    "Equipment"
+  ],
+  "supertypes": [],
+  "power": "",
+  "toughness": "",
+  "artist": "",
+  "rule_text": "Equipped creature has and .\nEquip 0",
+  "flavor_text": ""
+}

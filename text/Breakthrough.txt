@@ -1,5 +1,14 @@
-Breakthrough
-Cost: XUUU
-Type: Instant
-
-Draw X cards, then proliferate X times.
+{
+  "name": "Breakthrough",
+  "cost": "XUUU",
+  "types": [
+    "Instant"
+  ],
+  "subtypes": [],
+  "supertypes": [],
+  "power": "",
+  "toughness": "",
+  "artist": "",
+  "rule_text": "Draw X cards, then X times.",
+  "flavor_text": ""
+}

@@ -1,6 +1,18 @@
-K’Ell Hunter
-Cost: 2GG
-Type: Creature - Alien Dinosaur Warrior
-P/T: 5/5
-
-This enters the battlefield with a haste and trample counter. G, Move a counter from this to another creature you control: Regenerate this.
+{
+  "name": "K’Ell Hunter",
+  "cost": "2GG",
+  "types": [
+    "Creature"
+  ],
+  "subtypes": [
+    "Alien",
+    "Dinosaur",
+    "Warrior"
+  ],
+  "supertypes": [],
+  "power": "5",
+  "toughness": "5",
+  "artist": "Alex Yap-Dubois",
+  "rule_text": "This enters the battlefield with a and counter.\nG, Move a counter from this to another creature you control: this.",
+  "flavor_text": ""
+}

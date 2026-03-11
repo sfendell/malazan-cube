@@ -1,6 +1,20 @@
-Rhulad, Emporer of 1000 Deaths
-Cost: 2WB
-Type: Legendary Creature - Elder Elf Noble
-P/T: 3/3
-
-Undying 2, Remove a counter from this: Plunder. At the beginning of your end step, if you control 1000 Treasures, you win the game.
+{
+  "name": "Rhulad, Emporer of 1000 Deaths",
+  "cost": "2WB",
+  "types": [
+    "Creature"
+  ],
+  "subtypes": [
+    "Elder",
+    "Elf",
+    "Noble"
+  ],
+  "supertypes": [
+    "Legendary"
+  ],
+  "power": "3",
+  "toughness": "3",
+  "artist": "",
+  "rule_text": "2, Remove a counter from this: Plunder.\nAt the beginning of your end step, if you control 1000 Treasures, you win the game.",
+  "flavor_text": ""
+}

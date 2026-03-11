@@ -1,5 +1,14 @@
-Beru’s Mercy
-Cost: 1UR
-Type: Instant
-
-Until end of turn, you have cunning. Draw three cards, then deal damage to all creatures equal to the number of cards you’ve drawn this turn. At end of turn, discard three cards.
+{
+  "name": "Beru’s Mercy",
+  "cost": "1UR",
+  "types": [
+    "Instant"
+  ],
+  "subtypes": [],
+  "supertypes": [],
+  "power": "",
+  "toughness": "",
+  "artist": "",
+  "rule_text": "Until end of turn, you have cunning. Draw three cards, then deal damage to all creatures equal to the number of cards you’ve drawn this turn. At end of turn, discard three cards.",
+  "flavor_text": ""
+}

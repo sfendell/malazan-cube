@@ -1,6 +1,19 @@
-The Hounds of Shadow
-Cost: 5BB
-Type: Legendary Creature - Elder Dog
-P/T: 7/7
-
-Lifelink If this would die, it instead phases out. 5BB, Sacrifice a Warren: This phases in.
+{
+  "name": "The Hounds of Shadow",
+  "cost": "5BB",
+  "types": [
+    "Creature"
+  ],
+  "subtypes": [
+    "Elder",
+    "Dog"
+  ],
+  "supertypes": [
+    "Legendary"
+  ],
+  "power": "7",
+  "toughness": "7",
+  "artist": "",
+  "rule_text": "If this would die, it instead .\n5BB, Sacrifice a Warren: This phases in.",
+  "flavor_text": ""
+}

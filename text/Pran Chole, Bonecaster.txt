@@ -1,6 +1,18 @@
-Pran Chole, Bonecaster
-Cost: 1G
-Type: Creature - Elder Zombie Shaman
-P/T: 2/2
-
-T: Add R or B. When the next Elder Zombie enters the battlefield under your control this turn, put a +1/+1 counter on it. Exile a land from your graveyard: Untap this.
+{
+  "name": "Pran Chole, Bonecaster",
+  "cost": "1G",
+  "types": [
+    "Creature"
+  ],
+  "subtypes": [
+    "Elder",
+    "Zombie",
+    "Shaman"
+  ],
+  "supertypes": [],
+  "power": "2",
+  "toughness": "2",
+  "artist": "",
+  "rule_text": "T: Add R or B. When the next Elder Zombie enters the battlefield under your control this turn, put a +1/+1 counter on it.\nExile a land from your graveyard: Untap this.",
+  "flavor_text": ""
+}

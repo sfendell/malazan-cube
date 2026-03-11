@@ -1,6 +1,19 @@
-Mallick Rel, Realm’s Savior
-Cost: BR
-Type: Legendary Creature - Rebel Advisor
-P/T: 1/1
-
-At the end of combat on your turn, deal X damage to any target, where X is the number of creatures you control but do not own. Slow, T, Sacrifice a land: Gain control of target creature until end of turn. Untap it. It gains haste until end of turn.
+{
+  "name": "Mallick Rel, Realm’s Savior",
+  "cost": "BR",
+  "types": [
+    "Creature"
+  ],
+  "subtypes": [
+    "Rebel",
+    "Advisor"
+  ],
+  "supertypes": [
+    "Legendary"
+  ],
+  "power": "1",
+  "toughness": "1",
+  "artist": "",
+  "rule_text": "At the end of combat on your turn, deal X damage to any target, where X is the number of creatures you control but do not own.\nSlow, T, Sacrifice a land: Gain control of target creature until end of turn. Untap it. It gains until end of turn.",
+  "flavor_text": ""
+}

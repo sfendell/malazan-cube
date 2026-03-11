@@ -1,5 +1,18 @@
-Tiste Banner
-Cost: 2
-Type: Kindred Artifact - Elder Elf
-
-This enters the battlefield tapped unless you have three or more creatures in your graveyard. T: Add U, W, or B. WUB, T, Sacrifice Tiste Banner: Draw a card.
+{
+  "name": "Tiste Banner",
+  "cost": "2",
+  "types": [
+    "Kindred",
+    "Artifact"
+  ],
+  "subtypes": [
+    "Elder",
+    "Elf"
+  ],
+  "supertypes": [],
+  "power": "",
+  "toughness": "",
+  "artist": "",
+  "rule_text": "This enters the battlefield tapped unless you have three or more creatures in your graveyard.\nT: Add U, W, or B.\nWUB, T, Sacrifice Tiste Banner: Draw a card.",
+  "flavor_text": ""
+}

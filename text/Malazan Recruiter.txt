@@ -1,6 +1,17 @@
-Malazan Recruiter
-Cost: 1W
-Type: Creature - Malazan Soldier
-P/T: 2/2
-
-Vigilance, enlist Whenever you enlist, amass Malazans 1.
+{
+  "name": "Malazan Recruiter",
+  "cost": "1W",
+  "types": [
+    "Creature"
+  ],
+  "subtypes": [
+    "Malazan",
+    "Soldier"
+  ],
+  "supertypes": [],
+  "power": "2",
+  "toughness": "2",
+  "artist": "",
+  "rule_text": ",\nWhenever you , amass Malazans 1.",
+  "flavor_text": ""
+}

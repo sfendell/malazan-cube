@@ -1,6 +1,20 @@
-Legana Breed, Final L’Echae Shayn
-Cost: 3G
-Type: Legendary Creature - Elder Zombie Shaman
-P/T: 4/4
-
-Creatures you control with two or more counters on them have “G, Pay two life: Regenerate this.” 2G, Slow: Put a +1/+1 counter on target creature. This costs 1 less for each other Elder Zombie you control.
+{
+  "name": "Legana Breed, Final L’Echae Shayn",
+  "cost": "3G",
+  "types": [
+    "Creature"
+  ],
+  "subtypes": [
+    "Elder",
+    "Zombie",
+    "Shaman"
+  ],
+  "supertypes": [
+    "Legendary"
+  ],
+  "power": "4",
+  "toughness": "4",
+  "artist": "",
+  "rule_text": "Creatures you control with two or more counters on them have “G, Pay two life: this.”\n2G, Slow: Put a +1/+1 counter on target creature. This costs 1 less for each other Elder Zombie you control.",
+  "flavor_text": ""
+}

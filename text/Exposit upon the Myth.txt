@@ -1,5 +1,14 @@
-Exposit upon the Myth
-Cost: 1U
-Type: Instant
-
-Counter target Legendary spell. Draw a card.
+{
+  "name": "Exposit upon the Myth",
+  "cost": "1U",
+  "types": [
+    "Instant"
+  ],
+  "subtypes": [],
+  "supertypes": [],
+  "power": "",
+  "toughness": "",
+  "artist": "",
+  "rule_text": "Counter target Legendary spell.\nDraw a card.",
+  "flavor_text": ""
+}

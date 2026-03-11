@@ -1,6 +1,19 @@
-Gumble, Art Critic
-Cost: 2WU
-Type: Legendary Creature - Frog Advisor
-P/T: 3/3
-
-Affinity for Treasures Whenever an artifact enters the battlefield under your control, choose one. If it’s a Treasure, choose both: • Tap target creature. • Target creature gets +1/+1 until end of turn.
+{
+  "name": "Gumble, Art Critic",
+  "cost": "2WU",
+  "types": [
+    "Creature"
+  ],
+  "subtypes": [
+    "Frog",
+    "Advisor"
+  ],
+  "supertypes": [
+    "Legendary"
+  ],
+  "power": "3",
+  "toughness": "3",
+  "artist": "",
+  "rule_text": "Affinity for Treasures\nWhenever an artifact enters the battlefield under your control, choose one. If it’s a Treasure, choose both:\nTap target creature.\nTarget creature gets +1/+1 until end of turn.",
+  "flavor_text": ""
+}

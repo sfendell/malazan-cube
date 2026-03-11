@@ -1,4 +1,16 @@
-The Rent at Morn
-Type: Land - Warren
-
-When this enters the battlefield, sacrifice it unless you pay 1. This enters the battlefield tapped. T: Add one mana of any color. 9, T, Sacrifice this: Exile target creature until this leaves your graveyard.
+{
+  "name": "The Rent at Morn",
+  "cost": "",
+  "types": [
+    "Land"
+  ],
+  "subtypes": [
+    "Warren"
+  ],
+  "supertypes": [],
+  "power": "",
+  "toughness": "",
+  "artist": "Corporal Nobbs",
+  "rule_text": "When this enters the battlefield, sacrifice it unless you pay 1.\nThis enters the battlefield tapped.\nT: Add one mana of any color.\n9, T, Sacrifice this: Exile target creature until this leaves your graveyard.",
+  "flavor_text": ""
+}

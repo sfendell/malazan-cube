@@ -1,5 +1,14 @@
-Shatter the Moon
-Cost: 4WB
-Type: Sorcery
-
-Destroy all non-Alien, non-land permanents.
+{
+  "name": "Shatter the Moon",
+  "cost": "4WB",
+  "types": [
+    "Sorcery"
+  ],
+  "subtypes": [],
+  "supertypes": [],
+  "power": "",
+  "toughness": "",
+  "artist": "",
+  "rule_text": "Destroy all non-Alien, non-land permanents.",
+  "flavor_text": ""
+}

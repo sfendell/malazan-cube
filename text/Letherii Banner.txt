@@ -1,5 +1,17 @@
-Letherii Banner
-Cost: 2
-Type: Kindred Artifact - Merchant
-
-This enters the battlefield tapped unless you control a Treasure. T: Add W, B, or G. WBG, T, Sacrifice this: Draw a card.
+{
+  "name": "Letherii Banner",
+  "cost": "2",
+  "types": [
+    "Kindred",
+    "Artifact"
+  ],
+  "subtypes": [
+    "Merchant"
+  ],
+  "supertypes": [],
+  "power": "",
+  "toughness": "",
+  "artist": "",
+  "rule_text": "This enters the battlefield tapped unless you control a Treasure.\nT: Add W, B, or G.\nWBG, T, Sacrifice this: Draw a card.",
+  "flavor_text": ""
+}

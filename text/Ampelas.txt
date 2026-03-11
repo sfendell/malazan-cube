@@ -1,6 +1,16 @@
-Ampelas
-Cost: 2BR
-Type: Creature - Dragon
-P/T: 3/4
-
-Flying Whenever you sacrifice a creature, deal 1 damage to any target. Afterlife 2
+{
+  "name": "Ampelas",
+  "cost": "2BR",
+  "types": [
+    "Creature"
+  ],
+  "subtypes": [
+    "Dragon"
+  ],
+  "supertypes": [],
+  "power": "3",
+  "toughness": "4",
+  "artist": "",
+  "rule_text": "Whenever you sacrifice a creature, deal 1 damage to any target.\nAfterlife 2",
+  "flavor_text": ""
+}

@@ -1,5 +1,18 @@
-Biotinker
-Cost: G/U
-Type: Kindred Instant - Alien Dinosaur
-
-Put a subtype counter of your choice on target creature. Draw a card.
+{
+  "name": "Biotinker",
+  "cost": "G/U",
+  "types": [
+    "Kindred",
+    "Instant"
+  ],
+  "subtypes": [
+    "Alien",
+    "Dinosaur"
+  ],
+  "supertypes": [],
+  "power": "",
+  "toughness": "",
+  "artist": "",
+  "rule_text": "Put a subtype counter of your choice on target creature.\nDraw a card.",
+  "flavor_text": ""
+}

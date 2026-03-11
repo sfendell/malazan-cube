@@ -1,6 +1,19 @@
-Silchas Ruin, Brother Dark
-Cost: 1WB
-Type: Legendary Creature - Elder Elf
-P/T: 3/3
-
-Silchas enters the battlefield with a vigilance counter on it. 3WW, Remove a vigilance counter from Silchas: Put a Dragon subtype counter, a flying counter, and a +1/+1 counter on Silchas. RRR, Remove a subtype counter from Silchas: Put a double strike counter and a vigilance counter on Silchas.
+{
+  "name": "Silchas Ruin, Brother Dark",
+  "cost": "1WB",
+  "types": [
+    "Creature"
+  ],
+  "subtypes": [
+    "Elder",
+    "Elf"
+  ],
+  "supertypes": [
+    "Legendary"
+  ],
+  "power": "3",
+  "toughness": "3",
+  "artist": "Meonika",
+  "rule_text": "Silchas enters the battlefield with a counter on it.\n3WW, Remove a counter from Silchas: Put a Dragon subtype counter, a counter, and a +1/+1 counter on Silchas.\nRRR, Remove a subtype counter from Silchas: Put a counter and a counter on Silchas.",
+  "flavor_text": ""
+}

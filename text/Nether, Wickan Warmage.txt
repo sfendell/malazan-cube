@@ -1,6 +1,20 @@
-Nether, Wickan Warmage
-Cost: 1WB
-Type: Legendary Creature - Malazan Child Shaman
-P/T: 1/2
-
-T, Pay 2 life, exile a card from your graveyard: Return another target nonland permanent from your graveyard with a different type and mana value lower than the exiled card.
+{
+  "name": "Nether, Wickan Warmage",
+  "cost": "1WB",
+  "types": [
+    "Creature"
+  ],
+  "subtypes": [
+    "Malazan",
+    "Child",
+    "Shaman"
+  ],
+  "supertypes": [
+    "Legendary"
+  ],
+  "power": "1",
+  "toughness": "2",
+  "artist": "Dejan Delic + OpenAi",
+  "rule_text": "T, Pay 2 life, exile a card from your graveyard: Return another target nonland permanent from your graveyard with a different type and mana value lower than the exiled card.",
+  "flavor_text": ""
+}

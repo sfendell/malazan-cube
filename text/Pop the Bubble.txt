@@ -1,5 +1,14 @@
-Pop the Bubble
-Cost: 2RR
-Type: Instant
-
-Split second Empty all mana pools. All players sacrifice all artifacts. Deal X damage to any target, where X is the number of artifacts sacrificed this turn.
+{
+  "name": "Pop the Bubble",
+  "cost": "2RR",
+  "types": [
+    "Instant"
+  ],
+  "subtypes": [],
+  "supertypes": [],
+  "power": "",
+  "toughness": "",
+  "artist": "",
+  "rule_text": "Empty all mana pools. All players sacrifice all artifacts. Deal X damage to any target, where X is the number of artifacts sacrificed this turn.",
+  "flavor_text": ""
+}

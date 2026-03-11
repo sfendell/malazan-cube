@@ -1,5 +1,17 @@
-King of High House Death
-Cost: 1BB
-Type: Enchantment - Fatid Aura
-
-Enchant non-God creature Enchanted creature cannot attack or block unless you have 3 or more creatures in your graveyard. Enchanted creature has Deathtouch and â€œPay 1 life, Sacrifice a creature: Draw a card.â€.
+{
+  "name": "King of High House Death",
+  "cost": "1BB",
+  "types": [
+    "Enchantment"
+  ],
+  "subtypes": [
+    "Fatid",
+    "Aura"
+  ],
+  "supertypes": [],
+  "power": "",
+  "toughness": "",
+  "artist": "",
+  "rule_text": "Enchant non-God creature\nEnchanted creature cannot attack or block unless you have 3 or more creatures in your graveyard.\nEnchanted creature has and “Pay 1 life, Sacrifice a creature: Draw a card.”",
+  "flavor_text": ""
+}

@@ -1,5 +1,17 @@
-Malazan Ascendancy
-Cost: RWB
-Type: Kindred Enchantment - Malazan
-
-Malazans you control get +1/+1. Whenever a creature enters the battlefield under your control, deal one damage to any target. Whenever an artifact you control goes to the graveyard, gain one life.
+{
+  "name": "Malazan Ascendancy",
+  "cost": "RWB",
+  "types": [
+    "Kindred",
+    "Enchantment"
+  ],
+  "subtypes": [
+    "Malazan"
+  ],
+  "supertypes": [],
+  "power": "",
+  "toughness": "",
+  "artist": "",
+  "rule_text": "Malazans you control get +1/+1.\nWhenever a creature enters the battlefield under your control, deal one damage to any target.\nWhenever an artifact you control goes to the graveyard, gain one life.",
+  "flavor_text": ""
+}

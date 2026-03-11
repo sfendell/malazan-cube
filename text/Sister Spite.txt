@@ -1,6 +1,20 @@
-Sister Spite
-Cost: 1B
-Type: Legendary Creature - Elder Elf Warlock
-P/T: 2/2
-
-Deathtouch Slow, 2B: Return Sister Spite from the graveyard to the battlefield tapped.
+{
+  "name": "Sister Spite",
+  "cost": "1B",
+  "types": [
+    "Creature"
+  ],
+  "subtypes": [
+    "Elder",
+    "Elf",
+    "Warlock"
+  ],
+  "supertypes": [
+    "Legendary"
+  ],
+  "power": "2",
+  "toughness": "2",
+  "artist": "Coltain93 + OpenAI",
+  "rule_text": "Slow, 2B: Return Sister Spite from the graveyard to the battlefield tapped.",
+  "flavor_text": ""
+}

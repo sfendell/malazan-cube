@@ -1,7 +1,16 @@
-Siege of Yghatan
-Cost: 3BB
-Type: Battle - Siege
-
-When this enters the battlefield, destroy all creatures. Each player loses life equal to the creatures they controlled destroyed this way.
-
-​
+{
+  "name": "Siege of Yghatan",
+  "cost": "3BB",
+  "types": [
+    "Battle"
+  ],
+  "subtypes": [
+    "Siege"
+  ],
+  "supertypes": [],
+  "power": "",
+  "toughness": "",
+  "artist": "",
+  "rule_text": "When this enters the battlefield, destroy all creatures. Each player loses life equal to the creatures they controlled destroyed this way.",
+  "flavor_text": "​"
+}

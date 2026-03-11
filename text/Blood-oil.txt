@@ -1,5 +1,16 @@
-Blood-oil
-Cost: 1
-Type: Artifact - Equipment
-
-Equipped creature must attack each turn if able and gets haste, first strike, and +1/-1 for each madness counter on this. Whenever equipped creature attacks, put a madness counter on this. Equip 1
+{
+  "name": "Blood-oil",
+  "cost": "1",
+  "types": [
+    "Artifact"
+  ],
+  "subtypes": [
+    "Equipment"
+  ],
+  "supertypes": [],
+  "power": "",
+  "toughness": "",
+  "artist": "",
+  "rule_text": "Equipped creature must attack each turn if able and gets , , and +1/-1 for each madness counter on this.\nWhenever equipped creature attacks, put a madness counter on this.\nEquip 1",
+  "flavor_text": ""
+}

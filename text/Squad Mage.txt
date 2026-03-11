@@ -1,6 +1,17 @@
-Squad Mage
-Cost: UR
-Type: Creature - Malazan Wizard
-P/T: 1/1
-
-U, T: Scry 1. R, T: Deal 1 damage to any target.
+{
+  "name": "Squad Mage",
+  "cost": "UR",
+  "types": [
+    "Creature"
+  ],
+  "subtypes": [
+    "Malazan",
+    "Wizard"
+  ],
+  "supertypes": [],
+  "power": "1",
+  "toughness": "1",
+  "artist": "",
+  "rule_text": "U, T: Scry 1.\nR, T: Deal 1 damage to any target.",
+  "flavor_text": ""
+}

@@ -1,5 +1,14 @@
-Potsherds
-Cost: 2
-Type: Artifact
-
-This enters the battlefield tapped. T: Add one mana of any color. 2, T, Sacrifice this: Draw a card.
+{
+  "name": "Potsherds",
+  "cost": "2",
+  "types": [
+    "Artifact"
+  ],
+  "subtypes": [],
+  "supertypes": [],
+  "power": "",
+  "toughness": "",
+  "artist": "",
+  "rule_text": "This enters the battlefield tapped.\nT: Add one mana of any color.\n2, T, Sacrifice this: Draw a card.",
+  "flavor_text": ""
+}

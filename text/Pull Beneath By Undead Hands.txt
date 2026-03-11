@@ -1,5 +1,14 @@
-Pull Beneath By Undead Hands
-Cost: 2B
-Type: Instant
-
-Target creature gets -X/-X, where X is the number of creatures in all graveyards. If X is less than three, draw a card.
+{
+  "name": "Pull Beneath By Undead Hands",
+  "cost": "2B",
+  "types": [
+    "Instant"
+  ],
+  "subtypes": [],
+  "supertypes": [],
+  "power": "",
+  "toughness": "",
+  "artist": "",
+  "rule_text": "Target creature gets -X/-X, where X is the number of creatures in all graveyards. If X is less than three, draw a card.",
+  "flavor_text": ""
+}

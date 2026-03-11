@@ -1,5 +1,14 @@
-Reforge the Warrens
-Cost: 4RR
-Type: Sorcery
-
-Each player sacrifices all Warrens and non-land permanents they control, then reveals cards from the top of their library until that many Warrens or non-land permanents are revealed and puts them onto the battlefield. Then each player shuffles their deck.
+{
+  "name": "Reforge the Warrens",
+  "cost": "4RR",
+  "types": [
+    "Sorcery"
+  ],
+  "subtypes": [],
+  "supertypes": [],
+  "power": "",
+  "toughness": "",
+  "artist": "Jamie Mahood + Gemini + ChatGPT",
+  "rule_text": "Each player sacrifices all Warrens and non-land permanents they control, then reveals cards from the top of their library until that many Warrens or non-land permanents are revealed and puts them onto the battlefield. Then each player shuffles their deck.",
+  "flavor_text": ""
+}

@@ -1,4 +1,18 @@
-The Empty Hold
-Type: Kindred Land - Elder Warren
-
-This enters the battlefield tapped unless you had a token or counter enter the battlefield this turn. T: Add W, G, or B. WBG, Tap an untapped creature you control, T: Plunder.
+{
+  "name": "The Empty Hold",
+  "cost": "",
+  "types": [
+    "Kindred",
+    "Land"
+  ],
+  "subtypes": [
+    "Elder",
+    "Warren"
+  ],
+  "supertypes": [],
+  "power": "",
+  "toughness": "",
+  "artist": "",
+  "rule_text": "This enters the battlefield tapped unless you had a token or counter enter the battlefield this turn.\nT: Add W, G, or B.\nWBG, Tap an untapped creature you control, T: Plunder.",
+  "flavor_text": ""
+}

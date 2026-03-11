@@ -1,6 +1,20 @@
-Quick Ben, Burn’s Adept
-Cost: 1G
-Type: Legendary Creature - Malazan Wizard Soul
-P/T: 2/3
-
-Slow, 2GG, T: Put a trample or +1/+1 counter on up to X target creatures, where X is 1 plus the number of exiled Souls. When this dies, place a Soul card you own from outside the game on top of your deck.
+{
+  "name": "Quick Ben, Burn’s Adept",
+  "cost": "1G",
+  "types": [
+    "Creature"
+  ],
+  "subtypes": [
+    "Malazan",
+    "Wizard",
+    "Soul"
+  ],
+  "supertypes": [
+    "Legendary"
+  ],
+  "power": "2",
+  "toughness": "3",
+  "artist": "",
+  "rule_text": "Slow, 2GG, T: Put a or +1/+1 counter on up to X target creatures, where X is 1 plus the number of exiled Souls.\nWhen this dies, place a Soul card you own from outside the game on top of your deck.",
+  "flavor_text": ""
+}

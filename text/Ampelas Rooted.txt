@@ -1,6 +1,19 @@
-Ampelas Rooted
-Cost: 3
-Type: Kindred Artifact - Alien Dinosaur Vehicle
-P/T: 4/4
-
-Crew 2 2U, T: If this doesnâ€™t have Flying, put a Flying counter on it. Otherwise, put a curiosity counter on it. Activate this ability only if this is a creature. (Curiosity is â€œWhenever this creature deals damage to a player, draw a card.â€).
+{
+  "name": "Ampelas Rooted",
+  "cost": "3",
+  "types": [
+    "Kindred",
+    "Artifact"
+  ],
+  "subtypes": [
+    "Alien",
+    "Dinosaur",
+    "Vehicle"
+  ],
+  "supertypes": [],
+  "power": "4",
+  "toughness": "4",
+  "artist": "",
+  "rule_text": "Crew 2\n2U, T: If this doesn’t have , put a counter on it. Otherwise, put a curiosity counter on it. Activate this ability only if this is a creature. (Curiosity is “Whenever this creature deals damage to a player, draw a card.”)",
+  "flavor_text": ""
+}

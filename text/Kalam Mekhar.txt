@@ -1,6 +1,19 @@
-Kalam Mekhar
-Cost: RWB
-Type: Legendary Creature - Malazan Assassin
-P/T: 3/3
-
-Deathtouch As long as Kalam is equipped, it has first strike. As long as Kalam is equipped twice, it has â€œT: Deal 1 damage to any target.â€.
+{
+  "name": "Kalam Mekhar",
+  "cost": "RWB",
+  "types": [
+    "Creature"
+  ],
+  "subtypes": [
+    "Malazan",
+    "Assassin"
+  ],
+  "supertypes": [
+    "Legendary"
+  ],
+  "power": "3",
+  "toughness": "3",
+  "artist": "u/AnttiHako",
+  "rule_text": "As long as Kalam is equipped, it has .\nAs long as Kalam is equipped twice, it has “T: Deal 1 damage to any target.”",
+  "flavor_text": ""
+}

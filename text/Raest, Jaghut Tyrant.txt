@@ -1,6 +1,19 @@
-Raest, Jaghut Tyrant
-Cost: 5UB
-Type: Legendary Creature - Elder Orc
-P/T: 6/6
-
-Whenever Raest attacks alone, freeze X creatures, where X is 1 plus the number of creatures you control but do not own. At the end of your turn, gain control of target creature with a stun counter on it for as long as you control Raest. Sacrifice three creatures you do not own: Raest ascends. Activate this once per game.
+{
+  "name": "Raest, Jaghut Tyrant",
+  "cost": "5UB",
+  "types": [
+    "Creature"
+  ],
+  "subtypes": [
+    "Elder",
+    "Orc"
+  ],
+  "supertypes": [
+    "Legendary"
+  ],
+  "power": "6",
+  "toughness": "6",
+  "artist": "",
+  "rule_text": "Whenever Raest attacks alone, freeze X creatures, where X is 1 plus the number of creatures you control but do not own.\nAt the end of your turn, gain control of target creature with a stun counter on it for as long as you control Raest.\nSacrifice three creatures you do not own: Raest ascends. Activate this once per game.",
+  "flavor_text": ""
+}

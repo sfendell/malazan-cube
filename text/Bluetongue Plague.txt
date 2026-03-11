@@ -1,5 +1,16 @@
-Bluetongue Plague
-Cost: UB
-Type: Enchantment - Aura
-
-Enchant creature Enchanted creature gets -3/-3. When this goes to the graveyard from the battlefield, tap all creatures controlled by the same controller as enchanted creature.
+{
+  "name": "Bluetongue Plague",
+  "cost": "UB",
+  "types": [
+    "Enchantment"
+  ],
+  "subtypes": [
+    "Aura"
+  ],
+  "supertypes": [],
+  "power": "",
+  "toughness": "",
+  "artist": "",
+  "rule_text": "Enchant creature\nEnchanted creature gets -3/-3.\nWhen this goes to the graveyard from the battlefield, tap all creatures controlled by the same controller as enchanted creature.",
+  "flavor_text": ""
+}

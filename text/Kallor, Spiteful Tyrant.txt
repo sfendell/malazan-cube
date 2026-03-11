@@ -1,6 +1,19 @@
-Kallor, Spiteful Tyrant
-Cost: 3BB
-Type: Legendary Creature - Human Noble
-P/T: 3/4
-
-Undying Whenever you sacrifice your fourth permanent in a turn, tutor a card to your hand. 1, Sacrifice another creature: Remove all counters from Kallor.
+{
+  "name": "Kallor, Spiteful Tyrant",
+  "cost": "3BB",
+  "types": [
+    "Creature"
+  ],
+  "subtypes": [
+    "Human",
+    "Noble"
+  ],
+  "supertypes": [
+    "Legendary"
+  ],
+  "power": "3",
+  "toughness": "4",
+  "artist": "",
+  "rule_text": "Whenever you sacrifice your fourth permanent in a turn, tutor a card to your hand.\n1, Sacrifice another creature: Remove all counters from Kallor.",
+  "flavor_text": ""
+}

@@ -1,6 +1,18 @@
-Korabas, Otataral Dragon
-Cost: 24
-Type: Legendary Creature - Dragon
-P/T: 10/10
-
-Affinity for Warrens, Gods and Dragons Affinity for Warrens, Gods and Dragons Flying, protection from spells, annihilator 3
+{
+  "name": "Korabas, Otataral Dragon",
+  "cost": "24",
+  "types": [
+    "Creature"
+  ],
+  "subtypes": [
+    "Dragon"
+  ],
+  "supertypes": [
+    "Legendary"
+  ],
+  "power": "10",
+  "toughness": "10",
+  "artist": "",
+  "rule_text": "Affinity for Warrens, Gods and Dragons\nAffinity for Warrens, Gods and Dragons\n, protection from spells, annihilator 3",
+  "flavor_text": ""
+}

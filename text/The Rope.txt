@@ -1,5 +1,20 @@
-The Rope
-Cost: 4
-Type: Legendary Kindred Artifact - Assassin Equipment
-
-Equipped creature has deathtouch and menace. If it is an Assassin, it gains +5/+5. Equip 2
+{
+  "name": "The Rope",
+  "cost": "4",
+  "types": [
+    "Kindred",
+    "Artifact"
+  ],
+  "subtypes": [
+    "Assassin",
+    "Equipment"
+  ],
+  "supertypes": [
+    "Legendary"
+  ],
+  "power": "",
+  "toughness": "",
+  "artist": "",
+  "rule_text": "Equipped creature has and . If it is an Assassin, it gains +5/+5.\nEquip 2",
+  "flavor_text": ""
+}

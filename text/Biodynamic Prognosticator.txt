@@ -1,6 +1,17 @@
-Biodynamic Prognosticator
-Cost: 2UU
-Type: Creature - Alien Dinosaur
-P/T: 2/5
-
-Evolve Whenever a counter would be placed on this card, you may place a subtype counter of your choice instead. Remove a subtype counter from this card: Counter target spell of that subtype.
+{
+  "name": "Biodynamic Prognosticator",
+  "cost": "2UU",
+  "types": [
+    "Creature"
+  ],
+  "subtypes": [
+    "Alien",
+    "Dinosaur"
+  ],
+  "supertypes": [],
+  "power": "2",
+  "toughness": "5",
+  "artist": "",
+  "rule_text": "Whenever a counter would be placed on this card, you may place a subtype counter of your choice instead.\nRemove a subtype counter from this card: Counter target spell of that subtype.",
+  "flavor_text": ""
+}

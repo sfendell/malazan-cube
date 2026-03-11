@@ -1,4 +1,15 @@
-Cusser
-Type: Token Artifact
-
-Tap an untapped creature you control, Sacrifice this, Kicker R: Deal 1 damage to any target. If you paid the kicker cost, instead deal 2 damage to any target. (You may pay an additional R as you cast this spell.).
+{
+  "name": "Cusser",
+  "cost": "",
+  "types": [
+    "Token",
+    "Artifact"
+  ],
+  "subtypes": [],
+  "supertypes": [],
+  "power": "",
+  "toughness": "",
+  "artist": "",
+  "rule_text": "Tap an untapped creature you control, Sacrifice this, Kicker R: Deal 1 to any target. If you paid the kicker cost, instead deal 2 damage to any target. (You may pay an additional R as you cast this spell.)",
+  "flavor_text": ""
+}

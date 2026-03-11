@@ -1,5 +1,16 @@
-Stake
-Cost: W
-Type: Enchantment - Aura
-
-Enchant artifact When this enters the battlefield, gain two life and exile target creature until this leaves the battlefield.
+{
+  "name": "Stake",
+  "cost": "W",
+  "types": [
+    "Enchantment"
+  ],
+  "subtypes": [
+    "Aura"
+  ],
+  "supertypes": [],
+  "power": "",
+  "toughness": "",
+  "artist": "",
+  "rule_text": "Enchant artifact\nWhen this enters the battlefield, gain two life and exile target creature until this leaves the battlefield.",
+  "flavor_text": ""
+}

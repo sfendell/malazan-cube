@@ -1,6 +1,18 @@
-Kalse, Omtose Phellack Eleint
-Cost: 4UB
-Type: Legendary Creature - Dragon
-P/T: 4/4
-
-Flying Whenever Kalse attacks, freeze target creature. If defending player controls four or more tapped creatures, gain control of one of them.
+{
+  "name": "Kalse, Omtose Phellack Eleint",
+  "cost": "4UB",
+  "types": [
+    "Creature"
+  ],
+  "subtypes": [
+    "Dragon"
+  ],
+  "supertypes": [
+    "Legendary"
+  ],
+  "power": "4",
+  "toughness": "4",
+  "artist": "",
+  "rule_text": "Whenever Kalse attacks, freeze target creature. If defending player controls four or more tapped creatures, gain control of one of them.",
+  "flavor_text": ""
+}

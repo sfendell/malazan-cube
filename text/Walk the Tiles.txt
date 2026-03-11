@@ -1,5 +1,14 @@
-Walk the Tiles
-Cost: U
-Type: Instant
-
-Scry 1. If you control an Elder Warren, scry 3 instead. Draw a card.
+{
+  "name": "Walk the Tiles",
+  "cost": "U",
+  "types": [
+    "Instant"
+  ],
+  "subtypes": [],
+  "supertypes": [],
+  "power": "",
+  "toughness": "",
+  "artist": "",
+  "rule_text": "Scry 1. If you control an Elder Warren, scry 3 instead.\nDraw a card.",
+  "flavor_text": ""
+}

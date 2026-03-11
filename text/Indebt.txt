@@ -1,5 +1,16 @@
-Indebt
-Cost: XB
-Type: Enchantment - Aura
-
-Enchant creature Put X -1/-1 counters on enchanted creature as this enters the battlefield. At the beginning of each upkeep, remove a counter from enchanted creature. If you do, plunder X times, where X is enchanted creature’s toughness.
+{
+  "name": "Indebt",
+  "cost": "XB",
+  "types": [
+    "Enchantment"
+  ],
+  "subtypes": [
+    "Aura"
+  ],
+  "supertypes": [],
+  "power": "",
+  "toughness": "",
+  "artist": "",
+  "rule_text": "Enchant creature\nPut X -1/-1 counters on enchanted creature as this enters the battlefield.\nAt the beginning of each upkeep, remove a counter from enchanted creature. If you do, plunder X times, where X is enchanted creature’s toughness.",
+  "flavor_text": ""
+}

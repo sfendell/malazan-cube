@@ -1,6 +1,17 @@
-Moranth Bombadier
-Cost: 2RR
-Type: Creature - Insect Sapper
-P/T: 5/1
-
-Whenever this attacks, create a Cusser. W/U: This gains flying until end of turn.
+{
+  "name": "Moranth Bombadier",
+  "cost": "2RR",
+  "types": [
+    "Creature"
+  ],
+  "subtypes": [
+    "Insect",
+    "Sapper"
+  ],
+  "supertypes": [],
+  "power": "5",
+  "toughness": "1",
+  "artist": "",
+  "rule_text": "Whenever this attacks, create a Cusser.\nW/U: This gains until end of turn.",
+  "flavor_text": ""
+}

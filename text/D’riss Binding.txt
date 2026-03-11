@@ -1,5 +1,16 @@
-D’riss Binding
-Cost: GW
-Type: Enchantment - Aura
-
-Enchant target land you control with G in its color identity When this enters the battlefield, exile target nonland permanent for as long as this remains on the battlefield.
+{
+  "name": "D’riss Binding",
+  "cost": "GW",
+  "types": [
+    "Enchantment"
+  ],
+  "subtypes": [
+    "Aura"
+  ],
+  "supertypes": [],
+  "power": "",
+  "toughness": "",
+  "artist": "",
+  "rule_text": "Enchant target land you control with G in its color identity\nWhen this enters the battlefield, exile target nonland permanent for as long as this remains on the battlefield.",
+  "flavor_text": ""
+}

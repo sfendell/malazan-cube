@@ -1,6 +1,19 @@
-Gruntle, Trake’s Mortal Sword
-Cost: 3BR
-Type: Legendary Creature - Human Warrior
-P/T: 4/4
-
-First strike, Haste Whenever a nontoken creature you control dies during combat, deal 1 damage to any target. If it dies during the first strike phase, deal 2 damage to any target. 2R: Target creature gets first strike until end of turn.
+{
+  "name": "Gruntle, Trake’s Mortal Sword",
+  "cost": "3BR",
+  "types": [
+    "Creature"
+  ],
+  "subtypes": [
+    "Human",
+    "Warrior"
+  ],
+  "supertypes": [
+    "Legendary"
+  ],
+  "power": "4",
+  "toughness": "4",
+  "artist": "Shadaan",
+  "rule_text": ",\nWhenever a nontoken creature you control dies during combat, deal 1 damage to any target. If it dies during the phase, deal 2 damage to any target.\n2R: Target creature gets until end of turn.",
+  "flavor_text": ""
+}

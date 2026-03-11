@@ -1,6 +1,20 @@
-Sinn, Uncanny Savant
-Cost: RR
-Type: Legendary Creature - Malazan Child Wizard
-P/T: 2/2
-
-Whenever you scry, you may impulse 1. Whenever you cast a red instant or sorcery spell from anywhere other than your hand, deal 2 damage to any target. 2U, Sacrifice a land: Scry 2.
+{
+  "name": "Sinn, Uncanny Savant",
+  "cost": "RR",
+  "types": [
+    "Creature"
+  ],
+  "subtypes": [
+    "Malazan",
+    "Child",
+    "Wizard"
+  ],
+  "supertypes": [
+    "Legendary"
+  ],
+  "power": "2",
+  "toughness": "2",
+  "artist": "u/AnabelllaRake",
+  "rule_text": "Whenever you scry, you may impulse 1.\nWhenever you cast a red instant or sorcery spell from anywhere other than your hand, deal 2 damage to any target.\n2U, Sacrifice a land: Scry 2.",
+  "flavor_text": ""
+}

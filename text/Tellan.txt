@@ -1,4 +1,16 @@
-Tellan
-Type: Land - Warren
-
-This enters the battlefield tapped unless at least one player lost life this turn. Whenever a creature you control dies, deal 1 damage to any target if there is a land in your graveyard. T: Add B, R, or G.
+{
+  "name": "Tellan",
+  "cost": "",
+  "types": [
+    "Land"
+  ],
+  "subtypes": [
+    "Warren"
+  ],
+  "supertypes": [],
+  "power": "",
+  "toughness": "",
+  "artist": "",
+  "rule_text": "This enters the battlefield tapped unless at least one player lost life this turn.\nWhenever a creature you control dies, deal 1 damage to any target if there is a land in your graveyard.\nT: Add B, R, or G.",
+  "flavor_text": ""
+}

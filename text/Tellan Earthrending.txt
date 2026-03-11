@@ -1,5 +1,18 @@
-Tellan Earthrending
-Cost: G
-Type: Kindred Sorcery - Elder Zombie
-
-Kicker R, kicker B Tutor a basic land to your hand. If you paid R, whenever a land enters the battlefield this turn under your control, deal 2 damage to target creature. If you paid B, whenever an opponent’s creature dies this turn, they lose 2 life. Then if you paid R, you may play an additional land this turn.
+{
+  "name": "Tellan Earthrending",
+  "cost": "G",
+  "types": [
+    "Kindred",
+    "Sorcery"
+  ],
+  "subtypes": [
+    "Elder",
+    "Zombie"
+  ],
+  "supertypes": [],
+  "power": "",
+  "toughness": "",
+  "artist": "",
+  "rule_text": "Kicker R, kicker B\nTutor a basic land to your hand.\nIf you paid R, whenever a land enters the battlefield this turn under your control, deal 2 damage to target creature.\nIf you paid B, whenever an opponent’s creature dies this turn, they lose 2 life. Then if you paid R, you may play an additional land this turn.",
+  "flavor_text": ""
+}

@@ -1,6 +1,18 @@
-Moon’s Spawn
-Cost: 3
-Type: Legendary Artifact - Vehicle
-P/T: 4/4
-
-Crew 3 Flying, Vigilance Slow, 2BR, T: Deal 4 damage to target creature. Activate this only if this is a creature.
+{
+  "name": "Moon’s Spawn",
+  "cost": "3",
+  "types": [
+    "Artifact"
+  ],
+  "subtypes": [
+    "Vehicle"
+  ],
+  "supertypes": [
+    "Legendary"
+  ],
+  "power": "4",
+  "toughness": "4",
+  "artist": "",
+  "rule_text": "Crew 3\n,\nSlow, 2BR, T: Deal 4 damage to target creature. Activate this only if this is a creature.",
+  "flavor_text": ""
+}

@@ -1,5 +1,14 @@
-Night of Knives
-Cost: 1BB
-Type: Instant
-
-Kicker—Sacrifice seven creatures Destroy target creature. If this was kicked, target creature ascends.
+{
+  "name": "Night of Knives",
+  "cost": "1BB",
+  "types": [
+    "Instant"
+  ],
+  "subtypes": [],
+  "supertypes": [],
+  "power": "",
+  "toughness": "",
+  "artist": "",
+  "rule_text": "Kicker—Sacrifice seven creatures\nDestroy target creature. If this was kicked, target creature ascends.",
+  "flavor_text": ""
+}

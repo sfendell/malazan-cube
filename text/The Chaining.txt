@@ -1,3 +1,16 @@
-The Chaining
-Cost: 4W
-Type: Enchantment - Saga
+{
+  "name": "The Chaining",
+  "cost": "4W",
+  "types": [
+    "Enchantment"
+  ],
+  "subtypes": [
+    "Saga"
+  ],
+  "supertypes": [],
+  "power": "",
+  "toughness": "",
+  "artist": "",
+  "rule_text": "",
+  "flavor_text": ""
+}

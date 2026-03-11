@@ -1,4 +1,16 @@
-Kaschan
-Type: Land - Warren
-
-This enters the battlefield tapped unless you control a creature with a counter on it. Whenever you put a counter on a creature you control, scry 1. This ability triggers only once per turn. T: Add U or G.
+{
+  "name": "Kaschan",
+  "cost": "",
+  "types": [
+    "Land"
+  ],
+  "subtypes": [
+    "Warren"
+  ],
+  "supertypes": [],
+  "power": "",
+  "toughness": "",
+  "artist": "",
+  "rule_text": "This enters the battlefield tapped unless you control a creature with a counter on it.\nWhenever you put a counter on a creature you control, scry 1. This ability triggers only once per turn.\nT: Add U or G.",
+  "flavor_text": ""
+}

@@ -1,5 +1,14 @@
-Donkey Showdown
-Cost: 1G
-Type: Sorcery
-
-Choose target creature you control and target creature an opponent controls. They fight each other with their toughness. When you win the fight, investigate. When you lose the fight, bleed.
+{
+  "name": "Donkey Showdown",
+  "cost": "1G",
+  "types": [
+    "Sorcery"
+  ],
+  "subtypes": [],
+  "supertypes": [],
+  "power": "",
+  "toughness": "",
+  "artist": "",
+  "rule_text": "Choose target creature you control and target creature an opponent controls. They each other with their toughness.\nWhen you win the , .\nWhen you lose the , bleed.",
+  "flavor_text": ""
+}

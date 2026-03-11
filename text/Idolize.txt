@@ -1,5 +1,14 @@
-Idolize
-Cost: 9W
-Type: Sorcery
-
-Convoke If target creature has mana value less than the number of tapped creatures you control, it ascends.
+{
+  "name": "Idolize",
+  "cost": "9W",
+  "types": [
+    "Sorcery"
+  ],
+  "subtypes": [],
+  "supertypes": [],
+  "power": "",
+  "toughness": "",
+  "artist": "",
+  "rule_text": "If target creature has mana value less than the number of tapped creatures you control, it ascends.",
+  "flavor_text": ""
+}

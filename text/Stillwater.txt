@@ -1,6 +1,20 @@
-Stillwater
-Cost: 1UB
-Type: Legendary Creature - Malazan Assassin Wizard
-P/T: 2/2
-
-Curiosity, deathtouch, menace Pay 2 life: Exile the top card of target opponent’s library. For as long as that card remains exiled, you may cast it, and you may spend mana as though it were mana of any color to cast it. Activate only once each turn and only if you’ve drawn three or more cards this turn.
+{
+  "name": "Stillwater",
+  "cost": "1UB",
+  "types": [
+    "Creature"
+  ],
+  "subtypes": [
+    "Malazan",
+    "Assassin",
+    "Wizard"
+  ],
+  "supertypes": [
+    "Legendary"
+  ],
+  "power": "2",
+  "toughness": "2",
+  "artist": "",
+  "rule_text": "Curiosity, ,\nPay 2 life: Exile the top card of target opponent’s library. For as long as that card remains exiled, you may cast it, and you may spend mana as though it were mana of any color to cast it. Activate only once each turn and only if you’ve drawn three or more cards this turn.",
+  "flavor_text": ""
+}

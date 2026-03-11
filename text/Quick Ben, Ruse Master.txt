@@ -1,6 +1,20 @@
-Quick Ben, Ruse Master
-Cost: 1U
-Type: Legendary Creature - Malazan Wizard Soul
-P/T: 1/2
-
-Whenever you cast a spell that targets a spell, draw X cards, where X is 1 plus the number of exiled Souls. When this dies, put a Soul you own from outside the game on top of your library.
+{
+  "name": "Quick Ben, Ruse Master",
+  "cost": "1U",
+  "types": [
+    "Creature"
+  ],
+  "subtypes": [
+    "Malazan",
+    "Wizard",
+    "Soul"
+  ],
+  "supertypes": [
+    "Legendary"
+  ],
+  "power": "1",
+  "toughness": "2",
+  "artist": "",
+  "rule_text": "Whenever you cast a spell that targets a spell, draw X cards, where X is 1 plus the number of exiled Souls.\nWhen this dies, put a Soul you own from outside the game on top of your library.",
+  "flavor_text": ""
+}

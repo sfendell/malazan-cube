@@ -1,6 +1,18 @@
-Trake, Beast of War
-Cost: 3R
-Type: Legendary Creature - Beast
-P/T: 4/4
-
-First strike At the end of each turn, if 20 or more combat damage was dealt, this ascends.
+{
+  "name": "Trake, Beast of War",
+  "cost": "3R",
+  "types": [
+    "Creature"
+  ],
+  "subtypes": [
+    "Beast"
+  ],
+  "supertypes": [
+    "Legendary"
+  ],
+  "power": "4",
+  "toughness": "4",
+  "artist": "",
+  "rule_text": "At the end of each turn, if 20 or more combat damage was dealt, this ascends.",
+  "flavor_text": ""
+}

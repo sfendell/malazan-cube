@@ -1,6 +1,21 @@
-Telorast and Curdle
-Cost: 1UR
-Type: Legendary Creature - Elder Dragon Spirit Skeleton
-P/T: 2/2
-
-Flying RR: This gets +2/+0 until end of turn. When this dies, you may pay UU. If you do, target creature becomes a copy of it.
+{
+  "name": "Telorast and Curdle",
+  "cost": "1UR",
+  "types": [
+    "Creature"
+  ],
+  "subtypes": [
+    "Elder",
+    "Dragon",
+    "Spirit",
+    "Skeleton"
+  ],
+  "supertypes": [
+    "Legendary"
+  ],
+  "power": "2",
+  "toughness": "2",
+  "artist": "",
+  "rule_text": "RR: This gets +2/+0 until end of turn.\nWhen this dies, you may pay UU. If you do, target creature becomes a copy of it.",
+  "flavor_text": ""
+}

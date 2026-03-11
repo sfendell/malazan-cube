@@ -1,5 +1,14 @@
-Hood’s Bargain
-Cost: 1B
-Type: Sorcery
-
-As an additional cost, exile a God you control. Exile all creatures in your graveyard, then sacrifice all creatures you control, then return all creatures exiled this way to the battlefield under your control (The God remains exiled).
+{
+  "name": "Hood’s Bargain",
+  "cost": "1B",
+  "types": [
+    "Sorcery"
+  ],
+  "subtypes": [],
+  "supertypes": [],
+  "power": "",
+  "toughness": "",
+  "artist": "",
+  "rule_text": "As an additional cost, exile a God you control.\nExile all creatures in your graveyard, then sacrifice all creatures you control, then return all creatures exiled this way to the battlefield under your control (The God remains exiled).",
+  "flavor_text": ""
+}

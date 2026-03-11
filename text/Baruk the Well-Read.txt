@@ -1,6 +1,19 @@
-Baruk the Well-Read
-Cost: 1WU
-Type: Legendary Creature - Human Advisor
-P/T: 2/3
-
-Whenever a historic permanent enters the battlefield under your control, scry 1 and gain 1 life. If it has an activated ability, you may pay 1. If you do, draw a card. Artifacts cards in your hand have affinity for legendaries.
+{
+  "name": "Baruk the Well-Read",
+  "cost": "1WU",
+  "types": [
+    "Creature"
+  ],
+  "subtypes": [
+    "Human",
+    "Advisor"
+  ],
+  "supertypes": [
+    "Legendary"
+  ],
+  "power": "2",
+  "toughness": "3",
+  "artist": "Shadaan",
+  "rule_text": "Whenever a permanent enters the battlefield under your control, scry 1 and gain 1 life. If it has an activated ability, you may pay 1. If you do, draw a card.\nArtifacts cards in your hand have affinity for legendaries.",
+  "flavor_text": ""
+}

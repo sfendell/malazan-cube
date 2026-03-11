@@ -1,6 +1,19 @@
-Feather Witch
-Cost: 1UR
-Type: Legendary Creature - Human Witch
-P/T: 4/1
-
-Whenever you scry any amount, deal that amount of damage to any target. Whenever you tutor, destroy target creature.
+{
+  "name": "Feather Witch",
+  "cost": "1UR",
+  "types": [
+    "Creature"
+  ],
+  "subtypes": [
+    "Human",
+    "Witch"
+  ],
+  "supertypes": [
+    "Legendary"
+  ],
+  "power": "4",
+  "toughness": "1",
+  "artist": "",
+  "rule_text": "Whenever you scry any amount, deal that amount of damage to any target.\nWhenever you tutor, destroy target creature.",
+  "flavor_text": ""
+}

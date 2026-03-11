@@ -1,6 +1,17 @@
-Gral Horse
-Cost: BRG
-Type: Creature - Rebel Horse
-P/T: 3/3
-
-Riot, deathtouch, trample
+{
+  "name": "Gral Horse",
+  "cost": "BRG",
+  "types": [
+    "Creature"
+  ],
+  "subtypes": [
+    "Rebel",
+    "Horse"
+  ],
+  "supertypes": [],
+  "power": "3",
+  "toughness": "3",
+  "artist": "",
+  "rule_text": ", ,",
+  "flavor_text": ""
+}

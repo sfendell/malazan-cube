@@ -1,6 +1,21 @@
-Rant Bloodcurse
-Cost: 1GW
-Type: Legendary Creature - Elder Malazan Giant Child
-P/T: 3/3
-
-Vigilance, Trample Other Giants you control have trample. Other Humans and Malazans you control have vigilance. This gets +1/+1 for each other creature you control with trample or vigilance.
+{
+  "name": "Rant Bloodcurse",
+  "cost": "1GW",
+  "types": [
+    "Creature"
+  ],
+  "subtypes": [
+    "Elder",
+    "Malazan",
+    "Giant",
+    "Child"
+  ],
+  "supertypes": [
+    "Legendary"
+  ],
+  "power": "3",
+  "toughness": "3",
+  "artist": "Shadaan",
+  "rule_text": ",\nOther Giants you control have .\nOther Humans and Malazans you control have .\nThis gets +1/+1 for each other creature you control with or .",
+  "flavor_text": ""
+}

@@ -1,5 +1,14 @@
-Ancestral Vengeance
-Cost: 1R
-Type: Sorcery
-
-Elderstorm (When you cast this, copy this spell for each Elder spell you cast and Elder land you played this turn.) Deal three damage to target creature.
+{
+  "name": "Ancestral Vengeance",
+  "cost": "1R",
+  "types": [
+    "Sorcery"
+  ],
+  "subtypes": [],
+  "supertypes": [],
+  "power": "",
+  "toughness": "",
+  "artist": "",
+  "rule_text": "Elderstorm (When you cast this, copy this spell for each Elder spell you cast and Elder land you played this turn.)\nDeal three damage to target creature.",
+  "flavor_text": ""
+}

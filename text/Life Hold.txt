@@ -1,4 +1,18 @@
-Life Hold
-Type: Kindred Land - Elder Warren
-
-This enters the battlefield tapped unless you gained life this turn. T: Add W, U, or G. GWU, T, Sacrifice this: Scry X, where X is the amount of life you’ve gained this turn. Then reveal the top card of your library. If it’s a land, put it onto the battlefield.
+{
+  "name": "Life Hold",
+  "cost": "",
+  "types": [
+    "Kindred",
+    "Land"
+  ],
+  "subtypes": [
+    "Elder",
+    "Warren"
+  ],
+  "supertypes": [],
+  "power": "",
+  "toughness": "",
+  "artist": "",
+  "rule_text": "This enters the battlefield tapped unless you gained life this turn.\nT: Add W, U, or G.\nGWU, T, Sacrifice this: Scry X, where X is the amount of life you’ve gained this turn. Then reveal the top card of your library. If it’s a land, put it onto the battlefield.",
+  "flavor_text": ""
+}

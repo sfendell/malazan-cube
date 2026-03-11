@@ -1,4 +1,18 @@
-Denaeth Rusen
-Type: Kindred Land - Elder Warren
-
-This enters the battlefield tapped unless you cast an instant or sorcery this turn. T: Add R or U. 2UR, T, Sacrifice this: Until end of turn, the next instant or sorcery you cast has mindstorm.
+{
+  "name": "Denaeth Rusen",
+  "cost": "",
+  "types": [
+    "Kindred",
+    "Land"
+  ],
+  "subtypes": [
+    "Elder",
+    "Warren"
+  ],
+  "supertypes": [],
+  "power": "",
+  "toughness": "",
+  "artist": "",
+  "rule_text": "This enters the battlefield tapped unless you cast an instant or sorcery this turn.\nT: Add R or U.\n2UR, T, Sacrifice this: Until end of turn, the next instant or sorcery you cast has mindstorm.",
+  "flavor_text": ""
+}
