@@ -71,7 +71,7 @@ def main():
                 "text": m.get("text", ""),
             })
 
-    OUT_PATH.write_text(json.dumps(cards, separators=(",", ":")), encoding="utf-8")
+    OUT_PATH.write_text(json.dumps(cards, indent=2, ensure_ascii=False), encoding="utf-8")
     print(f"Wrote {len(cards)} cards to {OUT_PATH}")
 
 
