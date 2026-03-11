@@ -12,6 +12,6 @@
   "power": "",
   "toughness": "",
   "artist": "",
-  "rule_text": "Equipped creature gets +0/+3.\nEquip 1",
+  "rule_text": "\nEquipped creature gets +0/+3.\nEquip 1",
   "flavor_text": ""
 }

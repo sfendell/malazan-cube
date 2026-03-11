@@ -9,6 +9,6 @@
   "power": "",
   "toughness": "",
   "artist": "",
-  "rule_text": "Scry 1. If you control an Elder Warren, scry 3 instead.\nDraw a card.",
+  "rule_text": "\nScry 1. If you control an Elder Warren, scry 3 instead.\nDraw a card.",
   "flavor_text": ""
 }

@@ -15,6 +15,6 @@
   "power": "6",
   "toughness": "6",
   "artist": "",
-  "rule_text": "All Gods are named Olar Ethil in addition to their other names.\nOther Elder Zombies you control get +1/+1 and .\nThis has the abilities of all Elders, Gods, and Warrens in all graveyards.",
+  "rule_text": "\nAll Gods are named Olar Ethil in addition to their other names.\nOther Elder Zombies you control get +1/+1 and deathtouch.\nThis has the abilities of all Elders, Gods, and Warrens in all graveyards.       ",
   "flavor_text": ""
 }

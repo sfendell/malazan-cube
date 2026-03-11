@@ -13,6 +13,6 @@
   "power": "0",
   "toughness": "1",
   "artist": "",
-  "rule_text": "This gets +X/+X, where X is the number of lands in your graveyard.\nG, Exile a land from your graveyard: this.",
+  "rule_text": "\nThis gets +X/+X, where X is the number of lands in your graveyard.\nG, Exile a land from your graveyard: Regenerate this.",
   "flavor_text": ""
 }

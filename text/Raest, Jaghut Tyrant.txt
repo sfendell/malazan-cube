@@ -14,6 +14,6 @@
   "power": "6",
   "toughness": "6",
   "artist": "",
-  "rule_text": "Whenever Raest attacks alone, freeze X creatures, where X is 1 plus the number of creatures you control but do not own.\nAt the end of your turn, gain control of target creature with a stun counter on it for as long as you control Raest.\nSacrifice three creatures you do not own: Raest ascends. Activate this once per game.",
+  "rule_text": "\nWhenever Raest attacks alone, freeze X creatures, where X is 1 plus the number of creatures you control but do not own.\nAt the end of your turn, gain control of target creature with a stun counter on it for as long as you control Raest.\nSacrifice three creatures you do not own: Raest ascends. Activate this once per game.                  ",
   "flavor_text": ""
 }

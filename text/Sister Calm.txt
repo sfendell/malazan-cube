@@ -14,6 +14,6 @@
   "power": "5",
   "toughness": "5",
   "artist": "u/Sauragos12 + Gemini",
-  "rule_text": "This enters the battlefield tapped and doesn’t untap during your untap phase.\nWhenever a creature with power or toughness higher than this enters the battlefield, or this is dealt damage, untap it.",
+  "rule_text": "\nVigilance\nThis enters the battlefield tapped and doesn’t untap during your untap phase.\nWhenever a creature with power or toughness higher than this enters the battlefield, or this is dealt damage, untap it.",
   "flavor_text": ""
 }

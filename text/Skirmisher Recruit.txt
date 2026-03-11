@@ -12,6 +12,6 @@
   "power": "2",
   "toughness": "1",
   "artist": "",
-  "rule_text": ",",
+  "rule_text": "Haste, Enlist",
   "flavor_text": ""
 }

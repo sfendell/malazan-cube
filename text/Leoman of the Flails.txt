@@ -14,6 +14,6 @@
   "power": "2",
   "toughness": "2",
   "artist": "",
-  "rule_text": "As an additional cost to play this card, you may behold a God.\nRebels you control get +2/+0, and .\nThis enters the battlefield with a Rebel subtype counter if a God was beheld.",
+  "rule_text": "\nAs an additional cost to play this card, you may behold a God.\nRebels you control get +2/+0, trample and haste.\nThis enters the battlefield with a Rebel subtype counter if a God was beheld.     ",
   "flavor_text": ""
 }

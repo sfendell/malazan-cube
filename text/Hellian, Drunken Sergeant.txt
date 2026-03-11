@@ -14,6 +14,6 @@
   "power": "2",
   "toughness": "2",
   "artist": "artistjasondement",
-  "rule_text": "Play with the top card of your library revealed during each opponent’s turn.\nWhenever you attack, reveal the bottom card of your library. If it’s a creature card, target creature you control fights target creature you don’t control. If it’s a land card, plunder. If it’s an artifact card, put it into your hand. If it’s an instant or sorcery card, this card deals 2 damage to any target. Then shuffle your library.\nSacrifice an artifact: Put the top card of your library on the bottom of your library.",
+  "rule_text": "\nPlay with the top card of your library revealed during each opponent’s turn.\nWhenever you attack, reveal the bottom card of your library. If it’s a creature card, target creature you control fights target creature you don’t control. If it’s a land card, plunder. If it’s an artifact card, put it into your hand. If it’s an instant or sorcery card, this card deals 2 damage to any target. Then shuffle your library.\nSacrifice an artifact: Put the top card of your library on the bottom of your library.",
   "flavor_text": ""
 }

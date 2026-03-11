@@ -14,6 +14,6 @@
   "power": "2",
   "toughness": "2",
   "artist": "",
-  "rule_text": "Curiosity,\nAt the beginning of your upkeep, exile the top card of your library.\nOnce per turn, you may play any card from exile with mana value less than the number of cards you control in exile.",
+  "rule_text": "\nCuriosity, Menace\nAt the beginning of your upkeep, exile the top card of your library.\nOnce per turn, you may play any card from exile with mana value less than the number of cards you control in exile.",
   "flavor_text": ""
 }

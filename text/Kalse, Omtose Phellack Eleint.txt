@@ -13,6 +13,6 @@
   "power": "4",
   "toughness": "4",
   "artist": "",
-  "rule_text": "Whenever Kalse attacks, freeze target creature. If defending player controls four or more tapped creatures, gain control of one of them.",
+  "rule_text": "\nFlying\nWhenever Kalse attacks, freeze target creature. If defending player controls four or more tapped creatures, gain control of one of them.",
   "flavor_text": ""
 }

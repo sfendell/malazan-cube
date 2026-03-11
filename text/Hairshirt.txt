@@ -11,6 +11,6 @@
   "power": "",
   "toughness": "",
   "artist": "",
-  "rule_text": "Equip 1\nEquipped creature has “At the beginning of your upkeep, create a 1/1 black Rat token and lose 1 life.” and “This creature gets +1/+0 for each Rat you control.”",
+  "rule_text": "\nEquip 1\nEquipped creature has “At the beginning of your upkeep, create a 1/1 black Rat token and lose 1 life.” and “This creature gets +1/+0 for each Rat you control.”",
   "flavor_text": ""
 }

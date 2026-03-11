@@ -11,6 +11,6 @@
   "power": "",
   "toughness": "",
   "artist": "",
-  "rule_text": "Equipped creature has +2/+2 and .\nEquip 2",
+  "rule_text": "\nEquipped creature has +2/+2 and hexproof.\nEquip 2",
   "flavor_text": ""
 }

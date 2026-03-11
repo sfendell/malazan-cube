@@ -12,6 +12,6 @@
   "power": "5",
   "toughness": "5",
   "artist": "",
-  "rule_text": "Whenever a creature with power less than Kilmandaros’ toughness enters the battlefield, she fights it. When she she wins the , destroy target non-creature, non-land permanent.",
+  "rule_text": "Whenever a creature with power less than Kilmandaros’ toughness enters the battlefield, she fights it. When she she wins the fight, destroy target non-creature, non-land permanent.",
   "flavor_text": ""
 }

@@ -12,6 +12,6 @@
   "power": "",
   "toughness": "",
   "artist": "",
-  "rule_text": "This enters the battlefield tapped unless you control a permanent you do not own.\nT: Add U, B, or R.\nT, UBR, Sacrifice this: Draw a card.",
+  "rule_text": "\nThis enters the battlefield tapped unless you control a permanent you do not own.\nT: Add U, B, or R.\nT, UBR, Sacrifice this: Draw a card.",
   "flavor_text": ""
 }

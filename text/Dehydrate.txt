@@ -9,6 +9,6 @@
   "power": "",
   "toughness": "",
   "artist": "",
-  "rule_text": "Kicker 3\nIf the kicker cost was paid, all opponents skip their next untap phase.\nCounter target spell unless its controller pays 2. If they do, tap all creatures they control.",
+  "rule_text": "\nKicker 3\nIf the kicker cost was paid, all opponents skip their next untap phase.\nCounter target spell unless its controller pays 2. If they do, tap all creatures they control.",
   "flavor_text": ""
 }

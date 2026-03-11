@@ -9,6 +9,6 @@
   "power": "",
   "toughness": "",
   "artist": "",
-  "rule_text": "Behold Serc\nCounter target spell. If you beheld Serc, draw a card.",
+  "rule_text": "\nBehold Serc\nCounter target spell. If you beheld Serc, draw a card.",
   "flavor_text": ""
 }

@@ -13,6 +13,6 @@
   "power": "6",
   "toughness": "6",
   "artist": "Chandler Candela",
-  "rule_text": "Other creatures and enchantments you control are Food artifacts in addition to their other types and have “2, T, Sacrifice this: You gain 3 life.”\nWhenever you sacrifice a Food, put a +1/+1 counter on this.",
+  "rule_text": "\nOther creatures and enchantments you control are Food artifacts in addition to their other types and have “2, T, Sacrifice this: You gain 3 life.”\nWhenever you sacrifice a Food, put a +1/+1 counter on this.",
   "flavor_text": ""
 }

@@ -12,6 +12,6 @@
   "power": "0",
   "toughness": "1",
   "artist": "",
-  "rule_text": "When this dies, make X 1/1 Alien Dinosaur tokens, where X is the number of counters on this creature.",
+  "rule_text": "\nEvolve\nWhen this dies, make X 1/1 Alien Dinosaur tokens, where X is the number of counters on this creature.",
   "flavor_text": ""
 }

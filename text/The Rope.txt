@@ -15,6 +15,6 @@
   "power": "",
   "toughness": "",
   "artist": "",
-  "rule_text": "Equipped creature has and . If it is an Assassin, it gains +5/+5.\nEquip 2",
+  "rule_text": "\nEquipped creature has deathtouch and menace. If it is an Assassin, it gains +5/+5.\nEquip 2",
   "flavor_text": ""
 }

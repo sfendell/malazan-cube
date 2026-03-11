@@ -13,6 +13,6 @@
   "power": "",
   "toughness": "",
   "artist": "",
-  "rule_text": "Elder Zombies you control get +1/+1.\nSlow, BRG, Sacrifice a land: Deal 2 damage to any target.\nWhenever a land enters your graveyard from anywhere, create a 2/2 Black, red and green Elder Zombie creature token with .",
+  "rule_text": "\nElder Zombies you control get +1/+1.\nSlow, BRG, Sacrifice a land: Deal 2 damage to any target.\nWhenever a land enters your graveyard from anywhere, create a 2/2 Black, red and green Elder Zombie creature token with Reach.",
   "flavor_text": ""
 }

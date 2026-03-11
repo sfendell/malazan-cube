@@ -11,6 +11,6 @@
   "power": "",
   "toughness": "",
   "artist": "",
-  "rule_text": "Enchant creature\nEnchanted creature gets -3/-3.\nWhen this goes to the graveyard from the battlefield, tap all creatures controlled by the same controller as enchanted creature.",
+  "rule_text": "\nEnchant creature\nEnchanted creature gets -3/-3.\nWhen this goes to the graveyard from the battlefield, tap all creatures controlled by the same controller as enchanted creature.",
   "flavor_text": ""
 }

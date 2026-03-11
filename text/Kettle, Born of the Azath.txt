@@ -14,6 +14,6 @@
   "power": "1",
   "toughness": "1",
   "artist": "Autumn Tavern",
-  "rule_text": "Whenever you are dealt combat damage by any number of creatures, bleed.\nBlood you control are also Food.",
+  "rule_text": "\nDeathtouch\nWhenever you are dealt combat damage by any number of creatures, bleed.\nBlood you control are also Food.",
   "flavor_text": ""
 }

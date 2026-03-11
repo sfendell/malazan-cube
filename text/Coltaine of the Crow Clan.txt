@@ -14,6 +14,6 @@
   "power": "4",
   "toughness": "4",
   "artist": "",
-  "rule_text": "Creatures you control get +0/+2 if it’s not your turn.\nCreatures you control get +2/+0 if it is your turn.\nWB, T, Sacrifice another creature: Another target creature gets and until end of turn.",
+  "rule_text": "\nCreatures you control get +0/+2 if it’s not your turn.\nCreatures you control get +2/+0 if it is your turn.\nWB, T, Sacrifice another creature: Another target creature gets indestructible and hexproof until end of turn. ",
   "flavor_text": ""
 }

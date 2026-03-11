@@ -14,6 +14,6 @@
   "power": "3",
   "toughness": "3",
   "artist": "Corporal Nobbs",
-  "rule_text": "Whenever you draw any number of cards, scry 1.\n5U, T: Draw a card. This costs 1 less for each time you’ve scried this turn.\nWhenever you scry for the fourth time in a turn, freeze all creatures you don’t control.",
+  "rule_text": "\nWhenever you draw any number of cards, scry 1.\n5U, T: Draw a card. This costs 1 less for each time you’ve scried this turn.\nWhenever you scry for the fourth time in a turn, freeze all creatures you don’t control.",
   "flavor_text": ""
 }

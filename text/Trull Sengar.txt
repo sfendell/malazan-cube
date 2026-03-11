@@ -14,6 +14,6 @@
   "power": "2",
   "toughness": "4",
   "artist": "Darkh",
-  "rule_text": "Equipped Elder Elves you control have .",
+  "rule_text": "\nDouble strike\nEquipped Elder Elves you control have double strike.",
   "flavor_text": ""
 }

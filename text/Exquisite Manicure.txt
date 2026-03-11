@@ -12,6 +12,6 @@
   "power": "",
   "toughness": "",
   "artist": "",
-  "rule_text": "Enchant creature\nThis enters the battlefield attached to a creature you control.\nEnchanted creature gets +2/+0.",
+  "rule_text": "\nEnchant creature\nThis enters the battlefield attached to a creature you control.\nEnchanted creature gets +2/+0.",
   "flavor_text": ""
 }

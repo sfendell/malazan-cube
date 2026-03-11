@@ -14,6 +14,6 @@
   "power": "5",
   "toughness": "5",
   "artist": "",
-  "rule_text": "Protection from Children, Humans, and Malazans\nCreatures you control have and .\nT, Tap an untapped Human or Malazan you control: Create a 1/1 White Human Child creature token, then .",
+  "rule_text": "\nProtection from Children, Humans, and Malazans\nCreatures you control have trample and vigilance.\nT, Tap an untapped Human or Malazan you control: Create a 1/1 White Human Child creature token, then populate.                 ",
   "flavor_text": ""
 }

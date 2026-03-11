@@ -11,6 +11,6 @@
   "power": "",
   "toughness": "",
   "artist": "",
-  "rule_text": "Enchant creature\nAt the beginning of combat, put a madness counter on enchanted creature.\nEnchanted creature gets +1/-1 for each madness counter on it.",
+  "rule_text": "\nEnchant creature\nAt the beginning of combat, put a madness counter on enchanted creature.\nEnchanted creature gets  +1/-1 for each madness counter on it.",
   "flavor_text": ""
 }

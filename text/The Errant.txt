@@ -13,6 +13,6 @@
   "power": "4",
   "toughness": "4",
   "artist": "",
-  "rule_text": "Whenever you sacrifice a a permanent, put a +1/+1 counter on this and flip a coin. If it’s heads, put a +1/+1 counter on another target creature. If it’s tails, bleed.\nWhenever you discard your fourth card in a turn, this ascends.",
+  "rule_text": "\nExploit\nWhenever you sacrifice a a permanent, put a +1/+1 counter on this and flip a coin. If it’s heads, put a +1/+1 counter on another target creature. If it’s tails, bleed.\nWhenever you discard your fourth card in a turn, this ascends.",
   "flavor_text": ""
 }

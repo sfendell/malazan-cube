@@ -9,6 +9,6 @@
   "power": "",
   "toughness": "",
   "artist": "",
-  "rule_text": "Whenever a God or Elder enters the battlefield or a creature ascends, place two omen counters on this.\nRemove all omen counters from this: Destroy all non-God, non-Elder creatures, then tutor all Elder or God cards to the battlefield with mana value less than the omen counters removed. Target opponent gains control of this.",
+  "rule_text": "\nWhenever a God or Elder enters the battlefield or a creature ascends, place two omen counters on this.\nRemove all omen counters from this: Destroy all non-God, non-Elder creatures, then tutor all Elder or God cards to the battlefield with mana value less than the omen counters removed. Target opponent gains control of this.",
   "flavor_text": ""
 }

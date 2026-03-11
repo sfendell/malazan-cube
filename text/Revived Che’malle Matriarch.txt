@@ -14,6 +14,6 @@
   "power": "7",
   "toughness": "3",
   "artist": "",
-  "rule_text": "Whenever a creature enters the battlefield under your control, put a +1/+1 counter on all creatures with power or toughness less than it that share two or more creature types with it.\nDiscard or sacrifice a land twice: Return this from the graveyard to the battlefield under your control tapped.",
+  "rule_text": "\nWhenever a creature enters the battlefield under your control, put a +1/+1 counter on all creatures with power or toughness less than it that share two or more creature types with it.\nDiscard or sacrifice a land twice: Return this from the graveyard to the battlefield under your control tapped.",
   "flavor_text": ""
 }

@@ -9,6 +9,6 @@
   "power": "",
   "toughness": "",
   "artist": "",
-  "rule_text": "Mindstorm (When you cast this, copy it for each time you scried and each card you drew this turn.)\nCounter target spell unless its owner pays 1.",
+  "rule_text": "\nMindstorm (When you cast this, copy it for each time you scried and each card you drew this turn.)\nCounter target spell unless its owner pays 1.",
   "flavor_text": ""
 }

@@ -11,6 +11,6 @@
   "power": "",
   "toughness": "",
   "artist": "u/Korpsekalle",
-  "rule_text": "This enters the battlefield tapped unless you control a creature.\nT: Add G or W.\nU, T: Sacrifice this: Add RRR.",
+  "rule_text": "\nThis enters the battlefield tapped unless you control a creature.\nT: Add G or W.\nU, T: Sacrifice this: Add RRR.",
   "flavor_text": ""
 }

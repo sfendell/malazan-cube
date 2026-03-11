@@ -9,6 +9,6 @@
   "power": "",
   "toughness": "",
   "artist": "",
-  "rule_text": "Kicker G, kicker W\nDeal 2 damage to any target.\nIf you paid G, up to one target creature you control fights target creature you don’t control.\nIf you paid W, gain life equal to noncombat damage dealt this turn.\nIf you paid GW, destroy up to one target artifact or enchantment if its mana value is less than how much life you’ve gained this turn.",
+  "rule_text": "\nKicker G, kicker W\nDeal 2 damage to any target. \nIf you paid G, up to one target creature you control fights target creature you don’t control.\nIf you paid W, gain life equal to noncombat damage dealt this turn.\nIf you paid GW, destroy up to one target artifact or enchantment if its mana value is less than how much life you’ve gained this turn.",
   "flavor_text": ""
 }

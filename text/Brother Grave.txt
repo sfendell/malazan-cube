@@ -12,6 +12,6 @@
   "power": "2",
   "toughness": "2",
   "artist": "",
-  "rule_text": ",\nWhen this enters the battlefield, counter target non-Pure spell.\n7B, T, Sacrifice this: Destroy target non-Pure creature.",
+  "rule_text": "\nFlash, Vigilance\nWhen this enters the battlefield, counter target non-Pure spell.\n7B, T, Sacrifice this: Destroy target non-Pure creature.",
   "flavor_text": ""
 }

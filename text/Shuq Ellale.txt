@@ -14,6 +14,6 @@
   "power": "3",
   "toughness": "3",
   "artist": "Jason Dement",
-  "rule_text": "At the beginning of your upkeep, tap an untapped nontoken creature you control. If you don’t, sacrifice this.\nWhenever a creature you control becomes tapped, plunder.\n2UBR, Sacrifice X Treasures: Gain control of non-land permanent or spell as long as you control Shurq with mana value X or less. You may choose new targets for the spell.",
+  "rule_text": "\nAt the beginning of your upkeep, tap an untapped nontoken creature you control. If you don’t, sacrifice this.\nWhenever a creature you control becomes tapped, plunder.\n2UBR, Sacrifice X Treasures: Gain control of non-land permanent or spell as long as you control Shurq with mana value X or less. You may choose new targets for the spell.            ",
   "flavor_text": ""
 }

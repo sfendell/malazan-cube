@@ -9,6 +9,6 @@
   "power": "",
   "toughness": "",
   "artist": "Merlkir",
-  "rule_text": "As an additional cost to cast this spell, sacrifice a creature.\n, plunder, bleed and cook. Put a +1/+1 counter on up to one target creature.",
+  "rule_text": "\nAs an additional cost to cast this spell, sacrifice a creature.\nInvestigate, plunder, bleed and cook. Put a +1/+1 counter on up to one target creature.",
   "flavor_text": ""
 }

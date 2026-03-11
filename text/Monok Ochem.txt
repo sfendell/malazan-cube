@@ -15,6 +15,6 @@
   "power": "7",
   "toughness": "5",
   "artist": "SimiofDoom",
-  "rule_text": "Elder Zombies you control have and afterlife 1.\nSacrifice another creature: If it was an Elder Zombie, Monok gails until end of turn. Then deal damage to any target equal to sacrificed creature’s power. Activate only once per turn.",
+  "rule_text": "\nElder Zombies you control have haste and afterlife 1.\nSacrifice another creature: If it was an Elder Zombie, Monok gails lifelink until end of turn. Then deal damage to any target equal to sacrificed creature’s power. Activate only once per turn.             ",
   "flavor_text": ""
 }

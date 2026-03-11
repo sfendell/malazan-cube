@@ -14,6 +14,6 @@
   "power": "2",
   "toughness": "3",
   "artist": "",
-  "rule_text": "Whenever any number of creature cards enter your graveyard from anywhere, make a 2/2 Black Zombie token. This ability triggers only twice per turn.\nUB, Slow, mill six and sacrifice a nontoken creature: Destroy target creature.",
+  "rule_text": "\nWhenever any number of creature cards enter your graveyard from anywhere, make a 2/2 Black Zombie token. This ability triggers only twice per turn.\nUB, Slow, mill six and sacrifice a nontoken creature: Destroy target creature.           ",
   "flavor_text": ""
 }

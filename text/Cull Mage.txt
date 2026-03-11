@@ -9,6 +9,6 @@
   "power": "",
   "toughness": "",
   "artist": "",
-  "rule_text": "Destroy target Wizard or creature with an activated ability.\nDraw a card.",
+  "rule_text": "\nDestroy target Wizard or creature with an activated ability.\nDraw a card.",
   "flavor_text": ""
 }

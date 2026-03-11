@@ -9,6 +9,6 @@
   "power": "",
   "toughness": "",
   "artist": "",
-  "rule_text": "Destroy target creature. If a creature is destroyed this way, create X 1/2 Black and Blue Bird tokens with and “Whenever this is targeted or damaged, sacrifice it.” where X is that creature’s power.",
+  "rule_text": "Destroy target creature. If a creature is destroyed this way, create X 1/2 Black and Blue Bird tokens with flying and “Whenever this is targeted or damaged, sacrifice it.” where X is that creature’s power.",
   "flavor_text": ""
 }

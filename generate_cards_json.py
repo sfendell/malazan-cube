@@ -32,6 +32,11 @@ def type_line_from_json(data: dict) -> str:
     return f"{first} - {second}"
 
 
+def normalize_name(s: str) -> str:
+    """Lowercase, remove non-alphanumeric, for matching PNG names to text names."""
+    return re.sub(r"[^\w]", "", s).lower()
+
+
 def main():
     meta = {}
     if TEXT_DIR.exists():
@@ -57,14 +62,24 @@ def main():
                 "text": text,
             }
 
+    # Fallback: match by normalized name (exported_cards may lack punctuation vs text/)
+    meta_by_normalized = {normalize_name(n): (n, meta[n]) for n in meta}
+
     cards = []
     if EXPORT_DIR.exists():
         for p in sorted(EXPORT_DIR.glob("*.png")):
             img_name = p.name
-            name = re.sub(r"\.png$", "", img_name, flags=re.I)
-            m = meta.get(name, {})
+            png_stem = re.sub(r"\.png$", "", img_name, flags=re.I)
+            m = meta.get(png_stem)
+            canonical_name = png_stem
+            if m is None:
+                key_norm = normalize_name(png_stem)
+                if key_norm in meta_by_normalized:
+                    canonical_name, m = meta_by_normalized[key_norm]
+            if m is None:
+                m = {}
             cards.append({
-                "name": name,
+                "name": canonical_name,
                 "img": img_name,
                 "colors": m.get("colors", ""),
                 "typeLine": m.get("typeLine", ""),

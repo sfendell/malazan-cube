@@ -12,6 +12,6 @@
   "power": "",
   "toughness": "",
   "artist": "",
-  "rule_text": "Enchant non-God creature\nEnchanted creature has and cannot attack or block unless its controller has 10 or more life.\nEnchanted creature has “Whenever a non-artifact permanent enters the battle under your control, gain 1 life”.",
+  "rule_text": "\nEnchant non-God creature\nEnchanted creature has lifelink and cannot attack or block unless its controller has 10 or more life.\nEnchanted creature has “Whenever a non-artifact permanent enters the battle under your control, gain 1 life”.",
   "flavor_text": ""
 }

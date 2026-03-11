@@ -13,6 +13,6 @@
   "power": "3",
   "toughness": "3",
   "artist": "Lauren Saint-Onge",
-  "rule_text": "Whenever an Elder Elf dies, put a +1/+1 counter on this.\nPay 3 life, Remove all +1/+1 counters from this: this. This loses all other types and . Put Elder and Elf subtype counters on it.",
+  "rule_text": "\nFlying\nWhenever an Elder Elf dies, put a +1/+1 counter on this.\nPay 3 life, Remove all +1/+1 counters from this: Regenerate this. This loses all other types and flying. Put Elder and Elf subtype counters on it.",
   "flavor_text": ""
 }

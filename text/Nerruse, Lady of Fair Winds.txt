@@ -13,6 +13,6 @@
   "power": "4",
   "toughness": "4",
   "artist": "Carivory",
-  "rule_text": "Whenever a creature enters the battlefield, tap or untap target creature.\nWU: Exile another target creature you control, then return it to the battlefield. Activate this ability only if you’ve scried this turn.",
+  "rule_text": "\nFlying\nWhenever a creature enters the battlefield, tap or untap target creature.\nWU: Exile another target creature you control, then return it to the battlefield. Activate this ability only if you’ve scried this turn.",
   "flavor_text": ""
 }

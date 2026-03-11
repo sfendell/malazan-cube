@@ -15,6 +15,6 @@
   "power": "4",
   "toughness": "4",
   "artist": "",
-  "rule_text": "Creatures you control with two or more counters on them have “G, Pay two life: this.”\n2G, Slow: Put a +1/+1 counter on target creature. This costs 1 less for each other Elder Zombie you control.",
+  "rule_text": "\nCreatures you control with two or more counters on them  have “G, Pay two life: Regenerate this.”\n2G, Slow: Put a +1/+1 counter on target creature. This costs 1 less for each other Elder Zombie you control.",
   "flavor_text": ""
 }

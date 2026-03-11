@@ -13,6 +13,6 @@
   "power": "",
   "toughness": "",
   "artist": "",
-  "rule_text": "Enchant player\nWhenever a permanent leaves the battlefield, place a derivative counter on this.\nAt the beginning of your upkeep, if this has fewer counters than enchanted player controls, remove a counter from this and lose 1 life. Otherwise, sacrifice this and draw X cards, where X is the number of counters on this.",
+  "rule_text": "\nEnchant player\nWhenever a permanent leaves the battlefield, place a derivative counter on this.\nAt the beginning of your upkeep, if this has fewer counters than enchanted player controls, remove a counter from this and lose 1 life. Otherwise, sacrifice this and draw X cards, where X is the number of counters on this.",
   "flavor_text": ""
 }

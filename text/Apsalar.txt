@@ -14,6 +14,6 @@
   "power": "2",
   "toughness": "2",
   "artist": "Golado",
-  "rule_text": "B, T: This gains until end of turn.\nWhenever a creature you control with power one or less dies, draw a card.",
+  "rule_text": "\nVigilance\nB, T: This gains deathtouch until end of turn.\nWhenever a creature you control with power one or less dies, draw a card.",
   "flavor_text": ""
 }

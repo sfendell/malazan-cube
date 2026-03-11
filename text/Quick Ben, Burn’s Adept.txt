@@ -15,6 +15,6 @@
   "power": "2",
   "toughness": "3",
   "artist": "",
-  "rule_text": "Slow, 2GG, T: Put a or +1/+1 counter on up to X target creatures, where X is 1 plus the number of exiled Souls.\nWhen this dies, place a Soul card you own from outside the game on top of your deck.",
+  "rule_text": "\nSlow, 2GG, T: Put a trample or +1/+1 counter on up to X target creatures, where X is 1 plus the number of exiled Souls.\nWhen this dies, place a Soul card you own from outside the game on top of your deck.",
   "flavor_text": ""
 }

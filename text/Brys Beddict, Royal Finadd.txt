@@ -14,6 +14,6 @@
   "power": "3",
   "toughness": "3",
   "artist": "Heathwind",
-  "rule_text": "Other creatures you control get +1/+1 for each equipment attached to them.\nBrys gets +2/+2 for each equipment attached to him.",
+  "rule_text": "\nVigilance\nOther creatures you control get +1/+1 for each equipment attached to them.\nBrys gets +2/+2 for each equipment attached to him.",
   "flavor_text": ""
 }

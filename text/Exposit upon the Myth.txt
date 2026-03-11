@@ -9,6 +9,6 @@
   "power": "",
   "toughness": "",
   "artist": "",
-  "rule_text": "Counter target Legendary spell.\nDraw a card.",
+  "rule_text": "\nCounter target Legendary spell.\nDraw a card.",
   "flavor_text": ""
 }

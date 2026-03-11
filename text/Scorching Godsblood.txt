@@ -11,6 +11,6 @@
   "power": "",
   "toughness": "",
   "artist": "",
-  "rule_text": "Enchant creature\nEnchanted creature gets “When this dies, destroy target creature. If this was a God, exile target creature instead and its controller loses 3 life.”",
+  "rule_text": "\nEnchant creature\nEnchanted creature gets “When this dies, destroy target creature. If this was a God, exile target creature instead and its controller loses 3 life.”",
   "flavor_text": ""
 }

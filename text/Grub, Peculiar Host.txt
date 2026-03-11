@@ -14,6 +14,6 @@
   "power": "1",
   "toughness": "2",
   "artist": "",
-  "rule_text": "Whenever you tap a land for mana, add G.\nWhenever a land leaves your graveyard, . This ability triggers only once per turn.\n3G, exile a card from a graveyard: Place a +1/+1 counter on target creature.",
+  "rule_text": "\nWhenever you tap a land for mana, add G.\nWhenever a land leaves your graveyard, proliferate. This ability triggers only once per turn.\n3G, exile a card from a graveyard: Place a +1/+1 counter on target creature.              ",
   "flavor_text": ""
 }
