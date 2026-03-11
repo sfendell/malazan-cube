@@ -13,6 +13,6 @@
   "power": "",
   "toughness": "",
   "artist": "",
-  "rule_text": "This enters the battlefield tapped unless an opponent has discarded a card this turn.\nT: Add U, R, or B.\n3UBR, T, Slow, Sacrifice this: Target opponent discards their hand.",
+  "rule_text": "This enters tapped unless an opponent has discarded a card this turn.\nT: Add U, R, or B.\n3UBR, T, Slow, Sacrifice this: Target opponent discards their hand.",
   "flavor_text": ""
 }

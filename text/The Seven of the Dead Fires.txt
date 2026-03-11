@@ -15,6 +15,6 @@
   "power": "7",
   "toughness": "7",
   "artist": "",
-  "rule_text": "Whenever a legendary creature enters the battlefield,  you may put a -1/-1 counter on it and on this.\nWhen this dies, if it had zero power and toughness, target creature ascends.",
+  "rule_text": "Whenever a legendary creature enters,  you may put a -1/-1 counter on it and on this.\nWhen this dies, if it had zero power and toughness, target creature ascends.",
   "flavor_text": ""
 }

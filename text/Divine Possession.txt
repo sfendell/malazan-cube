@@ -11,6 +11,6 @@
   "power": "",
   "toughness": "",
   "artist": "Kremena Chipilova",
-  "rule_text": "Enchant non-God\nWhen this enters the battlefield, tutor a God into exile.\nEnchanted creature is a copy of exiled card.\nWhen enchanted creature dies, put the exiled card into its owners hand.",
+  "rule_text": "Enchant non-God\nWhen this enters, tutor a God into exile.\nEnchanted creature is a copy of exiled card.\nWhen enchanted creature dies, put the exiled card into its owners hand.",
   "flavor_text": ""
 }

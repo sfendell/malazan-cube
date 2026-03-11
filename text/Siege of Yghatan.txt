@@ -11,6 +11,6 @@
   "power": "",
   "toughness": "",
   "artist": "",
-  "rule_text": "When this enters the battlefield, destroy all creatures. Each player loses life equal to the creatures they controlled destroyed this way.",
+  "rule_text": "When this enters, destroy all creatures. Each player loses life equal to the creatures they controlled destroyed this way.",
   "flavor_text": "​"
 }

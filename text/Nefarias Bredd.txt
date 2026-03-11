@@ -14,6 +14,6 @@
   "power": "1+*",
   "toughness": "1+*",
   "artist": "",
-  "rule_text": "When this enters the battlefield or attacks, cook, then create a 1/1 red and white Malazan Soldier token.\nNefarias’ power and toughness is equal to 1 plus the number of tokens you control.\nCreatures you control have “T: Cook.”\nFoods you control have “R/, T: Populate.”               ",
+  "rule_text": "When this enters or attacks, cook, then create a 1/1 red and white Malazan Soldier token.\nNefarias’ power and toughness is equal to 1 plus the number of tokens you control.\nCreatures you control have “T: Cook.”\nFoods you control have “R/, T: Populate.”               ",
   "flavor_text": ""
 }

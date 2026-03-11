@@ -14,6 +14,6 @@
   "power": "3",
   "toughness": "3",
   "artist": "",
-  "rule_text": "Whenever an Alien Dinosaur enters the battlefield under your control, place a stem cell counter on this.\nGU, Remove a stem cell counter from this: Put a +1/+1, flying, deathtouch, or reach counter on a creature you control.\nCreatures you control get +1/+1 for each counter on them.",
+  "rule_text": "Whenever an Alien Dinosaur enters under your control, place a stem cell counter on this.\nGU, Remove a stem cell counter from this: Put a +1/+1, flying, deathtouch, or reach counter on a creature you control.\nCreatures you control get +1/+1 for each counter on them.",
   "flavor_text": ""
 }
