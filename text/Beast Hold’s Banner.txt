@@ -12,6 +12,6 @@
   "power": "",
   "toughness": "",
   "artist": "",
-  "rule_text": "This enters the battlefield tapped unless you control more creatures than your opponent.\nT: Add R, G, or W.\nRGW, T, Sacrifice this: Draw a card.",
+  "rule_text": "This enters tapped unless you control more creatures than your opponent.\nT: Add R, G, or W.\nRGW, T, Sacrifice this: Draw a card.",
   "flavor_text": ""
 }

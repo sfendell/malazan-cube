@@ -12,6 +12,6 @@
   "power": "",
   "toughness": "",
   "artist": "",
-  "rule_text": "This enters the battlefield tapped unless you scried this turn.\nT: Add U, G, or W.\nGWU, T, Sacrifice Historian’s Banner: Draw a card.",
+  "rule_text": "This enters tapped unless you scried this turn.\nT: Add U, G, or W.\nGWU, T, Sacrifice Historian’s Banner: Draw a card.",
   "flavor_text": ""
 }

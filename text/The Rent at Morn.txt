@@ -11,6 +11,6 @@
   "power": "",
   "toughness": "",
   "artist": "Corporal Nobbs",
-  "rule_text": "When this enters the battlefield, sacrifice it unless you pay 1.\nThis enters the battlefield tapped.\nT: Add one mana of any color.\n9, T, Sacrifice this: Exile target creature until this leaves your graveyard.",
+  "rule_text": "When this enters, sacrifice it unless you pay 1.\nThis enters tapped.\nT: Add one mana of any color.\n9, T, Sacrifice this: Exile target creature until this leaves your graveyard.",
   "flavor_text": ""
 }

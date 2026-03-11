@@ -14,6 +14,6 @@
   "power": "4",
   "toughness": "4",
   "artist": "",
-  "rule_text": "Trample\nOther Wolves you control get +1/+1.\nWhen this enters the battlefield, create two 2/2 Wolf tokens.\nAt the beginning of combat on your turn, target creature you control fights another target creature.\nWhenever you win a fight, put two +1/+1 counters on the winning creature.                   ",
+  "rule_text": "Trample\nOther Wolves you control get +1/+1.\nWhen this enters, create two 2/2 Wolf tokens.\nAt the beginning of combat on your turn, target creature you control fights another target creature.\nWhenever you win a fight, put two +1/+1 counters on the winning creature.                   ",
   "flavor_text": ""
 }

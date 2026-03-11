@@ -11,6 +11,6 @@
   "power": "",
   "toughness": "",
   "artist": "",
-  "rule_text": "When this enters the battlefield, deal 3 damage divided among any number of targets.",
+  "rule_text": "When this enters, deal 3 damage divided among any number of targets.",
   "flavor_text": "​"
 }

@@ -9,6 +9,6 @@
   "power": "",
   "toughness": "",
   "artist": "",
-  "rule_text": "When this enters the battlefield, target opponent gains control of it.\nAt the beginning of your upkeep, create a 0/1 black Malazan Coward creature token.\nCreatures you control with power less than or equal the number of Cowards you control can’t attack or block.\n1, Pay 2 life: Target player gains control of target creature you control.",
+  "rule_text": "When this enters, target opponent gains control of it.\nAt the beginning of your upkeep, create a 0/1 black Malazan Coward creature token.\nCreatures you control with power less than or equal the number of Cowards you control can’t attack or block.\n1, Pay 2 life: Target player gains control of target creature you control.",
   "flavor_text": ""
 }

@@ -13,6 +13,6 @@
   "power": "",
   "toughness": "",
   "artist": "",
-  "rule_text": "This enters the battlefield tapped unless you have three or more creatures in your graveyard.\nT: Add U, W, or B.\nWUB, T, Sacrifice Tiste Banner: Draw a card.",
+  "rule_text": "This enters tapped unless you have three or more creatures in your graveyard.\nT: Add U, W, or B.\nWUB, T, Sacrifice Tiste Banner: Draw a card.",
   "flavor_text": ""
 }

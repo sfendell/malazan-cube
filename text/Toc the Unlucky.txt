@@ -14,6 +14,6 @@
   "power": "3",
   "toughness": "1",
   "artist": "",
-  "rule_text": "Reach\nWhenever this enters the battlefield, scry 2. \nWhenever you put a card on the bottom of  your deck, deal 1 damage to target player.\nWhenever this dies, exile it. It gains suspend. Put two time counters on it.               ",
+  "rule_text": "Reach\nWhenever this enters, scry 2. \nWhenever you put a card on the bottom of  your deck, deal 1 damage to target player.\nWhenever this dies, exile it. It gains suspend. Put two time counters on it.               ",
   "flavor_text": ""
 }

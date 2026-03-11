@@ -13,6 +13,6 @@
   "power": "",
   "toughness": "",
   "artist": "",
-  "rule_text": "This enters the battlefield tapped unless you control more creatures than your opponent.\nT: Add W, R or G.\nRGW, T, Sacrifice this: Put a double strike counter on target creature you control with power 2 or less.",
+  "rule_text": "This enters tapped unless you control more creatures than your opponent.\nT: Add W, R or G.\nRGW, T, Sacrifice this: Put a double strike counter on target creature you control with power 2 or less.",
   "flavor_text": ""
 }
