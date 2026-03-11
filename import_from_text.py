@@ -62,8 +62,7 @@ def parse_text_file(path: Path) -> dict:
 
 def build_card_block(template: dict, card: dict, image_file: str) -> str:
     super_type, sub_type = type_line_to_mse(card["super_part"], card["sub_part"])
-    rule_lines = (card["rule_text"] or "").split("\n") if isinstance(card["rule_text"], str) else []
-    rule_text_val = "\n\t\t".join(ln.strip() for ln in rule_lines if ln.strip())
+    raw_rule_text = (card["rule_text"] or "") if isinstance(card["rule_text"], str) else ""
     flavor_esc = (card["flavor_text"] or "").replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
     flavor_val = f"<i-flavor>{flavor_esc}</i-flavor>" if flavor_esc.strip() else "<i-flavor></i-flavor>"
 
@@ -73,7 +72,7 @@ def build_card_block(template: dict, card: dict, image_file: str) -> str:
     block["image"] = image_file
     block["super_type"] = super_type
     block["sub_type"] = sub_type
-    block["rule_text"] = rule_text_val
+    block["rule_text"] = raw_rule_text
     block["flavor_text"] = flavor_val
     block["power"] = card["power"]
     block["toughness"] = card["toughness"]

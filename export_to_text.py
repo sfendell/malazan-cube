@@ -46,8 +46,7 @@ def strip_mse_markup(s: str, preserve_newlines: bool = False) -> str:
     s = re.sub(r"<[^>]+>", "", s)
     s = s.replace("&amp;", "&").replace("&lt;", "<").replace("&gt;", ">")
     if preserve_newlines:
-        lines = [" ".join(ln.split()).strip() for ln in s.split("\n")]
-        return "\n".join(ln for ln in lines if ln).strip()
+        return s
     return " ".join(s.split()).strip()
 
 
@@ -86,20 +85,20 @@ def parse_set_blocks(content: str):
             m = re.match(r"^\t([a-z_0-9]+):\s*(.*)$", line)
             if m:
                 if key:
-                    card[key] = "\n".join(value_parts).strip() if value_parts else ""
+                    card[key] = "\n".join(value_parts) if value_parts else ""
                 key = m.group(1)
-                value_parts = [m.group(2)] if m.group(2).strip() else []
+                value_parts = [m.group(2)]
             elif key and re.match(r"^\t\t", line):
-                value_parts.append(line.strip())
+                value_parts.append(line[2:].rstrip("\r"))
             else:
                 m2 = re.match(r"^\t([a-z_0-9]+):\s*$", line)
                 if m2:
                     if key:
-                        card[key] = "\n".join(value_parts).strip() if value_parts else ""
+                        card[key] = "\n".join(value_parts) if value_parts else ""
                     key = m2.group(1)
                     value_parts = []
         if key:
-            card[key] = "\n".join(value_parts).strip() if value_parts else ""
+            card[key] = "\n".join(value_parts) if value_parts else ""
         yield card
 
 
