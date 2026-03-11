@@ -1,5 +1,17 @@
-Order Munitions
-Cost: RG
-Type: Kindred Instant - Malazan
-
-Gain 2 life. Put a +1/+1 counter on target creature. Create a Cusser token.
+{
+  "name": "Order Munitions",
+  "cost": "RG",
+  "types": [
+    "Kindred",
+    "Instant"
+  ],
+  "subtypes": [
+    "Malazan"
+  ],
+  "supertypes": [],
+  "power": "",
+  "toughness": "",
+  "artist": "",
+  "rule_text": "Gain 2 life. Put a +1/+1 counter on target creature. Create a Cusser token.",
+  "flavor_text": ""
+}

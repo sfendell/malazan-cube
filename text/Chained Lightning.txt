@@ -1,5 +1,14 @@
-Chained Lightning
-Cost: R
-Type: Instant
-
-When you cast this, copy this spell for each permanent not controlled by its owner. You may choose new targets for these copies. Deal 2 damage to any target. Scry 1.
+{
+  "name": "Chained Lightning",
+  "cost": "R",
+  "types": [
+    "Instant"
+  ],
+  "subtypes": [],
+  "supertypes": [],
+  "power": "",
+  "toughness": "",
+  "artist": "",
+  "rule_text": "When you cast this, copy this spell for each permanent not controlled by its owner. You may choose new targets for these copies.\nDeal 2 damage to any target. Scry 1.",
+  "flavor_text": ""
+}

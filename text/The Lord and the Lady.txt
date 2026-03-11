@@ -1,6 +1,18 @@
-The Lord and the Lady
-Cost: 2UR
-Type: Legendary Creature - God
-P/T: 4/4
-
-Whenever you scry, if you leave more cards on top, put a Pull counter on this. Otherwise, put a Push counter on this. If there are more Push counters than Pull counters on this, creatures you control get +X/+0, where X is the difference. Otherwise, creatures you don’t control get -X/-0. At the end of your turn, if this has less than 7 counters on it, flip a coin. If you lose the flip, target opponent gains control of this.
+{
+  "name": "The Lord and the Lady",
+  "cost": "2UR",
+  "types": [
+    "Creature"
+  ],
+  "subtypes": [
+    "God"
+  ],
+  "supertypes": [
+    "Legendary"
+  ],
+  "power": "4",
+  "toughness": "4",
+  "artist": "",
+  "rule_text": "Whenever you scry, if you leave more cards on top, put a Pull counter on this. Otherwise, put a Push counter on this.\nIf there are more Push counters than Pull counters on this, creatures you control get +X/+0, where X is the difference. Otherwise, creatures you don’t control get -X/-0.\nAt the end of your turn, if this has less than 7 counters on it, flip a coin. If you lose the flip, target opponent gains control of this.",
+  "flavor_text": ""
+}

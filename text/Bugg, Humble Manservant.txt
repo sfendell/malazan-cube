@@ -1,6 +1,20 @@
-Bugg, Humble Manservant
-Cost: 1UB
-Type: Legendary Creature - Elder Human Advisor
-P/T: 1/1
-
-Whenever you sacrifice a creature, bleed. Sacrifice three Bloods: Transform this.
+{
+  "name": "Bugg, Humble Manservant",
+  "cost": "1UB",
+  "types": [
+    "Creature"
+  ],
+  "subtypes": [
+    "Elder",
+    "Human",
+    "Advisor"
+  ],
+  "supertypes": [
+    "Legendary"
+  ],
+  "power": "1",
+  "toughness": "1",
+  "artist": "",
+  "rule_text": "Whenever you sacrifice a creature, bleed.\nSacrifice three Bloods: Transform this.",
+  "flavor_text": ""
+}

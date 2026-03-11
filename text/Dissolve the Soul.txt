@@ -1,5 +1,14 @@
-Dissolve the Soul
-Cost: BB
-Type: Instant
-
-Target creature gets -3/-3. If you control an Island, exile it instead.
+{
+  "name": "Dissolve the Soul",
+  "cost": "BB",
+  "types": [
+    "Instant"
+  ],
+  "subtypes": [],
+  "supertypes": [],
+  "power": "",
+  "toughness": "",
+  "artist": "",
+  "rule_text": "Target creature gets -3/-3. If you control an Island, exile it instead.",
+  "flavor_text": ""
+}

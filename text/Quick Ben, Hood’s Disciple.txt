@@ -1,6 +1,20 @@
-Quick Ben, Hood’s Disciple
-Cost: WB
-Type: Legendary Creature - Malazan Wizard Soul
-P/T: 2/2
-
-Non-Spirit creatures you control have Afterlife X, where X is 1 plus the number of exiled Souls. When this dies, put a Soul you own from outside the game on top of your library.
+{
+  "name": "Quick Ben, Hood’s Disciple",
+  "cost": "WB",
+  "types": [
+    "Creature"
+  ],
+  "subtypes": [
+    "Malazan",
+    "Wizard",
+    "Soul"
+  ],
+  "supertypes": [
+    "Legendary"
+  ],
+  "power": "2",
+  "toughness": "2",
+  "artist": "",
+  "rule_text": "Non-Spirit creatures you control have Afterlife X, where X is 1 plus the number of exiled Souls.\nWhen this dies, put a Soul you own from outside the game on top of your library.",
+  "flavor_text": ""
+}

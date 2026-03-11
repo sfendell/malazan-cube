@@ -1,6 +1,18 @@
-Quorl
-Cost: WW
-Type: Artifact Creature - Insect Vehicle
-P/T: 2/3
-
-Flying Crew 1 Whenever you sacrifice an artifact, gain 1 life.
+{
+  "name": "Quorl",
+  "cost": "WW",
+  "types": [
+    "Artifact",
+    "Creature"
+  ],
+  "subtypes": [
+    "Insect",
+    "Vehicle"
+  ],
+  "supertypes": [],
+  "power": "2",
+  "toughness": "3",
+  "artist": "",
+  "rule_text": "Crew 1\nWhenever you sacrifice an artifact, gain 1 life.",
+  "flavor_text": ""
+}

@@ -1,6 +1,19 @@
-Withal, Meckros Blacksmith
-Cost: 1WU
-Type: Legendary Creature - Human Artificer
-P/T: 3/3
-
-Equipment you control has Equip 0. Whenever an equipped creature you control attacks, scry 1. Whenever an equipped creature you control deals damage to a player, it ascends. This triggers only once per game.
+{
+  "name": "Withal, Meckros Blacksmith",
+  "cost": "1WU",
+  "types": [
+    "Creature"
+  ],
+  "subtypes": [
+    "Human",
+    "Artificer"
+  ],
+  "supertypes": [
+    "Legendary"
+  ],
+  "power": "3",
+  "toughness": "3",
+  "artist": "",
+  "rule_text": "Equipment you control has Equip 0.\nWhenever an equipped creature you control attacks, scry 1.\nWhenever an equipped creature you control deals damage to a player, it ascends. This triggers only once per game.",
+  "flavor_text": ""
+}

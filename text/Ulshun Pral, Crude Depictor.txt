@@ -1,6 +1,20 @@
-Ulshun Pral, Crude Depictor
-Cost: BG
-Type: Legendary Creature - Elder Zombie Wizard
-P/T: 2/3
-
-4BG, T, Exile target creature card from a graveyard: Create a tapped token that is a copy of exiled creature, except it’s a 3/3 Beast. If that creature was an Elder Zombie, put two +1/+1 counters on it.
+{
+  "name": "Ulshun Pral, Crude Depictor",
+  "cost": "BG",
+  "types": [
+    "Creature"
+  ],
+  "subtypes": [
+    "Elder",
+    "Zombie",
+    "Wizard"
+  ],
+  "supertypes": [
+    "Legendary"
+  ],
+  "power": "2",
+  "toughness": "3",
+  "artist": "",
+  "rule_text": "4BG, T, Exile target creature card from a graveyard: Create a tapped token that is a copy of exiled creature, except it’s a 3/3 Beast. If that creature was an Elder Zombie, put two +1/+1 counters on it.",
+  "flavor_text": ""
+}

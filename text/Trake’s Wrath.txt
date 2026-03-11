@@ -1,5 +1,14 @@
-Trake’s Wrath
-Cost: 1R
-Type: Sorcery
-
-Battlestorm (When you cast this spell, copy it for each creature that attacked or blocked this turn. You may choose new targets for the copies.) Deal one damage to any target.
+{
+  "name": "Trake’s Wrath",
+  "cost": "1R",
+  "types": [
+    "Sorcery"
+  ],
+  "subtypes": [],
+  "supertypes": [],
+  "power": "",
+  "toughness": "",
+  "artist": "",
+  "rule_text": "Battlestorm (When you cast this spell, copy it for each creature that attacked or blocked this turn. You may choose new targets for the copies.)\nDeal one damage to any target.",
+  "flavor_text": ""
+}

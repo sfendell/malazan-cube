@@ -1,6 +1,19 @@
-Leoman of the Flails
-Cost: RG
-Type: Legendary Creature - Human Warrior
-P/T: 2/2
-
-As an additional cost to play this card, you may behold a God. Rebels you control get +2/+0, trample and haste. This enters the battlefield with a Rebel subtype counter if a God was beheld.
+{
+  "name": "Leoman of the Flails",
+  "cost": "RG",
+  "types": [
+    "Creature"
+  ],
+  "subtypes": [
+    "Human",
+    "Warrior"
+  ],
+  "supertypes": [
+    "Legendary"
+  ],
+  "power": "2",
+  "toughness": "2",
+  "artist": "",
+  "rule_text": "As an additional cost to play this card, you may behold a God.\nRebels you control get +2/+0, and .\nThis enters the battlefield with a Rebel subtype counter if a God was beheld.",
+  "flavor_text": ""
+}

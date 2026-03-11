@@ -1,6 +1,19 @@
-Coltaine of the Crow Clan
-Cost: 2WB
-Type: Legendary Creature - Malazan Warrior
-P/T: 4/4
-
-Creatures you control get +0/+2 if it’s not your turn. Creatures you control get +2/+0 if it is your turn. WB, T, Sacrifice another creature: Another target creature gets indestructible and hexproof until end of turn.
+{
+  "name": "Coltaine of the Crow Clan",
+  "cost": "2WB",
+  "types": [
+    "Creature"
+  ],
+  "subtypes": [
+    "Malazan",
+    "Warrior"
+  ],
+  "supertypes": [
+    "Legendary"
+  ],
+  "power": "4",
+  "toughness": "4",
+  "artist": "",
+  "rule_text": "Creatures you control get +0/+2 if it’s not your turn.\nCreatures you control get +2/+0 if it is your turn.\nWB, T, Sacrifice another creature: Another target creature gets and until end of turn.",
+  "flavor_text": ""
+}

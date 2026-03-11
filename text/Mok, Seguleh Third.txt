@@ -1,6 +1,19 @@
-Mok, Seguleh Third
-Cost: 1B
-Type: Legendary Creature - Human Warrior
-P/T: 4/4
-
-You may have creatures you control enter the battlefield tapped. Whenever another creature enters the battlefield untapped, Mok fights it.
+{
+  "name": "Mok, Seguleh Third",
+  "cost": "1B",
+  "types": [
+    "Creature"
+  ],
+  "subtypes": [
+    "Human",
+    "Warrior"
+  ],
+  "supertypes": [
+    "Legendary"
+  ],
+  "power": "4",
+  "toughness": "4",
+  "artist": "Yapattack",
+  "rule_text": "You may have creatures you control enter the battlefield tapped.\nWhenever another creature enters the battlefield untapped, Mok fights it.",
+  "flavor_text": ""
+}

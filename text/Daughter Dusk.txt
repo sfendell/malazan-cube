@@ -1,6 +1,19 @@
-Daughter Dusk
-Cost: 1B
-Type: Legendary Creature - Elder Elf
-P/T: 2/2
-
-3RR: This becomes a 4/4 dragon with Flying. (This effect does not end at end of turn.).
+{
+  "name": "Daughter Dusk",
+  "cost": "1B",
+  "types": [
+    "Creature"
+  ],
+  "subtypes": [
+    "Elder",
+    "Elf"
+  ],
+  "supertypes": [
+    "Legendary"
+  ],
+  "power": "2",
+  "toughness": "2",
+  "artist": "",
+  "rule_text": "3RR: This becomes a 4/4 dragon with . (This effect does not end at end of turn.)",
+  "flavor_text": ""
+}

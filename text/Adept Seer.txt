@@ -1,6 +1,17 @@
-Adept Seer
-Cost: 1U
-Type: Creature - Human Wizard
-P/T: 2/1
-
-Instants and sorceries cost you 1 less to cast. Whenever you scry, target creature you control gains flying until end of turn.
+{
+  "name": "Adept Seer",
+  "cost": "1U",
+  "types": [
+    "Creature"
+  ],
+  "subtypes": [
+    "Human",
+    "Wizard"
+  ],
+  "supertypes": [],
+  "power": "2",
+  "toughness": "1",
+  "artist": "",
+  "rule_text": "Instants and sorceries cost you 1 less to cast.\nWhenever you scry, target creature you control gains until end of turn.",
+  "flavor_text": ""
+}

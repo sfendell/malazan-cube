@@ -1,5 +1,14 @@
-Walk the Warrens
-Cost: 1U
-Type: Instant
-
-Exile target creature, then return it to the battlefield under its owner’s control. If you control a Warren, draw a card.
+{
+  "name": "Walk the Warrens",
+  "cost": "1U",
+  "types": [
+    "Instant"
+  ],
+  "subtypes": [],
+  "supertypes": [],
+  "power": "",
+  "toughness": "",
+  "artist": "",
+  "rule_text": "Exile target creature, then return it to the battlefield under its owner’s control. If you control a Warren, draw a card.",
+  "flavor_text": ""
+}

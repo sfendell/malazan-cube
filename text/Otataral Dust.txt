@@ -1,5 +1,14 @@
-Otataral Dust
-Cost: 1
-Type: Artifact
-
-Flash Creatures lose all activated abilities. 4, T, Sacrifice this: Counter target activated or triggered ability.
+{
+  "name": "Otataral Dust",
+  "cost": "1",
+  "types": [
+    "Artifact"
+  ],
+  "subtypes": [],
+  "supertypes": [],
+  "power": "",
+  "toughness": "",
+  "artist": "",
+  "rule_text": "Creatures lose all activated abilities.\n4, T, Sacrifice this: Counter target activated or triggered ability.",
+  "flavor_text": ""
+}

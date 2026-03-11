@@ -1,6 +1,18 @@
-Dalk Tennes
-Cost: 4GG
-Type: Legendary Creature - Dragon
-P/T: */*
-
-Trample, flying Dalk’s power and toughness are equal to the number of lands you control. 2GG: This gets +X/+X, where X is the number of lands in your graveyard.
+{
+  "name": "Dalk Tennes",
+  "cost": "4GG",
+  "types": [
+    "Creature"
+  ],
+  "subtypes": [
+    "Dragon"
+  ],
+  "supertypes": [
+    "Legendary"
+  ],
+  "power": "*",
+  "toughness": "*",
+  "artist": "",
+  "rule_text": ",\nDalk’s power and toughness are equal to the number of lands you control.\n2GG: This gets +X/+X, where X is the number of lands in your graveyard.",
+  "flavor_text": ""
+}

@@ -1,1 +1,12 @@
-Birth of the Bonehunters
+{
+  "name": "Birth of the Bonehunters",
+  "cost": "",
+  "types": [],
+  "subtypes": [],
+  "supertypes": [],
+  "power": "",
+  "toughness": "",
+  "artist": "",
+  "rule_text": "",
+  "flavor_text": ""
+}

@@ -1,6 +1,19 @@
-Rat Catcher’s Guild
-Cost: 3BB
-Type: Legendary Creature - Rat Merchant
-P/T: 1/1
-
-Extort When this enters the battlefield, place two +1/+1 counters on it and create two 1/1 Black rat tokens. Whenever you extort, choose one: • Proliferate. • Populate, then populate.
+{
+  "name": "Rat Catcher’s Guild",
+  "cost": "3BB",
+  "types": [
+    "Creature"
+  ],
+  "subtypes": [
+    "Rat",
+    "Merchant"
+  ],
+  "supertypes": [
+    "Legendary"
+  ],
+  "power": "1",
+  "toughness": "1",
+  "artist": "Coltain93",
+  "rule_text": "When this enters the battlefield, place two +1/+1 counters on it and create two 1/1 Black rat tokens.\nWhenever you , choose one:\n.\n, then .",
+  "flavor_text": ""
+}

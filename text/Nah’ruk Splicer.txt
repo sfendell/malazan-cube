@@ -1,6 +1,18 @@
-Nah’ruk Splicer
-Cost: 2U
-Type: Creature - Alien Dinosaur Wizard
-P/T: 2/2
-
-Whenever you cast a creature spell, you may pay 1. If you do, proliferate.
+{
+  "name": "Nah’ruk Splicer",
+  "cost": "2U",
+  "types": [
+    "Creature"
+  ],
+  "subtypes": [
+    "Alien",
+    "Dinosaur",
+    "Wizard"
+  ],
+  "supertypes": [],
+  "power": "2",
+  "toughness": "2",
+  "artist": "",
+  "rule_text": "Whenever you cast a creature spell, you may pay 1. If you do, .",
+  "flavor_text": ""
+}

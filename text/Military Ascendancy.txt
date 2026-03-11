@@ -1,5 +1,17 @@
-Military Ascendancy
-Cost: URW
-Type: Kindred Enchantment - Army
-
-Armies, Soldiers, and Sappers you control get +1/+1. Whenever you attack an opponent, if you control more creatures than them, draw a card. RW: Creatures you control gain vigilance and haste until end of turn.
+{
+  "name": "Military Ascendancy",
+  "cost": "URW",
+  "types": [
+    "Kindred",
+    "Enchantment"
+  ],
+  "subtypes": [
+    "Army"
+  ],
+  "supertypes": [],
+  "power": "",
+  "toughness": "",
+  "artist": "",
+  "rule_text": "Armies, Soldiers, and Sappers you control get +1/+1.\nWhenever you attack an opponent, if you control more creatures than them, draw a card.\nRW: Creatures you control gain and until end of turn.",
+  "flavor_text": ""
+}

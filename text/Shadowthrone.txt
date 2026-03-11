@@ -1,6 +1,19 @@
-Shadowthrone
-Cost: 2B
-Type: Legendary Creature - Malazan God
-P/T: 2/1
-
-Black instant and sorcery cards you own have mayhem. Whenever you sacrifice a Blood token during your turn, you may pay 3 life. If you do, this creature phases in. Whenever a creature phases in, target player discards a card. B, Discard a card: This creature phases out. Bleed.
+{
+  "name": "Shadowthrone",
+  "cost": "2B",
+  "types": [
+    "Creature"
+  ],
+  "subtypes": [
+    "Malazan",
+    "God"
+  ],
+  "supertypes": [
+    "Legendary"
+  ],
+  "power": "2",
+  "toughness": "1",
+  "artist": "",
+  "rule_text": "Black instant and sorcery cards you own have mayhem.\nWhenever you sacrifice a Blood token during your turn, you may pay 3 life. If you do, this creature phases in.\nWhenever a creature phases in, target player discards a card.\nB, Discard a card: This creature . Bleed.",
+  "flavor_text": ""
+}

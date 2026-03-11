@@ -1,5 +1,17 @@
-Bluerose Engineering
-Cost: 2WW
-Type: Enchantment - Aura Curse
-
-Enchant player Enchanted player’s opponents can equip creatures enchanted player controls. Equipped creatures enchanted player control cannot attack or block. Whenever an equipped creature enchanted player controls dies, destroy all Equipment attached to it.
+{
+  "name": "Bluerose Engineering",
+  "cost": "2WW",
+  "types": [
+    "Enchantment"
+  ],
+  "subtypes": [
+    "Aura",
+    "Curse"
+  ],
+  "supertypes": [],
+  "power": "",
+  "toughness": "",
+  "artist": "",
+  "rule_text": "Enchant player\nEnchanted player’s opponents can equip creatures enchanted player controls.\nEquipped creatures enchanted player control cannot attack or block.\nWhenever an equipped creature enchanted player controls dies, destroy all Equipment attached to it.",
+  "flavor_text": ""
+}

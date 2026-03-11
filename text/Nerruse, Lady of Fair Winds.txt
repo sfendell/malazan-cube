@@ -1,6 +1,18 @@
-Nerruse, Lady of Fair Winds
-Cost: 2WU
-Type: Legendary Creature - God
-P/T: 4/4
-
-Flying Whenever a creature enters the battlefield, tap or untap target creature. WU: Exile another target creature you control, then return it to the battlefield. Activate this ability only if you’ve scried this turn.
+{
+  "name": "Nerruse, Lady of Fair Winds",
+  "cost": "2WU",
+  "types": [
+    "Creature"
+  ],
+  "subtypes": [
+    "God"
+  ],
+  "supertypes": [
+    "Legendary"
+  ],
+  "power": "4",
+  "toughness": "4",
+  "artist": "Carivory",
+  "rule_text": "Whenever a creature enters the battlefield, tap or untap target creature.\nWU: Exile another target creature you control, then return it to the battlefield. Activate this ability only if you’ve scried this turn.",
+  "flavor_text": ""
+}

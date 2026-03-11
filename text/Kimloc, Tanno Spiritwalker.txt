@@ -1,6 +1,19 @@
-Kimloc, Tanno Spiritwalker
-Cost: 1W
-Type: Legendary Creature - Human Shaman
-P/T: 0/2
-
-This enters the battlefield with a song counter on it. T, Remove a song counter from this: Another target creature ascends.
+{
+  "name": "Kimloc, Tanno Spiritwalker",
+  "cost": "1W",
+  "types": [
+    "Creature"
+  ],
+  "subtypes": [
+    "Human",
+    "Shaman"
+  ],
+  "supertypes": [
+    "Legendary"
+  ],
+  "power": "0",
+  "toughness": "2",
+  "artist": "",
+  "rule_text": "This enters the battlefield with a song counter on it.\nT, Remove a song counter from this: Another target creature ascends.",
+  "flavor_text": ""
+}

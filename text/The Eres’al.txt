@@ -1,6 +1,19 @@
-The Eres’al
-Cost: 2GG
-Type: Legendary Creature - Elder God
-P/T: 5/5
-
-Protection from Children, Humans, and Malazans Creatures you control have trample and vigilance. T, Tap an untapped Human or Malazan you control: Create a 1/1 White Human Child creature token, then populate.
+{
+  "name": "The Eres’al",
+  "cost": "2GG",
+  "types": [
+    "Creature"
+  ],
+  "subtypes": [
+    "Elder",
+    "God"
+  ],
+  "supertypes": [
+    "Legendary"
+  ],
+  "power": "5",
+  "toughness": "5",
+  "artist": "",
+  "rule_text": "Protection from Children, Humans, and Malazans\nCreatures you control have and .\nT, Tap an untapped Human or Malazan you control: Create a 1/1 White Human Child creature token, then .",
+  "flavor_text": ""
+}

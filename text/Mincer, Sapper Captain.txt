@@ -1,6 +1,19 @@
-Mincer, Sapper Captain
-Cost: 3RR
-Type: Legendary Creature - Malazan Sapper
-P/T: 3/3
-
-When this enters the battlefield, create a 1/1 Malazan Sapper Creature and a Cusser. R, Tap an untapped Sapper you control and sacrifice an artifact you control: Deal three damage to any target.
+{
+  "name": "Mincer, Sapper Captain",
+  "cost": "3RR",
+  "types": [
+    "Creature"
+  ],
+  "subtypes": [
+    "Malazan",
+    "Sapper"
+  ],
+  "supertypes": [
+    "Legendary"
+  ],
+  "power": "3",
+  "toughness": "3",
+  "artist": "",
+  "rule_text": "When this enters the battlefield, create a 1/1 Malazan Sapper Creature and a Cusser.\nR, Tap an untapped Sapper you control and sacrifice an artifact you control: Deal three damage to any target.",
+  "flavor_text": ""
+}

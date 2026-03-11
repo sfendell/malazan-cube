@@ -1,5 +1,14 @@
-Divine Chomp
-Cost: 1R/G
-Type: Instant
-
-Target creature you control gets +3/+1 until end of turn if it is a God. Then it deals damage equal to its power to another target creature.
+{
+  "name": "Divine Chomp",
+  "cost": "1R/G",
+  "types": [
+    "Instant"
+  ],
+  "subtypes": [],
+  "supertypes": [],
+  "power": "",
+  "toughness": "",
+  "artist": "",
+  "rule_text": "Target creature you control gets +3/+1 until end of turn if it is a God. Then it deals damage equal to its power to another target creature.",
+  "flavor_text": ""
+}

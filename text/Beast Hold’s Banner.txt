@@ -1,5 +1,17 @@
-Beast Hold’s Banner
-Cost: 2
-Type: Kindred Artifact - Beast
-
-This enters the battlefield tapped unless you control more creatures than your opponent. T: Add R, G, or W. RGW, T, Sacrifice this: Draw a card.
+{
+  "name": "Beast Hold’s Banner",
+  "cost": "2",
+  "types": [
+    "Kindred",
+    "Artifact"
+  ],
+  "subtypes": [
+    "Beast"
+  ],
+  "supertypes": [],
+  "power": "",
+  "toughness": "",
+  "artist": "",
+  "rule_text": "This enters the battlefield tapped unless you control more creatures than your opponent.\nT: Add R, G, or W.\nRGW, T, Sacrifice this: Draw a card.",
+  "flavor_text": ""
+}

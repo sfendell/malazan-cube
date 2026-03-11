@@ -1,6 +1,19 @@
-Kettle, Born of the Azath
-Cost: 1B
-Type: Legendary Creature - Zombie Child
-P/T: 1/1
-
-Deathtouch Whenever you are dealt combat damage by any number of creatures, bleed. Blood you control are also Food.
+{
+  "name": "Kettle, Born of the Azath",
+  "cost": "1B",
+  "types": [
+    "Creature"
+  ],
+  "subtypes": [
+    "Zombie",
+    "Child"
+  ],
+  "supertypes": [
+    "Legendary"
+  ],
+  "power": "1",
+  "toughness": "1",
+  "artist": "Autumn Tavern",
+  "rule_text": "Whenever you are dealt combat damage by any number of creatures, bleed.\nBlood you control are also Food.",
+  "flavor_text": ""
+}

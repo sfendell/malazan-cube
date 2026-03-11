@@ -1,5 +1,14 @@
-Tennes Ritual
-Cost: G
-Type: Sorcery
-
-Tutor three basic lands to the battlefield under your control. Sacrifice them at the end of the turn.
+{
+  "name": "Tennes Ritual",
+  "cost": "G",
+  "types": [
+    "Sorcery"
+  ],
+  "subtypes": [],
+  "supertypes": [],
+  "power": "",
+  "toughness": "",
+  "artist": "",
+  "rule_text": "Tutor three basic lands to the battlefield under your control. Sacrifice them at the end of the turn.",
+  "flavor_text": ""
+}

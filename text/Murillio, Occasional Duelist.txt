@@ -1,6 +1,18 @@
-Murillio, Occasional Duelist
-Cost: 1W
-Type: Legendary Creature - Human
-P/T: 3/1
-
-First strike 1W: This gains lifelink until end of turn.
+{
+  "name": "Murillio, Occasional Duelist",
+  "cost": "1W",
+  "types": [
+    "Creature"
+  ],
+  "subtypes": [
+    "Human"
+  ],
+  "supertypes": [
+    "Legendary"
+  ],
+  "power": "3",
+  "toughness": "1",
+  "artist": "",
+  "rule_text": "1W: This gains until end of turn.",
+  "flavor_text": ""
+}

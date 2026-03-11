@@ -1,6 +1,20 @@
-Icarium, Forgetful Wanderer
-Cost: 2WU
-Type: Legendary Creature - Elder Orc Giant
-P/T: 2/2
-
-At the beginning of your end step, pay WU. If you do, put an epiphany counter on this. Otherwise, return this to your hand. Remove two epiphany counters from this: Draw two cards. T, Slow, Remove four epiphany counters from this, skip your next two turns and discard your hand: Transform this. End the turn.
+{
+  "name": "Icarium, Forgetful Wanderer",
+  "cost": "2WU",
+  "types": [
+    "Creature"
+  ],
+  "subtypes": [
+    "Elder",
+    "Orc",
+    "Giant"
+  ],
+  "supertypes": [
+    "Legendary"
+  ],
+  "power": "2",
+  "toughness": "2",
+  "artist": "",
+  "rule_text": "At the beginning of your end step, pay WU. If you do, put an epiphany counter on this. Otherwise, return this to your hand.\nRemove two epiphany counters from this: Draw two cards.\nT, Slow, Remove four epiphany counters from this, skip your next two turns and discard your hand: Transform this. End the turn.",
+  "flavor_text": ""
+}

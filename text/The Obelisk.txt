@@ -1,5 +1,17 @@
-The Obelisk
-Cost: 2
-Type: Enchantment Artifact - Fatid
-
-T: Add CC.
+{
+  "name": "The Obelisk",
+  "cost": "2",
+  "types": [
+    "Enchantment",
+    "Artifact"
+  ],
+  "subtypes": [
+    "Fatid"
+  ],
+  "supertypes": [],
+  "power": "",
+  "toughness": "",
+  "artist": "",
+  "rule_text": "T: Add CC.",
+  "flavor_text": ""
+}

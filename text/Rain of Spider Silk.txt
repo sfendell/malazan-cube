@@ -1,5 +1,14 @@
-Rain of Spider Silk
-Cost: WU
-Type: Enchantment
-
-Whenever a creature you don’t control becomes the target of a spell or ability, gain 1 life. Whenever you gain life, scry 1. WU: Tap target creature.
+{
+  "name": "Rain of Spider Silk",
+  "cost": "WU",
+  "types": [
+    "Enchantment"
+  ],
+  "subtypes": [],
+  "supertypes": [],
+  "power": "",
+  "toughness": "",
+  "artist": "",
+  "rule_text": "Whenever a creature you don’t control becomes the target of a spell or ability, gain 1 life.\nWhenever you gain life, scry 1.\nWU: Tap target creature.",
+  "flavor_text": ""
+}

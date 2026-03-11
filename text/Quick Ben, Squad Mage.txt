@@ -1,6 +1,20 @@
-Quick Ben, Squad Mage
-Cost: UR
-Type: Legendary Creature - Malazan Wizard Soul
-P/T: 2/2
-
-Whenever you cast a noncreature spell, this gets +X/+X, where X is 1 plus the number of exiled Souls. You have cunning. When this dies, put a Soul you own from outside the game on top of your library.
+{
+  "name": "Quick Ben, Squad Mage",
+  "cost": "UR",
+  "types": [
+    "Creature"
+  ],
+  "subtypes": [
+    "Malazan",
+    "Wizard",
+    "Soul"
+  ],
+  "supertypes": [
+    "Legendary"
+  ],
+  "power": "2",
+  "toughness": "2",
+  "artist": "",
+  "rule_text": "Whenever you cast a noncreature spell, this gets +X/+X, where X is 1 plus the number of exiled Souls.\nYou have cunning.\nWhen this dies, put a Soul you own from outside the game on top of your library.",
+  "flavor_text": ""
+}

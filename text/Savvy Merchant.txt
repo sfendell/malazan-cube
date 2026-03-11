@@ -1,6 +1,17 @@
-Savvy Merchant
-Cost: W/BW/B
-Type: Creature - Human Merchant
-P/T: 1/2
-
-Whenever a token enters the battlefield under your control, gain 1 life. Whenever you sacrifice a permanent, each opponent loses 1 life.
+{
+  "name": "Savvy Merchant",
+  "cost": "W/BW/B",
+  "types": [
+    "Creature"
+  ],
+  "subtypes": [
+    "Human",
+    "Merchant"
+  ],
+  "supertypes": [],
+  "power": "1",
+  "toughness": "2",
+  "artist": "",
+  "rule_text": "Whenever a token enters the battlefield under your control, gain 1 life.\nWhenever you sacrifice a permanent, each opponent loses 1 life.",
+  "flavor_text": ""
+}

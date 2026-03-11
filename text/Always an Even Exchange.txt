@@ -1,5 +1,14 @@
-Always an Even Exchange
-Cost: 1UU
-Type: Sorcery
-
-Exchange control of two target creatures with the same mana value, power, or toughness.
+{
+  "name": "Always an Even Exchange",
+  "cost": "1UU",
+  "types": [
+    "Sorcery"
+  ],
+  "subtypes": [],
+  "supertypes": [],
+  "power": "",
+  "toughness": "",
+  "artist": "",
+  "rule_text": "Exchange control of two target creatures with the same mana value, power, or toughness.",
+  "flavor_text": ""
+}

@@ -1,5 +1,14 @@
-Foresee
-Cost: 1UU
-Type: Instant
-
-This card costs U less if you’ve scried this turn. Counter target spell.
+{
+  "name": "Foresee",
+  "cost": "1UU",
+  "types": [
+    "Instant"
+  ],
+  "subtypes": [],
+  "supertypes": [],
+  "power": "",
+  "toughness": "",
+  "artist": "",
+  "rule_text": "This card costs U less if you’ve scried this turn.\nCounter target spell.",
+  "flavor_text": ""
+}

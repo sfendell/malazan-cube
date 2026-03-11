@@ -1,6 +1,19 @@
-Dujek Onearm
-Cost: 3W
-Type: Legendary Creature - Malazan Soldier
-P/T: 2/4
-
-Vigilance Whenever you gain life, return target creature with power less than Dujek Onearm from your graveyard to the battlefield. Whenever a creature with power greater than Dujek enters the battlefield, gain 1 life and amass Malazans 1.
+{
+  "name": "Dujek Onearm",
+  "cost": "3W",
+  "types": [
+    "Creature"
+  ],
+  "subtypes": [
+    "Malazan",
+    "Soldier"
+  ],
+  "supertypes": [
+    "Legendary"
+  ],
+  "power": "2",
+  "toughness": "4",
+  "artist": "",
+  "rule_text": "Whenever you gain life, return target creature with power less than Dujek Onearm from your graveyard to the battlefield.\nWhenever a creature with power greater than Dujek enters the battlefield, gain 1 life and amass Malazans 1.",
+  "flavor_text": ""
+}

@@ -1,4 +1,18 @@
-Kurald Emurlahn
-Type: Kindred Land - Elder Warren
-
-This land enters tapped unless you control an Elder Elf. T: Add W, U, or B. WUB, T, Sacrifice this: Elder Elves you control get curiosity until end of turn.
+{
+  "name": "Kurald Emurlahn",
+  "cost": "",
+  "types": [
+    "Kindred",
+    "Land"
+  ],
+  "subtypes": [
+    "Elder",
+    "Warren"
+  ],
+  "supertypes": [],
+  "power": "",
+  "toughness": "",
+  "artist": "",
+  "rule_text": "This land enters tapped unless you control an Elder Elf.\nT: Add W, U, or B.\nWUB, T, Sacrifice this: Elder Elves you control get curiosity until end of turn.",
+  "flavor_text": ""
+}

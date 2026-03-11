@@ -1,5 +1,14 @@
-The Empty Throne
-Cost: 1
-Type: Artifact
-
-Whenever a Treasure enters the battlefield under your control, target creature you control gets +1/+1 until end of turn. 2, Sacrifice a creature: Plunder.
+{
+  "name": "The Empty Throne",
+  "cost": "1",
+  "types": [
+    "Artifact"
+  ],
+  "subtypes": [],
+  "supertypes": [],
+  "power": "",
+  "toughness": "",
+  "artist": "",
+  "rule_text": "Whenever a Treasure enters the battlefield under your control, target creature you control gets +1/+1 until end of turn.\n2, Sacrifice a creature: Plunder.",
+  "flavor_text": ""
+}

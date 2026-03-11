@@ -1,5 +1,14 @@
-Gedderone Fete
-Cost: 2GW
-Type: Sorcery
-
-Draw a card if you control a creature with power four or greater. Draw a card if you control a God. Return target Elder from your graveyard to the battlefield. Distribute three +1/+1 counters among creatures you control. Gain 5 life.
+{
+  "name": "Gedderone Fete",
+  "cost": "2GW",
+  "types": [
+    "Sorcery"
+  ],
+  "subtypes": [],
+  "supertypes": [],
+  "power": "",
+  "toughness": "",
+  "artist": "",
+  "rule_text": "Draw a card if you control a creature with power four or greater. Draw a card if you control a God. Return target Elder from your graveyard to the battlefield. Distribute three +1/+1 counters among creatures you control. Gain 5 life.",
+  "flavor_text": ""
+}

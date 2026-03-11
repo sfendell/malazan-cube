@@ -1,5 +1,16 @@
-Trake’s Torcs
-Cost: 2
-Type: Artifact - Equipment
-
-Equipped creature has +3/-1 and first strike. Equip 1. Activate only if this artifact isn’t equipped.
+{
+  "name": "Trake’s Torcs",
+  "cost": "2",
+  "types": [
+    "Artifact"
+  ],
+  "subtypes": [
+    "Equipment"
+  ],
+  "supertypes": [],
+  "power": "",
+  "toughness": "",
+  "artist": "",
+  "rule_text": "Equipped creature has +3/-1 and .\nEquip 1. Activate only if this artifact isn’t equipped.",
+  "flavor_text": ""
+}

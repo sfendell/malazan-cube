@@ -1,5 +1,17 @@
-The Merchant Tolls
-Cost: WB
-Type: Kindred Enchantment - Merchant
-
-Whenever a creature you control dies, plunder. WB, Sacrifice three Treasure tokens: Draw a card. WB, Sacrifice seven Treasure tokens: Tutor a card to your hand.
+{
+  "name": "The Merchant Tolls",
+  "cost": "WB",
+  "types": [
+    "Kindred",
+    "Enchantment"
+  ],
+  "subtypes": [
+    "Merchant"
+  ],
+  "supertypes": [],
+  "power": "",
+  "toughness": "",
+  "artist": "",
+  "rule_text": "Whenever a creature you control dies, plunder.\nWB, Sacrifice three Treasure tokens: Draw a card.\nWB, Sacrifice seven Treasure tokens: Tutor a card to your hand.",
+  "flavor_text": ""
+}

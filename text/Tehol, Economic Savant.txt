@@ -1,6 +1,19 @@
-Tehol, Economic Savant
-Cost: 3W
-Type: Legendary Creature - Human Merchant
-P/T: */*
-
-If you would create one or more tokens, create twice that many of those tokens instead. Tehol’s power and toughness is equal to the number of Merchants you control plus the number of Treasures you control. 4WB, T: Plunder. This costs 1 less for each other Merchant you control.
+{
+  "name": "Tehol, Economic Savant",
+  "cost": "3W",
+  "types": [
+    "Creature"
+  ],
+  "subtypes": [
+    "Human",
+    "Merchant"
+  ],
+  "supertypes": [
+    "Legendary"
+  ],
+  "power": "*",
+  "toughness": "*",
+  "artist": "Coltaine93",
+  "rule_text": "If you would create one or more tokens, create twice that many of those tokens instead.\nTehol’s power and toughness is equal to the number of Merchants you control plus the number of Treasures you control.\n4WB, T: Plunder. This costs 1 less for each other Merchant you control.",
+  "flavor_text": ""
+}

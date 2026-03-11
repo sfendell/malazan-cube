@@ -1,6 +1,19 @@
-Scillara
-Cost: RR
-Type: Legendary Creature - Human Rebel
-P/T: 1/2
-
-At the beginning of your upkeep, impulse, impulse, then discard a card. R, Sacrifice a land: Until end of turn, you have cunning, and cards you own have mayhem.
+{
+  "name": "Scillara",
+  "cost": "RR",
+  "types": [
+    "Creature"
+  ],
+  "subtypes": [
+    "Human",
+    "Rebel"
+  ],
+  "supertypes": [
+    "Legendary"
+  ],
+  "power": "1",
+  "toughness": "2",
+  "artist": "",
+  "rule_text": "At the beginning of your upkeep, impulse, impulse, then discard a card.\nR, Sacrifice a land: Until end of turn, you have cunning, and cards you own have mayhem.",
+  "flavor_text": ""
+}

@@ -1,5 +1,14 @@
-Quick Ben’s Gambit
-Cost: WUBRG
-Type: Sorcery
-
-When you draft this, add all Souls to your card pool. Exile all Souls from your graveyard and battlefield. Create a */* Malazan Avatar Wizard creature token named Quick Ben with “This has the combined colors, power, toughness, and abilities of all exiled Souls”.
+{
+  "name": "Quick Ben’s Gambit",
+  "cost": "WUBRG",
+  "types": [
+    "Sorcery"
+  ],
+  "subtypes": [],
+  "supertypes": [],
+  "power": "",
+  "toughness": "",
+  "artist": "",
+  "rule_text": "When you draft this, add all Souls to your card pool.\nExile all Souls from your graveyard and battlefield. Create a */* Malazan Avatar Wizard creature token named Quick Ben with “This has the combined colors, power, toughness, and abilities of all exiled Souls”.",
+  "flavor_text": ""
+}

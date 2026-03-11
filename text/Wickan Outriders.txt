@@ -1,6 +1,19 @@
-Wickan Outriders
-Cost: 1RW
-Type: Legendary Creature - Malazan Army
-P/T: 3/3
-
-Other Armies you control get +1/+1. Malazans you control get first strike.
+{
+  "name": "Wickan Outriders",
+  "cost": "1RW",
+  "types": [
+    "Creature"
+  ],
+  "subtypes": [
+    "Malazan",
+    "Army"
+  ],
+  "supertypes": [
+    "Legendary"
+  ],
+  "power": "3",
+  "toughness": "3",
+  "artist": "",
+  "rule_text": "Other Armies you control get +1/+1.\nMalazans you control get .",
+  "flavor_text": ""
+}

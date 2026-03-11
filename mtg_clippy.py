@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 # mtg_clippy: LLM-powered grammar/wording checker for MTG cards.
-# ONLY modifies files in text/ (ability text only; name, cost, type, P/T unchanged).
-# Writes list of changed card names to __generated__/clippy-changed.txt.
+# ONLY modifies files in text/ (rule_text and flavor_text only; other fields unchanged).
+# Reads/writes each .txt as a JSON blob. Writes changed-card list to __generated__/clippy-changed.txt.
 # Requires: OPENAI_API_KEY. Run from repo root.
 
 import json
 import os
-import re
 import sys
+import time
 import urllib.request
 from pathlib import Path
 
@@ -26,37 +26,7 @@ Rules:
 - Use "bleed" instead of "create a blood token".
 - Treat Malazan, Pure, Child, and Alien as valid MTG types.
 
-You will receive only the ability text (rules and optional flavor). Return ONLY the fixed ability text—nothing else. No card name, no Cost/Type/P/T lines, no explanation, no markdown."""
-
-
-def get_header_and_ability(content: str) -> dict:
-    lines = content.replace("\r", "").split("\n")
-    header_end = -1
-    blank_after_header = False
-    for i, line in enumerate(lines):
-        if re.match(r"^(Cost|Type|P/T):", line):
-            continue
-        if re.match(r"^\s*$", line):
-            blank_after_header = True
-            continue
-        if blank_after_header:
-            header_end = i
-            break
-    if header_end < 0:
-        header_end = len(lines)
-    header_lines = lines[:header_end]
-    ability_lines = lines[header_end:]
-    return {
-        "HeaderLines": header_lines,
-        "AbilityText": "\n".join(ability_lines).strip(),
-    }
-
-
-def get_full_card_content(header_lines: list, ability_text: str) -> str:
-    out = [ln.rstrip() for ln in header_lines]
-    for ln in ability_text.split("\n"):
-        out.append(ln.rstrip())
-    return "\n".join(out).rstrip()
+You will receive only the ability text (rules and optional flavor). Return ONLY the fixed ability text—nothing else. No card name, no Cost/Type/P/T lines, no explanation, no markdown. If there is flavor text, put it after a blank line."""
 
 
 def get_clippy_from_llm(ability_text: str) -> str:
@@ -90,38 +60,49 @@ def get_clippy_from_llm(ability_text: str) -> str:
         raise
 
 
+def split_rules_and_flavor(fixed: str) -> tuple:
+    """If fixed has a blank line, last paragraph is flavor; else all rules."""
+    if "\n\n" in fixed:
+        parts = fixed.split("\n\n")
+        rule_text = "\n".join(parts[:-1]).strip()
+        flavor_text = parts[-1].strip()
+        return rule_text, flavor_text
+    return fixed.strip(), ""
+
+
 def main():
     if not TEXT_DIR.exists():
         print(f"Text directory not found: {TEXT_DIR}", file=sys.stderr)
         sys.exit(1)
 
+    GENERATED.mkdir(parents=True, exist_ok=True)
     files = sorted(TEXT_DIR.glob("*.txt"))
     total = len(files)
     changed = []
 
     for n, f in enumerate(files, 1):
-        content = f.read_text(encoding="utf-8")
-        content = content.replace("\r\n", "\n").rstrip()
-        if not content:
+        try:
+            data = json.loads(f.read_text(encoding="utf-8"))
+        except (json.JSONDecodeError, OSError):
             continue
-        parsed = get_header_and_ability(content)
-        ability_only = parsed["AbilityText"]
-        if not ability_only:
+        rule_text = (data.get("rule_text") or "").strip()
+        flavor_text = (data.get("flavor_text") or "").strip()
+        ability = rule_text + ("\n\n" + flavor_text if flavor_text else "")
+        if not ability:
             print(f"[{n}/{total}] {f.name} (no ability text, skip)")
             continue
         print(f"[{n}/{total}] {f.name}...")
-        fixed_ability = get_clippy_from_llm(ability_only)
-        if not fixed_ability:
+        fixed = get_clippy_from_llm(ability)
+        if not fixed:
             continue
-        new_content = get_full_card_content(parsed["HeaderLines"], fixed_ability)
-        orig_norm = content.replace("\r\n", "\n").rstrip()
-        if new_content != orig_norm:
-            f.write_text(new_content + "\n", encoding="utf-8")
-            name = content.split("\n")[0].strip()
-            changed.append(name)
+        new_rule, new_flavor = split_rules_and_flavor(fixed)
+        if new_rule != rule_text or new_flavor != flavor_text:
+            data["rule_text"] = new_rule
+            data["flavor_text"] = new_flavor
+            f.write_text(json.dumps(data, indent=2, ensure_ascii=False), encoding="utf-8")
+            changed.append((data.get("name") or f.stem).strip())
         time.sleep(0.3)
 
-    GENERATED.mkdir(parents=True, exist_ok=True)
     CHANGED_LIST_PATH.write_text("\n".join(changed), encoding="utf-8")
     print(f"mtg_clippy: Processed {total} cards. Changed: {len(changed)}. List: {CHANGED_LIST_PATH}")
 

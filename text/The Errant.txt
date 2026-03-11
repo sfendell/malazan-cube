@@ -1,6 +1,18 @@
-The Errant
-Cost: 2WB
-Type: Legendary Creature - Elder
-P/T: 4/4
-
-Exploit Whenever you sacrifice a a permanent, put a +1/+1 counter on this and flip a coin. If it’s heads, put a +1/+1 counter on another target creature. If it’s tails, bleed. Whenever you discard your fourth card in a turn, this ascends.
+{
+  "name": "The Errant",
+  "cost": "2WB",
+  "types": [
+    "Creature"
+  ],
+  "subtypes": [
+    "Elder"
+  ],
+  "supertypes": [
+    "Legendary"
+  ],
+  "power": "4",
+  "toughness": "4",
+  "artist": "",
+  "rule_text": "Whenever you sacrifice a a permanent, put a +1/+1 counter on this and flip a coin. If it’s heads, put a +1/+1 counter on another target creature. If it’s tails, bleed.\nWhenever you discard your fourth card in a turn, this ascends.",
+  "flavor_text": ""
+}

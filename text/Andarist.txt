@@ -1,6 +1,19 @@
-Andarist
-Cost: 4B
-Type: Legendary Creature - Elder Elf
-P/T: 4/5
-
-Whenever you place the first card on the bottom of your deck in a turn, target creature gets -1/-1 until end of turn. Whenever the fourth card enters your graveyard in a turn, target player loses 3 life and you gain 3 life. XB: Place X cards from your graveyard on the bottom of your deck in a random order. Mill X.
+{
+  "name": "Andarist",
+  "cost": "4B",
+  "types": [
+    "Creature"
+  ],
+  "subtypes": [
+    "Elder",
+    "Elf"
+  ],
+  "supertypes": [
+    "Legendary"
+  ],
+  "power": "4",
+  "toughness": "5",
+  "artist": "",
+  "rule_text": "Whenever you place the first card on the bottom of your deck in a turn, target creature gets -1/-1 until end of turn.\nWhenever the fourth card enters your graveyard in a turn, target player loses 3 life and you gain 3 life.\nXB: Place X cards from your graveyard on the bottom of your deck in a random order. Mill X.",
+  "flavor_text": ""
+}

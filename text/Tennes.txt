@@ -1,4 +1,16 @@
-Tennes
-Type: Land - Warren
-
-This enters the battlefield tapped unless there’s a land in your graveyard. T: Add B or G. T, Exile a land from your graveyard: Add one mana of any color.
+{
+  "name": "Tennes",
+  "cost": "",
+  "types": [
+    "Land"
+  ],
+  "subtypes": [
+    "Warren"
+  ],
+  "supertypes": [],
+  "power": "",
+  "toughness": "",
+  "artist": "",
+  "rule_text": "This enters the battlefield tapped unless there’s a land in your graveyard.\nT: Add B or G.\nT, Exile a land from your graveyard: Add one mana of any color.",
+  "flavor_text": ""
+}

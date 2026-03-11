@@ -1,6 +1,18 @@
-T’lan Warrior
-Cost: 1G
-Type: Creature - Elder Zombie Warrior
-P/T: 0/1
-
-This gets +X/+X, where X is the number of lands in your graveyard. G, Exile a land from your graveyard: Regenerate this.
+{
+  "name": "T’lan Warrior",
+  "cost": "1G",
+  "types": [
+    "Creature"
+  ],
+  "subtypes": [
+    "Elder",
+    "Zombie",
+    "Warrior"
+  ],
+  "supertypes": [],
+  "power": "0",
+  "toughness": "1",
+  "artist": "",
+  "rule_text": "This gets +X/+X, where X is the number of lands in your graveyard.\nG, Exile a land from your graveyard: this.",
+  "flavor_text": ""
+}

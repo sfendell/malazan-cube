@@ -1,4 +1,18 @@
-Burn, Sleeping Goddess
-Type: Legendary Land - Warren
-
-When this enters the battlefield, sacrifice it unless you pay 1. 3WUBRG: This becomes a 6/6 Elder God creature (it’s still a land.) T: Add one mana of any color.
+{
+  "name": "Burn, Sleeping Goddess",
+  "cost": "",
+  "types": [
+    "Land"
+  ],
+  "subtypes": [
+    "Warren"
+  ],
+  "supertypes": [
+    "Legendary"
+  ],
+  "power": "",
+  "toughness": "",
+  "artist": "",
+  "rule_text": "When this enters the battlefield, sacrifice it unless you pay 1.\n3WUBRG: This becomes a 6/6 Elder God creature (it’s still a land.)\nT: Add one mana of any color.",
+  "flavor_text": ""
+}

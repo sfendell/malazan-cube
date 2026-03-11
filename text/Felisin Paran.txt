@@ -1,6 +1,18 @@
-Felisin Paran
-Cost: GUR
-Type: Legendary Creature - Malazan
-P/T: 1/4
-
-Whenever a creature you control dies, deal 1 damage to any creature chosen at random. When Felisin is dealt damage for the third time in a turn, transform her.
+{
+  "name": "Felisin Paran",
+  "cost": "GUR",
+  "types": [
+    "Creature"
+  ],
+  "subtypes": [
+    "Malazan"
+  ],
+  "supertypes": [
+    "Legendary"
+  ],
+  "power": "1",
+  "toughness": "4",
+  "artist": "",
+  "rule_text": "Whenever a creature you control dies, deal 1 damage to any creature chosen at random.\nWhen Felisin is dealt damage for the third time in a turn, transform her.",
+  "flavor_text": ""
+}

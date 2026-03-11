@@ -1,6 +1,19 @@
-The Ribby Snake
-Cost: 1BB
-Type: Legendary Creature - Child Army
-P/T: 1/1
-
-The Ribby Snake gets +X/+X, where X is the number of tokens you control. Whenever a creature you control dies, if it had any counters on it, create X 1/1 white Child creature tokens, where X is the number of counters on it. Otherwise, cook.
+{
+  "name": "The Ribby Snake",
+  "cost": "1BB",
+  "types": [
+    "Creature"
+  ],
+  "subtypes": [
+    "Child",
+    "Army"
+  ],
+  "supertypes": [
+    "Legendary"
+  ],
+  "power": "1",
+  "toughness": "1",
+  "artist": "",
+  "rule_text": "The Ribby Snake gets +X/+X, where X is the number of tokens you control.\nWhenever a creature you control dies, if it had any counters on it, create X 1/1 white Child creature tokens, where X is the number of counters on it. Otherwise, cook.",
+  "flavor_text": ""
+}

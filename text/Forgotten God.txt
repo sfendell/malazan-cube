@@ -1,6 +1,16 @@
-Forgotten God
-Cost: 2BR
-Type: Creature - Elder
-P/T: 3/4
-
-Whenever you sacrifice a creature, bleed. 3B, Sacrifice a creature and pay 1 life: Draw a card. Sacrifice seven Bloods: This ascends.
+{
+  "name": "Forgotten God",
+  "cost": "2BR",
+  "types": [
+    "Creature"
+  ],
+  "subtypes": [
+    "Elder"
+  ],
+  "supertypes": [],
+  "power": "3",
+  "toughness": "4",
+  "artist": "",
+  "rule_text": "Whenever you sacrifice a creature, bleed.\n3B, Sacrifice a creature and pay 1 life: Draw a card.\nSacrifice seven Bloods: This ascends.",
+  "flavor_text": ""
+}

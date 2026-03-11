@@ -1,6 +1,20 @@
-Mallet, 7th squad healer
-Cost: W
-Type: Legendary Creature - Malazan Wizard Soldier
-P/T: 1/1
-
-Lifelink T: Remove a counter from target creature. If it was a -1/-1 counter, gain 2 life.
+{
+  "name": "Mallet, 7th squad healer",
+  "cost": "W",
+  "types": [
+    "Creature"
+  ],
+  "subtypes": [
+    "Malazan",
+    "Wizard",
+    "Soldier"
+  ],
+  "supertypes": [
+    "Legendary"
+  ],
+  "power": "1",
+  "toughness": "1",
+  "artist": "",
+  "rule_text": "T: Remove a counter from target creature. If it was a -1/-1 counter, gain 2 life.",
+  "flavor_text": ""
+}

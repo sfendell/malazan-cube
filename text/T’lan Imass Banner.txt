@@ -1,5 +1,18 @@
-T’lan Imass Banner
-Cost: 2
-Type: Kindred Artifact - Elder Zombie
-
-This enters the battlefield tapped unless there is a land in your graveyard. T: Add R, B, or G. BRG, T, Sacrifice T’lan Imass Banner: Draw a card.
+{
+  "name": "T’lan Imass Banner",
+  "cost": "2",
+  "types": [
+    "Kindred",
+    "Artifact"
+  ],
+  "subtypes": [
+    "Elder",
+    "Zombie"
+  ],
+  "supertypes": [],
+  "power": "",
+  "toughness": "",
+  "artist": "",
+  "rule_text": "This enters the battlefield tapped unless there is a land in your graveyard.\nT: Add R, B, or G.\nBRG, T, Sacrifice T’lan Imass Banner: Draw a card.",
+  "flavor_text": ""
+}

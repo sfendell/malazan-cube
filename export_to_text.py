@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
 # export_to_text: Recreate all files in text/ from the MSE set.
-# Extracts the .mse-set to __generated__, parses the set file, and overwrites text/*.txt.
+# Each file is a single JSON blob with name, cost, types, subtypes, supertypes, power, toughness, artist, rule_text, flavor_text.
+# Extracts the .mse-set to __generated__, parses the set file, overwrites text/*.txt.
 # Run from repo root.
 
+import json
 import re
 import zipfile
 import sys
@@ -16,6 +18,8 @@ EXTRACT_DIR = GENERATED / "mse-extract"
 SET_PATH = EXTRACT_DIR / "set"
 
 BAD_CHARS = r'\/:*?"<>|'
+# MTG supertypes (rest of type line before " - " is types)
+SUPERTYPES = {"Legendary", "Snow", "Basic", "World"}
 
 
 def get_safe_filename(name: str) -> str:
@@ -42,7 +46,7 @@ def strip_mse_markup(s: str, preserve_newlines: bool = False) -> str:
     s = re.sub(r"<[^>]+>", "", s)
     s = s.replace("&amp;", "&").replace("&lt;", "<").replace("&gt;", ">")
     if preserve_newlines:
-        lines = [ " ".join(ln.split()).strip() for ln in s.split("\n") ]
+        lines = [" ".join(ln.split()).strip() for ln in s.split("\n")]
         return "\n".join(ln for ln in lines if ln).strip()
     return " ".join(s.split()).strip()
 
@@ -53,6 +57,20 @@ def strip_type_markup(s: str) -> str:
     s = re.sub(r"<[^>]+>", "", s)
     s = s.replace("&amp;", "&").replace("&lt;", "<").replace("&gt;", ">")
     return " ".join(s.split()).strip()
+
+
+def parse_type_line(super_type: str, sub_type: str) -> tuple:
+    """Return (supertypes, types, subtypes). super_type e.g. 'Legendary Creature', sub_type e.g. 'Elder Elf'."""
+    super_tokens = super_type.strip().split() if super_type else []
+    supertypes = []
+    types = []
+    for t in super_tokens:
+        if t in SUPERTYPES:
+            supertypes.append(t)
+        else:
+            types.append(t)
+    subtypes = sub_type.strip().split() if sub_type else []
+    return supertypes, types, subtypes
 
 
 def parse_set_blocks(content: str):
@@ -109,13 +127,11 @@ def main():
         sys.exit(1)
 
     set_content = SET_PATH.read_text(encoding="utf-8")
-    # Only parse card blocks (skip global set_info/styling before first "card:")
     first_card = set_content.find("\ncard:\n")
     if first_card >= 0:
         set_content = set_content[first_card:]
 
     TEXT_DIR.mkdir(parents=True, exist_ok=True)
-    # Remove existing .txt so we replace the directory contents
     for f in TEXT_DIR.glob("*.txt"):
         f.unlink()
 
@@ -128,28 +144,28 @@ def main():
         cost = card.get("casting_cost", "").strip()
         super_type = strip_type_markup(card.get("super_type", ""))
         sub_type = strip_type_markup(card.get("sub_type", ""))
-        type_line = super_type
-        if sub_type:
-            type_line = f"{super_type} - {sub_type}"
+        supertypes, types, subtypes = parse_type_line(super_type, sub_type)
         power = card.get("power", "").strip()
         toughness = card.get("toughness", "").strip()
-        pt_line = f"{power}/{toughness}" if (power or toughness) else ""
+        artist = card.get("illustrator", "").strip()
         rule_text = strip_mse_markup(card.get("rule_text", ""), preserve_newlines=True)
         flavor_text = strip_mse_markup(card.get("flavor_text", ""))
 
-        body_lines = []
-        if rule_text:
-            body_lines.extend(rule_text.split("\n"))
-        if flavor_text:
-            if body_lines:
-                body_lines.append("")
-            body_lines.append(flavor_text)
-
-        out_lines = [name, f"Cost: {cost}", f"Type: {type_line}", f"P/T: {pt_line}", ""]
-        out_lines.extend(body_lines)
+        blob = {
+            "name": name,
+            "cost": cost,
+            "types": types,
+            "subtypes": subtypes,
+            "supertypes": supertypes,
+            "power": power,
+            "toughness": toughness,
+            "artist": artist,
+            "rule_text": rule_text,
+            "flavor_text": flavor_text,
+        }
         safe_name = get_safe_filename(name)
         txt_path = TEXT_DIR / f"{safe_name}.txt"
-        txt_path.write_text("\n".join(out_lines).rstrip() + "\n", encoding="utf-8")
+        txt_path.write_text(json.dumps(blob, indent=2, ensure_ascii=False), encoding="utf-8")
         count += 1
 
     print(f"Wrote {count} card(s) to {TEXT_DIR}")

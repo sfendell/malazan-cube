@@ -1,6 +1,20 @@
-Logros, the Silent Host
-Cost: 2BG
-Type: Legendary Creature - Elder Zombie Army
-P/T: */*
-
-The Silent Host’s power and toughness are each equal to the number of lands in your graveyard. Whenever this leaves your graveyard or enters it from anywhere, put a +1/+1 counter on target creature you control. Dredge 3
+{
+  "name": "Logros, the Silent Host",
+  "cost": "2BG",
+  "types": [
+    "Creature"
+  ],
+  "subtypes": [
+    "Elder",
+    "Zombie",
+    "Army"
+  ],
+  "supertypes": [
+    "Legendary"
+  ],
+  "power": "*",
+  "toughness": "*",
+  "artist": "",
+  "rule_text": "The Silent Host’s power and toughness are each equal to the number of lands in your graveyard.\nWhenever this leaves your graveyard or enters it from anywhere, put a +1/+1 counter on target creature you control.\nDredge 3",
+  "flavor_text": ""
+}

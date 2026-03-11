@@ -1,6 +1,20 @@
-Spinnock Durav
-Cost: 2UU
-Type: Legendary Creature - Elder Elf Soldier
-P/T: 4/4
-
-Whenever you attack, scry X, where X is the number of attacking Elder Elves you control. Whenever you scry or surveil, if you leave three or more cards on top of your library, draw a card.
+{
+  "name": "Spinnock Durav",
+  "cost": "2UU",
+  "types": [
+    "Creature"
+  ],
+  "subtypes": [
+    "Elder",
+    "Elf",
+    "Soldier"
+  ],
+  "supertypes": [
+    "Legendary"
+  ],
+  "power": "4",
+  "toughness": "4",
+  "artist": "Puck",
+  "rule_text": "Whenever you attack, scry X, where X is the number of attacking Elder Elves you control.\nWhenever you scry or surveil, if you leave three or more cards on top of your library, draw a card.",
+  "flavor_text": ""
+}

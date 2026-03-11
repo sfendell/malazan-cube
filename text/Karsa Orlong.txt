@@ -1,6 +1,20 @@
-Karsa Orlong
-Cost: 3RG
-Type: Legendary Creature - Elder Giant Barbarian
-P/T: 6/6
-
-Trample, Ward 2 Whenever Karsa attacks, choose one that has not yet been chosen: • This fights one target creature. • Destroy target artifact or enchantment. • Until end of turn, this gains “If this would deal combat damage to a player, it deals double that damage instead.” If you can’t, this ascends.
+{
+  "name": "Karsa Orlong",
+  "cost": "3RG",
+  "types": [
+    "Creature"
+  ],
+  "subtypes": [
+    "Elder",
+    "Giant",
+    "Barbarian"
+  ],
+  "supertypes": [
+    "Legendary"
+  ],
+  "power": "6",
+  "toughness": "6",
+  "artist": "u/flyboyelm",
+  "rule_text": ", Ward 2\nWhenever Karsa attacks, choose one that has not yet been chosen:\nThis fights one target creature.\nDestroy target artifact or enchantment.\nUntil end of turn, this gains “If this would deal combat damage to a player, it deals double that damage instead.”\nIf you can’t, this ascends.",
+  "flavor_text": ""
+}

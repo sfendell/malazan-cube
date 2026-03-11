@@ -1,6 +1,17 @@
-Che’Malle Broodmother
-Cost: 4GG
-Type: Creature - Alien Dinosaur
-P/T: 6/6
-
-Other Alien Dinosaurs you control get +1/+1. 8GG: Create a 1/1 blue and green Alien Dinosaur creature. This ability costs 1 less for each counter on a permanent you control.
+{
+  "name": "Che’Malle Broodmother",
+  "cost": "4GG",
+  "types": [
+    "Creature"
+  ],
+  "subtypes": [
+    "Alien",
+    "Dinosaur"
+  ],
+  "supertypes": [],
+  "power": "6",
+  "toughness": "6",
+  "artist": "",
+  "rule_text": "Other Alien Dinosaurs you control get +1/+1.\n8GG: Create a 1/1 blue and green Alien Dinosaur creature. This ability costs 1 less for each counter on a permanent you control.",
+  "flavor_text": ""
+}

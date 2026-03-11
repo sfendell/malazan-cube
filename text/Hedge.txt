@@ -1,6 +1,19 @@
-Hedge
-Cost: 1R
-Type: Legendary Creature - Malazan Sapper
-P/T: 3/1
-
-When this enters the battlefield, create a Cusser. Afterlife 1
+{
+  "name": "Hedge",
+  "cost": "1R",
+  "types": [
+    "Creature"
+  ],
+  "subtypes": [
+    "Malazan",
+    "Sapper"
+  ],
+  "supertypes": [
+    "Legendary"
+  ],
+  "power": "3",
+  "toughness": "1",
+  "artist": "Corporal_nobbs",
+  "rule_text": "When this enters the battlefield, create a Cusser.\nAfterlife 1",
+  "flavor_text": ""
+}

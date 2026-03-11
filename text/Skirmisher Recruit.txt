@@ -1,6 +1,17 @@
-Skirmisher Recruit
-Cost: R
-Type: Creature - Malazan Soldier
-P/T: 2/1
-
-Haste, Enlist
+{
+  "name": "Skirmisher Recruit",
+  "cost": "R",
+  "types": [
+    "Creature"
+  ],
+  "subtypes": [
+    "Malazan",
+    "Soldier"
+  ],
+  "supertypes": [],
+  "power": "2",
+  "toughness": "1",
+  "artist": "",
+  "rule_text": ",",
+  "flavor_text": ""
+}

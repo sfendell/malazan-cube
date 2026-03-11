@@ -1,6 +1,19 @@
-Ganoes, Divine Arbiter
-Cost: 1WW
-Type: Legendary Creature - Malazan Soldier
-P/T: 2/2
-
-Protection from Gods 5W, T: Another target creature ascends. This costs 5 less if it targets a creature you don’t control. 1W, T: Exile target God. Whenever an opponent’s creature ascends, draw a card.
+{
+  "name": "Ganoes, Divine Arbiter",
+  "cost": "1WW",
+  "types": [
+    "Creature"
+  ],
+  "subtypes": [
+    "Malazan",
+    "Soldier"
+  ],
+  "supertypes": [
+    "Legendary"
+  ],
+  "power": "2",
+  "toughness": "2",
+  "artist": "",
+  "rule_text": "Protection from Gods\n5W, T: Another target creature ascends. This costs 5 less if it targets a creature you don’t control.\n1W, T: Exile target God.\nWhenever an opponent’s creature ascends, draw a card.",
+  "flavor_text": ""
+}

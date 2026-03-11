@@ -1,6 +1,19 @@
-Apsalar
-Cost: 1W
-Type: Legendary Creature - Child Assassin
-P/T: 2/2
-
-Vigilance B, T: This gains deathtouch until end of turn. Whenever a creature you control with power one or less dies, draw a card.
+{
+  "name": "Apsalar",
+  "cost": "1W",
+  "types": [
+    "Creature"
+  ],
+  "subtypes": [
+    "Child",
+    "Assassin"
+  ],
+  "supertypes": [
+    "Legendary"
+  ],
+  "power": "2",
+  "toughness": "2",
+  "artist": "Golado",
+  "rule_text": "B, T: This gains until end of turn.\nWhenever a creature you control with power one or less dies, draw a card.",
+  "flavor_text": ""
+}

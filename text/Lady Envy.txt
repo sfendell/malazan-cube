@@ -1,6 +1,20 @@
-Lady Envy
-Cost: BR
-Type: Legendary Creature - Elder God Warlock
-P/T: 2/2
-
-BR, Sacrifice another creature: Destroy target land, or put a +1/+1 counter on this creature. 4UB: Gain control of target creature with power less than or equal to this.
+{
+  "name": "Lady Envy",
+  "cost": "BR",
+  "types": [
+    "Creature"
+  ],
+  "subtypes": [
+    "Elder",
+    "God",
+    "Warlock"
+  ],
+  "supertypes": [
+    "Legendary"
+  ],
+  "power": "2",
+  "toughness": "2",
+  "artist": "u/Chromatic_mediant + OpenAi",
+  "rule_text": "BR, Sacrifice another creature: Destroy target land, or put a +1/+1 counter on this creature.\n4UB: Gain control of target creature with power less than or equal to this.",
+  "flavor_text": ""
+}

@@ -1,5 +1,17 @@
-Mercenary of High House War
-Cost: RR
-Type: Enchantment - Fatid Aura
-
-Enchant non-God creature Enchanted creature cannot attack or block and has â€œWhenever an Army you control deals damage to a player, plunder.â€ and â€œSacrifice a treasure: Until end of turn, this can attack and block and gets +2/+2 and Haste.â€.
+{
+  "name": "Mercenary of High House War",
+  "cost": "RR",
+  "types": [
+    "Enchantment"
+  ],
+  "subtypes": [
+    "Fatid",
+    "Aura"
+  ],
+  "supertypes": [],
+  "power": "",
+  "toughness": "",
+  "artist": "",
+  "rule_text": "Enchant non-God creature\nEnchanted creature cannot attack or block and has “Whenever an Army you control deals damage to a player, plunder.” and “Sacrifice a treasure: Until end of turn, this can attack and block and gets +2/+2 and .”",
+  "flavor_text": ""
+}

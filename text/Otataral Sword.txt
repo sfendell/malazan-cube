@@ -1,5 +1,16 @@
-Otataral Sword
-Cost: 3
-Type: Artifact - Equipment
-
-Equipped creature has +2/+2 and hexproof. Equip 2
+{
+  "name": "Otataral Sword",
+  "cost": "3",
+  "types": [
+    "Artifact"
+  ],
+  "subtypes": [
+    "Equipment"
+  ],
+  "supertypes": [],
+  "power": "",
+  "toughness": "",
+  "artist": "",
+  "rule_text": "Equipped creature has +2/+2 and .\nEquip 2",
+  "flavor_text": ""
+}

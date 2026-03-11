@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # Generate cards.json for GitHub Pages: card list with colors, type, and text for filtering.
-# Reads text/*.txt for metadata and matches exported_cards/*.png. Run from repo root.
+# Reads text/*.txt as JSON blobs; matches exported_cards/*.png. Run from repo root.
 
 import json
 import re
@@ -20,41 +20,41 @@ def get_colors_from_cost(cost: str) -> list:
     return sorted(set(c.upper() for c in cost if c.upper() in WUBRG), key=lambda c: WUBRG.index(c))
 
 
+def type_line_from_json(data: dict) -> str:
+    """Build display type line from supertypes + types - subtypes."""
+    supertypes = data.get("supertypes") or []
+    types = data.get("types") or []
+    subtypes = data.get("subtypes") or []
+    first = " ".join(supertypes + types)
+    second = " ".join(subtypes)
+    if not second:
+        return first
+    return f"{first} - {second}"
+
+
 def main():
     meta = {}
     if TEXT_DIR.exists():
         for f in sorted(TEXT_DIR.glob("*.txt")):
-            content = f.read_text(encoding="utf-8")
-            lines = content.replace("\r", "").rstrip().split("\n")
-            name = lines[0].strip() if lines else ""
-            cost = None
-            type_line = None
-            text_lines = []
-            past_blank = False
-            for i in range(1, len(lines)):
-                line = lines[i]
-                t = line.strip()
-                m = re.match(r"^Cost:\s*(.*)$", line)
-                if m:
-                    cost = m.group(1).strip()
-                    continue
-                m = re.match(r"^Type:\s*(.*)$", line)
-                if m:
-                    type_line = m.group(1).strip()
-                    continue
-                if re.match(r"^P/T:", line):
-                    continue
-                if re.match(r"^\s*$", line):
-                    past_blank = True
-                    continue
-                if past_blank:
-                    text_lines.append(t)
-            colors = get_colors_from_cost(cost or "")
+            try:
+                content = f.read_text(encoding="utf-8")
+                data = json.loads(content)
+            except (json.JSONDecodeError, OSError):
+                continue
+            name = (data.get("name") or "").strip()
+            if not name:
+                continue
+            cost = data.get("cost") or ""
+            type_line = type_line_from_json(data)
+            rule = (data.get("rule_text") or "").strip()
+            flavor = (data.get("flavor_text") or "").strip()
+            text = " ".join([rule, flavor]).strip()
+            colors = get_colors_from_cost(cost)
             color_key = "".join(sorted(colors, key=lambda c: WUBRG.index(c)))
             meta[name] = {
                 "colors": color_key,
-                "typeLine": (type_line or "").strip(),
-                "text": " ".join(text_lines).strip(),
+                "typeLine": type_line,
+                "text": text,
             }
 
     cards = []

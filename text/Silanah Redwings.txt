@@ -1,6 +1,18 @@
-Silanah Redwings
-Cost: 4RR
-Type: Legendary Creature - Dragon
-P/T: 4/4
-
-Flying Whenever this attacks, it deals damage equal to its power to target creature.
+{
+  "name": "Silanah Redwings",
+  "cost": "4RR",
+  "types": [
+    "Creature"
+  ],
+  "subtypes": [
+    "Dragon"
+  ],
+  "supertypes": [
+    "Legendary"
+  ],
+  "power": "4",
+  "toughness": "4",
+  "artist": "",
+  "rule_text": "Whenever this attacks, it deals damage equal to its power to target creature.",
+  "flavor_text": ""
+}

@@ -1,6 +1,19 @@
-Brys Beddict, Royal Finadd
-Cost: 2WW
-Type: Legendary Creature - Human Knight
-P/T: 3/3
-
-Vigilance Other creatures you control get +1/+1 for each equipment attached to them. Brys gets +2/+2 for each equipment attached to him.
+{
+  "name": "Brys Beddict, Royal Finadd",
+  "cost": "2WW",
+  "types": [
+    "Creature"
+  ],
+  "subtypes": [
+    "Human",
+    "Knight"
+  ],
+  "supertypes": [
+    "Legendary"
+  ],
+  "power": "3",
+  "toughness": "3",
+  "artist": "Heathwind",
+  "rule_text": "Other creatures you control get +1/+1 for each equipment attached to them.\nBrys gets +2/+2 for each equipment attached to him.",
+  "flavor_text": ""
+}

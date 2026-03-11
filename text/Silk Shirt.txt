@@ -1,4 +1,17 @@
-Silk Shirt
-Type: Token Artifact - Equipment
-
-Equipped creature gets +1/+1. Equip 1
+{
+  "name": "Silk Shirt",
+  "cost": "",
+  "types": [
+    "Token",
+    "Artifact"
+  ],
+  "subtypes": [
+    "Equipment"
+  ],
+  "supertypes": [],
+  "power": "",
+  "toughness": "",
+  "artist": "",
+  "rule_text": "Equipped creature gets +1/+1.\nEquip 1",
+  "flavor_text": ""
+}

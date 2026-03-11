@@ -1,4 +1,18 @@
-Kurald Liosan
-Type: Kindred Land - Elder Warren
-
-This enters the battlefield tapped if there is more than one color among permanents you control. White creatures you control that are not any other color get +0/+1. T: Add B or W.
+{
+  "name": "Kurald Liosan",
+  "cost": "",
+  "types": [
+    "Kindred",
+    "Land"
+  ],
+  "subtypes": [
+    "Elder",
+    "Warren"
+  ],
+  "supertypes": [],
+  "power": "",
+  "toughness": "",
+  "artist": "",
+  "rule_text": "This enters the battlefield tapped if there is more than one color among permanents you control.\nWhite creatures you control that are not any other color get +0/+1.\nT: Add B or W.",
+  "flavor_text": ""
+}

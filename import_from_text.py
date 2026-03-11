@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 # import_from_text: Build the .mse-set file from text/ and art/.
+# Reads each text/*.txt as a JSON blob (name, cost, types, subtypes, supertypes, power, toughness, artist, rule_text, flavor_text).
 # Uses __generated__/mse-extract for unpacking and repacking. Run from repo root.
 
+import json
 import re
 import shutil
 import zipfile
@@ -27,7 +29,7 @@ def get_safe_filename(name: str) -> str:
 
 
 def type_line_to_mse(super_part: str, sub_part: str) -> tuple:
-    """Return (super_type_value, sub_type_value) with MSE markup."""
+    """Return (super_type_value, sub_type_value) with MSE markup. super_part = ' '.join(supertypes + types), sub_part = ' '.join(subtypes)."""
     super_val = f"<word-list-type-en>{super_part.strip()}</word-list-type-en>" if super_part.strip() else "<word-list-type-en></word-list-type-en>"
     if not sub_part.strip():
         sub_val = ""
@@ -39,74 +41,31 @@ def type_line_to_mse(super_part: str, sub_part: str) -> tuple:
     return super_val, sub_val
 
 
-def escape_mse(s: str) -> str:
-    return s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
-
-
 def parse_text_file(path: Path) -> dict:
+    """Read a .txt file as JSON. Returns dict with name, cost, types, subtypes, supertypes, power, toughness, artist, rule_text, flavor_text."""
     content = path.read_text(encoding="utf-8")
-    lines = content.replace("\r", "").rstrip().split("\n")
-    name = lines[0].strip() if lines else ""
-    cost = ""
-    type_line = ""
-    pt_line = ""
-    power, toughness = "", ""
-    rules = []
-    flavor = []
-    past_header = False
-    blank = False
-    for i in range(1, len(lines)):
-        line = lines[i]
-        t = line.strip()
-        m = re.match(r"^Cost:\s*(.*)$", line)
-        if m:
-            cost = m.group(1).strip()
-            continue
-        m = re.match(r"^Type:\s*(.*)$", line)
-        if m:
-            type_line = m.group(1).strip()
-            continue
-        m = re.match(r"^P/T:\s*(.*)$", line)
-        if m:
-            pt_line = m.group(1).strip()
-            continue
-        if re.match(r"^\s*$", line):
-            blank = True
-            continue
-        if blank and not past_header:
-            past_header = True
-        if not past_header:
-            continue
-        if blank and rules:
-            flavor.append(t)
-        else:
-            rules.append(t)
-    # Type line: "Legendary Creature - Elder Orc Giant" -> super "Legendary Creature", sub "Elder Orc Giant"
-    if " - " in type_line:
-        super_part, sub_part = type_line.split(" - ", 1)
-    else:
-        super_part, sub_part = type_line, ""
-    if pt_line and "/" in pt_line:
-        a, b = pt_line.split("/", 1)
-        power, toughness = a.strip(), b.strip()
+    data = json.loads(content)
+    super_part = " ".join((data.get("supertypes") or []) + (data.get("types") or []))
+    sub_part = " ".join(data.get("subtypes") or [])
     return {
-        "name": name,
-        "cost": cost,
-        "super_part": super_part.strip(),
-        "sub_part": sub_part.strip(),
-        "power": power,
-        "toughness": toughness,
-        "rules": "\n".join(rules),
-        "flavor": " ".join(flavor),
+        "name": (data.get("name") or "").strip(),
+        "cost": (data.get("cost") or "").strip(),
+        "super_part": super_part,
+        "sub_part": sub_part,
+        "power": str(data.get("power") or "").strip(),
+        "toughness": str(data.get("toughness") or "").strip(),
+        "artist": (data.get("artist") or "").strip(),
+        "rule_text": data.get("rule_text") or "",
+        "flavor_text": data.get("flavor_text") or "",
     }
 
 
 def build_card_block(template: dict, card: dict, image_file: str) -> str:
     super_type, sub_type = type_line_to_mse(card["super_part"], card["sub_part"])
-    rule_lines = card["rules"].split("\n") if card["rules"] else []
-    rule_text_val = "\n\t\t".join(rule_lines) if rule_lines else ""
-    flavor_esc = escape_mse(card["flavor"])
-    flavor_val = f"<i-flavor>{flavor_esc}</i-flavor>" if flavor_esc else "<i-flavor></i-flavor>"
+    rule_lines = (card["rule_text"] or "").split("\n") if isinstance(card["rule_text"], str) else []
+    rule_text_val = "\n\t\t".join(ln.strip() for ln in rule_lines if ln.strip())
+    flavor_esc = (card["flavor_text"] or "").replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+    flavor_val = f"<i-flavor>{flavor_esc}</i-flavor>" if flavor_esc.strip() else "<i-flavor></i-flavor>"
 
     block = template.copy()
     block["name"] = card["name"]
@@ -118,13 +77,17 @@ def build_card_block(template: dict, card: dict, image_file: str) -> str:
     block["flavor_text"] = flavor_val
     block["power"] = card["power"]
     block["toughness"] = card["toughness"]
+    block["illustrator"] = card["artist"]
     block["time_modified"] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
+    keys_order = [
+        "has_styling", "notes", "time_created", "time_modified", "name", "casting_cost", "image",
+        "image_2", "mainframe_image", "mainframe_image_2", "super_type", "super_type_2", "super_type_3", "super_type_4",
+        "sub_type", "sub_type_2", "sub_type_3", "sub_type_4", "rule_text", "flavor_text", "power", "toughness",
+        "illustrator", "card_code_text", "card_code_text_2", "card_code_text_3"
+    ]
     lines = []
-    for key in ["has_styling", "notes", "time_created", "time_modified", "name", "casting_cost", "image",
-                "image_2", "mainframe_image", "mainframe_image_2", "super_type", "super_type_2", "super_type_3", "super_type_4",
-                "sub_type", "sub_type_2", "sub_type_3", "sub_type_4", "rule_text", "flavor_text", "power", "toughness",
-                "card_code_text", "card_code_text_2", "card_code_text_3"]:
+    for key in keys_order:
         val = block.get(key, "")
         if key == "rule_text" and val:
             lines.append(f"\trule_text:")
@@ -170,7 +133,7 @@ def parse_set_template(set_content: str) -> tuple:
     # Defaults for optional fields
     for k in ["has_styling", "notes", "time_created", "time_modified", "image_2", "mainframe_image", "mainframe_image_2",
               "super_type_2", "super_type_3", "super_type_4", "sub_type_2", "sub_type_3", "sub_type_4",
-              "card_code_text", "card_code_text_2", "card_code_text_3"]:
+              "illustrator", "card_code_text", "card_code_text_2", "card_code_text_3"]:
         template.setdefault(k, "")
     template.setdefault("time_created", datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
     return header, template

@@ -1,5 +1,16 @@
-Blood-oil addiction
-Cost: B/R
-Type: Enchantment - Aura
-
-Enchant creature At the beginning of combat, put a madness counter on enchanted creature. Enchanted creature gets +1/-1 for each madness counter on it.
+{
+  "name": "Blood-oil addiction",
+  "cost": "B/R",
+  "types": [
+    "Enchantment"
+  ],
+  "subtypes": [
+    "Aura"
+  ],
+  "supertypes": [],
+  "power": "",
+  "toughness": "",
+  "artist": "",
+  "rule_text": "Enchant creature\nAt the beginning of combat, put a madness counter on enchanted creature.\nEnchanted creature gets +1/-1 for each madness counter on it.",
+  "flavor_text": ""
+}

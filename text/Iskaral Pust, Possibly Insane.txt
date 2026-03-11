@@ -1,6 +1,20 @@
-Iskaral Pust, Possibly Insane
-Cost: B
-Type: Legendary Creature - Human Assassin Cleric
-P/T: 2/2
-
-Deathtouch Play with your hand revealed. 3: Manifest this.
+{
+  "name": "Iskaral Pust, Possibly Insane",
+  "cost": "B",
+  "types": [
+    "Creature"
+  ],
+  "subtypes": [
+    "Human",
+    "Assassin",
+    "Cleric"
+  ],
+  "supertypes": [
+    "Legendary"
+  ],
+  "power": "2",
+  "toughness": "2",
+  "artist": "Jamie Mahood",
+  "rule_text": "Play with your hand revealed.\n3: this.",
+  "flavor_text": ""
+}

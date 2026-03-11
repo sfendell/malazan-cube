@@ -1,6 +1,18 @@
-Sorrit, Pureblood Eleint
-Cost: 2WU
-Type: Legendary Creature - Dragon
-P/T: 3/4
-
-Flying, vigilance, first strike, hexproof from instants Dragons you control that are not any other subtypes have vigilance, first strike, and hexproof from instants.
+{
+  "name": "Sorrit, Pureblood Eleint",
+  "cost": "2WU",
+  "types": [
+    "Creature"
+  ],
+  "subtypes": [
+    "Dragon"
+  ],
+  "supertypes": [
+    "Legendary"
+  ],
+  "power": "3",
+  "toughness": "4",
+  "artist": "",
+  "rule_text": ", , , hexproof from instants\nDragons you control that are not any other subtypes have , , and hexproof from instants.",
+  "flavor_text": ""
+}

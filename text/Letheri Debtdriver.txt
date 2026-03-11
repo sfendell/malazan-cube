@@ -1,6 +1,17 @@
-Letheri Debtdriver
-Cost: 2B
-Type: Creature - Human Merchant
-P/T: 3/2
-
-Exploit, extort When this exploits a creature, if it was a Human, draw a card. If it was an Elder, deal 4 damage to all creatures. Otherwise, target opponent loses 2 life and you gain 2 life.
+{
+  "name": "Letheri Debtdriver",
+  "cost": "2B",
+  "types": [
+    "Creature"
+  ],
+  "subtypes": [
+    "Human",
+    "Merchant"
+  ],
+  "supertypes": [],
+  "power": "3",
+  "toughness": "2",
+  "artist": "",
+  "rule_text": ",\nWhen this exploits a creature, if it was a Human, draw a card. If it was an Elder, deal 4 damage to all creatures. Otherwise, target opponent loses 2 life and you gain 2 life.",
+  "flavor_text": ""
+}

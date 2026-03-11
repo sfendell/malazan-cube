@@ -1,4 +1,21 @@
-Grief
-Type: Legendary Kindred Artifact - Elder Elf Equipment
-
-Equipped creature gets +6/+0 and has indestructible. Equip 4
+{
+  "name": "Grief",
+  "cost": "",
+  "types": [
+    "Kindred",
+    "Artifact"
+  ],
+  "subtypes": [
+    "Elder",
+    "Elf",
+    "Equipment"
+  ],
+  "supertypes": [
+    "Legendary"
+  ],
+  "power": "",
+  "toughness": "",
+  "artist": "",
+  "rule_text": "Equipped creature gets +6/+0 and has .\nEquip 4",
+  "flavor_text": ""
+}

@@ -1,6 +1,18 @@
-The Mhybe
-Cost: WW
-Type: Legendary Creature - Human
-P/T: 1/3
-
-At the end of your turn, you may put a -1/-1 counter on this creature. If you do, put two +1/+1 counters on target creature you control.
+{
+  "name": "The Mhybe",
+  "cost": "WW",
+  "types": [
+    "Creature"
+  ],
+  "subtypes": [
+    "Human"
+  ],
+  "supertypes": [
+    "Legendary"
+  ],
+  "power": "1",
+  "toughness": "3",
+  "artist": "",
+  "rule_text": "At the end of your turn, you may put a -1/-1 counter on this creature. If you do, put two +1/+1 counters on target creature you control.",
+  "flavor_text": ""
+}

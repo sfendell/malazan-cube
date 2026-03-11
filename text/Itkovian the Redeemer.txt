@@ -1,6 +1,19 @@
-Itkovian the Redeemer
-Cost: 2GW
-Type: Legendary Creature - Human Warrior
-P/T: 3/3
-
-Whenever a creature goes to any graveyard, you gain 1 life. At the end of your turn, if you gained life this turn, untap all permanents you control. If you gained four or more life, draw a card. If you gained nine or more life, this ascends.
+{
+  "name": "Itkovian the Redeemer",
+  "cost": "2GW",
+  "types": [
+    "Creature"
+  ],
+  "subtypes": [
+    "Human",
+    "Warrior"
+  ],
+  "supertypes": [
+    "Legendary"
+  ],
+  "power": "3",
+  "toughness": "3",
+  "artist": "",
+  "rule_text": "Whenever a creature goes to any graveyard, you gain 1 life.\nAt the end of your turn, if you gained life this turn, untap all permanents you control. If you gained four or more life, draw a card. If you gained nine or more life, this ascends.",
+  "flavor_text": ""
+}

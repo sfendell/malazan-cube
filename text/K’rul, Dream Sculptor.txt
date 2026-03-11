@@ -1,6 +1,19 @@
-K’rul, Dream Sculptor
-Cost: 1UB
-Type: Legendary Creature - Elder God
-P/T: 2/2
-
-Curiosity, Menace At the beginning of your upkeep, exile the top card of your library. Once per turn, you may play any card from exile with mana value less than the number of cards you control in exile.
+{
+  "name": "K’rul, Dream Sculptor",
+  "cost": "1UB",
+  "types": [
+    "Creature"
+  ],
+  "subtypes": [
+    "Elder",
+    "God"
+  ],
+  "supertypes": [
+    "Legendary"
+  ],
+  "power": "2",
+  "toughness": "2",
+  "artist": "",
+  "rule_text": "Curiosity,\nAt the beginning of your upkeep, exile the top card of your library.\nOnce per turn, you may play any card from exile with mana value less than the number of cards you control in exile.",
+  "flavor_text": ""
+}

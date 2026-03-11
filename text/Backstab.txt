@@ -1,5 +1,14 @@
-Backstab
-Cost: 2B
-Type: Sorcery
-
-Destroy target tapped creature. If it had vigilance, its controller loses 4 life.
+{
+  "name": "Backstab",
+  "cost": "2B",
+  "types": [
+    "Sorcery"
+  ],
+  "subtypes": [],
+  "supertypes": [],
+  "power": "",
+  "toughness": "",
+  "artist": "",
+  "rule_text": "Destroy target tapped creature. If it had , its controller loses 4 life.",
+  "flavor_text": ""
+}

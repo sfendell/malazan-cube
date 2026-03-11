@@ -1,5 +1,14 @@
-Silgar’s Punishment
-Cost: 1H/BH/B
-Type: Instant
-
-Target creature gets -5/-4 until end of turn. When it dies this turn, create a 0/1 black Malazan Coward creature token.
+{
+  "name": "Silgar’s Punishment",
+  "cost": "1H/BH/B",
+  "types": [
+    "Instant"
+  ],
+  "subtypes": [],
+  "supertypes": [],
+  "power": "",
+  "toughness": "",
+  "artist": "",
+  "rule_text": "Target creature gets -5/-4 until end of turn. When it dies this turn, create a 0/1 black Malazan Coward creature token.",
+  "flavor_text": ""
+}

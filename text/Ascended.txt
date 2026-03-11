@@ -1,3 +1,12 @@
-Ascended
-
-If the creature ascending is multicolor, choose one option from two different colors it is; If it’s monocolor, choose both options for that color
+{
+  "name": "Ascended",
+  "cost": "",
+  "types": [],
+  "subtypes": [],
+  "supertypes": [],
+  "power": "",
+  "toughness": "",
+  "artist": "",
+  "rule_text": "If the creature ascending is multicolor, choose one option from two different colors it is; If it’s monocolor, choose both options for that color\nWhite: +1/+1 to other creatures OR\nBlue: OR other creatures have curousity\nRed: OR double damage\nGreen: +3/+3 OR creature you control have , , and\nBlack: + OR other creatures you control have afterlife 2 (Whenever that creature dies, create two 1/1 white and black Spirit creature tokens with flying.)",
+  "flavor_text": ""
+}

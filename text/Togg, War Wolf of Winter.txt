@@ -1,6 +1,20 @@
-Togg, War Wolf of Winter
-Cost: 1GUR
-Type: Legendary Creature - Elder Beast God
-P/T: 4/4
-
-Whenever this attacks, if two or more creatures are attacking, Scry 2. If three or more are attacking, deal 3 damage to any target. If four or more are attacking, put four +1/+1 counters on this. If five or more are attacking, this Ascends.
+{
+  "name": "Togg, War Wolf of Winter",
+  "cost": "1GUR",
+  "types": [
+    "Creature"
+  ],
+  "subtypes": [
+    "Elder",
+    "Beast",
+    "God"
+  ],
+  "supertypes": [
+    "Legendary"
+  ],
+  "power": "4",
+  "toughness": "4",
+  "artist": "Viking Mythology Facebook Groupx",
+  "rule_text": "Whenever this attacks, if two or more creatures are attacking, scry 2. If three or more are attacking, deal 3 damage to any target. If four or more are attacking, put four +1/+1 counters on this . If five or more are attacking, this ascends.",
+  "flavor_text": ""
+}

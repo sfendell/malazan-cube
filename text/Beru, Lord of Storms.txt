@@ -1,6 +1,18 @@
-Beru, Lord of Storms
-Cost: 4UR
-Type: Legendary Creature - God
-P/T: 4/4
-
-Prowess, Flying Instants and sorceries you control have mindstorm.
+{
+  "name": "Beru, Lord of Storms",
+  "cost": "4UR",
+  "types": [
+    "Creature"
+  ],
+  "subtypes": [
+    "God"
+  ],
+  "supertypes": [
+    "Legendary"
+  ],
+  "power": "4",
+  "toughness": "4",
+  "artist": "",
+  "rule_text": ",\nInstants and sorceries you control have mindstorm.",
+  "flavor_text": ""
+}

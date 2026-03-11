@@ -1,6 +1,17 @@
-Gu’Rull
-Cost: 1GU
-Type: Creature - Alien Dinosaur
-P/T: 0/1
-
-Flying, evolve Whenever a creature you control evolves, proliferate.
+{
+  "name": "Gu’Rull",
+  "cost": "1GU",
+  "types": [
+    "Creature"
+  ],
+  "subtypes": [
+    "Alien",
+    "Dinosaur"
+  ],
+  "supertypes": [],
+  "power": "0",
+  "toughness": "1",
+  "artist": "Shadaan + Openai",
+  "rule_text": ",\nWhenever a creature you control evolves, .",
+  "flavor_text": ""
+}

@@ -1,5 +1,14 @@
-Drink Toadhoney
-Cost: U
-Type: Instant
-
-Scry 1. Proliferate. Counter up to one target spell with mana value one or less.
+{
+  "name": "Drink Toadhoney",
+  "cost": "U",
+  "types": [
+    "Instant"
+  ],
+  "subtypes": [],
+  "supertypes": [],
+  "power": "",
+  "toughness": "",
+  "artist": "",
+  "rule_text": "Scry 1.\n.\nCounter up to one target spell with mana value one or less.",
+  "flavor_text": ""
+}
