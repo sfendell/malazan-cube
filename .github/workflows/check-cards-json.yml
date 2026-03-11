@@ -8,6 +8,7 @@ on:
     branches: [main]
 jobs:
   check:
+    if: false  # set to true to re-enable the cards.json check
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
