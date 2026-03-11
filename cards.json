@@ -70,11 +70,11 @@
     "text": "Elderstorm (When you cast this, copy this spell for each Elder spell you cast and Elder land you played this turn.)\nDeal three damage to target creature."
   },
   {
-    "name": "Andarist ",
-    "img": "Andarist .png",
-    "colors": "",
-    "typeLine": "",
-    "text": ""
+    "name": "Andarist",
+    "img": "Andarist.png",
+    "colors": "B",
+    "typeLine": "Legendary Creature - Elder Elf",
+    "text": "Whenever you place the first card on the bottom of your deck in a turn, target creature gets -1/-1 until end of turn.\nWhenever the fourth card enters your graveyard in a turn, target player loses 3 life and you gain 3 life.\nXB: Place X cards from your graveyard on the bottom of your deck in a random order. Mill X."
   },
   {
     "name": "Anomander Rake",
@@ -539,8 +539,8 @@
     "text": "Tap an untapped creature you control, Sacrifice this, Kicker R: Deal 1 to any target. If you paid the kicker cost, instead deal 2 damage to any target. (You may pay an additional R as you cast this spell.)"
   },
   {
-    "name": "Cuttle Veteran Sapper ",
-    "img": "Cuttle Veteran Sapper .png",
+    "name": "Cuttle Veteran Sapper",
+    "img": "Cuttle Veteran Sapper.png",
     "colors": "",
     "typeLine": "",
     "text": ""
