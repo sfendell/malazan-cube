@@ -9,6 +9,6 @@
   "power": "",
   "toughness": "",
   "artist": "",
-  "rule_text": "Choose a card type or subtype. Reveal the top 3 cards of your library, then put all cards that match your choice into your and lose that much life.\nFlashback—Sacrifice a creature. ",
+  "rule_text": "Choose a card type or subtype. Reveal the top 3 cards of your library, then put all cards that match your choice into your hand and lose that much life.\nFlashback—Sacrifice a creature. ",
   "flavor_text": ""
 }
