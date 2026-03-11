@@ -14,6 +14,6 @@
   "power": "4",
   "toughness": "4",
   "artist": "",
-  "rule_text": "\nCrew 2\n2U, T: If this doesn’t have flying, put a flying counter on it. Otherwise, put a curiosity counter on it. Activate this ability only if this is a creature.  (Curiosity is “Whenever this creature deals damage to a player, draw a card.”)",
+  "rule_text": "Crew 2\n2U, T: If this doesn’t have flying, put a flying counter on it. Otherwise, put a curiosity counter on it. Activate this ability only if this is a creature.  (Curiosity is “Whenever this creature deals damage to a player, draw a card.”)                  ",
   "flavor_text": ""
 }
