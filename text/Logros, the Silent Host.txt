@@ -15,6 +15,6 @@
   "power": "*",
   "toughness": "*",
   "artist": "",
-  "rule_text": "\nThe Silent Host’s power and toughness are each equal to the number of lands in your graveyard.\nWhenever this leaves your graveyard or enters it from anywhere, put a +1/+1 counter on target creature you control.\nDredge 3",
+  "rule_text": "The Silent Host’s power and toughness are each equal to the number of lands in your graveyard.\nWhenever this leaves your graveyard or enters it from anywhere, put a +1/+1 counter on target creature you control.\nDredge 3",
   "flavor_text": ""
 }

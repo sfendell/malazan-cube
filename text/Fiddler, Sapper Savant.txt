@@ -14,6 +14,6 @@
   "power": "2",
   "toughness": "2",
   "artist": "slaine69",
-  "rule_text": "\nIf an artifact or Sapper you control would deal damage to a player, it deals that much damage plus two instead.\n2R, T, Sacrifice a non-token permanent: Create a Cusser.",
+  "rule_text": "If an artifact or Sapper you control would deal damage to a player, it deals that much damage plus two instead.\n2R, T, Sacrifice a non-token permanent: Create a Cusser.",
   "flavor_text": ""
 }

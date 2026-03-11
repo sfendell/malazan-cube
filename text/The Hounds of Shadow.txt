@@ -14,6 +14,6 @@
   "power": "7",
   "toughness": "7",
   "artist": "",
-  "rule_text": "\nLifelink\nIf this would die, it instead phases out.\n5BB, Sacrifice a Warren: This phases in.",
+  "rule_text": "Lifelink\nIf this would die, it instead phases out.\n5BB, Sacrifice a Warren: This phases in.",
   "flavor_text": ""
 }

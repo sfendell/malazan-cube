@@ -13,6 +13,6 @@
   "power": "3",
   "toughness": "3",
   "artist": "",
-  "rule_text": "\nThis cannot attack or block if it has no  counters on it.\nT: Add one mana of any color. Use this only to cast Alien or artifact spells.\nR/G, T: This fights target creature you control. When it wins the fight, put a +1/+1 counter on it.",
+  "rule_text": "This cannot attack or block if it has no  counters on it.\nT: Add one mana of any color. Use this only to cast Alien or artifact spells.\nR/G, T: This fights target creature you control. When it wins the fight, put a +1/+1 counter on it.",
   "flavor_text": ""
 }

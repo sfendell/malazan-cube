@@ -11,6 +11,6 @@
   "power": "1",
   "toughness": "1",
   "artist": "",
-  "rule_text": "\nFlash\nWhen this enters the battlefield, scry 2.\n1UU, Sacrifice this: Counter target spell or activated ability. Activate this only if you’ve scried this turn.",
+  "rule_text": "Flash\nWhen this enters the battlefield, scry 2.\n1UU, Sacrifice this: Counter target spell or activated ability. Activate this only if you’ve scried this turn.",
   "flavor_text": ""
 }

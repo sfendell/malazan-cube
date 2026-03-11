@@ -9,6 +9,6 @@
   "power": "",
   "toughness": "",
   "artist": "",
-  "rule_text": "\nLandstorm (When you cast this, copy this spell for each land that entered the battlefield under your control this turn.)\nReveal the top card of your library. If it’s a creature, put it into your hand. If it’s a land, put it onto the battlefield. Otherwise, put it on the bottom of your deck.",
+  "rule_text": "Landstorm (When you cast this, copy this spell for each land that entered the battlefield under your control this turn.)\nReveal the top card of your library. If it’s a creature, put it into your hand. If it’s a land, put it onto the battlefield. Otherwise, put it on the bottom of your deck.",
   "flavor_text": ""
 }

@@ -14,6 +14,6 @@
   "power": "",
   "toughness": "",
   "artist": "",
-  "rule_text": "\n2, T: Scry 1, then draw a card.\nAt the end of your turn, lose X life, where X is the number of cards in your hand.",
+  "rule_text": "2, T: Scry 1, then draw a card.\nAt the end of your turn, lose X life, where X is the number of cards in your hand.",
   "flavor_text": ""
 }

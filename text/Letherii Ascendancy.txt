@@ -12,6 +12,6 @@
   "power": "",
   "toughness": "",
   "artist": "",
-  "rule_text": "\nAs long as you control more than two other Treasures or Merchants, creatures you control get +1/+1.\nWhenever you cast a non-enchantment spell, plunder.\nWB, Sacrifice four treasures: Tutor a card to your hand.",
+  "rule_text": "As long as you control more than two other Treasures or Merchants, creatures you control get +1/+1.\nWhenever you cast a non-enchantment spell, plunder.\nWB, Sacrifice four treasures: Tutor a card to your hand.",
   "flavor_text": ""
 }

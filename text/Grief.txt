@@ -16,6 +16,6 @@
   "power": "",
   "toughness": "",
   "artist": "",
-  "rule_text": "\nEquipped creature gets +6/+0 and has indestructible.\nEquip 4",
+  "rule_text": "Equipped creature gets +6/+0 and has indestructible.\nEquip 4",
   "flavor_text": ""
 }

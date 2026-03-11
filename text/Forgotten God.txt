@@ -11,6 +11,6 @@
   "power": "3",
   "toughness": "4",
   "artist": "",
-  "rule_text": "\nWhenever you sacrifice a creature, bleed.\n3B, Sacrifice a creature and pay 1 life: Draw a card.\nSacrifice seven Bloods: This ascends.",
+  "rule_text": "Whenever you sacrifice a creature, bleed.\n3B, Sacrifice a creature and pay 1 life: Draw a card.\nSacrifice seven Bloods: This ascends.",
   "flavor_text": ""
 }

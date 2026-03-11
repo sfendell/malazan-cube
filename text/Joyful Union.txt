@@ -13,6 +13,6 @@
   "power": "3",
   "toughness": "3",
   "artist": "",
-  "rule_text": "\nDeathtouch, lifelink\nWhen Joyful Union dies, create a 2/1 white Scorpion token with lifelink and a 1/2 black Scorpion token with deathtouch.",
+  "rule_text": "Deathtouch, lifelink\nWhen Joyful Union dies, create a 2/1 white Scorpion token with lifelink and a 1/2 black Scorpion token with deathtouch.",
   "flavor_text": ""
 }

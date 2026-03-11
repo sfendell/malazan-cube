@@ -12,6 +12,6 @@
   "power": "4",
   "toughness": "2",
   "artist": "",
-  "rule_text": "\nThis cannot be blocked by creatures with less power that itself.\n1GU, Q: Proliferate.",
+  "rule_text": "This cannot be blocked by creatures with less power that itself.\n1GU, Q: Proliferate.",
   "flavor_text": ""
 }

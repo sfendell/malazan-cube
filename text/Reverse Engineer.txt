@@ -13,6 +13,6 @@
   "power": "",
   "toughness": "",
   "artist": "",
-  "rule_text": "\nPut a curiosity counter on each of up to two target creatures.\nWhenever you draw a card this turn, populate.",
+  "rule_text": "Put a curiosity counter on each of up to two target creatures.\nWhenever you draw a card this turn, populate.",
   "flavor_text": ""
 }

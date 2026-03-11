@@ -9,6 +9,6 @@
   "power": "",
   "toughness": "",
   "artist": "",
-  "rule_text": "\nConvoke\nIf target creature has mana value less than the number of tapped creatures you control, it ascends.",
+  "rule_text": "Convoke\nIf target creature has mana value less than the number of tapped creatures you control, it ascends.",
   "flavor_text": ""
 }

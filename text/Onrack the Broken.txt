@@ -15,6 +15,6 @@
   "power": "3",
   "toughness": "4",
   "artist": "Merlkir",
-  "rule_text": "\nWhen this enters the battlefield, you may mill yourself until you mill two lands.\nYou may play lands from your graveyard and may play an additional land each turn.\nWhenever a land leaves your graveyard, put a +1/+1 counter on a creature you control with power lower than this.",
+  "rule_text": "When this enters the battlefield, you may mill yourself until you mill two lands.\nYou may play lands from your graveyard and may play an additional land each turn.\nWhenever a land leaves your graveyard, put a +1/+1 counter on a creature you control with power lower than this.",
   "flavor_text": ""
 }

@@ -9,6 +9,6 @@
   "power": "",
   "toughness": "",
   "artist": "",
-  "rule_text": "\nSplit second\nEmpty all mana pools. All players sacrifice all artifacts. Deal X damage to any target, where X is the number of artifacts sacrificed this turn.",
+  "rule_text": "Split second\nEmpty all mana pools. All players sacrifice all artifacts. Deal X damage to any target, where X is the number of artifacts sacrificed this turn.",
   "flavor_text": ""
 }

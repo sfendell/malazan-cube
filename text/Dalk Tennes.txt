@@ -13,6 +13,6 @@
   "power": "*",
   "toughness": "*",
   "artist": "",
-  "rule_text": "\nTrample, flying\nDalk’s power and toughness are equal to the number of lands you control.\n2GG: This gets +X/+X, where X is the number of lands in your graveyard.    ",
+  "rule_text": "Trample, flying\nDalk’s power and toughness are equal to the number of lands you control.\n2GG: This gets +X/+X, where X is the number of lands in your graveyard.    ",
   "flavor_text": ""
 }

@@ -9,6 +9,6 @@
   "power": "",
   "toughness": "",
   "artist": "",
-  "rule_text": "\nThis enters the battlefield tapped.\nT: Add one mana of any color.\n2, T, Sacrifice this: Draw a card.",
+  "rule_text": "This enters the battlefield tapped.\nT: Add one mana of any color.\n2, T, Sacrifice this: Draw a card.",
   "flavor_text": ""
 }

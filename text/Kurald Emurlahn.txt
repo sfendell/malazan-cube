@@ -13,6 +13,6 @@
   "power": "",
   "toughness": "",
   "artist": "",
-  "rule_text": "\nThis land enters tapped unless you control an Elder Elf.\nT: Add W, U, or B.\nWUB, T, Sacrifice this: Elder Elves you control get curiosity until end of turn.",
+  "rule_text": "This land enters tapped unless you control an Elder Elf.\nT: Add W, U, or B.\nWUB, T, Sacrifice this: Elder Elves you control get curiosity until end of turn.",
   "flavor_text": ""
 }

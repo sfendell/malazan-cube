@@ -12,6 +12,6 @@
   "power": "",
   "toughness": "",
   "artist": "",
-  "rule_text": "\nEnchant non-God creature\nYou control enchanted creature.\nWhen you control less than two creatures that you own, exile this. ",
+  "rule_text": "Enchant non-God creature\nYou control enchanted creature.\nWhen you control less than two creatures that you own, exile this. ",
   "flavor_text": ""
 }

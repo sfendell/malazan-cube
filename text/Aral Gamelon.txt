@@ -11,6 +11,6 @@
   "power": "",
   "toughness": "",
   "artist": "",
-  "rule_text": "\nThis land enters tapped unless you’ve sacrificed a permanent this turn.\nT: Add R or B.\nWhenever you activate your fourth activated ability in a turn, create a 4/4 black and red Demon Ally.",
+  "rule_text": "This land enters tapped unless you’ve sacrificed a permanent this turn.\nT: Add R or B.\nWhenever you activate your fourth activated ability in a turn, create a 4/4 black and red Demon Ally.",
   "flavor_text": ""
 }

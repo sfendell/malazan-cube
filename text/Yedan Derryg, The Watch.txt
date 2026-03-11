@@ -16,6 +16,6 @@
   "power": "3",
   "toughness": "3",
   "artist": "Jason Dement",
-  "rule_text": "\nW: This gains first strike until end of turn.\n5W: This gains double strike until end of turn.\nWhenever this deals X damage, target creature you control gets lifelink and +X/+X.",
+  "rule_text": "W: This gains first strike until end of turn.\n5W: This gains double strike until end of turn.\nWhenever this deals X damage, target creature you control gets lifelink and +X/+X.",
   "flavor_text": ""
 }

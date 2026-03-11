@@ -14,6 +14,6 @@
   "power": "2",
   "toughness": "2",
   "artist": "",
-  "rule_text": "\nProtection from itself\nCussers you control lose all abilities.\nAt the beginning of your upkeep, create a Cusser artifact token.\nAt the beginning of your end step, sacrifice all artifacts you control.\nWhenever you sacrifice an artifact, you may sacrifice another permanent. If you do, deal three damage to any target. Otherwise, deal three  damage to any target chosen at random.",
+  "rule_text": "Protection from itself\nCussers you control lose all abilities.\nAt the beginning of your upkeep, create a Cusser artifact token.\nAt the beginning of your end step, sacrifice all artifacts you control.\nWhenever you sacrifice an artifact, you may sacrifice another permanent. If you do, deal three damage to any target. Otherwise, deal three  damage to any target chosen at random.",
   "flavor_text": ""
 }

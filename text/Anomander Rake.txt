@@ -16,6 +16,6 @@
   "power": "",
   "toughness": "",
   "artist": "Denitsa Noeva",
-  "rule_text": "\nRake is a 6/* flying creature, where * is his loyalty.\nUntil your next turn, Elder Elves you control have flying and “Whenever this is dealt damage, prevent all but 1 of that damage, then draw cards equal to the damage prevented.”\nReturn two target creatures to their owners hand, then each opponent exiles a card from their hand for each Elder Elf you control.\nExile all non-Elder, non-land permanents. Put all exiled Elder permanents onto the battlefield under your control.",
+  "rule_text": "Rake is a 6/* flying creature, where * is his loyalty.\nUntil your next turn, Elder Elves you control have flying and “Whenever this is dealt damage, prevent all but 1 of that damage, then draw cards equal to the damage prevented.”\nReturn two target creatures to their owners hand, then each opponent exiles a card from their hand for each Elder Elf you control.\nExile all non-Elder, non-land permanents. Put all exiled Elder permanents onto the battlefield under your control.",
   "flavor_text": ""
 }

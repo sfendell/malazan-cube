@@ -11,6 +11,6 @@
   "power": "",
   "toughness": "",
   "artist": "",
-  "rule_text": "\nThis enters the battlefield tapped unless you control exactly one creature.\nWhenever you attack with exactly one creature, if there is a stun counter on an opponents creature, draw a card.\nT: Add W or U.",
+  "rule_text": "This enters the battlefield tapped unless you control exactly one creature.\nWhenever you attack with exactly one creature, if there is a stun counter on an opponents creature, draw a card.\nT: Add W or U.",
   "flavor_text": ""
 }

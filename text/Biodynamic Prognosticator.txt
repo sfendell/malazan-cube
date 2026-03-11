@@ -12,6 +12,6 @@
   "power": "2",
   "toughness": "5",
   "artist": "",
-  "rule_text": "\nEvolve\nWhenever a counter would be placed on this card, you may place a subtype counter of your choice instead.\nRemove a subtype counter from this card: Counter target spell of that subtype.          ",
+  "rule_text": "Evolve\nWhenever a counter would be placed on this card, you may place a subtype counter of your choice instead.\nRemove a subtype counter from this card: Counter target spell of that subtype.          ",
   "flavor_text": ""
 }

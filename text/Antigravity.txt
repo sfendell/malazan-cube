@@ -9,6 +9,6 @@
   "power": "",
   "toughness": "",
   "artist": "",
-  "rule_text": "\nCreatures with flying cannot block creatures without flying.\nCreatures without flying have reach.",
+  "rule_text": "Creatures with flying cannot block creatures without flying.\nCreatures without flying have reach.",
   "flavor_text": ""
 }

@@ -15,6 +15,6 @@
   "power": "1",
   "toughness": "1",
   "artist": "Santiago Lozano",
-  "rule_text": "\nSlow, 3B, T, Tap an untapped Warren you control: Target player discards X cards, where X is 1 plus the number of exiled Souls.\nCreatures can’t phase in.\nWhen this dies, put a Soul you own from outside the game on top of your library.           ",
+  "rule_text": "Slow, 3B, T, Tap an untapped Warren you control: Target player discards X cards, where X is 1 plus the number of exiled Souls.\nCreatures can’t phase in.\nWhen this dies, put a Soul you own from outside the game on top of your library.           ",
   "flavor_text": ""
 }

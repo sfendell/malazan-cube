@@ -15,6 +15,6 @@
   "power": "5",
   "toughness": "5",
   "artist": "Thirteen",
-  "rule_text": "\nFlying\nThis has the abilities of all Dragons you control.\nT, Sacrifice a creature you control, put a -1/-1 counter on this: Create a 4/4 Dragon creature token with flying.              ",
+  "rule_text": "Flying\nThis has the abilities of all Dragons you control.\nT, Sacrifice a creature you control, put a -1/-1 counter on this: Create a 4/4 dragon creature token with flying.              ",
   "flavor_text": ""
 }

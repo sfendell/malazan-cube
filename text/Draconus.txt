@@ -14,6 +14,6 @@
   "power": "5",
   "toughness": "5",
   "artist": "",
-  "rule_text": "\nWhenever a creature you control dies, bleed. This triggers even if this is exiled.\n6W, Exile this: Tutor an equipment to the battlefield.\nSacrifice eight Bloods: Destroy all creatures, then return this to the battlefield from exile.               ",
+  "rule_text": "Whenever a creature you control dies, bleed. This triggers even if this is exiled.\n6W, Exile this: Tutor an equipment to the battlefield.\nSacrifice eight Bloods: Destroy all creatures, then return this to the battlefield from exile.               ",
   "flavor_text": ""
 }

@@ -15,6 +15,6 @@
   "power": "4",
   "toughness": "4",
   "artist": "Puck",
-  "rule_text": "\nWhenever you attack, scry X, where X is the number of attacking Elder Elves you control.\nWhenever you scry or surveil, if you leave three or more cards on top of your library, draw a card.",
+  "rule_text": "Whenever you attack, scry X, where X is the number of attacking Elder Elves you control.\nWhenever you scry or surveil, if you leave three or more cards on top of your library, draw a card.",
   "flavor_text": ""
 }

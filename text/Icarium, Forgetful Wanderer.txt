@@ -15,6 +15,6 @@
   "power": "2",
   "toughness": "2",
   "artist": "",
-  "rule_text": "\nAt the beginning of your end step, pay WU. If you do, put an epiphany counter on this. Otherwise, return this to your hand.\nRemove two epiphany counters from this: Draw two cards.\nT, Slow, Remove four epiphany counters from this, skip your next two turns and discard your hand: Transform this. End the turn.                   ",
+  "rule_text": "At the beginning of your end step, pay WU. If you do, put an epiphany counter on this. Otherwise, return this to your hand.\nRemove two epiphany counters from this: Draw two cards.\nT, Slow, Remove four epiphany counters from this, skip your next two turns and discard your hand: Transform this. End the turn.                   ",
   "flavor_text": ""
 }

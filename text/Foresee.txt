@@ -9,6 +9,6 @@
   "power": "",
   "toughness": "",
   "artist": "",
-  "rule_text": "\nThis card costs U less if you’ve scried this turn.\nCounter target spell.",
+  "rule_text": "This card costs U less if you’ve scried this turn.\nCounter target spell.",
   "flavor_text": ""
 }

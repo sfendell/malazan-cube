@@ -11,6 +11,6 @@
   "power": "1",
   "toughness": "1",
   "artist": "",
-  "rule_text": "\nChildren cannot block.\nWhenever another non-token creature you control dies, create a token that is a copy of this card. This ability triggers only once per turn. (Copies of this card may trigger as well.)",
+  "rule_text": "Children cannot block.\nWhenever another non-token creature you control dies, create a token that is a copy of this card. This ability triggers only once per turn. (Copies of this card may trigger as well.)",
   "flavor_text": ""
 }

@@ -11,6 +11,6 @@
   "power": "2",
   "toughness": "3",
   "artist": "",
-  "rule_text": "\nWhenever an Enchantment enters the battlefield under your control, draw a card.\n2W, T, Slow: Attach target Aura to another permanent it can enchant.\nT: Place a name or subtype counter of your choice on target creature.",
+  "rule_text": "Whenever an Enchantment enters the battlefield under your control, draw a card.\n2W, T, Slow: Attach target Aura to another permanent it can enchant.\nT: Place a name or subtype counter of your choice on target creature.",
   "flavor_text": ""
 }

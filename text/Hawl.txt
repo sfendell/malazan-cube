@@ -15,6 +15,6 @@
   "power": "1",
   "toughness": "3",
   "artist": "",
-  "rule_text": "\nCreatures you control with power less than this have hexproof. \nWhenever you scry, you may switch this creatures power and toughness.",
+  "rule_text": "Creatures you control with power less than this have hexproof. \nWhenever you scry, you may switch this creatures power and toughness.",
   "flavor_text": ""
 }

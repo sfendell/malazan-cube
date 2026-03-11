@@ -12,6 +12,6 @@
   "power": "",
   "toughness": "",
   "artist": "",
-  "rule_text": "\nEnchant player\nEnchanted player’s opponents can equip creatures enchanted player controls.\nEquipped creatures enchanted player control cannot attack or block.\nWhenever an equipped creature enchanted player controls dies, destroy all Equipment attached to it.",
+  "rule_text": "Enchant player\nEnchanted player’s opponents can equip creatures enchanted player controls.\nEquipped creatures enchanted player control cannot attack or block.\nWhenever an equipped creature enchanted player controls dies, destroy all Equipment attached to it.",
   "flavor_text": ""
 }
