@@ -12,6 +12,6 @@
   "power": "1",
   "toughness": "1",
   "artist": "",
-  "rule_text": "Whenever a creature enters the battlefield under your control, plunder.\nT, Sacrifice five treasures: Return target permanent from your graveyard to your hand.",
+  "rule_text": "Whenever a creature enters under your control, plunder.\nT, Sacrifice five treasures: Return target permanent from your graveyard to your hand.",
   "flavor_text": ""
 }

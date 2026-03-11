@@ -11,6 +11,6 @@
   "power": "",
   "toughness": "",
   "artist": "",
-  "rule_text": "Enchant creature\nWhen this enters the battlefield, exile a creature card from your graveyard. If exiled card is a God, enchanted creature ascends.\nEnchanted creature has all abilities of the exiled card.",
+  "rule_text": "Enchant creature\nWhen this enters, exile a creature card from your graveyard. If exiled card is a God, enchanted creature ascends.\nEnchanted creature has all abilities of the exiled card.",
   "flavor_text": ""
 }

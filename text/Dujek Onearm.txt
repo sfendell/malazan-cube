@@ -14,6 +14,6 @@
   "power": "2",
   "toughness": "4",
   "artist": "",
-  "rule_text": "Vigilance\nWhenever you gain life, return target creature with power less than Dujek Onearm from your graveyard to the battlefield.\nWhenever a creature with power greater than Dujek enters the battlefield, gain 1 life and amass Malazans 1.",
+  "rule_text": "Vigilance\nWhenever you gain life, return target creature with power less than Dujek Onearm from your graveyard to the battlefield.\nWhenever a creature with power greater than Dujek enters, gain 1 life and amass Malazans 1.",
   "flavor_text": ""
 }

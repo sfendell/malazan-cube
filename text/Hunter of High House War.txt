@@ -12,6 +12,6 @@
   "power": "",
   "toughness": "",
   "artist": "",
-  "rule_text": "Enchant non-God creature\nWhen this enters the battlefield, enchanted creature fights target creature with a different owner.\nEnchanted creature has “Whenever this wins a fight, deal 3 damage to any target.” and “At the end of your turn, if this attacked, untap it. Otherwise, tap it.”",
+  "rule_text": "Enchant non-God creature\nWhen this enters, enchanted creature fights target creature with a different owner.\nEnchanted creature has “Whenever this wins a fight, deal 3 damage to any target.” and “At the end of your turn, if this attacked, untap it. Otherwise, tap it.”",
   "flavor_text": ""
 }
