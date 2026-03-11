@@ -9,6 +9,6 @@
   "power": "",
   "toughness": "",
   "artist": "",
-  "rule_text": "Freeze all creatures. Then either draw a card or proliferate.",
+  "rule_text": "Exert all creatures. Then either draw a card or proliferate.",
   "flavor_text": ""
 }
