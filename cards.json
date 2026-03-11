@@ -119,13 +119,6 @@
     "text": "Change the text of target spell or permanent by replacing all instances of one creature type with another. The new creature type can’t be Wall."
   },
   {
-    "name": "Ascended",
-    "img": "Ascended.png",
-    "colors": "",
-    "typeLine": "",
-    "text": "If the creature ascending is multicolor, choose one option from two different colors it is; If it’s monocolor, choose both options for that color\nWhite: +1/+1 to other creatures OR indestructible\nBlue: Hexproof OR other creatures have curousity\nRed: Double strike OR double damage\nGreen: +3/+3 OR creature you control have vigilance, trample, and reach\nBlack: Lifelink + deathtouch OR other creatures you control have afterlife 2 (Whenever that creature dies, create two 1/1 white and black Spirit creature tokens with flying.)"
-  },
-  {
     "name": "Ascension to Trake’s Side",
     "img": "Ascension to Trakes Side.png",
     "colors": "R",
@@ -1958,13 +1951,6 @@
     "colors": "W",
     "typeLine": "Instant",
     "text": "Exile any number of target creatures with the same name. For each creature exiled this way, its controller gains one life."
-  },
-  {
-    "name": "Rules",
-    "img": "Rules.png",
-    "colors": "",
-    "typeLine": "",
-    "text": "Impulse X: Exile top X cards of your library. You may play them until end of turn. Move them to gy at end of turn.\nFreeze: Tap, and place a stun counter.\nSlow: Activate only as a sorcery.\nTutor \u0001a card type> to a zone: Search your deck for a card \u0001and show it to your opponent> and put it in the zone. Shuffle your deck after.\nBounce: Return to hand.\nTypal counters: Human, Elf, ess\nplunder: Create a treasure token\n—————-\nElderstorm, battlestorm, mindstorm, landstorm: Special storm sorceries (When you cast this spell, copy it for each spell cast before it this turn. Copies become tokens.)\nTribes: Elder Mummys, Alien Dinosaurs, Gods, Malazans, Sappers, Orcs, Giants\nQuick Thinking: You may cast sorceries as instants. Permanent spells you own in all zones have flash. You may activate slow abilities as if they weren’t slow."
   },
   {
     "name": "Ruse Apprentice",
