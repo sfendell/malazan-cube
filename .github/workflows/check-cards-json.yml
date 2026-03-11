@@ -1,0 +1,25 @@
+# Ensure cards.json is up to date with text/ and exported_cards/.
+# If someone changes text or exported_cards and forgets to run generate_cards_json (or export_to_text / export_to_image), this fails.
+name: Check cards.json
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Generate cards.json
+        run: python generate_cards_json.py
+      - name: Fail if cards.json is stale
+        run: |
+          if [ -n "$(git status --porcelain cards.json)" ]; then
+            echo "::error::cards.json is out of date. Run 'python generate_cards_json.py' (or export_to_text / export_to_image) and commit the updated file."
+            git diff cards.json || true
+            exit 1
+          fi

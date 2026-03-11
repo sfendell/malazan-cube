@@ -170,6 +170,12 @@ def main():
 
     print(f"Wrote {count} card(s) to {TEXT_DIR}")
 
+    # Keep cards.json in sync for the gallery (uses text/ + exported_cards/)
+    gen_json = ROOT / "generate_cards_json.py"
+    if gen_json.exists():
+        import subprocess
+        subprocess.run([sys.executable, str(gen_json)], cwd=str(ROOT), check=True)
+
 
 if __name__ == "__main__":
     main()
