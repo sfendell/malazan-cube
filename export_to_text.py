@@ -85,7 +85,10 @@ def parse_set_blocks(content: str):
             m = re.match(r"^\t([a-z_0-9]+):\s*(.*)$", line)
             if m:
                 if key:
-                    card[key] = "\n".join(value_parts) if value_parts else ""
+                    val = "\n".join(value_parts) if value_parts else ""
+                    if val.startswith("\n"):
+                        val = val[1:]
+                    card[key] = val
                 key = m.group(1)
                 value_parts = [m.group(2)]
             elif key and re.match(r"^\t\t", line):
@@ -94,11 +97,17 @@ def parse_set_blocks(content: str):
                 m2 = re.match(r"^\t([a-z_0-9]+):\s*$", line)
                 if m2:
                     if key:
-                        card[key] = "\n".join(value_parts) if value_parts else ""
+                        val = "\n".join(value_parts) if value_parts else ""
+                        if val.startswith("\n"):
+                            val = val[1:]
+                        card[key] = val
                     key = m2.group(1)
                     value_parts = []
         if key:
-            card[key] = "\n".join(value_parts) if value_parts else ""
+            val = "\n".join(value_parts) if value_parts else ""
+            if val.startswith("\n"):
+                val = val[1:]
+            card[key] = val
         yield card
 
 
