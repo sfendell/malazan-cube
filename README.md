@@ -16,4 +16,4 @@ It's Malazan! Cube of the Fallen! Malazan, Book of the Fallen, but a Cube! MTG c
 * Open mse-set with the mse editor
 * Make whatever changes you feel like
 * Run finalize.py
-* Make PR with all changed files (there should be changes to cards.json, exported_cards, and text, at least)
+* Make PR with all changed files (cards.json, exported_cards/, and the .mse-set if you changed cards)
