@@ -165,10 +165,21 @@
     <div id="loading" class="loading">Loading cards…</div>
     <div id="no-results" class="no-results" style="display:none">No cards match the filters.</div>
     <div id="error" class="error" style="display:none"></div>
+    <div id="file-fallback" class="file-fallback" style="display:none">
+      <p>Loading from <code>file://</code> is blocked by the browser. Load both data files from this folder:</p>
+      <p><label>cards.json <input type="file" id="input-cards" accept=".json"></label></p>
+      <p><label>flip-cards.json <input type="file" id="input-flip" accept=".json"></label></p>
+    </div>
   </div>
+  <style>
+    .file-fallback { max-width: 480px; margin: 2rem auto; padding: 1rem; background: rgba(255,255,255,0.06); border-radius: 8px; }
+    .file-fallback code { background: rgba(0,0,0,0.3); padding: 0.1em 0.3em; border-radius: 4px; }
+    .file-fallback input[type="file"] { margin-left: 0.5rem; }
+  </style>
   <script>
     (function () {
-      var base = location.href.replace(/[^/]*$/, '');
+      var href = location.href.replace(/#.*$/, '').replace(/\?.*$/, '');
+      var base = href.substring(0, href.lastIndexOf('/') + 1);
       var pathParts = location.pathname.split('/').filter(Boolean);
       var repo = pathParts[0] || 'malazan-cube';
       var owner = location.hostname.split('.')[0];
@@ -308,14 +319,51 @@
         });
       }
 
+      /** Normalize for matching: lowercase, strip non-alphanumeric (handles apostrophe/punctuation differences). */
+      function normalizeNameForMatch(s) {
+        if (!s) return '';
+        return String(s).toLowerCase().replace(/[^\w]/g, '');
+      }
+
+      /** Build maps so we can resolve a card name (with or without punctuation) to its img filename. */
+      function buildNameToImg(cards) {
+        var nameToImg = {};
+        var stemToImg = {};
+        var normToImg = {};
+        cards.forEach(function (card) {
+          var n = card.name != null ? card.name : (card.img || '').replace(/\.png$/i, '');
+          var img = card.img != null ? card.img : (card.name || '') + '.png';
+          if (n) nameToImg[n] = img;
+          var stem = img.replace(/\.png$/i, '');
+          if (stem) stemToImg[stem] = img;
+          if (n) normToImg[normalizeNameForMatch(n)] = img;
+          if (stem) normToImg[normalizeNameForMatch(stem)] = img;
+        });
+        return { nameToImg: nameToImg, stemToImg: stemToImg, normToImg: normToImg };
+      }
+
+      function resolveBackImg(backName, lookups) {
+        if (!backName) return backName + '.png';
+        return lookups.nameToImg[backName] || lookups.stemToImg[backName] || lookups.normToImg[normalizeNameForMatch(backName)] || (backName + '.png');
+      }
+
       function renderCards(cards, flipMap) {
         gallery.innerHTML = '';
         noResults.style.display = 'none';
         var list = applyFilters(cards);
+        var backNamesNorm = new Set();
+        if (flipMap && typeof flipMap === 'object') {
+          Object.values(flipMap).forEach(function (v) { backNamesNorm.add(normalizeNameForMatch(v)); });
+        }
+        list = list.filter(function (card) {
+          var name = (card.name != null ? card.name : (card.img || '').replace(/\.png$/i, ''));
+          return !backNamesNorm.has(normalizeNameForMatch(name));
+        });
         if (list.length === 0) {
           noResults.style.display = 'block';
           return;
         }
+        var lookups = buildNameToImg(cards);
         list.sort(function (a, b) {
           var na = (a.name != null ? a.name : a.img || '').replace(/\.png$/i, '');
           var nb = (b.name != null ? b.name : b.img || '').replace(/\.png$/i, '');
@@ -328,7 +376,8 @@
           var backName = flipMap && flipMap[name];
 
           if (backName) {
-            var backSrc = base + 'exported_cards/' + encodeURIComponent(backName + '.png');
+            var backImg = resolveBackImg(backName, lookups);
+            var backSrc = base + 'exported_cards/' + encodeURIComponent(backImg);
             var wrapper = document.createElement('div');
             wrapper.className = 'card-flip-wrapper';
             wrapper.title = name + ' (click to flip)';
@@ -400,6 +449,40 @@
       document.getElementById('type-filter').addEventListener('change', onFilterChange);
       document.getElementById('text-filter').addEventListener('input', onFilterChange);
 
+      function runWithData(cardsData, flipData) {
+        loading.style.display = 'none';
+        document.getElementById('file-fallback').style.display = 'none';
+        errEl.style.display = 'none';
+        allCards = normalizeCards(cardsData);
+        flipCardsMap = flipData && typeof flipData === 'object' ? flipData : {};
+        renderCards(allCards, flipCardsMap);
+      }
+
+      function tryFileFallback() {
+        loading.style.display = 'none';
+        errEl.style.display = 'none';
+        var fallback = document.getElementById('file-fallback');
+        fallback.style.display = 'block';
+        var cardsRes = null;
+        var flipRes = null;
+        function maybeRun() {
+          if (cardsRes != null && flipRes != null) runWithData(cardsRes, flipRes);
+        }
+        function readFile(file, cb) {
+          var r = new FileReader();
+          r.onload = function () { try { cb(JSON.parse(r.result)); } catch (e) { cb(null); } };
+          r.readAsText(file);
+        }
+        document.getElementById('input-cards').onchange = function () {
+          var f = this.files && this.files[0];
+          if (f) readFile(f, function (data) { cardsRes = Array.isArray(data) ? data : null; maybeRun(); });
+        };
+        document.getElementById('input-flip').onchange = function () {
+          var f = this.files && this.files[0];
+          if (f) readFile(f, function (data) { flipRes = data && typeof data === 'object' ? data : null; maybeRun(); });
+        };
+      }
+
       Promise.all([
         fetch('cards.json').then(function (r) {
           if (!r.ok) throw new Error(r.status);
@@ -409,13 +492,14 @@
           return r.ok ? r.json() : {};
         }).catch(function () { return {}; })
       ]).then(function (results) {
-        loading.style.display = 'none';
-        allCards = normalizeCards(results[0]);
-        flipCardsMap = results[1] && typeof results[1] === 'object' ? results[1] : {};
-        renderCards(allCards, flipCardsMap);
+        runWithData(results[0], results[1]);
       }).catch(function () {
-        loading.style.display = 'none';
-        showError('Could not load cards.json. Make sure the file is in the same folder as index.html and you are viewing via GitHub Pages (not file://).');
+        if (location.protocol === 'file:') {
+          tryFileFallback();
+        } else {
+          loading.style.display = 'none';
+          showError('Could not load cards.json. Make sure the file is in the same folder as index.html.');
+        }
       });
     })();
   </script>
