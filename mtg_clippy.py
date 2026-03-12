@@ -10,6 +10,7 @@
 import argparse
 import json
 import os
+import subprocess
 import sys
 import time
 import urllib.request
@@ -161,6 +162,20 @@ def main():
         repack_mse_set(EXTRACT_DIR, MSE_SET_PATH)
     CHANGED_LIST_PATH.write_text("\n".join(changed), encoding="utf-8")
     print(f"mtg_clippy: Processed {processed_count} card(s). Changed: {len(changed)}. List: {CHANGED_LIST_PATH}")
+
+    # If we edited any cards, run finalize so only those cards get new exported images
+    if changed:
+        name_to_collector = {(card.get("name") or "").strip(): index_to_collector[idx] for idx, card in enumerate(cards)}
+        changed_cns = sorted(set(name_to_collector[n] for n in changed if n in name_to_collector))
+        if changed_cns:
+            print(f"\n=== finalize (cards {changed_cns}) ===")
+            r = subprocess.run(
+                [sys.executable, str(ROOT / "finalize.py"), "--cards"] + [str(c) for c in changed_cns],
+                cwd=str(ROOT),
+            )
+            if r.returncode != 0:
+                print("finalize failed.", file=sys.stderr)
+                sys.exit(r.returncode)
 
     # Show before/after, "no edits", or error for each processed card
     print()

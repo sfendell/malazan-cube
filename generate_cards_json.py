@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
 # Generate cards.json for GitHub Pages: card list with colors, type, and text for filtering.
-# Reads the MSE set directly (extracts and parses); matches by order to exported_cards/*.png.
+# Reads the MSE set directly (extracts and parses); matches cards to exported_cards/*.png by name
+# (normalized), not by index, since export order and set-file order can differ.
 # Run from repo root. Called by finalize (after export_to_image).
 
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -30,6 +32,11 @@ def get_colors_from_cost(cost: str) -> list:
     return sorted(set(c.upper() for c in cost if c.upper() in WUBRG), key=lambda c: WUBRG.index(c))
 
 
+def normalize_name(s: str) -> str:
+    """Lowercase, remove non-alphanumeric; for matching card name to image filename stem."""
+    return re.sub(r"[^\w]", "", s).lower()
+
+
 def main():
     if not MSE_SET_PATH.exists():
         print(f"MSE set not found: {MSE_SET_PATH}", file=sys.stderr)
@@ -40,12 +47,21 @@ def main():
     header, cards_content = read_set_content(EXTRACT_DIR)
     parsed = list(parse_set_blocks(cards_content))
 
-    # Build meta from parsed cards (same order as set = same order as exported_cards)
+    # Match images by normalized card name (MSE export filename may differ from set order)
+    image_files = list(EXPORT_DIR.glob("*.png")) if EXPORT_DIR.exists() else []
+    norm_to_img = {}
+    for p in image_files:
+        n = normalize_name(p.stem)
+        if n not in norm_to_img:
+            norm_to_img[n] = p.name
+
     cards = []
-    images = sorted(EXPORT_DIR.glob("*.png"), key=lambda p: p.name) if EXPORT_DIR.exists() else []
-    for i, card in enumerate(parsed):
+    for card in parsed:
         name = (card.get("name") or "").strip()
-        if not name or i >= len(images):
+        if not name:
+            continue
+        img_name = norm_to_img.get(normalize_name(name))
+        if not img_name:
             continue
         cost = (card.get("casting_cost") or "").strip()
         super_type = strip_type_markup(card.get("super_type", ""))
@@ -57,12 +73,13 @@ def main():
         colors = "".join(sorted(get_colors_from_cost(cost), key=lambda c: WUBRG.index(c)))
         cards.append({
             "name": name,
-            "img": images[i].name,
+            "img": img_name,
             "colors": colors,
             "typeLine": type_line,
             "text": text,
         })
 
+    cards.sort(key=lambda c: (c["name"] or "").lower())
     OUT_PATH.write_text(json.dumps(cards, indent=2, ensure_ascii=False), encoding="utf-8")
     print(f"Wrote {len(cards)} card(s) to {OUT_PATH}")
 

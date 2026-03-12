@@ -4,7 +4,7 @@
     "img": "Adept Diviner.png",
     "colors": "U",
     "typeLine": "Creature - Human Wizard",
-    "text": "T: Scry 1.\nWhenever you cast an instant or sorcery, untap this."
+    "text": "T: Scry 1.  \nWhenever you cast an instant or sorcery spell, untap this."
   },
   {
     "name": "Adept Seer",
@@ -35,18 +35,18 @@
     "text": "Exchange control of two target creatures with the same mana value, power, or toughness."
   },
   {
-    "name": "Ampelas Rooted",
-    "img": "Ampelas Rooted.png",
-    "colors": "",
-    "typeLine": "Kindred Artifact - Alien Dinosaur Vehicle",
-    "text": "Crew 2\n2U, T: If this doesn’t have flying, put a flying counter on it. Otherwise, put a curiosity counter on it. Activate this ability only if this is a creature.  (Curiosity is “Whenever this creature deals damage to a player, draw a card.”)"
-  },
-  {
     "name": "Ampelas",
     "img": "Ampelas.png",
     "colors": "BR",
     "typeLine": "Creature - Dragon",
     "text": "Flying\nWhenever you sacrifice a creature, deal 1 damage to any target.\nAfterlife 2"
+  },
+  {
+    "name": "Ampelas Rooted",
+    "img": "Ampelas Rooted.png",
+    "colors": "",
+    "typeLine": "Kindred Artifact - Alien Dinosaur Vehicle",
+    "text": "Crew 2\n2U, T: If this doesn’t have flying, put a flying counter on it. Otherwise, put a curiosity counter on it. Activate this ability only if this is a creature.  (Curiosity is “Whenever this creature deals damage to a player, draw a card.”)"
   },
   {
     "name": "Amphorae of Yghatan",
@@ -266,18 +266,18 @@
     "text": "At the beginning of your upkeep, place a -1/-1 counter on target creature.\n5U/B, T: Proliferate."
   },
   {
-    "name": "Blood-oil addiction",
-    "img": "Blood-oil addiction.png",
-    "colors": "BR",
-    "typeLine": "Enchantment - Aura",
-    "text": "Enchant creature\nAt the beginning of combat, put a madness counter on enchanted creature.\nEnchanted creature gets  +1/-1 for each madness counter on it."
-  },
-  {
     "name": "Blood-oil",
     "img": "Blood-oil.png",
     "colors": "",
     "typeLine": "Artifact - Equipment",
     "text": "Equipped creature must attack each turn if able and gets haste, first strike,  and +1/-1 for each madness counter on this.\nWhenever equipped creature attacks, put a madness counter on this.\nEquip 1"
+  },
+  {
+    "name": "Blood-oil addiction",
+    "img": "Blood-oil addiction.png",
+    "colors": "BR",
+    "typeLine": "Enchantment - Aura",
+    "text": "Enchant creature\nAt the beginning of combat, put a madness counter on enchanted creature.\nEnchanted creature gets  +1/-1 for each madness counter on it."
   },
   {
     "name": "Bluerose Engineering",
@@ -343,18 +343,18 @@
     "text": "Enchant non-God creature\nEnchanted creature loses all other activated abilities and has “T: Add one mana of a color among permanents you control. If you control permanents of all five colors, instead add WUBRG.”"
   },
   {
-    "name": "Burn, Sleeping Goddess",
-    "img": "Burn Sleeping Goddess.png",
-    "colors": "",
-    "typeLine": "Legendary Land - Warren",
-    "text": "When this enters, sacrifice it unless you pay 1.\n3WUBRG: This becomes a 6/6 Elder God creature (it’s still a land.)\nT: Add one mana of any color."
-  },
-  {
     "name": "Burn the Ships",
     "img": "Burn the Ships.png",
     "colors": "BR",
     "typeLine": "Instant",
     "text": "Destroy all tokens and artifacts. Deal X damage to any target, where X is the number of permanents destroyed or sacrificed this turn."
+  },
+  {
+    "name": "Burn, Sleeping Goddess",
+    "img": "Burn Sleeping Goddess.png",
+    "colors": "",
+    "typeLine": "Legendary Land - Warren",
+    "text": "When this enters, sacrifice it unless you pay 1.\n3WUBRG: This becomes a 6/6 Elder God creature (it’s still a land.)\nT: Add one mana of any color."
   },
   {
     "name": "Burn’s Hammer",
@@ -658,13 +658,6 @@
     "text": "Scry 1.\nProliferate.\nCounter up to one target spell with mana value one or less."
   },
   {
-    "name": "D’riss Binding",
-    "img": "Driss Binding.png",
-    "colors": "WG",
-    "typeLine": "Enchantment - Aura",
-    "text": "Enchant target land you control with G in its color identity\nWhen this enters, exile target nonland permanent for as long as this remains on the battlefield."
-  },
-  {
     "name": "Drown",
     "img": "Drown.png",
     "colors": "UB",
@@ -684,6 +677,13 @@
     "colors": "W",
     "typeLine": "Legendary Creature - Malazan Soldier",
     "text": "Vigilance\nWhenever you gain life, return target creature with power less than Dujek Onearm from your graveyard to the battlefield.\nWhenever a creature with power greater than Dujek enters, gain 1 life and amass Malazans 1."
+  },
+  {
+    "name": "D’riss Binding",
+    "img": "Driss Binding.png",
+    "colors": "WG",
+    "typeLine": "Enchantment - Aura",
+    "text": "Enchant target land you control with G in its color identity\nWhen this enters, exile target nonland permanent for as long as this remains on the battlefield."
   },
   {
     "name": "Edgewalker, Border Guardian",
@@ -1033,7 +1033,7 @@
     "img": "Icarium Forgetful Wanderer.png",
     "colors": "WU",
     "typeLine": "Legendary Creature - Elder Orc Giant",
-    "text": "At the beginning of your end step, pay WU. If you do, put an epiphany counter on this. Otherwise, return this to your hand.\nRemove two epiphany counters from this: Draw two cards.\nT, Slow, Remove four epiphany counters from this, skip your next two turns and discard your hand: Transform this. End the turn."
+    "text": "At the beginning of your end step, pay WU. If you do, put an epiphany counter on this. Otherwise, return this to your hand.  \nRemove two epiphany counters from this: Draw two cards.  \nT, Slow, Remove four epiphany counters from this, skip your next two turns, and discard your hand: Transform this. End the turn. \"Knowledge is a burden, but it is one we must bear.\""
   },
   {
     "name": "Ice Age",
@@ -1092,18 +1092,18 @@
     "text": "Hexproof\nT: Add one mana of any color.\n9, T, Exile this card: Put an undrafted card from the cube into your hand. It becomes part of your pool for the rest of the draft."
   },
   {
-    "name": "J’An Sentinel",
-    "img": "JAn Sentinel.png",
-    "colors": "UG",
-    "typeLine": "Creature - Alien Dinosaur",
-    "text": "This cannot be blocked by creatures with less power that itself.\n1GU, Q: Proliferate."
-  },
-  {
     "name": "Joyful Union",
     "img": "Joyful Union.png",
     "colors": "WBG",
     "typeLine": "Legendary Creature - Scorpion",
     "text": "Deathtouch, lifelink\nWhen Joyful Union dies, create a 2/1 white Scorpion token with lifelink and a 1/2 black Scorpion token with deathtouch."
+  },
+  {
+    "name": "J’An Sentinel",
+    "img": "JAn Sentinel.png",
+    "colors": "UG",
+    "typeLine": "Creature - Alien Dinosaur",
+    "text": "This cannot be blocked by creatures with less power that itself.\n1GU, Q: Proliferate."
   },
   {
     "name": "Kadapsala, Insane Tattooist",
@@ -1169,34 +1169,6 @@
     "text": "This enters tapped unless you control a creature with a counter on it.\nWhenever you put a counter on a creature you control, scry 1. This ability triggers only once per turn.\nT: Add U or G."
   },
   {
-    "name": "K’Chain Ascendancy",
-    "img": "KChain Ascendancy.png",
-    "colors": "UG",
-    "typeLine": "Kindred Enchantment - Alien Dinosaur",
-    "text": "Alien Dinosaurs you control get +1/+1.\nCreature tokens you control have evolve. (Evolve stacks.)\nWhenever a creature enters under your control, if it if it has 4 or more power, proliferate."
-  },
-  {
-    "name": "K’Chain Banner",
-    "img": "KChain Banner.png",
-    "colors": "",
-    "typeLine": "Kindred Artifact - Alien Dinosaur",
-    "text": "This enters tapped unless there is a counter on a creature you control.\nT: Add B, U, or G.\nBGU, T, Sacrifice K’Chain Banner: Draw a card."
-  },
-  {
-    "name": "K’Chain Enzymologist",
-    "img": "KChain Enzymologist.png",
-    "colors": "UG",
-    "typeLine": "Creature - Alien Dinosaur Wizard",
-    "text": "Alien Dinosaur cards in your hand have Affinity for Artifacts and Wizards.\nWhenever you scry, put a subtype counter of your choice on target creature."
-  },
-  {
-    "name": "K’Ell Hunter",
-    "img": "KEll Hunter.png",
-    "colors": "G",
-    "typeLine": "Creature - Alien Dinosaur Warrior",
-    "text": "This enters with a haste and trample counter.\nG, Move a counter from this to another creature you control: Regenerate this."
-  },
-  {
     "name": "Kettle, Born of the Azath",
     "img": "Kettle Born of the Azath.png",
     "colors": "B",
@@ -1253,13 +1225,6 @@
     "text": "Whenever a creature card enters your graveyard from anywhere, place a +1/+1 counter on target creature. This ability activates only twice per turn.\nX, Remove X counters among creatures you control: Return target creature with mana value X from your graveyard to the battlefield."
   },
   {
-    "name": "K’rul, Dream Sculptor",
-    "img": "Krul Dream Sculptor.png",
-    "colors": "UB",
-    "typeLine": "Legendary Creature - Elder God",
-    "text": "Curiosity, Menace\nAt the beginning of your upkeep, exile the top card of your library.\nOnce per turn, you may play any card from exile with mana value less than the number of cards you control in exile."
-  },
-  {
     "name": "Kurald Emurlahn",
     "img": "Kurald Emurlahn.png",
     "colors": "",
@@ -1279,6 +1244,41 @@
     "colors": "",
     "typeLine": "Kindred Land - Elder Warren",
     "text": "This enters tapped if there is more than one color among permanents you control.\nWhite creatures you control that are not any other color get +0/+1.\nT: Add B or W."
+  },
+  {
+    "name": "K’Chain Ascendancy",
+    "img": "KChain Ascendancy.png",
+    "colors": "UG",
+    "typeLine": "Kindred Enchantment - Alien Dinosaur",
+    "text": "Alien Dinosaurs you control get +1/+1.\nCreature tokens you control have evolve. (Evolve stacks.)\nWhenever a creature enters under your control, if it if it has 4 or more power, proliferate."
+  },
+  {
+    "name": "K’Chain Banner",
+    "img": "KChain Banner.png",
+    "colors": "",
+    "typeLine": "Kindred Artifact - Alien Dinosaur",
+    "text": "This enters tapped unless there is a counter on a creature you control.\nT: Add B, U, or G.\nBGU, T, Sacrifice K’Chain Banner: Draw a card."
+  },
+  {
+    "name": "K’Chain Enzymologist",
+    "img": "KChain Enzymologist.png",
+    "colors": "UG",
+    "typeLine": "Creature - Alien Dinosaur Wizard",
+    "text": "Alien Dinosaur cards in your hand have Affinity for Artifacts and Wizards.\nWhenever you scry, put a subtype counter of your choice on target creature."
+  },
+  {
+    "name": "K’Ell Hunter",
+    "img": "KEll Hunter.png",
+    "colors": "G",
+    "typeLine": "Creature - Alien Dinosaur Warrior",
+    "text": "This enters with a haste and trample counter.\nG, Move a counter from this to another creature you control: Regenerate this."
+  },
+  {
+    "name": "K’rul, Dream Sculptor",
+    "img": "Krul Dream Sculptor.png",
+    "colors": "UB",
+    "typeLine": "Legendary Creature - Elder God",
+    "text": "Curiosity, Menace\nAt the beginning of your upkeep, exile the top card of your library.\nOnce per turn, you may play any card from exile with mana value less than the number of cards you control in exile."
   },
   {
     "name": "Lady Envy",
@@ -2030,18 +2030,18 @@
     "text": "Enchant Warren you control\nWhen this enters, exile target creature until this leaves the battlefield.\nWhen this leaves the battlefield, return target creature from your graveyard to your hand."
   },
   {
-    "name": "Serc Expulsion",
-    "img": "Serc Expulsion.png",
-    "colors": "U",
-    "typeLine": "Instant",
-    "text": "Behold Serc\nCounter target spell. If you beheld Serc, draw a card."
-  },
-  {
     "name": "Serc",
     "img": "Serc.png",
     "colors": "",
     "typeLine": "Land - Warren",
     "text": "This enters tapped unless you’ve dealt noncombat damage this turn.\nT: Add R, U, or W.\nURW, T, Sacrifice this: Draw a card if a permanent took noncombat damage this turn. Draw a card if a player took combat damage this turn."
+  },
+  {
+    "name": "Serc Expulsion",
+    "img": "Serc Expulsion.png",
+    "colors": "U",
+    "typeLine": "Instant",
+    "text": "Behold Serc\nCounter target spell. If you beheld Serc, draw a card."
   },
   {
     "name": "Sergeant Antsy",
@@ -2058,13 +2058,6 @@
     "text": "Black instant and sorcery cards you own have mayhem.\nWhenever you sacrifice a Blood token during your turn, you may pay 3 life. If you do, this creature phases in.\nWhenever a creature phases in, target player discards a card.\nB, Discard a card: This creature phases out. Bleed."
   },
   {
-    "name": "Sha’ik Reborn",
-    "img": "Shaik Reborn.png",
-    "colors": "",
-    "typeLine": "Legendary Creature - Rebel",
-    "text": "Other Rebels you control get +2/+2.\nXG: Deal X damage to all creatures with flying.\n1U: Target creature gains flying until end of turn."
-  },
-  {
     "name": "Shatter the Moon",
     "img": "Shatter the Moon.png",
     "colors": "WB",
@@ -2077,6 +2070,13 @@
     "colors": "U",
     "typeLine": "Instant",
     "text": "Flip a coin. If it’s heads, counter target spell. Otherwise, draw a card."
+  },
+  {
+    "name": "Sha’ik Reborn",
+    "img": "Shaik Reborn.png",
+    "colors": "",
+    "typeLine": "Legendary Creature - Rebel",
+    "text": "Other Rebels you control get +2/+2.\nXG: Deal X damage to all creatures with flying.\n1U: Target creature gains flying until end of turn."
   },
   {
     "name": "Shi’gal Assassin",
@@ -2275,18 +2275,18 @@
     "text": "When this enters, place a trample or reach counter on another target creature you control.\nT: Add U or G. Put a subtype counter of your choice on target creature."
   },
   {
+    "name": "T'rolbarahl",
+    "img": "Trolbarahl.png",
+    "colors": "G",
+    "typeLine": "Legendary Creature - Beast",
+    "text": "This enters with 7 +1/+1 counters on it.\nWhenever this would be dealt damage, instead remove two counters from it.\nAt the beginning of your upkeep, if this has less than 7 power, put a +1/+1 counter on this."
+  },
+  {
     "name": "Talon’s Machination",
     "img": "Talons Machination.png",
     "colors": "B",
     "typeLine": "Kindred Instant - Assassin",
     "text": "As an additional cost to cast this spell, sacrifice a creature.\nKicker U, kicker R\nDestroy target creature.\nIf you paid U, scry 2.\nIf you paid R, impulse. Then if you paid U, you gain cunning until end of turn."
-  },
-  {
-    "name": "T’amber",
-    "img": "Tamber.png",
-    "colors": "G",
-    "typeLine": "Legendary Creature - Elder Human Advisor",
-    "text": "Vigilance\nThis has power and toughness equal to the number of lands you control plus the number of creatures you control.\n1G, T, Tap an untapped creature with a counter on it you control: Double target creature’s power."
   },
   {
     "name": "Tattersail",
@@ -2310,18 +2310,18 @@
     "text": "If you would create one or more tokens, create twice that many of those tokens instead.\nTehol’s power and toughness is equal to the number of Merchants you control plus the number of Treasures you control.\n4WB, T: Plunder. This costs 1 less for each other Merchant you control."
   },
   {
-    "name": "Tellan Earthrending",
-    "img": "Tellan Earthrending.png",
-    "colors": "G",
-    "typeLine": "Kindred Sorcery - Elder Zombie",
-    "text": "Kicker R, kicker B\nTutor a basic land to your hand.\nIf you paid R, whenever a land enters this turn under your control, deal 2 damage to target creature.\nIf you paid B, whenever an opponent’s creature dies this turn, they lose 2 life. Then if you paid R, you may play an additional land this turn."
-  },
-  {
     "name": "Tellan",
     "img": "Tellan.png",
     "colors": "",
     "typeLine": "Land - Warren",
     "text": "This enters tapped unless at least one player lost life this turn.\nWhenever a creature you control dies, deal 1 damage to any target if there is a land in your graveyard.\nT: Add B, R, or G."
+  },
+  {
+    "name": "Tellan Earthrending",
+    "img": "Tellan Earthrending.png",
+    "colors": "G",
+    "typeLine": "Kindred Sorcery - Elder Zombie",
+    "text": "Kicker R, kicker B\nTutor a basic land to your hand.\nIf you paid R, whenever a land enters this turn under your control, deal 2 damage to target creature.\nIf you paid B, whenever an opponent’s creature dies this turn, they lose 2 life. Then if you paid R, you may play an additional land this turn."
   },
   {
     "name": "Telorast and Curdle",
@@ -2338,18 +2338,18 @@
     "text": "As an additional cost to cast this spell, sacrifice a creature.\nInvestigate, plunder, bleed and cook. Put a +1/+1 counter on up to one target creature."
   },
   {
-    "name": "Tennes Ritual",
-    "img": "Tennes Ritual.png",
-    "colors": "G",
-    "typeLine": "Sorcery",
-    "text": "Tutor three basic lands to the battlefield under your control. Sacrifice them at the end of the turn."
-  },
-  {
     "name": "Tennes",
     "img": "Tennes.png",
     "colors": "",
     "typeLine": "Land - Warren",
     "text": "This enters tapped unless there’s a land in your graveyard.\nT: Add B or G.\nT, Exile a land from your graveyard: Add one mana of any color."
+  },
+  {
+    "name": "Tennes Ritual",
+    "img": "Tennes Ritual.png",
+    "colors": "G",
+    "typeLine": "Sorcery",
+    "text": "Tutor three basic lands to the battlefield under your control. Sacrifice them at the end of the turn."
   },
   {
     "name": "The Chain of Dogs",
@@ -2485,13 +2485,6 @@
     "text": "Whenever a legendary creature enters,  you may put a -1/-1 counter on it and on this.\nWhen this dies, if it had zero power and toughness, target creature ascends."
   },
   {
-    "name": "T’iam",
-    "img": "Tiam.png",
-    "colors": "BR",
-    "typeLine": "Legendary Creature - Elder Dragon God",
-    "text": "Flying\nThis has the abilities of all Dragons you control.\nT, Sacrifice a creature you control, put a -1/-1 counter on this: Create a 4/4 dragon creature token with flying."
-  },
-  {
     "name": "Tiste Ascendancy",
     "img": "Tiste Ascendancy.png",
     "colors": "WUB",
@@ -2504,34 +2497,6 @@
     "colors": "",
     "typeLine": "Kindred Artifact - Elder Elf",
     "text": "This enters tapped unless you have three or more creatures in your graveyard.\nT: Add U, W, or B.\nWUB, T, Sacrifice Tiste Banner: Draw a card."
-  },
-  {
-    "name": "T’lan Ascendancy",
-    "img": "Tlan Ascendancy.png",
-    "colors": "BRG",
-    "typeLine": "Kindred Enchantment - Elder Zombie",
-    "text": "Elder Zombies you control get +1/+1.\nSlow, BRG, Sacrifice a land: Deal 2 damage to any target.\nWhenever a land enters your graveyard from anywhere, create a 2/2 Black, red and green Elder Zombie creature token with Reach."
-  },
-  {
-    "name": "T’lan Imass Banner",
-    "img": "Tlan Imass Banner.png",
-    "colors": "",
-    "typeLine": "Kindred Artifact - Elder Zombie",
-    "text": "This enters tapped unless there is a land in your graveyard.\nT: Add R, B, or G.\nBRG, T, Sacrifice T’lan Imass Banner: Draw a card."
-  },
-  {
-    "name": "T’lan Omenreader",
-    "img": "Tlan Omenreader.png",
-    "colors": "R",
-    "typeLine": "Creature - Elder Zombie",
-    "text": "Whenever an Elder Zombie you control attacks, you may discard a card. If you do, draw a card.\nSpells in your graveyard with mana value less than the number of lands in your graveyard have mayhem."
-  },
-  {
-    "name": "T’lan Warrior",
-    "img": "Tlan Warrior.png",
-    "colors": "G",
-    "typeLine": "Creature - Elder Zombie Warrior",
-    "text": "This gets +X/+X, where X is the number of lands in your graveyard.\nG, Exile a land from your graveyard: Regenerate this."
   },
   {
     "name": "Toc the Unlucky",
@@ -2597,13 +2562,6 @@
     "text": "Tutor a basic land to the battlefield tapped. Create a land token named Eleint Haven with “T: Add 1 mana of any color. Use this only to cast Dragon spells or activate abilities of Dragon permanents.” Gain 1 life for each Dragon in your graveyard."
   },
   {
-    "name": "T'rolbarahl",
-    "img": "Trolbarahl.png",
-    "colors": "G",
-    "typeLine": "Legendary Creature - Beast",
-    "text": "This enters with 7 +1/+1 counters on it.\nWhenever this would be dealt damage, instead remove two counters from it.\nAt the beginning of your upkeep, if this has less than 7 power, put a +1/+1 counter on this."
-  },
-  {
     "name": "Trull Sengar",
     "img": "Trull Sengar.png",
     "colors": "W",
@@ -2623,6 +2581,48 @@
     "colors": "",
     "typeLine": "Kindred Artifact - God",
     "text": "This enters tapped unless you control a permanent you do not own.\nT: Add U, B, or R.\nT, UBR, Sacrifice this: Draw a card."
+  },
+  {
+    "name": "T’amber",
+    "img": "Tamber.png",
+    "colors": "G",
+    "typeLine": "Legendary Creature - Elder Human Advisor",
+    "text": "Vigilance\nThis has power and toughness equal to the number of lands you control plus the number of creatures you control.\n1G, T, Tap an untapped creature with a counter on it you control: Double target creature’s power."
+  },
+  {
+    "name": "T’iam",
+    "img": "Tiam.png",
+    "colors": "BR",
+    "typeLine": "Legendary Creature - Elder Dragon God",
+    "text": "Flying\nThis has the abilities of all Dragons you control.\nT, Sacrifice a creature you control, put a -1/-1 counter on this: Create a 4/4 dragon creature token with flying."
+  },
+  {
+    "name": "T’lan Ascendancy",
+    "img": "Tlan Ascendancy.png",
+    "colors": "BRG",
+    "typeLine": "Kindred Enchantment - Elder Zombie",
+    "text": "Elder Zombies you control get +1/+1.\nSlow, BRG, Sacrifice a land: Deal 2 damage to any target.\nWhenever a land enters your graveyard from anywhere, create a 2/2 Black, red and green Elder Zombie creature token with Reach."
+  },
+  {
+    "name": "T’lan Imass Banner",
+    "img": "Tlan Imass Banner.png",
+    "colors": "",
+    "typeLine": "Kindred Artifact - Elder Zombie",
+    "text": "This enters tapped unless there is a land in your graveyard.\nT: Add R, B, or G.\nBRG, T, Sacrifice T’lan Imass Banner: Draw a card."
+  },
+  {
+    "name": "T’lan Omenreader",
+    "img": "Tlan Omenreader.png",
+    "colors": "R",
+    "typeLine": "Creature - Elder Zombie",
+    "text": "Whenever an Elder Zombie you control attacks, you may discard a card. If you do, draw a card.\nSpells in your graveyard with mana value less than the number of lands in your graveyard have mayhem."
+  },
+  {
+    "name": "T’lan Warrior",
+    "img": "Tlan Warrior.png",
+    "colors": "G",
+    "typeLine": "Creature - Elder Zombie Warrior",
+    "text": "This gets +X/+X, where X is the number of lands in your graveyard.\nG, Exile a land from your graveyard: Regenerate this."
   },
   {
     "name": "Ublala Pung",
