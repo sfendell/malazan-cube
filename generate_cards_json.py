@@ -1,15 +1,27 @@
 #!/usr/bin/env python3
 # Generate cards.json for GitHub Pages: card list with colors, type, and text for filtering.
-# Reads text/*.txt as JSON blobs; matches exported_cards/*.png. Run from repo root.
+# Reads the MSE set directly (extracts and parses); matches cards to exported_cards/*.png by name
+# (normalized), not by index, since export order and set-file order can differ.
+# Run from repo root. Called by finalize (after export_to_image).
 
 import json
 import re
 import sys
 from pathlib import Path
 
+from mse_parse import (
+    EXTRACT_DIR,
+    ROOT,
+    extract_mse_set,
+    read_set_content,
+    parse_set_blocks,
+    strip_mse_markup,
+    strip_type_markup,
+    type_line_display,
+)
+
 WUBRG = list("WUBRG")
-ROOT = Path(__file__).resolve().parent
-TEXT_DIR = ROOT / "text"
+MSE_SET_PATH = ROOT / "Malazan Cube of the Fallen.mse-set"
 EXPORT_DIR = ROOT / "exported_cards"
 OUT_PATH = ROOT / "cards.json"
 
@@ -20,74 +32,56 @@ def get_colors_from_cost(cost: str) -> list:
     return sorted(set(c.upper() for c in cost if c.upper() in WUBRG), key=lambda c: WUBRG.index(c))
 
 
-def type_line_from_json(data: dict) -> str:
-    """Build display type line from supertypes + types - subtypes."""
-    supertypes = data.get("supertypes") or []
-    types = data.get("types") or []
-    subtypes = data.get("subtypes") or []
-    first = " ".join(supertypes + types)
-    second = " ".join(subtypes)
-    if not second:
-        return first
-    return f"{first} - {second}"
-
-
 def normalize_name(s: str) -> str:
-    """Lowercase, remove non-alphanumeric, for matching PNG names to text names."""
+    """Lowercase, remove non-alphanumeric; for matching card name to image filename stem."""
     return re.sub(r"[^\w]", "", s).lower()
 
 
 def main():
-    meta = {}
-    if TEXT_DIR.exists():
-        for f in sorted(TEXT_DIR.glob("*.txt")):
-            try:
-                content = f.read_text(encoding="utf-8")
-                data = json.loads(content)
-            except (json.JSONDecodeError, OSError):
-                continue
-            name = (data.get("name") or "").strip()
-            if not name:
-                continue
-            cost = data.get("cost") or ""
-            type_line = type_line_from_json(data)
-            rule = (data.get("rule_text") or "").strip()
-            flavor = (data.get("flavor_text") or "").strip()
-            text = " ".join([rule, flavor]).strip()
-            colors = get_colors_from_cost(cost)
-            color_key = "".join(sorted(colors, key=lambda c: WUBRG.index(c)))
-            meta[name] = {
-                "colors": color_key,
-                "typeLine": type_line,
-                "text": text,
-            }
+    if not MSE_SET_PATH.exists():
+        print(f"MSE set not found: {MSE_SET_PATH}", file=sys.stderr)
+        sys.exit(1)
 
-    # Fallback: match by normalized name (exported_cards may lack punctuation vs text/)
-    meta_by_normalized = {normalize_name(n): (n, meta[n]) for n in meta}
+    ROOT.joinpath("__generated__").mkdir(parents=True, exist_ok=True)
+    extract_mse_set(MSE_SET_PATH, EXTRACT_DIR)
+    header, cards_content = read_set_content(EXTRACT_DIR)
+    parsed = list(parse_set_blocks(cards_content))
+
+    # Match images by normalized card name (MSE export filename may differ from set order)
+    image_files = list(EXPORT_DIR.glob("*.png")) if EXPORT_DIR.exists() else []
+    norm_to_img = {}
+    for p in image_files:
+        n = normalize_name(p.stem)
+        if n not in norm_to_img:
+            norm_to_img[n] = p.name
 
     cards = []
-    if EXPORT_DIR.exists():
-        for p in sorted(EXPORT_DIR.glob("*.png")):
-            img_name = p.name
-            png_stem = re.sub(r"\.png$", "", img_name, flags=re.I)
-            m = meta.get(png_stem)
-            canonical_name = png_stem
-            if m is None:
-                key_norm = normalize_name(png_stem)
-                if key_norm in meta_by_normalized:
-                    canonical_name, m = meta_by_normalized[key_norm]
-            if m is None:
-                m = {}
-            cards.append({
-                "name": canonical_name,
-                "img": img_name,
-                "colors": m.get("colors", ""),
-                "typeLine": m.get("typeLine", ""),
-                "text": m.get("text", ""),
-            })
+    for card in parsed:
+        name = (card.get("name") or "").strip()
+        if not name:
+            continue
+        img_name = norm_to_img.get(normalize_name(name))
+        if not img_name:
+            continue
+        cost = (card.get("casting_cost") or "").strip()
+        super_type = strip_type_markup(card.get("super_type", ""))
+        sub_type = strip_type_markup(card.get("sub_type", ""))
+        type_line = type_line_display(super_type, sub_type)
+        rule = strip_mse_markup(card.get("rule_text", ""), preserve_newlines=True).strip()
+        flavor = strip_mse_markup(card.get("flavor_text", "")).strip()
+        text = " ".join([rule, flavor]).strip()
+        colors = "".join(sorted(get_colors_from_cost(cost), key=lambda c: WUBRG.index(c)))
+        cards.append({
+            "name": name,
+            "img": img_name,
+            "colors": colors,
+            "typeLine": type_line,
+            "text": text,
+        })
 
+    cards.sort(key=lambda c: (c["name"] or "").lower())
     OUT_PATH.write_text(json.dumps(cards, indent=2, ensure_ascii=False), encoding="utf-8")
-    print(f"Wrote {len(cards)} cards to {OUT_PATH}")
+    print(f"Wrote {len(cards)} card(s) to {OUT_PATH}")
 
 
 if __name__ == "__main__":
