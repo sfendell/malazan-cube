@@ -149,21 +149,60 @@
     .loading { text-align: center; padding: 3rem; }
     .error { text-align: center; padding: 2rem; color: #e88; }
     .no-results { text-align: center; padding: 2rem; opacity: 0.8; }
+    .tabs { display: flex; gap: 0; margin-bottom: 1rem; border-bottom: 1px solid #444; }
+    .tabs button {
+      padding: 0.5rem 1rem;
+      background: transparent;
+      border: none;
+      border-bottom: 2px solid transparent;
+      color: #e0e0e0;
+      font-size: 1rem;
+      cursor: pointer;
+      margin-bottom: -1px;
+    }
+    .tabs button:hover { color: #fff; }
+    .tabs button.active { border-bottom-color: #7eb8da; color: #7eb8da; }
+    .panel { display: none; }
+    .panel.active { display: block; }
+    .card-cell { display: flex; flex-direction: column; align-items: center; width: 100%; max-width: 223px; }
+    .card-cell .card-name {
+      margin-top: 0.35rem;
+      font-size: 0.8rem;
+      text-align: center;
+      color: rgba(255,255,255,0.9);
+      line-height: 1.2;
+      padding: 0 0.15rem;
+    }
+    .card-cell .card-name a { color: inherit; text-decoration: none; }
+    .card-cell .card-name a:hover { text-decoration: underline; }
+    .undraftables-section { margin-bottom: 2rem; }
+    .undraftables-section h3 { margin: 0 0 0.75rem; font-size: 1.1rem; color: rgba(255,255,255,0.9); }
   </style>
 </head>
 <body>
   <div class="page">
     <h1>Malazan Cube of the Fallen</h1>
     <p class="sub">Card gallery · <a id="repo-link" href="#">Repository</a> · <a href="rules/">Rules</a></p>
-    <div class="filters">
-      <label>Color: <select id="color-filter"></select><span id="color-preview" class="color-swatch"></span></label>
-      <label class="checkbox-label"><input type="checkbox" id="color-exact" checked> Match color identity exactly</label>
-      <label>Type: <select id="type-filter"></select></label>
-      <label>Text: <input type="text" id="text-filter" placeholder="Exact text in card…"></label>
+    <div class="tabs">
+      <button type="button" id="tab-draft" class="active">Draft</button>
+      <button type="button" id="tab-undraftables">Undraftables</button>
     </div>
-    <div id="gallery" class="gallery"></div>
-    <div id="loading" class="loading">Loading cards…</div>
-    <div id="no-results" class="no-results" style="display:none">No cards match the filters.</div>
+    <div id="panel-draft" class="panel active">
+      <div class="filters">
+        <label>Color: <select id="color-filter"></select><span id="color-preview" class="color-swatch"></span></label>
+        <label class="checkbox-label"><input type="checkbox" id="color-exact" checked> Match color identity exactly</label>
+        <label>Type: <select id="type-filter"></select></label>
+        <label>Text: <input type="text" id="text-filter" placeholder="Exact text in card…"></label>
+      </div>
+      <div id="gallery" class="gallery"></div>
+      <div id="loading" class="loading">Loading cards…</div>
+      <div id="no-results" class="no-results" style="display:none">No cards match the filters.</div>
+    </div>
+    <div id="panel-undraftables" class="panel">
+      <div id="undraftables-deck" class="undraftables-section"></div>
+      <div id="undraftables-tokens" class="undraftables-section"></div>
+      <div id="undraftables-souls" class="undraftables-section"></div>
+    </div>
     <div id="error" class="error" style="display:none"></div>
     <div id="file-fallback" class="file-fallback" style="display:none">
       <p>Loading from <code>file://</code> is blocked by the browser. Load both data files from this folder:</p>
@@ -347,18 +386,146 @@
         return lookups.nameToImg[backName] || lookups.stemToImg[backName] || lookups.normToImg[normalizeNameForMatch(backName)] || (backName + '.png');
       }
 
+      function isTokenCard(card) {
+        return ((card.typeLine || '').trim().toLowerCase().indexOf('token') === 0);
+      }
+
+      var DECK_OF_DRAGONS_NAMES = [
+        'Builder of High House Life',
+        'Hunter of High House War',
+        'King of High House Death',
+        'Knight of High House Chains',
+        'Magi of High House Chains',
+        'Magi of High House Dark',
+        'Mercenary of High House War',
+        'Priest of High House Light',
+        'Queen of High House Shadow',
+        'Scepter, Orb, and Throne',
+        'The Obelisk',
+        'Weaver of High House Life'
+      ];
+      var QUICK_BENS_SOULS_NAMES = [
+        'Quick Ben, Burn\'s Adept',
+        'Quick Ben, Denul Healer',
+        'Quick Ben, Emurlahn Heretic',
+        'Quick Ben, Hood\'s Disciple',
+        'Quick Ben, Imperial Investigator',
+        'Quick Ben, Ruse Master',
+        'Quick Ben, Squad Mage',
+        'Quick Ben, Tellan Wizard'
+      ];
+
+      function findCardByName(cards, name) {
+        if (!name) return null;
+        var norm = normalizeNameForMatch(name);
+        for (var i = 0; i < cards.length; i++) {
+          var c = cards[i];
+          var n = c.name != null ? c.name : (c.img || '').replace(/\.png$/i, '');
+          if (n === name || normalizeNameForMatch(n) === norm) return c;
+        }
+        return null;
+      }
+
+      function appendCardCell(container, cardEl, displayName, src) {
+        var cell = document.createElement('div');
+        cell.className = 'card-cell';
+        cell.appendChild(cardEl);
+        var caption = document.createElement('div');
+        caption.className = 'card-name';
+        var link = document.createElement('a');
+        link.href = src;
+        link.target = '_blank';
+        link.rel = 'noopener';
+        link.textContent = displayName;
+        caption.appendChild(link);
+        cell.appendChild(caption);
+        container.appendChild(cell);
+      }
+
+      function renderUndraftablesSection(containerId, title, cardNamesOrList, cards, useNamesNotList) {
+        var section = document.getElementById(containerId);
+        section.innerHTML = '';
+        var h3 = document.createElement('h3');
+        h3.textContent = title;
+        section.appendChild(h3);
+        var gal = document.createElement('div');
+        gal.className = 'gallery';
+        section.appendChild(gal);
+        var items = useNamesNotList ? cardNamesOrList : cardNamesOrList;
+        if (useNamesNotList) {
+          for (var i = 0; i < items.length; i++) {
+            var card = findCardByName(cards, items[i]);
+            if (!card) continue;
+            var imgName = card.img != null ? card.img : (card.name || '') + '.png';
+            var src = base + 'exported_cards/' + encodeURIComponent(imgName);
+            var displayName = card.name != null ? card.name : imgName.replace(/\.png$/i, '');
+            var a = document.createElement('a');
+            a.className = 'card';
+            a.href = src;
+            a.target = '_blank';
+            a.rel = 'noopener';
+            a.title = displayName;
+            var img = document.createElement('img');
+            img.src = src;
+            img.loading = 'lazy';
+            img.alt = displayName;
+            a.appendChild(img);
+            appendCardCell(gal, a, displayName, src);
+          }
+        } else {
+          items.forEach(function (card) {
+            var imgName = card.img != null ? card.img : (card.name || '') + '.png';
+            var src = base + 'exported_cards/' + encodeURIComponent(imgName);
+            var displayName = card.name != null ? card.name : imgName.replace(/\.png$/i, '');
+            var a = document.createElement('a');
+            a.className = 'card';
+            a.href = src;
+            a.target = '_blank';
+            a.rel = 'noopener';
+            a.title = displayName;
+            var img = document.createElement('img');
+            img.src = src;
+            img.loading = 'lazy';
+            img.alt = displayName;
+            a.appendChild(img);
+            appendCardCell(gal, a, displayName, src);
+          });
+        }
+      }
+
       function renderCards(cards, flipMap) {
+        var deckSection = document.getElementById('undraftables-deck');
+        var tokensSection = document.getElementById('undraftables-tokens');
+        var soulsSection = document.getElementById('undraftables-souls');
         gallery.innerHTML = '';
         noResults.style.display = 'none';
-        var list = applyFilters(cards);
+
         var backNamesNorm = new Set();
         if (flipMap && typeof flipMap === 'object') {
           Object.values(flipMap).forEach(function (v) { backNamesNorm.add(normalizeNameForMatch(v)); });
         }
+        var undraftableNamesNorm = new Set(backNamesNorm);
+        DECK_OF_DRAGONS_NAMES.forEach(function (n) { undraftableNamesNorm.add(normalizeNameForMatch(n)); });
+        QUICK_BENS_SOULS_NAMES.forEach(function (n) { undraftableNamesNorm.add(normalizeNameForMatch(n)); });
+
+        var list = applyFilters(cards);
         list = list.filter(function (card) {
+          if (isTokenCard(card)) return false;
           var name = (card.name != null ? card.name : (card.img || '').replace(/\.png$/i, ''));
-          return !backNamesNorm.has(normalizeNameForMatch(name));
+          return !undraftableNamesNorm.has(normalizeNameForMatch(name));
         });
+
+        var tokenList = cards.filter(isTokenCard);
+        tokenList.sort(function (a, b) {
+          var na = (a.name != null ? a.name : a.img || '').replace(/\.png$/i, '');
+          var nb = (b.name != null ? b.name : b.img || '').replace(/\.png$/i, '');
+          return na.localeCompare(nb, undefined, { sensitivity: 'base' });
+        });
+
+        renderUndraftablesSection('undraftables-deck', 'Deck of Dragons', DECK_OF_DRAGONS_NAMES, cards, true);
+        renderUndraftablesSection('undraftables-tokens', 'Tokens', tokenList, cards, false);
+        renderUndraftablesSection('undraftables-souls', 'Quick Ben\'s Souls', QUICK_BENS_SOULS_NAMES, cards, true);
+
         if (list.length === 0) {
           noResults.style.display = 'block';
           return;
@@ -373,6 +540,7 @@
           var imgName = card.img != null ? card.img : (typeof card === 'string' ? card : card.name + '.png');
           var src = base + 'exported_cards/' + encodeURIComponent(imgName);
           var name = (card.name != null ? card.name : imgName).replace(/\.png$/i, '');
+          var displayName = card.name != null ? card.name : name;
           var backName = flipMap && flipMap[name];
 
           if (backName) {
@@ -392,10 +560,10 @@
             front.appendChild(frontImg);
             var back = document.createElement('div');
             back.className = 'card-flip-back';
-            var backImg = document.createElement('img');
-            backImg.src = backSrc;
-            backImg.alt = backName;
-            back.appendChild(backImg);
+            var backImgEl = document.createElement('img');
+            backImgEl.src = backSrc;
+            backImgEl.alt = backName;
+            back.appendChild(backImgEl);
             var overlay = document.createElement('div');
             overlay.className = 'card-flip-overlay';
             overlay.innerHTML = 'FLIP OVER <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/></svg>';
@@ -407,7 +575,7 @@
               e.preventDefault();
               wrapper.classList.toggle('flipped');
             });
-            gallery.appendChild(wrapper);
+            appendCardCell(gallery, wrapper, displayName, src);
           } else {
             var a = document.createElement('a');
             a.className = 'card';
@@ -420,7 +588,7 @@
             img.loading = 'lazy';
             img.alt = name;
             a.appendChild(img);
-            gallery.appendChild(a);
+            appendCardCell(gallery, a, displayName, src);
           }
         });
       }
@@ -448,6 +616,19 @@
       document.getElementById('color-exact').addEventListener('change', onFilterChange);
       document.getElementById('type-filter').addEventListener('change', onFilterChange);
       document.getElementById('text-filter').addEventListener('input', onFilterChange);
+
+      document.getElementById('tab-draft').addEventListener('click', function () {
+        document.getElementById('tab-draft').classList.add('active');
+        document.getElementById('tab-undraftables').classList.remove('active');
+        document.getElementById('panel-draft').classList.add('active');
+        document.getElementById('panel-undraftables').classList.remove('active');
+      });
+      document.getElementById('tab-undraftables').addEventListener('click', function () {
+        document.getElementById('tab-undraftables').classList.add('active');
+        document.getElementById('tab-draft').classList.remove('active');
+        document.getElementById('panel-undraftables').classList.add('active');
+        document.getElementById('panel-draft').classList.remove('active');
+      });
 
       function runWithData(cardsData, flipData) {
         loading.style.display = 'none';
