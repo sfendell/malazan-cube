@@ -78,6 +78,74 @@
       height: auto;
       vertical-align: middle;
     }
+    .card-flip-wrapper {
+      position: relative;
+      display: block;
+      width: 100%;
+      max-width: 223px;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+      cursor: pointer;
+      transition: transform 0.15s ease, box-shadow 0.15s ease;
+      perspective: 800px;
+    }
+    .card-flip-wrapper:hover {
+      transform: scale(1.03);
+      box-shadow: 0 6px 20px rgba(0,0,0,0.5);
+    }
+    .card-flip-inner {
+      position: relative;
+      width: 100%;
+      padding-bottom: 140%;
+      transition: transform 0.5s ease;
+      transform-style: preserve-3d;
+    }
+    .card-flip-wrapper.flipped .card-flip-inner {
+      transform: rotateY(180deg);
+    }
+    .card-flip-front,
+    .card-flip-back {
+      position: absolute;
+      inset: 0;
+      backface-visibility: hidden;
+      -webkit-backface-visibility: hidden;
+    }
+    .card-flip-front img,
+    .card-flip-back img {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      object-position: top;
+    }
+    .card-flip-back {
+      transform: rotateY(180deg);
+    }
+    .card-flip-overlay {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      padding: 0.4rem 0.5rem;
+      background: linear-gradient(transparent, rgba(0,0,0,0.85));
+      color: #fff;
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.03em;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.35rem;
+      pointer-events: none;
+      z-index: 2;
+    }
+    .card-flip-overlay svg {
+      width: 14px;
+      height: 14px;
+      flex-shrink: 0;
+    }
     .loading { text-align: center; padding: 3rem; }
     .error { text-align: center; padding: 2rem; color: #e88; }
     .no-results { text-align: center; padding: 2rem; opacity: 0.8; }
@@ -240,7 +308,7 @@
         });
       }
 
-      function renderCards(cards) {
+      function renderCards(cards, flipMap) {
         gallery.innerHTML = '';
         noResults.style.display = 'none';
         var list = applyFilters(cards);
@@ -257,18 +325,54 @@
           var imgName = card.img != null ? card.img : (typeof card === 'string' ? card : card.name + '.png');
           var src = base + 'exported_cards/' + encodeURIComponent(imgName);
           var name = (card.name != null ? card.name : imgName).replace(/\.png$/i, '');
-          var a = document.createElement('a');
-          a.className = 'card';
-          a.href = src;
-          a.target = '_blank';
-          a.rel = 'noopener';
-          a.title = name;
-          var img = document.createElement('img');
-          img.src = src;
-          img.loading = 'lazy';
-          img.alt = name;
-          a.appendChild(img);
-          gallery.appendChild(a);
+          var backName = flipMap && flipMap[name];
+
+          if (backName) {
+            var backSrc = base + 'exported_cards/' + encodeURIComponent(backName + '.png');
+            var wrapper = document.createElement('div');
+            wrapper.className = 'card-flip-wrapper';
+            wrapper.title = name + ' (click to flip)';
+            var inner = document.createElement('div');
+            inner.className = 'card-flip-inner';
+            var front = document.createElement('div');
+            front.className = 'card-flip-front';
+            var frontImg = document.createElement('img');
+            frontImg.src = src;
+            frontImg.loading = 'lazy';
+            frontImg.alt = name;
+            front.appendChild(frontImg);
+            var back = document.createElement('div');
+            back.className = 'card-flip-back';
+            var backImg = document.createElement('img');
+            backImg.src = backSrc;
+            backImg.alt = backName;
+            back.appendChild(backImg);
+            var overlay = document.createElement('div');
+            overlay.className = 'card-flip-overlay';
+            overlay.innerHTML = 'FLIP OVER <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/></svg>';
+            inner.appendChild(front);
+            inner.appendChild(back);
+            wrapper.appendChild(inner);
+            wrapper.appendChild(overlay);
+            wrapper.addEventListener('click', function (e) {
+              e.preventDefault();
+              wrapper.classList.toggle('flipped');
+            });
+            gallery.appendChild(wrapper);
+          } else {
+            var a = document.createElement('a');
+            a.className = 'card';
+            a.href = src;
+            a.target = '_blank';
+            a.rel = 'noopener';
+            a.title = name;
+            var img = document.createElement('img');
+            img.src = src;
+            img.loading = 'lazy';
+            img.alt = name;
+            a.appendChild(img);
+            gallery.appendChild(a);
+          }
         });
       }
 
@@ -286,29 +390,33 @@
       fillColorFilter();
       fillTypeFilter();
       var allCards = [];
+      var flipCardsMap = {};
 
       function onFilterChange() {
-        renderCards(allCards);
+        renderCards(allCards, flipCardsMap);
       }
       document.getElementById('color-filter').addEventListener('change', onFilterChange);
       document.getElementById('color-exact').addEventListener('change', onFilterChange);
       document.getElementById('type-filter').addEventListener('change', onFilterChange);
       document.getElementById('text-filter').addEventListener('input', onFilterChange);
 
-      fetch('cards.json')
-        .then(function (r) {
+      Promise.all([
+        fetch('cards.json').then(function (r) {
           if (!r.ok) throw new Error(r.status);
           return r.json();
-        })
-        .then(function (data) {
-          loading.style.display = 'none';
-          allCards = normalizeCards(data);
-          renderCards(allCards);
-        })
-        .catch(function () {
-          loading.style.display = 'none';
-          showError('Could not load cards.json. Make sure the file is in the same folder as index.html and you are viewing via GitHub Pages (not file://).');
-        });
+        }),
+        fetch('flip-cards.json').then(function (r) {
+          return r.ok ? r.json() : {};
+        }).catch(function () { return {}; })
+      ]).then(function (results) {
+        loading.style.display = 'none';
+        allCards = normalizeCards(results[0]);
+        flipCardsMap = results[1] && typeof results[1] === 'object' ? results[1] : {};
+        renderCards(allCards, flipCardsMap);
+      }).catch(function () {
+        loading.style.display = 'none';
+        showError('Could not load cards.json. Make sure the file is in the same folder as index.html and you are viewing via GitHub Pages (not file://).');
+      });
     })();
   </script>
 </body>

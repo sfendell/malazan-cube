@@ -1124,7 +1124,7 @@
     "img": "Kadapsalas Revenge.png",
     "colors": "U",
     "typeLine": "Sorcery",
-    "text": "Improvise, Behold an Elder Elf\nSacrifice all artifacts you control. Create an X/X Child God artifact creature token, where X is the number of permanents sacrificed this way. If you beheld and elder elf, it gains indestructible."
+    "text": "Improvise, Behold an Elder Elf\nSacrifice all artifacts you control. Create an X/X Child God artifact creature token, where X is the number of permanents sacrificed this way. If you beheld an Elder Elf, it gains indestructible."
   },
   {
     "name": "Kalam Mekhar",
@@ -1474,7 +1474,7 @@
     "img": "Mercenary of High House War.png",
     "colors": "R",
     "typeLine": "Enchantment - Fatid Aura",
-    "text": "Enchant non-God creature\nEnchanted creature cannot attack or block and has “Whenever an Army you control deals damage to a player, plunder.” and “Sacrifice a treasure: Until end of turn, this can attack and block and gets +2/+2 and haste.”"
+    "text": "Enchant non-God creature\nEnchanted creature cannot attack or block and has “Whenever an Army you control deals damage to a player, plunder.” and “Sacrifice a Treasure: Until end of turn, this can attack and block and gets +2/+2 and haste.”"
   },
   {
     "name": "Military Ascendancy",
