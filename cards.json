@@ -81,7 +81,7 @@
     "img": "Anomander Rake.png",
     "colors": "WUB",
     "typeLine": "Legendary Planeswalker Creature - Elder Elf Rake",
-    "text": "Rake is a 6/* flying creature, where * is his loyalty.\nUntil your next turn, Elder Elves you control have flying and “Whenever this is dealt damage, prevent all but 1 of that damage, then draw cards equal to the damage prevented.”\nReturn two target creatures to their owners hand, then each opponent exiles a card from their hand for each Elder Elf you control.\nExile all non-Elder, non-land permanents. Put all exiled Elder permanents onto the battlefield under your control."
+    "text": "Rake is a 6/* flying creature, where * is his loyalty.\nUntil your next turn, Elder Elves you control have flying and “Whenever this is dealt damage from anything besides a creature attacking it, prevent all but 1 of that damage, then draw cards equal to the damage prevented.”\nReturn two target creatures to their owners hand, then each opponent exiles a card from their hand for each Elder Elf you control.\nExile all non-Elder non-land permanents. Put all exiled Elder permanents onto the battlefield under your control."
   },
   {
     "name": "Antigravity",
@@ -634,7 +634,7 @@
     "img": "Dragnipur.png",
     "colors": "",
     "typeLine": "Legendary Artifact - Equipment",
-    "text": "Equip 6\nEquipped creature gets “T: Exile another target creature until this leaves the battlefield.”\nAt the beginning of your upkeep, if this is equipped, deal X damage to any target and X damage to equipped creature, where X is the number of cards exiled with this. When this kills the equipped creature, you lose the game."
+    "text": "Equip 5\nEquipped creature gets “T: Exile another target creature until Dragnipur leaves the battlefield.”\nAt the beginning of your upkeep, if this is equipped, deal X damage to any target and X damage to equipped creature, where X is the number of cards exiled with this. When this kills the equipped creature, you lose the game."
   },
   {
     "name": "Dragon’s Fire",
@@ -735,6 +735,13 @@
     "text": "This cannot attack or block if it has no  counters on it.\nT: Add one mana of any color. Use this only to cast Alien or artifact spells.\nR/G, T: This fights target creature you control. When it wins the fight, put a +1/+1 counter on it."
   },
   {
+    "name": "Excavate",
+    "img": "Excavate.png",
+    "colors": "G",
+    "typeLine": "Instant",
+    "text": "Return all lands from your graveyard to your hand. Target creature gets +X/+X, where X is the number of cards returned this way."
+  },
+  {
     "name": "Explore the Warrens",
     "img": "Explore the Warrens.png",
     "colors": "G",
@@ -767,7 +774,7 @@
     "img": "Felisin Paran.png",
     "colors": "URG",
     "typeLine": "Legendary Creature - Malazan",
-    "text": "Whenever a creature you control dies, deal 1 damage to any creature chosen at random.\n\nWhen Felisin is dealt damage for the third time in a turn, transform her."
+    "text": "Whenever a creature you control dies, deal 1 damage to any creature chosen at random.\nWhen Felisin is dealt damage for the third time in a turn, transform her."
   },
   {
     "name": "Fener, Manifested",
