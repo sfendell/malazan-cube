@@ -1,3 +1,4 @@
 # Generated / intermediary files
 __generated__/
 __temp_scripts__/
+__pycache__/

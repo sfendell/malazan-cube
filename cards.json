@@ -4,7 +4,7 @@
     "img": "Adept Diviner.png",
     "colors": "U",
     "typeLine": "Creature - Human Wizard",
-    "text": "T: Scry 1.  \nWhenever you cast an instant or sorcery spell, untap this."
+    "text": "T: Scry 1.  \nWhenever you cast an instant or sorcery, untap this."
   },
   {
     "name": "Adept Seer",
@@ -123,7 +123,7 @@
     "img": "Ascension to Trakes Side.png",
     "colors": "R",
     "typeLine": "Enchantment",
-    "text": "Whenever anything is dealt damage or dies, put a blood counter on this. If it was sacrificed, put an additional blood counter on this.\nRemove 5 blood counters from this: Destroy target artifact or nonbasic land.\nRemove 10 blood counters from this: Amass 4.\nRemove 20 blood counters from this: Create eight 2/1 Red Cat Human Warrior tokens with double strike and haste."
+    "text": "Whenever anything is dealt damage or dies, put a blood counter on this. If it was sacrificed, put an additional blood counter on this.\nRemove 5 blood counters from this: Destroy target artifact or nonbasic land.\nRemove 10 blood counters from this: Amass 4.\nRemove 20 blood counters from this: Create eight 2/1 red Cat Human Warrior tokens with double strike and haste."
   },
   {
     "name": "Attack from Tavern to Tavern",
@@ -368,7 +368,7 @@
     "img": "Call for Reinforcements.png",
     "colors": "WR",
     "typeLine": "Instant",
-    "text": "Choose two:\n Create a 1/1 Red and White Malazan Sapper token. Gain 2 life.\nCreate a Cusser.\nImpulse 1.\nPut a +1/+1 counter on target creature."
+    "text": "Choose two:\n Create a 1/1 red and white Malazan Sapper creature token. Gain 2 life.\nCreate a Cusser.\nImpulse 1.\nPut a +1/+1 counter on target creature."
   },
   {
     "name": "Call Upon an Outside Force",
@@ -508,7 +508,7 @@
     "img": "Crow Clan Revival.png",
     "colors": "WB",
     "typeLine": "Enchantment",
-    "text": "Whenever a nontoken creature you control dies, create a 1/2 White and Black Bird creature token with flying. If the creature was sacrificed, populate.\nSacrifice X creature tokens: Return target creature with mana value X or less from your graveyard to your battlefield."
+    "text": "Whenever a nontoken creature you control dies, create a 1/2 white and black Bird creature token with flying. If the creature was sacrificed, populate.\nSacrifice X creature tokens: Return target creature with mana value X or less from your graveyard to your battlefield."
   },
   {
     "name": "Crump",
@@ -697,7 +697,7 @@
     "img": "Eleint Gate.png",
     "colors": "",
     "typeLine": "Kindred Artifact - Dragon",
-    "text": "At the beginning of your upkeep, you may pay XRR, where X is 6 minus the number of Dragons you control. If you do, create a 4/4 Red Dragon creature token with flying."
+    "text": "At the beginning of your upkeep, you may pay XRR, where X is 6 minus the number of Dragons you control. If you do, create a 4/4 red Dragon creature token with flying."
   },
   {
     "name": "Eloth, Mistress of Illusions",
@@ -879,7 +879,7 @@
     "img": "Grey Helms Final Charge.png",
     "colors": "WR",
     "typeLine": "Sorcery",
-    "text": "Creatures you gain +3/+0, haste, and trample.\nAt the beginning of your next end step, sacrifice all creatures that attacked this turn"
+    "text": "Creatures you gain +3/+0, haste, and trample until end of turn.\nAt the beginning of your next end step, sacrifice all creatures that attacked this turn."
   },
   {
     "name": "Greyfrog",
@@ -935,7 +935,7 @@
     "img": "Hairshirt.png",
     "colors": "",
     "typeLine": "Artifact - Equipment",
-    "text": "Equip 1\nEquipped creature has “At the beginning of your upkeep, create a 1/1 black Rat token and lose 1 life.” and “This creature gets +1/+0 for each Rat you control.”"
+    "text": "Equip 1\nEquipped creature has “At the beginning of your upkeep, create a 1/1 black Rat creature token and lose 1 life.” and “This creature gets +1/+0 for each Rat you control.”"
   },
   {
     "name": "Hawl",
@@ -1005,7 +1005,7 @@
     "img": "Hunted by Wolves.png",
     "colors": "G",
     "typeLine": "Sorcery",
-    "text": "Create two 2/2 green Wolf tokens. Then they each fight a single target creature."
+    "text": "Create two 2/2 green Wolf creature tokens. Then they each fight a single target creature."
   },
   {
     "name": "Hunter of High House War",
@@ -1033,14 +1033,14 @@
     "img": "Icarium Forgetful Wanderer.png",
     "colors": "WU",
     "typeLine": "Legendary Creature - Elder Orc Giant",
-    "text": "At the beginning of your end step, pay WU. If you do, put an epiphany counter on this. Otherwise, return this to your hand.  \nRemove two epiphany counters from this: Draw two cards.  \nT, Slow, Remove four epiphany counters from this, skip your next two turns, and discard your hand: Transform this. End the turn. \"Knowledge is a burden, but it is one we must bear.\""
+    "text": "At the beginning of your end step, pay WU. If you do, put an epiphany counter on this. Otherwise, return this to your hand.  \nRemove two epiphany counters from this: Draw two cards.  \nT, Slow, Remove four epiphany counters from this, skip your next two turns, and discard your hand: Transform this. End the turn. “Knowledge is a burden, but it is one we must bear.”"
   },
   {
     "name": "Ice Age",
     "img": "Ice Age.png",
     "colors": "U",
     "typeLine": "Sorcery",
-    "text": "Freeze all creatures. Then either draw a card or proliferate."
+    "text": "Exert all creatures. Then either draw a card or proliferate."
   },
   {
     "name": "Idolize",
@@ -1453,7 +1453,7 @@
     "img": "Master Sergeant Braven Tooth.png",
     "colors": "WR",
     "typeLine": "Legendary Creature - Malazan Soldier",
-    "text": "Haste\nWhenever this attacks, place a name counter of your choice on another target creature. (A “Max” name counter gives a creature the name “Max”).\nCreatures get +1/+0 and Enlist for each name they have."
+    "text": "Haste\nWhenever this attacks, place a name counter of your choice on another target creature. (A “Max” name counter gives a creature the name “Max”).\nCreatures get +1/+0 and enlist for each name they have."
   },
   {
     "name": "Matron Gunth’an Acyl",
@@ -1565,7 +1565,7 @@
     "img": "Nefarias Bredd.png",
     "colors": "G",
     "typeLine": "Legendary Creature - Soldier Avatar",
-    "text": "When this enters or attacks, cook, then create a 1/1 red and white Malazan Soldier token.\nNefarias’ power and toughness is equal to 1 plus the number of tokens you control.\nCreatures you control have “T: Cook.”\nFoods you control have “R/, T: Populate.”"
+    "text": "When this enters or attacks, cook, then create a 1/1 red and white Malazan Soldier creature token.\nNefarias’ power and toughness is equal to 1 plus the number of tokens you control.\nCreatures you control have “T: Cook.”\nFoods you control have “R/, T: Populate.”"
   },
   {
     "name": "Nerruse, Lady of Fair Winds",
@@ -1866,14 +1866,14 @@
     "img": "Raraku.png",
     "colors": "",
     "typeLine": "Land - Desert Warren",
-    "text": "This enters tapped unless you attacked this turn.\nAt the beginning of your upkeep, you may sacrifice a land. If you do, create a 1/1 Red and Green Rebel creature token with riot.\nT: Add R or G."
+    "text": "This enters tapped unless you attacked this turn.\nAt the beginning of your upkeep, you may sacrifice a land. If you do, create a 1/1 red and green Rebel creature token with riot.\nT: Add R or G."
   },
   {
     "name": "Rat Catcher’s Guild",
     "img": "Rat Catchers Guild.png",
     "colors": "B",
     "typeLine": "Legendary Creature - Rat Merchant",
-    "text": "Extort\nWhen this enters, place two +1/+1 counters on it and create two 1/1 Black rat tokens.\nWhenever you extort, choose one:\nProliferate.\nPopulate, then populate."
+    "text": "Extort\nWhen this enters, place two +1/+1 counters on it and create two 1/1 black Rat tokens.\nWhenever you extort, choose one:\nProliferate.\nPopulate, then populate."
   },
   {
     "name": "Read the Deck",
@@ -2160,7 +2160,7 @@
     "img": "Sinn Uncanny Savant.png",
     "colors": "R",
     "typeLine": "Legendary Creature - Malazan Child Wizard",
-    "text": "Whenever you scry, you may impulse 1.\nWhenever you cast a red instant or sorcery spell from anywhere other than your hand, deal 2 damage to any target.\n2U, Sacrifice a land: Scry 2."
+    "text": "Whenever you scry, you may impulse 1.\nWhenever you cast a red instant or sorcery from anywhere other than your hand, deal 2 damage to any target.\n2U, Sacrifice a land: Scry 2."
   },
   {
     "name": "Sister Calm",
@@ -2258,7 +2258,7 @@
     "img": "Stolen Table.png",
     "colors": "G",
     "typeLine": "Legendary Kindred Artifact - Elder",
-    "text": "T, Tap an untapped creature you control: Tutor a Warren to the battlefield that shares a color in its identity with the tapped creature.\nWhenever a Warren enters under your control, create a 2/2 Green Wolf creature token. It fights target creature you don’t control."
+    "text": "T, Tap an untapped creature you control: Tutor a Warren to the battlefield that shares a color in its identity with the tapped creature.\nWhenever a Warren enters under your control, create a 2/2 green Wolf creature token. It fights target creature you don’t control."
   },
   {
     "name": "Storm of Dragons",
@@ -2594,14 +2594,14 @@
     "img": "Tiam.png",
     "colors": "BR",
     "typeLine": "Legendary Creature - Elder Dragon God",
-    "text": "Flying\nThis has the abilities of all Dragons you control.\nT, Sacrifice a creature you control, put a -1/-1 counter on this: Create a 4/4 dragon creature token with flying."
+    "text": "Flying\nThis has the abilities of all Dragons you control.\nT, Sacrifice a creature you control, put a -1/-1 counter on this: Create a 4/4 red Dragon creature token with flying."
   },
   {
     "name": "T’lan Ascendancy",
     "img": "Tlan Ascendancy.png",
     "colors": "BRG",
     "typeLine": "Kindred Enchantment - Elder Zombie",
-    "text": "Elder Zombies you control get +1/+1.\nSlow, BRG, Sacrifice a land: Deal 2 damage to any target.\nWhenever a land enters your graveyard from anywhere, create a 2/2 Black, red and green Elder Zombie creature token with Reach."
+    "text": "Elder Zombies you control get +1/+1.\nSlow, BRG, Sacrifice a land: Deal 2 damage to any target.\nWhenever a land enters your graveyard from anywhere, create a 2/2 black, red and green Elder Zombie creature token with reach."
   },
   {
     "name": "T’lan Imass Banner",
@@ -2685,7 +2685,7 @@
     "img": "War-Bitch.png",
     "colors": "G",
     "typeLine": "Legendary Creature - Wolf God",
-    "text": "Trample\nOther Wolves you control get +1/+1.\nWhen this enters, create two 2/2 Wolf tokens.\nAt the beginning of combat on your turn, target creature you control fights another target creature.\nWhenever you win a fight, put two +1/+1 counters on the winning creature."
+    "text": "Trample\nOther Wolves you control get +1/+1.\nWhen this enters, create two 2/2 green Wolf creature tokens.\nAt the beginning of combat on your turn, target creature you control fights another target creature.\nWhenever you win a fight, put two +1/+1 counters on the winning creature."
   },
   {
     "name": "Warren of the Unwilling God",
