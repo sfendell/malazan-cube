@@ -634,7 +634,14 @@
         document.getElementById('tab-draft').classList.remove('active');
         document.getElementById('panel-undraftables').classList.add('active');
         document.getElementById('panel-draft').classList.remove('active');
+        location.hash = 'undraftables';
       });
+      if (location.hash === '#undraftables') {
+        document.getElementById('tab-draft').classList.remove('active');
+        document.getElementById('tab-undraftables').classList.add('active');
+        document.getElementById('panel-draft').classList.remove('active');
+        document.getElementById('panel-undraftables').classList.add('active');
+      }
 
       function runWithData(cardsData, flipData) {
         loading.style.display = 'none';
