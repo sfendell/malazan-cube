@@ -178,6 +178,12 @@
     .card-cell .card-name a:hover { text-decoration: underline; }
     .undraftables-section { margin-bottom: 2rem; }
     .undraftables-section h3 { margin: 0 0 0.75rem; font-size: 1.1rem; color: rgba(255,255,255,0.9); }
+    .undraftables-dropdown { margin-bottom: 1.5rem; border: 1px solid rgba(255,255,255,0.12); border-radius: 8px; }
+    .undraftables-dropdown summary { padding: 0.6rem 1rem; cursor: pointer; font-size: 1.1rem; font-weight: 600; color: rgba(255,255,255,0.9); list-style: none; }
+    .undraftables-dropdown summary::-webkit-details-marker { display: none; }
+    .undraftables-dropdown summary::before { content: "▶ "; margin-right: 0.35rem; font-size: 0.75em; }
+    .undraftables-dropdown[open] summary::before { content: "▼ "; }
+    .undraftables-dropdown .undraftables-section { padding: 0 1rem 1rem; border-top: 1px solid rgba(255,255,255,0.08); }
   </style>
 </head>
 <body>
@@ -185,8 +191,9 @@
     <h1>Malazan Cube of the Fallen</h1>
     <p class="sub">Card gallery · <a id="repo-link" href="#">Repository</a> · <a href="rules/">Rules</a></p>
     <div class="tabs">
-      <button type="button" id="tab-draft" class="active">Draft</button>
+      <button type="button" id="tab-draft" class="active">Draftables</button>
       <button type="button" id="tab-undraftables">Undraftables</button>
+      <button type="button" id="tab-tokens">Tokens</button>
     </div>
     <div id="panel-draft" class="panel active">
       <div class="filters">
@@ -201,9 +208,17 @@
       <div id="no-results" class="no-results" style="display:none">No cards match the filters.</div>
     </div>
     <div id="panel-undraftables" class="panel">
-      <div id="undraftables-deck" class="undraftables-section"></div>
-      <div id="undraftables-tokens" class="undraftables-section"></div>
-      <div id="undraftables-souls" class="undraftables-section"></div>
+      <details class="undraftables-dropdown">
+        <summary>Deck of Dragons</summary>
+        <div id="undraftables-deck" class="undraftables-section"></div>
+      </details>
+      <details class="undraftables-dropdown">
+        <summary>Quick Ben's Souls</summary>
+        <div id="undraftables-souls" class="undraftables-section"></div>
+      </details>
+    </div>
+    <div id="panel-tokens" class="panel">
+      <div id="tokens-gallery" class="gallery"></div>
     </div>
     <div id="error" class="error" style="display:none"></div>
     <div id="file-fallback" class="file-fallback" style="display:none">
@@ -445,15 +460,15 @@
         container.appendChild(cell);
       }
 
-      function renderUndraftablesSection(containerId, title, cardNamesOrList, cards, useNamesNotList) {
+      function renderUndraftablesSection(containerId, title, cardNamesOrList, cards, useNamesNotList, skipTitle) {
         var section = document.getElementById(containerId);
         section.innerHTML = '';
-        var h3 = document.createElement('h3');
-        h3.textContent = title;
-        section.appendChild(h3);
-        var gal = document.createElement('div');
-        gal.className = 'gallery';
-        section.appendChild(gal);
+        if (!skipTitle) {
+          var h3 = document.createElement('h3');
+          h3.textContent = title;
+          section.appendChild(h3);
+        }
+        var gal = (skipTitle && containerId === 'tokens-gallery') ? section : (function () { var g = document.createElement('div'); g.className = 'gallery'; section.appendChild(g); return g; })();
         var items = useNamesNotList ? cardNamesOrList : cardNamesOrList;
         if (useNamesNotList) {
           for (var i = 0; i < items.length; i++) {
@@ -525,9 +540,9 @@
           return na.localeCompare(nb, undefined, { sensitivity: 'base' });
         });
 
-        renderUndraftablesSection('undraftables-deck', 'Deck of Dragons', DECK_OF_DRAGONS_NAMES, cards, true);
-        renderUndraftablesSection('undraftables-tokens', 'Tokens', tokenList, cards, false);
-        renderUndraftablesSection('undraftables-souls', 'Quick Ben\'s Souls', QUICK_BENS_SOULS_NAMES, cards, true);
+        renderUndraftablesSection('undraftables-deck', 'Deck of Dragons', DECK_OF_DRAGONS_NAMES, cards, true, true);
+        renderUndraftablesSection('undraftables-souls', 'Quick Ben\'s Souls', QUICK_BENS_SOULS_NAMES, cards, true, true);
+        renderUndraftablesSection('tokens-gallery', 'Tokens', tokenList, cards, false, true);
 
         var countEl = document.getElementById('card-count');
         if (countEl) countEl.textContent = list.length === 1 ? '1 card' : list.length + ' cards';
@@ -623,25 +638,22 @@
       document.getElementById('type-filter').addEventListener('change', onFilterChange);
       document.getElementById('text-filter').addEventListener('input', onFilterChange);
 
-      document.getElementById('tab-draft').addEventListener('click', function () {
-        document.getElementById('tab-draft').classList.add('active');
-        document.getElementById('tab-undraftables').classList.remove('active');
-        document.getElementById('panel-draft').classList.add('active');
-        document.getElementById('panel-undraftables').classList.remove('active');
-      });
-      document.getElementById('tab-undraftables').addEventListener('click', function () {
-        document.getElementById('tab-undraftables').classList.add('active');
-        document.getElementById('tab-draft').classList.remove('active');
-        document.getElementById('panel-undraftables').classList.add('active');
-        document.getElementById('panel-draft').classList.remove('active');
-        location.hash = 'undraftables';
-      });
-      if (location.hash === '#undraftables') {
-        document.getElementById('tab-draft').classList.remove('active');
-        document.getElementById('tab-undraftables').classList.add('active');
-        document.getElementById('panel-draft').classList.remove('active');
-        document.getElementById('panel-undraftables').classList.add('active');
+      function showTab(tabName) {
+        var tabs = ['tab-draft', 'tab-undraftables', 'tab-tokens'];
+        var panels = ['panel-draft', 'panel-undraftables', 'panel-tokens'];
+        tabs.forEach(function (id, i) {
+          document.getElementById(id).classList.toggle('active', id === 'tab-' + tabName);
+        });
+        panels.forEach(function (id, i) {
+          document.getElementById(id).classList.toggle('active', id === 'panel-' + tabName);
+        });
+        location.hash = tabName;
       }
+      document.getElementById('tab-draft').addEventListener('click', function () { showTab('draft'); });
+      document.getElementById('tab-undraftables').addEventListener('click', function () { showTab('undraftables'); });
+      document.getElementById('tab-tokens').addEventListener('click', function () { showTab('tokens'); });
+      if (location.hash === '#undraftables') showTab('undraftables');
+      else if (location.hash === '#tokens') showTab('tokens');
 
       function runWithData(cardsData, flipData) {
         loading.style.display = 'none';
