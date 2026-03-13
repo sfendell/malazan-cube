@@ -86,6 +86,34 @@
         display: block;
         margin: 0.5rem 0 1rem 0;
       }
+      details.rule-section {
+        margin: 1rem 0;
+        border: 1px solid rgba(255, 255, 255, 0.12);
+        border-radius: 8px;
+      }
+      details.rule-section summary {
+        padding: 0.75rem 1rem;
+        cursor: pointer;
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: #c0c0c0;
+        list-style: none;
+      }
+      details.rule-section summary::-webkit-details-marker {
+        display: none;
+      }
+      details.rule-section summary::before {
+        content: "▶ ";
+        margin-right: 0.35rem;
+        font-size: 0.75em;
+      }
+      details.rule-section[open] summary::before {
+        content: "▼ ";
+      }
+      details.rule-section .rule-section-content {
+        padding: 0 1rem 1rem;
+        border-top: 1px solid rgba(255, 255, 255, 0.08);
+      }
     </style>
   </head>
   <body>
@@ -96,7 +124,9 @@
         <a id="repo-link" href="#">Repository</a> · Rules
       </p>
 
-      <h2>Ascend</h2>
+      <details class="rule-section">
+        <summary>Ascend</summary>
+        <div class="rule-section-content">
       <p class="rule">
         <strong>Ascend:</strong> Custom mechanic (not the existing “ascend” /
         City’s Blessing). When a creature ascends, if it hasn’t already
@@ -133,8 +163,12 @@
           class="rule-img"
         />
       </p>
+        </div>
+      </details>
 
-      <h2>Cusser tokens</h2>
+      <details class="rule-section">
+        <summary>Cusser tokens</summary>
+        <div class="rule-section-content">
       <p class="rule">
         <strong>Cusser tokens:</strong> Artifact tokens that can be sacrificed
         (often with optional kicker costs) to deal damage to targets. Multiple
@@ -144,8 +178,13 @@
       <p>
         <img src="../exported_cards/Cusser.png" alt="Cusser" class="rule-img" />
       </p>
+        </div>
+      </details>
 
-      <h2>Convenience keywords</h2>
+      <details class="rule-section">
+        <summary>Convenience keywords</summary>
+        <div class="rule-section-content">
+          Succinct, flavorless keywords not specific to Malazan that do stuff that already exists in Magic.
       <p class="rule"><strong>Plunder:</strong> Create a Treasure token.</p>
       <p>
         <img
@@ -205,17 +244,6 @@
         />
       </p>
       <p class="rule">
-        <strong>Freeze:</strong> Tap target creature and put a stun counter on
-        it.
-      </p>
-      <p>
-        <img
-          src="../exported_cards/Ice Age.png"
-          alt="Ice Age"
-          class="rule-img"
-        />
-      </p>
-      <p class="rule">
         <strong>Tutor:</strong> Tutor [for &lt;x&gt; type of card] to [y] zone:
         Search your library for a card [and reveal it if a type is specified],
         put it in the specified zone, then shuffle your library.
@@ -238,8 +266,12 @@
           class="rule-img"
         />
       </p>
+        </div>
+      </details>
 
-      <h2>Storm variants</h2>
+      <details class="rule-section">
+        <summary>Storm variants</summary>
+        <div class="rule-section-content">
       <p class="rule">
         <strong>Landstorm:</strong> Copy this spell for each land you’ve played
         this turn.
@@ -273,8 +305,12 @@
           class="rule-img"
         />
       </p>
+        </div>
+      </details>
 
-      <h2>Cards that aren't cards</h2>
+      <details class="rule-section">
+        <summary>Cards that aren't cards</summary>
+        <div class="rule-section-content">
       <p>
         There are two sets of cards that are not draftable in the cube: The Deck
         of Dragons, and Quick Ben's Souls. See the
@@ -314,7 +350,12 @@
         pool only when you draft <em>Quick Ben's Gambit</em>. You may use any or
         all of them in your mainboard.
       </p>
-      <h2>Parameterized counters</h2>
+        </div>
+      </details>
+
+      <details class="rule-section">
+        <summary>Parameterized counters</summary>
+        <div class="rule-section-content">
       <p class="rule">
         <strong>Subtype counters:</strong> An “Elf” subtype counter gives the
         creature the subtype Elf.
@@ -337,6 +378,8 @@
           class="rule-img"
         />
       </p>
+        </div>
+      </details>
     </div>
     <script>
       (function () {
