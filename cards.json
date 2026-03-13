@@ -263,7 +263,7 @@
     "img": "Blood of a Dying God.png",
     "colors": "",
     "typeLine": "Artifact",
-    "text": "At the beginning of your upkeep, place a -1/-1 counter on target creature.\n5U/B, T: Proliferate."
+    "text": "At the beginning of your upkeep, put a -1/-1 counter on target creature.\n5U/B, T: Proliferate."
   },
   {
     "name": "Blood-oil",
@@ -312,7 +312,7 @@
     "img": "Brother Grave.png",
     "colors": "WU",
     "typeLine": "Creature - Elder Pure",
-    "text": "Flash, Vigilance\nWhen this enters, counter target non-Pure spell.\n7B, T, Sacrifice this: Destroy target non-Pure creature."
+    "text": "Flash, vigilance\nWhen this enters, counter target non-Pure spell.\n7B, T, Sacrifice this: Destroy target non-Pure creature."
   },
   {
     "name": "Brukhalian, Fener’s Mortal Sword",
@@ -410,7 +410,7 @@
     "img": "CheMalle Dissector.png",
     "colors": "UBG",
     "typeLine": "Creature - Alien Dinosaur Wizard",
-    "text": "U/BG, T, Sacrifice a land or creature: Proliferate. Put a subtype counter that shares a subtype with it on target permanent of the same type. (If a subtype counter would be placed on a permanent of that subtype, instead, it isn’t.)"
+    "text": "U/BG, T, Sacrifice a land or creature: Proliferate. Put a subtype counter that shares a subtype with it on target permanent of the same type. (If a subtype counter would be put on a permanent of that subtype, instead, it isn’t.)"
   },
   {
     "name": "Child of the Dead Seed",
@@ -452,14 +452,14 @@
     "img": "Compassion.png",
     "colors": "WG",
     "typeLine": "Instant",
-    "text": "Creatures you control get hexproof and indestructible until end of turn.\nWhenever you gain life this turn, put a +1/+1 counter on target creature."
+    "text": "Creatures you control get hexproof and indestructible until end of turn.\nUntil end of turn, whenever you gain life, put a +1/+1 counter on target creature."
   },
   {
     "name": "Convergence",
     "img": "Convergence.png",
     "colors": "WUBRG",
     "typeLine": "Enchantment",
-    "text": "Whenever a God or Elder enters or a creature ascends, place two omen counters on this.\nRemove all omen counters from this: Destroy all non-God, non-Elder creatures, then tutor all Elder or God cards to the battlefield with mana value less than the omen counters removed. Target opponent gains control of this."
+    "text": "Whenever a God or Elder enters or a creature ascends, put two omen counters on this.\nRemove all omen counters from this: Destroy all non-God, non-Elder creatures, then tutor all Elder or God cards to the battlefield with mana value less than the omen counters removed. Target opponent gains control of this."
   },
   {
     "name": "Convergent Flames",
@@ -501,7 +501,7 @@
     "img": "Crone.png",
     "colors": "B",
     "typeLine": "Legendary Creature - Alien Bird",
-    "text": "Flying, deathtouch\nWhenever a creature dies, surveil 1.\nWhenever a card is put into your graveyard from anywhere, you may exile it. If you do, you may cast that card until end of turn. This ability triggers only once each turn."
+    "text": "Flying, deathtouch\nWhenever a creature dies, surveil 1.\nThe first nonland that enters your graveyard from anywhere each turn has mayhem."
   },
   {
     "name": "Crow Clan Revival",
@@ -802,7 +802,7 @@
     "img": "Fiddlers Deck.png",
     "colors": "",
     "typeLine": "Legendary Artifact",
-    "text": "When you cast Fiddler’s Deck, shuffle The Deck of Dragons into your library.\nYou may play Fatid cards from your graveyard.\nWhenever you cast a Fatid spell from your hand, place a foresight counter on Fiddler’s Deck.\nAt the end of your turn, plunder. Then scry X, where X is the number of foresight counters on this. If X is greater than two, instead draw a card. If X is greater than four, instead tutor a card to your hand."
+    "text": "When you cast Fiddler’s Deck, shuffle The Deck of Dragons into your library.\nYou may play Fatid cards from your graveyard.\nWhenever you cast a Fatid spell from your hand, put a foresight counter on Fiddler’s Deck.\nAt the end of your turn, plunder. Then scry X, where X is the number of foresight counters on this. If X is greater than two, instead draw a card. If X is greater than four, instead tutor a card to your hand."
   },
   {
     "name": "Fine Trousers",
@@ -823,7 +823,7 @@
     "img": "Forgotten God.png",
     "colors": "BR",
     "typeLine": "Creature - Elder",
-    "text": "Whenever you sacrifice a creature, bleed.\n3B, Sacrifice a creature and pay 1 life: Draw a card.\nSacrifice seven Bloods: This ascends."
+    "text": "Whenever you sacrifice a creature, bleed.\n3B, Sacrifice a creature and pay 1 life: Draw a card.\nSacrifice seven Bloods: This becomes Legendary and ascends. Put a name counter of your choice on it."
   },
   {
     "name": "Form the Warrens",
@@ -837,7 +837,7 @@
     "img": "Full Unveiling of Galain.png",
     "colors": "U",
     "typeLine": "Kindred Instant - Elder Elf",
-    "text": "Kicker W, kicker B\nDraw a card. Draw an additional card and lose two life if you paid WB.\nIf you paid W, up  to one target creature gets +1/+1 for each card you drew this turn.\nIf you paid B, up to one target creature gets -1/-1 for each card you drew this turn."
+    "text": "Kicker W, kicker B\nDraw a card. Draw an additional card and lose two life if you paid WB.\nIf you paid W, up to one target creature gets +1/+1 for each card you drew this turn.\nIf you paid B, up to one target creature gets -1/-1 for each card you drew this turn."
   },
   {
     "name": "Ganoes, Divine Arbiter",
@@ -858,7 +858,7 @@
     "img": "Gedderone Fete.png",
     "colors": "WG",
     "typeLine": "Sorcery",
-    "text": "Draw a card if you control a creature with power four or greater. Draw a card if you control a God. Return target Elder from your graveyard to the battlefield. Distribute three +1/+1 counters among creatures you control. Gain 5 life."
+    "text": "Draw a card if you control a creature with power four or greater. Draw a card if you control a God. Return up to one target Elder from your graveyard to the battlefield. Distribute three +1/+1 counters among creatures you control. Gain 5 life."
   },
   {
     "name": "Gothos, Author of Folly",
@@ -907,7 +907,7 @@
     "img": "Grub Peculiar Host.png",
     "colors": "G",
     "typeLine": "Legendary Creature - Malazan Child",
-    "text": "Whenever you tap a land for mana, add G.\nWhenever a land leaves your graveyard, proliferate. This ability triggers only once per turn.\n3G, exile a card from a graveyard: Place a +1/+1 counter on target creature."
+    "text": "Whenever you tap a land for mana, add G.\nWhenever a land leaves your graveyard, proliferate. This ability triggers only once per turn.\n3G, exile a card from a graveyard: Put a +1/+1 counter on target creature."
   },
   {
     "name": "Gruntle, Trake’s Mortal Sword",
@@ -1005,7 +1005,7 @@
     "img": "House of the Azath.png",
     "colors": "",
     "typeLine": "Artifact",
-    "text": "Indestructible\n3, T: Target creature with power, toughness, or mana value greater than three phases out.\nAt the beginning of your upkeep, you may pay H for each card exiled with this. If you don’t, sacrifice this, then all creatures phase in."
+    "text": "Indestructible\n3, T: Target creature with power, toughness, or mana value greater than three phases out.\nAt the beginning of your upkeep, you may pay H for each card that is phased out. If you don’t, sacrifice this, then all creatures phase in."
   },
   {
     "name": "Hunted by Wolves",
@@ -1159,7 +1159,7 @@
     "img": "Kalyth Unwilling Destriant.png",
     "colors": "G",
     "typeLine": "Legendary Creature - Alien Dinosaur Human",
-    "text": "Evolve\nOther Alien Dinosaurs you control have +1/+1 and evolve.\nWhenever a +1/+1 counter is placed on a creature you control, gain 1 life. If it was an Alien Dinosaur, gain 2 life instead. If the creature has 5 or more counters on it, this ascends."
+    "text": "Evolve\nOther Alien Dinosaurs you control have +1/+1 and evolve.\nWhenever a +1/+1 counter is put on a creature you control, gain 1 life. If it was an Alien Dinosaur, gain 2 life instead. If the creature has 5 or more counters on it, this ascends."
   },
   {
     "name": "Karsa Orlong",
@@ -1229,7 +1229,7 @@
     "img": "Korbal Broach.png",
     "colors": "B",
     "typeLine": "Legendary Creature - Human Wizard",
-    "text": "Whenever a creature card enters your graveyard from anywhere, place a +1/+1 counter on target creature. This ability activates only twice per turn.\nX, Remove X counters among creatures you control: Return target creature with mana value X from your graveyard to the battlefield."
+    "text": "Whenever a creature card enters your graveyard from anywhere, put a +1/+1 counter on target creature. This ability activates only twice per turn.\nX, Remove X counters among creatures you control: Return target creature with mana value X from your graveyard to the battlefield."
   },
   {
     "name": "Kurald Emurlahn",
@@ -1460,7 +1460,7 @@
     "img": "Master Sergeant Braven Tooth.png",
     "colors": "WR",
     "typeLine": "Legendary Creature - Malazan Soldier",
-    "text": "Haste\nWhenever this attacks, place a name counter of your choice on another target creature. (A “Max” name counter gives a creature the name “Max”).\nCreatures get +1/+0 and enlist for each name they have."
+    "text": "Haste\nWhenever this attacks, put a name counter of your choice on another target creature. (A “Max” name counter gives a creature the name “Max”).\nCreatures get +1/+0 and enlist for each name they have."
   },
   {
     "name": "Matron Gunth’an Acyl",
@@ -1558,7 +1558,7 @@
     "img": "Name to the Pantheon.png",
     "colors": "W",
     "typeLine": "Instant",
-    "text": "When you cast this, place a foresight counter on target artifact you control named Fiddler’s Deck.\nTarget creature enchanted by a Fatid gains all colors of permanents attached to it. Then that creature ascends."
+    "text": "When you cast this, put a foresight counter on target artifact you control named Fiddler’s Deck.\nTarget creature enchanted by a Fatid gains all colors of permanents attached to it. Then that creature ascends."
   },
   {
     "name": "Nameless One",
@@ -1691,7 +1691,7 @@
     "img": "Path of Hands.png",
     "colors": "G",
     "typeLine": "Enchantment",
-    "text": "At the beginning of your upkeep, if there are forty counters among permanents you control, you win the game.\n3GG: Place a +1/+1, trample, or subtype counter of your choice on target creature."
+    "text": "At the beginning of your upkeep, if there are forty counters among permanents you control, you win the game.\n3GG: Put a +1/+1, trample, or subtype counter of your choice on target creature."
   },
   {
     "name": "Pearl, Selfless Summon",
@@ -1733,7 +1733,7 @@
     "img": "Predict the Market.png",
     "colors": "UB",
     "typeLine": "Kindred Enchantment - Merchant Aura",
-    "text": "Enchant player\nWhenever a permanent leaves the battlefield, place a derivative counter on this.\nAt the beginning of your upkeep, if this has fewer counters than enchanted player controls, remove a counter from this and lose 1 life. Otherwise, sacrifice this and draw X cards, where X is the number of counters on this."
+    "text": "Enchant player\nWhenever a permanent leaves the battlefield, put a derivative counter on this.\nAt the beginning of your upkeep, if this has fewer counters than enchanted player controls, remove a counter from this and lose 1 life. Otherwise, sacrifice this and draw X cards, where X is the number of counters on this."
   },
   {
     "name": "Priest of High House Light",
@@ -1880,7 +1880,7 @@
     "img": "Rat Catchers Guild.png",
     "colors": "B",
     "typeLine": "Legendary Creature - Rat Merchant",
-    "text": "Extort\nWhen this enters, place two +1/+1 counters on it and create two 1/1 black Rat tokens.\nWhenever you extort, choose one:\nProliferate.\nPopulate, then populate."
+    "text": "Extort\nWhen this enters, put two +1/+1 counters on it and create two 1/1 black Rat tokens.\nWhenever you extort, choose one:\nProliferate.\nPopulate, then populate."
   },
   {
     "name": "Read the Deck",
@@ -1943,7 +1943,7 @@
     "img": "Rhivi Naming Coven.png",
     "colors": "G",
     "typeLine": "Creature - Witch",
-    "text": "Whenever an Enchantment enters under your control, draw a card.\n2W, T, Slow: Attach target Aura to another permanent it can enchant.\nT: Place a name or subtype counter of your choice on target creature."
+    "text": "Whenever an Enchantment enters under your control, draw a card.\n2W, T, Slow: Attach target Aura to another permanent it can enchant.\nT: Put a name or subtype counter of your choice on target creature."
   },
   {
     "name": "Rhulad, Emporer of 1000 Deaths",
@@ -1971,7 +1971,7 @@
     "img": "SagChurok.png",
     "colors": "UG",
     "typeLine": "Legendary Creature - Alien Dinosaur",
-    "text": "Trample, Shroud\nThis gets +1/+1 for every different counter among permanents you control. (All subtype counters are the same type of counter.)\nWhenever this attacks, if its power is greater than eight, draw a card, then place one non-subtype counter on another permanent of a kind already on it."
+    "text": "Trample, shroud\nThis gets +1/+1 for every different type of counter among permanents you control. (All subtype and name counters are the same type of counter.)\nWhenever this attacks, if its power is greater than eight, draw a card, then put one non-subtype counter on another permanent of a kind already on it."
   },
   {
     "name": "Samar Dev",
@@ -2279,7 +2279,7 @@
     "img": "Sulkit KChain Drone.png",
     "colors": "G",
     "typeLine": "Legendary Creature - Alien Dinosaur",
-    "text": "When this enters, place a trample or reach counter on another target creature you control.\nT: Add U or G. Put a subtype counter of your choice on target creature."
+    "text": "When this enters, put a trample or reach counter on another target creature you control.\nT: Add U or G. Put a subtype counter of your choice on target creature."
   },
   {
     "name": "T'rolbarahl",
@@ -2384,7 +2384,7 @@
     "img": "The Drum.png",
     "colors": "",
     "typeLine": "Legendary Kindred Artifact - Sapper",
-    "text": "Landfall — Create a Cusser token.\nWhenever a Cusser you control deals damage to a creature, deal X damage to that creature, where X is the number of detonation counters on this. Then place a detonation counter on this.\nWhen the eighth detonation counter is placed on this, sacrifice it, then deal 8 damage to each creature and 8 damage to you."
+    "text": "Landfall — Create a Cusser token.\nWhenever a Cusser you control deals damage to a creature, deal X damage to that creature, where X is the number of detonation counters on this. Then put a detonation counter on this.\nWhen the eighth detonation counter is placed on this, sacrifice it, then deal 8 damage to each creature and 8 damage to you."
   },
   {
     "name": "The Empty Hold",
