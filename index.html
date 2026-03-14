@@ -404,7 +404,8 @@
       }
 
       function isTokenCard(card) {
-        return ((card.typeLine || '').trim().toLowerCase().indexOf('token') === 0);
+        var t = (card.typeLine || '').trim().toLowerCase();
+        return t.indexOf('token') === 0 || /\btoken\b/.test(t);
       }
 
       var DECK_OF_DRAGONS_NAMES = [
