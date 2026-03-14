@@ -245,6 +245,13 @@
     "text": "Put a subtype counter of your choice on target creature.\nDraw a card."
   },
   {
+    "name": "Bird",
+    "img": "Bird.png",
+    "colors": "",
+    "typeLine": "Token Creature - Bird",
+    "text": "Flying"
+  },
+  {
     "name": "Birth of the Bonehunters",
     "img": "Birth of the Bonehunters.png",
     "colors": "BR",
@@ -257,6 +264,13 @@
     "colors": "WG",
     "typeLine": "Enchantment - Aura",
     "text": "Enchant creature\nEnchanted creature has hexproof and cannot have counters placed on it.\nWhen enchanted creature dies, draw a card."
+  },
+  {
+    "name": "Blood",
+    "img": "Blood.png",
+    "colors": "",
+    "typeLine": "Token Artifact",
+    "text": "1, T, Discard a card, Sacrifice this artifact: Draw a card."
   },
   {
     "name": "Blood of a Dying God",
@@ -385,6 +399,13 @@
     "text": "When this enters, create a Comb token, a Silk Shirt token, a Fine Trousers token, a Exquisite Manicure token, and bleed.\nWhenever a creature with power and toughness that differ by more than 2 does damage to a player, create a copy of a token you control."
   },
   {
+    "name": "Cat Human Warrior",
+    "img": "Cat Human Warrior.png",
+    "colors": "",
+    "typeLine": "Token Creature - Cat Human Warrior",
+    "text": ""
+  },
+  {
     "name": "Chained Lightning",
     "img": "Chained Lightning.png",
     "colors": "R",
@@ -413,6 +434,20 @@
     "text": "U/BG, T, Sacrifice a land or creature: Proliferate. Put a subtype counter that shares a subtype with it on target permanent of the same type. (If a subtype counter would be put on a permanent of that subtype, instead, it isn’t.)"
   },
   {
+    "name": "Child God",
+    "img": "Child God.png",
+    "colors": "",
+    "typeLine": "Token Artifact Creature - Child God",
+    "text": "Indestructible"
+  },
+  {
+    "name": "Child God",
+    "img": "Child God.png",
+    "colors": "",
+    "typeLine": "Token Artifact Creature - Child God",
+    "text": ""
+  },
+  {
     "name": "Child of the Dead Seed",
     "img": "Child of the Dead Seed.png",
     "colors": "B",
@@ -425,6 +460,13 @@
     "colors": "B",
     "typeLine": "Sorcery",
     "text": "Destroy all Children and creatures with power or toughness less than two."
+  },
+  {
+    "name": "Clue",
+    "img": "Clue.png",
+    "colors": "",
+    "typeLine": "Token Artifact",
+    "text": "2, Sacrifice this artifact: Draw a card."
   },
   {
     "name": "Coltaine of the Crow Clan",
@@ -453,6 +495,13 @@
     "colors": "WG",
     "typeLine": "Instant",
     "text": "Creatures you control get hexproof and indestructible until end of turn.\nUntil end of turn, whenever you gain life, put a +1/+1 counter on target creature."
+  },
+  {
+    "name": "Construct",
+    "img": "Construct.png",
+    "colors": "",
+    "typeLine": "Token Artifact Creature - Construct",
+    "text": ""
   },
   {
     "name": "Convergence",
@@ -637,6 +686,13 @@
     "text": "Equip 5\nEquipped creature gets “T: Exile another target creature until Dragnipur leaves the battlefield.”\nAt the beginning of your upkeep, if this is equipped, deal X damage to any target and X damage to equipped creature, where X is the number of cards exiled with this. When this kills the equipped creature, you lose the game."
   },
   {
+    "name": "Dragon",
+    "img": "Dragon.png",
+    "colors": "",
+    "typeLine": "Token Creature - Dragon",
+    "text": "Flying"
+  },
+  {
     "name": "Dragon’s Fire",
     "img": "Dragons Fire.png",
     "colors": "R",
@@ -693,11 +749,25 @@
     "text": "Whenever a creature dies, scry 1.\nWhenever a creature is exiled, draw a card.\nWhenever a creature enters its owners library or hand from the battlefield, draw two cards."
   },
   {
+    "name": "Elder Zombie",
+    "img": "Elder Zombie.png",
+    "colors": "",
+    "typeLine": "Token Creature - Elder Zombie",
+    "text": "Reach"
+  },
+  {
     "name": "Eleint Gate",
     "img": "Eleint Gate.png",
     "colors": "",
     "typeLine": "Kindred Artifact - Dragon",
     "text": "At the beginning of your upkeep, you may pay XRR, where X is 6 minus the number of Dragons you control. If you do, create a 4/4 red Dragon creature token with flying."
+  },
+  {
+    "name": "Eleint Haven",
+    "img": "Eleint Haven.png",
+    "colors": "",
+    "typeLine": "Token Land",
+    "text": "T: Add 1 mana of any color. Use this only to cast Dragon spells or activate abilities of Dragon permanents."
   },
   {
     "name": "Eloth, Mistress of Illusions",
@@ -812,6 +882,13 @@
     "text": "Equipped creature gets +0/+3.\nEquip 1"
   },
   {
+    "name": "Food",
+    "img": "Food.png",
+    "colors": "",
+    "typeLine": "Token Artifact",
+    "text": "2, T, Sacrifice this artifact: Gain 3 life."
+  },
+  {
     "name": "Foresee",
     "img": "Foresee.png",
     "colors": "U",
@@ -893,7 +970,7 @@
     "img": "Greyfrog.png",
     "colors": "B",
     "typeLine": "Legendary Creature - Demon",
-    "text": "Other creatures and enchantments you control are Food artifacts in addition to their other types and have “2, T, Sacrifice this: You gain 3 life.”\nWhenever you sacrifice a Food, put a +1/+1 counter on this."
+    "text": "Other creatures and enchantments you control are Food artifacts in addition to their other types and have “2, T, Sacrifice this: You gain 3 life.”\nWhenever you sacrifice a Food, put a +1/+1 counter on Greyfrog."
   },
   {
     "name": "Grief",
@@ -1006,6 +1083,13 @@
     "colors": "",
     "typeLine": "Artifact",
     "text": "Indestructible\n3, T: Target creature with power, toughness, or mana value greater than three phases out.\nAt the beginning of your upkeep, you may pay H for each card that is phased out. If you don’t, sacrifice this, then all creatures phase in."
+  },
+  {
+    "name": "Human Child",
+    "img": "Human Child.png",
+    "colors": "",
+    "typeLine": "Creature - Human Child",
+    "text": ""
   },
   {
     "name": "Hunted by Wolves",
@@ -1428,6 +1512,13 @@
     "text": "Malazans you control get +1/+1.\nWhenever a creature enters under your control, deal one damage to any target.\nWhenever an artifact you control goes to the graveyard, gain one life."
   },
   {
+    "name": "Malazan Coward",
+    "img": "Malazan Coward.png",
+    "colors": "",
+    "typeLine": "Token Creature - Malazan Coward",
+    "text": ""
+  },
+  {
     "name": "Malazan Recruiter",
     "img": "Malazan Recruiter.png",
     "colors": "W",
@@ -1572,7 +1663,7 @@
     "img": "Nefarias Bredd.png",
     "colors": "G",
     "typeLine": "Legendary Creature - Soldier Avatar",
-    "text": "When this enters or attacks, cook, then create a 1/1 red and white Malazan Soldier creature token.\nNefarias’ power and toughness is equal to 1 plus the number of tokens you control.\nCreatures you control have “T: Cook.”\nFoods you control have “R/, T: Populate.”"
+    "text": "When this enters or attacks, cook, then create a 1/1 red and white Malazan Soldier creature token.\nNefarias’ power and toughness is equal to 1 plus the number of tokens you control.\nCreatures you control have “T: Cook.”\nFoods you control have “R/W, T: Populate.”"
   },
   {
     "name": "Nerruse, Lady of Fair Winds",
@@ -1771,6 +1862,13 @@
     "text": "Enchant non-God creature\nEnchanted creature cannot attack or block unless its owner controls a Treasure or Equipment.\nEnchanted creature has “Creatures you control have menace and first strike”."
   },
   {
+    "name": "Quick Ben",
+    "img": "Quick Ben.png",
+    "colors": "",
+    "typeLine": "Token Creature - Malazan Avatar Wizard",
+    "text": "This has the combined colors, power, toughness, and abilities of all exiled Souls."
+  },
+  {
     "name": "Quick Ben, Burn’s Adept",
     "img": "Quick Ben Burns Adept.png",
     "colors": "G",
@@ -1876,6 +1974,13 @@
     "text": "This enters tapped unless you attacked this turn.\nAt the beginning of your upkeep, you may sacrifice a land. If you do, create a 1/1 red and green Rebel creature token with riot.\nT: Add R or G."
   },
   {
+    "name": "Rat",
+    "img": "Rat.png",
+    "colors": "",
+    "typeLine": "Token Creature - Rat",
+    "text": ""
+  },
+  {
     "name": "Rat Catcher’s Guild",
     "img": "Rat Catchers Guild.png",
     "colors": "B",
@@ -1888,6 +1993,13 @@
     "colors": "UB",
     "typeLine": "Instant",
     "text": "Choose a card type or subtype. Reveal the top 3 cards of your library, then put all cards that match your choice into your hand and lose that much life.\nFlashback—Sacrifice a creature."
+  },
+  {
+    "name": "Rebel",
+    "img": "Rebel.png",
+    "colors": "",
+    "typeLine": "Token Creature - Rebel",
+    "text": "Riot"
   },
   {
     "name": "Recall the Histories",
@@ -2021,6 +2133,20 @@
     "colors": "B",
     "typeLine": "Enchantment - Aura",
     "text": "Enchant creature\nEnchanted creature gets “When this dies, destroy target creature. If this was a God, exile target creature instead and its controller loses 3 life.”"
+  },
+  {
+    "name": "Scorpion",
+    "img": "Scorpion.png",
+    "colors": "",
+    "typeLine": "Token Creature - Scorpion",
+    "text": "Lifelink"
+  },
+  {
+    "name": "Scorpion",
+    "img": "Scorpion.png",
+    "colors": "",
+    "typeLine": "Token Creature - Scorpion",
+    "text": "Deathtouch"
   },
   {
     "name": "Secrets of the Edur",
@@ -2419,7 +2545,7 @@
     "img": "The Hounds of Shadow.png",
     "colors": "B",
     "typeLine": "Legendary Creature - Elder Dog",
-    "text": "Lifelink\nIf this would die, it instead phases out.\n5BB, Sacrifice a Warren: This phases in."
+    "text": "Lifelink\nIf The Hounds would die, it instead phases out.\n5BB, Sacrifice a Warren: This phases in."
   },
   {
     "name": "The Lord and the Lady",
@@ -2567,6 +2693,13 @@
     "colors": "G",
     "typeLine": "Sorcery",
     "text": "Tutor a basic land to the battlefield tapped. Create a land token named Eleint Haven with “T: Add 1 mana of any color. Use this only to cast Dragon spells or activate abilities of Dragon permanents.” Gain 1 life for each Dragon in your graveyard."
+  },
+  {
+    "name": "Treasure",
+    "img": "Treasure.png",
+    "colors": "",
+    "typeLine": "Token Artifact",
+    "text": "T, Sacrifice this artifact: Add one mana of any color."
   },
   {
     "name": "Trull Sengar",
@@ -2758,10 +2891,24 @@
     "text": "Equipment you control has Equip 0.\nWhenever an equipped creature you control attacks, scry 1.\nWhenever an equipped creature you control deals damage to a player, it ascends. This triggers only once per game."
   },
   {
+    "name": "Wolf",
+    "img": "Wolf.png",
+    "colors": "",
+    "typeLine": "Token Creature - Wolf",
+    "text": ""
+  },
+  {
     "name": "Yedan Derryg, The Watch",
     "img": "Yedan Derryg The Watch.png",
     "colors": "W",
     "typeLine": "Legendary Creature - Elder Elf Human Warrior",
     "text": "W: This gains first strike until end of turn.\n5W: This gains double strike until end of turn.\nWhenever this deals X damage, target creature you control gets lifelink and +X/+X."
+  },
+  {
+    "name": "Zombie",
+    "img": "Zombie.png",
+    "colors": "",
+    "typeLine": "Token Creature - Zombie",
+    "text": ""
   }
 ]
