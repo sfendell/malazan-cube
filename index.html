@@ -519,11 +519,17 @@
         gallery.innerHTML = '';
         noResults.style.display = 'none';
 
-        var backNamesNorm = new Set();
+        var flipKeysNorm = new Set();
+        var flipValuesNorm = new Set();
         if (flipMap && typeof flipMap === 'object') {
-          Object.values(flipMap).forEach(function (v) { backNamesNorm.add(normalizeNameForMatch(v)); });
+          Object.keys(flipMap).forEach(function (k) { flipKeysNorm.add(normalizeNameForMatch(k)); });
+          Object.values(flipMap).forEach(function (v) { flipValuesNorm.add(normalizeNameForMatch(v)); });
         }
-        var undraftableNamesNorm = new Set(backNamesNorm);
+        var backOnlyNorm = new Set();
+        flipValuesNorm.forEach(function (vNorm) {
+          if (!flipKeysNorm.has(vNorm)) backOnlyNorm.add(vNorm);
+        });
+        var undraftableNamesNorm = new Set(backOnlyNorm);
         DECK_OF_DRAGONS_NAMES.forEach(function (n) { undraftableNamesNorm.add(normalizeNameForMatch(n)); });
         QUICK_BENS_SOULS_NAMES.forEach(function (n) { undraftableNamesNorm.add(normalizeNameForMatch(n)); });
 
