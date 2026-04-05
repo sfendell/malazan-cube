@@ -70,13 +70,6 @@
     "text": "Elderstorm (When you cast this, copy this spell for each Elder spell you cast and Elder land you played this turn.)\nDeal three damage to target creature."
   },
   {
-    "name": "Andarist",
-    "img": "Andarist.png",
-    "colors": "B",
-    "typeLine": "Legendary Creature - Elder Elf",
-    "text": "Whenever you place the first card on the bottom of your deck in a turn, target creature gets -1/-1 until end of turn.\nWhenever the fourth card enters your graveyard in a turn, target player loses 3 life and you gain 3 life.\nXB: Place X cards from your graveyard on the bottom of your deck in a random order. Mill X."
-  },
-  {
     "name": "Anomander Rake",
     "img": "Anomander Rake.png",
     "colors": "WUB",
@@ -963,7 +956,7 @@
     "img": "Grey Helms Final Charge.png",
     "colors": "WR",
     "typeLine": "Sorcery",
-    "text": "Creatures you gain +3/+0, haste, and trample until end of turn.\nAt the beginning of your next end step, sacrifice all creatures that attacked this turn."
+    "text": "Creatures you control gain +3/+0, haste, and trample until end of turn.\nAt the beginning of your next end step, sacrifice all creatures that attacked this turn."
   },
   {
     "name": "Greyfrog",
@@ -1088,7 +1081,7 @@
     "name": "Human Child",
     "img": "Human Child.png",
     "colors": "",
-    "typeLine": "Creature - Human Child",
+    "typeLine": "Token Creature - Human Child",
     "text": ""
   },
   {
@@ -1692,6 +1685,13 @@
     "colors": "BR",
     "typeLine": "Legendary Creature - Malazan Child Wizard",
     "text": "T, Pay 1 life, Sacrifice a permanent: Impulse 1. At the end of your turn, if the impulsed card is still in exile, deal X damage to any target, where X is its mana value."
+  },
+  {
+    "name": "Nimander Golit",
+    "img": "Nimander Golit.png",
+    "colors": "B",
+    "typeLine": "Legendary Creature - Elder Elf",
+    "text": "Whenever you place the first card on the bottom of your deck in a turn, target creature gets -1/-1 until end of turn.\nWhenever the fourth card enters your graveyard in a turn, target player loses 3 life and you gain 3 life.\nXB: Place X cards from your graveyard on the bottom of your deck in a random order. Mill X."
   },
   {
     "name": "Olar Ethil",
