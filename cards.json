@@ -28,6 +28,13 @@
     "text": "This enters tapped unless an opponent has discarded a card this turn.\nT: Add U, R, or B.\n3UBR, T, Slow, Sacrifice this: Target opponent discards their hand."
   },
   {
+    "name": "Alien Dinosaur",
+    "img": "Alien Dinosaur.png",
+    "colors": "",
+    "typeLine": "Create - Alien Dinosaur",
+    "text": ""
+  },
+  {
     "name": "Always an Even Exchange",
     "img": "Always an Even Exchange.png",
     "colors": "U",
@@ -116,7 +123,7 @@
     "img": "Ascension to Trakes Side.png",
     "colors": "R",
     "typeLine": "Enchantment",
-    "text": "Whenever anything is dealt damage or dies, put a blood counter on this. If it was sacrificed, put an additional blood counter on this.\nRemove 5 blood counters from this: Destroy target artifact or nonbasic land.\nRemove 10 blood counters from this: Amass 4.\nRemove 20 blood counters from this: Create eight 2/1 red Cat Human Warrior tokens with double strike and haste."
+    "text": "Whenever anything is dealt damage or dies, put a blood counter on this. If it was sacrificed, put an additional blood counter on this.\nRemove 5 blood counters from this: Destroy target artifact or nonbasic land.\nRemove 10 blood counters from this: Amass 4.\nRemove 20 blood counters from this, sacrifice this: Create eight 2/1 red Cat Human Warrior tokens with double strike and haste."
   },
   {
     "name": "Attack from Tavern to Tavern",
@@ -592,7 +599,7 @@
     "img": "Damisk Regretful Hunter.png",
     "colors": "G",
     "typeLine": "Legendary Creature - Human",
-    "text": "Whenever a creature with power less than this dies, you may exile it.\nWhenever a creature card leaves exile, gain 2 life.\n2G, Move a creature card from exile to a graveyard: Return target land card from your graveyard to your hand."
+    "text": "Whenever a creature with power less than this dies, you may exile it.\nWhenever a creature card leaves exile, gain 2 life.\n2G, Move a creature card from exile to a graveyard: Return up to one target land card from your graveyard to your hand."
   },
   {
     "name": "Darujhistan",
@@ -696,8 +703,8 @@
     "name": "Dream of the Eres’al",
     "img": "Dream of the Eresal.png",
     "colors": "G",
-    "typeLine": "Sorcery",
-    "text": "Scry 2, then reveal the top card of your library. If it’s a land, put it onto the battlefield. If it’s an Elder, draw three cards. If it’s neither, draw a card. (Elder lands do both.)"
+    "typeLine": "Instant",
+    "text": "Scry 2, then you may reveal the top card of your library. If it’s a land, put it onto the battlefield. If it’s an Elder, draw three cards. If you don’t reveal it, draw a card. (Elder lands do both.)"
   },
   {
     "name": "Drink Toadhoney",
@@ -770,11 +777,11 @@
     "text": "Flying\nWhenever another creature you control dies, you may create a token that is a copy of it, except it’s a 3/1 blue and black Illusion with “Whenever this is targeted, sacrifice it.”\n2RR, Slow: Tap target creature. Gain control of it until end of turn. It gains haste.\nSacrifice an Illusion: Untap target creature."
   },
   {
-    "name": "Empress Lasseen",
-    "img": "Empress Lasseen.png",
+    "name": "Empress Laseen",
+    "img": "Empress Laseen.png",
     "colors": "UBR",
     "typeLine": "Legendary Creature - Malazan Noble",
-    "text": "Hexproof\nAt the end of each of your turns, put a grasp counter on target non-land permanent. Then gain control of all non-land permanents with mana value less than the number of grasp counters on them for as long as you control Lasseen.\nPay 3 life, Sacrifice a creature you don’t own: Put a grasp counter on target land."
+    "text": "Hexproof\nAt the end of each of your turns, put a grasp counter on target non-land permanent. Then gain control of all permanents with mana value less than the number of grasp counters on them for as long as you control Laseen.\nPay 3 life, Sacrifice a creature you don’t own: Put a grasp counter on target land."
   },
   {
     "name": "Ensconce in Dream",
@@ -837,7 +844,7 @@
     "img": "Felisin Paran.png",
     "colors": "URG",
     "typeLine": "Legendary Creature - Malazan",
-    "text": "Whenever a creature you control dies, deal 1 damage to any creature chosen at random.\nWhen Felisin is dealt damage for the third time in a turn, transform her."
+    "text": "Whenever a creature you control dies, this deals 1 damage to a creature chosen at random.\nWhen Felisin is dealt damage for the third time in a turn, transform her."
   },
   {
     "name": "Fener, Manifested",
@@ -1124,7 +1131,7 @@
     "img": "Ice Age.png",
     "colors": "U",
     "typeLine": "Sorcery",
-    "text": "Exert all creatures. Then either draw a card or proliferate."
+    "text": "Freeze all creatures. Then either draw a card or proliferate."
   },
   {
     "name": "Idolize",
@@ -1304,7 +1311,7 @@
   {
     "name": "Korbal Broach",
     "img": "Korbal Broach.png",
-    "colors": "B",
+    "colors": "BR",
     "typeLine": "Legendary Creature - Human Wizard",
     "text": "Whenever a creature card enters your graveyard from anywhere, put a +1/+1 counter on target creature. This ability activates only twice per turn.\nX, Remove X counters among creatures you control: Return target creature with mana value X from your graveyard to the battlefield."
   },
@@ -1362,7 +1369,7 @@
     "img": "Krul Dream Sculptor.png",
     "colors": "UB",
     "typeLine": "Legendary Creature - Elder God",
-    "text": "Curiosity, Menace\nAt the beginning of your upkeep, exile the top card of your library.\nOnce per turn, you may play any card from exile with mana value less than the number of cards you control in exile."
+    "text": "Menace\nAt the beginning of your upkeep, exile the top card of your library.\nOnce per turn, you may play any card from exile with mana value less than the number of cards you control in exile."
   },
   {
     "name": "Lady Envy",
@@ -1390,7 +1397,7 @@
     "img": "Legion of Trake.png",
     "colors": "",
     "typeLine": "Creature - Human Army",
-    "text": "First strike, Haste\nWhenever this attacks, you may exert it. If you do, take another combat this turn. Activate this only once a turn. (An exerted creature won’t untap during your next untap step.)"
+    "text": "First strike, Haste\nWhenever this attacks, you may exert it. If you do, take another combat this turn. Oncebound. (An exerted creature won’t untap during your next untap step.)"
   },
   {
     "name": "Leoman of the Flails",
@@ -1593,7 +1600,7 @@
     "img": "Monok Ochem.png",
     "colors": "BR",
     "typeLine": "Legendary Creature - Elder Zombie Shaman",
-    "text": "Elder Zombies you control have haste and afterlife 1.\nSacrifice another creature: If it was an Elder Zombie, Monok gails lifelink until end of turn. Then deal damage to any target equal to sacrificed creature’s power. Activate only once per turn."
+    "text": "Elder Zombies you control have haste and afterlife 1.\nOncebound, Sacrifice another creature: If it was an Elder Zombie, Monok gails lifelink until end of turn. Then deal damage to any target equal to sacrificed creature’s power."
   },
   {
     "name": "Moon’s Spawn",
@@ -1824,7 +1831,7 @@
     "img": "Predict the Market.png",
     "colors": "UB",
     "typeLine": "Kindred Enchantment - Merchant Aura",
-    "text": "Enchant player\nWhenever a permanent leaves the battlefield, put a derivative counter on this.\nAt the beginning of your upkeep, if this has fewer counters than enchanted player controls, remove a counter from this and lose 1 life. Otherwise, sacrifice this and draw X cards, where X is the number of counters on this."
+    "text": "Enchant player\nWhenever a permanent leaves the battlefield, put a derivative counter on this.\nAt the beginning of your upkeep, if this has fewer counters than lands enchanted player controls, remove a counter from this and lose 1 life. Otherwise, sacrifice this and draw X cards, where X is the number of counters on this."
   },
   {
     "name": "Priest of High House Light",
@@ -2075,7 +2082,7 @@
     "name": "Ruse Apprentice",
     "img": "Ruse Apprentice.png",
     "colors": "U",
-    "typeLine": "Creature - Wizard",
+    "typeLine": "Creature - Human Wizard",
     "text": "Flash\nWhen this enters, scry 2.\n1UU, Sacrifice this: Counter target spell or activated ability. Activate this only if you’ve scried this turn."
   },
   {
@@ -2230,7 +2237,7 @@
     "img": "Shorttail Hatchling.png",
     "colors": "G",
     "typeLine": "Creature - Alien Dinosaur",
-    "text": "Evolve\nWhen this dies, make X 1/1 Alien Dinosaur tokens, where X is the number of counters on this creature."
+    "text": "Evolve\nWhen this dies, create X 1/1 blue and green Alien Dinosaur creature tokens, where X is the number of counters on this creature."
   },
   {
     "name": "Shuq Ellale",
@@ -2384,7 +2391,7 @@
     "img": "Stillwater.png",
     "colors": "UB",
     "typeLine": "Legendary Creature - Malazan Assassin Wizard",
-    "text": "Curiosity, deathtouch, menace\nPay 2 life: Exile the top card of target opponent’s library. For as long as that card remains exiled, you may cast it, and you may spend mana as though it were mana of any color to cast it. Activate only once each turn and only if you’ve drawn three or more cards this turn."
+    "text": "Curiosity, deathtouch\nPay 2 life: Exile the top card of target opponent’s library. For as long as that card remains exiled, you may cast it, and you may spend mana as though it were mana of any color to cast it. Activate only once each turn and only if you’ve drawn three or more cards this turn."
   },
   {
     "name": "Stolen Table",
@@ -2538,7 +2545,7 @@
     "img": "The Errant.png",
     "colors": "WB",
     "typeLine": "Legendary Creature - Elder",
-    "text": "Exploit\nWhenever you sacrifice a a permanent, put a +1/+1 counter on this and flip a coin. If it’s heads, put a +1/+1 counter on another target creature. If it’s tails, bleed.\nWhenever you discard your fourth card in a turn, this ascends."
+    "text": "Exploit\nWhenever you sacrifice a permanent, put a +1/+1 counter on this and flip a coin. If it’s heads, put a +1/+1 counter on another target creature. If it’s tails, bleed.\nWhenever you discard your fourth card in a turn, this ascends."
   },
   {
     "name": "The Hounds of Shadow",
@@ -2650,7 +2657,7 @@
     "img": "Topper.png",
     "colors": "B",
     "typeLine": "Legendary Creature - Elder Elf Malazan Assassin Wizard",
-    "text": "Deathtouch, Exploit (When this creature enters, you may sacrifice a creature.)\nWhenever any creature exploits, destroy target creature.\n6U: Exile this. Return it to the battlefield at the end of the turn. This ability costs 1 less for each Warren you control."
+    "text": "Deathtouch, exploit\nWhenever any creature exploits, destroy target creature.\n6U: Exile this. Return it to the battlefield at the end of the turn. This ability costs 1 less for each Warren you control."
   },
   {
     "name": "Trake, Beast of War",
@@ -2685,7 +2692,7 @@
     "img": "Trap in Dragonsblood.png",
     "colors": "W",
     "typeLine": "Enchantment - Aura",
-    "text": "Enchant creature card in your graveyard\nWhen this enters, exile target creature until this is leaves the battlefield.\n1: If enchanted creature is a Dragon card, gain 2 life for each card in exile, then put all exiled cards in their owners graveyard and sacrifice this."
+    "text": "Enchant creature card in your graveyard\nWhen this enters, exile target creature until this is leaves the battlefield.\n1, Oncebound: Gain 2 life for each card in exile, then put all exiled cards in their owners graveyard and sacrifice this. Activate this only if enchanted creature is a Dragon."
   },
   {
     "name": "Traverse Starvald Demelain",
@@ -2797,7 +2804,7 @@
     "img": "Usurp.png",
     "colors": "WB",
     "typeLine": "Sorcery",
-    "text": "Exile target creature. If that creature was an Army, amass Malazans 3. If it was a Noble, draw two cards. If it was a God, another target creature ascends."
+    "text": "Exile target creature. If that creature was an Army, amass Malazans 3. If it was a Noble, draw two cards. If it was a God, up to another target creature ascends."
   },
   {
     "name": "Vengeance",
