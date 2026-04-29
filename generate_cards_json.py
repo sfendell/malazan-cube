@@ -32,6 +32,40 @@ def get_colors_from_cost(cost: str) -> list:
     return sorted(set(c.upper() for c in cost if c.upper() in WUBRG), key=lambda c: WUBRG.index(c))
 
 
+def mana_value_from_mse_cost(cost: str) -> int:
+    """Converted mana value from MSE casting_cost string (e.g. 2WU, 1R/G, XGU)."""
+    s = (cost or "").strip()
+    if not s:
+        return 0
+    s = re.sub(r"<[^>]+>", "", s)
+    s = s.upper().replace(" ", "")
+    total = 0
+    i = 0
+    wubrg = frozenset("WUBRG")
+    while i < len(s):
+        c = s[i]
+        if c.isdigit():
+            j = i
+            while j < len(s) and s[j].isdigit():
+                j += 1
+            total += int(s[i:j])
+            i = j
+            continue
+        if c == "X":
+            i += 1
+            continue
+        if c in wubrg:
+            if i + 2 < len(s) and s[i + 1] == "/" and s[i + 2] in wubrg:
+                total += 1
+                i += 3
+                continue
+            total += 1
+            i += 1
+            continue
+        i += 1
+    return total
+
+
 def normalize_name(s: str) -> str:
     """Lowercase, remove non-alphanumeric; for matching card name to image filename stem."""
     return re.sub(r"[^\w]", "", s).lower()
@@ -77,6 +111,7 @@ def main():
             "colors": colors,
             "typeLine": type_line,
             "text": text,
+            "manaValue": mana_value_from_mse_cost(cost),
         })
 
     cards.sort(key=lambda c: (c["name"] or "").lower())

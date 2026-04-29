@@ -1,3 +1,7 @@
+# Magic Set Editor
+*.mse-set
+*.mse-set.bak
+
 # Generated / intermediary files
 __generated__/
 __temp_scripts__/
