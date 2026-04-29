@@ -163,6 +163,18 @@ def serialize_cards_content(cards: list[dict]) -> str:
     return "card:\n" + "\ncard:\n".join(blocks) + "\n"
 
 
+def index_to_collector_number(cards: list[dict]) -> dict[int, int]:
+    """Map 0-based set-file card index -> 1-based collector number (alphabetical by card name)."""
+    sorted_by_name = sorted(enumerate(cards), key=lambda x: (x[1].get("name") or "").strip().lower())
+    return {idx: cn for cn, (idx, _) in enumerate(sorted_by_name, 1)}
+
+
+def cards_for_collector_subset(cards: list[dict], collectors: set[int]) -> list[dict]:
+    """Return card dicts whose collector number is in collectors (same scheme as mtg_clippy / finalize)."""
+    idx_to_cn = index_to_collector_number(cards)
+    return [cards[i] for i in range(len(cards)) if idx_to_cn.get(i) in collectors]
+
+
 def repack_mse_set(extract_dir: Path, mse_path: Path) -> None:
     """Zip extract_dir contents into .mse-set at mse_path. Overwrites mse_path."""
     if mse_path.exists():
