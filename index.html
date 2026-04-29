@@ -37,7 +37,7 @@
       border-radius: 8px;
     }
     .filters label { display: flex; align-items: center; gap: 0.5rem; }
-    .filters select, .filters input[type="text"] {
+    .filters select, .filters input[type="text"], .filters input[type="number"] {
       padding: 0.4rem 0.6rem;
       background: #2a2a2e;
       border: 1px solid #444;
@@ -46,6 +46,8 @@
       font-size: 0.95rem;
     }
     .filters input[type="text"] { min-width: 180px; }
+    .filters input[type="number"]#mv-num { width: 4rem; min-width: 0; }
+    .filters input[type="number"]:disabled { opacity: 0.5; }
     .filters .checkbox-label { display: flex; align-items: center; gap: 0.35rem; white-space: nowrap; }
     .filters .card-count { margin-left: auto; opacity: 0.85; font-size: 0.9rem; }
     .color-swatch { display: inline-flex; gap: 1px; }
@@ -200,6 +202,15 @@
         <label>Color: <select id="color-filter"></select><span id="color-preview" class="color-swatch"></span></label>
         <label class="checkbox-label"><input type="checkbox" id="color-exact" checked> Match color identity exactly</label>
         <label>Type: <select id="type-filter"></select></label>
+        <label>Mana value:
+          <select id="mv-op" aria-label="Mana value comparison">
+            <option value="">Any</option>
+            <option value="eq">Equal to</option>
+            <option value="gt">Greater than</option>
+            <option value="lt">Less than</option>
+          </select>
+          <input type="number" id="mv-num" min="0" max="99" step="1" placeholder="—" inputmode="numeric" aria-label="Mana value" disabled>
+        </label>
         <label>Text: <input type="text" id="text-filter" placeholder="Exact text in card…"></label>
         <span id="card-count" class="card-count"></span>
       </div>
@@ -362,6 +373,33 @@
         return (name + ' ' + text).toLowerCase();
       }
 
+      function cardManaValue(card) {
+        if (card == null || typeof card.manaValue !== 'number') return null;
+        return card.manaValue;
+      }
+
+      function mvFilterMatches(card) {
+        var op = document.getElementById('mv-op').value;
+        if (!op) return true;
+        var raw = (document.getElementById('mv-num').value || '').trim();
+        if (raw === '') return true;
+        var target = parseInt(raw, 10);
+        if (isNaN(target)) return true;
+        var mv = cardManaValue(card);
+        if (mv === null) return true;
+        if (op === 'eq') return mv === target;
+        if (op === 'gt') return mv > target;
+        if (op === 'lt') return mv < target;
+        return true;
+      }
+
+      function syncMvNumEnabled() {
+        var op = document.getElementById('mv-op').value;
+        var num = document.getElementById('mv-num');
+        num.disabled = !op;
+        if (!op) num.value = '';
+      }
+
       function applyFilters(cards) {
         var colorKey = document.getElementById('color-filter').value;
         var colorExact = document.getElementById('color-exact').checked;
@@ -370,6 +408,7 @@
         return cards.filter(function (card) {
           if (colorKey !== '' && !cardColorMatch(card, colorKey, colorExact)) return false;
           if (typeKey !== '' && !cardHasType(card, typeKey)) return false;
+          if (!mvFilterMatches(card)) return false;
           if (query !== '' && cardSearchText(card).indexOf(query) === -1) return false;
           return true;
         });
@@ -643,7 +682,13 @@
       document.getElementById('color-filter').addEventListener('change', onFilterChange);
       document.getElementById('color-exact').addEventListener('change', onFilterChange);
       document.getElementById('type-filter').addEventListener('change', onFilterChange);
+      document.getElementById('mv-op').addEventListener('change', function () {
+        syncMvNumEnabled();
+        onFilterChange();
+      });
+      document.getElementById('mv-num').addEventListener('input', onFilterChange);
       document.getElementById('text-filter').addEventListener('input', onFilterChange);
+      syncMvNumEnabled();
 
       function showTab(tabName) {
         var tabs = ['tab-draft', 'tab-undraftables', 'tab-tokens'];
