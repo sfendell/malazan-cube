@@ -21,6 +21,13 @@
     "text": "Other creatures you control get +1/+1.\nWhenever a Malazan you control is dealt damage, deal 1 damage to any target.\nWhenever a Child you control dies, destroy target creature."
   },
   {
+    "name": "Agent of the Claw",
+    "img": "Agent of the Claw.png",
+    "colors": "UBR",
+    "typeLine": "Creature - Malazain Assassin Wizard",
+    "text": "Flash\nWhen this enters the battlefield, counter target activated or triggered ability. If its source was an artifact and R was paid for this, gain control of it. If its source was a creature and B was paid for this, destroy it. Otherwise, draw a card."
+  },
+  {
     "name": "Akhrast Korvelain",
     "img": "Akhrast Korvelain.png",
     "colors": "",
@@ -77,6 +84,13 @@
     "text": "Elderstorm (When you cast this, copy this spell for each Elder spell you cast and Elder land you played this turn.)\nDeal three damage to target creature."
   },
   {
+    "name": "Andii Funeral",
+    "img": "Andii Funeral.png",
+    "colors": "B",
+    "typeLine": "Instant",
+    "text": "If a creature you didn’t control died this turn, return up to one target creature card from your graveyard to your hand. If a creature you controlled died this turn, draw a card and exile up to one target card from a graveyard."
+  },
+  {
     "name": "Anomander Rake",
     "img": "Anomander Rake.png",
     "colors": "WUB",
@@ -89,6 +103,13 @@
     "colors": "UG",
     "typeLine": "Enchantment",
     "text": "Creatures with flying cannot block creatures without flying.\nCreatures without flying have reach."
+  },
+  {
+    "name": "Apocalyptic Reveler",
+    "img": "Apocalyptic Reveler.png",
+    "colors": "BR",
+    "typeLine": "Creature - Human Rebel",
+    "text": "Riot\nWhenever you sacrifice a permanent, deal 1 damage to any target."
   },
   {
     "name": "Apsalar",
@@ -154,6 +175,13 @@
     "text": "Destroy target tapped creature. If it had vigilance, its controller loses 4 life."
   },
   {
+    "name": "Barathol Mekhar",
+    "img": "Barathol Mekhar.png",
+    "colors": "R",
+    "typeLine": "Legendary Creature - Human Artificer",
+    "text": "When this enters the battlefield, place X Forge counters on it and tutor an Equipment to the top of your deck, where X is the number of creatures you control.\nSlow, T, Remove a Forge counter from this: Destroy target artifact. Its controller creates a Short Sword token."
+  },
+  {
     "name": "Barghast Exhumation",
     "img": "Barghast Exhumation.png",
     "colors": "R",
@@ -179,7 +207,7 @@
     "img": "Bauchelain.png",
     "colors": "UB",
     "typeLine": "Legendary Creature - Human Wizard",
-    "text": "Whenever any number of creature cards enter your graveyard from anywhere, make a 2/2 Black Zombie token. This ability triggers only twice per turn.\nUB, Slow, mill six and sacrifice a nontoken creature: Destroy target creature."
+    "text": "Whenever any other number of creature cards enter your graveyard from anywhere, make a 2/2 Black Zombie token. Oncebound.\nUB, Slow, mill six and sacrifice a nontoken creature: Destroy target creature."
   },
   {
     "name": "Beak, Selfless Prodigy",
@@ -259,6 +287,13 @@
     "text": "As an additional cost, sacrifice a land or artifact you control.\nIf you sacrificed an untapped permanent, copy this spell as it resolves. You may choose new targets for the copy.\nDestroy target land or artifact. Amass Malazans 2."
   },
   {
+    "name": "Black Market Merchant.",
+    "img": "Black Market Merchant..png",
+    "colors": "WB",
+    "typeLine": "Creature - Human Merchant",
+    "text": "When this enters, plunder twice.\nPay 1 life, sacrifice a Treasure: Target creature gets -1/-1 until end of turn. Oncebound.\nPay 2 life, sacrifice two Treasures and this: Destroy target enchantment.\nPay 4 life, sacrifice four Treasures and this: Tutor a card to your hand."
+  },
+  {
     "name": "Blessed by Soliel",
     "img": "Blessed by Soliel.png",
     "colors": "WG",
@@ -322,6 +357,13 @@
     "text": "Draw X cards, then proliferate X times."
   },
   {
+    "name": "Bridgeburner Engineer",
+    "img": "Bridgeburner Engineer.png",
+    "colors": "WR",
+    "typeLine": "Creature - Malazan Sapper",
+    "text": "When this enters the battlefield, create a Cusser.\n\nWhenever this deals damage to a player, for the rest of the turn, Cussers you control gain “R, Sacrifice this: Deal 3 damage to any target and gain 3 life.”"
+  },
+  {
     "name": "Brother Grave",
     "img": "Brother Grave.png",
     "colors": "WU",
@@ -357,6 +399,13 @@
     "text": "Enchant non-God creature\nEnchanted creature loses all other activated abilities and has “T: Add one mana of a color among permanents you control. If you control permanents of all five colors, instead add WUBRG.”"
   },
   {
+    "name": "Buried Spirit",
+    "img": "Buried Spirit.png",
+    "colors": "BG",
+    "typeLine": "Creature",
+    "text": "At the beginning of your turn, target creature gets +X/+X, where X is the number of lands in your graveyard."
+  },
+  {
     "name": "Burn the Ships",
     "img": "Burn the Ships.png",
     "colors": "BR",
@@ -368,7 +417,7 @@
     "img": "Burn Sleeping Goddess.png",
     "colors": "",
     "typeLine": "Legendary Land - Warren",
-    "text": "When this enters, sacrifice it unless you pay 1.\n3WUBRG: This becomes a 6/6 Elder God creature (it’s still a land.)\nT: Add one mana of any color."
+    "text": "Burn enters tapped.\nWhen this enters, sacrifice it unless you pay 1.\n3WUBRG: This becomes a 6/6 Elder God creature (it’s still a land.)\nT: Add one mana of any color."
   },
   {
     "name": "Burn’s Hammer",
@@ -494,14 +543,14 @@
     "img": "Compassion.png",
     "colors": "WG",
     "typeLine": "Instant",
-    "text": "Creatures you control get hexproof and indestructible until end of turn.\nUntil end of turn, whenever you gain life, put a +1/+1 counter on target creature."
+    "text": "Creatures you control get hexproof and indestructible until end of turn.\nUntil end of turn, whenever you gain life, put a +1/+1 counter on target creature and draw a card."
   },
   {
     "name": "Construct",
     "img": "Construct.png",
     "colors": "",
     "typeLine": "Token Artifact Creature - Construct",
-    "text": ""
+    "text": "Prowess"
   },
   {
     "name": "Convergence",
@@ -578,7 +627,7 @@
     "img": "Cusser.png",
     "colors": "",
     "typeLine": "Token Artifact",
-    "text": "Tap an untapped creature you control, Sacrifice this, Kicker R: Deal 1 to any target. If you paid the kicker cost, instead deal 2 damage to any target. (You may pay an additional R as you cast this spell.)"
+    "text": "Tap an untapped creature you control, Sacrifice this, Kicker R: Deal 1 to any target. If you paid the kicker cost, instead deal 2 damage to any target."
   },
   {
     "name": "Cuttle, Veteran Sapper",
@@ -635,6 +684,13 @@
     "colors": "",
     "typeLine": "Kindred Land - Elder Warren",
     "text": "This enters tapped unless you cast an instant or sorcery this turn.\nT: Add R or U.\n2UR, T, Sacrifice this: Until end of turn, the next instant or sorcery you cast has mindstorm."
+  },
+  {
+    "name": "Denul Meddler",
+    "img": "Denul Meddler.png",
+    "colors": "WG",
+    "typeLine": "Creature - Malazan Wizard",
+    "text": "Lifelink\nG/WG/W, T: Destroy target artifact or enchantment. Activate this only if you’ve gained life this turn."
   },
   {
     "name": "Denul Revival",
@@ -728,6 +784,13 @@
     "text": "At the beginning of combat on your turn, create a 1/1 red and green Rebel creature token with riot.\nWhenever two Rebels you control deal combat damage to a player, put two +1/+1 counters on this, then this ascends."
   },
   {
+    "name": "Duiker the Historian",
+    "img": "Duiker the Historian.png",
+    "colors": "WU",
+    "typeLine": "Legendary Creature - Malazan Advisor",
+    "text": "Whenever a Legendary creature you control dies, investigate.\nAt the beginning of your end step, return target creature with mana value X or less from the graveyard to the battlefield, where X is the number of tokens you’ve sacrificed this turn."
+  },
+  {
     "name": "Dujek Onearm",
     "img": "Dujek Onearm.png",
     "colors": "W",
@@ -747,6 +810,13 @@
     "colors": "WUB",
     "typeLine": "Legendary Creature - Elder Elemental",
     "text": "Whenever a creature dies, scry 1.\nWhenever a creature is exiled, draw a card.\nWhenever a creature enters its owners library or hand from the battlefield, draw two cards."
+  },
+  {
+    "name": "Elder Spirit",
+    "img": "Elder Spirit.png",
+    "colors": "",
+    "typeLine": "Token Creature - Elder Spirit",
+    "text": "* is equal to the number of Elders you control."
   },
   {
     "name": "Elder Zombie",
@@ -774,14 +844,21 @@
     "img": "Eloth Mistress of Illusions.png",
     "colors": "U",
     "typeLine": "Legendary Creature - Dragon",
-    "text": "Flying\nWhenever another creature you control dies, you may create a token that is a copy of it, except it’s a 3/1 blue and black Illusion with “Whenever this is targeted, sacrifice it.”\n2RR, Slow: Tap target creature. Gain control of it until end of turn. It gains haste.\nSacrifice an Illusion: Untap target creature."
+    "text": "Flying\nWhenever another nontoken creature you control dies, you may create a token that is a copy of it, except it’s a 3/1 blue and black Illusion with “Whenever this is targeted, sacrifice it.”\nR, Slow: Tap target creature. Gain control of it until end of turn. It gains haste. Oncebound.\nSacrifice an Illusion: Untap target creature."
   },
   {
     "name": "Empress Laseen",
     "img": "Empress Laseen.png",
     "colors": "UBR",
     "typeLine": "Legendary Creature - Malazan Noble",
-    "text": "Hexproof\nAt the end of each of your turns, put a grasp counter on target non-land permanent. Then gain control of all permanents with mana value less than the number of grasp counters on them for as long as you control Laseen.\nPay 3 life, Sacrifice a creature you don’t own: Put a grasp counter on target land."
+    "text": "Hexproof\nAt the end of each of your turns, put a grasp counter on Empress Laseen. Then gain control of target permanent with mana value less than the number of grasp counters on her for as long as you control her.\nSacrifice 10 permanents you control but don’t own: You win the game."
+  },
+  {
+    "name": "Emurlahn Saboteur",
+    "img": "Emurlahn Saboteur.png",
+    "colors": "WUB",
+    "typeLine": "Creature - Elder Elf Wizard",
+    "text": "Flash\nWhen this enters the battlefield, if B was spent to play it, target creature gets -X/-X until end of turn. If W was spent to cast it, target creature gets +X/+X until end of turn. If U was spent to cast it, scry X. X is the number of Elder Elves you control."
   },
   {
     "name": "Ensconce in Dream",
@@ -803,6 +880,13 @@
     "colors": "U",
     "typeLine": "Artifact Creature - Alien Dinosaur",
     "text": "This cannot attack or block if it has no  counters on it.\nT: Add one mana of any color. Use this only to cast Alien or artifact spells.\nR/G, T: This fights target creature you control. When it wins the fight, put a +1/+1 counter on it."
+  },
+  {
+    "name": "Evolved Efficiency",
+    "img": "Evolved Efficiency.png",
+    "colors": "UG",
+    "typeLine": "Kindred Instant - Alien Dinosaur",
+    "text": "Up to one target creature you control gets +X/+X, where X is the number of subtypes it has. If X is greater than three, draw a card, then copy this spell. You may choose new targets for the copy."
   },
   {
     "name": "Excavate",
@@ -882,6 +966,13 @@
     "text": "Equipped creature gets +0/+3.\nEquip 1"
   },
   {
+    "name": "Flood Foreseen",
+    "img": "Flood Foreseen.png",
+    "colors": "U",
+    "typeLine": "Instant",
+    "text": "Return up to three nonland permanents to their owner’s hand. Scry 3."
+  },
+  {
     "name": "Food",
     "img": "Food.png",
     "colors": "",
@@ -959,6 +1050,13 @@
     "text": "Riot, deathtouch, trample"
   },
   {
+    "name": "Grand Conspiracy",
+    "img": "Grand Conspiracy.png",
+    "colors": "UB",
+    "typeLine": "Instant",
+    "text": "As an additional cost to cast this card, discard a card.\nDestroy target creature.\nMindstorm."
+  },
+  {
     "name": "Grey Helms’ Final Charge",
     "img": "Grey Helms Final Charge.png",
     "colors": "WR",
@@ -1029,6 +1127,13 @@
     "text": "Creatures you control with power less than this have hexproof. \nWhenever you scry, you may switch this creatures power and toughness."
   },
   {
+    "name": "Heavy Recruit",
+    "img": "Heavy Recruit.png",
+    "colors": "W",
+    "typeLine": "Creature - Malazan Soldier",
+    "text": "Exalted, enlist, lifelink"
+  },
+  {
     "name": "Heboric Light Touch",
     "img": "Heboric Light Touch.png",
     "colors": "RG",
@@ -1092,6 +1197,13 @@
     "text": ""
   },
   {
+    "name": "Humbral, Barghast Warchief",
+    "img": "Humbral Barghast Warchief.png",
+    "colors": "G",
+    "typeLine": "Legendary Creature - Elder Human Warrior",
+    "text": "When this enters the battlefield, return up to one target land from your graveyard to the battlefield.\n\nAt the beginning of your combat, target creature gets +X/+X, where X is the number of lands that entered this turn."
+  },
+  {
     "name": "Hunted by Wolves",
     "img": "Hunted by Wolves.png",
     "colors": "G",
@@ -1124,7 +1236,7 @@
     "img": "Icarium Forgetful Wanderer.png",
     "colors": "WU",
     "typeLine": "Legendary Creature - Elder Orc Giant",
-    "text": "At the beginning of your end step, pay WU. If you do, put an epiphany counter on this. Otherwise, return this to your hand.  \nRemove two epiphany counters from this: Draw two cards.  \nT, Slow, Remove four epiphany counters from this, skip your next two turns, and discard your hand: Transform this. End the turn. “Knowledge is a burden, but it is one we must bear.”"
+    "text": "At the beginning of your end step, pay 1. If you do, put an epiphany counter on this. Otherwise, return this to your hand.  \nRemove an epiphany counter from this: Draw a card.\nT, Slow, Remove three epiphany counters from this, skip your next turn, and discard your hand: Transform this. End the turn."
   },
   {
     "name": "Ice Age",
@@ -1208,7 +1320,7 @@
     "img": "Kadapsalas Revenge.png",
     "colors": "U",
     "typeLine": "Sorcery",
-    "text": "Improvise, Behold an Elder Elf\nSacrifice all artifacts you control. Create an X/X Child God artifact creature token, where X is the number of permanents sacrificed this way. If you beheld an Elder Elf, it gains indestructible."
+    "text": "Improvise, Behold an Elder Elf\nExile X creatures from your graveyard. Create a */* Child God artifact creature token. It has the combined power, toughness, and colors of the exiled creatures and all of their abilities. If you beheld an Elder Elf, it gains indestructible as well."
   },
   {
     "name": "Kalam Mekhar",
@@ -1250,7 +1362,7 @@
     "img": "Karsa Orlong.png",
     "colors": "RG",
     "typeLine": "Legendary Creature - Elder Giant Barbarian",
-    "text": "Trample, Ward 2\nWhenever Karsa attacks, choose one that has not yet been chosen:\n This fights one target creature.\n Destroy target artifact or enchantment.\n Until end of turn, this gains “If this would deal combat damage to a player, it deals double that damage instead.”\nIf you can’t, this ascends."
+    "text": "Trample, Ward 2\nWhenever Karsa attacks, choose one that has not yet been chosen:\n This fights up to one other target creature.\n Destroy target artifact or enchantment.\n Until end of turn, this gains “If this would deal combat damage to a player, it deals double that damage instead.”\nIf you can’t, this ascends."
   },
   {
     "name": "Kaschan",
@@ -1334,7 +1446,7 @@
     "img": "Kurald Liosan.png",
     "colors": "",
     "typeLine": "Kindred Land - Elder Warren",
-    "text": "This enters tapped if there is more than one color among permanents you control.\nWhite creatures you control that are not any other color get +0/+1.\nT: Add B or W."
+    "text": "This enters tapped unless there is exactly one color among permanents you control.\nWhite creatures you control that are not any other color get +0/+1.\nT: Add B or W."
   },
   {
     "name": "K’Chain Ascendancy",
@@ -1397,7 +1509,7 @@
     "img": "Legion of Trake.png",
     "colors": "",
     "typeLine": "Creature - Human Army",
-    "text": "First strike, Haste\nWhenever this attacks, you may exert it. If you do, take another combat this turn. Oncebound. (An exerted creature won’t untap during your next untap step.)"
+    "text": "First strike, Haste\nWhenever this attacks, you may exert it. If you do, take another combat this turn. Oncebound."
   },
   {
     "name": "Leoman of the Flails",
@@ -1502,7 +1614,7 @@
     "img": "Magnanimous Kruppe.png",
     "colors": "WUR",
     "typeLine": "Legendary Creature - Human Wizard",
-    "text": "You have cunning.\nAt the beginning of your upkeep, scry 1.\nWhenever you place X cards on the bottom of your deck, choose one:\nCook or investigate X times.\nGain control of target spell or artifact with value less than or equal to X. You may choose new targets for the spell."
+    "text": "You have cunning.\nAt the beginning of your upkeep, scry 1.\nWhenever you place X cards on the bottom of your deck, cook or investigate X times. Then gain control of up to one target spell or artifact with value less than or equal to the number of tokens you control. You may choose new targets for the spell."
   },
   {
     "name": "Malazan Ascendancy",
@@ -1738,16 +1850,16 @@
   {
     "name": "Ormolugon, Imperial Artist",
     "img": "Ormolugon Imperial Artist.png",
-    "colors": "R",
+    "colors": "WUR",
     "typeLine": "Legendary Creature - Malazan Advisor",
-    "text": "Whenever a Legendary creature enters under your control, plunder.\nWhenever an Army you control attacks, if you control at least three treasures, it gets +3/+3 until end of turn. If it’s attacking alone, take an extra combat after this. This ability triggers only once per turn."
+    "text": "Whenever a Legendary creature enters under your control, plunder.\nWhenever an Army you control attacks, if you control at least three treasures, it gets +3/+3 until end of turn. If it’s attacking alone, take an extra combat after this. Oncebound."
   },
   {
     "name": "Otataral Dust",
     "img": "Otataral Dust.png",
     "colors": "",
     "typeLine": "Artifact",
-    "text": "Flash\nCreatures lose all activated abilities.\n4, T, Sacrifice this: Counter target activated or triggered ability."
+    "text": "Flash\nCreatures lose all activated abilities.\n4, T, Sacrifice this: Counter target activated or triggered ability. Any player can activate this ability."
   },
   {
     "name": "Otataral Sword",
@@ -1789,7 +1901,7 @@
     "img": "Path of Hands.png",
     "colors": "G",
     "typeLine": "Enchantment",
-    "text": "At the beginning of your upkeep, if there are forty counters among permanents you control, you win the game.\n3GG: Put a +1/+1, trample, or subtype counter of your choice on target creature."
+    "text": "At the beginning of your upkeep, place a subtype counter of your choice on target creature. Then if that creature has more than five subtypes, draw a card. If it has between ten and one hundred subtypes, you win the game."
   },
   {
     "name": "Pearl, Selfless Summon",
@@ -1797,6 +1909,13 @@
     "colors": "B",
     "typeLine": "Legendary Creature - Demon",
     "text": "1W, Sacrifice Pearl: Another creature you control gains indestructible and hexproof until end of turn. Do you pity me, Quick Ben?"
+  },
+  {
+    "name": "Pilgrim of the Redeemer",
+    "img": "Pilgrim of the Redeemer.png",
+    "colors": "G",
+    "typeLine": "Creature",
+    "text": "When this enters the battlefield, gain 2 life.\nT: Add one mana of any color."
   },
   {
     "name": "Plans within Plans",
@@ -1820,8 +1939,8 @@
     "text": "This enters tapped.\nT: Add one mana of any color.\n2, T, Sacrifice this: Draw a card."
   },
   {
-    "name": "Pran Chole, Bonecaster",
-    "img": "Pran Chole Bonecaster.png",
+    "name": "Pran Chole, Bonecaster Chief",
+    "img": "Pran Chole Bonecaster Chief.png",
     "colors": "G",
     "typeLine": "Creature - Elder Zombie Shaman",
     "text": "T: Add R or B. When the next Elder Zombie enters under your control this turn, put a +1/+1 counter on it.\nExile a land from your graveyard: Untap this."
@@ -1831,7 +1950,7 @@
     "img": "Predict the Market.png",
     "colors": "UB",
     "typeLine": "Kindred Enchantment - Merchant Aura",
-    "text": "Enchant player\nWhenever a permanent leaves the battlefield, put a derivative counter on this.\nAt the beginning of your upkeep, if this has fewer counters than lands enchanted player controls, remove a counter from this and lose 1 life. Otherwise, sacrifice this and draw X cards, where X is the number of counters on this."
+    "text": "Enchant player\nWhenever a permanent leaves the battlefield, lose 1 life and put a derivative counter on this.\nAt the beginning of your upkeep, if this has more counters than lands enchanted player controls, sacrifice this and draw X cards, where X is the number of counters on this."
   },
   {
     "name": "Priest of High House Light",
@@ -1880,56 +1999,56 @@
     "img": "Quick Ben Burns Adept.png",
     "colors": "G",
     "typeLine": "Legendary Creature - Malazan Wizard Soul",
-    "text": "Slow, 2GG, T: Put a trample or +1/+1 counter on up to X target creatures, where X is 1 plus the number of exiled Souls.\nWhen this dies, place a Soul card you own from outside the game on top of your deck."
+    "text": "Slow, 2GG, T: Put a trample or +1/+1 counter on up to X target creatures, where X is 1 plus the number of exiled Souls.\nExile this card from your graveyard: Put up to one target Soul you own from outside the game on top of your deck."
   },
   {
     "name": "Quick Ben, Denul Healer",
     "img": "Quick Ben Denul Healer.png",
     "colors": "W",
     "typeLine": "Legendary Creature - Malazan Wizard Soul",
-    "text": "W, T: X target creatures gains protection from the color of your choice until end of turn, where X is the number of exiled Souls plus 1.\nWhen this dies, put a Soul you own from outside the game on top of your library."
+    "text": "W, T: X target creatures gains protection from the color of your choice until end of turn, where X is the number of exiled Souls plus 1.\nExile this card from your graveyard: Put up to one target Soul you own from outside the game on top of your deck."
   },
   {
     "name": "Quick Ben, Emurlahn Heretic",
     "img": "Quick Ben Emurlahn Heretic.png",
     "colors": "B",
     "typeLine": "Legendary Creature - Malazan Wizard Soul",
-    "text": "Slow, 3B, T, Tap an untapped Warren you control: Target player discards X cards, where X is 1 plus the number of exiled Souls.\nCreatures can’t phase in.\nWhen this dies, put a Soul you own from outside the game on top of your library."
+    "text": "Slow, 3B, T, Tap an untapped Warren you control: Target player discards X cards, where X is 1 plus the number of exiled Souls.\nCreatures can’t phase in.\nExile this card from your graveyard: Put up to one target Soul you own from outside the game on top of your deck."
   },
   {
     "name": "Quick Ben, Hood’s Disciple",
     "img": "Quick Ben Hoods Disciple.png",
     "colors": "WB",
     "typeLine": "Legendary Creature - Malazan Wizard Soul",
-    "text": "Non-Spirit creatures you control have Afterlife X, where X is 1 plus the number of exiled Souls.\nWhen this dies, put a Soul you own from outside the game on top of your library."
+    "text": "Non-Spirit creatures you control have Afterlife X, where X is 1 plus the number of exiled Souls.\nExile this card from your graveyard: Put up to one target Soul you own from outside the game on top of your deck."
   },
   {
     "name": "Quick Ben, Imperial Investigator",
     "img": "Quick Ben Imperial Investigator.png",
     "colors": "UG",
     "typeLine": "Legendary Creature - Malazan Wizard Soul",
-    "text": "X is 1 plus the number of exiled Souls.\nWhenever at least one creature with a counter you control attacks, draw X cards.\nT, Gather 6 evidence: X target creatures you control becomes unblockable until end of turn. \nWhen this dies, put a Soul you own from outside the game on top of your library."
+    "text": "X is 1 plus the number of exiled Souls.\nWhenever at least one creature with a counter you control attacks, draw X cards.\nT, Gather 6 evidence: X target creatures you control becomes unblockable until end of turn. \nExile this card from your graveyard: Put up to one target Soul you own from outside the game on top of your deck."
   },
   {
     "name": "Quick Ben, Ruse Master",
     "img": "Quick Ben Ruse Master.png",
     "colors": "U",
     "typeLine": "Legendary Creature - Malazan Wizard Soul",
-    "text": "Whenever you cast a spell that targets a spell, draw X cards, where X is 1 plus the number of exiled Souls.\nWhen this dies, put a Soul you own from outside the game on top of your library."
+    "text": "Whenever you cast a spell that targets a spell, draw X cards, where X is 1 plus the number of exiled Souls.\nExile this card from your graveyard: Put up to one target Soul you own from outside the game on top of your deck."
   },
   {
     "name": "Quick Ben, Squad Mage",
     "img": "Quick Ben Squad Mage.png",
     "colors": "UR",
     "typeLine": "Legendary Creature - Malazan Wizard Soul",
-    "text": "Whenever you cast a noncreature spell, this gets +X/+X, where X is 1 plus the number of exiled Souls.\nYou have cunning.\nWhen this dies, put a Soul you own from outside the game on top of your library."
+    "text": "Whenever you cast a noncreature spell, this gets +X/+X, where X is 1 plus the number of exiled Souls.\nYou have cunning.\nExile this card from your graveyard: Put up to one target Soul you own from outside the game on top of your deck."
   },
   {
     "name": "Quick Ben, Tellan Wizard",
     "img": "Quick Ben Tellan Wizard.png",
     "colors": "R",
     "typeLine": "Legendary Creature - Malazan Wizard Soul",
-    "text": "6R, T: Deal 3 damage to X targets, where X is 1 plus the number of exiled Souls.\nWhen this dies, put a Soul you own from outside the game on top of your library."
+    "text": "6R, T: Deal 3 damage to X targets, where X is 1 plus the number of exiled Souls.\nExile this card from your graveyard: Put up to one target Soul you own from outside the game on top of your deck."
   },
   {
     "name": "Quick Ben’s Gambit",
@@ -2013,7 +2132,14 @@
     "img": "Recall the Histories.png",
     "colors": "UG",
     "typeLine": "Sorcery",
-    "text": "Landstorm (When you cast this, copy this spell for each land that entered the battlefield under your control this turn.)\nReveal the top card of your library. If it’s a creature, put it into your hand. If it’s a land, put it onto the battlefield. Otherwise, put it on the bottom of your deck."
+    "text": "Landstorm (When you cast this, copy this spell for each land that entered the battlefield under your control this turn.)\nReveal the top card of your library. If it’s a creature, put it into your hand. If it’s a land, put it onto the battlefield. Otherwise, put it on the bottom of your deck and create a */* Green Blue Elder Spirit that has “* is equal to the number of Elders you control.”"
+  },
+  {
+    "name": "Redmask, Awl Vindicator",
+    "img": "Redmask Awl Vindicator.png",
+    "colors": "RG",
+    "typeLine": "Legendary Creature - Human Rebel",
+    "text": "Riot\nWhenever an opponent creates or sacrifices a token, they lose 1 life.\n1, Sacrifice a creature with a counter on it: Destroy target artifact or Merchant."
   },
   {
     "name": "Reforge the Warrens",
@@ -2069,7 +2195,7 @@
     "img": "Rhulad Emporer of 1000 Deaths.png",
     "colors": "WB",
     "typeLine": "Legendary Creature - Elder Elf Noble",
-    "text": "Undying\n2, Remove a counter from this: Plunder.\nAt the beginning of your end step, if you control 1000 Treasures, you win the game."
+    "text": "Undying\n2, T, Remove a counter from this: Plunder.\nAt the beginning of your end step, if you control 1000 Treasures, you win the game."
   },
   {
     "name": "Ritual of Shorning",
@@ -2100,6 +2226,13 @@
     "text": "Whenever a non-Construct artifact enters under your control, you may create a 1/2 colorless Construct artifact creature token with prowess.\nInstants and sorceries you cast cost 1 less for each artifact you control."
   },
   {
+    "name": "Sandalath Dru’Korlat",
+    "img": "Sandalath DruKorlat.png",
+    "colors": "U",
+    "typeLine": "Creature - Elder Elf Assassin Wizard",
+    "text": "Curiosity\nB: This gains deathtouch until end of turn.\nAs long as you control another Elder Elf, Elder Elves you control have flying."
+  },
+  {
     "name": "Savvy Merchant",
     "img": "Savvy Merchant.png",
     "colors": "WB",
@@ -2111,7 +2244,7 @@
     "img": "Scabandari Bloodeye.png",
     "colors": "B",
     "typeLine": "Legendary Creature - Dragon",
-    "text": "Flying\nWhenever an Elder Elf dies, put a +1/+1 counter on this.\nPay 3 life, Remove all +1/+1 counters from this: Regenerate this. This loses all other types and flying. Put Elder and Elf subtype counters on it."
+    "text": "Flying\nWhenever an Elder Elf dies, put a +1/+1 counter on this.\nPay 3 life, sacrifice a permanent, remove all +1/+1 counters from this: If you removed at least one counter from a permanent this turn, regenerate this. This loses all other types and flying. Put Elder and Elf subtype counters on it."
   },
   {
     "name": "Scalpulimancy",
@@ -2223,7 +2356,14 @@
     "img": "Shigal Assassin.png",
     "colors": "UBG",
     "typeLine": "Creature - Alien Dinosaur Assassin",
-    "text": "Flash, reach, protection from Dragons\nWhenever this attacks or blocks alone, it gets +2/+0 and trample until end of turn.\nWhenever this deals combat damage to an opponent, that player discards a card."
+    "text": "Flash, Reach, Trample, protection from Dragons\nThis has first strike as long as it’s attacking or defending alone.\nWhenever this deals combat damage to an opponent, that player discards a card."
+  },
+  {
+    "name": "Short Sword",
+    "img": "Short Sword.png",
+    "colors": "",
+    "typeLine": "Token Artifact - Equipment",
+    "text": "Equipped creature gets +1/+1.\nEquip 1"
   },
   {
     "name": "Short the Market",
@@ -2289,8 +2429,8 @@
     "text": "Equipped creature gets +1/+1.\nEquip 1"
   },
   {
-    "name": "Silverfox, Bonecaster",
-    "img": "Silverfox Bonecaster.png",
+    "name": "Silverfox the Melded Soul",
+    "img": "Silverfox the Melded Soul.png",
     "colors": "BRG",
     "typeLine": "Legendary Creature - Elder Zombie Giant Malazan God Wizard",
     "text": "Creatures you control that share two or more creature types with Silverfox get +1/+1 and have “Whenever this dies, return it to the battlefield tapped under your control. If you do, lose 3 life.”"
@@ -2328,7 +2468,7 @@
     "img": "Skirmisher Recruit.png",
     "colors": "R",
     "typeLine": "Creature - Malazan Soldier",
-    "text": "Haste, Enlist"
+    "text": "Haste, enlist"
   },
   {
     "name": "Sky Drone",
@@ -2433,7 +2573,7 @@
     "img": "Tattersail.png",
     "colors": "U",
     "typeLine": "Legendary Creature - Malazan Wizard",
-    "text": "At the beginning of your upkeep, draw a card.\nWhenever you would scry X, scry X plus one."
+    "text": "At the beginning of your upkeep, scry 1, then draw a card.\nWhenever you would scry X, scry X plus one."
   },
   {
     "name": "Teblor Banner",
@@ -2447,7 +2587,7 @@
     "img": "Tehol Economic Savant.png",
     "colors": "W",
     "typeLine": "Legendary Creature - Human Merchant",
-    "text": "If you would create one or more tokens, create twice that many of those tokens instead.\nTehol’s power and toughness is equal to the number of Merchants you control plus the number of Treasures you control.\n4WB, T: Plunder. This costs 1 less for each other Merchant you control."
+    "text": "If you would create one or more tokens, create twice that many of those tokens instead.\nTehol’s power and toughness is equal to the number of Merchants you control plus the number of Treasures you control.\n2W/B, T: Plunder. This costs 1 less for each other Merchant you control."
   },
   {
     "name": "Tellan",
@@ -2559,14 +2699,14 @@
     "img": "The Lord and the Lady.png",
     "colors": "UR",
     "typeLine": "Legendary Creature - God",
-    "text": "Whenever you scry, if you leave more cards on top, put a Pull counter on this. Otherwise, put a Push counter on this.\nIf there are more Push counters than Pull counters on this, creatures you control get +X/+0, where X is the difference. Otherwise, creatures you don’t control get -X/-0.\nAt the end of your turn, if this has less than 7 counters on it, flip a coin. If you lose the flip, target opponent gains control of this."
+    "text": "Whenever you scry, if you leave more cards on top, put a Pull counter on this. Otherwise, put a Push counter on this.\nIf there are more Push counters than Pull counters on this, creatures you control get +X/+0, where X is the difference. Otherwise, creatures you don’t control get -X/-0.\nAt the end of your turn, if this has less than four counters on it, flip a coin. If you lose the flip, target opponent gains control of this."
   },
   {
     "name": "The Merchant Tolls",
     "img": "The Merchant Tolls.png",
     "colors": "WB",
     "typeLine": "Kindred Enchantment - Merchant",
-    "text": "Whenever a creature you control dies, plunder.\nWB, Sacrifice three Treasure tokens: Draw a card.\nWB, Sacrifice seven Treasure tokens: Tutor a card to your hand."
+    "text": "Whenever a creature you control dies, plunder.\nW/B, Sacrifice three Treasure tokens: Draw a card.\nW/B, Sacrifice seven Treasure tokens: Tutor a card to your hand."
   },
   {
     "name": "The Mhybe",
@@ -2751,6 +2891,13 @@
     "text": "Elder Zombies you control get +1/+1.\nSlow, BRG, Sacrifice a land: Deal 2 damage to any target.\nWhenever a land enters your graveyard from anywhere, create a 2/2 black, red and green Elder Zombie creature token with reach."
   },
   {
+    "name": "T’lan Bonecaster",
+    "img": "Tlan Bonecaster.png",
+    "colors": "G",
+    "typeLine": "Creature - Elder Zombie Warlock",
+    "text": "Other Elder Zombies you control get +1/+1.\nWhen this enters the battlefield, you may sacrifice a land. If you do, draw two cards."
+  },
+  {
     "name": "T’lan Imass Banner",
     "img": "Tlan Imass Banner.png",
     "colors": "",
@@ -2790,7 +2937,7 @@
     "img": "Unsculpted Biomass.png",
     "colors": "G",
     "typeLine": "Creature - Alien Dinosaur",
-    "text": "Evolve\nWhen this enters, distribute two +1/+1, subtype, or “T: Add G to your mana pool.” counters among other creatures you control."
+    "text": "Evolve\nCreatures you control with counters on them have “T: Add G.”"
   },
   {
     "name": "Uryd Youngling",
@@ -2859,8 +3006,8 @@
     "name": "Whiskeyjack",
     "img": "Whiskeyjack.png",
     "colors": "WR",
-    "typeLine": "Legendary Creature - Malazan Soldier",
-    "text": "Other Malazans you control get +1/+1.\nWhenever a non-Army Malazan enters under your control, amass Malazans 1.\nWhenever a Sapper enters under your control, create a Cusser.\nAt the end of your turn, if a Sapper, a Malazan, and an Army attacked and died this turn, this ascends."
+    "typeLine": "Legendary Creature - Malazan Sappper",
+    "text": "Whenever a Malazan you control attacks, deal 1 damage to any target. If it’s an army, deal X damage instead, where X is its power.\nWhenever a non-Army Malazan enters under your control, amass Malazans 1.\nAt the end of your turn, if a Sapper and an Army attacked and died this turn, this ascends."
   },
   {
     "name": "Whisperings of the Jade Giant",
@@ -2881,7 +3028,7 @@
     "img": "Wild Eleint.png",
     "colors": "RG",
     "typeLine": "Creature - Dragon",
-    "text": "Flying, Trample\nSlow, T, G, Sacrifice an artifact or enchantment: This fights target creature."
+    "text": "Flying, Trample\nSlow, T, R/G, Sacrifice an artifact or enchantment: This deals damage equal to its power to any target."
   },
   {
     "name": "Witchcorpse Scarf",
