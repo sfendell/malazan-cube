@@ -152,14 +152,6 @@
     "manaValue": 0
   },
   {
-    "name": "Artificial Evolution",
-    "img": "Artificial Evolution.png",
-    "colors": "U",
-    "typeLine": "Instant",
-    "text": "Change the text of target spell or permanent by replacing all instances of one creature type with another. The new creature type can’t be Wall.",
-    "manaValue": 1
-  },
-  {
     "name": "Ascension to Trake’s Side",
     "img": "Ascension to Trakes Side.png",
     "colors": "R",
@@ -200,11 +192,27 @@
     "manaValue": 3
   },
   {
+    "name": "Bairoth Delum",
+    "img": "Bairoth Delum.png",
+    "colors": "",
+    "typeLine": "Legendary Artifact - Equipment",
+    "text": "Equip 2\nEquipped creature gets +X/+X and trample, where X is two plus the number of soul counters on this.\nSlow, Exile a legendary creature from your graveyard: Put a soul counter on Bairoth Delum.",
+    "manaValue": 3
+  },
+  {
     "name": "Barathol Mekhar",
     "img": "Barathol Mekhar.png",
     "colors": "R",
     "typeLine": "Legendary Creature - Human Artificer",
     "text": "When this enters the battlefield, place X Forge counters on it and tutor an Equipment to the top of your deck, where X is the number of creatures you control.\nSlow, T, Remove a Forge counter from this: Destroy target artifact. Its controller creates a Short Sword token.",
+    "manaValue": 2
+  },
+  {
+    "name": "Barghast Blood Circle",
+    "img": "Barghast Blood Circle.png",
+    "colors": "RG",
+    "typeLine": "Instant",
+    "text": "Target creature you control fights another target creature. When it wins the fight, all creatures you control gain haste and +1/+1 until end of turn.",
     "manaValue": 2
   },
   {
@@ -220,16 +228,8 @@
     "img": "Baruk the Well-Read.png",
     "colors": "WU",
     "typeLine": "Legendary Creature - Human Advisor",
-    "text": "Whenever a historic permanent enters under your control, scry 1 and gain 1 life. If it has an activated ability, you may pay 1. If you do, draw a card.\nArtifacts cards in your hand have affinity for legendaries.",
+    "text": "Whenever a historic permanent enters under your control, scry 1 and gain 1 life. If it has an activated ability, you may pay 1. If you do, draw a card.\nLegendary spells you control have Affinity for artifacts.",
     "manaValue": 3
-  },
-  {
-    "name": "Battle to the Death",
-    "img": "Battle to the Death.png",
-    "colors": "RG",
-    "typeLine": "Instant",
-    "text": "Target creature you control fights another target creature. When it wins the fight, all creatures you control gain haste and +1/+1 until end of turn.",
-    "manaValue": 2
   },
   {
     "name": "Bauchelain",
@@ -328,11 +328,11 @@
     "manaValue": 3
   },
   {
-    "name": "Black Market Merchant.",
-    "img": "Black Market Merchant..png",
+    "name": "Black Market Merchant",
+    "img": "Black Market Merchant.png",
     "colors": "WB",
     "typeLine": "Creature - Human Merchant",
-    "text": "When this enters, plunder twice.\nPay 1 life, sacrifice a Treasure: Target creature gets -1/-1 until end of turn. Oncebound.\nPay 2 life, sacrifice two Treasures and this: Destroy target enchantment.\nPay 4 life, sacrifice four Treasures and this: Tutor a card to your hand.",
+    "text": "When this enters, plunder twice.\nSlow, 2W/BW/B, sacrifice a Treasure, : Put a +1/+1 counter on target creature if W was spent on this ability. Put a -1/-1 counter on target creature if B was spent on this ability. This ability costs 1 less for each other merchant you control.",
     "manaValue": 2
   },
   {
@@ -376,6 +376,14 @@
     "manaValue": 1
   },
   {
+    "name": "Bluepearl",
+    "img": "Bluepearl.png",
+    "colors": "UR",
+    "typeLine": "Legendary Creature - Malazan Wizard",
+    "text": "Prowess\nWhen this enters the battlefield, scry X, where X is the number of artifacts and Malazans you control. Then you may reveal the top card of your library. If it’s an instant, sorcery, or artifact, put it in your hand.",
+    "manaValue": 2
+  },
+  {
     "name": "Bluerose Engineering",
     "img": "Bluerose Engineering.png",
     "colors": "W",
@@ -412,7 +420,7 @@
     "img": "Bridgeburner Engineer.png",
     "colors": "WR",
     "typeLine": "Creature - Malazan Sapper",
-    "text": "When this enters the battlefield, create a Cusser.\n\nWhenever this deals damage to a player, for the rest of the turn, Cussers you control gain “R, Sacrifice this: Deal 3 damage to any target and gain 3 life.”",
+    "text": "When this enters the battlefield, create a Cusser.\nWhenever a Sapper deals damage to a player, for the rest of the turn, Cussers you control gain “RW, Sacrifice this: Deal 3 damage to any target and gain 3 life.”",
     "manaValue": 2
   },
   {
@@ -430,6 +438,14 @@
     "typeLine": "Legendary Creature - Human",
     "text": "Haste, First strike\nWhenever you attack for the second time in a turn, this creature ascends.",
     "manaValue": 5
+  },
+  {
+    "name": "Bruthen Trana",
+    "img": "Bruthen Trana.png",
+    "colors": "WUB",
+    "typeLine": "Legendary Creature - Elder Elf Warrior",
+    "text": "When this enters the battlefield, tutor an artifact to your hand.\nElder Elves you control get +1/+1 for every artifact you control.",
+    "manaValue": 3
   },
   {
     "name": "Brys Beddict, Royal Finadd",
@@ -459,8 +475,8 @@
     "name": "Buried Spirit",
     "img": "Buried Spirit.png",
     "colors": "BG",
-    "typeLine": "Creature",
-    "text": "At the beginning of your turn, target creature gets +X/+X, where X is the number of lands in your graveyard.",
+    "typeLine": "Creature - Spirit",
+    "text": "At the beginning of your turn, target creature gets +X/+X until end of turn, where X is the number of lands in your graveyard. If X is five or greater, that creature also gains trample until end of turn.",
     "manaValue": 2
   },
   {
@@ -518,6 +534,14 @@
     "typeLine": "Token Creature - Cat Human Warrior",
     "text": "",
     "manaValue": 0
+  },
+  {
+    "name": "Century Candle",
+    "img": "Century Candle.png",
+    "colors": "",
+    "typeLine": "Artifact",
+    "text": "Whenever a creature you control dies, gain 1 life.\nAt the beginning of your end step, if you have at least 5 more life than your starting life total, return target creature from your graveyard to the battlefield.",
+    "manaValue": 2
   },
   {
     "name": "Chained Lightning",
@@ -731,8 +755,8 @@
     "name": "Dalk Tennes",
     "img": "Dalk Tennes.png",
     "colors": "G",
-    "typeLine": "Legendary Creature - Dragon",
-    "text": "Trample, flying\nDalk’s power and toughness are equal to the number of lands you control.\n2GG: This gets +X/+X, where X is the number of lands in your graveyard.",
+    "typeLine": "Legendary Creature - Elder Dragon",
+    "text": "Trample, flying\nDalk’s power and toughness are equal to the number of lands you control.\nWhenever a land enters or leaves your graveyard, put a +1/+1 counter on each creature you control.",
     "manaValue": 6
   },
   {
@@ -784,11 +808,11 @@
     "manaValue": 0
   },
   {
-    "name": "Denul Meddler",
-    "img": "Denul Meddler.png",
+    "name": "Denul Defender",
+    "img": "Denul Defender.png",
     "colors": "WG",
     "typeLine": "Creature - Malazan Wizard",
-    "text": "Lifelink\nG/WG/W, T: Destroy target artifact or enchantment. Activate this only if you’ve gained life this turn.",
+    "text": "If W was spent to cast this, it enters with a lifelink counter. If G was spent to cast this, it enters with a trample counter.\nG/WG/W, Oncebound: Destroy target artifact or enchantment. Activate this only if you’ve gained life or this has dealt damage to a player this turn.",
     "manaValue": 2
   },
   {
@@ -798,6 +822,14 @@
     "typeLine": "Instant",
     "text": "Kicker U, kicker G\nIf you paid G, target creature gets +3/+3 until end of turn.\nReturn up to one target creature card with power less than the greatest power among creatures you control from your graveyard to your hand.\nIf you paid U, return target creature to its owners hand.\nIf you paid GU, gain life equal to the difference in total power between all creatures you control and all creatures you don’t control.",
     "manaValue": 1
+  },
+  {
+    "name": "Disciple of Osseric",
+    "img": "Disciple of Osseric.png",
+    "colors": "WU",
+    "typeLine": "Creature - Pure Elder Elf",
+    "text": "Behold Serc\nThis enters the battlefield with a “Creatures you control have prowess” counter.\nWhen this enters the battlefield, if you beheld Serc, proliferate, then proliferate.",
+    "manaValue": 2
   },
   {
     "name": "Dissolve the Soul",
@@ -980,7 +1012,7 @@
     "img": "Emurlahn Saboteur.png",
     "colors": "WUB",
     "typeLine": "Creature - Elder Elf Wizard",
-    "text": "Flash\nWhen this enters the battlefield, if B was spent to play it, target creature gets -X/-X until end of turn. If W was spent to cast it, target creature gets +X/+X until end of turn. If U was spent to cast it, scry X. X is the number of Elder Elves you control.",
+    "text": "Flash\nWhen this enters the battlefield, if B was spent to play it, target creature gets -X/-X until end of turn. If W was spent to cast it, target creature gets +X/+X until end of turn. If U was spent to cast it, draw X cards. X is the number of Elder Elves you control.",
     "manaValue": 4
   },
   {
@@ -1012,7 +1044,7 @@
     "img": "Evolved Efficiency.png",
     "colors": "UG",
     "typeLine": "Kindred Instant - Alien Dinosaur",
-    "text": "Up to one target creature you control gets +X/+X, where X is the number of subtypes it has. If X is greater than three, draw a card, then copy this spell. You may choose new targets for the copy.",
+    "text": "Up to one target creature you control gets +X/+X, where X is the number of subtypes it has. If X is greater than three, that creature also gains shroud until end of turn, then draw a card and copy this spell. You must choose new targets for the copy.",
     "manaValue": 2
   },
   {
@@ -1046,6 +1078,14 @@
     "typeLine": "Token Enchantment - Aura",
     "text": "Enchant creature\nThis enters attached to a creature you control.\nEnchanted creature gets +2/+0.",
     "manaValue": 0
+  },
+  {
+    "name": "Fear Sengar",
+    "img": "Fear Sengar.png",
+    "colors": "WUB",
+    "typeLine": "Legendary Creature - Elder Elf Warrior",
+    "text": "Elder Elves you control have curiosity.\nEquipped Elder Elves you control get +2/+2.\nWhen this enters the battlefield, tutor an equipment from your library or graveyard to your hand.",
+    "manaValue": 3
   },
   {
     "name": "Feather Witch",
@@ -1101,6 +1141,14 @@
     "colors": "",
     "typeLine": "Token Artifact - Equipment",
     "text": "Equipped creature gets +0/+3.\nEquip 1",
+    "manaValue": 0
+  },
+  {
+    "name": "Flint Sword",
+    "img": "Flint Sword.png",
+    "colors": "",
+    "typeLine": "",
+    "text": "",
     "manaValue": 0
   },
   {
@@ -1180,7 +1228,7 @@
     "img": "Gothos Author of Folly.png",
     "colors": "U",
     "typeLine": "Legendary Creature - Elder Orc",
-    "text": "Whenever you draw any number of cards, scry 1.\n5U, T: Draw a card. This costs 1 less for each time you’ve scried this turn.\nWhenever you scry for the fourth time in a turn, freeze all creatures you don’t control.",
+    "text": "Whenever you draw any number of cards, scry 1 and freeze target creature.\n3UU: Draw a card. This costs 1 less for each time you’ve scried this turn.\nWhenever you scry for the fourth time in a turn, freeze all creatures you don’t control.",
     "manaValue": 4
   },
   {
@@ -1188,7 +1236,7 @@
     "img": "Gothos Folly.png",
     "colors": "",
     "typeLine": "Legendary Kindred Artifact - Elder",
-    "text": "2, T: Scry 1, then draw a card.\nAt the end of your turn, lose X life, where X is the number of cards in your hand.",
+    "text": "T: Scry 1, then investigate.",
     "manaValue": 3
   },
   {
@@ -1204,7 +1252,7 @@
     "img": "Grand Conspiracy.png",
     "colors": "UB",
     "typeLine": "Instant",
-    "text": "As an additional cost to cast this card, discard a card.\nDestroy target creature.\nMindstorm.",
+    "text": "As an additional cost to cast this card, discard a card.\nDestroy target creature.\nMindstorm",
     "manaValue": 3
   },
   {
@@ -1244,7 +1292,7 @@
     "img": "Gruntle Trakes Mortal Sword.png",
     "colors": "BR",
     "typeLine": "Legendary Creature - Human Warrior",
-    "text": "First strike, Haste\nWhenever a nontoken creature you control dies during combat, deal 1 damage to any target. If it dies during the first strike phase, deal 2 damage to any target.\n2R: Target creature gets first strike until end of turn.",
+    "text": "First strike, haste\nWhenever a nontoken creature you control dies during combat, deal 1 damage to any target. If it dies during the first strike phase, deal 2 damage to any target.\n2R: Target creature gets first strike until end of turn.",
     "manaValue": 4
   },
   {
@@ -1280,6 +1328,14 @@
     "manaValue": 2
   },
   {
+    "name": "Half-Human Hoard",
+    "img": "Half-Human Hoard.png",
+    "colors": "BG",
+    "typeLine": "Creature - Elder Zombie Human Army",
+    "text": "Dredge 6\nT, Slow, Sacrifice this: Exile target card in your graveyard and destroy target permanent that shares a type with it.",
+    "manaValue": 3
+  },
+  {
     "name": "Hawl",
     "img": "Hawl.png",
     "colors": "U",
@@ -1292,7 +1348,7 @@
     "img": "Heavy Recruit.png",
     "colors": "W",
     "typeLine": "Creature - Malazan Soldier",
-    "text": "Exalted, enlist, lifelink",
+    "text": "Enlist, vigilance\nWhenever you amass, create a copy of Heavy Recruit.",
     "manaValue": 2
   },
   {
@@ -1372,7 +1428,7 @@
     "img": "Humbral Barghast Warchief.png",
     "colors": "G",
     "typeLine": "Legendary Creature - Elder Human Warrior",
-    "text": "When this enters the battlefield, return up to one target land from your graveyard to the battlefield.\n\nAt the beginning of your combat, target creature gets +X/+X, where X is the number of lands that entered this turn.",
+    "text": "When this enters the battlefield, return up to one target land from your graveyard to the battlefield.\nAt the beginning of your combat, target creature gets +X/+X, where X is the number of lands that entered this turn.",
     "manaValue": 2
   },
   {
@@ -1380,7 +1436,7 @@
     "img": "Hunted by Wolves.png",
     "colors": "G",
     "typeLine": "Sorcery",
-    "text": "Create two 2/2 green Wolf creature tokens. Then they each fight a single target creature.",
+    "text": "Create two 2/2 green Wolf creature tokens. Then they each deal damage equal to their power to target creature you don’t control.",
     "manaValue": 4
   },
   {
@@ -1419,7 +1475,7 @@
     "name": "Ice Age",
     "img": "Ice Age.png",
     "colors": "U",
-    "typeLine": "Sorcery",
+    "typeLine": "Instant",
     "text": "Freeze all creatures. Then either draw a card or proliferate.",
     "manaValue": 2
   },
@@ -1453,6 +1509,30 @@
     "colors": "B",
     "typeLine": "Enchantment - Aura",
     "text": "Enchant creature\nPut X -1/-1 counters on enchanted creature as this enters.\nAt the beginning of each upkeep, remove a counter from enchanted creature. If you do, plunder X times, where X is enchanted creature’s toughness.",
+    "manaValue": 1
+  },
+  {
+    "name": "Intentional Evolution",
+    "img": "Intentional Evolution.png",
+    "colors": "U",
+    "typeLine": "Instant",
+    "text": "Change the text of target spell or permanent by replacing all instances of one creature type with another. Draw a card.",
+    "manaValue": 1
+  },
+  {
+    "name": "Invest Broadly",
+    "img": "Invest Broadly.png",
+    "colors": "W",
+    "typeLine": "Instant",
+    "text": "Support X, then gain X life. Return up to one target creature card with value less than or equal to X from your graveyard to your hand.",
+    "manaValue": 1
+  },
+  {
+    "name": "Invest Deeply",
+    "img": "Invest Deeply.png",
+    "colors": "B",
+    "typeLine": "Instant",
+    "text": "Plunder X times, lose X life and draw X cards.",
     "manaValue": 1
   },
   {
@@ -1500,8 +1580,8 @@
     "img": "Kadapsala Insane Tattooist.png",
     "colors": "WUB",
     "typeLine": "Legendary Creature - Elder Elf",
-    "text": "At the beginning of your upkeep, put a -1/-1 counter on target artifact creature you control.\nNoncreature artifacts you control are Construct creatures in addition to their other types. Their power and toughness are each equal to the number of creatures you control with the same name.\nB, Sacrifice a non-artifact creature: Investigate, plunder and bleed.",
-    "manaValue": 5
+    "text": "Noncreature artifacts you control are Construct creatures in addition to their other types. Their power and toughness are each equal to the number of creatures you control with the same name.\nPay 2 life, sacrifice a non-artifact creature, B: Investigate, plunder and bleed.",
+    "manaValue": 3
   },
   {
     "name": "Kadapsala’s Revenge",
@@ -1868,7 +1948,7 @@
     "img": "Malazan Recruiter.png",
     "colors": "W",
     "typeLine": "Creature - Malazan Soldier",
-    "text": "Vigilance, enlist\nWhenever you enlist, amass Malazans 1.",
+    "text": "Enlist\nWhenever you enlist, amass Malazans 1.",
     "manaValue": 2
   },
   {
@@ -1936,6 +2016,14 @@
     "manaValue": 2
   },
   {
+    "name": "Military Conquest",
+    "img": "Military Conquest.png",
+    "colors": "WUR",
+    "typeLine": "Enchantment",
+    "text": "At the beginning of your upkeep, amass Malazans 1. Then if the total power of all Armies, Sappers and Soldiers you control is greater than your opponents life total, you win the game.",
+    "manaValue": 3
+  },
+  {
     "name": "Mincer, Sapper Captain",
     "img": "Mincer Sapper Captain.png",
     "colors": "R",
@@ -1974,6 +2062,14 @@
     "typeLine": "Creature - Insect Sapper",
     "text": "Whenever this attacks, create a Cusser.\nW/U: This gains flying until end of turn.",
     "manaValue": 4
+  },
+  {
+    "name": "Moranth Ingenuity",
+    "img": "Moranth Ingenuity.png",
+    "colors": "R",
+    "typeLine": "Instant",
+    "text": "Create X Cussers.",
+    "manaValue": 2
   },
   {
     "name": "Mott Irregulars",
@@ -2384,6 +2480,22 @@
     "manaValue": 2
   },
   {
+    "name": "Rallick Nom, Guildmaster",
+    "img": "Rallick Nom Guildmaster.png",
+    "colors": "B",
+    "typeLine": "Legendary Creature - Human Assassin",
+    "text": "Flash, deathtouch\nYou may cast Assassin spells as though they have flash.\nWhenever an artifact enters the battlefield under your control, create a 1/1 Black Assassin creature with deathtouch. Twicebound.\nPay 1 life, exile an Assassin from your graveyard: Copy target triggered ability.",
+    "manaValue": 2
+  },
+  {
+    "name": "Rallick’s Awakening",
+    "img": "Rallicks Awakening.png",
+    "colors": "B",
+    "typeLine": "Instant",
+    "text": "Destroy target creature.\nIf there are 5 or more lands in your graveyard, draw a card and lose one life.\nIf you’ve sacrificed a creature this turn, draw a card and lose one life.\nIf you control an assassin, draw a card and lose one life.",
+    "manaValue": 3
+  },
+  {
     "name": "Rant Bloodcurse",
     "img": "Rant Bloodcurse.png",
     "colors": "WG",
@@ -2440,6 +2552,14 @@
     "manaValue": 3
   },
   {
+    "name": "Record the Fallen",
+    "img": "Record the Fallen.png",
+    "colors": "BR",
+    "typeLine": "Enchantment",
+    "text": "Whenever you sacrifice an artifact, you may return a creature card from your graveyard to your hand.\nDredge 4",
+    "manaValue": 2
+  },
+  {
     "name": "Redmask, Awl Vindicator",
     "img": "Redmask Awl Vindicator.png",
     "colors": "RG",
@@ -2470,6 +2590,14 @@
     "typeLine": "Enchantment - Aura",
     "text": "Enchant creature\nWhen this enters, exile a creature card from your graveyard. If exiled card is a God, enchanted creature ascends.\nEnchanted creature has all abilities of the exiled card.",
     "manaValue": 4
+  },
+  {
+    "name": "Return to Antiquity",
+    "img": "Return to Antiquity.png",
+    "colors": "WBG",
+    "typeLine": "Sorcery",
+    "text": "Destroy all creatures. Return all number of Elders, Gods, and Warrens from your graveyard to your hand.",
+    "manaValue": 5
   },
   {
     "name": "Reverse Engineer",
@@ -2564,7 +2692,7 @@
     "img": "Scabandari Bloodeye.png",
     "colors": "B",
     "typeLine": "Legendary Creature - Dragon",
-    "text": "Flying\nWhenever an Elder Elf dies, put a +1/+1 counter on this.\nPay 3 life, sacrifice a permanent, remove all +1/+1 counters from this: If you removed at least one counter from a permanent this turn, regenerate this. This loses all other types and flying. Put Elder and Elf subtype counters on it.",
+    "text": "Flying\nWhenever an Elder Elf dies, put a +1/+1 counter on this.\nPay 3 life, sacrifice a permanent, exile an Elder Elf from your graveyard: Regenerate this. This loses all other types and flying. Put Elder and Elf subtype counters on it.",
     "manaValue": 3
   },
   {
@@ -2692,7 +2820,7 @@
     "img": "Shigal Assassin.png",
     "colors": "UBG",
     "typeLine": "Creature - Alien Dinosaur Assassin",
-    "text": "Flash, Reach, Trample, protection from Dragons\nThis has first strike as long as it’s attacking or defending alone.\nWhenever this deals combat damage to an opponent, that player discards a card.",
+    "text": "Flash, reach, trample, protection from Dragons\nThis has first strike as long as it’s attacking or defending alone.\nWhenever this deals combat damage to an opponent, that player discards a card.",
     "manaValue": 3
   },
   {
@@ -2736,14 +2864,6 @@
     "manaValue": 3
   },
   {
-    "name": "Siege of Yghatan",
-    "img": "Siege of Yghatan.png",
-    "colors": "B",
-    "typeLine": "Battle - Siege",
-    "text": "When this enters, destroy all creatures. Each player loses life equal to the creatures they controlled destroyed this way. ​",
-    "manaValue": 5
-  },
-  {
     "name": "Silanah Redwings",
     "img": "Silanah Redwings.png",
     "colors": "R",
@@ -2776,8 +2896,8 @@
     "manaValue": 0
   },
   {
-    "name": "Silverfox the Melded Soul",
-    "img": "Silverfox the Melded Soul.png",
+    "name": "Silverfox, Melded Bonecaster",
+    "img": "Silverfox Melded Bonecaster.png",
     "colors": "BRG",
     "typeLine": "Legendary Creature - Elder Zombie Giant Malazan God Wizard",
     "text": "Creatures you control that share two or more creature types with Silverfox get +1/+1 and have “Whenever this dies, return it to the battlefield tapped under your control. If you do, lose 3 life.”",
@@ -2788,7 +2908,7 @@
     "img": "Sinn Uncanny Savant.png",
     "colors": "R",
     "typeLine": "Legendary Creature - Malazan Child Wizard",
-    "text": "Whenever you scry, you may impulse 1.\nWhenever you cast a red instant or sorcery from anywhere other than your hand, deal 2 damage to any target.\n2U, Sacrifice a land: Scry 2.",
+    "text": "Whenever you scry, you may impulse 1.\nWhenever you cast a red instant or sorcery, deal 1 damage to any target. If you didn’t cast it from your hand, deal 2 damage instead.\nU, Sacrifice a land: Scry 2.",
     "manaValue": 2
   },
   {
@@ -2796,7 +2916,7 @@
     "img": "Sister Calm.png",
     "colors": "W",
     "typeLine": "Legendary Creature - Elder Pure",
-    "text": "Vigilance\nThis enters tapped and doesn’t untap during your untap phase.\nWhenever a creature with power or toughness higher than this enters, or this is dealt damage, untap it.",
+    "text": "Vigilance\nThis enters tapped and doesn’t untap during your untap phase.\nWhenever a creature with power or toughness higher than this enters or this is dealt damage, untap it.",
     "manaValue": 2
   },
   {
@@ -2830,6 +2950,14 @@
     "typeLine": "Creature - Alien Dinosaur",
     "text": "This enters with a flying counter on it.\nSlow, T: Move target counter from target creature you control to another target creature.",
     "manaValue": 2
+  },
+  {
+    "name": "Slave Caravan",
+    "img": "Slave Caravan.png",
+    "colors": "WB",
+    "typeLine": "Creature - Human Merchant",
+    "text": "Lifelink\nWhenever you would gain life, instead plunder X times, where X is the number of Merchants you control.\nSacrifice eight artifacts: Create eight 1/1 White Human creatures.",
+    "manaValue": 3
   },
   {
     "name": "Sleight of Hand",
@@ -2916,7 +3044,7 @@
     "img": "Sulkit KChain Drone.png",
     "colors": "G",
     "typeLine": "Legendary Creature - Alien Dinosaur",
-    "text": "When this enters, put a trample or reach counter on another target creature you control.\nT: Add U or G. Put a subtype counter of your choice on target creature.",
+    "text": "T: Add U or G. If you control a creature that shares a creature type with Sulkit, put a subtype counter of your choice on target creature.",
     "manaValue": 1
   },
   {
@@ -2980,7 +3108,7 @@
     "img": "Telorast and Curdle.png",
     "colors": "UR",
     "typeLine": "Legendary Creature - Elder Dragon Spirit Skeleton",
-    "text": "Flying\nRR: This gets +2/+0 until end of turn.\nWhen this dies, you may pay UU. If you do, target creature becomes a copy of it.",
+    "text": "Flying\n1R: This gets +2/+0 until end of turn.\nWhen this dies, you may pay 1U. If you do, target creature becomes a copy of it.",
     "manaValue": 3
   },
   {
@@ -3004,7 +3132,7 @@
     "img": "Tennes Ritual.png",
     "colors": "G",
     "typeLine": "Sorcery",
-    "text": "Tutor three basic lands to the battlefield under your control. Sacrifice them at the end of the turn.",
+    "text": "Behold Tennes\nTutor three basic lands to the battlefield under your control. If you beheld Tennes, tutor five instead. Sacrifice them at the end of the turn.",
     "manaValue": 1
   },
   {
@@ -3021,7 +3149,7 @@
     "colors": "",
     "typeLine": "Legendary Creature - Alien God",
     "text": "The Chained God may only be cast from exile.\nExile a God or two Elders you control: Exile this from your hand.\nIndestructible\nTap an untapped creature you control, Q: Put a -1/-1 counter on two target creatures.\nWhen this enters exile from the battlefield, you win the game.",
-    "manaValue": 6
+    "manaValue": 4
   },
   {
     "name": "The Chaining",
@@ -3160,6 +3288,14 @@
     "manaValue": 5
   },
   {
+    "name": "Time-Faded Memorium",
+    "img": "Time-Faded Memorium.png",
+    "colors": "",
+    "typeLine": "Artifact",
+    "text": "T: Add one mana of any color.\n2, Exile two legendary creatures from your graveyard: Draw a card and gain 2 life.",
+    "manaValue": 3
+  },
+  {
     "name": "Tiste Ascendancy",
     "img": "Tiste Ascendancy.png",
     "colors": "WUB",
@@ -3200,10 +3336,18 @@
     "manaValue": 3
   },
   {
+    "name": "Tortoise-Shell Armor",
+    "img": "Tortoise-Shell Armor.png",
+    "colors": "",
+    "typeLine": "Artifact - Equipment",
+    "text": "Equipped creature gets +0/+3 and “T: Destroy target Pure. Draw a card.”\nEquip 1",
+    "manaValue": 1
+  },
+  {
     "name": "Trake, Beast of War",
     "img": "Trake Beast of War.png",
     "colors": "R",
-    "typeLine": "Legendary Creature - Beast",
+    "typeLine": "Legendary Creature - Elder Beast",
     "text": "First strike\nAt the end of each turn, if 20 or more combat damage was dealt, this ascends.",
     "manaValue": 4
   },
@@ -3332,7 +3476,7 @@
     "img": "Tlan Warrior.png",
     "colors": "G",
     "typeLine": "Creature - Elder Zombie Warrior",
-    "text": "This gets +X/+X, where X is the number of lands in your graveyard.\nG, Exile a land from your graveyard: Regenerate this.",
+    "text": "This gets +X/+X, where X is the number of lands in your graveyard.\nWhenever a land is put in your graveyard from somewhere other than the battlefield, put a trample counter on target creature.\nG, Exile a land from your graveyard: Regenerate this.",
     "manaValue": 2
   },
   {
@@ -3342,6 +3486,14 @@
     "typeLine": "Legendary Creature - Human Giant",
     "text": "Trample\nWhen this enters, if you control another creature, put two +1/+1 counters on this and gain 2 life.",
     "manaValue": 5
+  },
+  {
+    "name": "Udinaas, Pensive Slave",
+    "img": "Udinaas Pensive Slave.png",
+    "colors": "U",
+    "typeLine": "Legendary Creature - Human",
+    "text": "Whenever a card enters your graveyard from your deck, manifest the top card of your deck.\nU, Exile a card from your graveyard, reveal a facedown card you control and return it to your hand: If the revealed card and exiled card share a card type, return target creature to its owners hand.",
+    "manaValue": 2
   },
   {
     "name": "Ulshun Pral, Crude Depictor",
@@ -3364,7 +3516,7 @@
     "img": "Uryd Youngling.png",
     "colors": "G",
     "typeLine": "Creature - Giant Child",
-    "text": "Trample\nT: Add R, G or U.\nDredge 1",
+    "text": "Trample\nT: Add R, G or U.\nWhenever a creature that shares a creature type with this enters the battlefield under your control, put a +1/+1 counter on this.",
     "manaValue": 1
   },
   {
@@ -3382,6 +3534,14 @@
     "typeLine": "Legendary Kindred Artifact - Elder Elf Equipment",
     "text": "Equipped creature gets +3/+3.\nSacrifice equipped creature: Transform this. Active this only if equipped creature dealt damage to a player this turn.\nEquip 3",
     "manaValue": 3
+  },
+  {
+    "name": "Visions of Udinaas",
+    "img": "Visions of Udinaas.png",
+    "colors": "U",
+    "typeLine": "Sorcery",
+    "text": "Surveil 2, then draw a card.\nRebound",
+    "manaValue": 2
   },
   {
     "name": "Walk the Tiles",
@@ -3486,6 +3646,14 @@
     "typeLine": "Token Creature - Wolf",
     "text": "",
     "manaValue": 0
+  },
+  {
+    "name": "Wrath of Gods",
+    "img": "Wrath of Gods.png",
+    "colors": "WU",
+    "typeLine": "Sorcery",
+    "text": "Destroy all creatures. Draw a card.",
+    "manaValue": 5
   },
   {
     "name": "Yedan Derryg, The Watch",
