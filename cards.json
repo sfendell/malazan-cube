@@ -72,7 +72,7 @@
     "manaValue": 3
   },
   {
-    "name": "Amphorae of Yghatan",
+    "name": "Amphorae of Y’ghatan",
     "img": "Amphorae of Yghatan.png",
     "colors": "",
     "typeLine": "Artifact",
@@ -322,9 +322,9 @@
   {
     "name": "Birth of the Bonehunters",
     "img": "Birth of the Bonehunters.png",
-    "colors": "BR",
+    "colors": "WR",
     "typeLine": "Kindred Sorcery - Malazan Army",
-    "text": "As an additional cost, sacrifice a land or artifact you control.\nIf you sacrificed an untapped permanent, copy this spell as it resolves. You may choose new targets for the copy.\nDestroy target land or artifact. Amass Malazans 2.",
+    "text": "Destroy target nonbasic land, artifact or enchantment.\nAmass Malazans 2.",
     "manaValue": 3
   },
   {
@@ -404,7 +404,7 @@
     "img": "Book of the Fallen.png",
     "colors": "WBR",
     "typeLine": "Kindred Artifact - Malazan",
-    "text": "Whenever a creature you control dies, gain 2 life. If it was sacrificed to a triggered ability or the cost of an activated ability, copy that ability.",
+    "text": "Whenever a creature you control dies, gain 2 life. If it was sacrificed to a triggered ability or the cost of an activated ability, copy that ability. You may choose new targets for the copy.",
     "manaValue": 2
   },
   {
@@ -596,8 +596,8 @@
     "img": "Child of the Dead Seed.png",
     "colors": "B",
     "typeLine": "Creature - Child",
-    "text": "Children cannot block.\nWhenever another non-token creature you control dies, create a token that is a copy of this card. This ability triggers only once per turn. (Copies of this card may trigger as well.)",
-    "manaValue": 2
+    "text": "Children cannot block.\nWhenever another non-token creature you control dies, create a token that is a copy of this card. Oncebound. (Copies of this card may trigger as well.)",
+    "manaValue": 1
   },
   {
     "name": "Children are Dying",
@@ -828,7 +828,7 @@
     "img": "Disciple of Osseric.png",
     "colors": "WU",
     "typeLine": "Creature - Pure Elder Elf",
-    "text": "Behold Serc\nThis enters the battlefield with a “Creatures you control have prowess” counter.\nWhen this enters the battlefield, if you beheld Serc, proliferate, then proliferate.",
+    "text": "Behold Serc\nThis enters the battlefield with a “Whenever an creature that shares a creature type with this enters the battlefield under your control, creatures you control get +1/+1 until end of turn.” counter.\nWhen this enters the battlefield, if you beheld Serc, proliferate, then proliferate.",
     "manaValue": 2
   },
   {
@@ -1084,7 +1084,7 @@
     "img": "Fear Sengar.png",
     "colors": "WUB",
     "typeLine": "Legendary Creature - Elder Elf Warrior",
-    "text": "Elder Elves you control have curiosity.\nEquipped Elder Elves you control get +2/+2.\nWhen this enters the battlefield, tutor an equipment from your library or graveyard to your hand.",
+    "text": "Other Elder Elves you control get +1/+1.\nEquipped Elder Elves you control get curiosity.\nWhen this enters the battlefield, tutor an equipment from your library or graveyard to your hand.",
     "manaValue": 3
   },
   {
@@ -1108,7 +1108,7 @@
     "img": "Fener Manifested.png",
     "colors": "R",
     "typeLine": "Legendary Creature - Boar God",
-    "text": "Haste, Trample\nWhenever Fener attacks, if you’ve attacked with at least two other creatures this combat, untap all other creatures you control. There is an additional combat phase after this one. This ability activates once per turn.\nCreatures you control get first strike and haste during extra combat phases.",
+    "text": "Haste, Trample\nWhenever Fener attacks, if you’ve attacked with at least two other creatures this combat, untap all other creatures you control. There is an additional combat phase after this one. Oncebound.\nCreatures you control get first strike and haste during extra combat phases.",
     "manaValue": 4
   },
   {
@@ -1164,6 +1164,14 @@
     "img": "Food.png",
     "colors": "",
     "typeLine": "Token Artifact",
+    "text": "2, T, Sacrifice this artifact: Gain 3 life.",
+    "manaValue": 0
+  },
+  {
+    "name": "Food",
+    "img": "Food.png",
+    "colors": "",
+    "typeLine": "Token Artifact - Food",
     "text": "2, T, Sacrifice this artifact: Gain 3 life.",
     "manaValue": 0
   },
@@ -1284,7 +1292,7 @@
     "img": "Grub Peculiar Host.png",
     "colors": "G",
     "typeLine": "Legendary Creature - Malazan Child",
-    "text": "Whenever you tap a land for mana, add G.\nWhenever a land leaves your graveyard, proliferate. This ability triggers only once per turn.\n3G, exile a card from a graveyard: Put a +1/+1 counter on target creature.",
+    "text": "Whenever you tap a land for mana, add G.\nWhenever a land leaves your graveyard, proliferate. Oncebound.\n3G, exile a card from a graveyard: Put a +1/+1 counter on target creature.",
     "manaValue": 3
   },
   {
@@ -1332,7 +1340,7 @@
     "img": "Half-Human Hoard.png",
     "colors": "BG",
     "typeLine": "Creature - Elder Zombie Human Army",
-    "text": "Dredge 6\nT, Slow, Sacrifice this: Exile target card in your graveyard and destroy target permanent that shares a type with it.",
+    "text": "Dredge 6\nT, Slow, Sacrifice this: Exile target card in your graveyard. Then destroy target permanent that shares a type with it.",
     "manaValue": 3
   },
   {
@@ -1428,7 +1436,7 @@
     "img": "Humbral Barghast Warchief.png",
     "colors": "G",
     "typeLine": "Legendary Creature - Elder Human Warrior",
-    "text": "When this enters the battlefield, return up to one target land from your graveyard to the battlefield.\nAt the beginning of your combat, target creature gets +X/+X, where X is the number of lands that entered this turn.",
+    "text": "When this enters the battlefield, return up to one target land from your graveyard to the battlefield.\nWhenever a land enters or leaves your graveyard, gain 1 life and put a +1/+1 counter on target creature.",
     "manaValue": 2
   },
   {
@@ -1524,7 +1532,7 @@
     "img": "Invest Broadly.png",
     "colors": "W",
     "typeLine": "Instant",
-    "text": "Support X, then gain X life. Return up to one target creature card with value less than or equal to X from your graveyard to your hand.",
+    "text": "Support X, then gain X life. Return up to one target creature card with value less than or equal to X from your graveyard to your hand. Plunder.",
     "manaValue": 1
   },
   {
@@ -1644,7 +1652,7 @@
     "img": "Kaschan.png",
     "colors": "",
     "typeLine": "Land - Warren",
-    "text": "This enters tapped unless you control a creature with a counter on it.\nWhenever you put a counter on a creature you control, scry 1. This ability triggers only once per turn.\nT: Add U or G.",
+    "text": "This enters tapped unless you control a creature with a counter on it.\nWhenever you put a counter on a creature you control, scry 1. Oncebound.\nT: Add U or G.",
     "manaValue": 0
   },
   {
@@ -1772,7 +1780,7 @@
     "img": "Krul Dream Sculptor.png",
     "colors": "UB",
     "typeLine": "Legendary Creature - Elder God",
-    "text": "Menace\nAt the beginning of your upkeep, exile the top card of your library.\nOnce per turn, you may play any card from exile with mana value less than the number of cards you control in exile.",
+    "text": "Menace\nAt the beginning of your upkeep, exile the top card of your library.\nPay 1 life: You may play any card from exile with mana value less than the number of cards you control in exile. Oncebound.",
     "manaValue": 3
   },
   {
@@ -2116,7 +2124,7 @@
     "img": "Nameless One.png",
     "colors": "B",
     "typeLine": "Creature - Human Cleric",
-    "text": "Sacrifice all creatures you control and exile this from your graveyard: If you sacrificed ten or more creatures this way, tutor a permanent into play.\n2B, exile an Elder card from your graveyard: Create a copy of this card. It enters with copies of all of the counters on this card.",
+    "text": "Sacrifice all creatures you control and exile this from your graveyard: If you sacrificed ten or more creatures this way, tutor a permanent into play.\n2B, exile an Elder card from your graveyard: Create a copy of this card. It enters with copies of all counters on this card.",
     "manaValue": 2
   },
   {
@@ -2268,7 +2276,7 @@
     "img": "Path of Hands.png",
     "colors": "G",
     "typeLine": "Enchantment",
-    "text": "At the beginning of your upkeep, place a subtype counter of your choice on target creature. Then if that creature has more than five subtypes, draw a card. If it has between ten and one hundred subtypes, you win the game.",
+    "text": "At the beginning of your upkeep, place a subtype counter of your choice on target creature. Then if that creature has five or more subtypes, draw a card. If it has between ten and one hundred subtypes, you win the game.",
     "manaValue": 1
   },
   {
@@ -2283,7 +2291,7 @@
     "name": "Pilgrim of the Redeemer",
     "img": "Pilgrim of the Redeemer.png",
     "colors": "G",
-    "typeLine": "Creature",
+    "typeLine": "Creature - Human",
     "text": "When this enters the battlefield, gain 2 life.\nT: Add one mana of any color.",
     "manaValue": 1
   },
@@ -2484,7 +2492,7 @@
     "img": "Rallick Nom Guildmaster.png",
     "colors": "B",
     "typeLine": "Legendary Creature - Human Assassin",
-    "text": "Flash, deathtouch\nYou may cast Assassin spells as though they have flash.\nWhenever an artifact enters the battlefield under your control, create a 1/1 Black Assassin creature with deathtouch. Twicebound.\nPay 1 life, exile an Assassin from your graveyard: Copy target triggered ability.",
+    "text": "Flash, deathtouch\nYou may cast Assassin spells as though they have flash.\nWhenever another creature you control that entered the battlefield this turn deals damage, lose 1 life and draw a card.",
     "manaValue": 2
   },
   {
@@ -2492,7 +2500,7 @@
     "img": "Rallicks Awakening.png",
     "colors": "B",
     "typeLine": "Instant",
-    "text": "Destroy target creature.\nIf there are 5 or more lands in your graveyard, draw a card and lose one life.\nIf you’ve sacrificed a creature this turn, draw a card and lose one life.\nIf you control an assassin, draw a card and lose one life.",
+    "text": "Destroy target creature.\nIf there are 5 or more lands in your graveyard, draw a card and lose one life.\nIf you’ve sacrificed a creature this turn, draw a card and lose one life.\nIf you control an Assassin, draw a card and lose one life.",
     "manaValue": 3
   },
   {
@@ -2596,7 +2604,7 @@
     "img": "Return to Antiquity.png",
     "colors": "WBG",
     "typeLine": "Sorcery",
-    "text": "Destroy all creatures. Return all number of Elders, Gods, and Warrens from your graveyard to your hand.",
+    "text": "Destroy all creatures, artifacts, enchantments and nonbasic lands that are not Elder.",
     "manaValue": 5
   },
   {
@@ -2676,7 +2684,7 @@
     "img": "Sandalath DruKorlat.png",
     "colors": "U",
     "typeLine": "Creature - Elder Elf Assassin Wizard",
-    "text": "Curiosity\nB: This gains deathtouch until end of turn.\nAs long as you control another Elder Elf, Elder Elves you control have flying.",
+    "text": "As long as there is an Elder Elf in your graveyard, this has curiosity.\nB: This gains deathtouch until end of turn.\nWhenever you draw your third card in a turn, return target creature you don’t control to its owner’s hand.",
     "manaValue": 2
   },
   {
@@ -2737,7 +2745,7 @@
   },
   {
     "name": "Scorpion",
-    "img": "Scorpion.png",
+    "img": "Scorpion.1.png",
     "colors": "",
     "typeLine": "Token Creature - Scorpion",
     "text": "Deathtouch",
@@ -2789,7 +2797,7 @@
     "colors": "B",
     "typeLine": "Legendary Creature - Malazan God",
     "text": "Black instant and sorcery cards you own have mayhem.\nWhenever you sacrifice a Blood token during your turn, you may pay 3 life. If you do, this creature phases in.\nWhenever a creature phases in, target player discards a card.\nB, Discard a card: This creature phases out. Bleed.",
-    "manaValue": 3
+    "manaValue": 2
   },
   {
     "name": "Shatter the Moon",
@@ -3662,6 +3670,14 @@
     "typeLine": "Legendary Creature - Elder Elf Human Warrior",
     "text": "W: This gains first strike until end of turn.\n5W: This gains double strike until end of turn.\nWhenever this deals X damage, target creature you control gets lifelink and +X/+X.",
     "manaValue": 4
+  },
+  {
+    "name": "Y’Ghatan the Rat",
+    "img": "YGhatan the Rat.png",
+    "colors": "B",
+    "typeLine": "Legendary Creature - Rat",
+    "text": "Whenever a land enters your graveyard from anywhere, you may return Y’Ghatan the Rat to your hand.\n2: Place a deathtouch counter on target Rat you control.",
+    "manaValue": 1
   },
   {
     "name": "Zombie",
