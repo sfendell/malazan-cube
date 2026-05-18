@@ -211,7 +211,7 @@
           </select>
           <input type="number" id="mv-num" min="0" max="99" step="1" placeholder="—" inputmode="numeric" aria-label="Mana value" disabled>
         </label>
-        <label>Text: <input type="text" id="text-filter" placeholder="Exact text in card…"></label>
+        <label>Text: <input type="text" id="text-filter" placeholder="Name, type, rules text…"></label>
         <span id="card-count" class="card-count"></span>
       </div>
       <div id="gallery" class="gallery"></div>
@@ -367,10 +367,31 @@
         return line.indexOf(typeKey.toLowerCase()) !== -1;
       }
 
+      function normalizeSearchText(s) {
+        if (!s) return '';
+        return String(s)
+          .toLowerCase()
+          .replace(/[\u2018\u2019\u201A\u2032]/g, "'")
+          .replace(/[\u201C\u201D\u201E\u2033]/g, '"')
+          .replace(/[\u2013\u2014]/g, '-');
+      }
+
       function cardSearchText(card) {
         var name = (card.name != null ? card.name : card.img || '').replace(/\.png$/i, '');
+        var typeLine = card.typeLine != null ? card.typeLine : '';
         var text = card.text != null ? card.text : '';
-        return (name + ' ' + text).toLowerCase();
+        return normalizeSearchText(name + ' ' + typeLine + ' ' + text);
+      }
+
+      function textQueryMatches(card, query) {
+        var q = normalizeSearchText((query || '').trim());
+        if (!q) return true;
+        var blob = cardSearchText(card);
+        var terms = q.split(/\s+/).filter(Boolean);
+        for (var i = 0; i < terms.length; i++) {
+          if (blob.indexOf(terms[i]) === -1) return false;
+        }
+        return true;
       }
 
       function cardManaValue(card) {
@@ -404,12 +425,12 @@
         var colorKey = document.getElementById('color-filter').value;
         var colorExact = document.getElementById('color-exact').checked;
         var typeKey = document.getElementById('type-filter').value;
-        var query = (document.getElementById('text-filter').value || '').trim().toLowerCase();
+        var query = document.getElementById('text-filter').value || '';
         return cards.filter(function (card) {
           if (colorKey !== '' && !cardColorMatch(card, colorKey, colorExact)) return false;
           if (typeKey !== '' && !cardHasType(card, typeKey)) return false;
           if (!mvFilterMatches(card)) return false;
-          if (query !== '' && cardSearchText(card).indexOf(query) === -1) return false;
+          if (!textQueryMatches(card, query)) return false;
           return true;
         });
       }
@@ -445,6 +466,26 @@
       function isTokenCard(card) {
         var t = (card.typeLine || '').trim().toLowerCase();
         return t.indexOf('token') === 0 || /\btoken\b/.test(t);
+      }
+
+      /** Distinct label when multiple tokens share a name (e.g. two Child God, two Food). */
+      function tokenDisplayName(card, tokenList) {
+        var name = card.name != null ? card.name : (card.img || '').replace(/\.png$/i, '');
+        var sameName = tokenList.filter(function (c) {
+          return (c.name != null ? c.name : (c.img || '').replace(/\.png$/i, '')) === name;
+        });
+        if (sameName.length <= 1) return name;
+        var text = (card.text || '').trim();
+        if (text) {
+          var line = text.split('\n')[0];
+          if (line.length > 48) line = line.slice(0, 45) + '\u2026';
+          return name + ' \u2014 ' + line;
+        }
+        var stem = (card.img || '').replace(/\.png$/i, '');
+        var suffix = stem.match(/\.(\d+)$/);
+        if (suffix) return name + ' (' + (parseInt(suffix[1], 10) + 1) + ')';
+        var idx = sameName.indexOf(card);
+        return idx > 0 ? name + ' (' + (idx + 1) + ')' : name;
       }
 
       var DECK_OF_DRAGONS_NAMES = [
@@ -531,10 +572,13 @@
             appendCardCell(gal, a, displayName, src);
           }
         } else {
+          var tokenListForLabels = containerId === 'tokens-gallery' ? items : [];
           items.forEach(function (card) {
             var imgName = card.img != null ? card.img : (card.name || '') + '.png';
             var src = base + 'exported_cards/' + encodeURIComponent(imgName);
-            var displayName = card.name != null ? card.name : imgName.replace(/\.png$/i, '');
+            var displayName = tokenListForLabels.length
+              ? tokenDisplayName(card, tokenListForLabels)
+              : (card.name != null ? card.name : imgName.replace(/\.png$/i, ''));
             var a = document.createElement('a');
             a.className = 'card';
             a.href = src;

@@ -17,7 +17,6 @@ import urllib.request
 from pathlib import Path
 
 from mse_parse import (
-    EXTRACT_DIR,
     ROOT,
     extract_mse_set,
     read_set_content,
@@ -30,6 +29,7 @@ from mse_parse import (
 
 MSE_SET_PATH = ROOT / "Malazan Cube of the Fallen.mse-set"
 GENERATED = ROOT / "__generated__"
+MSE_WORK_DIR = GENERATED / "mse-work"
 CHANGED_LIST_PATH = GENERATED / "clippy-changed.txt"
 
 SYSTEM_PROMPT = """You fix only the wording of Magic the Gathering card ability text (rules and flavor). Do not change card name, cost, type, or P/T.
@@ -113,8 +113,8 @@ def main():
         sys.exit(1)
 
     GENERATED.mkdir(parents=True, exist_ok=True)
-    extract_mse_set(MSE_SET_PATH, EXTRACT_DIR)
-    header, cards_content = read_set_content(EXTRACT_DIR)
+    extract_mse_set(MSE_SET_PATH, MSE_WORK_DIR)
+    header, cards_content = read_set_content(MSE_WORK_DIR)
     cards = list(parse_set_blocks(cards_content))
     total = len(cards)
     # Collector number = 1-based rank when sorted by card name (alphabetical)
@@ -158,8 +158,8 @@ def main():
         time.sleep(0.3)
 
     if changed:
-        write_set_content(EXTRACT_DIR, header, serialize_cards_content(cards))
-        repack_mse_set(EXTRACT_DIR, MSE_SET_PATH)
+        write_set_content(MSE_WORK_DIR, header, serialize_cards_content(cards))
+        repack_mse_set(MSE_WORK_DIR, MSE_SET_PATH)
     CHANGED_LIST_PATH.write_text("\n".join(changed), encoding="utf-8")
     print(f"mtg_clippy: Processed {processed_count} card(s). Changed: {len(changed)}. List: {CHANGED_LIST_PATH}")
 

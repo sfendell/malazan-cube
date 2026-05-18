@@ -1,5 +1,13 @@
 [
   {
+    "name": "5th Squad Engineer",
+    "img": "5th Squad Engineer.png",
+    "colors": "W",
+    "typeLine": "Creature - Malazan Sapper",
+    "text": "When this enters, create a Cusser and plunder.",
+    "manaValue": 1
+  },
+  {
     "name": "Adept Diviner",
     "img": "Adept Diviner.png",
     "colors": "U",
@@ -109,7 +117,7 @@
     "colors": "WUB",
     "typeLine": "Legendary Planeswalker Creature - Elder Elf Rake",
     "text": "Rake is a 6/* flying creature, where * is his loyalty.\nUntil your next turn, Elder Elves you control have flying and “Whenever this is dealt damage from anything besides a creature attacking it, prevent all but 1 of that damage, then draw cards equal to the damage prevented.”\nReturn two target creatures to their owners hand, then each opponent exiles a card from their hand for each Elder Elf you control.\nExile all non-Elder non-land permanents. Put all exiled Elder permanents onto the battlefield under your control.",
-    "manaValue": 8
+    "manaValue": 7
   },
   {
     "name": "Antigravity",
@@ -292,7 +300,7 @@
     "img": "Biodynamic Prognosticator.png",
     "colors": "U",
     "typeLine": "Creature - Alien Dinosaur",
-    "text": "Evolve\nWhenever a counter would be placed on this card, you may place a subtype counter of your choice instead.\nRemove a subtype counter from this card: Counter target spell of that subtype.",
+    "text": "Evolve\nWhenever a counter would be placed on this card, you may place a subtype counter of your choice instead.\nRemove a subtype counter from this card: Counter target spell of that subtype.\nSacrifice an artifact: Look at target opponent’s hand.",
     "manaValue": 4
   },
   {
@@ -504,6 +512,14 @@
     "manaValue": 2
   },
   {
+    "name": "Caladan Brood",
+    "img": "Caladan Brood.png",
+    "colors": "RG",
+    "typeLine": "Legendary Creature - Elder Rebel",
+    "text": "When this enters the battlefield, deal X damage divided among any number of targets, where X is the number of lands and Rebels you control.\nAs long as Caladan Brood is in your graveyard, whenever a land or Rebel enters your graveyard from anywhere, deal 1 damage to any target. \nLandcycling 1G, Rebelcycling 1R",
+    "manaValue": 7
+  },
+  {
     "name": "Call for Reinforcements",
     "img": "Call for Reinforcements.png",
     "colors": "WR",
@@ -525,6 +541,14 @@
     "colors": "W",
     "typeLine": "Legendary Creature - Malazan Assassin Soldier",
     "text": "When this enters, create a Comb token, a Silk Shirt token, a Fine Trousers token, a Exquisite Manicure token, and bleed.\nWhenever a creature with power and toughness that differ by more than 2 does damage to a player, create a copy of a token you control.",
+    "manaValue": 4
+  },
+  {
+    "name": "Captain Kindly",
+    "img": "Captain Kindly.png",
+    "colors": "B",
+    "typeLine": "Legendary Creature - Malazan Soldier",
+    "text": "Whenever a creature you control dies, create a Comb.\n3BB: Target player loses X life and you gain X life, where X is the number of Combs you control.",
     "manaValue": 4
   },
   {
@@ -585,7 +609,7 @@
   },
   {
     "name": "Child God",
-    "img": "Child God.png",
+    "img": "Child God.1.png",
     "colors": "",
     "typeLine": "Token Artifact Creature - Child God",
     "text": "",
@@ -752,6 +776,14 @@
     "manaValue": 2
   },
   {
+    "name": "Cycle of Vengeance",
+    "img": "Cycle of Vengeance.png",
+    "colors": "B",
+    "typeLine": "Instant",
+    "text": "As an additional cost to play this, exile a creature with mana value two or greater from your graveyard.\nDestroy target creature.",
+    "manaValue": 2
+  },
+  {
     "name": "Dalk Tennes",
     "img": "Dalk Tennes.png",
     "colors": "G",
@@ -780,7 +812,7 @@
     "img": "Daughter Dusk.png",
     "colors": "B",
     "typeLine": "Legendary Creature - Elder Elf",
-    "text": "3RR: This becomes a 4/4 Dragon with flying. (This effect does not end at end of turn.)",
+    "text": "2RR: This becomes a 4/4 Dragon with flying. (This effect does not end at end of turn.)",
     "manaValue": 2
   },
   {
@@ -812,7 +844,7 @@
     "img": "Denul Defender.png",
     "colors": "WG",
     "typeLine": "Creature - Malazan Wizard",
-    "text": "If W was spent to cast this, it enters with a lifelink counter. If G was spent to cast this, it enters with a trample counter.\nG/WG/W, Oncebound: Destroy target artifact or enchantment. Activate this only if you’ve gained life or this has dealt damage to a player this turn.",
+    "text": "If W was spent to cast this, it enters with a lifelink counter. If G was spent to cast this, it enters with a trample counter.\nG/W, exile this from your graveyard: Destroy target artifact or enchantment. Activate this only if you’ve gained life or dealt damage to a player this turn.",
     "manaValue": 2
   },
   {
@@ -996,7 +1028,7 @@
     "img": "Eloth Mistress of Illusions.png",
     "colors": "U",
     "typeLine": "Legendary Creature - Dragon",
-    "text": "Flying\nWhenever another nontoken creature you control dies, you may create a token that is a copy of it, except it’s a 3/1 blue and black Illusion with “Whenever this is targeted, sacrifice it.”\nR, Slow: Tap target creature. Gain control of it until end of turn. It gains haste. Oncebound.\nSacrifice an Illusion: Untap target creature.",
+    "text": "Flying\nWhenever another nontoken creature you control dies, you may create a token that is a copy of it, except it’s a 3/1 blue and black Illusion with “Whenever this is targeted, sacrifice it.”\n1R, Slow, Sacrifice an Illusion: Gain control of target creature until end of turn. It gains haste.",
     "manaValue": 4
   },
   {
@@ -1124,7 +1156,7 @@
     "img": "Fiddler Sapper Savant.png",
     "colors": "R",
     "typeLine": "Legendary Creature - Malazan Sapper",
-    "text": "If an artifact or Sapper you control would deal damage to a player, it deals that much damage plus two instead.\n2R, T, Sacrifice a non-token permanent: Create a Cusser.",
+    "text": "If an artifact or Sapper you control would deal damage to a player, it deals that much damage plus two instead.\nR, T, Sacrifice a non-token permanent: Create a Cusser.",
     "manaValue": 3
   },
   {
@@ -1144,12 +1176,20 @@
     "manaValue": 0
   },
   {
+    "name": "Fires of Foresight",
+    "img": "Fires of Foresight.png",
+    "colors": "R",
+    "typeLine": "Sorcery",
+    "text": "Behold Tennes\nDeal 3 damage to any target. If you beheld Tennes, deal 4 damage instead.",
+    "manaValue": 1
+  },
+  {
     "name": "Flint Sword",
     "img": "Flint Sword.png",
     "colors": "",
-    "typeLine": "",
-    "text": "",
-    "manaValue": 0
+    "typeLine": "Kindred Equipment - Elder Zombie",
+    "text": "Equipped creature gets +5/+5.\nEquip 4",
+    "manaValue": 4
   },
   {
     "name": "Flood Foreseen",
@@ -1163,13 +1203,13 @@
     "name": "Food",
     "img": "Food.png",
     "colors": "",
-    "typeLine": "Token Artifact",
+    "typeLine": "Token Artifact - Food",
     "text": "2, T, Sacrifice this artifact: Gain 3 life.",
     "manaValue": 0
   },
   {
     "name": "Food",
-    "img": "Food.png",
+    "img": "Food.1.png",
     "colors": "",
     "typeLine": "Token Artifact - Food",
     "text": "2, T, Sacrifice this artifact: Gain 3 life.",
@@ -1292,7 +1332,7 @@
     "img": "Grub Peculiar Host.png",
     "colors": "G",
     "typeLine": "Legendary Creature - Malazan Child",
-    "text": "Whenever you tap a land for mana, add G.\nWhenever a land leaves your graveyard, proliferate. Oncebound.\n3G, exile a card from a graveyard: Put a +1/+1 counter on target creature.",
+    "text": "Whenever you tap a land for mana, add G.\nWhenever a land leaves your graveyard, proliferate. Oncebound.\n2G, exile a card from a graveyard: Put a +1/+1 counter on target creature.",
     "manaValue": 3
   },
   {
@@ -1300,7 +1340,7 @@
     "img": "Gruntle Trakes Mortal Sword.png",
     "colors": "BR",
     "typeLine": "Legendary Creature - Human Warrior",
-    "text": "First strike, haste\nWhenever a nontoken creature you control dies during combat, deal 1 damage to any target. If it dies during the first strike phase, deal 2 damage to any target.\n2R: Target creature gets first strike until end of turn.",
+    "text": "First strike, haste\nWhenever a nontoken creature you control dies during combat, deal 1 damage to any target. If it dies during the first strike phase, deal 2 damage to any target.\n1: Target creature gets first strike until end of turn.",
     "manaValue": 4
   },
   {
@@ -1310,6 +1350,14 @@
     "typeLine": "Legendary Creature - Frog Advisor",
     "text": "Affinity for Treasures\nWhenever an artifact enters under your control, choose one. If it’s a Treasure, choose both:\nTap target creature.\nTarget creature gets +1/+1 until end of turn.",
     "manaValue": 4
+  },
+  {
+    "name": "Gupp the Sapper",
+    "img": "Gupp the Sapper.png",
+    "colors": "BR",
+    "typeLine": "Legendary Creature - Malazan Sapper",
+    "text": "Whenever a Sapper enters the battlefield under your control, create a Cusser.\nWhenever a Cusser enters your graveyard, each opponent loses 1 life and you gain 1 life.",
+    "manaValue": 2
   },
   {
     "name": "Gu’Rull",
@@ -1348,7 +1396,7 @@
     "img": "Hawl.png",
     "colors": "U",
     "typeLine": "Legendary Creature - Malazan Witch Assassin",
-    "text": "Creatures you control with power less than this have hexproof. \nWhenever you scry, you may switch this creatures power and toughness.",
+    "text": "Creatures you control with power less than this have hexproof. \nWhenever you scry, Hawl gets +1/+1 until end of turn, then you may switch its power and toughness.",
     "manaValue": 2
   },
   {
@@ -1440,6 +1488,14 @@
     "manaValue": 2
   },
   {
+    "name": "Humiliate",
+    "img": "Humiliate.png",
+    "colors": "W",
+    "typeLine": "Instant",
+    "text": "Target opponent exiles each creature they control with the highest mana value.",
+    "manaValue": 3
+  },
+  {
     "name": "Hunted by Wolves",
     "img": "Hunted by Wolves.png",
     "colors": "G",
@@ -1510,6 +1566,14 @@
     "typeLine": "Instant",
     "text": "As an additional cost to cast this, sacrifice an artifact or enchantment.\n Whenever target creature would die this turn, instead exile it, then draw two cards. Return that creature to the battlefield under your control at the end of your turn.",
     "manaValue": 2
+  },
+  {
+    "name": "Improvising Sapper",
+    "img": "Improvising Sapper.png",
+    "colors": "R",
+    "typeLine": "Creature - Malazan Sapper",
+    "text": "Artifact tokens you control are Cussers in addition to their other types (They get the associated ability.)\nWhenever a Malazan you control dies, plunder.",
+    "manaValue": 1
   },
   {
     "name": "Indebt",
@@ -1604,7 +1668,7 @@
     "img": "Kalam Mekhar.png",
     "colors": "WBR",
     "typeLine": "Legendary Creature - Malazan Assassin",
-    "text": "Deathtouch\nAs long as Kalam is equipped, it has first strike.\nAs long as Kalam is equipped twice, it has “T: Deal 1 damage to any target.”",
+    "text": "Deathtouch\nWhen Kalam enters the battlefield, tutor an Equipment to the top of your deck.\nAs long as Kalam is equipped, he has first strike.\nAs long as Kalam is equipped twice, it has “T: Deal 1 damage to any target.”",
     "manaValue": 3
   },
   {
@@ -1780,7 +1844,7 @@
     "img": "Krul Dream Sculptor.png",
     "colors": "UB",
     "typeLine": "Legendary Creature - Elder God",
-    "text": "Menace\nAt the beginning of your upkeep, exile the top card of your library.\nPay 1 life: You may play any card from exile with mana value less than the number of cards you control in exile. Oncebound.",
+    "text": "Menace\nAt the beginning of your upkeep, exile the top card of your library.\nPay 1 life, Oncebound: You may play any card from exile with mana value less than the number of cards you control in exile.",
     "manaValue": 3
   },
   {
@@ -1870,6 +1934,14 @@
     "typeLine": "Kindred Land - Elder Warren",
     "text": "This enters tapped unless you gained life this turn.\nT: Add W, U, or G.\nGWU, T, Sacrifice this: Scry X, where X is the amount of life you’ve gained this turn. Then reveal the top card of your library. If it’s a land, put it onto the battlefield.",
     "manaValue": 0
+  },
+  {
+    "name": "Light Fuses",
+    "img": "Light Fuses.png",
+    "colors": "R",
+    "typeLine": "Instant",
+    "text": "Distribute X damage among any number of targets, where X is the number of Cussers you control plus two.",
+    "manaValue": 2
   },
   {
     "name": "Lob",
@@ -2008,6 +2080,14 @@
     "manaValue": 2
   },
   {
+    "name": "Mezla Trick",
+    "img": "Mezla Trick.png",
+    "colors": "G",
+    "typeLine": "Instant",
+    "text": "Put a +1/+1 counter on target creature.\nYou may cast this card from your graveyard by paying G and exiling a land card from your graveyard in addition to tapping an untapped creature you control.",
+    "manaValue": 2
+  },
+  {
     "name": "Military Ascendancy",
     "img": "Military Ascendancy.png",
     "colors": "WUR",
@@ -2038,6 +2118,14 @@
     "typeLine": "Legendary Creature - Malazan Sapper",
     "text": "When this enters, create a 1/1 Malazan Sapper Creature and a Cusser.\nR, Tap an untapped Sapper you control and sacrifice an artifact you control: Deal three damage to any target.",
     "manaValue": 4
+  },
+  {
+    "name": "Mockra Bluff",
+    "img": "Mockra Bluff.png",
+    "colors": "WUB",
+    "typeLine": "Instant",
+    "text": "Counter target spell. If B was spent to cast this spell, its controller loses 2 life. If W was spent to cast this spell, you gain 2 life. If neither were spent, draw a card.",
+    "manaValue": 3
   },
   {
     "name": "Mok, Seguleh Third",
@@ -2316,7 +2404,7 @@
     "img": "Potsherds.png",
     "colors": "",
     "typeLine": "Artifact",
-    "text": "This enters tapped.\nT: Add one mana of any color.\n2, T, Sacrifice this: Draw a card.",
+    "text": "This enters tapped.\nWhen this enters the battlefield, you may pay H. If you don’t, sacrifice it.\nT: Add one mana of any color.\n4, T, Sacrifice this: Draw a card.",
     "manaValue": 2
   },
   {
@@ -2357,7 +2445,7 @@
     "colors": "B",
     "typeLine": "Instant",
     "text": "Target creature gets -X/-X, where X is the number of creatures in all graveyards. If X is less than three, draw a card.",
-    "manaValue": 3
+    "manaValue": 2
   },
   {
     "name": "Queen Janall Diskanar",
@@ -2790,6 +2878,14 @@
     "typeLine": "Legendary Creature - Malazan Sapper",
     "text": "First strike\nWhenever a Sapper you control is tapped, if it is not attacking, deal one damage to target opponent.",
     "manaValue": 2
+  },
+  {
+    "name": "Sergeant Stormy",
+    "img": "Sergeant Stormy.png",
+    "colors": "R",
+    "typeLine": "Legendary Creature - Malazan Soldier",
+    "text": "Whenever this attacks, if the number of cards that are red instants, red sorceries or mountains in your graveyard is five or greater, this ascends.",
+    "manaValue": 4
   },
   {
     "name": "Shadowthrone",
@@ -3574,6 +3670,14 @@
     "typeLine": "Legendary Creature - Wolf God",
     "text": "Trample\nOther Wolves you control get +1/+1.\nWhen this enters, create two 2/2 green Wolf creature tokens.\nAt the beginning of combat on your turn, target creature you control fights another target creature.\nWhenever you win a fight, put two +1/+1 counters on the winning creature.",
     "manaValue": 7
+  },
+  {
+    "name": "Warren Ambush",
+    "img": "Warren Ambush.png",
+    "colors": "UG",
+    "typeLine": "Instant",
+    "text": "Return target creature to its owners hand. Up to one target creature you control fights target creature you don’t control.",
+    "manaValue": 2
   },
   {
     "name": "Warren of the Unwilling God",

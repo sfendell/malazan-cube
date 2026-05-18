@@ -1,14 +1,12 @@
 #!/usr/bin/env python3
-# mse_parse: Shared MSE set parsing/serialization. Extract zip, parse set file, strip markup, serialize back.
-# Used by generate_cards_json and mtg_clippy. Run from repo root.
+# mse_parse: Shared MSE set parsing/serialization. Read/parse set file, strip markup, serialize back.
+# Used by generate_cards_json, mtg_clippy, and export_to_image. Run from repo root.
 
 import re
 import zipfile
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
-GENERATED = ROOT / "__generated__"
-EXTRACT_DIR = GENERATED / "mse-extract"
 SET_FILENAME = "set"
 
 SUPERTYPES = {"Legendary", "Snow", "Basic", "World"}
@@ -18,6 +16,16 @@ CARD_KEYS_ORDER = [
     "sub_type", "sub_type_2", "sub_type_3", "sub_type_4", "rule_text", "flavor_text", "power", "toughness",
     "illustrator", "card_code_text", "card_code_text_2", "card_code_text_3",
 ]
+def read_set_from_mse(mse_path: Path) -> tuple[str, str]:
+    """Read set file from .mse-set zip without extracting. Returns (header, cards_content)."""
+    with zipfile.ZipFile(mse_path, "r") as zf:
+        content = zf.read(SET_FILENAME).decode("utf-8")
+    first = content.find("\ncard:\n")
+    if first >= 0:
+        return content[: first + 1], content[first + 1 :]
+    return content, ""
+
+
 def extract_mse_set(mse_path: Path, extract_dir: Path) -> None:
     """Extract .mse-set zip to extract_dir. Clears extract_dir first."""
     if extract_dir.exists():

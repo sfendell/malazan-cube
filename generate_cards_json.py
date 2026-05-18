@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # Generate cards.json for GitHub Pages: card list with colors, type, and text for filtering.
-# Reads the MSE set directly (extracts and parses); matches cards to exported_cards/*.png by name
+# Reads the MSE set directly (parses set file from the zip); matches cards to exported_cards/*.png by name
 # (normalized), not by index, since export order and set-file order can differ.
 # Run from repo root. Called by finalize (after export_to_image).
 
@@ -10,11 +10,9 @@ import sys
 from pathlib import Path
 
 from mse_parse import (
-    EXTRACT_DIR,
     ROOT,
-    extract_mse_set,
-    read_set_content,
     parse_set_blocks,
+    read_set_from_mse,
     strip_mse_markup,
     strip_type_markup,
     type_line_display,
@@ -71,32 +69,55 @@ def normalize_name(s: str) -> str:
     return re.sub(r"[^\w]", "", s).lower()
 
 
+def image_sort_key(path: Path) -> tuple:
+    """Order exports: Name.png before Name.1.png before Name.2.png (MSE duplicate names)."""
+    stem = path.stem
+    m = re.match(r"^(.+)\.(\d+)$", stem)
+    if m:
+        return (normalize_name(m.group(1)), int(m.group(2)))
+    return (normalize_name(stem), 0)
+
+
+def image_base_norm(stem: str) -> str:
+    """Normalized card name for Food.1 / Child God.2 stems."""
+    m = re.match(r"^(.+)\.\d+$", stem)
+    return normalize_name(m.group(1) if m else stem)
+
+
+def build_norm_to_img_list(image_files: list[Path]) -> dict[str, list[str]]:
+    """Map normalized card name -> PNG filenames in export order (supports duplicate names)."""
+    norm_to_imgs: dict[str, list[str]] = {}
+    for p in sorted(image_files, key=image_sort_key):
+        base = image_base_norm(p.stem)
+        norm_to_imgs.setdefault(base, []).append(p.name)
+    return norm_to_imgs
+
+
 def main():
     if not MSE_SET_PATH.exists():
         print(f"MSE set not found: {MSE_SET_PATH}", file=sys.stderr)
         sys.exit(1)
 
-    ROOT.joinpath("__generated__").mkdir(parents=True, exist_ok=True)
-    extract_mse_set(MSE_SET_PATH, EXTRACT_DIR)
-    header, cards_content = read_set_content(EXTRACT_DIR)
+    _, cards_content = read_set_from_mse(MSE_SET_PATH)
     parsed = list(parse_set_blocks(cards_content))
 
-    # Match images by normalized card name (MSE export filename may differ from set order)
+    # Match images by normalized card name; duplicate names use Name.png, Name.1.png, … in set order
     image_files = list(EXPORT_DIR.glob("*.png")) if EXPORT_DIR.exists() else []
-    norm_to_img = {}
-    for p in image_files:
-        n = normalize_name(p.stem)
-        if n not in norm_to_img:
-            norm_to_img[n] = p.name
+    norm_to_imgs = build_norm_to_img_list(image_files)
+    name_use_index: dict[str, int] = {}
 
     cards = []
     for card in parsed:
         name = (card.get("name") or "").strip()
         if not name:
             continue
-        img_name = norm_to_img.get(normalize_name(name))
-        if not img_name:
+        norm = normalize_name(name)
+        imgs = norm_to_imgs.get(norm, [])
+        idx = name_use_index.get(norm, 0)
+        if idx >= len(imgs):
             continue
+        img_name = imgs[idx]
+        name_use_index[norm] = idx + 1
         cost = (card.get("casting_cost") or "").strip()
         super_type = strip_type_markup(card.get("super_type", ""))
         sub_type = strip_type_markup(card.get("sub_type", ""))
