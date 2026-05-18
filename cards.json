@@ -394,10 +394,10 @@
   {
     "name": "Bluerose Engineering",
     "img": "Bluerose Engineering.png",
-    "colors": "W",
+    "colors": "WU",
     "typeLine": "Enchantment - Aura Curse",
     "text": "Enchant player\nEnchanted player’s opponents can equip creatures enchanted player controls.\nEquipped creatures enchanted player control cannot attack or block.\nWhenever an equipped creature enchanted player controls dies, destroy all Equipment attached to it.",
-    "manaValue": 4
+    "manaValue": 3
   },
   {
     "name": "Bluetongue Plague",
