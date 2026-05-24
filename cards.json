@@ -12,7 +12,7 @@
     "img": "Adept Diviner.png",
     "colors": "U",
     "typeLine": "Creature - Human Wizard",
-    "text": "T: Scry 1.  \nWhenever you cast an instant or sorcery, untap this.",
+    "text": "T: Scry 1.\nWhenever you cast an instant or sorcery, untap this.",
     "manaValue": 2
   },
   {
@@ -35,7 +35,7 @@
     "name": "Agent of the Claw",
     "img": "Agent of the Claw.png",
     "colors": "UBR",
-    "typeLine": "Creature - Malazain Assassin Wizard",
+    "typeLine": "Creature - Malazan Assassin Wizard",
     "text": "Flash\nWhen this enters the battlefield, counter target activated or triggered ability. If its source was an artifact and R was paid for this, gain control of it. If its source was a creature and B was paid for this, destroy it. Otherwise, draw a card.",
     "manaValue": 4
   },
@@ -76,7 +76,7 @@
     "img": "Ampelas Rooted.png",
     "colors": "",
     "typeLine": "Kindred Artifact - Alien Dinosaur Vehicle",
-    "text": "Crew 2\n2U, T: If this doesn’t have flying, put a flying counter on it. Otherwise, put a curiosity counter on it. Activate this ability only if this is a creature.  (Curiosity is “Whenever this creature deals damage to a player, draw a card.”)",
+    "text": "Crew 2\n2U, T: If this doesn’t have flying, put a flying counter on it. Otherwise, put a curiosity counter on it. Activate this ability only if this is a creature. (Curiosity is “Whenever this creature deals damage to a player, draw a card.”)",
     "manaValue": 3
   },
   {
@@ -116,7 +116,7 @@
     "img": "Anomander Rake.png",
     "colors": "WUB",
     "typeLine": "Legendary Planeswalker Creature - Elder Elf Rake",
-    "text": "Rake is a 6/* flying creature, where * is his loyalty.\nUntil your next turn, Elder Elves you control have flying and “Whenever this is dealt damage from anything besides a creature attacking it, prevent all but 1 of that damage, then draw cards equal to the damage prevented.”\nReturn two target creatures to their owners hand, then each opponent exiles a card from their hand for each Elder Elf you control.\nExile all non-Elder non-land permanents. Put all exiled Elder permanents onto the battlefield under your control.",
+    "text": "Rake is a 6/* flying creature, where * is his loyalty.\nUntil your next turn, Elder Elves you control have flying and “Whenever this is dealt damage by anything besides a creature attacking it, prevent all but 1 of that damage, then draw cards equal to the damage prevented.”\nReturn two target creatures to their owner’s hand, then each opponent exiles a card from their hand for each Elder Elf you control.\nExile all non-Elder non-land permanents. Put all exiled Elder permanents onto the battlefield under your control.",
     "manaValue": 7
   },
   {
@@ -244,7 +244,7 @@
     "img": "Bauchelain.png",
     "colors": "UB",
     "typeLine": "Legendary Creature - Human Wizard",
-    "text": "Whenever any other number of creature cards enter your graveyard from anywhere, make a 2/2 Black Zombie token. Oncebound.\nUB, Slow, mill six and sacrifice a nontoken creature: Destroy target creature.",
+    "text": "Whenever any number of creature cards enter your graveyard from anywhere, create a 2/2 Black Zombie token. Oncebound.\nUB, Slow, mill six and sacrifice a nontoken creature: Destroy target creature.",
     "manaValue": 3
   },
   {
@@ -340,7 +340,7 @@
     "img": "Black Market Merchant.png",
     "colors": "WB",
     "typeLine": "Creature - Human Merchant",
-    "text": "When this enters, plunder twice.\nSlow, 2W/BW/B, sacrifice a Treasure, : Put a +1/+1 counter on target creature if W was spent on this ability. Put a -1/-1 counter on target creature if B was spent on this ability. This ability costs 1 less for each other merchant you control.",
+    "text": "When this enters, plunder twice.\nSlow, 2W/BW/B, sacrifice a Treasure: Put a +1/+1 counter on target creature if W was spent on this ability. Put a -1/-1 counter on target creature if B was spent on this ability. This ability costs 1 less for each other merchant you control.",
     "manaValue": 2
   },
   {
@@ -500,7 +500,7 @@
     "img": "Burn Sleeping Goddess.png",
     "colors": "",
     "typeLine": "Legendary Land - Warren",
-    "text": "Burn enters tapped.\nWhen this enters, sacrifice it unless you pay 1.\n3WUBRG: This becomes a 6/6 Elder God creature (it’s still a land.)\nT: Add one mana of any color.",
+    "text": "Burn enters tapped.\nWhen Burn enters, sacrifice it unless you pay 1.\n3WUBRG: Burn becomes a 6/6 Elder God creature (it’s still a land.)\nT: Add one mana of any color.",
     "manaValue": 0
   },
   {
@@ -524,7 +524,7 @@
     "img": "Call for Reinforcements.png",
     "colors": "WR",
     "typeLine": "Instant",
-    "text": "Choose two:\n Create a 1/1 red and white Malazan Sapper creature token. Gain 2 life.\nCreate a Cusser.\nImpulse 1.\nPut a +1/+1 counter on target creature.",
+    "text": "Choose two:\nCreate a 1/1 red and white Malazan Sapper creature token. Gain 2 life.\nCreate a Cusser.\nImpulse 1.\nPut a +1/+1 counter on target creature.",
     "manaValue": 3
   },
   {
@@ -540,7 +540,7 @@
     "img": "Captain Gruff.png",
     "colors": "W",
     "typeLine": "Legendary Creature - Malazan Assassin Soldier",
-    "text": "When this enters, create a Comb token, a Silk Shirt token, a Fine Trousers token, a Exquisite Manicure token, and bleed.\nWhenever a creature with power and toughness that differ by more than 2 does damage to a player, create a copy of a token you control.",
+    "text": "When this enters, create a Comb token, a Silk Shirt token, a Fine Trousers token, an Exquisite Manicure token, and bleed.\nWhenever a creature with power and toughness that differ by more than 2 deals damage to a player, create a copy of a token you control.",
     "manaValue": 4
   },
   {
@@ -660,7 +660,7 @@
     "img": "Combat Engineering.png",
     "colors": "R",
     "typeLine": "Enchantment",
-    "text": "Whenever you sacrifice a land, creature a 1/1 Malazan Sapper creature token.\n1R, Sacrifice a nontoken permanent: Deal 2 damage to any target.",
+    "text": "Whenever you sacrifice a land, create a 1/1 Malazan Sapper creature token.\n1R, Sacrifice a nontoken permanent: Deal 2 damage to any target.",
     "manaValue": 1
   },
   {
@@ -740,7 +740,7 @@
     "img": "Crow Clan Revival.png",
     "colors": "WB",
     "typeLine": "Enchantment",
-    "text": "Whenever a nontoken creature you control dies, create a 1/2 white and black Bird creature token with flying. If the creature was sacrificed, populate.\nSacrifice X creature tokens: Return target creature with mana value X or less from your graveyard to your battlefield.",
+    "text": "Whenever a nontoken creature you control dies, create a 1/2 white and black Bird creature token with flying. If the creature was sacrificed, populate.\nSacrifice X creature tokens: Return target creature with mana value X or less from your graveyard to the battlefield.",
     "manaValue": 4
   },
   {
@@ -844,7 +844,7 @@
     "img": "Denul Defender.png",
     "colors": "WG",
     "typeLine": "Creature - Malazan Wizard",
-    "text": "If W was spent to cast this, it enters with a lifelink counter. If G was spent to cast this, it enters with a trample counter.\nG/W, exile this from your graveyard: Destroy target artifact or enchantment. Activate this only if you’ve gained life or dealt damage to a player this turn.",
+    "text": "If W was spent to cast this, it enters with a lifelink counter. If G was spent to cast this, it enters with a trample counter.\nG/W, exile this from your graveyard or battlefield: Destroy target artifact or enchantment. Activate this only if you’ve gained life or dealt damage to a player this turn.",
     "manaValue": 2
   },
   {
@@ -852,7 +852,7 @@
     "img": "Denul Revival.png",
     "colors": "W",
     "typeLine": "Instant",
-    "text": "Kicker U, kicker G\nIf you paid G, target creature gets +3/+3 until end of turn.\nReturn up to one target creature card with power less than the greatest power among creatures you control from your graveyard to your hand.\nIf you paid U, return target creature to its owners hand.\nIf you paid GU, gain life equal to the difference in total power between all creatures you control and all creatures you don’t control.",
+    "text": "Kicker U, kicker G\nIf you paid G, target creature gets +3/+3 until end of turn.\nReturn up to one target creature card with power less than the greatest power among creatures you control from your graveyard to your hand.\nIf you paid U, return target creature to its owner’s hand.\nIf you paid GU, gain life equal to the difference in total power between all creatures you control and all creatures you don’t control.",
     "manaValue": 1
   },
   {
@@ -860,7 +860,7 @@
     "img": "Disciple of Osseric.png",
     "colors": "WU",
     "typeLine": "Creature - Pure Elder Elf",
-    "text": "Behold Serc\nThis enters the battlefield with a “Whenever an creature that shares a creature type with this enters the battlefield under your control, creatures you control get +1/+1 until end of turn.” counter.\nWhen this enters the battlefield, if you beheld Serc, proliferate, then proliferate.",
+    "text": "Behold Serc\nThis enters the battlefield with a “Whenever a creature that shares a creature type with this enters the battlefield under your control, creatures you control get +1/+1 until end of turn.” counter.\nWhen this enters the battlefield, if you beheld Serc, proliferate, then proliferate.",
     "manaValue": 2
   },
   {
@@ -884,7 +884,7 @@
     "img": "Divine Possession.png",
     "colors": "UB",
     "typeLine": "Enchantment - Aura",
-    "text": "Enchant non-God\nWhen this enters, tutor a God into exile.\nEnchanted creature is a copy of exiled card.\nWhen enchanted creature dies, put the exiled card into its owners hand.",
+    "text": "Enchant non-God\nWhen this enters, tutor a God into exile.\nEnchanted creature is a copy of the exiled card.\nWhen enchanted creature dies, put the exiled card into its owner’s hand.",
     "manaValue": 4
   },
   {
@@ -988,7 +988,7 @@
     "img": "Edgewalker Border Guardian.png",
     "colors": "WUB",
     "typeLine": "Legendary Creature - Elder Elemental",
-    "text": "Whenever a creature dies, scry 1.\nWhenever a creature is exiled, draw a card.\nWhenever a creature enters its owners library or hand from the battlefield, draw two cards.",
+    "text": "Whenever a creature dies, scry 1.\nWhenever a creature is exiled, draw a card.\nWhenever a creature enters its owner’s library or hand from the battlefield, draw two cards.",
     "manaValue": 3
   },
   {
@@ -1052,7 +1052,7 @@
     "img": "Ensconce in Dream.png",
     "colors": "W",
     "typeLine": "Enchantment",
-    "text": "When this enters, exile target creature until this leaves the battlefield. Its owner gains X life, where X was the creature’s power plus its toughness. If you control an Elder God or Magnanimous Kruppe, draw a card.",
+    "text": "When this enters, exile target creature until this leaves the battlefield. Its owner gains X life, where X is the creature’s power plus its toughness. If you control an Elder God or Magnanimous Kruppe, draw a card.",
     "manaValue": 3
   },
   {
@@ -1228,7 +1228,7 @@
     "img": "Forgotten God.png",
     "colors": "BR",
     "typeLine": "Creature - Elder",
-    "text": "Whenever you sacrifice a creature, bleed.\n3B, Sacrifice a creature and pay 1 life: Draw a card.\nSacrifice seven Bloods: This becomes Legendary and ascends. Put a name counter of your choice on it.",
+    "text": "Whenever you sacrifice a creature, bleed.\n3B, Sacrifice a creature and pay 1 life: Draw a card.\nSacrifice seven Bloods: This gains Legendary and ascends. Put a name counter of your choice on it.",
     "manaValue": 4
   },
   {
@@ -1384,8 +1384,8 @@
     "manaValue": 2
   },
   {
-    "name": "Half-Human Hoard",
-    "img": "Half-Human Hoard.png",
+    "name": "Half-Human Horde",
+    "img": "Half-Human Horde.png",
     "colors": "BG",
     "typeLine": "Creature - Elder Zombie Human Army",
     "text": "Dredge 6\nT, Slow, Sacrifice this: Exile target card in your graveyard. Then destroy target permanent that shares a type with it.",
@@ -1470,6 +1470,14 @@
     "typeLine": "Artifact",
     "text": "Indestructible\n3, T: Target creature with power, toughness, or mana value greater than three phases out.\nAt the beginning of your upkeep, you may pay H for each card that is phased out. If you don’t, sacrifice this, then all creatures phase in.",
     "manaValue": 3
+  },
+  {
+    "name": "Human",
+    "img": "Human.png",
+    "colors": "",
+    "typeLine": "Token Creature - Human",
+    "text": "",
+    "manaValue": 0
   },
   {
     "name": "Human Child",
@@ -1644,7 +1652,7 @@
     "img": "JAn Sentinel.png",
     "colors": "UG",
     "typeLine": "Creature - Alien Dinosaur",
-    "text": "This cannot be blocked by creatures with less power that itself.\n1GU, Q: Proliferate.",
+    "text": "This cannot be blocked by creatures with less power than itself.\n1GU, Q: Proliferate.",
     "manaValue": 4
   },
   {
@@ -1724,7 +1732,7 @@
     "img": "Kettle Born of the Azath.png",
     "colors": "B",
     "typeLine": "Legendary Creature - Zombie Child",
-    "text": "Deathtouch\nWhenever you are dealt combat damage by any number of creatures, bleed.\nBlood you control are also Food.",
+    "text": "Deathtouch\nWhenever you are dealt combat damage by any number of creatures, bleed.\nBloods you control are also Food.",
     "manaValue": 2
   },
   {
@@ -1876,7 +1884,7 @@
     "img": "Legion of Trake.png",
     "colors": "",
     "typeLine": "Creature - Human Army",
-    "text": "First strike, Haste\nWhenever this attacks, you may exert it. If you do, take another combat this turn. Oncebound.",
+    "text": "First strike, Haste\nWhenever this attacks, you may exert it. If you do, after this combat, there is an additional combat phase. Oncebound.",
     "manaValue": 0
   },
   {
@@ -1996,7 +2004,7 @@
     "img": "Magi of High House Dark.png",
     "colors": "UR",
     "typeLine": "Enchantment - Fatid Aura",
-    "text": "Enchant non-God creature\nEnchanted creature cannot attack or block unless it has an activated ability.\nEnchanted creature has prowess, “You have cunning”,  and “This creature has hexproof as long as you’ve scried or cast an instant or sorcery this turn.”.",
+    "text": "Enchant non-God creature\nEnchanted creature cannot attack or block unless it has an activated ability.\nEnchanted creature has prowess, “You have cunning”,  and “This creature has hexproof as long as you’ve scried or cast an instant or sorcery this turn”.",
     "manaValue": 2
   },
   {
@@ -2004,7 +2012,7 @@
     "img": "Magnanimous Kruppe.png",
     "colors": "WUR",
     "typeLine": "Legendary Creature - Human Wizard",
-    "text": "You have cunning.\nAt the beginning of your upkeep, scry 1.\nWhenever you place X cards on the bottom of your deck, cook or investigate X times. Then gain control of up to one target spell or artifact with value less than or equal to the number of tokens you control. You may choose new targets for the spell.",
+    "text": "You have cunning.\nAt the beginning of your upkeep, scry 1.\nWhenever you place X cards on the bottom of your deck, cook or investigate X times. Then gain control of up to one target spell or artifact with mana value less than or equal to the number of tokens you control. You may choose new targets for the spell.",
     "manaValue": 3
   },
   {
@@ -2052,7 +2060,7 @@
     "img": "Mappo Loyal Guardian.png",
     "colors": "RG",
     "typeLine": "Legendary Creature - Giant Warrior",
-    "text": "You cannot skip turns, phases, or discard cards.\nCreatures you control cannot be returned to your hand or have stun counters placed on them.\nWhenever a creature this dealt damage to dies, put a +1/+1 counter on this.",
+    "text": "You cannot discard cards or skip turns or phases. \nYour opponents may not gain extra phases or turns.\nCreatures you control cannot be returned to your hand or have stun counters placed on them.\nWhenever a creature dealt damage by Mappo this turn to dies, put a +1/+1 counter on Mappo.",
     "manaValue": 3
   },
   {
@@ -2140,7 +2148,7 @@
     "img": "Monok Ochem.png",
     "colors": "BR",
     "typeLine": "Legendary Creature - Elder Zombie Shaman",
-    "text": "Elder Zombies you control have haste and afterlife 1.\nOncebound, Sacrifice another creature: If it was an Elder Zombie, Monok gails lifelink until end of turn. Then deal damage to any target equal to sacrificed creature’s power.",
+    "text": "Elder Zombies you control have haste and afterlife 1.\nOncebound, Sacrifice another creature: If sacrificed creature was an Elder Zombie, Monok Ochem gains lifelink until end of turn. Then deal damage to any target equal to sacrificed creature’s power.",
     "manaValue": 6
   },
   {
@@ -2276,7 +2284,7 @@
     "img": "Omtose Phellack.png",
     "colors": "",
     "typeLine": "Land - Warren",
-    "text": "This enters tapped unless you control exactly one creature.\nWhenever you attack with exactly one creature, if there is a stun counter on an opponents creature, draw a card.\nT: Add W or U.",
+    "text": "This enters tapped unless you control exactly one creature.\nWhenever you attack with exactly one creature, if there is a stun counter on an opponent’s creature, draw a card.\nT: Add W or U.",
     "manaValue": 0
   },
   {
@@ -2308,7 +2316,7 @@
     "img": "Ormolugon Imperial Artist.png",
     "colors": "WUR",
     "typeLine": "Legendary Creature - Malazan Advisor",
-    "text": "Whenever a Legendary creature enters under your control, plunder.\nWhenever an Army you control attacks, if you control at least three treasures, it gets +3/+3 until end of turn. If it’s attacking alone, take an extra combat after this. Oncebound.",
+    "text": "Whenever a Legendary creature enters under your control, plunder.\nWhenever an Army you control attacks, if you control at least three treasures, it gets +3/+3 until end of turn. If it’s attacking alone, after this combat, there is an additional combat phase, then untap all creatures you control. Oncebound.",
     "manaValue": 4
   },
   {
@@ -2332,7 +2340,7 @@
     "img": "Outmaneuver.png",
     "colors": "R",
     "typeLine": "Instant",
-    "text": "Up to two target creatures gets first strike until end of turn. Scry 1. Impulse 1.",
+    "text": "Up to two target creatures get first strike until end of turn. Scry 1. Impulse 1. Deal 1 damage to target opponent.",
     "manaValue": 1
   },
   {
@@ -2484,7 +2492,7 @@
     "img": "Quick Ben Denul Healer.png",
     "colors": "W",
     "typeLine": "Legendary Creature - Malazan Wizard Soul",
-    "text": "W, T: X target creatures gains protection from the color of your choice until end of turn, where X is the number of exiled Souls plus 1.\nExile this card from your graveyard: Put up to one target Soul you own from outside the game on top of your deck.",
+    "text": "W, T: X target creatures gain protection from the color of your choice until end of turn, where X is the number of exiled Souls plus 1.\nExile this card from your graveyard: Put up to one target Soul you own from outside the game on top of your deck.",
     "manaValue": 2
   },
   {
@@ -2508,7 +2516,7 @@
     "img": "Quick Ben Imperial Investigator.png",
     "colors": "UG",
     "typeLine": "Legendary Creature - Malazan Wizard Soul",
-    "text": "X is 1 plus the number of exiled Souls.\nWhenever at least one creature with a counter you control attacks, draw X cards.\nT, Gather 6 evidence: X target creatures you control becomes unblockable until end of turn. \nExile this card from your graveyard: Put up to one target Soul you own from outside the game on top of your deck.",
+    "text": "X is 1 plus the number of exiled Souls.\nWhenever at least one creature with a counter you control attacks, draw X cards.\nT, Gather 6 evidence: X target creatures you control become unblockable until end of turn. \nExile this card from your graveyard: Put up to one target Soul you own from outside the game on top of your deck.",
     "manaValue": 2
   },
   {
@@ -2684,7 +2692,7 @@
     "img": "Remembrance of a Lost God.png",
     "colors": "U",
     "typeLine": "Enchantment - Aura",
-    "text": "Enchant creature\nWhen this enters, exile a creature card from your graveyard. If exiled card is a God, enchanted creature ascends.\nEnchanted creature has all abilities of the exiled card.",
+    "text": "Enchant creature\nWhen this enters, exile a creature card from your graveyard. If the exiled card is a God, enchanted creature ascends.\nEnchanted creature has all abilities of the exiled card.",
     "manaValue": 4
   },
   {
@@ -2952,12 +2960,12 @@
     "manaValue": 3
   },
   {
-    "name": "Shuq Ellale",
-    "img": "Shuq Ellale.png",
+    "name": "Shurq Ellale",
+    "img": "Shurq Ellale.png",
     "colors": "UBR",
     "typeLine": "Legendary Creature - Zombie Pirate",
-    "text": "At the beginning of your upkeep, tap an untapped nontoken creature you control. If you don’t, sacrifice this.\nWhenever a creature you control becomes tapped, plunder.\n2UBR, Sacrifice X Treasures: Gain control of non-land permanent or spell as long as you control Shurq with mana value X or less. You may choose new targets for the spell.",
-    "manaValue": 4
+    "text": "At the beginning of your upkeep, tap an untapped nontoken creature you control. If you don’t, sacrifice this.\nWhenever a creature you control becomes tapped, plunder.\n2UBR, Sacrifice X Treasures: Gain control of non-land permanent or spell with mava value X or less for as long as you control Shurq. You may choose new targets for the spell.",
+    "manaValue": 3
   },
   {
     "name": "Siege of Capustan",
@@ -3060,7 +3068,7 @@
     "img": "Slave Caravan.png",
     "colors": "WB",
     "typeLine": "Creature - Human Merchant",
-    "text": "Lifelink\nWhenever you would gain life, instead plunder X times, where X is the number of Merchants you control.\nSacrifice eight artifacts: Create eight 1/1 White Human creatures.",
+    "text": "Lifelink\nWhenever you would gain life, instead plunder X times, where X is the number of Merchants you control.\nSacrifice eight artifacts: Create eight 1/1 White Human creature tokens.",
     "manaValue": 3
   },
   {
@@ -3164,7 +3172,7 @@
     "img": "Talons Machination.png",
     "colors": "B",
     "typeLine": "Kindred Instant - Assassin",
-    "text": "As an additional cost to cast this spell, sacrifice a creature.\nKicker U, kicker R\nDestroy target creature.\nIf you paid U, scry 2.\nIf you paid R, impulse. Then if you paid U, you gain cunning until end of turn.",
+    "text": "As an additional cost to cast this spell, sacrifice a creature.\nKicker U, kicker R\nDestroy target creature.\nIf you paid U, scry 2.\nIf you paid R, impulse. Then if you paid U, you have cunning until end of turn.",
     "manaValue": 1
   },
   {
@@ -3252,7 +3260,7 @@
     "img": "The Chained God.png",
     "colors": "",
     "typeLine": "Legendary Creature - Alien God",
-    "text": "The Chained God may only be cast from exile.\nExile a God or two Elders you control: Exile this from your hand.\nIndestructible\nTap an untapped creature you control, Q: Put a -1/-1 counter on two target creatures.\nWhen this enters exile from the battlefield, you win the game.",
+    "text": "The Chained God may only be cast from exile.\nExile a God or two Elders you control: Exile this from your hand.\nIndestructible\nTap an untapped creature you control, Q: Put a -1/-1 counter on two target creatures.\nWhen this is exiled from the battlefield, you win the game.",
     "manaValue": 4
   },
   {
@@ -3484,7 +3492,7 @@
     "img": "Trap in Dragonsblood.png",
     "colors": "W",
     "typeLine": "Enchantment - Aura",
-    "text": "Enchant creature card in your graveyard\nWhen this enters, exile target creature until this is leaves the battlefield.\n1, Oncebound: Gain 2 life for each card in exile, then put all exiled cards in their owners graveyard and sacrifice this. Activate this only if enchanted creature is a Dragon.",
+    "text": "Enchant creature card in your graveyard\nWhen this enters, exile target creature until this leaves the battlefield.\n1, Sacrifice this Gain 2 life for each card in exile, then put all exiled cards in their owner’s graveyard. Activate this only if enchanted creature is a Dragon.",
     "manaValue": 1
   },
   {
@@ -3517,7 +3525,7 @@
     "colors": "WB",
     "typeLine": "Creature - Human Merchant",
     "text": "Extort, extort, extort\nWhenever you extort for the third time in a turn, plunder.\nSacrifice a Treasure and a Warren: Return this from your graveyard to the battlefield.",
-    "manaValue": 5
+    "manaValue": 4
   },
   {
     "name": "Tyrant’s Banner",
@@ -3596,7 +3604,7 @@
     "img": "Udinaas Pensive Slave.png",
     "colors": "U",
     "typeLine": "Legendary Creature - Human",
-    "text": "Whenever a card enters your graveyard from your deck, manifest the top card of your deck.\nU, Exile a card from your graveyard, reveal a facedown card you control and return it to your hand: If the revealed card and exiled card share a card type, return target creature to its owners hand.",
+    "text": "Whenever this enters or a card enters your graveyard from your deck, manifest the top card of your deck. Twicebound.\nU, Exile a card from your graveyard, reveal a facedown card you control and return it to your hand: If the revealed card and exiled card share a card type, return target creature to its owner’s hand.",
     "manaValue": 2
   },
   {
@@ -3604,7 +3612,7 @@
     "img": "Ulshun Pral Crude Depictor.png",
     "colors": "BG",
     "typeLine": "Legendary Creature - Elder Zombie Wizard",
-    "text": "4BG, T, Exile target creature card from a graveyard: Create a tapped token that is a copy of exiled creature, except it’s a 3/3 Beast. If that creature was an Elder Zombie, put two +1/+1 counters on it.",
+    "text": "4BG, T, Exile target creature card from a graveyard: Create a tapped token that is a copy of the exiled creature, except it’s a 3/3 Beast. If that creature was an Elder Zombie, put two +1/+1 counters on it.",
     "manaValue": 2
   },
   {
@@ -3676,7 +3684,7 @@
     "img": "Warren Ambush.png",
     "colors": "UG",
     "typeLine": "Instant",
-    "text": "Return target creature to its owners hand. Up to one target creature you control fights target creature you don’t control.",
+    "text": "Return target creature to its owner’s hand. Up to one target creature you control fights target creature you don’t control.",
     "manaValue": 2
   },
   {
@@ -3700,7 +3708,7 @@
     "img": "Weaver of High House Life.png",
     "colors": "WG",
     "typeLine": "Enchantment - Fatid Aura",
-    "text": "Enchant non-God creature\nEnchanted creature has lifelink and cannot attack or block unless its controller has 10 or more life.\nEnchanted creature has “Whenever a non-artifact permanent enters the battle under your control, gain 1 life”.",
+    "text": "Enchant non-God creature\nEnchanted creature has lifelink and cannot attack or block unless its controller has 10 or more life.\nEnchanted creature has “Whenever a non-artifact permanent enters under your control, gain 1 life”.",
     "manaValue": 3
   },
   {
