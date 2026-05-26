@@ -36,7 +36,7 @@
     "img": "Agent of the Claw.png",
     "colors": "UBR",
     "typeLine": "Creature - Malazan Assassin Wizard",
-    "text": "Flash\nWhen this enters the battlefield, counter target activated or triggered ability. If its source was an artifact and R was paid for this, gain control of it. If its source was a creature and B was paid for this, destroy it. Otherwise, draw a card.",
+    "text": "Flash\nWhen this enters, counter target activated or triggered ability. If its source was an artifact and R was paid for this, gain control of it. If its source was a creature and B was paid for this, destroy it. Otherwise, draw a card.",
     "manaValue": 4
   },
   {
@@ -212,7 +212,7 @@
     "img": "Barathol Mekhar.png",
     "colors": "R",
     "typeLine": "Legendary Creature - Human Artificer",
-    "text": "When this enters the battlefield, place X Forge counters on it, where X is the number of creatures you control. Then tutor an Equipment to the top of your library.\nSlow, T, Remove a Forge counter from this: Destroy target artifact. Its controller creates a Short Sword token.",
+    "text": "When this enters, place X Forge counters on it, where X is the number of creatures you control. Then tutor an Equipment to the top of your library.\nSlow, T, Remove a Forge counter from this: Destroy target artifact. Its controller creates a Short Sword token.",
     "manaValue": 2
   },
   {
@@ -340,7 +340,7 @@
     "img": "Black Market Merchant.png",
     "colors": "WB",
     "typeLine": "Creature - Human Merchant",
-    "text": "When this enters, plunder twice.\nSlow, 2W/BW/B, sacrifice a Treasure: Put a +1/+1 counter on target creature if W was spent on this ability. Put a -1/-1 counter on target creature if B was spent on this ability. This ability costs 1 less for each other merchant you control.",
+    "text": "When this enters, plunder twice.\nSlow, 2W/BW/B, sacrifice a Treasure: Put a +1/+1 counter on target creature if W was spent on this ability. Put a -1/-1 counter on target creature if B was spent on this ability. This ability costs 1 less for each other Merchant you control.",
     "manaValue": 2
   },
   {
@@ -388,7 +388,7 @@
     "img": "Bluepearl.png",
     "colors": "UR",
     "typeLine": "Legendary Creature - Malazan Wizard",
-    "text": "Prowess\nWhen this enters the battlefield, scry X, where X is the number of artifacts and Malazans you control. Then you may reveal the top card of your library. If it’s an instant, sorcery, or artifact, put it in your hand.",
+    "text": "Prowess\nWhen this enters, scry X, where X is the number of artifacts and Malazans you control. Then you may reveal the top card of your library. If it’s an instant, sorcery, or artifact, put it in your hand.",
     "manaValue": 2
   },
   {
@@ -428,7 +428,7 @@
     "img": "Bridgeburner Engineer.png",
     "colors": "WR",
     "typeLine": "Creature - Malazan Sapper",
-    "text": "When this enters the battlefield, create a Cusser.\nWhenever a Sapper deals damage to a player, for the rest of the turn, Cussers you control gain “RW, Sacrifice this: Deal 3 damage to any target and gain 3 life.”",
+    "text": "When this enters, create a Cusser.\nWhenever a Sapper deals damage to a player, for the rest of the turn, Cussers you control gain “RW, Sacrifice this: Deal 3 damage to any target and gain 3 life.”",
     "manaValue": 2
   },
   {
@@ -445,14 +445,14 @@
     "colors": "WR",
     "typeLine": "Legendary Creature - Human",
     "text": "Haste, First strike\nWhenever you attack for the second time in a turn, this creature ascends.",
-    "manaValue": 5
+    "manaValue": 4
   },
   {
     "name": "Bruthen Trana",
     "img": "Bruthen Trana.png",
     "colors": "WUB",
     "typeLine": "Legendary Creature - Elder Elf Warrior",
-    "text": "When this enters the battlefield, tutor an artifact to your hand.\nElder Elves you control get +1/+1 for every artifact you control.",
+    "text": "When this enters, tutor an artifact to your hand.\nElder Elves you control get +1/+1 for every artifact you control.",
     "manaValue": 3
   },
   {
@@ -516,7 +516,7 @@
     "img": "Caladan Brood.png",
     "colors": "RG",
     "typeLine": "Legendary Creature - Elder Rebel",
-    "text": "When this enters the battlefield, deal X damage divided among any number of targets, where X is the number of lands and Rebels you control.\nAs long as Caladan Brood is in your graveyard, whenever a land or Rebel enters your graveyard from anywhere, deal 1 damage to any target. \nLandcycling 1G, Rebelcycling 1R",
+    "text": "When this enters, deal X damage divided among any number of targets, where X is the number of lands and Rebels you control.\nAs long as Caladan Brood is in your graveyard, whenever a land or Rebel enters your graveyard from anywhere, deal 1 damage to any target. \nLandcycling 1G, Rebelcycling 1R",
     "manaValue": 7
   },
   {
@@ -748,7 +748,7 @@
     "img": "Crump.png",
     "colors": "R",
     "typeLine": "Legendary Creature - Malazan Sapper",
-    "text": "Protection from itself\nCussers you control lose all abilities.\nAt the beginning of your upkeep, create a Cusser artifact token.\nAt the beginning of your end step, sacrifice all artifacts you control.\nWhenever you sacrifice an artifact, you may sacrifice another permanent. If you do, deal three damage to any target. Otherwise, deal three  damage to any target chosen at random.",
+    "text": "Protection from itself\nCussers you control lose all abilities.\nAt the beginning of your upkeep, create a Cusser artifact token.\nAt the beginning of your end step, sacrifice all artifacts you control.\nWhenever you sacrifice an artifact, you may sacrifice another permanent or tap another Sapper. If you do, deal three damage to any target. Otherwise, deal three damage to any target chosen at random.",
     "manaValue": 2
   },
   {
@@ -860,7 +860,7 @@
     "img": "Disciple of Osseric.png",
     "colors": "WU",
     "typeLine": "Creature - Pure Elder Elf",
-    "text": "Behold Serc\nThis enters the battlefield with a “Whenever a creature that shares a creature type with this enters the battlefield under your control, creatures you control get +1/+1 until end of turn.” counter.\nWhen this enters the battlefield, if you beheld Serc, proliferate, then proliferate.",
+    "text": "Behold Serc\nThis enters with a “Whenever a creature that shares a creature type with this enters under your control, creatures you control get +1/+1 until end of turn.” counter.\nWhen this enters, if you beheld Serc, proliferate, then proliferate.",
     "manaValue": 2
   },
   {
@@ -924,7 +924,7 @@
     "img": "Dragons Fire.png",
     "colors": "R",
     "typeLine": "Instant",
-    "text": "Behold a Dragon\nDragon’s Fire deals 3 damage to target creature or planeswalker. If you revealed a Dragon card or chose a Dragon as you cast this spell, Dragon’s Fire deals damage equal to the power of that card or creature instead.",
+    "text": "Behold a Dragon\nDragon’s Fire deals 3 damage to target creature or planeswalker. If you beheld a dragon, Dragon’s Fire deals damage equal to the power of that card or creature instead.",
     "manaValue": 2
   },
   {
@@ -1044,7 +1044,7 @@
     "img": "Emurlahn Saboteur.png",
     "colors": "WUB",
     "typeLine": "Creature - Elder Elf Wizard",
-    "text": "Flash\nWhen this enters the battlefield, if B was spent to play it, target creature gets -X/-X until end of turn. If W was spent to cast it, target creature gets +X/+X until end of turn. If U was spent to cast it, draw X cards. X is the number of Elder Elves you control.",
+    "text": "Flash\nWhen this enters, if B was spent to play it, target creature gets -X/-X until end of turn. If W was spent to cast it, target creature gets +X/+X until end of turn. If U was spent to cast it, draw X cards. X is the number of Elder Elves you control.",
     "manaValue": 4
   },
   {
@@ -1116,7 +1116,7 @@
     "img": "Fear Sengar.png",
     "colors": "WUB",
     "typeLine": "Legendary Creature - Elder Elf Warrior",
-    "text": "Other Elder Elves you control get +1/+1.\nEquipped Elder Elves you control get curiosity.\nWhen this enters the battlefield, tutor an equipment from your library or graveyard to your hand.",
+    "text": "Other Elder Elves you control get +1/+1.\nEquipped Elder Elves you control get curiosity.\nWhen this enters, tutor an equipment from your library or graveyard to your hand.",
     "manaValue": 3
   },
   {
@@ -1132,7 +1132,7 @@
     "img": "Felisin Paran.png",
     "colors": "URG",
     "typeLine": "Legendary Creature - Malazan",
-    "text": "Whenever a creature you control dies, this deals 1 damage to a creature chosen at random.\nWhen Felisin is dealt damage for the third time in a turn, transform her.",
+    "text": "Whenever you draw your second card or a second land enters under your control in a turn, deal 2 damage to any target and impulse 2.\nWhenever you cast your second card from exile in a turn, transform Felisin.",
     "manaValue": 3
   },
   {
@@ -1356,7 +1356,7 @@
     "img": "Gupp the Sapper.png",
     "colors": "BR",
     "typeLine": "Legendary Creature - Malazan Sapper",
-    "text": "Whenever a Sapper enters the battlefield under your control, create a Cusser.\nWhenever a Cusser enters your graveyard, each opponent loses 1 life and you gain 1 life.",
+    "text": "Whenever this or another Sapper enters under your control, create a Cusser.\nWhenever a Cusser enters your graveyard, each opponent loses 1 life and you gain 1 life.",
     "manaValue": 2
   },
   {
@@ -1492,7 +1492,7 @@
     "img": "Humbral Barghast Warchief.png",
     "colors": "G",
     "typeLine": "Legendary Creature - Elder Human Warrior",
-    "text": "When this enters the battlefield, return up to one target land from your graveyard to the battlefield.\nWhenever a land enters or leaves your graveyard, gain 1 life and put a +1/+1 counter on target creature.",
+    "text": "When this enters, return up to one target land from your graveyard to the battlefield.\nWhenever a land enters or leaves your graveyard, gain 1 life and put a +1/+1 counter on target creature.",
     "manaValue": 2
   },
   {
@@ -1676,7 +1676,7 @@
     "img": "Kalam Mekhar.png",
     "colors": "WBR",
     "typeLine": "Legendary Creature - Malazan Assassin",
-    "text": "Deathtouch\nWhen Kalam enters the battlefield, tutor an Equipment to the top of your library.\nAs long as Kalam is equipped, he has first strike.\nAs long as Kalam is equipped twice, it has “T: Deal 1 damage to any target.”",
+    "text": "Deathtouch\nWhen Kalam enters, tutor an Equipment to the top of your library.\nAs long as Kalam is equipped, he has first strike.\nAs long as Kalam is equipped twice, it has “T: Deal 1 damage to any target.”",
     "manaValue": 3
   },
   {
@@ -1888,12 +1888,20 @@
     "manaValue": 0
   },
   {
-    "name": "Leoman of the Flails",
-    "img": "Leoman of the Flails.png",
+    "name": "Leoman, Skeptical Zealot",
+    "img": "Leoman Skeptical Zealot.png",
     "colors": "RG",
     "typeLine": "Legendary Creature - Human Warrior",
     "text": "As an additional cost to play this card, you may behold a God.\nRebels you control get +2/+0, trample and haste.\nThis enters with a Rebel subtype counter if a God was beheld.",
     "manaValue": 2
+  },
+  {
+    "name": "Leoman’s Betrayal",
+    "img": "Leomans Betrayal.png",
+    "colors": "BR",
+    "typeLine": "Sorcery",
+    "text": "Sacrifice any number of artifacts and Children. Deal X damage to all creatures, where X is the number of permanents sacrificed this way.",
+    "manaValue": 3
   },
   {
     "name": "Letheri Debtdriver",
@@ -2116,7 +2124,7 @@
     "img": "Military Conquest.png",
     "colors": "WUR",
     "typeLine": "Enchantment",
-    "text": "At the beginning of your upkeep, amass Malazans 1. Then if the total power of all Armies, Sappers and Soldiers you control is greater than your opponents life total, you win the game.",
+    "text": "At the beginning of your upkeep, amass Malazans 1. Then if the total power of all Armies, Sappers, Soldiers and artifacts you control is greater than your opponents life total, you win the game.",
     "manaValue": 3
   },
   {
@@ -2388,7 +2396,7 @@
     "img": "Pilgrim of the Redeemer.png",
     "colors": "G",
     "typeLine": "Creature - Human",
-    "text": "When this enters the battlefield, gain 2 life.\nT: Add one mana of any color.",
+    "text": "When this enters, gain 2 life.\nT: Add one mana of any color.",
     "manaValue": 1
   },
   {
@@ -2412,7 +2420,7 @@
     "img": "Potsherds.png",
     "colors": "",
     "typeLine": "Artifact",
-    "text": "This enters tapped.\nWhen this enters the battlefield, you may pay H. If you don’t, sacrifice it.\nT: Add one mana of any color.\n4, T, Sacrifice this: Draw a card.",
+    "text": "This enters tapped.\nWhen this enters, you may pay H. If you don’t, sacrifice it.\nT: Add one mana of any color.\n4, T, Sacrifice this: Draw a card.",
     "manaValue": 2
   },
   {
@@ -2924,7 +2932,7 @@
     "img": "Shaik Reborn.png",
     "colors": "",
     "typeLine": "Legendary Creature - Rebel",
-    "text": "Other Rebels you control get +2/+2.\nXG: Deal X damage to all creatures with flying.\n1U: Target creature gains flying until end of turn.",
+    "text": "Creature you control get haste, trample, and “T: Add one mana of any color.”\nOther Rebels you control get +2/+2.\nU: Target creature gains flying until end of turn.\nXG: Deal X damage to all creatures with flying.",
     "manaValue": 0
   },
   {
@@ -2972,7 +2980,7 @@
     "img": "Siege of Capustan.png",
     "colors": "R",
     "typeLine": "Battle - Siege",
-    "text": "When this enters, deal 3 damage divided among any number of targets. ​",
+    "text": "When this enters, deal 3 damage divided among any number of target creatures or players. ​",
     "manaValue": 3
   },
   {
@@ -2988,7 +2996,7 @@
     "img": "Silchas Ruin Brother Dark.png",
     "colors": "WB",
     "typeLine": "Legendary Creature - Elder Elf",
-    "text": "Silchas enters with a vigilance counter on it.\n3WW, Remove a vigilance counter from Silchas: Put a Dragon subtype counter, a flying counter, and a +1/+1 counter on Silchas.\nRRR, Remove a subtype counter from Silchas: Put a double strike counter and a vigilance counter on Silchas.",
+    "text": "Silchas enters with a vigilance counter on it.\n3W, Remove a vigilance counter from Silchas: Put a Dragon subtype counter, a flying counter, and a +1/+1 counter on Silchas.\n2R, Remove a subtype counter from Silchas: Put a double strike counter and a vigilance counter on Silchas.",
     "manaValue": 3
   },
   {
@@ -3132,7 +3140,7 @@
     "img": "Stillwater.png",
     "colors": "UB",
     "typeLine": "Legendary Creature - Malazan Assassin Wizard",
-    "text": "Curiosity, deathtouch\nPay 2 life: Exile the top card of target opponent’s library. For as long as that card remains exiled, you may cast it, and you may spend mana as though it were mana of any color to cast it. Activate only once each turn and only if you’ve drawn three or more cards this turn.",
+    "text": "Curiosity, deathtouch\nPay 2 life, Oncebound: Exile the top card of target opponent’s library. For as long as that card remains exiled, you may cast it, and you may spend mana as though it were mana of any color to cast it. Activate this only if you’ve drawn three or more cards this turn.",
     "manaValue": 3
   },
   {
@@ -3548,8 +3556,8 @@
     "img": "Tiam.png",
     "colors": "BR",
     "typeLine": "Legendary Creature - Elder Dragon God",
-    "text": "Flying\nThis has the abilities of all Dragons you control.\nT, Sacrifice a creature you control, put a -1/-1 counter on this: Create a 4/4 red Dragon creature token with flying.",
-    "manaValue": 6
+    "text": "Flying\nWhenever this or a Dragon you control enters or attacks, deal 1 damage to any target.\nT, Sacrifice a creature you control, put a -1/-1 counter on this: Create a 4/4 red Dragon creature token with flying.",
+    "manaValue": 5
   },
   {
     "name": "T’lan Ascendancy",
@@ -3564,7 +3572,7 @@
     "img": "Tlan Bonecaster.png",
     "colors": "G",
     "typeLine": "Creature - Elder Zombie Warlock",
-    "text": "Other Elder Zombies you control get +1/+1.\nWhen this enters the battlefield, you may sacrifice a land. If you do, draw two cards.",
+    "text": "Other Elder Zombies you control get +1/+1.\nWhen this enters, you may sacrifice a land. If you do, draw two cards.",
     "manaValue": 2
   },
   {
@@ -3628,7 +3636,7 @@
     "img": "Uryd Youngling.png",
     "colors": "G",
     "typeLine": "Creature - Giant Child",
-    "text": "Trample\nT: Add R, G or U.\nWhenever a creature that shares a creature type with this enters the battlefield under your control, put a +1/+1 counter on this.",
+    "text": "Trample\nT: Add R, G or U.\nWhenever a creature that shares a creature type with this enters under your control, put a +1/+1 counter on this.",
     "manaValue": 1
   },
   {
@@ -3716,7 +3724,7 @@
     "img": "Whiskeyjack.png",
     "colors": "WR",
     "typeLine": "Legendary Creature - Malazan Sappper",
-    "text": "Whenever a Malazan you control attacks, deal 1 damage to any target. If it’s an army, deal X damage instead, where X is its power.\nWhenever a non-Army Malazan enters under your control, amass Malazans 1.\nAt the end of your turn, if a Sapper and an Army attacked and died this turn, this ascends.",
+    "text": "Whenever this or a Malazan you control attacks, deal 1 damage to any target. If it’s an army, deal X damage instead, where X is its power.\nWhenever this or a non-Army Malazan enters under your control, amass Malazans 1.\nAt the end of your turn, if a Sapper and an Army attacked and died this turn, this ascends.",
     "manaValue": 3
   },
   {
