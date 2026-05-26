@@ -164,7 +164,7 @@
     "img": "Ascension to Trakes Side.png",
     "colors": "R",
     "typeLine": "Enchantment",
-    "text": "Whenever anything is dealt damage or dies, put a blood counter on this. If it was sacrificed, put an additional blood counter on this.\nRemove 5 blood counters from this: Destroy target artifact or nonbasic land.\nRemove 10 blood counters from this: Amass 4.\nRemove 20 blood counters from this, sacrifice this: Create eight 2/1 red Cat Human Warrior tokens with double strike and haste.",
+    "text": "Whenever anything is dealt damage or dies, put a blood counter on this. If it was sacrificed, put an additional blood counter on this.\nRemove 5 blood counters from this: Destroy target artifact or nonbasic land.\nRemove 10 blood counters from this: Amass 4.\nRemove 20 blood counters from this, sacrifice this: Create eight 2/1 red Cat Human Warrior tokens with double strike and haste. At the end of your first combat phase this turn, untap all creatures. Then there is an additional combat phase.",
     "manaValue": 4
   },
   {
@@ -212,7 +212,7 @@
     "img": "Barathol Mekhar.png",
     "colors": "R",
     "typeLine": "Legendary Creature - Human Artificer",
-    "text": "When this enters the battlefield, place X Forge counters on it and tutor an Equipment to the top of your deck, where X is the number of creatures you control.\nSlow, T, Remove a Forge counter from this: Destroy target artifact. Its controller creates a Short Sword token.",
+    "text": "When this enters the battlefield, place X Forge counters on it, where X is the number of creatures you control. Then tutor an Equipment to the top of your library.\nSlow, T, Remove a Forge counter from this: Destroy target artifact. Its controller creates a Short Sword token.",
     "manaValue": 2
   },
   {
@@ -604,7 +604,7 @@
     "img": "Child God.png",
     "colors": "",
     "typeLine": "Token Artifact Creature - Child God",
-    "text": "Indestructible",
+    "text": "Ward—Discard two cards\nIndestructible",
     "manaValue": 0
   },
   {
@@ -684,7 +684,7 @@
     "img": "Convergence.png",
     "colors": "WUBRG",
     "typeLine": "Enchantment",
-    "text": "Whenever a God or Elder enters or a creature ascends, put two omen counters on this.\nRemove all omen counters from this: Destroy all non-God, non-Elder creatures, then tutor all Elder or God cards to the battlefield with mana value less than the omen counters removed. Target opponent gains control of this.",
+    "text": "Whenever a God or Elder enters or a creature ascends, put two omen counters on this.\nRemove all omen counters from this and exile convergence: Destroy all non-God, non-Elder creatures, then tutor all Elder or God cards to the battlefield with mana value less than the omen counters removed. Then return this to the battlefield under target opponent’s control.",
     "manaValue": 5
   },
   {
@@ -1372,7 +1372,7 @@
     "img": "Hairlock Mad Puppet.png",
     "colors": "R",
     "typeLine": "Artifact Creature - Human Wizard",
-    "text": "Skip your draw step.\nAt the beginning of your upkeep, scry 2, then reveal the top five cards of your deck. Your opponent chooses one of them and puts it on the bottom of your deck. Choose two randomly of the remaining four and put them in your hand.",
+    "text": "Skip your draw step.\nAt the beginning of your upkeep, scry 2, then reveal the top five cards of your library. Your opponent chooses one of them and puts it on the bottom of your library. Choose two randomly of the remaining four and put them in your hand.",
     "manaValue": 2
   },
   {
@@ -1668,7 +1668,7 @@
     "img": "Kadapsalas Revenge.png",
     "colors": "U",
     "typeLine": "Sorcery",
-    "text": "Improvise, Behold an Elder Elf\nExile X creatures from your graveyard. Create a */* Child God artifact creature token. It has the combined power, toughness, and colors of the exiled creatures and all of their abilities. If you beheld an Elder Elf, it gains indestructible as well.",
+    "text": "Improvise, Behold an Elder Elf\nExile X creatures from your graveyard. Create a */* Child God artifact creature token. It has the combined power, toughness, and colors of the exiled creatures and all of their abilities. If you beheld an Elder Elf, it gains indestructible and “Ward—Discard two cards”.",
     "manaValue": 11
   },
   {
@@ -1676,7 +1676,7 @@
     "img": "Kalam Mekhar.png",
     "colors": "WBR",
     "typeLine": "Legendary Creature - Malazan Assassin",
-    "text": "Deathtouch\nWhen Kalam enters the battlefield, tutor an Equipment to the top of your deck.\nAs long as Kalam is equipped, he has first strike.\nAs long as Kalam is equipped twice, it has “T: Deal 1 damage to any target.”",
+    "text": "Deathtouch\nWhen Kalam enters the battlefield, tutor an Equipment to the top of your library.\nAs long as Kalam is equipped, he has first strike.\nAs long as Kalam is equipped twice, it has “T: Deal 1 damage to any target.”",
     "manaValue": 3
   },
   {
@@ -2012,7 +2012,7 @@
     "img": "Magnanimous Kruppe.png",
     "colors": "WUR",
     "typeLine": "Legendary Creature - Human Wizard",
-    "text": "You have cunning.\nAt the beginning of your upkeep, scry 1.\nWhenever you place X cards on the bottom of your deck, cook or investigate X times. Then gain control of up to one target spell or artifact with mana value less than or equal to the number of tokens you control. You may choose new targets for the spell.",
+    "text": "You have cunning.\nAt the beginning of your upkeep, scry 1.\nWhenever you place X cards on the bottom of your library, cook or investigate X times. Then gain control of up to one target spell or artifact with mana value less than or equal to the number of tokens you control. You may choose new targets for the spell.",
     "manaValue": 3
   },
   {
@@ -2228,7 +2228,7 @@
     "img": "Nefarias Bredd.png",
     "colors": "G",
     "typeLine": "Legendary Creature - Soldier Avatar",
-    "text": "When this enters or attacks, cook, then create a 1/1 red and white Malazan Soldier creature token.\nNefarias’ power and toughness is equal to 1 plus the number of tokens you control.\nCreatures you control have “T: Cook.”\nFoods you control have “R/W, T: Populate.”",
+    "text": "When this enters or attacks, cook, then create a 1/1 Red and White Malazan Soldier creature token.\nNefarias’ power and toughness are equal to 1 plus the number of tokens you control.\nCreatures you control have “T: Cook.”\nFoods you control have “T: Populate.”",
     "manaValue": 7
   },
   {
@@ -2268,7 +2268,7 @@
     "img": "Nimander Golit.png",
     "colors": "B",
     "typeLine": "Legendary Creature - Elder Elf",
-    "text": "Whenever you place the first card on the bottom of your deck in a turn, target creature gets -1/-1 until end of turn.\nWhenever the fourth card enters your graveyard in a turn, target player loses 3 life and you gain 3 life.\nXB: Place X cards from your graveyard on the bottom of your deck in a random order. Mill X.",
+    "text": "Whenever you place the first card on the bottom of your library in a turn, target creature gets -1/-1 until end of turn.\nWhenever the fourth card enters your graveyard in a turn, target player loses 3 life and you gain 3 life.\nXB: Place X cards from your graveyard on the bottom of your library in a random order. Mill X.",
     "manaValue": 5
   },
   {
@@ -2484,7 +2484,7 @@
     "img": "Quick Ben Burns Adept.png",
     "colors": "G",
     "typeLine": "Legendary Creature - Malazan Wizard Soul",
-    "text": "Slow, 2GG, T: Put a trample or +1/+1 counter on up to X target creatures, where X is 1 plus the number of exiled Souls.\nExile this card from your graveyard: Put up to one target Soul you own from outside the game on top of your deck.",
+    "text": "Slow, 2GG, T: Put a trample or +1/+1 counter on up to X target creatures, where X is 1 plus the number of exiled Souls.\nExile this card from your graveyard: Put up to one target Soul you own from outside the game on top of your library.",
     "manaValue": 2
   },
   {
@@ -2492,7 +2492,7 @@
     "img": "Quick Ben Denul Healer.png",
     "colors": "W",
     "typeLine": "Legendary Creature - Malazan Wizard Soul",
-    "text": "W, T: X target creatures gain protection from the color of your choice until end of turn, where X is the number of exiled Souls plus 1.\nExile this card from your graveyard: Put up to one target Soul you own from outside the game on top of your deck.",
+    "text": "W, T: X target creatures gain protection from the color of your choice until end of turn, where X is the number of exiled Souls plus 1.\nExile this card from your graveyard: Put up to one target Soul you own from outside the game on top of your library.",
     "manaValue": 2
   },
   {
@@ -2500,7 +2500,7 @@
     "img": "Quick Ben Emurlahn Heretic.png",
     "colors": "B",
     "typeLine": "Legendary Creature - Malazan Wizard Soul",
-    "text": "Slow, 3B, T, Tap an untapped Warren you control: Target player discards X cards, where X is 1 plus the number of exiled Souls.\nCreatures can’t phase in.\nExile this card from your graveyard: Put up to one target Soul you own from outside the game on top of your deck.",
+    "text": "Slow, 3B, T, Tap an untapped Warren you control: Target player discards X cards, where X is 1 plus the number of exiled Souls.\nCreatures can’t phase in.\nExile this card from your graveyard: Put up to one target Soul you own from outside the game on top of your library.",
     "manaValue": 2
   },
   {
@@ -2508,7 +2508,7 @@
     "img": "Quick Ben Hoods Disciple.png",
     "colors": "WB",
     "typeLine": "Legendary Creature - Malazan Wizard Soul",
-    "text": "Non-Spirit creatures you control have Afterlife X, where X is 1 plus the number of exiled Souls.\nExile this card from your graveyard: Put up to one target Soul you own from outside the game on top of your deck.",
+    "text": "Non-Spirit creatures you control have Afterlife X, where X is 1 plus the number of exiled Souls.\nExile this card from your graveyard: Put up to one target Soul you own from outside the game on top of your library.",
     "manaValue": 2
   },
   {
@@ -2516,7 +2516,7 @@
     "img": "Quick Ben Imperial Investigator.png",
     "colors": "UG",
     "typeLine": "Legendary Creature - Malazan Wizard Soul",
-    "text": "X is 1 plus the number of exiled Souls.\nWhenever at least one creature with a counter you control attacks, draw X cards.\nT, Gather 6 evidence: X target creatures you control become unblockable until end of turn. \nExile this card from your graveyard: Put up to one target Soul you own from outside the game on top of your deck.",
+    "text": "X is 1 plus the number of exiled Souls.\nWhenever at least one creature with a counter you control attacks, draw X cards.\nT, Gather 6 evidence: X target creatures you control become unblockable until end of turn. \nExile this card from your graveyard: Put up to one target Soul you own from outside the game on top of your library.",
     "manaValue": 2
   },
   {
@@ -2524,7 +2524,7 @@
     "img": "Quick Ben Ruse Master.png",
     "colors": "U",
     "typeLine": "Legendary Creature - Malazan Wizard Soul",
-    "text": "Whenever you cast a spell that targets a spell, draw X cards, where X is 1 plus the number of exiled Souls.\nExile this card from your graveyard: Put up to one target Soul you own from outside the game on top of your deck.",
+    "text": "Whenever you cast a spell that targets a spell, draw X cards, where X is 1 plus the number of exiled Souls.\nExile this card from your graveyard: Put up to one target Soul you own from outside the game on top of your library.",
     "manaValue": 2
   },
   {
@@ -2532,7 +2532,7 @@
     "img": "Quick Ben Squad Mage.png",
     "colors": "UR",
     "typeLine": "Legendary Creature - Malazan Wizard Soul",
-    "text": "Whenever you cast a noncreature spell, this gets +X/+X, where X is 1 plus the number of exiled Souls.\nYou have cunning.\nExile this card from your graveyard: Put up to one target Soul you own from outside the game on top of your deck.",
+    "text": "Whenever you cast a noncreature spell, this gets +X/+X, where X is 1 plus the number of exiled Souls.\nYou have cunning.\nExile this card from your graveyard: Put up to one target Soul you own from outside the game on top of your library.",
     "manaValue": 2
   },
   {
@@ -2540,7 +2540,7 @@
     "img": "Quick Ben Tellan Wizard.png",
     "colors": "R",
     "typeLine": "Legendary Creature - Malazan Wizard Soul",
-    "text": "6R, T: Deal 3 damage to X targets, where X is 1 plus the number of exiled Souls.\nExile this card from your graveyard: Put up to one target Soul you own from outside the game on top of your deck.",
+    "text": "6R, T: Deal 3 damage to X targets, where X is 1 plus the number of exiled Souls.\nExile this card from your graveyard: Put up to one target Soul you own from outside the game on top of your library.",
     "manaValue": 2
   },
   {
@@ -2652,7 +2652,7 @@
     "img": "Recall the Histories.png",
     "colors": "UG",
     "typeLine": "Sorcery",
-    "text": "Landstorm (When you cast this, copy this spell for each land that entered the battlefield under your control this turn.)\nReveal the top card of your library. If it’s a creature, put it into your hand. If it’s a land, put it onto the battlefield. Otherwise, put it on the bottom of your deck and create a */* Green Blue Elder Spirit that has “* is equal to the number of Elders you control.”",
+    "text": "Landstorm (When you cast this, copy this spell for each land that entered the battlefield under your control this turn.)\nReveal the top card of your library. If it’s a creature, put it into your hand. If it’s a land, put it onto the battlefield. Otherwise, put it on the bottom of your library and create a */* Green Blue Elder Spirit that has “* is equal to the number of Elders you control.”",
     "manaValue": 3
   },
   {
@@ -2676,7 +2676,7 @@
     "img": "Reforge the Warrens.png",
     "colors": "R",
     "typeLine": "Sorcery",
-    "text": "Each player sacrifices all Warrens and non-land permanents they control, then reveals cards from the top of their library until that many Warrens or non-land permanents are revealed and puts them onto the battlefield. Then each player shuffles their deck.",
+    "text": "Each player sacrifices all Warrens and non-land permanents they control, then reveals cards from the top of their library until that many Warrens or non-land permanents are revealed and puts them onto the battlefield. Then each player shuffles their library.",
     "manaValue": 6
   },
   {
@@ -3428,7 +3428,7 @@
     "img": "Toc the Unlucky.png",
     "colors": "UR",
     "typeLine": "Legendary Creature - Malazan Assassin",
-    "text": "Reach\nWhenever this enters, scry 2. \nWhenever you put a card on the bottom of  your deck, deal 1 damage to target player.\nWhenever this dies, exile it. It gains suspend. Put two time counters on it.",
+    "text": "Reach\nWhenever this enters, scry 2. \nWhenever you put a card on the bottom of  your library, deal 1 damage to target player.\nWhenever this dies, exile it. It gains suspend. Put two time counters on it.",
     "manaValue": 3
   },
   {
@@ -3492,7 +3492,7 @@
     "img": "Trap in Dragonsblood.png",
     "colors": "W",
     "typeLine": "Enchantment - Aura",
-    "text": "Enchant creature card in your graveyard\nWhen this enters, exile target creature until this leaves the battlefield.\n1, Sacrifice this Gain 2 life for each card in exile, then put all exiled cards in their owner’s graveyard. Activate this only if enchanted creature is a Dragon.",
+    "text": "Enchant creature card in your graveyard\nWhen this enters, exile target creature until this leaves the battlefield.\n1: Gain 2 life for each card in exile, then put all exiled cards in their owner’s graveyard. Activate this only if enchanted creature is a Dragon.",
     "manaValue": 1
   },
   {
@@ -3604,7 +3604,7 @@
     "img": "Udinaas Pensive Slave.png",
     "colors": "U",
     "typeLine": "Legendary Creature - Human",
-    "text": "Whenever this enters or a card enters your graveyard from your deck, manifest the top card of your deck. Twicebound.\nU, Exile a card from your graveyard, reveal a facedown card you control and return it to your hand: If the revealed card and exiled card share a card type, return target creature to its owner’s hand.",
+    "text": "Whenever this enters or a card enters your graveyard from your library, manifest the top card of your library. Twicebound.\nU, Exile a card from your graveyard, reveal a facedown card you control and return it to your hand: If the revealed card and exiled card share a card type, return target creature to its owner’s hand.",
     "manaValue": 2
   },
   {
