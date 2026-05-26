@@ -195,7 +195,7 @@
     "name": "Backstab",
     "img": "Backstab.png",
     "colors": "B",
-    "typeLine": "Sorcery",
+    "typeLine": "Instant",
     "text": "Destroy target tapped creature. If it had vigilance, its controller loses 4 life.",
     "manaValue": 3
   },
@@ -1668,7 +1668,7 @@
     "img": "Kadapsalas Revenge.png",
     "colors": "U",
     "typeLine": "Sorcery",
-    "text": "Improvise, Behold an Elder Elf\nExile X creatures from your graveyard. Create a */* Child God artifact creature token. It has the combined power, toughness, and colors of the exiled creatures and all of their abilities. If you beheld an Elder Elf, it gains indestructible and “Ward—Discard two cards”.",
+    "text": "Improvise, Behold an Elder Elf\nExile any number of target creatures from your graveyard. Create a */* Child God artifact creature token. It has the combined power, toughness, and colors of the exiled creatures and all of their abilities. If you beheld an Elder Elf, it gains indestructible and “Ward—Discard two cards”.",
     "manaValue": 11
   },
   {
