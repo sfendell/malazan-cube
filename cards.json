@@ -116,7 +116,7 @@
     "img": "Anomander Rake.png",
     "colors": "WUB",
     "typeLine": "Legendary Planeswalker Creature - Elder Elf Rake",
-    "text": "Rake is a 6/* flying creature, where * is his loyalty.\nUntil your next turn, Elder Elves you control have flying and “Whenever this is dealt damage by anything besides a creature attacking it, prevent all but 1 of that damage, then draw cards equal to the damage prevented.”\nReturn two target creatures to their owner’s hand, then each opponent exiles a card from their hand for each Elder Elf you control.\nExile all non-Elder non-land permanents. Put all exiled Elder permanents onto the battlefield under your control.",
+    "text": "Rake is a 6/* flying creature, where * is his loyalty.\nUntil your next turn, Elder Elves you control have flying and “Whenever this is dealt damage by anything besides a creature attacking it, prevent all but 1 of that damage, then draw cards equal to the damage prevented.”\nReturn up to two target creatures to their owner’s hand, then each opponent exiles a card from their hand for each Elder Elf you control.\nExile all non-Elder non-land permanents. Put all exiled Elder permanents onto the battlefield under your control.",
     "manaValue": 7
   },
   {
@@ -340,7 +340,7 @@
     "img": "Black Market Merchant.png",
     "colors": "WB",
     "typeLine": "Creature - Human Merchant",
-    "text": "When this enters, plunder twice.\nSlow, 2W/BW/B, sacrifice a Treasure: Put a +1/+1 counter on target creature if W was spent on this ability. Put a -1/-1 counter on target creature if B was spent on this ability. This ability costs 1 less for each other Merchant you control.",
+    "text": "When this enters, plunder twice.\nSlow, 2W/B, sacrifice a Treasure: Put a +1/+1 counter on target creature if W was spent on this ability. Put a -1/-1 counter on target creature if B was spent on this ability. This ability costs 1 less for each other Merchant you control.",
     "manaValue": 2
   },
   {
@@ -740,8 +740,8 @@
     "img": "Crow Clan Revival.png",
     "colors": "WB",
     "typeLine": "Enchantment",
-    "text": "Whenever a nontoken creature you control dies, create a 1/2 white and black Bird creature token with flying. If the creature was sacrificed, populate.\nSacrifice X creature tokens: Return target creature with mana value X or less from your graveyard to the battlefield.",
-    "manaValue": 4
+    "text": "Whenever this enters or a nontoken creature you control dies, create a 1/2 white and black Bird creature token with flying. If the creature was sacrificed, populate.\nSacrifice X creature tokens: Return target creature with mana value X or less from your graveyard to the battlefield.",
+    "manaValue": 3
   },
   {
     "name": "Crump",
@@ -860,7 +860,7 @@
     "img": "Disciple of Osseric.png",
     "colors": "WU",
     "typeLine": "Creature - Pure Elder Elf",
-    "text": "Behold Serc\nThis enters with a “Whenever a creature that shares a creature type with this enters under your control, creatures you control get +1/+1 until end of turn.” counter.\nWhen this enters, if you beheld Serc, proliferate, then proliferate.",
+    "text": "Behold Serc\nProwess, Flying\nDisciple enters with a “Whenever a permanent that shares a creature type with this enters under your control, creatures you control get +1/+1 until end of turn.” counter.\nWhen this enters, if you beheld Serc, proliferate, then proliferate.",
     "manaValue": 2
   },
   {
@@ -1899,9 +1899,9 @@
     "name": "Leoman’s Betrayal",
     "img": "Leomans Betrayal.png",
     "colors": "BR",
-    "typeLine": "Sorcery",
-    "text": "Sacrifice any number of artifacts and Children. Deal X damage to all creatures, where X is the number of permanents sacrificed this way.",
-    "manaValue": 3
+    "typeLine": "Enchantment",
+    "text": "Sacrifice a creature and X artifacts: Distribute X damage among any number of targets. Repeat this if the sacrificed creature was a Child. Repeat this if the sacrificed creature was a Rebel. Repeat this if the sacrificed creature was an Army. You may choose new targets for each copy.",
+    "manaValue": 4
   },
   {
     "name": "Letheri Debtdriver",
@@ -2580,7 +2580,7 @@
     "img": "Raests Finnest.png",
     "colors": "",
     "typeLine": "Kindred Artifact - Elder",
-    "text": "Slow, 4UBR, T, Sacrifice this: Choose one:\n Gain control of target creature.\n Divide 6 damage among any number of targets.\nTarget opponent discards their hand.\nWhen this goes to your graveyard from play, exile target God.",
+    "text": "T: Add 1 mana of any color.\nSlow, 4UBR, T, Sacrifice this: Choose one:\n Gain control of target creature.\n Divide 6 damage among any number of targets.\nTarget opponent discards their hand.\nWhen this goes to your graveyard from play, exile target God.",
     "manaValue": 4
   },
   {
@@ -3044,7 +3044,7 @@
     "img": "Sister Scorn.png",
     "colors": "W",
     "typeLine": "Legendary Creature - Elder Pure",
-    "text": "Outlast W\n3WW, Remove all counters from this, T: Exile target non-Pure creature with power or toughness less than the number of counters removed. If it is a Child, draw a card.",
+    "text": "Outlast W\n2W, T, Remove all counters from this: Exile target non-Pure creature with power or toughness less than the number of counters removed. If the creature was a Child, draw a card.",
     "manaValue": 3
   },
   {
@@ -3268,7 +3268,7 @@
     "img": "The Chained God.png",
     "colors": "",
     "typeLine": "Legendary Creature - Alien God",
-    "text": "The Chained God may only be cast from exile.\nExile a God or two Elders you control: Exile this from your hand.\nIndestructible\nTap an untapped creature you control, Q: Put a -1/-1 counter on two target creatures.\nWhen this is exiled from the battlefield, you win the game.",
+    "text": "The Chained God may only be cast from exile.\nExile a God or two Elders you control: Exile this from your hand.\nIndestructible\nTap an untapped creature you control, Q: Put a -1/-1 counter on each of up to two target creatures.\nWhen this is exiled from the battlefield, you win the game.",
     "manaValue": 4
   },
   {
@@ -3308,7 +3308,7 @@
     "img": "The Eresal.png",
     "colors": "G",
     "typeLine": "Legendary Creature - Elder God",
-    "text": "Protection from Children, Humans, and Malazans\nCreatures you control have trample and vigilance.\nT, Tap an untapped Human or Malazan you control: Create a 1/1 White Human Child creature token, then populate.",
+    "text": "Protection from Children, Humans, and Malazans\nCreatures you control have trample and vigilance.\nT, Tap an untapped Human or Malazan you control: Create a 1/1 white Human Child creature token, then populate.",
     "manaValue": 4
   },
   {
