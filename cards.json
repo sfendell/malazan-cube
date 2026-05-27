@@ -1164,7 +1164,7 @@
     "img": "Fiddlers Deck.png",
     "colors": "",
     "typeLine": "Legendary Artifact",
-    "text": "When you cast Fiddler’s Deck, shuffle The Deck of Dragons into your library.\nYou may play Fatid cards from your graveyard.\nWhenever you cast a Fatid spell from your hand, put a foresight counter on Fiddler’s Deck.\nAt the end of your turn, plunder. Then scry X, where X is the number of foresight counters on this. If X is greater than two, instead draw a card. If X is greater than four, instead tutor a card to your hand.",
+    "text": "When you cast Fiddler’s Deck, shuffle The Deck of Dragons into your library.\nYou may play Fatid cards from your graveyard.\nWhenever you cast a Fatid spell from your hand, put a foresight counter on Fiddler’s Deck.\nAt the end of your turn, plunder. Then scry X, where X is the number of foresight counters on this. If X is two or greater, instead draw a card. If X is three or greater, instead tutor a card to your hand.",
     "manaValue": 3
   },
   {
