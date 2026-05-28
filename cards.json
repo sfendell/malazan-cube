@@ -2200,6 +2200,14 @@
     "manaValue": 2
   },
   {
+    "name": "Munug, Prophet of Chains",
+    "img": "Munug Prophet of Chains.png",
+    "colors": "U",
+    "typeLine": "Legendary Creature - Human Cleric",
+    "text": "Whenever you activate or trigger a bound ability, draw a card.\nH/B, Oncebound: Put a -1/-1 counter on target creature. Activate this only if a player lost life this turn.",
+    "manaValue": 2
+  },
+  {
     "name": "Murillio, Occasional Duelist",
     "img": "Murillio Occasional Duelist.png",
     "colors": "W",
