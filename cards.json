@@ -120,14 +120,6 @@
     "manaValue": 7
   },
   {
-    "name": "Antigravity",
-    "img": "Antigravity.png",
-    "colors": "UG",
-    "typeLine": "Enchantment",
-    "text": "Creatures with flying cannot block creatures without flying.\nCreatures without flying have reach.",
-    "manaValue": 2
-  },
-  {
     "name": "Apocalyptic Reveler",
     "img": "Apocalyptic Reveler.png",
     "colors": "BR",
@@ -148,7 +140,7 @@
     "img": "Aptorian.png",
     "colors": "B",
     "typeLine": "Creature - Malazan Demon Ally",
-    "text": "If you control three or more Warrens, Aptorian has deathtouch, menace, and “Sacrifice a creature: Regenerate this.”\nAt the beginning of each end step, if exactly three creatures you control died this turn, draw three cards and lose three life.\nBBB: Surveil 3.",
+    "text": "If you control three or more Warrens, Aptorian has deathtouch, menace, and “Sacrifice a creature: This gains protection from a color of your choice until end of turn.”\nAt the beginning of each end step, if exactly three creatures you control died this turn, draw three cards and lose three life.\nBBB: Surveil 3.",
     "manaValue": 3
   },
   {
@@ -164,7 +156,7 @@
     "img": "Ascension to Trakes Side.png",
     "colors": "R",
     "typeLine": "Enchantment",
-    "text": "Whenever anything is dealt damage or dies, put a blood counter on this. If it was sacrificed, put an additional blood counter on this.\nRemove 5 blood counters from this: Destroy target artifact or nonbasic land.\nRemove 10 blood counters from this: Amass 4.\nRemove 20 blood counters from this, sacrifice this: Create eight 2/1 red Cat Human Warrior tokens with double strike and haste. At the end of your first combat phase this turn, untap all creatures. Then there is an additional combat phase.",
+    "text": "Whenever anything is dealt damage or dies, put a war counter on this. If it was sacrificed, put an additional war counter on this.\nRemove 5 war counters from this: Destroy target artifact or nonbasic land.\nRemove 10 war counters from this: Amass Malazans 4.\nRemove 20 war counters from this, sacrifice this: Create eight 2/1 red Cat Human Warrior tokens with double strike and haste. At the end of your first combat phase this turn, untap all creatures. Then there is an additional combat phase.",
     "manaValue": 4
   },
   {
@@ -180,7 +172,7 @@
     "img": "Azaths Grasp.png",
     "colors": "W",
     "typeLine": "Enchantment",
-    "text": "When this enters, exile target creature until it leaves the battlefield.\nAt the beginning of combat on your turn, target creature gets +X/+X, where X is the number of creatures your opponents own in exile.",
+    "text": "When this enters, exile target creature until this leaves the battlefield.\nAt the beginning of combat on your turn, target creature gets +X/+X, where X is the number of creatures your opponents own in exile.",
     "manaValue": 3
   },
   {
@@ -468,7 +460,7 @@
     "img": "Bugg Humble Manservant.png",
     "colors": "UB",
     "typeLine": "Legendary Creature - Elder Human Advisor",
-    "text": "Whenever you sacrifice a creature, bleed.\nSacrifice three Bloods: Transform this.",
+    "text": "Whenever you sacrifice a creature, bleed.\n2, Sacrifice a creature: Scry 1.\nSacrifice three Bloods: Transform Bugg.",
     "manaValue": 3
   },
   {
@@ -508,8 +500,8 @@
     "img": "Burns Hammer.png",
     "colors": "",
     "typeLine": "Legendary Artifact - Equipment",
-    "text": "Equipped creature has +4/+0 and “T: Destroy target land. If it was basic, its controller tutors a nonbasic land to the battlefield tapped. Otherwise, its controller tutors a basic land to the battlefield tapped.”\nMagnanimous Kruppe has protection from equipped creature.\nEquip 4",
-    "manaValue": 2
+    "text": "Equipped creature has +1/+0 for every land in every graveyard and “T: Destroy target land. Its owner tutors a land to the battlefield tapped.”\nMagnanimous Kruppe has protection from equipped creature.\nEquip 2",
+    "manaValue": 3
   },
   {
     "name": "Caladan Brood",
@@ -596,7 +588,7 @@
     "img": "CheMalle Dissector.png",
     "colors": "UBG",
     "typeLine": "Creature - Alien Dinosaur Wizard",
-    "text": "U/BG, T, Sacrifice a land or creature: Proliferate. Put a subtype counter that shares a subtype with it on target permanent of the same type. (If a subtype counter would be put on a permanent of that subtype, instead, it isn’t.)",
+    "text": "U/BG, T, Sacrifice a land or creature: Proliferate. Put a subtype counter of a subtype the sacrificed permanent had on target permanent of the same type. (If a subtype counter would be put on a permanent of that subtype, instead, it isn’t.)",
     "manaValue": 2
   },
   {
@@ -724,7 +716,7 @@
     "img": "Crokus Younghand.png",
     "colors": "W",
     "typeLine": "Creature - Human Assassin",
-    "text": "T: Redirect the next 1 damage dealt to any target to any other target.\n2B, Sacrifice an artifact: Cutter gains deathtouch until end of turn.",
+    "text": "T: Prevent the next 1 damage dealt to any target. When damage is prevented this way, Crokus deals 1 damage to target creature.\n2B, Sacrifice an artifact: Crokus gains deathtouch until end of turn.",
     "manaValue": 3
   },
   {
@@ -884,7 +876,7 @@
     "img": "Divine Possession.png",
     "colors": "UB",
     "typeLine": "Enchantment - Aura",
-    "text": "Enchant non-God\nWhen this enters, tutor a God into exile.\nEnchanted creature is a copy of the exiled card.\nWhen enchanted creature dies, put the exiled card into its owner’s hand.",
+    "text": "Enchant creature\nWhen this enters, if enchanted creature is not a God, tutor a God creature card into exile. Enchanted creature becomes a copy of that card.\nWhen enchanted creature dies, put all cards exiled with Divine Posession into its owner’s hand.",
     "manaValue": 4
   },
   {
@@ -909,7 +901,7 @@
     "colors": "",
     "typeLine": "Legendary Artifact - Equipment",
     "text": "Equip 5\nEquipped creature gets “T: Exile another target creature until Dragnipur leaves the battlefield.”\nAt the beginning of your upkeep, if this is equipped, deal X damage to any target and X damage to equipped creature, where X is the number of cards exiled with this. When this kills the equipped creature, you lose the game.",
-    "manaValue": 4
+    "manaValue": 3
   },
   {
     "name": "Dragon",
@@ -964,7 +956,7 @@
     "img": "Duiker the Historian.png",
     "colors": "WU",
     "typeLine": "Legendary Creature - Malazan Advisor",
-    "text": "Whenever a Legendary creature you control dies, investigate.\nAt the beginning of your end step, return target creature with mana value X or less from the graveyard to the battlefield, where X is the number of tokens you’ve sacrificed this turn.",
+    "text": "Whenever a Legendary creature you control dies, investigate.\nAt the beginning of your end step, return target creature with mana value X or less from your graveyard to the battlefield, where X is the number of tokens you’ve sacrificed this turn.",
     "manaValue": 2
   },
   {
@@ -1131,7 +1123,7 @@
     "name": "Felisin Paran",
     "img": "Felisin Paran.png",
     "colors": "URG",
-    "typeLine": "Legendary Creature - Malazan",
+    "typeLine": "Legendary Creature - Malazan Child",
     "text": "Whenever you draw your second card or a second land enters under your control in a turn, deal 2 damage to any target and impulse 2.\nWhenever you cast your second card from exile in a turn, transform Felisin.",
     "manaValue": 3
   },
@@ -1164,7 +1156,7 @@
     "img": "Fiddlers Deck.png",
     "colors": "",
     "typeLine": "Legendary Artifact",
-    "text": "When you cast Fiddler’s Deck, shuffle The Deck of Dragons into your library.\nYou may play Fatid cards from your graveyard.\nWhenever you cast a Fatid spell from your hand, put a foresight counter on Fiddler’s Deck.\nAt the end of your turn, plunder. Then scry X, where X is the number of foresight counters on this. If X is two or greater, instead draw a card. If X is four or greater, instead tutor a card to your hand.",
+    "text": "When you cast Fiddler’s Deck, shuffle The Deck of Dragons into your library.\nYou may play Fatid cards from your graveyard.\nWhenever you cast a Fatid spell from your hand, put a foresight counter on Fiddler’s Deck.\nAt the end of your turn, plunder. Then scry 1 if there are less than two foresight counters on this, draw a card if there are less than four, and tutor a card to your hand if there are four or more foresight counters.",
     "manaValue": 3
   },
   {
@@ -1260,8 +1252,8 @@
     "img": "Gas Explosion.png",
     "colors": "R",
     "typeLine": "Sorcery",
-    "text": "Deal X damage to all creatures, where X is the number of lands on the battlefield. Then you may sacrifice any number of artifacts or non-basic lands. Draw a card or destroy target artifact for each permanent sacrificed this way.",
-    "manaValue": 4
+    "text": "As an additional cost to cast this, sacrifice a land or a Cusser.\nDeal X damage to all creatures, where X is the number of lands on the battlefield. Then create X Cussers, where X is the number of lands in your graveyard.",
+    "manaValue": 3
   },
   {
     "name": "Gedderone Fete",
@@ -1276,7 +1268,7 @@
     "img": "Gothos Author of Folly.png",
     "colors": "U",
     "typeLine": "Legendary Creature - Elder Orc",
-    "text": "Whenever you draw any number of cards, scry 1 and freeze target creature.\n3UU: Draw a card. This costs 1 less for each time you’ve scried this turn.\nWhenever you scry for the fourth time in a turn, freeze all creatures you don’t control.",
+    "text": "Whenever you draw any number of cards, scry 1.\n3UU: Draw a card. This costs 1 less for each time you’ve scried this turn.\nWhenever you scry for the fourth time in a turn, freeze all creatures you don’t control.",
     "manaValue": 4
   },
   {
@@ -1288,20 +1280,20 @@
     "manaValue": 3
   },
   {
-    "name": "Gral Horse",
-    "img": "Gral Horse.png",
-    "colors": "BRG",
-    "typeLine": "Creature - Rebel Horse",
-    "text": "Riot, deathtouch, trample",
-    "manaValue": 3
-  },
-  {
     "name": "Grand Conspiracy",
     "img": "Grand Conspiracy.png",
     "colors": "UB",
     "typeLine": "Instant",
     "text": "As an additional cost to cast this card, discard a card.\nDestroy target creature.\nMindstorm",
     "manaValue": 3
+  },
+  {
+    "name": "Gravitic Reversal",
+    "img": "Gravitic Reversal.png",
+    "colors": "UG",
+    "typeLine": "Enchantment",
+    "text": "When this enters the battlefield, distribute three subtype counters of your choice among any number of target creatures, then draw a card.\nCreatures with flying cannot block creatures without flying.\nCreatures without flying have reach.",
+    "manaValue": 2
   },
   {
     "name": "Grey Helms’ Final Charge",
@@ -1324,7 +1316,7 @@
     "img": "Grief.png",
     "colors": "",
     "typeLine": "Legendary Kindred Artifact - Elder Elf Equipment",
-    "text": "Equipped creature gets +6/+0 and has indestructible.\nEquip 4",
+    "text": "Equipped creature gets +6/+0 and has indestructible.\nEquip 1",
     "manaValue": 0
   },
   {
@@ -1332,15 +1324,15 @@
     "img": "Grub Peculiar Host.png",
     "colors": "G",
     "typeLine": "Legendary Creature - Malazan Child",
-    "text": "Whenever you tap a land for mana, add G.\nWhenever a land leaves your graveyard, proliferate. Oncebound.\n2G, exile a card from a graveyard: Put a +1/+1 counter on target creature.",
-    "manaValue": 3
+    "text": "Whenever you tap a Forest for mana, add G.\nWhenever a land leaves your graveyard, proliferate. Oncebound.\n2G, exile a card from a graveyard: Put a +1/+1 counter on target creature.",
+    "manaValue": 4
   },
   {
     "name": "Gruntle, Trake’s Mortal Sword",
     "img": "Gruntle Trakes Mortal Sword.png",
     "colors": "BR",
     "typeLine": "Legendary Creature - Human Warrior",
-    "text": "First strike, haste\nWhenever a nontoken creature you control dies during combat, deal 1 damage to any target. If it dies during the first strike phase, deal 2 damage to any target.\n1: Target creature gets first strike until end of turn.",
+    "text": "First strike, haste\nWhenever a nontoken creature you control dies during combat, deal 1 damage to any target. If it dies during the first strike phase, instead deal 2 damage to any target.\n1: Target creature gets first strike until end of turn.",
     "manaValue": 4
   },
   {
@@ -1468,7 +1460,7 @@
     "img": "House of the Azath.png",
     "colors": "",
     "typeLine": "Artifact",
-    "text": "Indestructible\n3, T: Target creature with power, toughness, or mana value greater than three phases out.\nAt the beginning of your upkeep, you may pay H for each card that is phased out. If you don’t, sacrifice this, then all creatures phase in.",
+    "text": "Indestructible\n3, T: Exile target creature with power, toughness, or mana value greater than three for as long as this is on the battlefield.\nAt the beginning of your upkeep, you may pay H for each card exiled with House of the Azath. If you don’t, sacrifice it.",
     "manaValue": 3
   },
   {
@@ -1652,15 +1644,15 @@
     "img": "JAn Sentinel.png",
     "colors": "UG",
     "typeLine": "Creature - Alien Dinosaur",
-    "text": "This cannot be blocked by creatures with less power than itself.\n1GU, Q: Proliferate.",
-    "manaValue": 4
+    "text": "This cannot be blocked by creatures with less power than itself.\nG/U, Q: Proliferate.",
+    "manaValue": 3
   },
   {
     "name": "Kadapsala, Insane Tattooist",
     "img": "Kadapsala Insane Tattooist.png",
     "colors": "WUB",
     "typeLine": "Legendary Creature - Elder Elf",
-    "text": "Noncreature artifacts you control are Construct creatures in addition to their other types. Their power and toughness are each equal to the number of creatures you control with the same name.\nPay 2 life, sacrifice a non-artifact creature, B: Investigate, plunder and bleed.",
+    "text": "Treasures you control are 2/1 Construct creatures with lifelink to their other types.\nClues you control are 1/3 Construct creatures with flying in addition to their other types.\nBloods you control are 1/1 Construct creatures with deathtouch to their other types.\nT, Pay 2 life, sacrifice two non-artifact creatures: Investigate, plunder and bleed.",
     "manaValue": 3
   },
   {
@@ -1765,7 +1757,7 @@
     "colors": "B",
     "typeLine": "Enchantment - Fatid Aura",
     "text": "Enchant non-God creature\nEnchanted creature cannot attack or block unless you have 3 or more creatures in your graveyard.\nEnchanted creature has deathtouch and “Pay 1 life, Sacrifice a creature: Draw a card.”",
-    "manaValue": 3
+    "manaValue": 2
   },
   {
     "name": "Knight of High House Chains",
@@ -1773,7 +1765,7 @@
     "colors": "UB",
     "typeLine": "Enchantment - Fatid Aura",
     "text": "Enchant non-God creature\nYou control enchanted creature.\nWhen you control less than two creatures that you own, exile this.",
-    "manaValue": 3
+    "manaValue": 2
   },
   {
     "name": "Korabas, Otataral Dragon",
@@ -1788,7 +1780,7 @@
     "img": "Korbal Broach.png",
     "colors": "BR",
     "typeLine": "Legendary Creature - Human Wizard",
-    "text": "Whenever a creature card enters your graveyard from anywhere, put a +1/+1 counter on target creature. This ability activates only twice per turn.\nX, Remove X counters among creatures you control: Return target creature with mana value X from your graveyard to the battlefield.",
+    "text": "Whenever a creature card enters your graveyard from anywhere, put a +1/+1 counter on target creature. Twicebound.\nX, Remove X counters among creatures you control: Return target creature with mana value X from your graveyard to the battlefield.",
     "manaValue": 2
   },
   {
@@ -1844,7 +1836,7 @@
     "img": "KEll Hunter.png",
     "colors": "G",
     "typeLine": "Creature - Alien Dinosaur Warrior",
-    "text": "This enters with a haste and trample counter.\nG, Move a counter from this to another creature you control: Regenerate this.",
+    "text": "This enters with a haste and trample counter.\nG, Move a counter from this to another creature you control: K’Ell Hunter gains indestructible until end of turn.",
     "manaValue": 4
   },
   {
@@ -1867,8 +1859,8 @@
     "name": "Leech from the Vessel",
     "img": "Leech from the Vessel.png",
     "colors": "B",
-    "typeLine": "Enchantment - Aura",
-    "text": "Enchant creature\nAt the beginning of your main phase, you may put a -1/-1 counter on target creature you control. If you do, put X +1/+1 counters on enchanted creature, where X is the number of -1/-1 counters on that creature.\nSacrifice this: Remove all -1/-1 counters from creatures you control.",
+    "typeLine": "Enchantment",
+    "text": "At the beginning of your main phase, you may put a -1/-1 counter on target creature you control. If you do, put X +1/+1 counters on target creature, where X is the number of -1/-1 counters on the first creature.\nSacrifice this: Remove all -1/-1 counters from creatures you control.",
     "manaValue": 3
   },
   {
@@ -1876,7 +1868,7 @@
     "img": "Legana Breed Final LEchae Shayn.png",
     "colors": "G",
     "typeLine": "Legendary Creature - Elder Zombie Shaman",
-    "text": "Creatures you control with two or more counters on them  have “G, Pay two life: Regenerate this.”\n2G, Slow: Put a +1/+1 counter on target creature. This costs 1 less for each other Elder Zombie you control.",
+    "text": "Creatures you control with two or more counters on them  have “G, Pay two life: This gains indestructible until end of turn.”\n2G, Slow: Put a +1/+1 counter on target creature. This costs 1 less for each other Elder Zombie you control.",
     "manaValue": 4
   },
   {
@@ -1884,7 +1876,7 @@
     "img": "Legion of Trake.png",
     "colors": "",
     "typeLine": "Creature - Human Army",
-    "text": "First strike, Haste\nWhenever this attacks, you may exert it. If you do, after this combat, there is an additional combat phase. Oncebound.",
+    "text": "First strike, Haste\nWhenever this attacks, you may exert it. If you do, untap all other creatures you control. After this combat, there is an additional combat phase. Oncebound.",
     "manaValue": 0
   },
   {
@@ -2005,7 +1997,7 @@
     "colors": "U",
     "typeLine": "Enchantment - Fatid Aura",
     "text": "Enchant non-God creature\nEnchanted creature cannot attack or block unless its owner scried this turn.\nEnchanted creature has “Whenever you cast an instant or sorcery, copy it. You may choose new copies for the target.”",
-    "manaValue": 3
+    "manaValue": 2
   },
   {
     "name": "Magi of High House Dark",
@@ -2308,7 +2300,7 @@
     "img": "Onos Toolan First Sword.png",
     "colors": "BRG",
     "typeLine": "Legendary Creature - Elder Zombie Warrior",
-    "text": "Whenever you sacrifice a land, draw a card.\nR: This gets first strike until end of turn.\n1G: Regenerate this.\n2B: This gets deathtouch until end of turn.",
+    "text": "Whenever you sacrifice a land, draw a card.\nR: Onos gains first strike until end of turn.\n1B: Onos gains deathtouch until end of turn.\n2G: Onos gains indestructible until end of turn.",
     "manaValue": 3
   },
   {
@@ -2428,7 +2420,7 @@
     "img": "Potsherds.png",
     "colors": "",
     "typeLine": "Artifact",
-    "text": "This enters tapped.\nWhen this enters, you may pay H. If you don’t, sacrifice it.\nT: Add one mana of any color.\n4, T, Sacrifice this: Draw a card.",
+    "text": "T: Add one mana of any color.\n4, T, Sacrifice this: Draw a card.",
     "manaValue": 2
   },
   {
@@ -2476,7 +2468,7 @@
     "img": "Queen Janall Diskanar.png",
     "colors": "W",
     "typeLine": "Legendary Creature - Human Noble",
-    "text": "Exploit\nThis gets +1/+1 for each Treasure you control.\nWhenever you sacrifice a permanent, gain 1 life. If it was a creature, plunder twice.\nWhenever this is blocked by a creature with power less than it, it gains first strike until end of turn.",
+    "text": "Exploit\nThis gets +1/+1 for each Treasure you control.\nWhenever you sacrifice a permanent, gain 1 life. If it was a creature, plunder twice.\nWhenever Queen Janall is blocked by a creature with power less than her, she gains first strike until end of turn.",
     "manaValue": 3
   },
   {
@@ -2485,7 +2477,7 @@
     "colors": "WB",
     "typeLine": "Enchantment - Fatid Aura",
     "text": "Enchant non-God creature\nEnchanted creature cannot attack or block unless its owner controls a Treasure or Equipment.\nEnchanted creature has “Creatures you control have menace and first strike”.",
-    "manaValue": 3
+    "manaValue": 2
   },
   {
     "name": "Quick Ben",
@@ -2516,7 +2508,7 @@
     "img": "Quick Ben Emurlahn Heretic.png",
     "colors": "B",
     "typeLine": "Legendary Creature - Malazan Wizard Soul",
-    "text": "Slow, 3B, T, Tap an untapped Warren you control: Target player discards X cards, where X is 1 plus the number of exiled Souls.\nCreatures can’t phase in.\nExile this card from your graveyard: Put up to one target Soul you own from outside the game on top of your library.",
+    "text": "Slow, 3B, T, Tap an untapped Warren you control: Target player discards X cards, where X is 1 plus the number of exiled Souls.\nExile this card from your graveyard: Put up to one target Soul you own from outside the game on top of your library.",
     "manaValue": 2
   },
   {
@@ -2571,7 +2563,7 @@
     "name": "Quorl",
     "img": "Quorl.png",
     "colors": "W",
-    "typeLine": "Artifact Creature - Insect Vehicle",
+    "typeLine": "Artifact - Insect Vehicle",
     "text": "Flying\nCrew 1\nWhenever you sacrifice an artifact, gain 1 life.",
     "manaValue": 2
   },
@@ -2650,7 +2642,7 @@
   {
     "name": "Read the Deck",
     "img": "Read the Deck.png",
-    "colors": "UB",
+    "colors": "UBR",
     "typeLine": "Instant",
     "text": "Choose a card type or subtype. Reveal the top 3 cards of your library, then put all cards that match your choice into your hand and lose that much life.\nFlashback—Sacrifice a creature.",
     "manaValue": 3
@@ -2662,6 +2654,14 @@
     "typeLine": "Token Creature - Rebel",
     "text": "Riot",
     "manaValue": 0
+  },
+  {
+    "name": "Rebel Horse",
+    "img": "Rebel Horse.png",
+    "colors": "BRG",
+    "typeLine": "Creature - Rebel Horse",
+    "text": "Riot, deathtouch, trample",
+    "manaValue": 3
   },
   {
     "name": "Recall the Histories",
@@ -2732,7 +2732,7 @@
     "img": "Revived Chemalle Matriarch.png",
     "colors": "UBG",
     "typeLine": "Creature — Elder Zombie Alien Dinosaur",
-    "text": "Whenever a creature enters under your control, put a +1/+1 counter on all creatures with power or toughness less than it that share two or more creature types with it.\nDiscard or sacrifice a land twice: Return this from the graveyard to the battlefield under your control tapped.",
+    "text": "Whenever this or another creature enters under your control, put a +1/+1 counter on all creatures with power or toughness less than it that share two or more creature types with it.\nDiscard or sacrifice a land twice: Return this from the graveyard to the battlefield under your control tapped.",
     "manaValue": 5
   },
   {
@@ -2812,7 +2812,7 @@
     "img": "Scabandari Bloodeye.png",
     "colors": "B",
     "typeLine": "Legendary Creature - Dragon",
-    "text": "Flying\nWhenever an Elder Elf dies, put a +1/+1 counter on this.\nPay 3 life, sacrifice a permanent, exile an Elder Elf from your graveyard: Regenerate this. This loses all other types and flying. Put Elder and Elf subtype counters on it.",
+    "text": "Flying\nWhenever an Elder Elf dies, put a +1/+1 counter on this.\nPay 3 life, sacrifice a permanent, exile an Elder Elf from your graveyard: Scabandari gains indestructible until end of turn, then loses all other types and flying permanently. Put Elder and Elf subtype counters on it.",
     "manaValue": 3
   },
   {
@@ -2916,7 +2916,7 @@
     "img": "Shadowthrone.png",
     "colors": "B",
     "typeLine": "Legendary Creature - Malazan God",
-    "text": "Black instant and sorcery cards you own have mayhem.\nWhenever you sacrifice a Blood token during your turn, you may pay 3 life. If you do, this creature phases in.\nWhenever a creature phases in, target player discards a card.\nB, Discard a card: This creature phases out. Bleed.",
+    "text": "Black instant and sorcery cards you own have mayhem.\nWhenever you sacrifice a Blood token during your turn, you may pay 3 life. If you do, return Shadowthrone from exile to the battlefield, then target opponent discards a card.\nB, Discard a card: Exile Shadowthrone. Bleed.",
     "manaValue": 2
   },
   {
@@ -2939,7 +2939,7 @@
     "name": "Sha’ik Reborn",
     "img": "Shaik Reborn.png",
     "colors": "",
-    "typeLine": "Legendary Creature - Rebel",
+    "typeLine": "Legendary Creature - Rebel Child",
     "text": "Creature you control get haste, trample, and “T: Add one mana of any color.”\nOther Rebels you control get +2/+2.\nU: Target creature gains flying until end of turn.\nXG: Deal X damage to all creatures with flying.",
     "manaValue": 0
   },
@@ -3128,6 +3128,14 @@
     "manaValue": 2
   },
   {
+    "name": "Squint",
+    "img": "Squint.png",
+    "colors": "G",
+    "typeLine": "Legendary Creature - Malazan Archer",
+    "text": "Reach\nWhenever this blocks a creature with flying, put a deathtouch counter on it.",
+    "manaValue": 1
+  },
+  {
     "name": "Stake",
     "img": "Stake.png",
     "colors": "W",
@@ -3188,7 +3196,7 @@
     "img": "Talons Machination.png",
     "colors": "B",
     "typeLine": "Kindred Instant - Assassin",
-    "text": "As an additional cost to cast this spell, sacrifice a creature.\nKicker U, kicker R\nDestroy target creature.\nIf you paid U, scry 2.\nIf you paid R, impulse. Then if you paid U, you have cunning until end of turn.",
+    "text": "As an additional cost to cast this spell, sacrifice a creature.\nKicker U, kicker R\nDestroy target creature.\nIf you paid U, scry 2.\nIf you paid R, impulse.\nIf you paid UR, you have cunning until end of turn.",
     "manaValue": 1
   },
   {
@@ -3228,7 +3236,7 @@
     "img": "Tellan Earthrending.png",
     "colors": "G",
     "typeLine": "Kindred Sorcery - Elder Zombie",
-    "text": "Kicker R, kicker B\nTutor a basic land to your hand.\nIf you paid R, whenever a land enters this turn under your control, deal 2 damage to target creature.\nIf you paid B, whenever an opponent’s creature dies this turn, they lose 2 life. Then if you paid R, you may play an additional land this turn.",
+    "text": "Kicker R, kicker B\nTutor a basic land to your hand.\nIf you paid R, whenever a land enters this turn under your control, deal 2 damage to target creature.\nIf you paid B, whenever an opponent’s creature dies this turn, they lose 2 life.\nIf you paid BR, you may play an additional land this turn.",
     "manaValue": 1
   },
   {
@@ -3276,7 +3284,7 @@
     "img": "The Chained God.png",
     "colors": "",
     "typeLine": "Legendary Creature - Alien God",
-    "text": "The Chained God may only be cast from exile.\nExile a God or two Elders you control: Exile this from your hand.\nIndestructible\nTap an untapped creature you control, Q: Put a -1/-1 counter on each of up to two target creatures.\nWhen this is exiled from the battlefield, you win the game.",
+    "text": "The Chained God may only be cast from exile.\nExile a God or two Elders you control: Exile this from your hand.\nIndestructible\nTap another untapped creature you control, Q: Put a -1/-1 counter on each of up to two target creatures.\nWhen this is exiled from the battlefield, you win the game.",
     "manaValue": 4
   },
   {
@@ -3332,7 +3340,7 @@
     "img": "The Hounds of Shadow.png",
     "colors": "B",
     "typeLine": "Legendary Creature - Elder Dog",
-    "text": "Lifelink\nIf The Hounds would die, it instead phases out.\n5BB, Sacrifice a Warren: This phases in.",
+    "text": "Lifelink\nIf The Hounds would die, instead exile it.\n5BB, Sacrifice a Warren: Return The Hounds from exile to the battlefield.",
     "manaValue": 7
   },
   {
@@ -3340,7 +3348,7 @@
     "img": "The Lord and the Lady.png",
     "colors": "UR",
     "typeLine": "Legendary Creature - God",
-    "text": "Whenever you scry, if you leave more cards on top, put a Pull counter on this. Otherwise, put a Push counter on this.\nIf there are more Push counters than Pull counters on this, creatures you control get +X/+0, where X is the difference. Otherwise, creatures you don’t control get -X/-0.\nAt the end of your turn, if this has less than four counters on it, flip a coin. If you lose the flip, target opponent gains control of this.",
+    "text": "Whenever you scry, if you leave more cards on top of your library than the bottom, put a Pull counter on this. Otherwise, put a Push counter on this.\nIf there are more Push counters than Pull counters on this, creatures you control get +X/+0, where X is the difference. Otherwise, creatures you don’t control get -X/-0.\nAt the end of your turn, if you didn’t scry, target opponent gains control of this.",
     "manaValue": 4
   },
   {
@@ -3348,7 +3356,7 @@
     "img": "The Merchant Tolls.png",
     "colors": "WB",
     "typeLine": "Kindred Enchantment - Merchant",
-    "text": "Whenever a creature you control dies, plunder.\nW/B, Sacrifice three Treasure tokens: Draw a card.\nW/B, Sacrifice seven Treasure tokens: Tutor a card to your hand.",
+    "text": "Whenever this or a creature you control enters the battlefield or graveyard, plunder. \nW/B, Sacrifice three Treasure tokens: Draw a card.\nW/B, Sacrifice seven Treasure tokens: Tutor a card to your hand.",
     "manaValue": 2
   },
   {
@@ -3460,7 +3468,7 @@
     "img": "Topper.png",
     "colors": "B",
     "typeLine": "Legendary Creature - Elder Elf Malazan Assassin Wizard",
-    "text": "Deathtouch, exploit\nWhenever any creature exploits, destroy target creature.\n6U: Exile this. Return it to the battlefield at the end of the turn. This ability costs 1 less for each Warren you control.",
+    "text": "Deathtouch, exploit\nWhenever any creature you control exploits, destroy target creature.\n6U: Exile this. Return it to the battlefield at the end of the turn. This ability costs 1 less for each Warren you control.",
     "manaValue": 3
   },
   {
@@ -3604,7 +3612,7 @@
     "img": "Tlan Warrior.png",
     "colors": "G",
     "typeLine": "Creature - Elder Zombie Warrior",
-    "text": "This gets +X/+X, where X is the number of lands in your graveyard.\nWhenever a land is put in your graveyard from somewhere other than the battlefield, put a trample counter on target creature.\nG, Exile a land from your graveyard: Regenerate this.",
+    "text": "This gets +X/+X, where X is the number of lands in your graveyard.\nWhenever a land is put in your graveyard from anywhere, put a trample counter on target creature.\nG, Exile a land from your graveyard: Put a +1/+1 counter on target creature.",
     "manaValue": 2
   },
   {
@@ -3660,7 +3668,7 @@
     "img": "Vengeance.png",
     "colors": "",
     "typeLine": "Legendary Kindred Artifact - Elder Elf Equipment",
-    "text": "Equipped creature gets +3/+3.\nSacrifice equipped creature: Transform this. Active this only if equipped creature dealt damage to a player this turn.\nEquip 3",
+    "text": "Equipped creature gets +3/+3.\nSacrifice equipped creature: Transform this. Active this only if equipped creature dealt damage to a player this turn.\nEquip 2",
     "manaValue": 3
   },
   {
@@ -3725,7 +3733,7 @@
     "colors": "WG",
     "typeLine": "Enchantment - Fatid Aura",
     "text": "Enchant non-God creature\nEnchanted creature has lifelink and cannot attack or block unless its controller has 10 or more life.\nEnchanted creature has “Whenever a non-artifact permanent enters under your control, gain 1 life”.",
-    "manaValue": 3
+    "manaValue": 2
   },
   {
     "name": "Whiskeyjack",
@@ -3772,7 +3780,7 @@
     "img": "Withal Meckros Blacksmith.png",
     "colors": "WU",
     "typeLine": "Legendary Creature - Human Artificer",
-    "text": "Equipment you control has Equip 0.\nWhenever an equipped creature you control attacks, scry 1.\nWhenever an equipped creature you control deals damage to a player, it ascends. This triggers only once per game.",
+    "text": "Equipment you control have Equip 0.\nWhenever an equipped creature you control attacks, scry 1.\nWhenever an equipped creature you control deals damage to a player, it ascends. This triggers only once per game.",
     "manaValue": 3
   },
   {
