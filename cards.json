@@ -96,14 +96,6 @@
     "manaValue": 3
   },
   {
-    "name": "Ancestral Vengeance",
-    "img": "Ancestral Vengeance.png",
-    "colors": "R",
-    "typeLine": "Sorcery",
-    "text": "Elderstorm (When you cast this, copy this spell for each Elder spell you cast and Elder land you played this turn.)\nDeal three damage to target creature.",
-    "manaValue": 2
-  },
-  {
     "name": "Andii Funeral",
     "img": "Andii Funeral.png",
     "colors": "B",
@@ -222,6 +214,14 @@
     "typeLine": "Instant",
     "text": "Kicker G, kicker W\nDeal 2 damage to any target. \nIf you paid G, up to one target creature you control fights target creature you don’t control.\nIf you paid W, gain life equal to noncombat damage dealt this turn.\nIf you paid GW, destroy up to one target artifact or enchantment if its mana value is less than how much life you’ve gained this turn.",
     "manaValue": 1
+  },
+  {
+    "name": "Barghast Vengeance",
+    "img": "Barghast Vengeance.png",
+    "colors": "R",
+    "typeLine": "Sorcery",
+    "text": "Elderstorm (When you cast this, copy this spell for each Elder spell you cast and Elder land you played this turn.)\nDeal three damage to target creature.",
+    "manaValue": 2
   },
   {
     "name": "Baruk the Well-Read",
@@ -1179,7 +1179,7 @@
     "name": "Flint Sword",
     "img": "Flint Sword.png",
     "colors": "",
-    "typeLine": "Kindred Equipment - Elder Zombie",
+    "typeLine": "Kindred Equipment - Elder Zombie Equipment",
     "text": "Equipped creature gets +5/+5.\nEquip 4",
     "manaValue": 4
   },
@@ -2016,6 +2016,14 @@
     "manaValue": 3
   },
   {
+    "name": "Malazan Army",
+    "img": "Malazan Army.png",
+    "colors": "",
+    "typeLine": "Creature - Malazan Army",
+    "text": "",
+    "manaValue": 0
+  },
+  {
     "name": "Malazan Ascendancy",
     "img": "Malazan Ascendancy.png",
     "colors": "WBR",
@@ -2038,6 +2046,14 @@
     "typeLine": "Creature - Malazan Soldier",
     "text": "Enlist\nWhenever you enlist, amass Malazans 1.",
     "manaValue": 2
+  },
+  {
+    "name": "Malazan Sapper",
+    "img": "Malazan Sapper.png",
+    "colors": "",
+    "typeLine": "Creature - Malazan Sapper",
+    "text": "",
+    "manaValue": 0
   },
   {
     "name": "Mallet, 7th squad healer",
@@ -2124,7 +2140,7 @@
     "img": "Mincer Sapper Captain.png",
     "colors": "R",
     "typeLine": "Legendary Creature - Malazan Sapper",
-    "text": "When this enters, create a 1/1 Malazan Sapper Creature and a Cusser.\nR, Tap an untapped Sapper you control and sacrifice an artifact you control: Deal three damage to any target.",
+    "text": "When this enters, create a 1/1 red Malazan Sapper Creature and a Cusser.\nR, Tap an untapped Sapper you control and sacrifice an artifact you control: Deal three damage to any target.",
     "manaValue": 4
   },
   {
@@ -2148,7 +2164,7 @@
     "img": "Monok Ochem.png",
     "colors": "BR",
     "typeLine": "Legendary Creature - Elder Zombie Shaman",
-    "text": "Elder Zombies you control have haste and afterlife 1.\nOncebound, Sacrifice another creature: If sacrificed creature was an Elder Zombie, Monok Ochem gains lifelink until end of turn. Then deal damage to any target equal to sacrificed creature’s power.",
+    "text": "Elder Zombies you control have haste and afterlife 1.\nOncebound, Sacrifice another creature: If sacrificed creature was an Elder Zombie, Monok Ochem gains lifelink until end of turn. Deal damage to any target equal to sacrificed creature’s power.",
     "manaValue": 6
   },
   {
@@ -2187,7 +2203,7 @@
     "name": "Munitions Stockpile",
     "img": "Munitions Stockpile.png",
     "colors": "",
-    "typeLine": "Kindred Artifact",
+    "typeLine": "Kindred Artifact - Malazan",
     "text": "If an effect would create one or more Cusser tokens under your control, it creates twice as many tokens instead.\n7R, T: Create a Cusser.",
     "manaValue": 2
   },
@@ -2308,8 +2324,8 @@
     "img": "Onrack the Broken.png",
     "colors": "G",
     "typeLine": "Legendary Creature - Elder Zombie Warrior",
-    "text": "When this enters, you may mill yourself until you mill two lands.\nYou may play lands from your graveyard and may play an additional land each turn.\nWhenever a land leaves your graveyard, put a +1/+1 counter on a creature you control with power lower than this.",
-    "manaValue": 3
+    "text": "When this enters, you may mill yourself until you mill a land.\nYou may play lands from your graveyard and may play an additional land each turn.\nWhenever a land leaves your graveyard, put a +1/+1 counter on a creature you control with power less than Onrack.",
+    "manaValue": 4
   },
   {
     "name": "Order Munitions",
@@ -2996,7 +3012,7 @@
     "img": "Silanah Redwings.png",
     "colors": "R",
     "typeLine": "Legendary Creature - Dragon",
-    "text": "Flying\nWhenever this attacks, it deals damage equal to its power to target creature.",
+    "text": "Flying\nWhenever Silanah attacks, you may have it deal damage equal to its power to target creature.",
     "manaValue": 6
   },
   {
@@ -3028,7 +3044,7 @@
     "img": "Silverfox Melded Bonecaster.png",
     "colors": "BRG",
     "typeLine": "Legendary Creature - Elder Zombie Giant Malazan God Wizard",
-    "text": "Creatures you control that share two or more creature types with Silverfox get +1/+1 and have “Whenever this dies, return it to the battlefield tapped under your control. If you do, lose 3 life.”",
+    "text": "Creatures you control that share two or more creature types with Silverfox get +1/+1 and have “Whenever this dies, you may return it to the battlefield tapped under your control. If you do, lose 3 life.”",
     "manaValue": 3
   },
   {
@@ -3068,7 +3084,7 @@
     "img": "Skirmisher Recruit.png",
     "colors": "R",
     "typeLine": "Creature - Malazan Soldier",
-    "text": "Haste, enlist",
+    "text": "Haste, enlist\nWhenever Skirmisher Recruiter takes damage, it deals that much damage to you.",
     "manaValue": 1
   },
   {
@@ -3564,7 +3580,7 @@
     "img": "Tamber.png",
     "colors": "G",
     "typeLine": "Legendary Creature - Elder Human Advisor",
-    "text": "Vigilance\nThis has power and toughness equal to the number of lands you control plus the number of creatures you control.\n1G, T, Tap an untapped creature with a counter on it you control: Double target creature’s power.",
+    "text": "Vigilance\nThis has power and toughness equal to the number of lands you control plus the number of creatures you control.\n1G, T, Tap an untapped creature with a counter on it you control: Double target creature’s power until end of turn.",
     "manaValue": 5
   },
   {
@@ -3804,7 +3820,7 @@
     "img": "Yedan Derryg The Watch.png",
     "colors": "W",
     "typeLine": "Legendary Creature - Elder Elf Human Warrior",
-    "text": "W: This gains first strike until end of turn.\n5W: This gains double strike until end of turn.\nWhenever this deals X damage, target creature you control gets lifelink and +X/+X.",
+    "text": "W: This gains first strike until end of turn.\n5W: This gains double strike until end of turn.\nWhenever this deals damage, target creature you control gets lifelink and +X/+X, where X is the damage this dealt.",
     "manaValue": 4
   },
   {

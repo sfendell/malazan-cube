@@ -83,7 +83,7 @@
 			"B",
 			"R"
 		],
-		"oracle_text": "Flash\nWhen this enters the battlefield, counter target activated or triggered ability. If its source was an artifact and R was paid for this, gain control of it. If its source was a creature and B was paid for this, destroy it. Otherwise, draw a card.",
+		"oracle_text": "Flash\nWhen this enters, counter target activated or triggered ability. If its source was an artifact and R was paid for this, gain control of it. If its source was a creature and B was paid for this, destroy it. Otherwise, draw a card.",
 		"power": "1",
 		"toughness": "2"
 	},
@@ -195,18 +195,7 @@
 			"U",
 			"B"
 		],
-		"oracle_text": "Rake is a 6/* flying creature, where * is his loyalty.\nUntil your next turn, Elder Elves you control have flying and “Whenever this is dealt damage by anything besides a creature attacking it, prevent all but 1 of that damage, then draw cards equal to the damage prevented.”\nReturn two target creatures to their owner’s hand, then each opponent exiles a card from their hand for each Elder Elf you control.\nExile all non-Elder non-land permanents. Put all exiled Elder permanents onto the battlefield under your control."
-	},
-	{
-		"name": "Antigravity",
-		"type": "Enchantment",
-		"image": "https://sfendell.github.io/malazan-cube/exported_cards/Antigravity.png",
-		"mana_cost": "{G/U}{G/U}",
-		"colors": [
-			"U",
-			"G"
-		],
-		"oracle_text": "Creatures with flying cannot block creatures without flying.\nCreatures without flying have reach."
+		"oracle_text": "Rake is a 6/* flying creature, where * is his loyalty.\nUntil your next turn, Elder Elves you control have flying and “Whenever this is dealt damage by anything besides a creature attacking it, prevent all but 1 of that damage, then draw cards equal to the damage prevented.”\nReturn up to two target creatures to their owner’s hand, then each opponent exiles a card from their hand for each Elder Elf you control.\nExile all non-Elder non-land permanents. Put all exiled Elder permanents onto the battlefield under your control."
 	},
 	{
 		"name": "Apocalyptic Reveler",
@@ -254,7 +243,7 @@
 		"colors": [
 			"B"
 		],
-		"oracle_text": "If you control three or more Warrens, Aptorian has deathtouch, menace, and “Sacrifice a creature: Regenerate this.”\nAt the beginning of each end step, if exactly three creatures you control died this turn, draw three cards and lose three life.\nBBB: Surveil 3.",
+		"oracle_text": "If you control three or more Warrens, Aptorian has deathtouch, menace, and “Sacrifice a creature: This gains protection from a color of your choice until end of turn.”\nAt the beginning of each end step, if exactly three creatures you control died this turn, draw three cards and lose three life.\nBBB: Surveil 3.",
 		"power": "3",
 		"toughness": "3"
 	},
@@ -276,7 +265,7 @@
 		"colors": [
 			"R"
 		],
-		"oracle_text": "Whenever anything is dealt damage or dies, put a blood counter on this. If it was sacrificed, put an additional blood counter on this.\nRemove 5 blood counters from this: Destroy target artifact or nonbasic land.\nRemove 10 blood counters from this: Amass 4.\nRemove 20 blood counters from this, sacrifice this: Create eight 2/1 red Cat Human Warrior tokens with double strike and haste."
+		"oracle_text": "Whenever anything is dealt damage or dies, put a war counter on this. If it was sacrificed, put an additional war counter on this.\nRemove 5 war counters from this: Destroy target artifact or nonbasic land.\nRemove 10 war counters from this: Amass Malazans 4.\nRemove 20 war counters from this, sacrifice this: Create eight 2/1 red Cat Human Warrior tokens with double strike and haste. At the end of your first combat phase this turn, untap all creatures. Then there is an additional combat phase."
 	},
 	{
 		"name": "Attack from Tavern to Tavern",
@@ -296,7 +285,7 @@
 		"colors": [
 			"W"
 		],
-		"oracle_text": "When this enters, exile target creature until it leaves the battlefield.\nAt the beginning of combat on your turn, target creature gets +X/+X, where X is the number of creatures your opponents own in exile."
+		"oracle_text": "When this enters, exile target creature until this leaves the battlefield.\nAt the beginning of combat on your turn, target creature gets +X/+X, where X is the number of creatures your opponents own in exile."
 	},
 	{
 		"name": "Baaljagg, The Last Ay",
@@ -317,7 +306,7 @@
 	},
 	{
 		"name": "Backstab",
-		"type": "Sorcery",
+		"type": "Instant",
 		"image": "https://sfendell.github.io/malazan-cube/exported_cards/Backstab.png",
 		"mana_cost": "{2}{B}",
 		"colors": [
@@ -347,7 +336,7 @@
 		"colors": [
 			"R"
 		],
-		"oracle_text": "When this enters the battlefield, place X Forge counters on it and tutor an Equipment to the top of your deck, where X is the number of creatures you control.\nSlow, T, Remove a Forge counter from this: Destroy target artifact. Its controller creates a Short Sword token.",
+		"oracle_text": "When this enters, place X Forge counters on it, where X is the number of creatures you control. Then tutor an Equipment to the top of your library.\nSlow, T, Remove a Forge counter from this: Destroy target artifact. Its controller creates a Short Sword token.",
 		"power": "2",
 		"toughness": "2"
 	},
@@ -564,7 +553,7 @@
 			"W",
 			"B"
 		],
-		"oracle_text": "When this enters, plunder twice.\nSlow, 2W/BW/B, sacrifice a Treasure: Put a +1/+1 counter on target creature if W was spent on this ability. Put a -1/-1 counter on target creature if B was spent on this ability. This ability costs 1 less for each other merchant you control.",
+		"oracle_text": "When this enters, plunder twice.\nSlow, 2W/B, sacrifice a Treasure: Put a +1/+1 counter on target creature if W was spent on this ability. Put a -1/-1 counter on target creature if B was spent on this ability. This ability costs 1 less for each other Merchant you control.",
 		"power": "1",
 		"toughness": "2"
 	},
@@ -626,7 +615,7 @@
 			"U",
 			"R"
 		],
-		"oracle_text": "Prowess\nWhen this enters the battlefield, scry X, where X is the number of artifacts and Malazans you control. Then you may reveal the top card of your library. If it’s an instant, sorcery, or artifact, put it in your hand.",
+		"oracle_text": "Prowess\nWhen this enters, scry X, where X is the number of artifacts and Malazans you control. Then you may reveal the top card of your library. If it’s an instant, sorcery, or artifact, put it in your hand.",
 		"power": "2",
 		"toughness": "2"
 	},
@@ -697,7 +686,7 @@
 			"W",
 			"R"
 		],
-		"oracle_text": "When this enters the battlefield, create a Cusser.\nWhenever a Sapper deals damage to a player, for the rest of the turn, Cussers you control gain “RW, Sacrifice this: Deal 3 damage to any target and gain 3 life.”",
+		"oracle_text": "When this enters, create a Cusser.\nWhenever a Sapper deals damage to a player, for the rest of the turn, Cussers you control gain “RW, Sacrifice this: Deal 3 damage to any target and gain 3 life.”",
 		"power": "3",
 		"toughness": "1"
 	},
@@ -722,7 +711,7 @@
 		"name": "Brukhalian, Fener’s Mortal Sword",
 		"type": "Legendary Creature",
 		"image": "https://sfendell.github.io/malazan-cube/exported_cards/Brukhalian%20Feners%20Mortal%20Sword.png",
-		"mana_cost": "{3}{R}{W}",
+		"mana_cost": "{2}{R}{W}",
 		"subtypes": [
 			"Human"
 		],
@@ -731,7 +720,7 @@
 			"R"
 		],
 		"oracle_text": "Haste, First strike\nWhenever you attack for the second time in a turn, this creature ascends.",
-		"power": "6",
+		"power": "5",
 		"toughness": "3"
 	},
 	{
@@ -749,7 +738,7 @@
 			"U",
 			"B"
 		],
-		"oracle_text": "When this enters the battlefield, tutor an artifact to your hand.\nElder Elves you control get +1/+1 for every artifact you control.",
+		"oracle_text": "When this enters, tutor an artifact to your hand.\nElder Elves you control get +1/+1 for every artifact you control.",
 		"power": "3",
 		"toughness": "3"
 	},
@@ -783,7 +772,7 @@
 			"U",
 			"B"
 		],
-		"oracle_text": "Whenever you sacrifice a creature, bleed.\nSacrifice three Bloods: Transform this.",
+		"oracle_text": "Whenever you sacrifice a creature, bleed.\n2, Sacrifice a creature: Scry 1.\nSacrifice three Bloods: Transform Bugg.",
 		"power": "1",
 		"toughness": "1",
 		"layout": "flip",
@@ -842,11 +831,11 @@
 		"name": "Burn’s Hammer",
 		"type": "Legendary Artifact",
 		"image": "https://sfendell.github.io/malazan-cube/exported_cards/Burns%20Hammer.png",
-		"mana_cost": "{2}",
+		"mana_cost": "{3}",
 		"subtypes": [
 			"Equipment"
 		],
-		"oracle_text": "Equipped creature has +4/+0 and “T: Destroy target land. If it was basic, its controller tutors a nonbasic land to the battlefield tapped. Otherwise, its controller tutors a basic land to the battlefield tapped.”\nMagnanimous Kruppe has protection from equipped creature.\nEquip 4"
+		"oracle_text": "Equipped creature has +1/+0 for every land in every graveyard and “T: Destroy target land. Its owner tutors a land to the battlefield tapped.”\nMagnanimous Kruppe has protection from equipped creature.\nEquip 2"
 	},
 	{
 		"name": "Caladan Brood",
@@ -861,7 +850,7 @@
 			"R",
 			"G"
 		],
-		"oracle_text": "When this enters the battlefield, deal X damage divided among any number of targets, where X is the number of lands and Rebels you control.\nAs long as Caladan Brood is in your graveyard, whenever a land or Rebel enters your graveyard from anywhere, deal 1 damage to any target. \nLandcycling 1G, Rebelcycling 1R",
+		"oracle_text": "When this enters, deal X damage divided among any number of targets, where X is the number of lands and Rebels you control.\nAs long as Caladan Brood is in your graveyard, whenever a land or Rebel enters your graveyard from anywhere, deal 1 damage to any target. \nLandcycling 1G, Rebelcycling 1R",
 		"power": "6",
 		"toughness": "6"
 	},
@@ -977,7 +966,7 @@
 			"B",
 			"G"
 		],
-		"oracle_text": "U/BG, T, Sacrifice a land or creature: Proliferate. Put a subtype counter that shares a subtype with it on target permanent of the same type. (If a subtype counter would be put on a permanent of that subtype, instead, it isn’t.)",
+		"oracle_text": "U/BG, T, Sacrifice a land or creature: Proliferate. Put a subtype counter of a subtype the sacrificed permanent had on target permanent of the same type. (If a subtype counter would be put on a permanent of that subtype, instead, it isn’t.)",
 		"power": "2",
 		"toughness": "2"
 	},
@@ -1056,7 +1045,7 @@
 			"R",
 			"G"
 		],
-		"oracle_text": "Whenever a God or Elder enters or a creature ascends, put two omen counters on this.\nRemove all omen counters from this: Destroy all non-God, non-Elder creatures, then tutor all Elder or God cards to the battlefield with mana value less than the omen counters removed. Target opponent gains control of this."
+		"oracle_text": "Whenever a God or Elder enters or a creature ascends, put two omen counters on this.\nRemove all omen counters from this and exile convergence: Destroy all non-God, non-Elder creatures, then tutor all Elder or God cards to the battlefield with mana value less than the omen counters removed. Then return this to the battlefield under target opponent’s control."
 	},
 	{
 		"name": "Convergent Flames",
@@ -1128,7 +1117,7 @@
 		"colors": [
 			"W"
 		],
-		"oracle_text": "T: Redirect the next 1 damage dealt to any target to any other target.\n2B, Sacrifice an artifact: Cutter gains deathtouch until end of turn.",
+		"oracle_text": "T: Prevent the next 1 damage dealt to any target. When damage is prevented this way, Crokus deals 1 damage to target creature.\n2B, Sacrifice an artifact: Crokus gains deathtouch until end of turn.",
 		"power": "4",
 		"toughness": "2"
 	},
@@ -1152,12 +1141,12 @@
 		"name": "Crow Clan Revival",
 		"type": "Enchantment",
 		"image": "https://sfendell.github.io/malazan-cube/exported_cards/Crow%20Clan%20Revival.png",
-		"mana_cost": "{2}{W}{B}",
+		"mana_cost": "{1}{W}{B}",
 		"colors": [
 			"W",
 			"B"
 		],
-		"oracle_text": "Whenever a nontoken creature you control dies, create a 1/2 white and black Bird creature token with flying. If the creature was sacrificed, populate.\nSacrifice X creature tokens: Return target creature with mana value X or less from your graveyard to the battlefield."
+		"oracle_text": "Whenever this enters or a nontoken creature you control dies, create a 1/2 white and black Bird creature token with flying. If the creature was sacrificed, populate.\nSacrifice X creature tokens: Return target creature with mana value X or less from your graveyard to the battlefield."
 	},
 	{
 		"name": "Crump",
@@ -1171,7 +1160,7 @@
 		"colors": [
 			"R"
 		],
-		"oracle_text": "Protection from itself\nCussers you control lose all abilities.\nAt the beginning of your upkeep, create a Cusser artifact token.\nAt the beginning of your end step, sacrifice all artifacts you control.\nWhenever you sacrifice an artifact, you may sacrifice another permanent. If you do, deal three damage to any target. Otherwise, deal three  damage to any target chosen at random.",
+		"oracle_text": "Protection from itself\nCussers you control lose all abilities.\nAt the beginning of your upkeep, create a Cusser artifact token.\nAt the beginning of your end step, sacrifice all artifacts you control.\nWhenever you sacrifice an artifact, you may sacrifice another permanent or tap another Sapper. If you do, deal three damage to any target. Otherwise, deal three damage to any target chosen at random.",
 		"power": "2",
 		"toughness": "2"
 	},
@@ -1342,7 +1331,7 @@
 			"W",
 			"U"
 		],
-		"oracle_text": "Behold Serc\nThis enters the battlefield with a “Whenever a creature that shares a creature type with this enters the battlefield under your control, creatures you control get +1/+1 until end of turn.” counter.\nWhen this enters the battlefield, if you beheld Serc, proliferate, then proliferate.",
+		"oracle_text": "Behold Serc\nProwess, Flying\nDisciple enters with a “Whenever a permanent that shares a creature type with this enters under your control, creatures you control get +1/+1 until end of turn.” counter.\nWhen this enters, if you beheld Serc, proliferate, then proliferate.",
 		"power": "1",
 		"toughness": "1"
 	},
@@ -1379,7 +1368,7 @@
 			"U",
 			"B"
 		],
-		"oracle_text": "Enchant non-God\nWhen this enters, tutor a God into exile.\nEnchanted creature is a copy of the exiled card.\nWhen enchanted creature dies, put the exiled card into its owner’s hand."
+		"oracle_text": "Enchant creature\nWhen this enters, if enchanted creature is not a God, tutor a God creature card into exile. Enchanted creature becomes a copy of that card.\nWhen enchanted creature dies, put all cards exiled with Divine Posession into its owner’s hand."
 	},
 	{
 		"name": "Donkey Showdown",
@@ -1412,7 +1401,7 @@
 		"name": "Dragnipur",
 		"type": "Legendary Artifact",
 		"image": "https://sfendell.github.io/malazan-cube/exported_cards/Dragnipur.png",
-		"mana_cost": "{4}",
+		"mana_cost": "{3}",
 		"subtypes": [
 			"Equipment"
 		],
@@ -1426,7 +1415,7 @@
 		"colors": [
 			"R"
 		],
-		"oracle_text": "Behold a Dragon\nDragon’s Fire deals 3 damage to target creature or planeswalker. If you revealed a Dragon card or chose a Dragon as you cast this spell, Dragon’s Fire deals damage equal to the power of that card or creature instead."
+		"oracle_text": "Behold a Dragon\nDragon’s Fire deals 3 damage to target creature or planeswalker. If you beheld a dragon, Dragon’s Fire deals damage equal to the power of that card or creature instead."
 	},
 	{
 		"name": "Dream of the Eres’al",
@@ -1488,7 +1477,7 @@
 			"W",
 			"U"
 		],
-		"oracle_text": "Whenever a Legendary creature you control dies, investigate.\nAt the beginning of your end step, return target creature with mana value X or less from the graveyard to the battlefield, where X is the number of tokens you’ve sacrificed this turn.",
+		"oracle_text": "Whenever a Legendary creature you control dies, investigate.\nAt the beginning of your end step, return target creature with mana value X or less from your graveyard to the battlefield, where X is the number of tokens you’ve sacrificed this turn.",
 		"power": "2",
 		"toughness": "2"
 	},
@@ -1598,7 +1587,7 @@
 			"U",
 			"B"
 		],
-		"oracle_text": "Flash\nWhen this enters the battlefield, if B was spent to play it, target creature gets -X/-X until end of turn. If W was spent to cast it, target creature gets +X/+X until end of turn. If U was spent to cast it, draw X cards. X is the number of Elder Elves you control.",
+		"oracle_text": "Flash\nWhen this enters, if B was spent to play it, target creature gets -X/-X until end of turn. If W was spent to cast it, target creature gets +X/+X until end of turn. If U was spent to cast it, draw X cards. X is the number of Elder Elves you control.",
 		"power": "2",
 		"toughness": "2"
 	},
@@ -1702,7 +1691,7 @@
 			"U",
 			"B"
 		],
-		"oracle_text": "Other Elder Elves you control get +1/+1.\nEquipped Elder Elves you control get curiosity.\nWhen this enters the battlefield, tutor an equipment from your library or graveyard to your hand.",
+		"oracle_text": "Other Elder Elves you control get +1/+1.\nEquipped Elder Elves you control get curiosity.\nWhen this enters, tutor an equipment from your library or graveyard to your hand.",
 		"power": "3",
 		"toughness": "3"
 	},
@@ -1729,16 +1718,17 @@
 		"image": "https://sfendell.github.io/malazan-cube/exported_cards/Felisin%20Paran.png",
 		"mana_cost": "{G}{U}{R}",
 		"subtypes": [
-			"Malazan"
+			"Malazan",
+			"Child"
 		],
 		"colors": [
 			"U",
 			"R",
 			"G"
 		],
-		"oracle_text": "Whenever a creature you control dies, this deals 1 damage to a creature chosen at random.\nWhen Felisin is dealt damage for the third time in a turn, transform her.",
-		"power": "1",
-		"toughness": "4",
+		"oracle_text": "Whenever you draw your second card or a second land enters under your control in a turn, deal 2 damage to any target and impulse 2.\nWhenever you cast your second card from exile in a turn, transform Felisin.",
+		"power": "3",
+		"toughness": "3",
 		"layout": "flip",
 		"back": {
 			"name": "Sha’ik Reborn",
@@ -1746,10 +1736,11 @@
 			"image": "https://sfendell.github.io/malazan-cube/exported_cards/Shaik%20Reborn.png",
 			"mana_cost": "",
 			"subtypes": [
-				"Rebel"
+				"Rebel",
+				"Child"
 			],
-			"oracle_text": "Other Rebels you control get +2/+2.\nXG: Deal X damage to all creatures with flying.\n1U: Target creature gains flying until end of turn.",
-			"power": "1",
+			"oracle_text": "Creature you control get haste, trample, and “T: Add one mana of any color.”\nOther Rebels you control get +2/+2.\nU: Target creature gains flying until end of turn.\nXG: Deal X damage to all creatures with flying.",
+			"power": "5",
 			"toughness": "4"
 		}
 	},
@@ -1800,7 +1791,7 @@
 		"type": "Legendary Artifact",
 		"image": "https://sfendell.github.io/malazan-cube/exported_cards/Fiddlers%20Deck.png",
 		"mana_cost": "{3}",
-		"oracle_text": "When you cast Fiddler’s Deck, shuffle The Deck of Dragons into your library.\nYou may play Fatid cards from your graveyard.\nWhenever you cast a Fatid spell from your hand, put a foresight counter on Fiddler’s Deck.\nAt the end of your turn, plunder. Then scry X, where X is the number of foresight counters on this. If X is greater than two, instead draw a card. If X is greater than four, instead tutor a card to your hand."
+		"oracle_text": "When you cast Fiddler’s Deck, shuffle The Deck of Dragons into your library.\nYou may play Fatid cards from your graveyard.\nWhenever you cast a Fatid spell from your hand, put a foresight counter on Fiddler’s Deck.\nAt the end of your turn, plunder. Then scry 1 if there are less than two foresight counters on this, draw a card if there are less than four, and tutor a card to your hand if there are four or more foresight counters."
 	},
 	{
 		"name": "Fires of Foresight",
@@ -1903,11 +1894,11 @@
 		"name": "Gas Explosion",
 		"type": "Sorcery",
 		"image": "https://sfendell.github.io/malazan-cube/exported_cards/Gas%20Explosion.png",
-		"mana_cost": "{3}{R}",
+		"mana_cost": "{2}{R}",
 		"colors": [
 			"R"
 		],
-		"oracle_text": "Deal X damage to all creatures, where X is the number of lands on the battlefield. Then you may sacrifice any number of artifacts or non-basic lands. Draw a card or destroy target artifact for each permanent sacrificed this way."
+		"oracle_text": "As an additional cost to cast this, sacrifice a land or a Cusser.\nDeal X damage to all creatures, where X is the number of lands on the battlefield. Then create X Cussers, where X is the number of lands in your graveyard."
 	},
 	{
 		"name": "Gedderone Fete",
@@ -1932,7 +1923,7 @@
 		"colors": [
 			"U"
 		],
-		"oracle_text": "Whenever you draw any number of cards, scry 1 and freeze target creature.\n3UU: Draw a card. This costs 1 less for each time you’ve scried this turn.\nWhenever you scry for the fourth time in a turn, freeze all creatures you don’t control.",
+		"oracle_text": "Whenever you draw any number of cards, scry 1.\n3UU: Draw a card. This costs 1 less for each time you’ve scried this turn.\nWhenever you scry for the fourth time in a turn, freeze all creatures you don’t control.",
 		"power": "4",
 		"toughness": "4"
 	},
@@ -1947,24 +1938,6 @@
 		"oracle_text": "T: Scry 1, then investigate."
 	},
 	{
-		"name": "Gral Horse",
-		"type": "Creature",
-		"image": "https://sfendell.github.io/malazan-cube/exported_cards/Gral%20Horse.png",
-		"mana_cost": "{B}{R}{G}",
-		"subtypes": [
-			"Rebel",
-			"Horse"
-		],
-		"colors": [
-			"B",
-			"R",
-			"G"
-		],
-		"oracle_text": "Riot, deathtouch, trample",
-		"power": "3",
-		"toughness": "3"
-	},
-	{
 		"name": "Grand Conspiracy",
 		"type": "Instant",
 		"image": "https://sfendell.github.io/malazan-cube/exported_cards/Grand%20Conspiracy.png",
@@ -1974,6 +1947,17 @@
 			"B"
 		],
 		"oracle_text": "As an additional cost to cast this card, discard a card.\nDestroy target creature.\nMindstorm"
+	},
+	{
+		"name": "Gravitic Reversal",
+		"type": "Enchantment",
+		"image": "https://sfendell.github.io/malazan-cube/exported_cards/Gravitic%20Reversal.png",
+		"mana_cost": "{G/U}{G/U}",
+		"colors": [
+			"U",
+			"G"
+		],
+		"oracle_text": "When this enters the battlefield, distribute three subtype counters of your choice among any number of target creatures, then draw a card.\nCreatures with flying cannot block creatures without flying.\nCreatures without flying have reach."
 	},
 	{
 		"name": "Grey Helms’ Final Charge",
@@ -2005,7 +1989,7 @@
 		"name": "Grub, Peculiar Host",
 		"type": "Legendary Creature",
 		"image": "https://sfendell.github.io/malazan-cube/exported_cards/Grub%20Peculiar%20Host.png",
-		"mana_cost": "{2}{G}",
+		"mana_cost": "{2}{G}{G}",
 		"subtypes": [
 			"Malazan",
 			"Child"
@@ -2013,7 +1997,7 @@
 		"colors": [
 			"G"
 		],
-		"oracle_text": "Whenever you tap a land for mana, add G.\nWhenever a land leaves your graveyard, proliferate. Oncebound.\n2G, exile a card from a graveyard: Put a +1/+1 counter on target creature.",
+		"oracle_text": "Whenever you tap a Forest for mana, add G.\nWhenever a land leaves your graveyard, proliferate. Oncebound.\n2G, exile a card from a graveyard: Put a +1/+1 counter on target creature.",
 		"power": "1",
 		"toughness": "2"
 	},
@@ -2030,7 +2014,7 @@
 			"B",
 			"R"
 		],
-		"oracle_text": "First strike, haste\nWhenever a nontoken creature you control dies during combat, deal 1 damage to any target. If it dies during the first strike phase, deal 2 damage to any target.\n1: Target creature gets first strike until end of turn.",
+		"oracle_text": "First strike, haste\nWhenever a nontoken creature you control dies during combat, deal 1 damage to any target. If it dies during the first strike phase, instead deal 2 damage to any target.\n1: Target creature gets first strike until end of turn.",
 		"power": "4",
 		"toughness": "4"
 	},
@@ -2064,7 +2048,7 @@
 			"B",
 			"R"
 		],
-		"oracle_text": "Whenever a Sapper enters the battlefield under your control, create a Cusser.\nWhenever a Cusser enters your graveyard, each opponent loses 1 life and you gain 1 life.",
+		"oracle_text": "Whenever this or another Sapper enters under your control, create a Cusser.\nWhenever a Cusser enters your graveyard, each opponent loses 1 life and you gain 1 life.",
 		"power": "2",
 		"toughness": "2"
 	},
@@ -2097,7 +2081,7 @@
 		"colors": [
 			"R"
 		],
-		"oracle_text": "Skip your draw step.\nAt the beginning of your upkeep, scry 2, then reveal the top five cards of your deck. Your opponent chooses one of them and puts it on the bottom of your deck. Choose two randomly of the remaining four and put them in your hand.",
+		"oracle_text": "Skip your draw step.\nAt the beginning of your upkeep, scry 2, then reveal the top five cards of your library. Your opponent chooses one of them and puts it on the bottom of your library. Choose two randomly of the remaining four and put them in your hand.",
 		"power": "2",
 		"toughness": "2"
 	},
@@ -2264,7 +2248,7 @@
 		"type": "Artifact",
 		"image": "https://sfendell.github.io/malazan-cube/exported_cards/House%20of%20the%20Azath.png",
 		"mana_cost": "{3}",
-		"oracle_text": "Indestructible\n3, T: Target creature with power, toughness, or mana value greater than three phases out.\nAt the beginning of your upkeep, you may pay H for each card that is phased out. If you don’t, sacrifice this, then all creatures phase in."
+		"oracle_text": "Indestructible\n3, T: Exile target creature with power, toughness, or mana value greater than three for as long as this is on the battlefield.\nAt the beginning of your upkeep, you may pay H for each card exiled with House of the Azath. If you don’t, sacrifice it."
 	},
 	{
 		"name": "Humbral, Barghast Warchief",
@@ -2279,7 +2263,7 @@
 		"colors": [
 			"G"
 		],
-		"oracle_text": "When this enters the battlefield, return up to one target land from your graveyard to the battlefield.\nWhenever a land enters or leaves your graveyard, gain 1 life and put a +1/+1 counter on target creature.",
+		"oracle_text": "When this enters, return up to one target land from your graveyard to the battlefield.\nWhenever a land enters or leaves your graveyard, gain 1 life and put a +1/+1 counter on target creature.",
 		"power": "2",
 		"toughness": "2"
 	},
@@ -2328,8 +2312,8 @@
 			"U"
 		],
 		"oracle_text": "At the beginning of your end step, pay 1. If you do, put an epiphany counter on this. Otherwise, return this to your hand.  \nRemove an epiphany counter from this: Draw a card.\nT, Slow, Remove three epiphany counters from this, skip your next turn, and discard your hand: Transform this. End the turn.",
-		"power": "2",
-		"toughness": "2",
+		"power": "1",
+		"toughness": "5",
 		"layout": "flip",
 		"back": {
 			"name": "Icarium, Civilization’s End",
@@ -2512,7 +2496,7 @@
 		"name": "J’An Sentinel",
 		"type": "Creature",
 		"image": "https://sfendell.github.io/malazan-cube/exported_cards/JAn%20Sentinel.png",
-		"mana_cost": "{2}{G}{U}",
+		"mana_cost": "{1}{G}{U}",
 		"subtypes": [
 			"Alien",
 			"Dinosaur"
@@ -2521,7 +2505,7 @@
 			"U",
 			"G"
 		],
-		"oracle_text": "This cannot be blocked by creatures with less power than itself.\n1GU, Q: Proliferate.",
+		"oracle_text": "This cannot be blocked by creatures with less power than itself.\nG/U, Q: Proliferate.",
 		"power": "4",
 		"toughness": "2"
 	},
@@ -2539,7 +2523,7 @@
 			"U",
 			"B"
 		],
-		"oracle_text": "Noncreature artifacts you control are Construct creatures in addition to their other types. Their power and toughness are each equal to the number of creatures you control with the same name.\nPay 2 life, sacrifice a non-artifact creature, B: Investigate, plunder and bleed.",
+		"oracle_text": "Treasures you control are 2/1 Construct creatures with lifelink to their other types.\nClues you control are 1/3 Construct creatures with flying in addition to their other types.\nBloods you control are 1/1 Construct creatures with deathtouch to their other types.\nT, Pay 2 life, sacrifice two non-artifact creatures: Investigate, plunder and bleed.",
 		"power": "3",
 		"toughness": "3"
 	},
@@ -2551,7 +2535,7 @@
 		"colors": [
 			"U"
 		],
-		"oracle_text": "Improvise, Behold an Elder Elf\nExile X creatures from your graveyard. Create a */* Child God artifact creature token. It has the combined power, toughness, and colors of the exiled creatures and all of their abilities. If you beheld an Elder Elf, it gains indestructible as well."
+		"oracle_text": "Improvise, Behold an Elder Elf\nExile any number of target creatures from your graveyard. Create a */* Child God artifact creature token. It has the combined power, toughness, and colors of the exiled creatures and all of their abilities. If you beheld an Elder Elf, it gains indestructible and “Ward—Discard two cards”."
 	},
 	{
 		"name": "Kalam Mekhar",
@@ -2567,7 +2551,7 @@
 			"B",
 			"R"
 		],
-		"oracle_text": "Deathtouch\nWhen Kalam enters the battlefield, tutor an Equipment to the top of your deck.\nAs long as Kalam is equipped, he has first strike.\nAs long as Kalam is equipped twice, it has “T: Deal 1 damage to any target.”",
+		"oracle_text": "Deathtouch\nWhen Kalam enters, tutor an Equipment to the top of your library.\nAs long as Kalam is equipped, he has first strike.\nAs long as Kalam is equipped twice, it has “T: Deal 1 damage to any target.”",
 		"power": "3",
 		"toughness": "3"
 	},
@@ -2735,7 +2719,7 @@
 		"name": "Korabas, Otataral Dragon",
 		"type": "Legendary Creature",
 		"image": "https://sfendell.github.io/malazan-cube/exported_cards/Korabas%20Otataral%20Dragon.png",
-		"mana_cost": "{20}{4}",
+		"mana_cost": "{12}{12}",
 		"subtypes": [
 			"Dragon"
 		],
@@ -2756,7 +2740,7 @@
 			"B",
 			"R"
 		],
-		"oracle_text": "Whenever a creature card enters your graveyard from anywhere, put a +1/+1 counter on target creature. This ability activates only twice per turn.\nX, Remove X counters among creatures you control: Return target creature with mana value X from your graveyard to the battlefield.",
+		"oracle_text": "Whenever a creature card enters your graveyard from anywhere, put a +1/+1 counter on target creature. Twicebound.\nX, Remove X counters among creatures you control: Return target creature with mana value X from your graveyard to the battlefield.",
 		"power": "1",
 		"toughness": "2"
 	},
@@ -2850,7 +2834,7 @@
 		"colors": [
 			"G"
 		],
-		"oracle_text": "This enters with a haste and trample counter.\nG, Move a counter from this to another creature you control: Regenerate this.",
+		"oracle_text": "This enters with a haste and trample counter.\nG, Move a counter from this to another creature you control: K’Ell Hunter gains indestructible until end of turn.",
 		"power": "5",
 		"toughness": "5"
 	},
@@ -2894,13 +2878,10 @@
 		"type": "Enchantment",
 		"image": "https://sfendell.github.io/malazan-cube/exported_cards/Leech%20from%20the%20Vessel.png",
 		"mana_cost": "{2}{B}",
-		"subtypes": [
-			"Aura"
-		],
 		"colors": [
 			"B"
 		],
-		"oracle_text": "Enchant creature\nAt the beginning of your main phase, you may put a -1/-1 counter on target creature you control. If you do, put X +1/+1 counters on enchanted creature, where X is the number of -1/-1 counters on that creature.\nSacrifice this: Remove all -1/-1 counters from creatures you control."
+		"oracle_text": "At the beginning of your main phase, you may put a -1/-1 counter on target creature you control. If you do, put X +1/+1 counters on target creature, where X is the number of -1/-1 counters on the first creature.\nSacrifice this: Remove all -1/-1 counters from creatures you control."
 	},
 	{
 		"name": "Legana Breed, Final L’Echae Shayn",
@@ -2915,14 +2896,14 @@
 		"colors": [
 			"G"
 		],
-		"oracle_text": "Creatures you control with two or more counters on them  have “G, Pay two life: Regenerate this.”\n2G, Slow: Put a +1/+1 counter on target creature. This costs 1 less for each other Elder Zombie you control.",
+		"oracle_text": "Creatures you control with two or more counters on them  have “G, Pay two life: This gains indestructible until end of turn.”\n2G, Slow: Put a +1/+1 counter on target creature. This costs 1 less for each other Elder Zombie you control.",
 		"power": "4",
 		"toughness": "4"
 	},
 	{
-		"name": "Leoman of the Flails",
+		"name": "Leoman, Skeptical Zealot",
 		"type": "Legendary Creature",
-		"image": "https://sfendell.github.io/malazan-cube/exported_cards/Leoman%20of%20the%20Flails.png",
+		"image": "https://sfendell.github.io/malazan-cube/exported_cards/Leoman%20Skeptical%20Zealot.png",
 		"mana_cost": "{R}{G}",
 		"subtypes": [
 			"Human",
@@ -2935,6 +2916,17 @@
 		"oracle_text": "As an additional cost to play this card, you may behold a God.\nRebels you control get +2/+0, trample and haste.\nThis enters with a Rebel subtype counter if a God was beheld.",
 		"power": "2",
 		"toughness": "2"
+	},
+	{
+		"name": "Leoman’s Betrayal",
+		"type": "Enchantment",
+		"image": "https://sfendell.github.io/malazan-cube/exported_cards/Leomans%20Betrayal.png",
+		"mana_cost": "{2}{B}{R}",
+		"colors": [
+			"B",
+			"R"
+		],
+		"oracle_text": "Sacrifice a creature and X artifacts: Distribute X damage among any number of targets. Repeat this if the sacrificed creature was a Child. Repeat this if the sacrificed creature was a Rebel. Repeat this if the sacrificed creature was an Army. You may choose new targets for each copy."
 	},
 	{
 		"name": "Letheri Debtdriver",
@@ -3096,7 +3088,7 @@
 			"U",
 			"R"
 		],
-		"oracle_text": "You have cunning.\nAt the beginning of your upkeep, scry 1.\nWhenever you place X cards on the bottom of your deck, cook or investigate X times. Then gain control of up to one target spell or artifact with mana value less than or equal to the number of tokens you control. You may choose new targets for the spell.",
+		"oracle_text": "You have cunning.\nAt the beginning of your upkeep, scry 1.\nWhenever you place X cards on the bottom of your library, cook or investigate X times. Then gain control of up to one target spell or artifact with mana value less than or equal to the number of tokens you control. You may choose new targets for the spell.",
 		"power": "1",
 		"toughness": "5"
 	},
@@ -3261,7 +3253,7 @@
 			"U",
 			"R"
 		],
-		"oracle_text": "At the beginning of your upkeep, amass Malazans 1. Then if the total power of all Armies, Sappers and Soldiers you control is greater than your opponents life total, you win the game."
+		"oracle_text": "At the beginning of your upkeep, amass Malazans 1. Then if the total power of all Armies, Sappers, Soldiers and artifacts you control is greater than your opponents life total, you win the game."
 	},
 	{
 		"name": "Mincer, Sapper Captain",
@@ -3387,6 +3379,22 @@
 		"oracle_text": "If an effect would create one or more Cusser tokens under your control, it creates twice as many tokens instead.\n7R, T: Create a Cusser."
 	},
 	{
+		"name": "Munug, Prophet of Chains",
+		"type": "Legendary Creature",
+		"image": "https://sfendell.github.io/malazan-cube/exported_cards/Munug%20Prophet%20of%20Chains.png",
+		"mana_cost": "{1}{U}",
+		"subtypes": [
+			"Human",
+			"Cleric"
+		],
+		"colors": [
+			"U"
+		],
+		"oracle_text": "Whenever you activate or trigger a bound ability, draw a card.\nH/B, Oncebound: Put a -1/-1 counter on target creature. Activate this only if a player lost life this turn.",
+		"power": "2",
+		"toughness": "2"
+	},
+	{
 		"name": "Murillio, Occasional Duelist",
 		"type": "Legendary Creature",
 		"image": "https://sfendell.github.io/malazan-cube/exported_cards/Murillio%20Occasional%20Duelist.png",
@@ -3446,7 +3454,7 @@
 		"colors": [
 			"G"
 		],
-		"oracle_text": "When this enters or attacks, cook, then create a 1/1 red and white Malazan Soldier creature token.\nNefarias’ power and toughness is equal to 1 plus the number of tokens you control.\nCreatures you control have “T: Cook.”\nFoods you control have “R/W, T: Populate.”",
+		"oracle_text": "When this enters or attacks, cook, then create a 1/1 Red and White Malazan Soldier creature token.\nNefarias’ power and toughness are equal to 1 plus the number of tokens you control.\nCreatures you control have “T: Cook.”\nFoods you control have “T: Populate.”",
 		"power": "1+*",
 		"toughness": "1+*"
 	},
@@ -3524,7 +3532,7 @@
 		"colors": [
 			"B"
 		],
-		"oracle_text": "Whenever you place the first card on the bottom of your deck in a turn, target creature gets -1/-1 until end of turn.\nWhenever the fourth card enters your graveyard in a turn, target player loses 3 life and you gain 3 life.\nXB: Place X cards from your graveyard on the bottom of your deck in a random order. Mill X.",
+		"oracle_text": "Whenever you place the first card on the bottom of your library in a turn, target creature gets -1/-1 until end of turn.\nWhenever the fourth card enters your graveyard in a turn, target player loses 3 life and you gain 3 life.\nXB: Place X cards from your graveyard on the bottom of your library in a random order. Mill X.",
 		"power": "4",
 		"toughness": "5"
 	},
@@ -3572,7 +3580,7 @@
 			"R",
 			"G"
 		],
-		"oracle_text": "Whenever you sacrifice a land, draw a card.\nR: This gets first strike until end of turn.\n1G: Regenerate this.\n2B: This gets deathtouch until end of turn.",
+		"oracle_text": "Whenever you sacrifice a land, draw a card.\nR: Onos gains first strike until end of turn.\n1B: Onos gains deathtouch until end of turn.\n2G: Onos gains indestructible until end of turn.",
 		"power": "4",
 		"toughness": "4"
 	},
@@ -3732,7 +3740,7 @@
 		"colors": [
 			"G"
 		],
-		"oracle_text": "When this enters the battlefield, gain 2 life.\nT: Add one mana of any color.",
+		"oracle_text": "When this enters, gain 2 life.\nT: Add one mana of any color.",
 		"power": "0",
 		"toughness": "1"
 	},
@@ -3761,7 +3769,7 @@
 		"type": "Artifact",
 		"image": "https://sfendell.github.io/malazan-cube/exported_cards/Potsherds.png",
 		"mana_cost": "{2}",
-		"oracle_text": "This enters tapped.\nWhen this enters the battlefield, you may pay H. If you don’t, sacrifice it.\nT: Add one mana of any color.\n4, T, Sacrifice this: Draw a card."
+		"oracle_text": "T: Add one mana of any color.\n4, T, Sacrifice this: Draw a card."
 	},
 	{
 		"name": "Pran Chole, Bonecaster Chief",
@@ -3832,9 +3840,9 @@
 		"colors": [
 			"W"
 		],
-		"oracle_text": "Exploit\nThis gets +1/+1 for each Treasure you control.\nWhenever you sacrifice a permanent, gain 1 life. If it was a creature, plunder twice.\nWhenever this is blocked by a creature with power less than it, it gains first strike until end of turn.",
-		"power": "0",
-		"toughness": "1"
+		"oracle_text": "Exploit\nThis gets +1/+1 for each Treasure you control.\nWhenever you sacrifice a permanent, gain 1 life. If it was a creature, plunder twice.\nWhenever Queen Janall is blocked by a creature with power less than her, she gains first strike until end of turn.",
+		"power": "1",
+		"toughness": "2"
 	},
 	{
 		"name": "Quick Ben’s Gambit",
@@ -3852,7 +3860,7 @@
 	},
 	{
 		"name": "Quorl",
-		"type": "Artifact Creature",
+		"type": "Artifact",
 		"image": "https://sfendell.github.io/malazan-cube/exported_cards/Quorl.png",
 		"mana_cost": "{1}{W}",
 		"subtypes": [
@@ -3891,7 +3899,7 @@
 		"subtypes": [
 			"Elder"
 		],
-		"oracle_text": "Slow, 4UBR, T, Sacrifice this: Choose one:\n Gain control of target creature.\n Divide 6 damage among any number of targets.\nTarget opponent discards their hand.\nWhen this goes to your graveyard from play, exile target God."
+		"oracle_text": "T: Add 1 mana of any color.\nSlow, 4UBR, T, Sacrifice this: Choose one:\n Gain control of target creature.\n Divide 6 damage among any number of targets.\nTarget opponent discards their hand.\nWhen this goes to your graveyard from play, exile target God."
 	},
 	{
 		"name": "Rain of Spider Silk",
@@ -3980,12 +3988,31 @@
 		"name": "Read the Deck",
 		"type": "Instant",
 		"image": "https://sfendell.github.io/malazan-cube/exported_cards/Read%20the%20Deck.png",
-		"mana_cost": "{1}{U}{B}",
+		"mana_cost": "{1}{U}{B/R}",
 		"colors": [
 			"U",
-			"B"
+			"B",
+			"R"
 		],
 		"oracle_text": "Choose a card type or subtype. Reveal the top 3 cards of your library, then put all cards that match your choice into your hand and lose that much life.\nFlashback—Sacrifice a creature."
+	},
+	{
+		"name": "Rebel Horse",
+		"type": "Creature",
+		"image": "https://sfendell.github.io/malazan-cube/exported_cards/Rebel%20Horse.png",
+		"mana_cost": "{B}{R}{G}",
+		"subtypes": [
+			"Rebel",
+			"Horse"
+		],
+		"colors": [
+			"B",
+			"R",
+			"G"
+		],
+		"oracle_text": "Riot, deathtouch, trample",
+		"power": "3",
+		"toughness": "3"
 	},
 	{
 		"name": "Recall the Histories",
@@ -3996,7 +4023,7 @@
 			"U",
 			"G"
 		],
-		"oracle_text": "Landstorm (When you cast this, copy this spell for each land that entered the battlefield under your control this turn.)\nReveal the top card of your library. If it’s a creature, put it into your hand. If it’s a land, put it onto the battlefield. Otherwise, put it on the bottom of your deck and create a */* Green Blue Elder Spirit that has “* is equal to the number of Elders you control.”"
+		"oracle_text": "Landstorm (When you cast this, copy this spell for each land that entered the battlefield under your control this turn.)\nReveal the top card of your library. If it’s a creature, put it into your hand. If it’s a land, put it onto the battlefield. Otherwise, put it on the bottom of your library and create a */* Green Blue Elder Spirit that has “* is equal to the number of Elders you control.”"
 	},
 	{
 		"name": "Record the Fallen",
@@ -4034,7 +4061,7 @@
 		"colors": [
 			"R"
 		],
-		"oracle_text": "Each player sacrifices all Warrens and non-land permanents they control, then reveals cards from the top of their library until that many Warrens or non-land permanents are revealed and puts them onto the battlefield. Then each player shuffles their deck."
+		"oracle_text": "Each player sacrifices all Warrens and non-land permanents they control, then reveals cards from the top of their library until that many Warrens or non-land permanents are revealed and puts them onto the battlefield. Then each player shuffles their library."
 	},
 	{
 		"name": "Refugium",
@@ -4096,7 +4123,7 @@
 			"B",
 			"G"
 		],
-		"oracle_text": "Whenever a creature enters under your control, put a +1/+1 counter on all creatures with power or toughness less than it that share two or more creature types with it.\nDiscard or sacrifice a land twice: Return this from the graveyard to the battlefield under your control tapped.",
+		"oracle_text": "Whenever this or another creature enters under your control, put a +1/+1 counter on all creatures with power or toughness less than it that share two or more creature types with it.\nDiscard or sacrifice a land twice: Return this from the graveyard to the battlefield under your control tapped.",
 		"power": "7",
 		"toughness": "3"
 	},
@@ -4250,7 +4277,7 @@
 		"colors": [
 			"B"
 		],
-		"oracle_text": "Flying\nWhenever an Elder Elf dies, put a +1/+1 counter on this.\nPay 3 life, sacrifice a permanent, exile an Elder Elf from your graveyard: Regenerate this. This loses all other types and flying. Put Elder and Elf subtype counters on it.",
+		"oracle_text": "Flying\nWhenever an Elder Elf dies, put a +1/+1 counter on this.\nPay 3 life, sacrifice a permanent, exile an Elder Elf from your graveyard: Scabandari gains indestructible until end of turn, then loses all other types and flying permanently. Put Elder and Elf subtype counters on it.",
 		"power": "3",
 		"toughness": "3"
 	},
@@ -4380,7 +4407,7 @@
 		"colors": [
 			"B"
 		],
-		"oracle_text": "Black instant and sorcery cards you own have mayhem.\nWhenever you sacrifice a Blood token during your turn, you may pay 3 life. If you do, this creature phases in.\nWhenever a creature phases in, target player discards a card.\nB, Discard a card: This creature phases out. Bleed.",
+		"oracle_text": "Black instant and sorcery cards you own have mayhem.\nWhenever you sacrifice a Blood token during your turn, you may pay 3 life. If you do, return Shadowthrone from exile to the battlefield, then target opponent discards a card.\nB, Discard a card: Exile Shadowthrone. Bleed.",
 		"power": "2",
 		"toughness": "1"
 	},
@@ -4483,7 +4510,7 @@
 		"colors": [
 			"R"
 		],
-		"oracle_text": "When this enters, deal 3 damage divided among any number of targets. ​",
+		"oracle_text": "When this enters, deal 3 damage divided among any number of target creatures or players. ​",
 		"layout": "flip",
 		"back": {
 			"name": "Legion of Trake",
@@ -4494,7 +4521,7 @@
 				"Human",
 				"Army"
 			],
-			"oracle_text": "First strike, Haste\nWhenever this attacks, you may exert it. If you do, after this combat, there is an additional combat phase. Oncebound.",
+			"oracle_text": "First strike, Haste\nWhenever this attacks, you may exert it. If you do, untap all other creatures you control. After this combat, there is an additional combat phase. Oncebound.",
 			"power": "6",
 			"toughness": "6"
 		}
@@ -4527,7 +4554,7 @@
 			"W",
 			"B"
 		],
-		"oracle_text": "Silchas enters with a vigilance counter on it.\n3WW, Remove a vigilance counter from Silchas: Put a Dragon subtype counter, a flying counter, and a +1/+1 counter on Silchas.\nRRR, Remove a subtype counter from Silchas: Put a double strike counter and a vigilance counter on Silchas.",
+		"oracle_text": "Silchas enters with a vigilance counter on it.\n3W, Remove a vigilance counter from Silchas: Put a Dragon subtype counter, a flying counter, and a +1/+1 counter on Silchas.\n2R, Remove a subtype counter from Silchas: Put a double strike counter and a vigilance counter on Silchas.",
 		"power": "3",
 		"toughness": "3"
 	},
@@ -4608,7 +4635,7 @@
 		"colors": [
 			"W"
 		],
-		"oracle_text": "Outlast W\n3WW, Remove all counters from this, T: Exile target non-Pure creature with power or toughness less than the number of counters removed. If it is a Child, draw a card.",
+		"oracle_text": "Outlast W\n2W, T, Remove all counters from this: Exile target non-Pure creature with power or toughness less than the number of counters removed. If the creature was a Child, draw a card.",
 		"power": "2",
 		"toughness": "2"
 	},
@@ -4750,6 +4777,22 @@
 		"toughness": "3"
 	},
 	{
+		"name": "Squint",
+		"type": "Legendary Creature",
+		"image": "https://sfendell.github.io/malazan-cube/exported_cards/Squint.png",
+		"mana_cost": "{G}",
+		"subtypes": [
+			"Malazan",
+			"Archer"
+		],
+		"colors": [
+			"G"
+		],
+		"oracle_text": "Reach\nWhenever this blocks a creature with flying, put a deathtouch counter on it.",
+		"power": "1",
+		"toughness": "2"
+	},
+	{
 		"name": "Stake",
 		"type": "Enchantment",
 		"image": "https://sfendell.github.io/malazan-cube/exported_cards/Stake.png",
@@ -4786,7 +4829,7 @@
 			"U",
 			"B"
 		],
-		"oracle_text": "Curiosity, deathtouch\nPay 2 life: Exile the top card of target opponent’s library. For as long as that card remains exiled, you may cast it, and you may spend mana as though it were mana of any color to cast it. Activate only once each turn and only if you’ve drawn three or more cards this turn.",
+		"oracle_text": "Curiosity, deathtouch\nPay 2 life, Oncebound: Exile the top card of target opponent’s library. For as long as that card remains exiled, you may cast it, and you may spend mana as though it were mana of any color to cast it. Activate this only if you’ve drawn three or more cards this turn.",
 		"power": "2",
 		"toughness": "2"
 	},
@@ -4855,7 +4898,7 @@
 		"colors": [
 			"B"
 		],
-		"oracle_text": "As an additional cost to cast this spell, sacrifice a creature.\nKicker U, kicker R\nDestroy target creature.\nIf you paid U, scry 2.\nIf you paid R, impulse. Then if you paid U, you have cunning until end of turn."
+		"oracle_text": "As an additional cost to cast this spell, sacrifice a creature.\nKicker U, kicker R\nDestroy target creature.\nIf you paid U, scry 2.\nIf you paid R, impulse.\nIf you paid UR, you have cunning until end of turn."
 	},
 	{
 		"name": "Tattersail",
@@ -4921,7 +4964,7 @@
 		"colors": [
 			"G"
 		],
-		"oracle_text": "Kicker R, kicker B\nTutor a basic land to your hand.\nIf you paid R, whenever a land enters this turn under your control, deal 2 damage to target creature.\nIf you paid B, whenever an opponent’s creature dies this turn, they lose 2 life. Then if you paid R, you may play an additional land this turn."
+		"oracle_text": "Kicker R, kicker B\nTutor a basic land to your hand.\nIf you paid R, whenever a land enters this turn under your control, deal 2 damage to target creature.\nIf you paid B, whenever an opponent’s creature dies this turn, they lose 2 life.\nIf you paid BR, you may play an additional land this turn."
 	},
 	{
 		"name": "Telorast and Curdle",
@@ -4992,7 +5035,7 @@
 			"Alien",
 			"God"
 		],
-		"oracle_text": "The Chained God may only be cast from exile.\nExile a God or two Elders you control: Exile this from your hand.\nIndestructible\nTap an untapped creature you control, Q: Put a -1/-1 counter on two target creatures.\nWhen this is exiled from the battlefield, you win the game.",
+		"oracle_text": "The Chained God may only be cast from exile.\nExile a God or two Elders you control: Exile this from your hand.\nIndestructible\nTap another untapped creature you control, Q: Put a -1/-1 counter on each of up to two target creatures.\nWhen this is exiled from the battlefield, you win the game.",
 		"power": "2",
 		"toughness": "1"
 	},
@@ -5048,7 +5091,7 @@
 		"colors": [
 			"G"
 		],
-		"oracle_text": "Protection from Children, Humans, and Malazans\nCreatures you control have trample and vigilance.\nT, Tap an untapped Human or Malazan you control: Create a 1/1 White Human Child creature token, then populate.",
+		"oracle_text": "Protection from Children, Humans, and Malazans\nCreatures you control have trample and vigilance.\nT, Tap an untapped Human or Malazan you control: Create a 1/1 white Human Child creature token, then populate.",
 		"power": "5",
 		"toughness": "5"
 	},
@@ -5080,7 +5123,7 @@
 		"colors": [
 			"B"
 		],
-		"oracle_text": "Lifelink\nIf The Hounds would die, it instead phases out.\n5BB, Sacrifice a Warren: This phases in.",
+		"oracle_text": "Lifelink\nIf The Hounds would die, instead exile it.\n5BB, Sacrifice a Warren: Return The Hounds from exile to the battlefield.",
 		"power": "7",
 		"toughness": "7"
 	},
@@ -5096,7 +5139,7 @@
 			"U",
 			"R"
 		],
-		"oracle_text": "Whenever you scry, if you leave more cards on top, put a Pull counter on this. Otherwise, put a Push counter on this.\nIf there are more Push counters than Pull counters on this, creatures you control get +X/+0, where X is the difference. Otherwise, creatures you don’t control get -X/-0.\nAt the end of your turn, if this has less than four counters on it, flip a coin. If you lose the flip, target opponent gains control of this.",
+		"oracle_text": "Whenever you scry, if you leave more cards on top of your library than the bottom, put a Pull counter on this. Otherwise, put a Push counter on this.\nIf there are more Push counters than Pull counters on this, creatures you control get +X/+0, where X is the difference. Otherwise, creatures you don’t control get -X/-0.\nAt the end of your turn, if you didn’t scry, target opponent gains control of this.",
 		"power": "4",
 		"toughness": "4"
 	},
@@ -5112,7 +5155,7 @@
 			"W",
 			"B"
 		],
-		"oracle_text": "Whenever a creature you control dies, plunder.\nW/B, Sacrifice three Treasure tokens: Draw a card.\nW/B, Sacrifice seven Treasure tokens: Tutor a card to your hand."
+		"oracle_text": "Whenever this or a creature you control enters the battlefield or graveyard, plunder. \nW/B, Sacrifice three Treasure tokens: Draw a card.\nW/B, Sacrifice seven Treasure tokens: Tutor a card to your hand."
 	},
 	{
 		"name": "The Mhybe",
@@ -5253,7 +5296,7 @@
 			"U",
 			"R"
 		],
-		"oracle_text": "Reach\nWhenever this enters, scry 2. \nWhenever you put a card on the bottom of  your deck, deal 1 damage to target player.\nWhenever this dies, exile it. It gains suspend. Put two time counters on it.",
+		"oracle_text": "Reach\nWhenever this enters, scry 2. \nWhenever you put a card on the bottom of  your library, deal 1 damage to target player.\nWhenever this dies, exile it. It gains suspend. Put two time counters on it.",
 		"power": "3",
 		"toughness": "1"
 	},
@@ -5291,7 +5334,7 @@
 		"colors": [
 			"B"
 		],
-		"oracle_text": "Deathtouch, exploit\nWhenever any creature exploits, destroy target creature.\n6U: Exile this. Return it to the battlefield at the end of the turn. This ability costs 1 less for each Warren you control.",
+		"oracle_text": "Deathtouch, exploit\nWhenever any creature you control exploits, destroy target creature.\n6U: Exile this. Return it to the battlefield at the end of the turn. This ability costs 1 less for each Warren you control.",
 		"power": "1",
 		"toughness": "1"
 	},
@@ -5362,7 +5405,7 @@
 		"colors": [
 			"W"
 		],
-		"oracle_text": "Enchant creature card in your graveyard\nWhen this enters, exile target creature until this leaves the battlefield.\n1, Sacrifice this Gain 2 life for each card in exile, then put all exiled cards in their owner’s graveyard. Activate this only if enchanted creature is a Dragon."
+		"oracle_text": "Enchant creature card in your graveyard\nWhen this enters, exile target creature until this leaves the battlefield.\n1: Gain 2 life for each card in exile, then put all exiled cards in their owner’s graveyard. Activate this only if enchanted creature is a Dragon."
 	},
 	{
 		"name": "Traverse Starvald Demelain",
@@ -5438,7 +5481,7 @@
 		"name": "T’iam",
 		"type": "Legendary Creature",
 		"image": "https://sfendell.github.io/malazan-cube/exported_cards/Tiam.png",
-		"mana_cost": "{4}{B}{R}",
+		"mana_cost": "{3}{B}{R}",
 		"subtypes": [
 			"Elder",
 			"Dragon",
@@ -5448,7 +5491,7 @@
 			"B",
 			"R"
 		],
-		"oracle_text": "Flying\nThis has the abilities of all Dragons you control.\nT, Sacrifice a creature you control, put a -1/-1 counter on this: Create a 4/4 red Dragon creature token with flying.",
+		"oracle_text": "Flying\nWhenever this or a Dragon you control enters or attacks, deal 1 damage to any target.\nT, Sacrifice a creature you control, put a -1/-1 counter on this: Create a 4/4 red Dragon creature token with flying.",
 		"power": "5",
 		"toughness": "5"
 	},
@@ -5481,7 +5524,7 @@
 		"colors": [
 			"G"
 		],
-		"oracle_text": "Other Elder Zombies you control get +1/+1.\nWhen this enters the battlefield, you may sacrifice a land. If you do, draw two cards.",
+		"oracle_text": "Other Elder Zombies you control get +1/+1.\nWhen this enters, you may sacrifice a land. If you do, draw two cards.",
 		"power": "2",
 		"toughness": "2"
 	},
@@ -5525,7 +5568,7 @@
 		"colors": [
 			"G"
 		],
-		"oracle_text": "This gets +X/+X, where X is the number of lands in your graveyard.\nWhenever a land is put in your graveyard from somewhere other than the battlefield, put a trample counter on target creature.\nG, Exile a land from your graveyard: Regenerate this.",
+		"oracle_text": "This gets +X/+X, where X is the number of lands in your graveyard.\nWhenever a land is put in your graveyard from anywhere, put a trample counter on target creature.\nG, Exile a land from your graveyard: Put a +1/+1 counter on target creature.",
 		"power": "2",
 		"toughness": "2"
 	},
@@ -5556,7 +5599,7 @@
 		"colors": [
 			"U"
 		],
-		"oracle_text": "Whenever this enters or a card enters your graveyard from your deck, manifest the top card of your deck. Twicebound.\nU, Exile a card from your graveyard, reveal a facedown card you control and return it to your hand: If the revealed card and exiled card share a card type, return target creature to its owner’s hand.",
+		"oracle_text": "Whenever this enters or a card enters your graveyard from your library, manifest the top card of your library. Twicebound.\nU, Exile a card from your graveyard, reveal a facedown card you control and return it to your hand: If the revealed card and exiled card share a card type, return target creature to its owner’s hand.",
 		"power": "1",
 		"toughness": "3"
 	},
@@ -5606,7 +5649,7 @@
 		"colors": [
 			"G"
 		],
-		"oracle_text": "Trample\nT: Add R, G or U.\nWhenever a creature that shares a creature type with this enters the battlefield under your control, put a +1/+1 counter on this.",
+		"oracle_text": "Trample\nT: Add R, G or U.\nWhenever a creature that shares a creature type with this enters under your control, put a +1/+1 counter on this.",
 		"power": "1",
 		"toughness": "1"
 	},
@@ -5631,7 +5674,7 @@
 			"Elf",
 			"Equipment"
 		],
-		"oracle_text": "Equipped creature gets +3/+3.\nSacrifice equipped creature: Transform this. Active this only if equipped creature dealt damage to a player this turn.\nEquip 3",
+		"oracle_text": "Equipped creature gets +3/+3.\nSacrifice equipped creature: Transform this. Active this only if equipped creature dealt damage to a player this turn.\nEquip 2",
 		"layout": "flip",
 		"back": {
 			"name": "Grief",
@@ -5643,7 +5686,7 @@
 				"Elf",
 				"Equipment"
 			],
-			"oracle_text": "Equipped creature gets +6/+0 and has indestructible.\nEquip 4"
+			"oracle_text": "Equipped creature gets +6/+0 and has indestructible.\nEquip 1"
 		}
 	},
 	{
@@ -5743,7 +5786,7 @@
 			"W",
 			"R"
 		],
-		"oracle_text": "Whenever a Malazan you control attacks, deal 1 damage to any target. If it’s an army, deal X damage instead, where X is its power.\nWhenever a non-Army Malazan enters under your control, amass Malazans 1.\nAt the end of your turn, if a Sapper and an Army attacked and died this turn, this ascends.",
+		"oracle_text": "Whenever this or a Malazan you control attacks, deal 1 damage to any target. If it’s an army, deal X damage instead, where X is its power.\nWhenever this or a non-Army Malazan enters under your control, amass Malazans 1.\nAt the end of your turn, if a Sapper and an Army attacked and died this turn, this ascends.",
 		"power": "3",
 		"toughness": "3"
 	},
@@ -5816,7 +5859,7 @@
 			"W",
 			"U"
 		],
-		"oracle_text": "Equipment you control has Equip 0.\nWhenever an equipped creature you control attacks, scry 1.\nWhenever an equipped creature you control deals damage to a player, it ascends. This triggers only once per game.",
+		"oracle_text": "Equipment you control have Equip 0.\nWhenever an equipped creature you control attacks, scry 1.\nWhenever an equipped creature you control deals damage to a player, it ascends. This triggers only once per game.",
 		"power": "3",
 		"toughness": "3"
 	},
@@ -5890,7 +5933,6 @@ Anaster, First Child of the Dead Seed
 Ancestral Vengeance
 Andii Funeral
 Anomander Rake
-Antigravity
 Apocalyptic Reveler
 Apsalar
 Aptorian
@@ -6018,8 +6060,8 @@ Gas Explosion
 Gedderone Fete
 Gothos, Author of Folly
 Gothos’ Folly
-Gral Horse
 Grand Conspiracy
+Gravitic Reversal
 Grey Helms’ Final Charge
 Greyfrog
 Grub, Peculiar Host
@@ -6085,7 +6127,8 @@ K’rul, Dream Sculptor
 Lady Envy
 Leech from the Vessel
 Legana Breed, Final L’Echae Shayn
-Leoman of the Flails
+Leoman, Skeptical Zealot
+Leoman’s Betrayal
 Letheri Debtdriver
 Letheri Trader
 Letherii Ascendancy
@@ -6118,6 +6161,7 @@ Moranth Bombadier
 Moranth Ingenuity
 Mott Irregulars
 Munitions Stockpile
+Munug, Prophet of Chains
 Murillio, Occasional Duelist
 Nah’ruk Splicer
 Nameless One
@@ -6161,6 +6205,7 @@ Rant Bloodcurse
 Raraku
 Rat Catcher’s Guild
 Read the Deck
+Rebel Horse
 Recall the Histories
 Record the Fallen
 Redmask, Awl Vindicator
@@ -6213,6 +6258,7 @@ Sorrit, Pureblood Eleint
 Soul Shatter
 Spinnock Durav
 Squad Mage
+Squint
 Stake
 Starvald Demelain
 Stillwater
