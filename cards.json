@@ -1572,7 +1572,7 @@
     "img": "Improvising Sapper.png",
     "colors": "R",
     "typeLine": "Creature - Malazan Sapper",
-    "text": "Artifact tokens you control are Cussers in addition to their other types (They get the associated ability.)\nWhenever a Malazan you control dies, plunder.",
+    "text": "Artifact tokens you control are Cussers in addition to their other types (They get the associated ability.)\nWhenever this or another Malazan you control dies, plunder.",
     "manaValue": 1
   },
   {
