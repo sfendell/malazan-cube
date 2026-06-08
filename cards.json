@@ -652,7 +652,7 @@
     "img": "Combat Engineering.png",
     "colors": "R",
     "typeLine": "Enchantment",
-    "text": "Whenever you sacrifice a land, create a 1/1 Malazan Sapper creature token.\n1R, Sacrifice a nontoken permanent: Deal 2 damage to any target.",
+    "text": "Whenever you sacrifice a land, create a 1/1 red and white Malazan Sapper creature token.\n1R, Sacrifice a nontoken permanent: Deal 2 damage to any target.",
     "manaValue": 1
   },
   {
@@ -2140,7 +2140,7 @@
     "img": "Mincer Sapper Captain.png",
     "colors": "R",
     "typeLine": "Legendary Creature - Malazan Sapper",
-    "text": "When this enters, create either a 1/1 red and white Malazan Sapper Creature or a Cusser.\nTwicebound, R, Tap an untapped Sapper you control and sacrifice a Cusser you control: Deal three damage to any target.",
+    "text": "When this enters, create either a 1/1 red and white Malazan Sapper creature token or a Cusser.\nTwicebound, R, Tap an untapped Sapper you control and sacrifice a Cusser you control: Deal three damage to any target.",
     "manaValue": 4
   },
   {
