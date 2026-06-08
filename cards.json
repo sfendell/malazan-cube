@@ -756,7 +756,7 @@
     "img": "Cusser.png",
     "colors": "",
     "typeLine": "Token Artifact",
-    "text": "Tap an untapped creature you control, Sacrifice this, Kicker R: Deal 1 to any target. If you paid the kicker cost, instead deal 2 damage to any target.",
+    "text": "Tap an untapped creature you control, Sacrifice this, R: Deal 1 to any target. If the tapped creature was a Malazan, deal 2 damage instead.",
     "manaValue": 0
   },
   {
@@ -2140,7 +2140,7 @@
     "img": "Mincer Sapper Captain.png",
     "colors": "R",
     "typeLine": "Legendary Creature - Malazan Sapper",
-    "text": "When this enters, create a 1/1 red Malazan Sapper Creature and a Cusser.\nR, Tap an untapped Sapper you control and sacrifice an artifact you control: Deal three damage to any target.",
+    "text": "When this enters, create either a 1/1 red and white Malazan Sapper Creature or a Cusser.\nTwicebound, R, Tap an untapped Sapper you control and sacrifice a Cusser you control: Deal three damage to any target.",
     "manaValue": 4
   },
   {
@@ -3076,7 +3076,7 @@
     "img": "Sister Spite.png",
     "colors": "B",
     "typeLine": "Legendary Creature - Elder Elf Warlock",
-    "text": "Deathtouch\nSlow, 2B: Return Sister Spite from the graveyard to the battlefield tapped.",
+    "text": "Deathtouch\nSlow, 2B, pay three life: Return Sister Spite from the graveyard to the battlefield tapped.",
     "manaValue": 2
   },
   {
