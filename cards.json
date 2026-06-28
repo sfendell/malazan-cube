@@ -300,7 +300,7 @@
     "img": "Biological Optimization.png",
     "colors": "G",
     "typeLine": "Kindred Enchantment - Alien Dinosaur",
-    "text": "If one or more counters would be placed on a creature you control, that many plus one counters are placed on it instead.\nOther Alien Dinosaurs you control have “T: Add U or G to your mana pool.”",
+    "text": "If one or more counters would be placed on a creature you control, that many plus one counters are placed on it instead.\nOther Alien Dinosaurs you control have “T: Add U or G.”",
     "manaValue": 1
   },
   {
@@ -964,7 +964,7 @@
     "img": "Dujek Onearm.png",
     "colors": "W",
     "typeLine": "Legendary Creature - Malazan Soldier",
-    "text": "Vigilance\nWhenever you gain life, return target creature with power less than Dujek Onearm from your graveyard to the battlefield.\nWhenever a creature with power greater than Dujek enters, gain 1 life and amass Malazans 1.",
+    "text": "Vigilance\nWhenever you gain life, return target creature with power less than or equal to Dujek Onearm from your graveyard to the battlefield.\nWhenever a creature with power greater than Dujek enters, gain 1 life and amass Malazans 1.",
     "manaValue": 4
   },
   {
@@ -1028,7 +1028,7 @@
     "img": "Empress Laseen.png",
     "colors": "UBR",
     "typeLine": "Legendary Creature - Malazan Noble",
-    "text": "Hexproof\nAt the end of each of your turns, put a grasp counter on Empress Laseen. Then gain control of target permanent with mana value less than the number of grasp counters on her for as long as you control her.\nSacrifice 10 permanents you control but don’t own: You win the game.",
+    "text": "Ward X, where X is the number of permanents you control but do not own\nAt the end of each of your turns, put a grasp counter on Empress Laseen. Then gain control of target nonland permanent with mana value less than the number of grasp counters on her for as long as you control her.\nSacrifice a nontoken permanent: Put a grasp counter on Empress Laseen.",
     "manaValue": 5
   },
   {
@@ -1410,7 +1410,7 @@
   {
     "name": "Hedge",
     "img": "Hedge.png",
-    "colors": "R",
+    "colors": "WR",
     "typeLine": "Legendary Creature - Malazan Sapper",
     "text": "When this enters, create a Cusser.\nAfterlife 1",
     "manaValue": 2
@@ -1460,7 +1460,7 @@
     "img": "House of the Azath.png",
     "colors": "",
     "typeLine": "Artifact",
-    "text": "Indestructible\n3, T: Exile target creature with power, toughness, or mana value greater than three for as long as this is on the battlefield.\nAt the beginning of your upkeep, you may pay H for each card exiled with House of the Azath. If you don’t, sacrifice it.",
+    "text": "3, Slow, T: Exile target creature with power, toughness, or mana value greater than three for as long as this is on the battlefield.\nAt the beginning of your upkeep, you may pay HH for each card exiled with House of the Azath. If you don’t, sacrifice it.",
     "manaValue": 3
   },
   {
@@ -3044,7 +3044,7 @@
     "img": "Silverfox Melded Bonecaster.png",
     "colors": "BRG",
     "typeLine": "Legendary Creature - Elder Zombie Giant Malazan God Wizard",
-    "text": "Creatures you control that share two or more creature types with Silverfox get +1/+1 and have “Whenever this dies, you may return it to the battlefield tapped under your control. If you do, lose 3 life.”",
+    "text": "Other creatures you control that share two or more creature types with Silverfox get +1/+1 and have “Whenever this dies, you may return it to the battlefield tapped under your control. If you do, lose 3 life.”",
     "manaValue": 3
   },
   {
@@ -3180,7 +3180,7 @@
     "img": "Stolen Table.png",
     "colors": "G",
     "typeLine": "Legendary Kindred Artifact - Elder",
-    "text": "T, Tap an untapped creature you control: Tutor a Warren to the battlefield that shares a color in its identity with the tapped creature.\nWhenever a Warren enters under your control, create a 2/2 green Wolf creature token. It fights target creature you don’t control.",
+    "text": "T, Tap an untapped creature you control: Tutor a Warren to the battlefield that shares a color in its identity with the tapped creature.\nWhenever a Warren enters under your control, create a 3/3 green Beast creature token. It deals damage equal to its power to up to one target creature.",
     "manaValue": 4
   },
   {
@@ -3316,7 +3316,7 @@
     "img": "The Drum.png",
     "colors": "",
     "typeLine": "Legendary Kindred Artifact - Sapper",
-    "text": "Landfall — Create a Cusser token.\nWhenever a Cusser you control deals damage to a creature, deal X damage to that creature, where X is the number of detonation counters on this. Then put a detonation counter on this.\nWhen the eighth detonation counter is placed on this, sacrifice it, then deal 8 damage to each creature and 8 damage to you.",
+    "text": "Landfall — Create a Cusser token.\nWhenever a Cusser you control deals damage to a creature, deal X damage to that creature, where X is the number of detonation counters on this. Then put a detonation counter on this.\nWhen the eighth detonation counter is placed The Drum deals 8 damage to each creature and 8 damage to you, then sacrifice it.",
     "manaValue": 5
   },
   {
