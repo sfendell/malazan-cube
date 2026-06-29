@@ -516,7 +516,7 @@
     "img": "Call for Reinforcements.png",
     "colors": "WR",
     "typeLine": "Instant",
-    "text": "Choose two:\nCreate a 1/1 red and white Malazan Sapper creature token. Gain 2 life.\nCreate a Cusser.\nImpulse 1.\nPut a +1/+1 counter on target creature.",
+    "text": "Choose two:\nCreate a 1/1 red and white Malazan Sapper creature token. Gain 2 life.\nCreate a Cusser.\nImpulse 2.\nPut a +1/+1 counter on target creature.",
     "manaValue": 3
   },
   {
@@ -3044,7 +3044,7 @@
     "img": "Silverfox Melded Bonecaster.png",
     "colors": "BRG",
     "typeLine": "Legendary Creature - Elder Zombie Giant Malazan God Wizard",
-    "text": "Other creatures you control that share two or more creature types with Silverfox get +1/+1 and have “Whenever this dies, you may return it to the battlefield tapped under your control. If you do, lose 3 life.”",
+    "text": "Other creatures you control that share two or more creature types with Silverfox get +1/+1 and have “Whenever this dies, you may return it to the battlefield tapped under your control with a finality counter. If you do, lose 1 life.”",
     "manaValue": 3
   },
   {
