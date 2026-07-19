@@ -619,17 +619,23 @@
         gallery.innerHTML = '';
         noResults.style.display = 'none';
 
-        var flipKeysNorm = new Set();
-        var flipValuesNorm = new Set();
+        // Flip backs stay out of the draft pool. Mutual pairs (A↔B) keep only one front.
+        var undraftableNamesNorm = new Set();
         if (flipMap && typeof flipMap === 'object') {
-          Object.keys(flipMap).forEach(function (k) { flipKeysNorm.add(normalizeNameForMatch(k)); });
-          Object.values(flipMap).forEach(function (v) { flipValuesNorm.add(normalizeNameForMatch(v)); });
+          var seenPairs = {};
+          Object.keys(flipMap).forEach(function (front) {
+            var back = flipMap[front];
+            if (back == null) return;
+            var frontNorm = normalizeNameForMatch(front);
+            var backNorm = normalizeNameForMatch(back);
+            if (flipMap[back] != null && normalizeNameForMatch(flipMap[back]) === frontNorm) {
+              var pairKey = [frontNorm, backNorm].sort().join('\0');
+              if (seenPairs[pairKey]) return;
+              seenPairs[pairKey] = true;
+            }
+            undraftableNamesNorm.add(backNorm);
+          });
         }
-        var backOnlyNorm = new Set();
-        flipValuesNorm.forEach(function (vNorm) {
-          if (!flipKeysNorm.has(vNorm)) backOnlyNorm.add(vNorm);
-        });
-        var undraftableNamesNorm = new Set(backOnlyNorm);
         DECK_OF_DRAGONS_NAMES.forEach(function (n) { undraftableNamesNorm.add(normalizeNameForMatch(n)); });
         QUICK_BENS_SOULS_NAMES.forEach(function (n) { undraftableNamesNorm.add(normalizeNameForMatch(n)); });
 
